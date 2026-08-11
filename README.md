@@ -1,6 +1,6 @@
 # BNB Accelerator Site
 
-Static marketing site for **My BnB Accelerator, LLC** -- done-for-you short-term rental acquisition for high-income earners.
+Static marketing site for **My BnB Accelerator, LLC**, done-for-you short-term rental acquisition for high-income earners.
 
 Built as plain HTML/CSS/JS with no build step. Deploys to Vercel as-is.
 
@@ -61,7 +61,7 @@ The FAQ page carries a full 32-question `FAQPage` block. Blog posts each carry `
 
 ## Deploying to Vercel
 
-No build configuration needed. Import the repo and deploy -- Vercel serves it as a static site.
+No build configuration needed. Import the repo and deploy, Vercel serves it as a static site.
 
 ```
 Framework Preset:  Other
@@ -74,7 +74,7 @@ Output Directory:  (leave empty / root)
 ## Before going live
 
 - [ ] Point `mybnbaccelerator.com` at the Vercel deployment
-- [ ] Wire the `/apply/` form to a real endpoint (GoHighLevel, Formspree, or a Vercel serverless function). Currently `assets/main.js` stores the submission in `sessionStorage` and shows a confirmation -- it does **not** transmit anywhere.
+- [ ] Wire the `/apply/` form to a real endpoint (GoHighLevel, Formspree, or a Vercel serverless function). Currently `assets/main.js` stores the submission in `sessionStorage` and shows a confirmation, it does **not** transmit anywhere.
 - [ ] Replace the AE Tax booking iframe URL in `/tax-strategy/` with the live calendar embed
 - [ ] Replace the three video placeholders in `/testimonials/` with real embed URLs
 - [ ] Confirm the Trustpilot profile URL in `/testimonials/`
