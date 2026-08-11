@@ -1310,3 +1310,15 @@ table.compare th[scope="row"] { font-weight: 600; color: var(--text); }
   color: transparent;
   margin-bottom: 12px;
 }
+
+/* Blog index section headings */
+.section-heading {
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--navy, #1B2541);
+  margin: 54px 0 22px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(27,37,65,0.12);
+}
+.section-heading:first-of-type { margin-top: 0; }
