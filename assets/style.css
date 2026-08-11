@@ -1322,3 +1322,256 @@ table.compare th[scope="row"] { font-weight: 600; color: var(--text); }
   border-bottom: 1px solid rgba(27,37,65,0.12);
 }
 .section-heading:first-of-type { margin-top: 0; }
+
+/* =====================================================================
+   Clean blog layout
+   Scoped to body.blog. Text-only: no imagery, no cards, no gradients.
+   ===================================================================== */
+
+/* Header sits solid on every blog page, so nothing relies on a dark hero. */
+body.blog { background: var(--white); }
+
+/* ------------------------------------------------------ Article header */
+body.blog .hero,
+body.blog .hero.hero-page {
+  background: var(--white);
+  color: var(--text);
+  padding: calc(var(--header-h) + 64px) 0 0;
+  overflow: visible;
+}
+body.blog .hero::before,
+body.blog .hero::after { display: none; content: none; }
+
+body.blog .hero-inner { max-width: 720px; margin: 0 auto; }
+body.blog .hero .wrap > .breadcrumb { max-width: 720px; margin-left: auto; margin-right: auto; }
+
+body.blog .breadcrumb { color: var(--text-light); margin-bottom: 30px; }
+body.blog .breadcrumb a { color: var(--text-muted); }
+body.blog .breadcrumb a:hover { color: var(--primary); }
+
+body.blog .hero .eyebrow {
+  color: var(--text-light);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 16px;
+}
+body.blog .hero h1 {
+  color: var(--dark, #101425);
+  max-width: 22ch;
+  font-size: clamp(2rem, 4.4vw, 2.9rem);
+  line-height: 1.13;
+  letter-spacing: -0.03em;
+}
+body.blog .hero-sub { color: var(--text-muted); max-width: 62ch; }
+
+body.blog .article-meta {
+  color: var(--text-light);
+  font-size: 0.86rem;
+  margin-top: 22px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Tighten the space between the title block and the opening paragraph. */
+body.blog main > section:first-of-type + section { padding-top: 44px; }
+body.blog main > section:first-of-type + section > .wrap { padding-top: 0; }
+
+/* --------------------------------------------------------- Article body */
+body.blog .article {
+  max-width: 720px;
+  font-size: 1.075rem;
+  line-height: 1.78;
+}
+body.blog .article h2 {
+  margin-top: 2.7em;
+  margin-bottom: 0.7em;
+  font-size: clamp(1.4rem, 2.5vw, 1.68rem);
+  letter-spacing: -0.02em;
+}
+body.blog .article h3 { margin-top: 2em; margin-bottom: 0.55em; font-size: 1.14rem; }
+body.blog .article ul,
+body.blog .article ol { margin: 1.5em 0; padding-left: 1.25em; }
+body.blog .article li { margin-bottom: 0.6em; }
+body.blog .article .lead { font-size: 1.19rem; line-height: 1.68; color: var(--text); }
+
+/* Callouts become quiet side notes rather than tinted boxes. */
+body.blog .article .callout,
+body.blog .article .callout.warn,
+body.blog .article .callout.green {
+  background: none;
+  border: 0;
+  border-left: 2px solid var(--border);
+  border-radius: 0;
+  padding: 2px 0 2px 26px;
+  margin: 38px 0;
+}
+body.blog .article .callout h4 {
+  font-size: 0.94rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--text);
+  margin-bottom: 9px;
+}
+body.blog .article .callout p,
+body.blog .article .callout li { color: var(--text-muted); font-size: 0.98rem; }
+body.blog .article .callout ul,
+body.blog .article .callout ol { margin: 0.6em 0 0; }
+body.blog .article .callout.warn p { font-size: 0.9rem; }
+
+/* Contents list */
+body.blog .article .toc {
+  background: none;
+  border: 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  padding: 22px 0;
+  margin-bottom: 48px;
+}
+
+/* Inline call to action: rules instead of a panel. */
+body.blog .article .inline-cta {
+  background: none;
+  border: 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  padding: 32px 0;
+  margin: 52px 0;
+  text-align: left;
+}
+body.blog .article .inline-cta h3 { margin-top: 0; margin-bottom: 9px; font-size: 1.14rem; }
+body.blog .article .inline-cta p { margin-bottom: 20px; font-size: 0.99rem; }
+body.blog .article .inline-cta .btn-lg { padding: 13px 26px; font-size: 0.96rem; }
+
+/* Market figures read as a plain data row. */
+body.blog .article .metrics {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 18px 0;
+  margin: 30px 0 34px;
+  gap: 24px;
+}
+body.blog .article .metric { text-align: left; }
+body.blog .article .metric-val { font-size: 1.12rem; }
+body.blog .article .metric-val.green { color: var(--dark, #101425); }
+
+/* Comparison tables keep their structure and lose the fills. */
+body.blog .article .table-scroll {
+  background: none;
+  border: 0;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+}
+body.blog .article table.compare thead th,
+body.blog .article table.compare thead th.us,
+body.blog .article table.compare td.us { background: none; }
+body.blog .article table.compare thead th.us { color: var(--text-muted); }
+body.blog .article table.compare th,
+body.blog .article table.compare td { padding: 15px 22px 15px 0; }
+body.blog .article table.compare tbody tr:hover { background: none; }
+body.blog .article .yes::before,
+body.blog .article .no::before,
+body.blog .article .partial::before { background: var(--text-light); }
+body.blog .article .yes,
+body.blog .article .no,
+body.blog .article .partial { color: var(--text); }
+
+/* FAQ block */
+body.blog .article .faq-group {
+  margin: 0;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+}
+body.blog .article h2 + .faq-group { border-top: 1px solid var(--border); }
+body.blog .article .faq-group h3 { margin: 0 0 9px; font-size: 1.04rem; }
+body.blog .article .faq-answer { padding: 0; }
+body.blog .article .faq-answer p { margin: 0; color: var(--text-muted); font-size: 0.99rem; }
+
+/* Publisher note */
+body.blog .article .author-box {
+  display: block;
+  background: none;
+  border: 0;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  padding: 28px 0 0;
+  margin-top: 60px;
+}
+body.blog .article .author-box h4 { font-size: 0.98rem; }
+body.blog .article .author-box p { font-size: 0.94rem; }
+
+/* -------------------------------------------------------- Closing CTA */
+body.blog .cta-band {
+  background: var(--bg);
+  color: var(--text);
+  padding: 68px 0;
+  border-top: 1px solid var(--border);
+  margin-top: 72px;
+}
+body.blog .cta-band::before,
+body.blog .cta-band::after { display: none; content: none; }
+body.blog .cta-band h2 {
+  color: var(--dark, #101425);
+  font-size: clamp(1.45rem, 3vw, 1.9rem);
+  letter-spacing: -0.02em;
+}
+body.blog .cta-band p {
+  color: var(--text-muted);
+  max-width: 58ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+body.blog .cta-band .btn-lg { padding: 14px 28px; font-size: 0.98rem; }
+body.blog .cta-band .btn-ghost-light {
+  background: none;
+  color: var(--text-muted);
+  border-color: var(--border);
+  backdrop-filter: none;
+}
+body.blog .cta-band .btn-ghost-light:hover {
+  background: none;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+/* ------------------------------------------------------- Blog index */
+body.blog .post-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 56px;
+}
+@media (max-width: 720px) { body.blog .post-grid { grid-template-columns: 1fr; } }
+
+body.blog .post-card {
+  background: none;
+  border: 0;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  overflow: visible;
+}
+body.blog .post-card:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--border);
+}
+body.blog .post-thumb { display: none; }
+body.blog .post-body { padding: 22px 0 26px; }
+body.blog .post-meta { font-size: 0.72rem; letter-spacing: 0.12em; margin-bottom: 10px; }
+body.blog .post-body h3 { font-size: 1.09rem; line-height: 1.38; margin-bottom: 9px; }
+body.blog .post-body p { font-size: 0.95rem; color: var(--text-muted); }
+body.blog .post-link { font-size: 0.85rem; }
+
+body.blog .section-heading {
+  margin: 64px 0 4px;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+}
+body.blog .section-heading:first-of-type { margin-top: 8px; }
+
+/* Blog content is static text: show it immediately, no scroll animation. */
+body.blog [data-reveal] {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}

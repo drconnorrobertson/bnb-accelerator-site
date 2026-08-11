@@ -110,10 +110,10 @@
 }
 </script>
 </head>
-<body>
+<body class="blog">
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header" data-start="transparent">
+<header class="site-header">
   <div class="wrap">
     <a class="logo" href="/">
       <span class="logo-mark">BA</span>
@@ -214,8 +214,21 @@
 
         <p>And none of it rescues a property bought in the wrong submarket at the wrong price. That decision is made once, at acquisition, and everything downstream is optimization around it. <a href="/markets/">See the revenue-to-price ratios we underwrite against.</a></p>
 
+        <h2 id="faq">Frequently asked questions</h2>
+          <div class="faq-group">
+            <h3>Is Airbnb Smart Pricing good enough?</h3>
+            <div class="faq-answer"><p>Generally no, if revenue matters to you. Airbnb's built-in Smart Pricing optimizes for booking probability, which biases it toward lower nightly rates, and it only sees Airbnb demand rather than the whole market. Third-party tools price against broader market data and let you control the floor, the minimum stay strategy, and the discount curve. Most serious operators use a dedicated tool and reserve Smart Pricing for filling genuinely dead inventory.</p></div>
+          </div>
+          <div class="faq-group">
+            <h3>How much does dynamic pricing software cost?</h3>
+            <div class="faq-answer"><p>Most tools charge roughly $20 to $30 per listing per month, or around 1% of booking revenue depending on the plan. Against a property grossing $8,000 to $16,000 a month, that is a rounding error relative to the revenue impact, which is commonly in the range of 10% to 20% versus a static calendar. The cost is not the deciding factor; the quality of your settings is.</p></div>
+          </div>
+          <div class="faq-group">
+            <h3>What is the most important dynamic pricing setting?</h3>
+            <div class="faq-answer"><p>The minimum price floor, closely followed by the minimum stay strategy. A floor set too low lets the algorithm dump inventory in the shoulder season and drags your future pricing anchor down. A floor set too high leaves you empty. Set the floor from your actual carrying cost plus turnover cost, then use orphan-gap rules and last-minute discounts to fill rather than lowering the floor.</p></div>
+          </div>
+
         <div class="author-box">
-          <span class="avatar">BA</span>
           <div>
             <h4>My BnB Accelerator, LLC</h4>
             <p>We find, negotiate, and close the property, then hand you an operating short-term rental. <a href="/how-it-works/">See the five-stage process.</a></p>
