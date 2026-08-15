@@ -83,6 +83,32 @@ page's `<link>`/`<script>` to a content-hashed URL, so a deploy invalidates
 the previously cached copy. `main.js` is deliberately left unminified: it is
 small, and a hand-rolled JS minifier is a correctness risk for no real gain.
 
+## Deployment blocker: the domain does not serve this repo
+
+As of 15 August 2026, `mybnbaccelerator.com` resolves to a GoHighLevel /
+LeadConnector funnel behind Cloudflare, not to this site. Every path 301s to
+`/home`, the live `robots.txt` is empty, and the live `sitemap.xml` is
+GoHighLevel's own index. Verify with:
+
+```
+curl -sI https://mybnbaccelerator.com/blog/          # 301 -> /home
+curl -s  https://mybnbaccelerator.com/sitemap.xml    # GHL sitemapindex
+```
+
+Nothing in this repo is publicly reachable until DNS points at the Vercel
+deployment. That is also what blocks IndexNow: submission requires the key
+file to be readable at `https://mybnbaccelerator.com/<key>.txt`, and today
+that URL returns the funnel's HTML. A forced attempt on 15 August 2026 was
+rejected by the endpoint with:
+
+```
+403 {"errorCode":"SiteVerificationNotCompleted", ...}
+```
+
+Do not submit to IndexNow before the cutover. Pushing 215 URLs that all
+redirect to `/home` feeds redirect and soft-404 signals to Bing, Yandex,
+Seznam and Naver, which is worse than not submitting at all.
+
 ## Search engine submission
 
 After deploying, push the URL set to IndexNow (Bing, Yandex, Seznam, Naver;
@@ -111,13 +137,13 @@ Output Directory:  (leave empty / root)
 
 ## Before going live
 
-- [ ] Point `mybnbaccelerator.com` at the Vercel deployment
+- [ ] **Point `mybnbaccelerator.com` at the Vercel deployment.** Blocks everything below.
 - [ ] Wire the `/apply/` form and the two `/guides/` lead-magnet forms to a real endpoint (GoHighLevel, Formspree, or a Vercel serverless function). Currently `assets/main.js` stores the submission in `sessionStorage` and shows a confirmation, it does **not** transmit anywhere.
 - [ ] Replace the AE Tax booking iframe URL in `/tax-strategy/` with the live calendar embed
 - [ ] Replace the three video placeholders in `/testimonials/` with real embed URLs
 - [ ] Confirm the Trustpilot profile URL in `/testimonials/`
 - [ ] Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
-- [ ] Run `python3 submit_indexnow.py` once the new pages are live
+- [ ] Run `python3 submit_indexnow.py` once the cutover is done and the key file resolves
 - [ ] Have counsel review the disclaimers in the footer and the illustrative tax figures
 
 ## Content notes

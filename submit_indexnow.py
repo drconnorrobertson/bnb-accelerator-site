@@ -14,6 +14,7 @@ Usage:
     python3 submit_indexnow.py --dry-run    # print what would be sent
     python3 submit_indexnow.py --since 2026-08-15
                                             # only URLs with lastmod >= date
+    python3 submit_indexnow.py --force      # submit without key verification
 """
 
 import json
@@ -110,8 +111,14 @@ def main():
 
     print(f"Checking {SITE_URL}/{KEY}.txt ...")
     if not key_is_live():
-        sys.exit("Key file is not live yet. Deploy first, then re-run.")
-    print("  key verified")
+        if "--force" not in sys.argv:
+            sys.exit("Key file is not live yet. Deploy first, then re-run. "
+                     "Pass --force to submit anyway.")
+        print("  key NOT verified; --force given, submitting anyway")
+        print("  expect the endpoint to reject this: IndexNow validates the")
+        print("  key file before accepting a batch.")
+    else:
+        print("  key verified")
 
     for i in range(0, len(urls), BATCH):
         chunk = urls[i:i + BATCH]
