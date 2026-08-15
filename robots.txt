@@ -1,7 +1,25 @@
+# robots.txt for mybnbaccelerator.com
+# Static site, no user accounts, no private areas: everything is crawlable.
+# Rules below exist for crawl efficiency, not to hide anything.
+
 User-agent: *
 Allow: /
 
-# AI and LLM crawlers, explicitly allowed
+# Query strings on this site are cache-busting or tracking parameters only.
+# The canonical, parameter-free URL is declared on every page, but blocking
+# the variants keeps crawl budget on real pages.
+Disallow: /*?*v=
+Disallow: /*?*cb=
+Disallow: /*?*utm_
+Disallow: /*?*fbclid=
+Disallow: /*?*gclid=
+
+# The 404 document is reachable directly; it should never be crawled as content.
+Disallow: /404.html
+
+# --------------------------------------------------------------- AI crawlers
+# Explicitly allowed. This site is written to be quoted and summarised.
+
 User-agent: GPTBot
 Allow: /
 
@@ -17,13 +35,58 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Bravebot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ------------------------------------------------------------- Housekeeping
+# Aggressive SEO scrapers consume crawl capacity and return nothing.
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
 
 Sitemap: https://mybnbaccelerator.com/sitemap.xml

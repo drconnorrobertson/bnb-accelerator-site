@@ -23,8 +23,10 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
+<link rel="preload" as="style" href="/assets/style.min.css?v=2d88d92d">
+<link rel="stylesheet" href="/assets/style.min.css?v=2d88d92d">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 
 <script type="application/ld+json">
@@ -64,6 +66,87 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://mybnbaccelerator.com/#website",
+      "url": "https://mybnbaccelerator.com/",
+      "name": "My BnB Accelerator",
+      "publisher": {
+        "@id": "https://mybnbaccelerator.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "@id": "https://mybnbaccelerator.com/#sitenav",
+      "name": [
+        "How It Works",
+        "Markets",
+        "Case Studies",
+        "Tax Strategy",
+        "Compare",
+        "Blog",
+        "FAQ",
+        "Apply"
+      ],
+      "url": [
+        "https://mybnbaccelerator.com/how-it-works/",
+        "https://mybnbaccelerator.com/markets/",
+        "https://mybnbaccelerator.com/case-studies/",
+        "https://mybnbaccelerator.com/tax-strategy/",
+        "https://mybnbaccelerator.com/compare/",
+        "https://mybnbaccelerator.com/blog/",
+        "https://mybnbaccelerator.com/faq/",
+        "https://mybnbaccelerator.com/apply/"
+      ]
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mybnbaccelerator.com/#organization",
+      "name": "My BnB Accelerator, LLC",
+      "alternateName": "BNB Accelerator",
+      "url": "https://mybnbaccelerator.com/",
+      "logo": "https://mybnbaccelerator.com/assets/favicon.svg",
+      "image": "https://mybnbaccelerator.com/assets/og-image.svg",
+      "description": "Done-for-you short-term rental acquisition for high-income earners nationwide. We find, negotiate, and close cash-flowing Airbnb investment properties using the Reverse Offset Method.",
+      "founder": {
+        "@type": "Person",
+        "name": "Nicholas Korom"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "knowsAbout": [
+        "Short-term rental investing",
+        "Airbnb investment property acquisition",
+        "Cost segregation",
+        "Material participation",
+        "Short-term rental tax strategy",
+        "Short-term rental market analysis"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "27",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body class="blog">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -71,7 +154,7 @@
 <header class="site-header">
   <div class="wrap">
     <a class="logo" href="/">
-      <span class="logo-mark">BA</span>
+      <span class="logo-mark" aria-hidden="true">BA</span>
       <span class="logo-text">BNB <span>Accelerator</span></span>
     </a>
     <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
@@ -183,7 +266,7 @@
         <p>If you are not sure which one you are, <a href="/compare/">the full comparison table</a> covers the other options too, including education programs and turnkey providers.</p>
 
         <div class="callout">
-          <h4>Keep reading</h4>
+          <h3>Keep reading</h3>
           <ul>
             <li><a href="/blog/done-for-you-airbnb-model/">The Done-For-You Airbnb Model Explained</a></li>
             <li><a href="/blog/is-bnb-accelerator-worth-it/">Is BNB Accelerator Worth It? An Honest Review</a></li>
@@ -209,7 +292,7 @@
 
         <div class="author-box">
           <div>
-            <h4>My BnB Accelerator, LLC</h4>
+            <h3>My BnB Accelerator, LLC</h3>
             <p>500+ homes closed, 260+ clients, 80% repeat buyer rate. If DIY is the right call for your situation, we will tell you on the first call.</p>
           </div>
         </div>
@@ -236,47 +319,87 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a class="logo" href="/">
-          <span class="logo-mark">BA</span>
+          <span class="logo-mark" aria-hidden="true">BA</span>
           <span class="logo-text">BNB Accelerator</span>
         </a>
         <p>Done-for-you short-term rental acquisition for high-income earners. Find it, buy it, launch it, without giving up your career.</p>
+        <p class="footer-proof"><strong>500+</strong> homes closed &middot; <strong>260+</strong> clients &middot; <strong>4.5/5</strong> on Trustpilot</p>
       </div>
       <div class="footer-col">
-        <h4>Company</h4>
+        <h2>Company</h2>
         <ul>
           <li><a href="/how-it-works/">How It Works</a></li>
           <li><a href="/markets/">Markets</a></li>
           <li><a href="/case-studies/">Case Studies</a></li>
           <li><a href="/testimonials/">Testimonials</a></li>
           <li><a href="/compare/">Compare</a></li>
+          <li><a href="/partners/">Partners</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Resources</h4>
+        <h2>Start here</h2>
+        <ul>
+          <li><a href="/blog/short-term-rental-investing-2026/">STR Investing 2026</a></li>
+          <li><a href="/blog/how-to-start-airbnb-business/">Start an Airbnb Business</a></li>
+          <li><a href="/blog/airbnb-investment-strategy/">Investment Strategy</a></li>
+          <li><a href="/blog/short-term-rental-financing/">Financing Options</a></li>
+          <li><a href="/blog/short-term-rental-market-analysis/">Market Analysis</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Tax strategy</h2>
+        <ul>
+          <li><a href="/tax-strategy/">STR Tax Strategy</a></li>
+          <li><a href="/blog/str-tax-savings-guide/">Tax Benefits &amp; Cost Seg</a></li>
+          <li><a href="/blog/material-participation-str/">Material Participation</a></li>
+          <li><a href="/blog/7-day-rule-explained/">The Seven Day Rule</a></li>
+          <li><a href="/blog/cost-segregation-airbnb/">Cost Segregation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Tools &amp; data</h2>
+        <ul>
+          <li><a href="/tools/str-revenue-calculator/">Revenue Calculator</a></li>
+          <li><a href="/data/average-str-revenue-by-market/">Revenue by Market</a></li>
+          <li><a href="/data/str-occupancy-rates-2026/">Occupancy Rates 2026</a></li>
+          <li><a href="/guides/str-market-analysis-report/">Free Market Analysis</a></li>
+          <li><a href="/guides/str-tax-savings-checklist/">Tax Savings Checklist</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Resources</h2>
         <ul>
           <li><a href="/blog/">Blog</a></li>
+          <li><a href="/answers/">Answers</a></li>
+          <li><a href="/guides/">Guides</a></li>
+          <li><a href="/data/">Market Data</a></li>
+          <li><a href="/tools/">Tools</a></li>
           <li><a href="/faq/">FAQ</a></li>
-          <li><a href="/tax-strategy/">Tax Strategy</a></li>
           <li><a href="/apply/">Apply</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Partners</h4>
-        <ul>
-          <li><a href="https://aetaxadvisors.com/" target="_blank" rel="noopener">AE Tax Advisors</a></li>
-          <li><a href="https://aetaxadvisors.com/short-term-rentals/" target="_blank" rel="noopener">STR Tax Strategy</a></li>
-          <li><a href="https://aetaxadvisors.com/cost-segregation-landing/" target="_blank" rel="noopener">Cost Segregation</a></li>
+          <li><a href="/sitemap/">Site Index</a></li>
         </ul>
       </div>
     </div>
+
     <div class="footer-bottom">
       <span>&copy; <span data-year>2026</span> My BnB Accelerator, LLC. All rights reserved.</span>
-      <address>3635 Montana Ave, Billings, MT 59101</address>
+      <address>3635 Montana Ave, Billings, MT 59101 &middot; Serving clients nationwide</address>
     </div>
-    <p class="disclaimer">My BnB Accelerator, LLC is not a licensed tax, legal, or investment advisory firm. Nothing on this site is tax, legal, or investment advice, and no result described here is a guarantee of future performance. Real estate involves risk, including loss of principal. Tax outcomes depend entirely on your individual facts and circumstances, consult your own CPA or attorney before acting. AE Tax Advisors is an independent partner firm and is not owned by or affiliated with My BnB Accelerator, LLC beyond a referral relationship. Client results shown are actual outcomes for specific properties and are not typical or promised.</p>
+
+    <p class="disclaimer">My BnB Accelerator, LLC is not a licensed tax, legal, or investment advisory firm. Nothing on this site is tax, legal, or investment advice, and no result described here is a guarantee of future performance. Real estate involves risk, including loss of principal. Tax outcomes depend entirely on your individual facts and circumstances, so consult your own CPA or attorney before acting. AE Tax Advisors is an independent partner firm and is not owned by or affiliated with My BnB Accelerator, LLC beyond a referral relationship. Client results shown are actual outcomes for specific properties and are not typical or promised. Revenue and occupancy figures are estimates for illustration and are not projections for any specific property.</p>
   </div>
 </footer>
 
-<script src="/assets/main.js" defer></script>
+<div class="sticky-cta" data-sticky-cta>
+  <div class="sticky-cta-inner">
+    <div class="sticky-cta-text">
+      <strong>Ready to run your numbers?</strong>
+      <span>Free strategy call &middot; No obligation</span>
+    </div>
+    <a class="btn btn-accent btn-sm" href="/apply/">Book a Call</a>
+  </div>
+</div>
+
+<script src="/assets/main.js?v=36bec762" defer></script>
 </body>
 </html>

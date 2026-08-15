@@ -123,6 +123,79 @@
   openFromHash();
   window.addEventListener('hashchange', openFromHash);
 
+
+  /* --------------------------------------------- Sticky conversion bar -- */
+  /* Show once the hero CTA is gone, hide whenever a real CTA band or the
+     footer is on screen so the page never presents two competing asks. */
+  var sticky = doc.querySelector('[data-sticky-cta]');
+  if (sticky) {
+    var rivals = doc.querySelectorAll('.cta-band, .site-footer, .form-card');
+    var rivalVisible = false;
+
+    /* Declared before the observer: its first callback can fire before a
+       var assignment further down would have run. */
+    function updateSticky() {
+      var past = window.scrollY > (window.innerHeight * 0.6);
+      sticky.setAttribute('data-show', String(past && !rivalVisible));
+    }
+
+    if ('IntersectionObserver' in window && rivals.length) {
+      var seen = [];
+      var rivalObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          var i = seen.indexOf(entry.target);
+          if (entry.isIntersecting && i === -1) seen.push(entry.target);
+          else if (!entry.isIntersecting && i !== -1) seen.splice(i, 1);
+        });
+        rivalVisible = seen.length > 0;
+        updateSticky();
+      }, { threshold: 0 });
+      rivals.forEach(function (el) { rivalObserver.observe(el); });
+    }
+
+    updateSticky();
+    window.addEventListener('scroll', updateSticky, { passive: true });
+    window.addEventListener('resize', updateSticky, { passive: true });
+  }
+
+
+  /* ------------------------------------------------------- Lead magnets -- */
+  /* Same pattern as the application form: no backend is wired up on the
+     static build, so capture locally and confirm. Swap the stub for a real
+     endpoint and the markup does not change. */
+  doc.querySelectorAll('form.lead-form').forEach(function (lf) {
+    lf.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var status = doc.getElementById(lf.id + '-status');
+      var btn = lf.querySelector('button[type="submit"]');
+      var email = lf.querySelector('input[type="email"]');
+
+      if (email && !email.checkValidity()) {
+        if (status) {
+          status.setAttribute('data-state', 'err');
+          status.textContent = 'Please enter a valid email address so we can send it to you.';
+        }
+        email.focus();
+        return;
+      }
+
+      var original = btn ? btn.textContent : '';
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
+      try {
+        var data = {};
+        new FormData(lf).forEach(function (v, k) { data[k] = v; });
+        window.sessionStorage.setItem('bnb_lead_' + lf.id, JSON.stringify(data));
+      } catch (err) { /* storage unavailable -- non-fatal */ }
+
+      if (status) {
+        status.setAttribute('data-state', 'ok');
+        status.textContent = 'Thanks. We will email it to you within two to three business days.';
+      }
+      lf.reset();
+      if (btn) { btn.disabled = false; btn.textContent = original; }
+    });
+  });
+
   /* ------------------------------------------------- Application form -- */
   var form = doc.getElementById('apply-form');
   if (form) {

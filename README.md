@@ -2,13 +2,15 @@
 
 Static marketing site for **My BnB Accelerator, LLC**, done-for-you short-term rental acquisition for high-income earners.
 
-Built as plain HTML/CSS/JS with no build step. Deploys to Vercel as-is.
+Plain HTML/CSS/JS. Two small Python scripts handle asset minification and
+search-engine submission; there is no bundler and no dependencies. Deploys to
+Vercel as-is.
 
 ## Stack
 
 - Static HTML, one `index.html` per route directory
-- Single stylesheet: `assets/style.css`
-- Single script: `assets/main.js` (sticky header, mobile nav, scroll reveals, animated stat counters, FAQ deep-linking, application form handler)
+- Source stylesheet: `assets/style.css`; served build: `assets/style.min.css`
+- Single script: `assets/main.js` (sticky header, mobile nav, scroll reveals, animated stat counters, FAQ deep-linking, sticky conversion bar, lead-magnet and application form handlers)
 - Inter via Google Fonts
 - No framework, no bundler, no dependencies
 
@@ -17,47 +19,83 @@ Built as plain HTML/CSS/JS with no build step. Deploys to Vercel as-is.
 ```
 /                          Home
 /how-it-works/             The 5-stage process + Reverse Offset Method
-/markets/                  8 states, 20+ submarkets with price/revenue/ROI
+/markets/                  8 states, plus 20 market earnings pages
+/markets/<market>/         "How much can you make on Airbnb in X" + data table
 /case-studies/             Documented client results
-/tax-strategy/             7-day rule, material participation, cost seg, AE Tax partner
-/faq/                      30+ questions with FAQPage schema (SEO centerpiece)
-/testimonials/             Client quotes, Trustpilot, video placeholders
+/tax-strategy/             7-day rule, material participation, cost seg
+/partners/                 AE Tax Advisors, and where our work stops
+/answers/                  Short definition pages for AI overview capture
+/data/                     Revenue and occupancy datasets across 20 markets
+/guides/                   Operational guides + two free lead magnets
+/tools/str-revenue-calculator/   Interactive cash-flow and tax model
+/faq/                      Questions with FAQPage schema
+/testimonials/             Client quotes, Trustpilot
 /apply/                    Application form
-/compare/                  vs DIY / BNB Mastery / Robuilt
-/blog/                     Index + 10 posts
+/compare/                  vs DIY / BNB Mastery / Robuilt / agents / managers
+/blog/                     Index + 140 posts
+/sitemap/                  Human-readable site index
 404.html                   Custom 404
-robots.txt                 Allow all + sitemap reference
-sitemap.xml                All 20 URLs
+robots.txt                 Crawl rules + AI crawler allowances
+sitemap.xml                All 203 indexable URLs with lastmod and priority
 <key>.txt                  IndexNow key file
+build_assets.py            Minify CSS, stamp hashed asset URLs
+submit_indexnow.py         Submit sitemap URLs to IndexNow
 vercel.json                Clean URLs, trailing slash, caching, security headers
-assets/                    style.css, main.js, favicon.svg, og-image.svg
+assets/                    style.css, style.min.css, main.js, favicon.svg, og-image.svg
 ```
 
-## Blog posts
+## Content
 
-1. Is BNB Accelerator Worth It? An Honest Review (2026)
-2. How to Buy Your First Airbnb Investment Property in 2026
-3. The Complete Guide to STR Tax Savings for High-Income Earners
-4. Best Airbnb Markets for 2026: Where We're Buying Now
-5. BNB Accelerator vs Doing It Yourself: Time, Risk, and ROI
-6. How One Client Made $20K in Cash Flow in a Single Month
-7. The 7-Day Rule Explained: How STR Losses Offset W-2 Income
-8. Cost Segregation for Airbnb Properties: The Tax Strategy You're Missing
-9. Why We Don't Invest in California (And Where We Invest Instead)
-10. From W-2 to Wealth: How High Earners Are Building STR Portfolios
+Around 200 indexable pages: 140 blog posts, 20 market earnings pages, 14
+comparison pages, 8 definition pages under `/answers/`, operational guides,
+two datasets, and a revenue calculator.
 
-Posts 7 and 8 cross-link to aetaxadvisors.com per the partner arrangement.
+Tax-related pages cross-link to aetaxadvisors.com per the partner arrangement,
+and `/partners/` states the boundary explicitly: we are an acquisition firm,
+not a CPA firm.
 
 ## SEO
 
-Every page carries:
+Every page carries a unique title and meta description, a canonical URL, full
+Open Graph and Twitter Card tags, and a JSON-LD graph containing at minimum
+`Organization`, `WebSite`, `SiteNavigationElement` and `BreadcrumbList`.
+Content pages add `Article`/`BlogPosting` and a targeted `FAQPage`; guides add
+`HowTo`; definition pages carry `speakable` pointing at the opening answer.
 
-- Unique `<title>` and meta description
-- Canonical URL
-- Open Graph + Twitter Card tags
-- JSON-LD: `Organization`, `WebSite`, `Service`, `BreadcrumbList`, `FAQPage`, `BlogPosting`, `HowTo`, `ItemList`, `AggregateRating`
+`Organization` is used deliberately in place of `LocalBusiness`. The business
+operates nationally, so nothing on the site should signal local intent:
+`areaServed` is the United States, and the market pages exist to demonstrate
+expertise in those markets rather than to target them geographically.
 
-The FAQ page carries a full 32-question `FAQPage` block. Blog posts each carry `BlogPosting` + `BreadcrumbList` + a targeted `FAQPage`.
+Market figures are estimates assembled from closings and active comparables,
+and every page carrying them says so.
+
+## Editing assets
+
+`assets/style.css` is the source of truth. After changing it, or `main.js`:
+
+```
+python3 build_assets.py
+```
+
+That minifies the stylesheet to `assets/style.min.css` and rewrites every
+page's `<link>`/`<script>` to a content-hashed URL, so a deploy invalidates
+the previously cached copy. `main.js` is deliberately left unminified: it is
+small, and a hand-rolled JS minifier is a correctness risk for no real gain.
+
+## Search engine submission
+
+After deploying, push the URL set to IndexNow (Bing, Yandex, Seznam, Naver;
+Google does not participate):
+
+```
+python3 submit_indexnow.py --dry-run     # inspect first
+python3 submit_indexnow.py               # submit
+python3 submit_indexnow.py --since 2026-08-15   # only recently changed URLs
+```
+
+The script refuses to submit unless `https://mybnbaccelerator.com/<key>.txt`
+is live and serves the matching key, so deploy before running it.
 
 ## Deploying to Vercel
 
@@ -74,12 +112,12 @@ Output Directory:  (leave empty / root)
 ## Before going live
 
 - [ ] Point `mybnbaccelerator.com` at the Vercel deployment
-- [ ] Wire the `/apply/` form to a real endpoint (GoHighLevel, Formspree, or a Vercel serverless function). Currently `assets/main.js` stores the submission in `sessionStorage` and shows a confirmation, it does **not** transmit anywhere.
+- [ ] Wire the `/apply/` form and the two `/guides/` lead-magnet forms to a real endpoint (GoHighLevel, Formspree, or a Vercel serverless function). Currently `assets/main.js` stores the submission in `sessionStorage` and shows a confirmation, it does **not** transmit anywhere.
 - [ ] Replace the AE Tax booking iframe URL in `/tax-strategy/` with the live calendar embed
 - [ ] Replace the three video placeholders in `/testimonials/` with real embed URLs
 - [ ] Confirm the Trustpilot profile URL in `/testimonials/`
 - [ ] Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
-- [ ] Submit the IndexNow key file to Bing/IndexNow
+- [ ] Run `python3 submit_indexnow.py` once the new pages are live
 - [ ] Have counsel review the disclaimers in the footer and the illustrative tax figures
 
 ## Content notes

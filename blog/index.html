@@ -22,8 +22,10 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
+<link rel="preload" as="style" href="/assets/style.min.css?v=2d88d92d">
+<link rel="stylesheet" href="/assets/style.min.css?v=2d88d92d">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 
 <script type="application/ld+json">
@@ -44,6 +46,8 @@
       "description": "Short-term rental investing, tax strategy, and market analysis for high-income earners.",
       "publisher": { "@id": "https://mybnbaccelerator.com/#organization" },
       "blogPost": [
+        {"@type": "BlogPosting", "headline": "Airbnb vs Vrbo vs Booking.com", "url": "https://mybnbaccelerator.com/blog/airbnb-vs-vrbo-vs-booking/", "datePublished": "2026-08-15"},
+        {"@type": "BlogPosting", "headline": "Furnished vs Unfurnished Rental", "url": "https://mybnbaccelerator.com/blog/furnished-vs-unfurnished-rental/", "datePublished": "2026-08-15"},
         {"@type": "BlogPosting", "headline": "Short Term Rental Investing in 2026", "url": "https://mybnbaccelerator.com/blog/short-term-rental-investing-2026/", "datePublished": "2026-08-14"},
         {"@type": "BlogPosting", "headline": "How to Build an Airbnb Investment Strategy", "url": "https://mybnbaccelerator.com/blog/airbnb-investment-strategy/", "datePublished": "2026-08-13"},
         {"@type": "BlogPosting", "headline": "How to Start an Airbnb Business in 2026", "url": "https://mybnbaccelerator.com/blog/how-to-start-airbnb-business/", "datePublished": "2026-08-12"},
@@ -116,6 +120,80 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mybnbaccelerator.com/#organization",
+      "name": "My BnB Accelerator, LLC",
+      "alternateName": "BNB Accelerator",
+      "url": "https://mybnbaccelerator.com/",
+      "logo": "https://mybnbaccelerator.com/assets/favicon.svg",
+      "image": "https://mybnbaccelerator.com/assets/og-image.svg",
+      "description": "Done-for-you short-term rental acquisition for high-income earners nationwide. We find, negotiate, and close cash-flowing Airbnb investment properties using the Reverse Offset Method.",
+      "founder": {
+        "@type": "Person",
+        "name": "Nicholas Korom"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "knowsAbout": [
+        "Short-term rental investing",
+        "Airbnb investment property acquisition",
+        "Cost segregation",
+        "Material participation",
+        "Short-term rental tax strategy",
+        "Short-term rental market analysis"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "27",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mybnbaccelerator.com/#website",
+      "url": "https://mybnbaccelerator.com/",
+      "name": "My BnB Accelerator",
+      "publisher": {
+        "@id": "https://mybnbaccelerator.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "@id": "https://mybnbaccelerator.com/#sitenav",
+      "name": [
+        "How It Works",
+        "Markets",
+        "Case Studies",
+        "Tax Strategy",
+        "Compare",
+        "Blog",
+        "FAQ",
+        "Apply"
+      ],
+      "url": [
+        "https://mybnbaccelerator.com/how-it-works/",
+        "https://mybnbaccelerator.com/markets/",
+        "https://mybnbaccelerator.com/case-studies/",
+        "https://mybnbaccelerator.com/tax-strategy/",
+        "https://mybnbaccelerator.com/compare/",
+        "https://mybnbaccelerator.com/blog/",
+        "https://mybnbaccelerator.com/faq/",
+        "https://mybnbaccelerator.com/apply/"
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body class="blog">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -123,7 +201,7 @@
 <header class="site-header">
   <div class="wrap">
     <a class="logo" href="/">
-      <span class="logo-mark">BA</span>
+      <span class="logo-mark" aria-hidden="true">BA</span>
       <span class="logo-text">BNB <span>Accelerator</span></span>
     </a>
     <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
@@ -164,7 +242,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 11 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-08-14">Aug 14, 2026</time><span>11 min read</span></div>
             <h3><a href="/blog/short-term-rental-investing-2026/">Short Term Rental Investing in 2026</a></h3>
             <p>What changed heading into 2026, what a deal has to clear, and where the numbers still support cash flow.</p>
             <a class="post-link" href="/blog/short-term-rental-investing-2026/">Read more</a>
@@ -173,7 +251,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 10 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-08-13">Aug 13, 2026</time><span>10 min read</span></div>
             <h3><a href="/blog/airbnb-investment-strategy/">How to Build an Airbnb Investment Strategy</a></h3>
             <p>The four decisions that make up a strategy, and the order you have to make them in.</p>
             <a class="post-link" href="/blog/airbnb-investment-strategy/">Read more</a>
@@ -182,7 +260,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Getting Started &middot; 11 min read</div>
+            <div class="post-meta"><span class="post-cat">Getting Started</span><time datetime="2026-08-12">Aug 12, 2026</time><span>11 min read</span></div>
             <h3><a href="/blog/how-to-start-airbnb-business/">How to Start an Airbnb Business in 2026</a></h3>
             <p>Nine steps from entity setup to a live listing, with realistic capital requirements and timelines.</p>
             <a class="post-link" href="/blog/how-to-start-airbnb-business/">Read more</a>
@@ -191,7 +269,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="3">
           <div class="post-body">
-            <div class="post-meta">Market Research &middot; 11 min read</div>
+            <div class="post-meta"><span class="post-cat">Market Research</span><time datetime="2026-08-11">Aug 11, 2026</time><span>11 min read</span></div>
             <h3><a href="/blog/short-term-rental-market-analysis/">Short Term Rental Market Analysis</a></h3>
             <p>How to pick comps, read seasonality, and test saturation before you make an offer.</p>
             <a class="post-link" href="/blog/short-term-rental-market-analysis/">Read more</a>
@@ -200,7 +278,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Analysis &middot; 10 min read</div>
+            <div class="post-meta"><span class="post-cat">Analysis</span><time datetime="2026-08-10">Aug 10, 2026</time><span>10 min read</span></div>
             <h3><a href="/blog/airbnb-vs-long-term-rental-roi/">Airbnb vs Long Term Rental ROI</a></h3>
             <p>The revenue gap, the expense gap, and the tax difference that usually decides it.</p>
             <a class="post-link" href="/blog/airbnb-vs-long-term-rental-roi/">Read more</a>
@@ -209,7 +287,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 10 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-08-09">Aug 9, 2026</time><span>10 min read</span></div>
             <h3><a href="/blog/airbnb-property-management/">Airbnb Property Management</a></h3>
             <p>Full-service, co-hosting, and self-managing compared on cost, workload, and tax consequence.</p>
             <a class="post-link" href="/blog/airbnb-property-management/">Read more</a>
@@ -218,7 +296,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Financing &middot; 11 min read</div>
+            <div class="post-meta"><span class="post-cat">Financing</span><time datetime="2026-08-08">Aug 8, 2026</time><span>11 min read</span></div>
             <h3><a href="/blog/short-term-rental-financing/">Short Term Rental Financing Options</a></h3>
             <p>Conventional, second home, DSCR, portfolio, and HELOC compared on down payment and qualification.</p>
             <a class="post-link" href="/blog/short-term-rental-financing/">Read more</a>
@@ -236,7 +314,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 11 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-05-20">May 20, 2026</time><span>11 min read</span></div>
             <h3><a href="/blog/w2-to-wealth-str-portfolio/">From W-2 to Wealth: How High Earners Are Building STR Portfolios</a></h3>
             <p>The sequencing that turns one property into five, and the mistakes that stall most portfolios at two.</p>
             <a class="post-link" href="/blog/w2-to-wealth-str-portfolio/">Read more</a>
@@ -245,7 +323,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Case Study &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Case Study</span><time datetime="2026-03-25">Mar 25, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/20k-cash-flow-single-month/">How One Client Made $20K in Cash Flow in a Single Month</a></h3>
             <p>The nine-bedroom Sevierville cabin, the underwriting behind it, and why bedroom count drives everything in the Smokies.</p>
             <a class="post-link" href="/blog/20k-cash-flow-single-month/">Read more</a>
@@ -254,7 +332,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Comparison &middot; 9 min read</div>
+            <div class="post-meta"><span class="post-cat">Comparison</span><time datetime="2026-03-11">Mar 11, 2026</time><span>9 min read</span></div>
             <h3><a href="/blog/bnb-accelerator-vs-diy/">BNB Accelerator vs Doing It Yourself: Time, Risk, and ROI</a></h3>
             <p>An hour-by-hour accounting of what buying a short-term rental alone actually costs, and when DIY is the right call.</p>
             <a class="post-link" href="/blog/bnb-accelerator-vs-diy/">Read more</a>
@@ -263,7 +341,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Guides &middot; 11 min read</div>
+            <div class="post-meta"><span class="post-cat">Guides</span><time datetime="2026-01-28">Jan 28, 2026</time><span>11 min read</span></div>
             <h3><a href="/blog/how-to-buy-first-airbnb/">How to Buy Your First Airbnb Investment Property in 2026</a></h3>
             <p>The full sequence: capital planning, market selection, underwriting, financing, offers, furnishing, and launch.</p>
             <a class="post-link" href="/blog/how-to-buy-first-airbnb/">Read more</a>
@@ -272,7 +350,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Reviews &middot; 9 min read</div>
+            <div class="post-meta"><span class="post-cat">Reviews</span><time datetime="2026-01-14">Jan 14, 2026</time><span>9 min read</span></div>
             <h3><a href="/blog/is-bnb-accelerator-worth-it/">Is BNB Accelerator Worth It? An Honest Review (2026)</a></h3>
             <p>What we do well, what we do not do, who should not hire us, and how to evaluate any done-for-you real estate firm.</p>
             <a class="post-link" href="/blog/is-bnb-accelerator-worth-it/">Read more</a>
@@ -286,7 +364,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-04-25">Apr 25, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-market-research-tools/">Short-Term Rental Data Tools</a></h3>
             <p>Screening instruments, not underwriting instruments. The difference matters.</p>
             <a class="post-link" href="/blog/str-market-research-tools/">Read more</a>
@@ -296,7 +374,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-13">May 13, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/second-home-vs-investment-property/">Second Home vs Investment Property</a></h3>
             <p>Both are legitimate. Not deciding which is primary causes the problems.</p>
             <a class="post-link" href="/blog/second-home-vs-investment-property/">Read more</a>
@@ -305,7 +383,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-10">May 10, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-due-diligence-checklist/">Short-Term Rental Due Diligence Checklist</a></h3>
             <p>A standard inspection covers a house someone will live in. This is not that.</p>
             <a class="post-link" href="/blog/str-due-diligence-checklist/">Read more</a>
@@ -315,7 +393,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-27">May 27, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/how-much-do-airbnb-hosts-make/">How Much Do Airbnb Hosts Actually Make?</a></h3>
             <p>Gross revenue is the least useful number. Here is what reaches the account.</p>
             <a class="post-link" href="/blog/how-much-do-airbnb-hosts-make/">Read more</a>
@@ -324,7 +402,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-26">May 26, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/is-airbnb-still-profitable/">Is Airbnb Still Profitable in 2026?</a></h3>
             <p>Not a national question. Which properties still work, and which do not.</p>
             <a class="post-link" href="/blog/is-airbnb-still-profitable/">Read more</a>
@@ -333,7 +411,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-19">May 19, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/interest-rates-str-returns/">How Interest Rates Change STR Returns</a></h3>
             <p>Rates change the price at which a property makes sense, not just the payment.</p>
             <a class="post-link" href="/blog/interest-rates-str-returns/">Read more</a>
@@ -342,7 +420,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-18">May 18, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/how-long-until-airbnb-profitable/">How Long Until an Airbnb Is Profitable?</a></h3>
             <p>Two clocks: an eighteen month operating ramp and a tax event decided by a date.</p>
             <a class="post-link" href="/blog/how-long-until-airbnb-profitable/">Read more</a>
@@ -352,7 +430,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-30">May 30, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/negotiating-airbnb-purchase/">How to Negotiate a Short-Term Rental Purchase</a></h3>
             <p>Most buyers negotiate price. Six items that are usually worth more than the price.</p>
             <a class="post-link" href="/blog/negotiating-airbnb-purchase/">Read more</a>
@@ -361,7 +439,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-28">May 28, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-vs-real-estate-syndications/">Short-Term Rentals vs Real Estate Syndications</a></h3>
             <p>What you own, and whether the loss can reach your ordinary income.</p>
             <a class="post-link" href="/blog/str-vs-real-estate-syndications/">Read more</a>
@@ -371,7 +449,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-06-07">Jun 7, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-partnership-structure/">Buying a Short-Term Rental With a Partner</a></h3>
             <p>Half the capital, twice the failure modes. Most are cheaper to solve in a document.</p>
             <a class="post-link" href="/blog/str-partnership-structure/">Read more</a>
@@ -381,7 +459,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-06-21">Jun 21, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-revenue-projections/">Airbnb Revenue Projections That Hold Up</a></h3>
             <p>Three methods, three tests, and the expense line where most models actually fail.</p>
             <a class="post-link" href="/blog/airbnb-revenue-projections/">Read more</a>
@@ -391,7 +469,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-07-03">Jul 3, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-cash-reserves-seasonality/">Cash Reserves and Seasonality for STR Investors</a></h3>
             <p>Cash flow timing kills more deals than cash flow totals. Size the reserve against the trough.</p>
             <a class="post-link" href="/blog/str-cash-reserves-seasonality/">Read more</a>
@@ -400,7 +478,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-07-02">Jul 2, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/buying-airbnb-out-of-state/">How to Buy an Airbnb Out of State</a></h3>
             <p>Proximity is not on the list of variables that determine returns. Here is what is.</p>
             <a class="post-link" href="/blog/buying-airbnb-out-of-state/">Read more</a>
@@ -409,7 +487,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-07-01">Jul 1, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/str-investing-mistakes/">12 Short-Term Rental Investing Mistakes to Avoid</a></h3>
             <p>Every one of these is knowable before closing, which is what makes them expensive.</p>
             <a class="post-link" href="/blog/str-investing-mistakes/">Read more</a>
@@ -418,7 +496,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-06-30">Jun 30, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-vs-stock-market/">Short-Term Rentals vs the Stock Market</a></h3>
             <p>Not which one, but what each is for, and the one thing an index fund structurally cannot do.</p>
             <a class="post-link" href="/blog/airbnb-vs-stock-market/">Read more</a>
@@ -428,7 +506,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-08-01">Aug 1, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-vs-midterm-rentals/">Short-Term vs Mid-Term Rentals: Which Wins in 2026?</a></h3>
             <p>Steadier occupancy and lower costs versus the tax position that the seven day average protects.</p>
             <a class="post-link" href="/blog/str-vs-midterm-rentals/">Read more</a>
@@ -437,7 +515,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-07-30">Jul 30, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-occupancy-rates-explained/">Airbnb Occupancy Rates Explained</a></h3>
             <p>Why occupancy is the most quoted and least useful number, and what to underwrite instead.</p>
             <a class="post-link" href="/blog/airbnb-occupancy-rates-explained/">Read more</a>
@@ -446,7 +524,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-07-27">Jul 27, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/llc-for-short-term-rental/">Should You Put a Short-Term Rental in an LLC?</a></h3>
             <p>What an LLC does, what it does not, and the financing constraint that decides the timing.</p>
             <a class="post-link" href="/blog/llc-for-short-term-rental/">Read more</a>
@@ -456,7 +534,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-06-07">Jun 7, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-arbitrage-vs-ownership/">Airbnb Arbitrage vs Ownership: Pros, Cons, and Tax Implications</a></h3>
             <p>Less capital and faster cash flow versus equity, depreciation, and a tax position that actually holds up.</p>
             <a class="post-link" href="/blog/airbnb-arbitrage-vs-ownership/">Read more</a>
@@ -465,7 +543,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-06-05">Jun 5, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/dscr-loans-for-airbnb/">DSCR Loans for Airbnb: How to Qualify Without W-2 Income</a></h3>
             <p>The ratio calculation, which income lenders actually accept, and the mistakes that get files denied.</p>
             <a class="post-link" href="/blog/dscr-loans-for-airbnb/">Read more</a>
@@ -474,7 +552,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-06-03">Jun 3, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/how-to-finance-airbnb-investment-property/">How to Finance an Airbnb Investment Property</a></h3>
             <p>Six financing paths, what each actually requires, and the occupancy rule that quietly gets buyers into trouble.</p>
             <a class="post-link" href="/blog/how-to-finance-airbnb-investment-property/">Read more</a>
@@ -483,7 +561,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-06-01">Jun 1, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/buy-existing-airbnb-vs-start-from-scratch/">Should You Buy an Existing Airbnb or Start From Scratch?</a></h3>
             <p>Turnkey comes with revenue history and furniture. It also comes with a premium and someone else's reviews.</p>
             <a class="post-link" href="/blog/buy-existing-airbnb-vs-start-from-scratch/">Read more</a>
@@ -492,7 +570,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-31">May 31, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-cash-on-cash-return/">Airbnb Cash-on-Cash Return: What Good Looks Like in 2026</a></h3>
             <p>How to calculate it correctly, what ranges are realistic by market type, and the three ways the number gets inflated.</p>
             <a class="post-link" href="/blog/airbnb-cash-on-cash-return/">Read more</a>
@@ -501,7 +579,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-29">May 29, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/how-to-analyze-airbnb-deal/">How to Analyze an Airbnb Deal: Revenue, Expenses, and ROI</a></h3>
             <p>Comparable-based revenue modeling, a full expense build, and the three tests a deal has to pass before we bring it to anyone.</p>
             <a class="post-link" href="/blog/how-to-analyze-airbnb-deal/">Read more</a>
@@ -510,7 +588,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-27">May 27, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/reverse-offset-method-explained/">What Is the Reverse Offset Method for STR Investing?</a></h3>
             <p>Inverting the usual order: how the first-year tax position ends up funding a meaningful share of the purchase.</p>
             <a class="post-link" href="/blog/reverse-offset-method-explained/">Read more</a>
@@ -519,7 +597,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-25">May 25, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/done-for-you-airbnb-model/">The Done-For-You Airbnb Model Explained</a></h3>
             <p>What the model actually includes, where it breaks down, and how to tell a real operator from a course in disguise.</p>
             <a class="post-link" href="/blog/done-for-you-airbnb-model/">Read more</a>
@@ -528,7 +606,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-24">May 24, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-vs-long-term-rentals/">Airbnb vs Long-Term Rentals: Which Actually Makes More Money?</a></h3>
             <p>Same property, two strategies, run through the same numbers. Plus the tax difference that decides it for most high earners.</p>
             <a class="post-link" href="/blog/airbnb-vs-long-term-rentals/">Read more</a>
@@ -537,7 +615,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Investing &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Investing</span><time datetime="2026-05-22">May 22, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/how-much-money-to-start-airbnb/">How Much Money Do You Need to Start Investing in Airbnb?</a></h3>
             <p>Down payment, closing costs, furnishing, reserves, and the line item most first-time buyers forget entirely.</p>
             <a class="post-link" href="/blog/how-much-money-to-start-airbnb/">Read more</a>
@@ -551,7 +629,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-04-22">Apr 22, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/augusta-rule-14-day-rental/">The 14-Day Home Rental Rule Explained</a></h3>
             <p>Narrow, specific, and one of the most commonly misapplied provisions.</p>
             <a class="post-link" href="/blog/augusta-rule-14-day-rental/">Read more</a>
@@ -560,7 +638,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-04-21">Apr 21, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-long-hold-basis-planning/">Long Hold Strategy and Basis Planning</a></h3>
             <p>What happens if you never sell, and why the answer changes the evaluation.</p>
             <a class="post-link" href="/blog/str-long-hold-basis-planning/">Read more</a>
@@ -570,7 +648,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-05-17">May 17, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-tax-planning-calendar/">The STR Tax Planning Calendar</a></h3>
             <p>Most tax outcomes are decided months before anyone opens a return.</p>
             <a class="post-link" href="/blog/str-tax-planning-calendar/">Read more</a>
@@ -579,7 +657,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-05-16">May 16, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/suspended-passive-losses/">Suspended Passive Losses and How They Release</a></h3>
             <p>An asset with no yield, waiting for a release event.</p>
             <a class="post-link" href="/blog/suspended-passive-losses/">Read more</a>
@@ -588,7 +666,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-05-15">May 15, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/spouse-material-participation/">Spousal Hours and Material Participation</a></h3>
             <p>For many two income households, this is what makes the strategy available.</p>
             <a class="post-link" href="/blog/spouse-material-participation/">Read more</a>
@@ -597,7 +675,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-05-14">May 14, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/state-tax-conformity-str/">State Tax Conformity and Your Short-Term Rental</a></h3>
             <p>Your federal and state returns may treat the same depreciation differently.</p>
             <a class="post-link" href="/blog/state-tax-conformity-str/">Read more</a>
@@ -607,7 +685,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-05-29">May 29, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-1099-reporting/">Airbnb Income Reporting and Platform Tax Forms</a></h3>
             <p>Three different numbers, none of which match. Which one belongs on the return.</p>
             <a class="post-link" href="/blog/airbnb-1099-reporting/">Read more</a>
@@ -617,7 +695,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-06-09">Jun 9, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/choosing-cost-segregation-firm/">How to Choose a Cost Segregation Firm</a></h3>
             <p>Methodology is what a marketing page will not tell you. Seven questions that surface it.</p>
             <a class="post-link" href="/blog/choosing-cost-segregation-firm/">Read more</a>
@@ -627,7 +705,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-06-26">Jun 26, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-personal-use-days/">Personal Use Days and Your Short-Term Rental</a></h3>
             <p>Yes you can stay there. Here is what it costs and where the thresholds start to matter.</p>
             <a class="post-link" href="/blog/str-personal-use-days/">Read more</a>
@@ -636,7 +714,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-06-25">Jun 25, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/short-term-rental-tax-deductions/">Short-Term Rental Tax Deductions</a></h3>
             <p>The working list, the eight owners miss, and the three categories that get treated wrong.</p>
             <a class="post-link" href="/blog/short-term-rental-tax-deductions/">Read more</a>
@@ -645,7 +723,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-06-24">Jun 24, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-tax-documentation-audit/">STR Tax Documentation That Holds Up</a></h3>
             <p>The three elements that get tested, and the ten item file that answers them.</p>
             <a class="post-link" href="/blog/str-tax-documentation-audit/">Read more</a>
@@ -654,7 +732,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-06-23">Jun 23, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/look-back-cost-segregation-study/">Look-Back Cost Segregation Studies</a></h3>
             <p>Bought years ago and never ran a study? The opportunity is frequently still available.</p>
             <a class="post-link" href="/blog/look-back-cost-segregation-study/">Read more</a>
@@ -663,7 +741,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-06-22">Jun 22, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/qbi-deduction-short-term-rentals/">The QBI Deduction and Short-Term Rentals</a></h3>
             <p>A separate provision that operates on profits, not losses, and usually matters in year three.</p>
             <a class="post-link" href="/blog/qbi-deduction-short-term-rentals/">Read more</a>
@@ -673,7 +751,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-07-12">Jul 12, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-self-employment-tax/">Do Short-Term Rentals Owe Self-Employment Tax?</a></h3>
             <p>Two code sections, two tests, and why clearing the seven day rule does not answer this one.</p>
             <a class="post-link" href="/blog/airbnb-self-employment-tax/">Read more</a>
@@ -683,7 +761,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-08-06">Aug 6, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/bonus-depreciation-str-2026/">Bonus Depreciation for Short-Term Rentals in 2026</a></h3>
             <p>What qualifies, why the placed-in-service date governs the rate, and how it stacks with cost segregation.</p>
             <a class="post-link" href="/blog/bonus-depreciation-str-2026/">Read more</a>
@@ -692,7 +770,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-08-05">Aug 5, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/material-participation-str/">Material Participation for Short-Term Rental Owners</a></h3>
             <p>The three usable tests, what hours count, and how to keep a log that survives scrutiny.</p>
             <a class="post-link" href="/blog/material-participation-str/">Read more</a>
@@ -701,7 +779,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-08-04">Aug 4, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/depreciation-recapture-str/">Depreciation Recapture on a Short-Term Rental</a></h3>
             <p>Why accelerated depreciation is a timing benefit, and how to plan the exit before running the study.</p>
             <a class="post-link" href="/blog/depreciation-recapture-str/">Read more</a>
@@ -710,7 +788,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-08-03">Aug 3, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/1031-exchange-short-term-rental/">1031 Exchange for Short-Term Rentals</a></h3>
             <p>The 45 and 180 day deadlines, the personal use trap, and what an exchange does to your basis.</p>
             <a class="post-link" href="/blog/1031-exchange-short-term-rental/">Read more</a>
@@ -719,7 +797,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-08-02">Aug 2, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/str-loophole-vs-reps/">STR Tax Strategy vs Real Estate Professional Status</a></h3>
             <p>Two routes to offsetting ordinary income, and why only one is realistic for a full time professional.</p>
             <a class="post-link" href="/blog/str-loophole-vs-reps/">Read more</a>
@@ -729,7 +807,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 11 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-04-22">Apr 22, 2026</time><span>11 min read</span></div>
             <h3><a href="/blog/cost-segregation-airbnb/">Cost Segregation for Airbnb Properties: The Tax Strategy You're Missing</a></h3>
             <p>What gets reclassified, what it is worth, what it costs, and the recapture conversation nobody has with you first.</p>
             <a class="post-link" href="/blog/cost-segregation-airbnb/">Read more</a>
@@ -738,7 +816,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 10 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-04-08">Apr 8, 2026</time><span>10 min read</span></div>
             <h3><a href="/blog/7-day-rule-explained/">The 7-Day Rule Explained: How STR Losses Offset W-2 Income</a></h3>
             <p>Where the rule comes from, how the average is actually calculated, and the mistakes that break it.</p>
             <a class="post-link" href="/blog/7-day-rule-explained/">Read more</a>
@@ -747,7 +825,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Tax Strategy &middot; 12 min read</div>
+            <div class="post-meta"><span class="post-cat">Tax Strategy</span><time datetime="2026-02-11">Feb 11, 2026</time><span>12 min read</span></div>
             <h3><a href="/blog/str-tax-savings-guide/">The Complete Guide to STR Tax Savings for High-Income Earners</a></h3>
             <p>Every mechanic in one place: the seven-day test, material participation, cost segregation, and the exit.</p>
             <a class="post-link" href="/blog/str-tax-savings-guide/">Read more</a>
@@ -761,7 +839,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-04-19">Apr 19, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/lake-harmony-airbnb-investing/">Lake Harmony Airbnb Investing Guide</a></h3>
             <p>The strongest Pocono submarket, with genuine four season demand.</p>
             <a class="post-link" href="/blog/lake-harmony-airbnb-investing/">Read more</a>
@@ -770,7 +848,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-04-18">Apr 18, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/jim-thorpe-airbnb-investing/">Jim Thorpe Airbnb Investing Guide</a></h3>
             <p>The character play in the Poconos, where the town itself is the attraction.</p>
             <a class="post-link" href="/blog/jim-thorpe-airbnb-investing/">Read more</a>
@@ -780,7 +858,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-05-08">May 8, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/missouri-str-investing/">Missouri Short-Term Rental Investing Guide</a></h3>
             <p>Why Branson earns its place through capital efficiency rather than glamour.</p>
             <a class="post-link" href="/blog/missouri-str-investing/">Read more</a>
@@ -790,7 +868,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-05-23">May 23, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/best-airbnb-markets-for-beginners/">Best Airbnb Markets for Beginners in 2026</a></h3>
             <p>A first property should be boring on purpose. Optimize for survivability.</p>
             <a class="post-link" href="/blog/best-airbnb-markets-for-beginners/">Read more</a>
@@ -800,7 +878,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-06">Jun 6, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/fort-walton-beach-airbnb-investing/">Fort Walton Beach Airbnb Investing Guide</a></h3>
             <p>The value position on the Emerald Coast, plus a demand layer no other panhandle market has.</p>
             <a class="post-link" href="/blog/fort-walton-beach-airbnb-investing/">Read more</a>
@@ -809,7 +887,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-05">Jun 5, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/jacksonville-airbnb-investing/">Jacksonville Airbnb Investing Guide</a></h3>
             <p>Four demand sources, a flatter revenue curve, and why submarket selection decides everything.</p>
             <a class="post-link" href="/blog/jacksonville-airbnb-investing/">Read more</a>
@@ -818,7 +896,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-04">Jun 4, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/denver-airbnb-investing/">Denver Airbnb Investing Guide</a></h3>
             <p>Urban base with mountain access, and the licensing framework you verify first.</p>
             <a class="post-link" href="/blog/denver-airbnb-investing/">Read more</a>
@@ -827,7 +905,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-03">Jun 3, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/gilbert-chandler-airbnb-investing/">Gilbert and Chandler Airbnb Guide</a></h3>
             <p>The steadiest Phoenix submarkets, and the corporate stays that threaten the tax position.</p>
             <a class="post-link" href="/blog/gilbert-chandler-airbnb-investing/">Read more</a>
@@ -836,7 +914,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-02">Jun 2, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/johnson-city-airbnb-investing/">Johnson City Airbnb Investing Guide</a></h3>
             <p>Tennessee's lowest entry point, driven by university and medical demand rather than leisure.</p>
             <a class="post-link" href="/blog/johnson-city-airbnb-investing/">Read more</a>
@@ -845,7 +923,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-01">Jun 1, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/oklahoma-str-investing/">Oklahoma Short-Term Rental Investing Guide</a></h3>
             <p>The best revenue to price ratio we underwrite, and the three risks attached to it.</p>
             <a class="post-link" href="/blog/oklahoma-str-investing/">Read more</a>
@@ -854,7 +932,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-05-31">May 31, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/pennsylvania-str-investing/">Pennsylvania Short-Term Rental Investing Guide</a></h3>
             <p>Two hours from Manhattan, four season demand, and cold weather operating costs.</p>
             <a class="post-link" href="/blog/pennsylvania-str-investing/">Read more</a>
@@ -864,7 +942,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-08">Jun 8, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-market-saturation/">Short-Term Rental Market Saturation</a></h3>
             <p>Every strong market attracts supply. The question is whether you underwrote for it.</p>
             <a class="post-link" href="/blog/str-market-saturation/">Read more</a>
@@ -874,7 +952,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-20">Jun 20, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/how-to-choose-str-market/">How to Choose a Short-Term Rental Market</a></h3>
             <p>Seven filters in order. Most markets eliminate themselves in the first two.</p>
             <a class="post-link" href="/blog/how-to-choose-str-market/">Read more</a>
@@ -883,7 +961,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-19">Jun 19, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/nashville-airbnb-investing/">Nashville Airbnb Investing Guide</a></h3>
             <p>Strong revenue, restrictive permitting, and why you approach this market through the permit.</p>
             <a class="post-link" href="/blog/nashville-airbnb-investing/">Read more</a>
@@ -892,7 +970,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-18">Jun 18, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/orlando-davenport-airbnb-investing/">Orlando and Davenport Airbnb Guide</a></h3>
             <p>Year round theme park demand, enormous supply, and association rules that are the deal.</p>
             <a class="post-link" href="/blog/orlando-davenport-airbnb-investing/">Read more</a>
@@ -901,7 +979,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-17">Jun 17, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/mesa-arizona-airbnb-investing/">Mesa Arizona Airbnb Investing Guide</a></h3>
             <p>The value entry to Phoenix metro, and the winter booking policy that decides the tax position.</p>
             <a class="post-link" href="/blog/mesa-arizona-airbnb-investing/">Read more</a>
@@ -911,7 +989,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-29">Jun 29, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/colorado-str-investing/">Colorado Short-Term Rental Investing Guide</a></h3>
             <p>Why we buy in Denver rather than the resort towns, and why the license is the hard part.</p>
             <a class="post-link" href="/blog/colorado-str-investing/">Read more</a>
@@ -920,7 +998,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-28">Jun 28, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/austin-texas-airbnb-investing/">Austin Airbnb Investing Guide</a></h3>
             <p>Event driven revenue concentration, licensing history, and property tax reassessment.</p>
             <a class="post-link" href="/blog/austin-texas-airbnb-investing/">Read more</a>
@@ -929,7 +1007,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-06-27">Jun 27, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/destin-florida-airbnb-investing/">Destin Florida Airbnb Investing Guide</a></h3>
             <p>Premium Emerald Coast rates, the expense items that test the model, and the average stay risk.</p>
             <a class="post-link" href="/blog/destin-florida-airbnb-investing/">Read more</a>
@@ -939,7 +1017,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-26">Jul 26, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/tennessee-str-investing/">Tennessee Short-Term Rental Investing Guide</a></h3>
             <p>The Smokies cabin corridor, Nashville permit zones, and the Tri-Cities value market compared.</p>
             <a class="post-link" href="/blog/tennessee-str-investing/">Read more</a>
@@ -948,7 +1026,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-25">Jul 25, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/florida-str-investing/">Florida Short-Term Rental Investing Guide</a></h3>
             <p>Five submarkets, and why insurance and association rules decide Gulf Coast deals.</p>
             <a class="post-link" href="/blog/florida-str-investing/">Read more</a>
@@ -957,7 +1035,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-24">Jul 24, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/texas-str-investing/">Texas Short-Term Rental Investing Guide</a></h3>
             <p>Event driven demand, Austin licensing history, and the property tax reassessment that changes returns.</p>
             <a class="post-link" href="/blog/texas-str-investing/">Read more</a>
@@ -966,7 +1044,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-23">Jul 23, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/arizona-str-investing/">Arizona Short-Term Rental Investing Guide</a></h3>
             <p>State level protection from local bans, reverse seasonality, and the snowbird stays that break the tax test.</p>
             <a class="post-link" href="/blog/arizona-str-investing/">Read more</a>
@@ -975,7 +1053,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-21">Jul 21, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/sevierville-gatlinburg-airbnb/">Sevierville and Gatlinburg Airbnb Guide</a></h3>
             <p>The bedroom count math that drives revenue in the most proven cabin corridor in the country.</p>
             <a class="post-link" href="/blog/sevierville-gatlinburg-airbnb/">Read more</a>
@@ -984,7 +1062,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-22">Jul 22, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/broken-bow-oklahoma-airbnb/">Broken Bow Airbnb Investing Guide</a></h3>
             <p>Hochatown cabin country, where a low basis produces some of the best cash-on-cash we underwrite.</p>
             <a class="post-link" href="/blog/broken-bow-oklahoma-airbnb/">Read more</a>
@@ -993,7 +1071,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-20">Jul 20, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/panama-city-beach-airbnb/">Panama City Beach Airbnb Investing Guide</a></h3>
             <p>Drive-to beach demand, and the expense line items that decide Gulf Coast deals.</p>
             <a class="post-link" href="/blog/panama-city-beach-airbnb/">Read more</a>
@@ -1002,7 +1080,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-19">Jul 19, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/scottsdale-airbnb-investing/">Scottsdale Airbnb Investing Guide</a></h3>
             <p>Four demand sources, a hard summer trough, and a luxury standard that works as a threshold.</p>
             <a class="post-link" href="/blog/scottsdale-airbnb-investing/">Read more</a>
@@ -1011,7 +1089,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-18">Jul 18, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/poconos-airbnb-investing/">Poconos Airbnb Investing Guide</a></h3>
             <p>Two hours from Manhattan, four season demand, and the private community rules that decide deals.</p>
             <a class="post-link" href="/blog/poconos-airbnb-investing/">Read more</a>
@@ -1020,7 +1098,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-17">Jul 17, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/branson-missouri-airbnb/">Branson Missouri Airbnb Investing Guide</a></h3>
             <p>Entertainment driven demand, multi generational guests, and the deduction tradeoff in value markets.</p>
             <a class="post-link" href="/blog/branson-missouri-airbnb/">Read more</a>
@@ -1030,7 +1108,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 8 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-07-29">Jul 29, 2026</time><span>8 min read</span></div>
             <h3><a href="/blog/str-regulations-before-you-buy/">How to Check STR Regulations Before You Buy</a></h3>
             <p>Four layers of rules, the permit transfer question, and five signals a market is about to tighten.</p>
             <a class="post-link" href="/blog/str-regulations-before-you-buy/">Read more</a>
@@ -1040,7 +1118,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 9 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-05-06">May 6, 2026</time><span>9 min read</span></div>
             <h3><a href="/blog/why-not-california/">Why We Don't Invest in California (And Where We Invest Instead)</a></h3>
             <p>Four structural problems, run through actual numbers, plus the markets we send California-curious buyers to instead.</p>
             <a class="post-link" href="/blog/why-not-california/">Read more</a>
@@ -1049,7 +1127,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Markets &middot; 10 min read</div>
+            <div class="post-meta"><span class="post-cat">Markets</span><time datetime="2026-02-25">Feb 25, 2026</time><span>10 min read</span></div>
             <h3><a href="/blog/best-airbnb-markets-2026/">Best Airbnb Markets for 2026: Where We're Buying Now</a></h3>
             <p>The eight states currently clearing our filters, what makes each work, and the markets we have quietly stopped buying.</p>
             <a class="post-link" href="/blog/best-airbnb-markets-2026/">Read more</a>
@@ -1064,7 +1142,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-04-27">Apr 27, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-pricing-strategy/">Airbnb Pricing Strategy</a></h3>
             <p>Tools handle the baseline. The decisions they cannot make are where the money is.</p>
             <a class="post-link" href="/blog/airbnb-pricing-strategy/">Read more</a>
@@ -1073,7 +1151,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-04-26">Apr 26, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-minimum-stay-strategy/">Airbnb Minimum Stay Strategy</a></h3>
             <p>The most underused revenue lever, and the one most likely to break a tax position.</p>
             <a class="post-link" href="/blog/airbnb-minimum-stay-strategy/">Read more</a>
@@ -1083,7 +1161,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-02">May 2, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-capex-planning/">Capital Expenditure Planning for STRs</a></h3>
             <p>Twenty to sixty groups a year use everything harder than an owner would.</p>
             <a class="post-link" href="/blog/str-capex-planning/">Read more</a>
@@ -1092,7 +1170,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-01">May 1, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-cancellation-policy/">Choosing an Airbnb Cancellation Policy</a></h3>
             <p>Treated as an administrative setting. It is actually a pricing decision.</p>
             <a class="post-link" href="/blog/airbnb-cancellation-policy/">Read more</a>
@@ -1101,7 +1179,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-04-30">Apr 30, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/switching-property-managers/">How to Switch Property Managers</a></h3>
             <p>Most of the difficulty was created on day one of the relationship.</p>
             <a class="post-link" href="/blog/switching-property-managers/">Read more</a>
@@ -1110,7 +1188,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-04-29">Apr 29, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-guest-experience/">Airbnb Guest Experience Details That Matter</a></h3>
             <p>The things guests remember are almost never the expensive things.</p>
             <a class="post-link" href="/blog/airbnb-guest-experience/">Read more</a>
@@ -1119,7 +1197,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-04-28">Apr 28, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-utilities-and-connectivity/">Utilities and Internet Setup for an STR</a></h3>
             <p>A checklist item that generates a surprising share of early problems.</p>
             <a class="post-link" href="/blog/str-utilities-and-connectivity/">Read more</a>
@@ -1129,7 +1207,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-12">May 12, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-neighbors-and-noise/">Managing Neighbors and Noise</a></h3>
             <p>The most effective regulatory risk management available to an owner.</p>
             <a class="post-link" href="/blog/airbnb-neighbors-and-noise/">Read more</a>
@@ -1138,7 +1216,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-11">May 11, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/direct-booking-website/">Direct Booking for Short-Term Rentals</a></h3>
             <p>The fee saving is the least interesting benefit. Owned demand is the point.</p>
             <a class="post-link" href="/blog/direct-booking-website/">Read more</a>
@@ -1148,7 +1226,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-25">May 25, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-vs-vrbo/">Airbnb vs Vrbo for Investors</a></h3>
             <p>Usually not a choice. What each platform contributes and where audiences differ.</p>
             <a class="post-link" href="/blog/airbnb-vs-vrbo/">Read more</a>
@@ -1157,7 +1235,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-24">May 24, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-property-management-fees/">Short-Term Rental Management Fees</a></h3>
             <p>The quoted percentage is not the effective percentage, and the tax cost is invisible.</p>
             <a class="post-link" href="/blog/str-property-management-fees/">Read more</a>
@@ -1166,7 +1244,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-22">May 22, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-supplies-checklist/">The Complete Airbnb Supplies Checklist</a></h3>
             <p>Furnishing gets the attention. Stocking causes most of the early complaints.</p>
             <a class="post-link" href="/blog/airbnb-supplies-checklist/">Read more</a>
@@ -1175,7 +1253,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-21">May 21, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/airbnb-hot-tub-roi/">Is a Hot Tub Worth It for an Airbnb?</a></h3>
             <p>In cabin markets it is a visibility decision, plus what it costs to run.</p>
             <a class="post-link" href="/blog/airbnb-hot-tub-roi/">Read more</a>
@@ -1184,7 +1262,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-05-20">May 20, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/pet-friendly-airbnb-strategy/">Should Your Airbnb Be Pet Friendly?</a></h3>
             <p>One of the cheapest revenue improvements available, if the property was built for it.</p>
             <a class="post-link" href="/blog/pet-friendly-airbnb-strategy/">Read more</a>
@@ -1194,7 +1272,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-06-11">Jun 11, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-listing-optimization/">Airbnb Listing Optimization</a></h3>
             <p>Two gates, nine photos, and the settings that quietly cost you bookings.</p>
             <a class="post-link" href="/blog/airbnb-listing-optimization/">Read more</a>
@@ -1203,7 +1281,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-06-10">Jun 10, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/first-90-days-airbnb-launch/">The First 90 Days of an Airbnb Launch</a></h3>
             <p>The highest leverage period in the life of the property, and the one most owners improvise.</p>
             <a class="post-link" href="/blog/first-90-days-airbnb-launch/">Read more</a>
@@ -1213,7 +1291,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-06">Jul 6, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-amenities-that-increase-revenue/">Airbnb Amenities That Actually Increase Revenue</a></h3>
             <p>Filters, rate drivers, and money pits, plus an hour of research that beats any general advice.</p>
             <a class="post-link" href="/blog/airbnb-amenities-that-increase-revenue/">Read more</a>
@@ -1222,7 +1300,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-05">Jul 5, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-guest-screening-damage/">Airbnb Guest Screening and Damage Prevention</a></h3>
             <p>A consistent policy, the five signal party pattern, and the documentation sequence that wins claims.</p>
             <a class="post-link" href="/blog/airbnb-guest-screening-damage/">Read more</a>
@@ -1231,7 +1309,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-04">Jul 4, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-bookkeeping-records/">Short-Term Rental Bookkeeping and Records</a></h3>
             <p>The least interesting part of the business and one of the highest leverage.</p>
             <a class="post-link" href="/blog/str-bookkeeping-records/">Read more</a>
@@ -1241,7 +1319,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-16">Jul 16, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-cleaning-turnover-systems/">Airbnb Cleaning and Turnover Systems</a></h3>
             <p>The function that fails most often, and the system that prevents it when you are not local.</p>
             <a class="post-link" href="/blog/airbnb-cleaning-turnover-systems/">Read more</a>
@@ -1250,7 +1328,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-15">Jul 15, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/how-to-get-5-star-reviews/">How to Get Five Star Airbnb Reviews</a></h3>
             <p>Why the first ninety days decide ranking, and the five factors that actually move the score.</p>
             <a class="post-link" href="/blog/how-to-get-5-star-reviews/">Read more</a>
@@ -1259,7 +1337,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-14">Jul 14, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/multi-platform-listing-strategy/">Multi-Platform Listing Strategy</a></h3>
             <p>Distribution as insurance and incremental revenue, plus the stay length trap in specialist channels.</p>
             <a class="post-link" href="/blog/multi-platform-listing-strategy/">Read more</a>
@@ -1268,7 +1346,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-13">Jul 13, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-automation-tools/">Airbnb Automation Tools for Remote Owners</a></h3>
             <p>The stack that makes out of state ownership work, and the one place it works against you.</p>
             <a class="post-link" href="/blog/airbnb-automation-tools/">Read more</a>
@@ -1278,7 +1356,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Operations &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Operations</span><time datetime="2026-07-28">Jul 28, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/airbnb-insurance-guide/">Airbnb Insurance: What Investors Actually Need</a></h3>
             <p>Why standard policies fail, what coverages matter, and seven questions to ask before binding.</p>
             <a class="post-link" href="/blog/airbnb-insurance-guide/">Read more</a>
@@ -1289,10 +1367,28 @@
 
       <h2 class="section-heading" data-reveal>Strategy and scaling</h2>
       <div class="post-grid">
+        <article class="post-card" data-reveal>
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Comparison</span><time datetime="2026-08-15">Aug 15, 2026</time><span>9 min read</span></div>
+            <h3><a href="/blog/airbnb-vs-vrbo-vs-booking/">Airbnb vs Vrbo vs Booking.com</a></h3>
+            <p>Fees, guest mix, cancellation control, and payout timing compared for hosts.</p>
+            <a class="post-link" href="/blog/airbnb-vs-vrbo-vs-booking/">Read more</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-reveal data-reveal-delay="1">
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Comparison</span><time datetime="2026-08-15">Aug 15, 2026</time><span>9 min read</span></div>
+            <h3><a href="/blog/furnished-vs-unfurnished-rental/">Furnished vs Unfurnished Rental</a></h3>
+            <p>Revenue, cost, workload, and tax treatment across all three rental strategies.</p>
+            <a class="post-link" href="/blog/furnished-vs-unfurnished-rental/">Read more</a>
+          </div>
+        </article>
+
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-04-24">Apr 24, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-cash-out-refinance/">Cash-Out Refinancing a Short-Term Rental</a></h3>
             <p>The standard path to a portfolio, and the standard path to being overleveraged.</p>
             <a class="post-link" href="/blog/str-cash-out-refinance/">Read more</a>
@@ -1301,7 +1397,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-04-23">Apr 23, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/large-group-str-strategy/">Why Large Group Properties Outperform</a></h3>
             <p>The most durable position in a maturing market is not the nicest two bedroom.</p>
             <a class="post-link" href="/blog/large-group-str-strategy/">Read more</a>
@@ -1311,7 +1407,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-05-09">May 9, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-portfolio-diversification/">Concentration vs Diversification in an STR Portfolio</a></h3>
             <p>Diversify early and you will not grow. Concentrate late and one event hits everything.</p>
             <a class="post-link" href="/blog/str-portfolio-diversification/">Read more</a>
@@ -1321,7 +1417,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-07-11">Jul 11, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/scale-from-1-to-10-airbnbs/">How to Scale From 1 to 10 Short-Term Rentals</a></h3>
             <p>Capital, then financing, then operations. The constraint changes and most portfolios stall at two.</p>
             <a class="post-link" href="/blog/scale-from-1-to-10-airbnbs/">Read more</a>
@@ -1330,7 +1426,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-07-10">Jul 10, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-exit-strategy/">When to Sell a Short-Term Rental</a></h3>
             <p>The five reasons owners sell, why the year matters more than the price, and the alternatives.</p>
             <a class="post-link" href="/blog/str-exit-strategy/">Read more</a>
@@ -1344,7 +1440,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Case Study &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Case Study</span><time datetime="2026-07-09">Jul 9, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/case-study-physician-first-str/">Case Study: A Physician Couple's First STR</a></h3>
             <p>Why the duplex failed, why the cabin worked, and the two decisions that preserved the position.</p>
             <a class="post-link" href="/blog/case-study-physician-first-str/">Read more</a>
@@ -1353,7 +1449,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Case Study &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Case Study</span><time datetime="2026-07-08">Jul 8, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/case-study-dentist-two-properties/">Case Study: Scaling to Two Short-Term Rentals</a></h3>
             <p>The first purchase is a capital decision. The second is a financing and tax structure decision.</p>
             <a class="post-link" href="/blog/case-study-dentist-two-properties/">Read more</a>
@@ -1362,7 +1458,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Case Study &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Case Study</span><time datetime="2026-07-07">Jul 7, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/case-study-equity-event-tax-offset/">Case Study: Offsetting a Large Equity Event</a></h3>
             <p>When deduction size beats return on capital, and the booking policy that protected the position.</p>
             <a class="post-link" href="/blog/case-study-equity-event-tax-offset/">Read more</a>
@@ -1376,7 +1472,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-05-07">May 7, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-investing-for-physicians/">Short-Term Rental Investing for Physicians</a></h3>
             <p>Why real estate professional status is unavailable at clinical hours, and what works instead.</p>
             <a class="post-link" href="/blog/str-investing-for-physicians/">Read more</a>
@@ -1385,7 +1481,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-05-06">May 6, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-investing-for-practice-owners/">STR Investing for Practice Owners</a></h3>
             <p>Entity income, lumpy years, and financing considerations specific to practice owners.</p>
             <a class="post-link" href="/blog/str-investing-for-practice-owners/">Read more</a>
@@ -1394,7 +1490,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="2">
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-05-05">May 5, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-investing-for-attorneys/">Short-Term Rental Investing for Attorneys</a></h3>
             <p>The authority stated plainly, and the evidentiary standard the position requires.</p>
             <a class="post-link" href="/blog/str-investing-for-attorneys/">Read more</a>
@@ -1403,7 +1499,7 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-05-04">May 4, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-investing-for-business-owners/">Short-Term Rentals for Business Owners</a></h3>
             <p>Uneven income, liquidity events, and why the year matters more than the deal.</p>
             <a class="post-link" href="/blog/str-investing-for-business-owners/">Read more</a>
@@ -1412,7 +1508,7 @@
 
         <article class="post-card" data-reveal data-reveal-delay="1">
           <div class="post-body">
-            <div class="post-meta">Strategy &middot; 6 min read</div>
+            <div class="post-meta"><span class="post-cat">Strategy</span><time datetime="2026-05-03">May 3, 2026</time><span>6 min read</span></div>
             <h3><a href="/blog/str-investing-for-executives/">STR Investing for Executives With Equity</a></h3>
             <p>A known vesting calendar turns a tax problem into a planning exercise.</p>
             <a class="post-link" href="/blog/str-investing-for-executives/">Read more</a>
@@ -1426,10 +1522,74 @@
 
         <article class="post-card" data-reveal>
           <div class="post-body">
-            <div class="post-meta">Resources &middot; 7 min read</div>
+            <div class="post-meta"><span class="post-cat">Resources</span><time datetime="2026-04-20">Apr 20, 2026</time><span>7 min read</span></div>
             <h3><a href="/blog/str-investing-glossary/">Short-Term Rental Investing Glossary</a></h3>
             <p>The same word means different things in hospitality, real estate, and tax.</p>
             <a class="post-link" href="/blog/str-investing-glossary/">Read more</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-alt">
+    <div class="wrap">
+      <h2 class="section-heading" data-reveal>Beyond the blog</h2>
+      <div class="post-grid">
+
+        <article class="post-card" data-reveal>
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Answers</span></div>
+            <h3><a href="/answers/">Short-Term Rental Answers</a></h3>
+            <p>Direct definitions of the terms and rules that come up most: the STR loophole, material participation, cost segregation, ADR, RevPAR, and cap rates.</p>
+            <a class="post-link" href="/answers/">Browse answers</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-reveal data-reveal-delay="1">
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Market Data</span></div>
+            <h3><a href="/markets/">Market Earnings Data</a></h3>
+            <p>How much you can make on Airbnb in 20 US markets, with estimated revenue, nightly rate, occupancy, entry price, and the regulatory picture for each.</p>
+            <a class="post-link" href="/markets/">See the markets</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-reveal data-reveal-delay="2">
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Tools</span></div>
+            <h3><a href="/tools/str-revenue-calculator/">STR Revenue Calculator</a></h3>
+            <p>Model gross revenue, a full operating expense build, debt service, cash-on-cash return, and the year-one cost segregation position as you type.</p>
+            <a class="post-link" href="/tools/str-revenue-calculator/">Open the calculator</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-reveal>
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Guides</span></div>
+            <h3><a href="/guides/">Operational Guides</a></h3>
+            <p>Furnishing and design for revenue rather than taste, plus the standard operating procedures that keep a property performing when you are unavailable.</p>
+            <a class="post-link" href="/guides/">Read the guides</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-reveal data-reveal-delay="1">
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Data</span></div>
+            <h3><a href="/data/average-str-revenue-by-market/">Revenue &amp; Occupancy Data</a></h3>
+            <p>Estimated 2026 revenue, nightly rate, and occupancy across every market we track, plus the revenue-to-price ratio that decides which ones pencil.</p>
+            <a class="post-link" href="/data/">See the data</a>
+          </div>
+        </article>
+
+        <article class="post-card" data-reveal data-reveal-delay="2">
+          <div class="post-body">
+            <div class="post-meta"><span class="post-cat">Free Resource</span></div>
+            <h3><a href="/guides/str-market-analysis-report/">Free Market Analysis</a></h3>
+            <p>Tell us the market you are considering and we will build a written analysis: comps, seasonality, reserve implications, and an honest verdict.</p>
+            <a class="post-link" href="/guides/str-market-analysis-report/">Request yours</a>
           </div>
         </article>
 
@@ -1489,47 +1649,87 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a class="logo" href="/">
-          <span class="logo-mark">BA</span>
+          <span class="logo-mark" aria-hidden="true">BA</span>
           <span class="logo-text">BNB Accelerator</span>
         </a>
         <p>Done-for-you short-term rental acquisition for high-income earners. Find it, buy it, launch it, without giving up your career.</p>
+        <p class="footer-proof"><strong>500+</strong> homes closed &middot; <strong>260+</strong> clients &middot; <strong>4.5/5</strong> on Trustpilot</p>
       </div>
       <div class="footer-col">
-        <h4>Company</h4>
+        <h2>Company</h2>
         <ul>
           <li><a href="/how-it-works/">How It Works</a></li>
           <li><a href="/markets/">Markets</a></li>
           <li><a href="/case-studies/">Case Studies</a></li>
           <li><a href="/testimonials/">Testimonials</a></li>
           <li><a href="/compare/">Compare</a></li>
+          <li><a href="/partners/">Partners</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Resources</h4>
+        <h2>Start here</h2>
+        <ul>
+          <li><a href="/blog/short-term-rental-investing-2026/">STR Investing 2026</a></li>
+          <li><a href="/blog/how-to-start-airbnb-business/">Start an Airbnb Business</a></li>
+          <li><a href="/blog/airbnb-investment-strategy/">Investment Strategy</a></li>
+          <li><a href="/blog/short-term-rental-financing/">Financing Options</a></li>
+          <li><a href="/blog/short-term-rental-market-analysis/">Market Analysis</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Tax strategy</h2>
+        <ul>
+          <li><a href="/tax-strategy/">STR Tax Strategy</a></li>
+          <li><a href="/blog/str-tax-savings-guide/">Tax Benefits &amp; Cost Seg</a></li>
+          <li><a href="/blog/material-participation-str/">Material Participation</a></li>
+          <li><a href="/blog/7-day-rule-explained/">The Seven Day Rule</a></li>
+          <li><a href="/blog/cost-segregation-airbnb/">Cost Segregation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Tools &amp; data</h2>
+        <ul>
+          <li><a href="/tools/str-revenue-calculator/">Revenue Calculator</a></li>
+          <li><a href="/data/average-str-revenue-by-market/">Revenue by Market</a></li>
+          <li><a href="/data/str-occupancy-rates-2026/">Occupancy Rates 2026</a></li>
+          <li><a href="/guides/str-market-analysis-report/">Free Market Analysis</a></li>
+          <li><a href="/guides/str-tax-savings-checklist/">Tax Savings Checklist</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Resources</h2>
         <ul>
           <li><a href="/blog/">Blog</a></li>
+          <li><a href="/answers/">Answers</a></li>
+          <li><a href="/guides/">Guides</a></li>
+          <li><a href="/data/">Market Data</a></li>
+          <li><a href="/tools/">Tools</a></li>
           <li><a href="/faq/">FAQ</a></li>
-          <li><a href="/tax-strategy/">Tax Strategy</a></li>
           <li><a href="/apply/">Apply</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Partners</h4>
-        <ul>
-          <li><a href="https://aetaxadvisors.com/" target="_blank" rel="noopener">AE Tax Advisors</a></li>
-          <li><a href="https://aetaxadvisors.com/short-term-rentals/" target="_blank" rel="noopener">STR Tax Strategy</a></li>
-          <li><a href="https://aetaxadvisors.com/cost-segregation-landing/" target="_blank" rel="noopener">Cost Segregation</a></li>
+          <li><a href="/sitemap/">Site Index</a></li>
         </ul>
       </div>
     </div>
+
     <div class="footer-bottom">
       <span>&copy; <span data-year>2026</span> My BnB Accelerator, LLC. All rights reserved.</span>
-      <address>3635 Montana Ave, Billings, MT 59101</address>
+      <address>3635 Montana Ave, Billings, MT 59101 &middot; Serving clients nationwide</address>
     </div>
-    <p class="disclaimer">My BnB Accelerator, LLC is not a licensed tax, legal, or investment advisory firm. Nothing on this site is tax, legal, or investment advice, and no result described here is a guarantee of future performance. Real estate involves risk, including loss of principal. Tax outcomes depend entirely on your individual facts and circumstances, consult your own CPA or attorney before acting. AE Tax Advisors is an independent partner firm and is not owned by or affiliated with My BnB Accelerator, LLC beyond a referral relationship. Client results shown are actual outcomes for specific properties and are not typical or promised.</p>
+
+    <p class="disclaimer">My BnB Accelerator, LLC is not a licensed tax, legal, or investment advisory firm. Nothing on this site is tax, legal, or investment advice, and no result described here is a guarantee of future performance. Real estate involves risk, including loss of principal. Tax outcomes depend entirely on your individual facts and circumstances, so consult your own CPA or attorney before acting. AE Tax Advisors is an independent partner firm and is not owned by or affiliated with My BnB Accelerator, LLC beyond a referral relationship. Client results shown are actual outcomes for specific properties and are not typical or promised. Revenue and occupancy figures are estimates for illustration and are not projections for any specific property.</p>
   </div>
 </footer>
 
-<script src="/assets/main.js" defer></script>
+<div class="sticky-cta" data-sticky-cta>
+  <div class="sticky-cta-inner">
+    <div class="sticky-cta-text">
+      <strong>Ready to run your numbers?</strong>
+      <span>Free strategy call &middot; No obligation</span>
+    </div>
+    <a class="btn btn-accent btn-sm" href="/apply/">Book a Call</a>
+  </div>
+</div>
+
+<script src="/assets/main.js?v=36bec762" defer></script>
 </body>
 </html>

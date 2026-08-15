@@ -8,34 +8,52 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mybnbaccelerator.com/apply/</loc>
+    <loc>https://mybnbaccelerator.com/answers/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/apply/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/</loc>
     <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/case-studies/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/data/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/faq/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/guides/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/how-it-works/</loc>
@@ -46,8 +64,20 @@
   <url>
     <loc>https://mybnbaccelerator.com/markets/</loc>
     <lastmod>2026-08-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/partners/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/sitemap/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/tax-strategy/</loc>
@@ -59,907 +89,1135 @@
     <loc>https://mybnbaccelerator.com/testimonials/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/tools/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/austin/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/big-bear/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/branson/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/broken-bow/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/cape-coral/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/denver/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/destin/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/gatlinburg/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/gulf-shores/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/joshua-tree/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/kissimmee/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/lake-tahoe/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/nashville/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/panama-city-beach/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/park-city/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/phoenix-mesa/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/poconos/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/scottsdale/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/sedona/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/markets/smoky-mountains/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/tools/str-revenue-calculator/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/guides/str-furnishing-design-guide/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/guides/str-market-analysis-report/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/guides/str-property-management-sop/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/guides/str-tax-savings-checklist/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/data/average-str-revenue-by-market/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/data/str-occupancy-rates-2026/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/can-airbnb-losses-offset-w2-income/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/is-airbnb-passive-income/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/what-is-a-good-cap-rate-for-airbnb/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/what-is-a-short-term-rental/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/what-is-adr-in-short-term-rentals/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/what-is-cost-segregation/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/what-is-revpar/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/answers/what-is-the-str-loophole/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/best-airbnb-coaching-programs/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/best-done-for-you-airbnb-companies/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/best-states-for-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/best-str-financing-options/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/best-str-investing-programs/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/best-str-markets-for-cash-flow/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/bnb-accelerator-vs-airbnb-arbitrage/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/bnb-accelerator-vs-bnb-mastery/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/bnb-accelerator-vs-diy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/bnb-accelerator-vs-property-manager/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/bnb-accelerator-vs-real-estate-agent/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/bnb-accelerator-vs-robuilt/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/compare/bnb-accelerator-vs-turnkey-providers/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/1031-exchange-short-term-rental/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/20k-cash-flow-single-month/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/7-day-rule-explained/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-1099-reporting/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-amenities-that-increase-revenue/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-arbitrage-vs-ownership/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-automation-tools/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-cancellation-policy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-cash-on-cash-return/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-cleaning-turnover-systems/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-dynamic-pricing-tools/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-guest-experience/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-guest-screening-damage/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-hot-tub-roi/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-insurance-guide/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-investment-strategy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-listing-optimization/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-minimum-stay-strategy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-neighbors-and-noise/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-occupancy-rates-explained/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-photography-tips/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-pricing-strategy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-property-management/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-revenue-projections/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-self-employment-tax/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-supplies-checklist/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-vs-long-term-rental-roi/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-vs-long-term-rentals/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-vs-stock-market/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/blog/airbnb-vs-vrbo-vs-booking/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/airbnb-vs-vrbo/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/arizona-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/augusta-rule-14-day-rental/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/austin-texas-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/best-airbnb-markets-2026/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/best-airbnb-markets-for-beginners/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/bnb-accelerator-vs-diy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/bonus-depreciation-str-2026/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/branson-missouri-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/broken-bow-oklahoma-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/buy-existing-airbnb-vs-start-from-scratch/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/buying-airbnb-out-of-state/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/case-study-dentist-two-properties/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/case-study-equity-event-tax-offset/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/case-study-physician-first-str/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/choosing-cost-segregation-firm/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/cohosting-vs-self-managing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/colorado-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/cost-segregation-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/denver-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/depreciation-recapture-str/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/destin-florida-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/direct-booking-website/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/done-for-you-airbnb-model/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/dscr-loans-for-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/find-airbnb-property-manager/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/first-90-days-airbnb-launch/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/florida-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/fort-walton-beach-airbnb-investing/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/blog/furnished-vs-unfurnished-rental/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/gilbert-chandler-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-long-until-airbnb-profitable/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-much-do-airbnb-hosts-make/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-much-money-to-start-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-to-analyze-airbnb-deal/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-to-buy-first-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-to-choose-str-market/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-to-finance-airbnb-investment-property/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-to-furnish-an-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-to-get-5-star-reviews/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/how-to-start-airbnb-business/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/interest-rates-str-returns/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/is-airbnb-still-profitable/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/is-bnb-accelerator-worth-it/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/jacksonville-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/jim-thorpe-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/johnson-city-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/lake-harmony-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/large-group-str-strategy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/llc-for-short-term-rental/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/look-back-cost-segregation-study/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/material-participation-str/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/mesa-arizona-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/missouri-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/multi-platform-listing-strategy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/nashville-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/negotiating-airbnb-purchase/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/oklahoma-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/orlando-davenport-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/panama-city-beach-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/pennsylvania-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/pet-friendly-airbnb-strategy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/poconos-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/qbi-deduction-short-term-rentals/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/reverse-offset-method-explained/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/scale-from-1-to-10-airbnbs/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/scottsdale-airbnb-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/second-home-vs-investment-property/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/sevierville-gatlinburg-airbnb/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/short-term-rental-financing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/short-term-rental-investing-2026/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/short-term-rental-market-analysis/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/short-term-rental-tax-deductions/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/spouse-material-participation/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/state-tax-conformity-str/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-bookkeeping-records/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-capex-planning/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-cash-out-refinance/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-cash-reserves-seasonality/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-due-diligence-checklist/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-exit-strategy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-investing-for-attorneys/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-investing-for-business-owners/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-investing-for-executives/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-investing-for-physicians/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-investing-for-practice-owners/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-investing-glossary/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-investing-mistakes/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-long-hold-basis-planning/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-loophole-vs-reps/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-market-research-tools/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-market-saturation/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-partnership-structure/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-personal-use-days/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-portfolio-diversification/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-property-management-fees/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-regulations-before-you-buy/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-tax-documentation-audit/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-tax-planning-calendar/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-tax-savings-guide/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-utilities-and-connectivity/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-vs-midterm-rentals/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/str-vs-real-estate-syndications/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/suspended-passive-losses/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/switching-property-managers/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/tennessee-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/texas-str-investing/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/w2-to-wealth-str-portfolio/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/blog/why-not-california/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.65</priority>
   </url>
 
 </urlset>
