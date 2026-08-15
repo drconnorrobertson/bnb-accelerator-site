@@ -702,12 +702,13 @@ MARKET_PATH = {
 
 # Optional per-landing assets. Fill these in as they become available and the
 # section renders itself; leave a slug out and the page simply omits it.
-#   PHOTOS[slug]   = ("/assets/case-studies/<file>.jpg", "alt text", width, height)
-#   AIRBNB[slug]   = "https://www.airbnb.com/rooms/..."
-#   PROFORMA[slug] = "/assets/proformas/<file>.pdf"
+#   PHOTOS[slug] = ("/assets/case-studies/<file>.jpg", "alt text", width, height)
+#   AIRBNB[slug] = "https://www.airbnb.com/rooms/..."
+#
+# There is no proforma link and there should not be one. Deal data lives on the
+# page as a table, not behind a link to a spreadsheet somebody has to open.
 PHOTOS = {}
 AIRBNB = {}
-PROFORMA = {}
 
 # Site-standard illustration, matching /tools/str-revenue-calculator/ defaults:
 # a cost segregation study reclassifies roughly a quarter of purchase price into
@@ -886,17 +887,63 @@ def tax_panel(r):
           <li><span class="k">Illustrative year-one deduction</span><span class="v green">{usd(ded)}</span></li>
           <li><span class="k">Illustrative tax reduction at 40%</span><span class="v green">{usd(saving)}</span></li>
         </ul>
-        <div class="callout warn">
-          <p>Those two figures are an illustration, not this client's tax return. They apply the
-          same assumptions as our <a href="/tools/str-revenue-calculator/">revenue calculator</a>:
-          a study reclassifying a quarter of purchase price into shorter lives, and a 40% combined
-          federal and state marginal rate. The real number depends on the study, the bonus
-          depreciation percentage for the year the property was placed in service, your rate, and
-          whether you meet the <a href="/tax-strategy/7-day-rule/">seven day average stay test</a>
-          and <a href="/tax-strategy/material-participation/">materially participate</a>.
-          My BnB Accelerator, LLC is not a CPA firm.</p>
-        </div>
+        <p class="small text-muted">An illustration, not this client's return: 25% of price
+        reclassified at a 40% marginal rate, the same assumptions as our
+        <a href="/tools/str-revenue-calculator/">calculator</a>. Your number depends on your study,
+        your rate, and meeting the <a href="/tax-strategy/7-day-rule/">seven day</a> and
+        <a href="/tax-strategy/material-participation/">material participation</a> tests. We are
+        not a CPA firm.</p>
 """
+
+
+def big_numbers(r):
+    """The five figures a buyer actually reads, in the order they read them.
+
+    A portfolio page keeps its own headline metrics rather than aggregating the
+    tracker: summing entry cost across two tracked properties while showing a
+    purchase price that covers three would read as one deal and be wrong.
+    """
+    price = price_num(r["price"])
+    ds = r["deals"]
+    out, seen = [], set()
+
+    def add(k, v, green=False):
+        v = str(v)
+        if v in seen:
+            return
+        seen.add(v)
+        out.append((k, v, green))
+
+    if ds and not r.get("properties"):
+        # The tracker's own cash-on-cash figure, never a recomputed one: its
+        # denominator is the cash the client actually had at risk.
+        coc = (f'{ds[0]["coc"]:.2f}%' if len(ds) == 1 else
+               f'{sum(d["coc"] for d in ds) / len(ds):.2f}% avg')
+        add("Purchase price", usd(price or sum(d["price"] for d in ds)))
+        add("Total entry", usd(sum(d["entry"] for d in ds)))
+        add("Annual cash flow", usd(sum(d["cash_flow"] for d in ds)), True)
+        add("Cash-on-cash", coc, True)
+    else:
+        # "$2,324,900 across two properties" is a sentence, not a stat.
+        if price:
+            add("Combined price" if r.get("properties") else "Purchase price", usd(price))
+        for k, v, g in r["metrics"]:
+            # A market name is not a number and does not belong in this band.
+            if any(c.isdigit() for c in str(v)):
+                add(k, v, g)
+        if len(out) < 3:
+            # Nothing numeric was published for this one. Say what is known
+            # rather than leading the page with "Not published".
+            for k, v, g in r["metrics"]:
+                add(k, v, g)
+    if price:
+        add("Year-one tax reduction", usd(price * COST_SEG_PCT * MARGINAL_RATE), True)
+
+    cells = "".join(
+        f'<div class="big-stat"><span class="big-stat-val{" green" if g else ""}">'
+        f'{tpl.esc(v)}</span><span class="big-stat-key">{tpl.esc(k)}</span></div>'
+        for k, v, g in out[:5])
+    return f'      <div class="big-stats">{cells}</div>'
 
 
 def hero_visual(r):
@@ -955,14 +1002,16 @@ def links_panel(r, all_recs):
 
 
 def render_landing(r, all_recs):
+    """One deal, read top to bottom in about eight seconds.
+
+    Numbers first, one sentence of context, a call to action, then the deal
+    table. The narrative and the FAQ sit behind disclosures: they are worth
+    having on the page for the reader who wants them and for search, and they
+    are not worth putting between a visitor and the booking button.
+    """
     url = f"{tpl.SITE}/case-studies/{r['slug']}/"
     trail = [("Home", "/"), ("Case Studies", "/case-studies/"),
              (f"{r['name']}, {r['city']}", f"/case-studies/{r['slug']}/")]
-
-    metrics = "\n".join(
-        f'            <div class="metric"><span class="metric-key">{k}</span>'
-        f'<span class="metric-val{" green" if g else ""}">{v}</span></div>'
-        for k, v, g in r["metrics"])
 
     props = ""
     if r.get("properties"):
@@ -980,31 +1029,13 @@ def render_landing(r, all_recs):
         </div>
 """
 
-    beds = (f'          <li><span class="k">Bedrooms</span><span class="v">{r["beds"]}</span></li>\n'
-            if r["beds"] else "")
-    # The tracker panel below repeats the price with the rest of the breakdown.
-    price_row = ("" if r["deals"] else
-                 f'          <li><span class="k">Purchase price</span>'
-                 f'<span class="v">{r["price"]}</span></li>\n')
-    ext = []
+    airbnb = ""
     if AIRBNB.get(r["slug"]):
-        ext.append(f'<a class="btn btn-outline btn-sm" href="{AIRBNB[r["slug"]]}" '
-                   f'target="_blank" rel="noopener nofollow">View the Airbnb listing</a>')
-    if PROFORMA.get(r["slug"]):
-        ext.append(f'<a class="btn btn-outline btn-sm" href="{PROFORMA[r["slug"]]}">'
-                   f'See the proforma</a>')
-    ext.append('<a class="btn btn-outline btn-sm" href="/tools/str-revenue-calculator/">'
-               'Run these numbers yourself</a>')
-    ext_html = f'        <div class="btn-row">{"".join(ext)}</div>\n'
+        airbnb = (f'        <p><a class="btn btn-outline btn-sm" href="{AIRBNB[r["slug"]]}" '
+                  f'target="_blank" rel="noopener nofollow">View the Airbnb listing</a></p>\n')
 
-    # On a tracker-only page the metric band would repeat the table above it.
-    numbers = "" if r["kind"] == "deal" else f"""        <h2 id="numbers">The numbers</h2>
-        <div class="metrics">
-{metrics}
-        </div>
-"""
-
-    body_html = "\n\n".join(f"        <p>{p}</p>" for p in r["body"])
+    beds = f", {r['beds']} bedrooms" if r["beds"] else ""
+    story = "\n".join(f"          <p>{p}</p>" for p in r["body"])
 
     schema = tpl.graph(
         tpl.breadcrumb_schema([(n, p) for n, p in trail]),
@@ -1012,6 +1043,12 @@ def render_landing(r, all_recs):
     ) + "\n" + tpl.article_schema(
         r["headline"], r["summary"], url, PUBLISHED, section="Client Case Study"
     ) + "\n" + tpl.faq_schema(r["faqs"])
+
+    faq_items = "\n".join(
+        f"""            <div class="faq-group">
+              <h3>{q}</h3>
+              <div class="faq-answer"><p>{a}</p></div>
+            </div>""" for q, a in r["faqs"])
 
     body = f"""
   <section class="hero hero-page">
@@ -1021,7 +1058,7 @@ def render_landing(r, all_recs):
         <span class="eyebrow">Case Study &middot; {r["category"]}</span>
         <h1>{r["headline"]}</h1>
         <div class="article-meta">
-          <span>{r["name"]}</span><span>&middot;</span><span>{r["market"]}</span><span>&middot;</span><span>{r["prop_type"]}</span>
+          <span>{r["name"]}</span><span>&middot;</span><span>{r["market"]}</span><span>&middot;</span><span>{r["prop_type"]}{beds}</span>
         </div>
       </div>
     </div>
@@ -1029,56 +1066,41 @@ def render_landing(r, all_recs):
 
   <section class="section-sm">
     <div class="wrap">
+{big_numbers(r)}
+      <p class="case-line">{r["result"]}</p>
+      <div class="btn-row">
+        <a class="btn btn-accent btn-lg" href="/apply/">Book a Call</a>
+        <a class="btn btn-outline btn-lg" href="/case-studies/">See more deals</a>
+      </div>
 {hero_visual(r)}
     </div>
   </section>
 
-  <section>
+  <section class="bg-alt">
     <div class="wrap">
       <article class="article">
+{props}{deal_panel(r)}
+{airbnb}{tax_panel(r)}
+        <details class="disclose">
+          <summary>The full story</summary>
+{story}
+        </details>
 
-        <p class="lead">{r["summary"]}</p>
-
-        <h2 id="property">The property</h2>
-        <ul class="spec-list">
-          <li><span class="k">Client</span><span class="v">{r["name"]}</span></li>
-          <li><span class="k">Property type</span><span class="v">{r["prop_type"]}</span></li>
-          <li><span class="k">Market</span><span class="v">{r["market"]}</span></li>
-{beds}{price_row}        </ul>
-        <p class="small text-muted">We publish the market, not the street address. A first name,
-        a market and a set of numbers is as far as our clients have authorized us to go.</p>
-{ext_html}{props}
-{deal_panel(r)}
-{numbers}
-        <div class="result-banner">
-          <strong>Result:</strong> {r["result"]}
-        </div>
-
-{tax_panel(r)}
-        <div class="callout warn">
-          <p>One documented outcome for one property, published because the numbers are
-          verifiable. Not typical, not a projection, not a promise. Real estate involves risk,
-          including loss of principal.</p>
-        </div>
-
-        <h2 id="what-happened">What happened</h2>
-
-{body_html}
+        <details class="disclose">
+          <summary>Questions about this deal</summary>
+{faq_items}
+        </details>
 
 {links_panel(r, all_recs)}
-
-{tpl.faq_html(r["faqs"])}
-
-{tpl.AUTHOR_BOX}
 
       </article>
     </div>
   </section>
 {tpl.cta_band(
-    "Book a call and run your own numbers",
-    "Tell us your income, your timeline and your tax position. We will tell you whether this strategy fits before you look at a single listing.",
+    "Want numbers like these on your own deal?",
+    "One call. We will tell you what your income, timeline and tax position can actually buy.",
     ("/apply/", "Book a Call"),
-    ("/case-studies/", "See all case studies"))}"""
+    ("/case-studies/", "See all deals"))}"""
 
     return tpl.page(
         title=f"{r['name']}: {r['prop_type']}, {r['market']} | Case Study",

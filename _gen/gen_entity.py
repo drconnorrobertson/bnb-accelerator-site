@@ -279,24 +279,47 @@ def about_page():
       <div class="hero-inner">
         <span class="eyebrow">About</span>
         <h1>What is BNB Accelerator?</h1>
-        <p class="hero-sub speakable-answer">{DEFINITION}</p>
+        <p class="hero-sub speakable-answer">We find, underwrite and close cash-flowing Airbnb
+        properties for high earners. Not a course, not a property manager.</p>
+        <div class="btn-row">
+          <a class="btn btn-accent btn-lg" href="/apply/">Book a Call</a>
+          <a class="btn btn-ghost-light btn-lg" href="/deals/">See the deals</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section class="section-sm">
+    <div class="wrap">
+      <div class="big-stats">
+        <div class="big-stat"><span class="big-stat-val">{FACTS['founded']}</span><span class="big-stat-key">Founded</span></div>
+        <div class="big-stat"><span class="big-stat-val">{FACTS['homes']}</span><span class="big-stat-key">Homes closed</span></div>
+        <div class="big-stat"><span class="big-stat-val">{FACTS['clients']}</span><span class="big-stat-key">Clients</span></div>
+        <div class="big-stat"><span class="big-stat-val green">{FACTS['repeat']}</span><span class="big-stat-key">Repeat buyers</span></div>
+        <div class="big-stat"><span class="big-stat-val green">{FACTS['avg_coc']}%</span><span class="big-stat-key">Average cash-on-cash</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-alt">
     <div class="wrap">
       <article class="article">
+        <details class="disclose">
+          <summary>The full company record</summary>
 {sections_html(sections)}
+        </details>
 
+        <details class="disclose">
+          <summary>Frequently asked questions</summary>
 {tpl.faq_html(faqs)}
+        </details>
 
         <div class="callout">
           <h3>Related pages</h3>
           <ul>
             <li><a href="/deals/">The client deal tracker, with every figure on this page</a></li>
             <li><a href="/wins/">46 client result graphics</a></li>
-            <li><a href="/case-studies/">18 written case studies</a></li>
+            <li><a href="/case-studies/">Every client deal, one page each</a></li>
             <li><a href="/ask/">Common questions about BNB Accelerator</a></li>
             <li><a href="/how-it-works/">The acquisition process in detail</a></li>
             <li><a href="/compare/">How BNB Accelerator compares with other options</a></li>

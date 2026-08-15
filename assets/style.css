@@ -2476,3 +2476,82 @@ body.blog .section-heading:first-of-type { margin-top: 8px; }
   .metric { text-align: left; display: flex; justify-content: space-between; align-items: baseline; }
   .metric-key { margin-top: 0; }
 }
+
+/* ------------------------------------------------- Numbers-first proof -- */
+/* The five figures at the top of a case study. These are the page: they are
+   sized so a phone reader can take them in without stopping to read. */
+.big-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+.big-stat {
+  background: var(--white);
+  padding: 22px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.big-stat-val {
+  font-size: clamp(1.45rem, 4.6vw, 1.85rem);
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: var(--dark);
+  font-variant-numeric: tabular-nums;
+}
+.big-stat-val.green { color: var(--accent-dark); }
+.big-stat-key {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+.case-line {
+  font-size: 1.06rem;
+  color: var(--text-muted);
+  margin-bottom: 22px;
+  max-width: 62ch;
+}
+
+/* Prose that earns its place only for the reader who asks for it. */
+.disclose {
+  border-top: 1px solid var(--border);
+  padding: 18px 0;
+}
+.disclose > summary {
+  cursor: pointer;
+  font-weight: 650;
+  font-size: 1rem;
+  color: var(--dark);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.disclose > summary::-webkit-details-marker { display: none; }
+.disclose > summary::after {
+  content: "+";
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--text-light);
+  line-height: 1;
+}
+.disclose[open] > summary::after { content: "\2212"; }
+.disclose[open] > summary { margin-bottom: 14px; }
+.disclose p { color: var(--text-muted); }
+
+@media (max-width: 640px) {
+  .big-stats { grid-template-columns: repeat(2, 1fr); }
+  .big-stat { padding: 16px 14px; }
+  .big-stat:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .case-line { font-size: 1rem; }
+}

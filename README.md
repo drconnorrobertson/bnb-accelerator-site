@@ -82,11 +82,21 @@ return. It applies the same assumptions as `/tools/str-revenue-calculator/`:
 combined marginal rate. `COST_SEG_PCT` and `MARGINAL_RATE` in
 `_gen/case_studies.py` are the single source for both figures.
 
-Photos, Airbnb listing links and proformas are wired but empty. Fill in
-`PHOTOS`, `AIRBNB` or `PROFORMA` in `_gen/case_studies.py`, keyed by landing
-slug, and the section renders itself; leave a slug out and the page omits it.
-Until a photo exists, the page heads with a generated plate of the deal's three
-headline numbers.
+Each landing page is built to be read in about eight seconds: five figures in
+large type (purchase price, total entry, annual cash flow, cash-on-cash,
+illustrative year-one tax reduction), one sentence, a Book a Call button, then
+the deal table. The narrative and the FAQ sit behind `<details>` disclosures,
+so they are on the page for the reader who wants them and for search without
+standing between a visitor and the button.
+
+Deal data is always a table on the page. There are no links out to a
+spreadsheet, a Drive file or a hosted proforma, and none should be added: if a
+number is worth showing, it is worth rendering in HTML.
+
+Photos and Airbnb listing links are wired but empty. Fill in `PHOTOS` or
+`AIRBNB` in `_gen/case_studies.py`, keyed by landing slug, and the section
+renders itself; leave a slug out and the page omits it. Until a photo exists,
+the page heads with a generated plate of the deal's three headline numbers.
 
 ### Client privacy
 
@@ -151,8 +161,30 @@ python3 build_assets.py             # minify and stamp asset hashes
 ```
 
 Order matters in two places: `crosslink_markets.py` reads the landing pages out
-of `case_studies.py`, so case studies run first, and `llm_pass.py` rewrites the
-opening paragraph of the hub pages, so it runs after everything that writes one.
+of `case_studies.py`, so case studies run first, and `llm_pass.py` writes the
+opening paragraph of the reference hubs, so it runs after everything that
+writes one.
+
+## Conversion pages and reference pages
+
+The site splits in two, and the split is enforced in code by the `CONVERSION`
+set in `_gen/llm_pass.py`.
+
+**Conversion pages** are home, case studies, wins, testimonials, about and the
+service pages. Their job is proof: client wins, deal numbers, real returns, with
+a Book a Call button always in reach. They lead with figures, not prose. The
+direct-answer block never goes on them, and `llm_pass.py` strips it if it finds
+one, because a paragraph of explanation between the headline and the call to
+action is the one thing that cannot sit there.
+
+**Reference pages** are the blog, `/answers/`, `/guides/`, `/data/`, `/tools/`,
+`/topics/`, `/regulations/`, `/partners/` and `/faq/`. They carry the direct
+answer blocks, the long-form explanation and the search surface area. Text-heavy
+is correct there.
+
+A previous pass put the reference treatment on the conversion pages and cost
+them their clean first screen. If a change would add a paragraph above the fold
+on a conversion page, it belongs on a reference page instead.
 
 `run_archive.py` is the entry point for anything blog-related. It regenerates
 all 453 posts, assigns their dates, builds the ten cluster pillars and rewrites

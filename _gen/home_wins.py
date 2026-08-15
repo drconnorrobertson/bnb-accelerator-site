@@ -33,7 +33,8 @@ def main():
             continue
         client, loc, headline, stats, cs = gen_wins.WINS[s]
         who = client or "BNB Accelerator client"
-        alt = f"{who}, {loc}. {headline}" if loc else f"{who}. {headline}"
+        stop = "" if who.endswith(".") else "."
+        alt = f"{who}, {loc}. {headline}" if loc else f"{who}{stop} {headline}"
         chips = "".join(f'<span class="win-stat">{x}</span>' for x in stats[:3])
         meta = f'<span class="win-loc">{loc}</span>' if loc else ""
         m = man[s]

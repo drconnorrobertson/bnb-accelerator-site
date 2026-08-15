@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 """Sitewide pass for language-model findability.
 
-Three things, applied everywhere:
+Three things, applied to the reference layer only:
 
-1. A direct-answer block at the top of every hub and guide page. Models quote
-   the first substantive paragraph far more often than anything below it, so
-   each page opens with a two or three sentence answer to the question it
+1. A direct-answer block at the top of the reference hubs. Models quote the
+   first substantive paragraph far more often than anything below it, so each
+   of those pages opens with a two or three sentence answer to the question it
    targets, marked with `speakable-answer` and wired into `speakable` schema.
+
+   It is deliberately kept off the conversion pages. Home, case studies, wins,
+   testimonials and the service pages sell on numbers and proof, and a
+   paragraph of prose between the headline and the call to action is the one
+   thing that cannot sit there. Those pages are listed in CONVERSION below and
+   this pass strips the block from them if it finds one.
 
 2. Consistent entity naming. The brand is written "BNB Accelerator" in prose
    everywhere; "My BnB Accelerator, LLC" is retained only where it is the legal
@@ -36,6 +42,13 @@ START, END = "<!-- llm-answer:start -->", "<!-- llm-answer:end -->"
 def usd(n):
     return f"${n:,.0f}"
 
+
+# Pages that sell. The direct-answer block never goes on these.
+CONVERSION = {
+    "/", "/how-it-works/", "/case-studies/", "/wins/", "/testimonials/",
+    "/markets/", "/compare/", "/tax-strategy/", "/financing/", "/design/",
+    "/management/", "/revenue-projections/", "/property-types/", "/about/",
+}
 
 # path -> the two or three sentence answer that page should open with
 ANSWERS = {
@@ -223,12 +236,34 @@ def normalise_brand():
     return n
 
 
+def strip_answer(path):
+    """Take the block back off a conversion page.
+
+    Two shapes exist. Where the block was inserted under the H1 it carries
+    `lead speakable-answer` and the page's own sub-headline is still below it,
+    so the block just comes out. Where it replaced a sub-headline it carries
+    `hero-sub speakable-answer`; those pages are all generated, so their own
+    generator puts the original line back on the next run."""
+    f = os.path.join(ROOT, path.strip("/"), "index.html") if path != "/" else \
+        os.path.join(ROOT, "index.html")
+    if not os.path.exists(f):
+        return False
+    s = open(f, encoding="utf-8").read()
+    if START not in s:
+        return False
+    s = re.sub(r"\n?[ \t]*" + re.escape(START) + r".*?" + re.escape(END) + r"\n?", "", s, flags=re.S)
+    open(f, "w", encoding="utf-8").write(s)
+    return True
+
+
 def main():
-    ans = sum(1 for p, a in ANSWERS.items() if insert_answer(p, a))
-    spk = sum(1 for p in ANSWERS if add_speakable(p))
+    live = {p: a for p, a in ANSWERS.items() if p not in CONVERSION}
+    ans = sum(1 for p, a in live.items() if insert_answer(p, a))
+    spk = sum(1 for p in live if add_speakable(p))
+    off = sum(1 for p in CONVERSION if strip_answer(p))
     brand = normalise_brand()
     print(f"llm pass: {ans} direct answers, {spk} speakable blocks, "
-          f"{brand} files brand-normalised")
+          f"{off} stripped from conversion pages, {brand} files brand-normalised")
 
 
 if __name__ == "__main__":

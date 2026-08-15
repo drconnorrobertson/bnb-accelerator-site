@@ -162,9 +162,9 @@ FEATURED = ["hari-m", "murali", "antonio-a", "sara-o",
 def card(slug, m, featured=False):
     client, loc, headline, stats, cs = WINS[slug]
     who = client or "BNB Accelerator client"
-    alt = f"{who} client result: {headline}"
-    if loc:
-        alt = f"{who}, {loc}. {headline}"
+    # who already ends in "." for initialled names; do not double the stop.
+    stop = "" if who.endswith(".") else "."
+    alt = f"{who}{stop} {headline}" if not loc else f"{who}, {loc}. {headline}"
     chips = "".join(f'<span class="win-stat">{s}</span>' for s in stats)
     meta = f'<span class="win-loc">{loc}</span>' if loc else ""
     link = (f'<a class="win-cs" href="/case-studies/{cs}/">Read the full case study</a>'
@@ -173,7 +173,7 @@ def card(slug, m, featured=False):
     return f"""        <figure class="{cls}" style="--win-bg:#{m['bg']}">
           <button class="win-shot" type="button" data-win-open
                   data-full="/assets/wins/{slug}.jpg"
-                  data-caption="{tpl.esc(who + (' - ' + loc if loc else '') + '. ' + headline)}"
+                  data-caption="{tpl.esc(alt)}"
                   aria-label="Enlarge: {tpl.esc(alt)}">
             <img src="/assets/wins/{slug}-card.jpg" alt="{tpl.esc(alt)}"
                  width="{m['card_w']}" height="{m['card_h']}" loading="lazy" decoding="async">
