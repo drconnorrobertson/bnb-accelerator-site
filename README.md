@@ -32,7 +32,7 @@ Vercel as-is.
 /testimonials/             Client quotes, Trustpilot
 /apply/                    Application form
 /compare/                  vs DIY / BNB Mastery / Robuilt / agents / managers
-/case-studies/<client>/    18 client case studies from the live site
+/case-studies/<client>/    32 client deal landing pages, one per documented deal
 /property-types/           beach, mountain, lake, city, ski, desert
 /regulations/<state>/      STR rules for 20 states
 /financing/                DSCR, conventional, down payments, entry cost
@@ -45,7 +45,7 @@ Vercel as-is.
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
-sitemap.xml                All 598 indexable URLs with lastmod and priority
+sitemap.xml                All 615 indexable URLs with lastmod and priority
 <key>.txt                  IndexNow key file
 build_assets.py            Minify CSS, stamp hashed asset URLs
 submit_indexnow.py         Submit sitemap URLs to IndexNow
@@ -56,28 +56,62 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-598 indexable pages: 453 blog posts, 46 client wins, 20 market earnings pages,
-20 state regulation pages, 18 client case studies, 25 comparison pages, ten topic
+615 indexable pages: 453 blog posts, 46 client wins, 20 market earnings pages,
+20 state regulation pages, 32 client case study landing pages, 25 comparison pages, ten topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a
 revenue calculator.
 
-The 18 case studies were taken from the client case studies page on the live
-site. Every client name, market, bedroom count, purchase price and cash flow
-figure comes from there. Where that page published property details without a
-revenue number, the case study says so rather than filling the gap.
+Every documented client deal has its own landing page at
+`/case-studies/<first-name><-last-initial>-<city>/`. Two sources feed them: the
+18 case studies taken from the live site's case studies page, and the 25 deals
+in the client deal tracker (`_gen/deals.json`). A tracker deal is folded into a
+case study when the client and the purchase price match, because the tracker
+carries the financials the case study never published: down payment, closing
+costs, design budget, total entry cost, annual cash flow and cash-on-cash
+return. The 14 tracker deals with no matching case study get a landing page of
+their own. That is 32 pages, grouped by market on the hub.
+
+Where a tracker record sits materially above the case study price for the same
+client and market, the page says so in one line rather than printing two
+unexplained prices.
+
+The tax figure on each landing page is an illustration, not a client tax
+return. It applies the same assumptions as `/tools/str-revenue-calculator/`:
+25% of purchase price reclassified by a cost segregation study, at a 40%
+combined marginal rate. `COST_SEG_PCT` and `MARGINAL_RATE` in
+`_gen/case_studies.py` are the single source for both figures.
+
+Photos, Airbnb listing links and proformas are wired but empty. Fill in
+`PHOTOS`, `AIRBNB` or `PROFORMA` in `_gen/case_studies.py`, keyed by landing
+slug, and the section renders itself; leave a slug out and the page omits it.
+Until a photo exists, the page heads with a generated plate of the deal's three
+headline numbers.
+
+### Client privacy
+
+No page publishes a client surname or a street address. Clients appear as a
+first name plus a last initial ("Dustin W."), and location resolves to a market,
+never an address. This holds in page copy, `<title>`, meta descriptions, schema,
+image alt text, image filenames and URLs.
+
+One gap remains that code cannot close: the 46 win graphics in `assets/wins/`
+are screenshots with the client's full name rendered into the image itself.
+Filenames and captions are initials, but the pixels are not. Closing that means
+re-exporting those graphics from the design source with initials, or pulling the
+gallery.
 
 ## Generators
 
 `_gen/` is the source of truth for everything generated. Regenerating is
-cheaper than hand-editing 598 files, and it is how the footer, the schema
+cheaper than hand-editing 615 files, and it is how the footer, the schema
 graph and the site index stay consistent.
 
 ```
 _gen/tpl.py                Shared page shell: head, header, footer, schema
 _gen/pillars.py            guide() and hub() renderers for section pages
 _gen/blog.py               Post renderer + blog index rebuilder
-_gen/case_studies.py       18 case studies + the hub
+_gen/case_studies.py       32 deal landing pages + the hub, merging deals.json
 _gen/gen_property_types.py 6 property type guides + hub
 _gen/gen_regulations.py    20 state pages + hub
 _gen/gen_playbooks.py      financing, design, management, revenue, tax sub-pages
@@ -100,11 +134,25 @@ _gen/sitewide.py           Stamps the footer everywhere, rebuilds sitemap.xml
 Run order after any content change:
 
 ```
-python3 _gen/run_archive.py      # every blog post + cluster pillars + blog index
-python3 _gen/sitewide.py         # footer + sitemap.xml
-python3 _gen/gen_site_index.py   # /sitemap/
-python3 build_assets.py          # minify and stamp asset hashes
+python3 _gen/run_archive.py         # every blog post + cluster pillars + blog index
+python3 _gen/case_studies.py        # 32 deal landing pages + the hub
+python3 _gen/gen_property_types.py  # 6 property type guides + hub
+python3 _gen/gen_regulations.py     # 20 state pages + hub
+python3 _gen/gen_playbooks.py       # financing, design, management, revenue, tax
+python3 _gen/gen_wins.py            # /wins/
+python3 _gen/home_wins.py           # the home page wins strip
+python3 _gen/gen_deals.py           # /deals/
+python3 _gen/gen_entity.py          # /about/, /ask/, llms.txt
+python3 _gen/crosslink_markets.py   # market pages -> case studies, blog, rules
+python3 _gen/llm_pass.py            # direct-answer + speakable blocks
+python3 _gen/sitewide.py            # footer + sitemap.xml
+python3 _gen/gen_site_index.py      # /sitemap/
+python3 build_assets.py             # minify and stamp asset hashes
 ```
+
+Order matters in two places: `crosslink_markets.py` reads the landing pages out
+of `case_studies.py`, so case studies run first, and `llm_pass.py` rewrites the
+opening paragraph of the hub pages, so it runs after everything that writes one.
 
 `run_archive.py` is the entry point for anything blog-related. It regenerates
 all 453 posts, assigns their dates, builds the ten cluster pillars and rewrites
@@ -130,7 +178,8 @@ date.
 ### Client wins
 
 `assets/wins/` holds 46 client result graphics, deduped from 93 files in
-Connor's Drive folder. They are designed compositions whose content is the text,
+Connor's Drive folder. Filenames carry a first name and a last initial, matching
+the privacy rule above; see the caveat about the names inside the images. They are designed compositions whose content is the text,
 so they are never cropped: the cards are a fixed 4:3 box with `object-fit:
 contain` over each graphic's own sampled edge colour. Captions in `gen_wins.py`
 are transcribed from the graphics, so every figure on the page is one the
@@ -139,6 +188,22 @@ client's own card already displays.
 Tax-related pages cross-link to aetaxadvisors.com per the partner arrangement,
 and `/partners/` states the boundary explicitly: we are an acquisition firm,
 not a CPA firm.
+
+## Mobile
+
+The phone is the default reading surface, so `assets/style.css` ends with two
+breakpoints (640px and 400px) that do the work: smaller heading and lead sizes,
+section padding down from 88px to 52px, card padding down from 32px to 22px,
+full-width stacked buttons, two-up then one-up metric bands, and a three-line
+clamp on card copy so a grid of cards stays scannable instead of turning into a
+wall of paragraphs. Card excerpts on the blog index are cut at 110 characters in
+`_gen/blog.py` rather than 160 for the same reason.
+
+Nothing scrolls horizontally at 390px. Wide tables sit inside `.table-scroll`
+and scroll within themselves. The check is one line of measurement rather than
+an eyeball: render each page in a 390px iframe and compare
+`documentElement.scrollWidth` against 390, and flag any element whose bounding
+box crosses the viewport edge outside a `.table-scroll`.
 
 ## SEO
 
@@ -225,16 +290,16 @@ Output Directory:  (leave empty / root)
 
 - [ ] **Point `mybnbaccelerator.com` at the Vercel deployment.** Blocks everything below.
 
-  Re-checked 15 August 2026, after the expansion to 598 pages: the apex domain
+  Re-checked 15 August 2026, after the expansion to 615 pages: the apex domain
   still serves the previous funnel site. Every path 301s to
   `https://mybnbaccelerator.com/home`, and the IndexNow key file returns 403
   there, so `submit_indexnow.py` correctly refuses the batch. It has not been
-  forced, and it should not be: submitting 598 URLs that redirect away is worse
+  forced, and it should not be: submitting 615 URLs that redirect away is worse
   than not submitting, because it teaches the participating engines that this
   host serves redirects.
 
   The Vercel deployment is live and current at
-  `https://bnb-accelerator-site.vercel.app/`, serving all 598 URLs including
+  `https://bnb-accelerator-site.vercel.app/`, serving all 615 URLs including
   the key file. Nothing else on this list can be finished until DNS moves.
 
 - [ ] Wire the `/apply/` form and the two `/guides/` lead-magnet forms to a real endpoint (GoHighLevel, Formspree, or a Vercel serverless function). Currently `assets/main.js` stores the submission in `sessionStorage` and shows a confirmation, it does **not** transmit anywhere.

@@ -134,7 +134,7 @@ POSTS = [
         related=[
             '<a href="/how-it-works/">How the acquisition process works</a>',
             '<a href="/blog/how-we-eliminate-98-percent-of-deals/">How we screen deals</a>',
-            '<a href="/case-studies/adam-sevierville-tn-4br/">Case study: a below-market Sevierville purchase</a>',
+            '<a href="/case-studies/adam-s-sevierville/">Case study: a below-market Sevierville purchase</a>',
             '<a href="/blog/negotiating-airbnb-purchase/">Negotiating the purchase</a>',
         ],
     ),
@@ -381,7 +381,7 @@ POSTS = [
             ]),
             ("What it looks like when it works", [
                 "By months nine to twelve, a well-run single property occupies a few hours a week: reviewing pricing, responding to the messages automation did not cover, coordinating anything that broke, and monthly bookkeeping.",
-                "Peter Eck has closed six properties with us across four years while working full time as an Associate Partner at IBM. That is not possible with a property that demands constant attention, and it is possible with properties that run on systems.",
+                "Peter E. has closed six properties with us across four years while working full time as an Associate Partner at IBM. That is not possible with a property that demands constant attention, and it is possible with properties that run on systems.",
                 "The point of the systems is not to eliminate the work but to make it predictable, which for someone with a demanding career is the entire value proposition.",
             ]),
         ],
@@ -430,12 +430,12 @@ POSTS = [
             ]),
             ("The refund loop and the timeline", [
                 "The mechanism that makes a three-property portfolio achievable faster than cash flow allows is the tax structure. A cost segregation study on a property meeting the seven-day average stay and material participation tests produces a first-year deduction that, at a high marginal rate, generates a refund.",
-                "That refund funds a substantial part of the next down payment. Peter Eck closed six properties in four years while working full time, and the pace is not achievable on cash flow accumulation.",
+                "That refund funds a substantial part of the next down payment. Peter E. closed six properties in four years while working full time, and the pace is not achievable on cash flow accumulation.",
                 "It depends on the marginal rate, the ability to meet the participation tests and the size of the purchase. This is an explanation rather than tax advice; confirm the specifics with your CPA before relying on it.",
             ]),
             ("Sequencing the markets", [
                 "The second property should draw from a different metro catchment and preferably peak in a different season. A Southwest Florida property peaking January through March pairs naturally with a Smokies cabin peaking June through October.",
-                "Joe S paired a Broken Bow cabin with a Destin beach house. Peter Eck paired a Dallas-area lake property with two Santa Rosa Beach properties. In both cases the second purchase was chosen partly for what it was not correlated with.",
+                "Joe S paired a Broken Bow cabin with a Destin beach house. Peter E. paired a Dallas-area lake property with two Santa Rosa Beach properties. In both cases the second purchase was chosen partly for what it was not correlated with.",
                 "The counterargument for concentration is operational familiarity, and it is strongest for the second property and weakest for the fourth. Two properties in a market you know is defensible; five is a regional bet.",
             ]),
             ("The honest stopping point", [
@@ -461,7 +461,7 @@ POSTS = [
             '<a href="/blog/the-refund-loop-explained/">The refund loop explained</a>',
             '<a href="/blog/scale-from-1-to-10-airbnbs/">Scaling a portfolio</a>',
             '<a href="/blog/single-metro-drive-market-risk/">Diversifying properly</a>',
-            '<a href="/case-studies/peter-eck-ibm-partner-six-properties/">Case study: six properties</a>',
+            '<a href="/case-studies/peter-e-santa-rosa-beach/">Case study: six properties</a>',
         ],
     ),
     dict(

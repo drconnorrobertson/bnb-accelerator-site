@@ -424,11 +424,15 @@ section { padding: 88px 0; }
   color: #fff;
   padding: 0;
 }
-.stats-grid {
+.stats-grid,
+div.stats-bar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0;
 }
+/* The hub pages use .stats-bar as a rounded panel inside a section rather
+   than as the full-bleed band, so it needs its own corners. */
+div.stats-bar { border-radius: var(--radius-lg); overflow: hidden; }
 .stat {
   padding: 46px 22px;
   text-align: center;
@@ -454,7 +458,7 @@ section { padding: 88px 0; }
   color: rgba(255,255,255,0.52);
 }
 @media (max-width: 780px) {
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid, div.stats-bar { grid-template-columns: repeat(2, 1fr); }
   .stat { border-bottom: 1px solid rgba(255,255,255,0.09); padding: 34px 16px; }
   .stat:nth-child(2n) { border-right: 0; }
   .stat:nth-child(n+3) { border-bottom: 0; }
@@ -2289,4 +2293,183 @@ body.blog .section-heading:first-of-type { margin-top: 8px; }
 @media (prefers-reduced-motion: reduce) {
   .deal-card { transition: none; }
   .deal-card:hover { transform: none; }
+}
+
+/* ------------------------------------------------ Case study landings -- */
+.case-photo { margin: 0; }
+.case-photo img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+.case-photo figcaption {
+  margin-top: 10px;
+  font-size: .86rem;
+  color: var(--text-light);
+}
+
+.case-plate {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(67,97,238,0.07), rgba(61,220,132,0.06));
+  padding: 26px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.case-plate-type {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.case-plate-market { font-size: 1.16rem; font-weight: 650; color: var(--dark); }
+.case-plate-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.case-plate-stat { display: flex; flex-direction: column; gap: 2px; }
+.case-plate-stat .k {
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+.case-plate-stat .v {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--dark);
+  font-variant-numeric: tabular-nums;
+}
+.case-plate-stat .v.green { color: var(--accent-dark); }
+
+.deal-block-head {
+  margin: 26px 0 10px;
+  font-size: 1.02rem;
+  color: var(--text-muted);
+}
+
+.market-group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 54px 0 20px;
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  scroll-margin-top: calc(var(--header-h) + 20px);
+}
+.market-group-head:first-of-type { margin-top: 0; }
+.market-group-count {
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.chip {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  font-size: .84rem;
+  font-weight: 550;
+  color: var(--text-muted);
+  background: var(--white);
+}
+.chip:hover { border-color: var(--primary); color: var(--primary); }
+
+/* ----------------------------------------------------- Phone layout -- */
+/* The site is read on a phone first. Everything below trades vertical
+   space and type size for scannability: shorter measure, tighter sections,
+   clamped card copy, and full-width tap targets. */
+@media (max-width: 640px) {
+  h1 { font-size: clamp(1.85rem, 7.2vw, 2.25rem); letter-spacing: -0.028em; }
+  h2 { font-size: clamp(1.42rem, 5.4vw, 1.75rem); }
+  h3 { font-size: 1.1rem; }
+
+  .wrap { padding: 0 18px; }
+  section { padding: 52px 0; }
+  .section-sm { padding: 36px 0; }
+  .section-lg { padding: 64px 0; }
+  .section-head { margin-bottom: 32px; }
+  .section-head p { font-size: 1rem; }
+
+  .hero-page { padding: calc(var(--header-h) + 30px) 0 42px; }
+  .hero h1, .hero-page h1 { max-width: none; }
+  .hero-sub, .lead { font-size: 1.02rem; line-height: 1.58; margin-bottom: 24px; }
+  .hero-sub { max-width: none; }
+
+  .grid { gap: 16px; }
+  .card, .case-card, .step, .quote-card { padding: 22px; }
+  .steps { gap: 16px; }
+
+  .article { font-size: 1rem; line-height: 1.68; }
+  .article h2 { margin-top: 1.75em; }
+  .article h3 { margin-top: 1.5em; }
+  .article p { margin-bottom: 1em; }
+
+  .btn-lg { padding: 15px 24px; font-size: .98rem; }
+  .btn-row { flex-direction: column; align-items: stretch; gap: 10px; }
+  .btn-row .btn { width: 100%; }
+
+  .metrics { grid-template-columns: repeat(2, 1fr); gap: 14px 10px; margin-top: 18px; padding-top: 18px; }
+  .case-plate { padding: 20px; }
+  .case-plate-stats { grid-template-columns: 1fr; gap: 10px; }
+  .case-plate-stat { flex-direction: row; justify-content: space-between; align-items: baseline; }
+
+  .spec-list { margin-bottom: 18px; }
+  .spec-list li { font-size: .88rem; padding: 9px 0; gap: 12px; }
+  .result-banner { padding: 15px 17px; font-size: .9rem; }
+  .callout { padding: 18px 18px 18px 20px; }
+
+  .market-group-head { margin: 38px 0 16px; }
+  .chip-row { margin-bottom: 28px; }
+
+  /* Card copy is a scan aid on a phone, not a paragraph to read. */
+  .case-card > p.text-muted,
+  .post-card .post-body > p,
+  .market-body > p,
+  .win-body > p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Dot separators strand themselves at the end of a wrapped line on a
+     narrow screen; the gap alone reads better. */
+  .article-meta { gap: 4px 14px; font-size: .84rem; }
+  .article-meta > span:nth-child(even) { display: none; }
+
+  /* Long currency figures blow a four-up stat band out past the viewport. */
+  .stat { padding: 26px 12px; }
+  .stat-num { font-size: clamp(1.35rem, 5.6vw, 2rem); }
+  .stat-label { font-size: .72rem; letter-spacing: .07em; }
+
+  .footer-grid { gap: 26px; }
+  .site-footer { padding-top: 48px; }
+  .disclaimer { font-size: .72rem; }
+}
+
+@media (max-width: 400px) {
+  .wrap { padding: 0 15px; }
+  section { padding: 44px 0; }
+  .card, .case-card, .step, .quote-card { padding: 18px; }
+  .spec-list li { font-size: .84rem; }
+  .metrics { grid-template-columns: 1fr; gap: 12px; }
+  .metric { text-align: left; display: flex; justify-content: space-between; align-items: baseline; }
+  .metric-key { margin-top: 0; }
 }

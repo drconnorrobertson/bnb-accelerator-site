@@ -2,28 +2,144 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/case-studies/victoria-sevierville-tn-9br-cabin",
+      "destination": "/case-studies/victoria-sevierville/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/peter-eck-ibm-partner-six-properties",
+      "destination": "/case-studies/peter-e-santa-rosa-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/ashley-billy-fort-walton-beach-fl",
+      "destination": "/case-studies/ashley-billy-fort-walton-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/antonio-fort-myers-fl-6br",
+      "destination": "/case-studies/antonio-fort-myers/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/shardul-mayanka-panama-city-beach-fl",
+      "destination": "/case-studies/shardul-mayanka-panama-city-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/julie-pocono-lake-pa-5br",
+      "destination": "/case-studies/julie-pocono-lake/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/vishal-sevierville-tn-5br",
+      "destination": "/case-studies/vishal-sevierville/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/mahmoud-nashville-tn-4br",
+      "destination": "/case-studies/mahmoud-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/krystin-michael-nashville-tn-4br",
+      "destination": "/case-studies/krystin-michael-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/jason-marissa-champions-gate-fl-8br",
+      "destination": "/case-studies/jason-marissa-champions-gate/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/naveen-davenport-fl-8br",
+      "destination": "/case-studies/naveen-davenport/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/laxman-sabitri-johnson-city-tx-6br",
+      "destination": "/case-studies/laxman-sabitri-johnson-city/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/dustin-branson-west-mo-8br",
+      "destination": "/case-studies/dustin-w-branson-west/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/alfredo-millie-sevierville-tn-4br",
+      "destination": "/case-studies/alfredo-millie-n-sevierville/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/joe-s-broken-bow-ok-and-destin-fl",
+      "destination": "/case-studies/joe-s-broken-bow/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/mark-farrah-destin-fl-4br",
+      "destination": "/case-studies/mark-farrah-destin/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/tiffany-destin-fl-5br",
+      "destination": "/case-studies/tiffany-destin/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/adam-sevierville-tn-4br",
+      "destination": "/case-studies/adam-s-sevierville/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(), microphone=(), camera=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
       ]
     },
     {
       "source": "/sitemap.xml",
       "headers": [
-        { "key": "Content-Type", "value": "application/xml" },
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        {
+          "key": "Content-Type",
+          "value": "application/xml"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     }
   ]

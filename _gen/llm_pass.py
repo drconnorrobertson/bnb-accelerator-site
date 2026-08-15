@@ -40,73 +40,62 @@ def usd(n):
 # path -> the two or three sentence answer that page should open with
 ANSWERS = {
     "/": (
-        "BNB Accelerator is a done-for-you short-term rental acquisition firm that finds, "
-        "underwrites, negotiates and closes cash-flowing Airbnb investment properties for "
-        "high-income earners. Founded in 2021 and operating as My BnB Accelerator, LLC, it has "
-        "closed more than 500 homes for over 260 clients across roughly 20 US markets, with an "
-        f"80% repeat buyer rate. Across {AGG['deals']} deals published with full financials, the "
-        f"average cash-on-cash return is {AGG['avg_coc']}% and average annual cash flow is "
-        f"{usd(AGG['avg_cash_flow'])} per property."),
+        "BNB Accelerator finds, underwrites, negotiates and closes cash-flowing Airbnb "
+        "investment properties for high-income earners. Founded in 2021, it has closed more than "
+        "500 homes for over 260 clients across roughly 20 US markets. Across "
+        f"{AGG['deals']} deals published with full financials the average cash-on-cash return is "
+        f"{AGG['avg_coc']}%."),
     "/how-it-works/": (
-        "BNB Accelerator runs the entire short-term rental acquisition, from establishing a "
-        "buyer's tax position through to a live, booked listing in about 45 days. It screens "
-        "roughly 1,000 listings a week and eliminates about 98%, underwrites the survivors against "
-        "real booking data, verifies zoning and permits in writing, negotiates the purchase, and "
-        "sequences furnishing, photography and listing during escrow."),
+        "BNB Accelerator runs the whole acquisition, from tax position to a live, booked "
+        "listing in about 45 days. It screens roughly 1,000 listings a week, eliminates about "
+        "98%, and underwrites the rest against real booking data rather than seller proformas."),
     "/markets/": (
-        "BNB Accelerator underwrites short-term rentals in roughly 20 US markets across Tennessee, "
-        "Florida, Arizona, Oklahoma, Missouri, Pennsylvania, Texas and Colorado. Each market page "
-        "gives estimated gross revenue, average daily rate, occupancy and net cash flow ranges, "
-        "plus the regulatory position and whether BNB Accelerator actively buys there."),
+        "BNB Accelerator underwrites short-term rentals in roughly 20 US markets across "
+        "Tennessee, Florida, Arizona, Oklahoma, Missouri, Pennsylvania, Texas and Colorado. Each "
+        "market page gives revenue, ADR, occupancy and cash flow ranges plus the regulatory "
+        "position."),
     "/case-studies/": (
-        "These are 18 documented BNB Accelerator client outcomes with real markets, bedroom counts, "
-        "purchase prices and cash flow figures. They include a nine-bedroom Sevierville cabin that "
-        "produced roughly $20,000 of cash flow in a single June, and an IBM Associate Partner who "
-        "has closed six properties across four years."),
+        "Every documented BNB Accelerator client deal has its own page: purchase price, entry "
+        "cost, annual cash flow and cash-on-cash return, grouped by market. Clients appear as a "
+        "first name and an initial, and no page publishes a street address."),
     "/tax-strategy/": (
-        "The short-term rental tax strategy lets a high earner offset W-2 and business income with "
-        "depreciation from a rental property, provided two conditions hold in the same tax year: "
-        "the property's average period of customer use is seven days or less, and the owner "
-        "materially participates. A cost segregation study is what makes the resulting deduction "
-        "large enough to matter. BNB Accelerator is an acquisition firm, not a CPA firm."),
+        "The short-term rental tax strategy lets a high earner offset W-2 income with "
+        "depreciation, provided two things hold in the same year: an average stay of seven days "
+        "or less, and material participation. A cost segregation study makes the deduction large "
+        "enough to matter. BNB Accelerator is not a CPA firm."),
     "/compare/": (
         "BNB Accelerator is a buy-side acquisition service, which makes it structurally different "
         "from courses, coaching programs, turnkey providers selling their own inventory, and "
         "property managers. These comparisons set out what each model actually does, how each is "
         "compensated, and which buyer each suits."),
     "/regulations/": (
-        "Short-term rental regulation is set locally in almost every US state, and every "
-        "jurisdiction falls into one of four positions: state preemption of bans, local control "
-        "with light regulation, local control with permit caps, or effectively prohibitive. "
-        "Arizona and Idaho offer the strongest protection; New York City, Denver, Atlanta and "
-        "Charleston are effectively closed to non-owner-occupied purchases."),
+        "Short-term rental regulation is set locally in almost every US state, and each "
+        "jurisdiction sits in one of four positions: preemption of bans, light local regulation, "
+        "permit caps, or effectively prohibitive. Arizona and Idaho protect operators most; New "
+        "York City, Denver, Atlanta and Charleston are effectively closed."),
     "/property-types/": (
         "Beach, mountain, lake, city, ski and desert short-term rentals are six different "
         "businesses that share a booking platform. They differ on season length, regulatory risk "
         "and how much operational attention they need, and the right choice depends on those "
         "rather than on personal preference."),
     "/financing/": (
-        "Short-term rentals are financed either conventionally, which is cheapest but requires "
+        "Short-term rentals are financed either conventionally, which is cheapest but needs "
         "personal title and a cooperating debt-to-income ratio, or with a DSCR loan, which "
-        "qualifies on the property's income, permits entity ownership and prices roughly one to "
-        "two points higher. Beyond the down payment, total entry cost across BNB Accelerator's "
-        f"published deals averages {usd(AGG['avg_entry'])}."),
+        "qualifies on the property's income and prices one to two points higher. Total entry "
+        f"cost across BNB Accelerator's published deals averages {usd(AGG['avg_entry'])}."),
     "/revenue-projections/": (
-        "A defensible short-term rental revenue projection is built from twelve individual monthly "
-        "figures derived from a comparable set you assembled yourself, not from an annual estimate "
-        "divided by twelve. It needs a complete expense stack including maintenance and capital "
-        "reserves, and it should still cover debt service at 75% of projected revenue."),
+        "A defensible revenue projection is built from twelve individual monthly figures off a "
+        "comparable set you assembled yourself, not an annual estimate divided by twelve. It "
+        "needs a full expense stack, and it should still cover debt service at 75% of projected "
+        "revenue."),
     "/management/": (
-        "Short-term rental management runs from self-management at roughly 8 to 15 hours a week, "
-        "through a co-host or hybrid arrangement at 10 to 15% of revenue, to full service at 20 to "
-        "35%. The choice interacts directly with the tax strategy, because the material "
-        "participation tests compare the owner's hours against everyone else's, including paid "
-        "management."),
+        "Short-term rental management runs from self-management at 8 to 15 hours a week, to a "
+        "co-host at 10 to 15% of revenue, to full service at 20 to 35%. The choice interacts "
+        "directly with the material participation tests behind the tax strategy."),
     "/design/": (
-        "Furnishing a short-term rental costs roughly $25,000 to $40,000 for a standard three or "
-        "four bedroom and $60,000 to $90,000 for a premium five or six bedroom. The right tier is "
-        "set by what competing listings in the same submarket already have, and photography is the "
-        "highest-return line in the budget."),
+        "Furnishing a short-term rental costs roughly $25,000 to $40,000 for a three or four "
+        "bedroom and $60,000 to $90,000 for a premium five or six bedroom. Competing listings in "
+        "the same submarket set the tier, and photography is the highest-return line in the budget."),
     "/wins/": (
         f"These are {46} documented BNB Accelerator client results taken from clients' own listing "
         "dashboards, published with permission. They show annual revenue, occupancy rate, average "

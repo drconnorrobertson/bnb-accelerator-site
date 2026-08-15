@@ -55,7 +55,7 @@ POSTS = [
         related=[
             '<a href="/markets/broken-bow/">Broken Bow market analysis</a>',
             '<a href="/regulations/oklahoma/">Oklahoma short-term rental regulations</a>',
-            '<a href="/case-studies/joe-s-broken-bow-ok-and-destin-fl/">Case study: Broken Bow and Destin in one portfolio</a>',
+            '<a href="/case-studies/joe-s-broken-bow/">Case study: Broken Bow and Destin in one portfolio</a>',
             '<a href="/blog/str-market-saturation/">How to read market saturation</a>',
         ],
     ),
@@ -103,8 +103,8 @@ POSTS = [
         ],
         related=[
             '<a href="/markets/kissimmee/">Kissimmee market analysis</a>',
-            '<a href="/case-studies/jason-marissa-champions-gate-fl-8br/">Case study: 8BR at $650,000</a>',
-            '<a href="/case-studies/naveen-davenport-fl-8br/">Case study: 8BR in Davenport at $700,000</a>',
+            '<a href="/case-studies/jason-marissa-champions-gate/">Case study: 8BR at $650,000</a>',
+            '<a href="/case-studies/naveen-davenport/">Case study: 8BR in Davenport at $700,000</a>',
             '<a href="/blog/large-group-str-strategy/">Large group STR strategy</a>',
         ],
     ),
@@ -152,7 +152,7 @@ POSTS = [
         ],
         related=[
             '<a href="/markets/cape-coral/">Cape Coral market analysis</a>',
-            '<a href="/case-studies/antonio-fort-myers-fl-6br/">Case study: $17,000 of February cash flow</a>',
+            '<a href="/case-studies/antonio-fort-myers/">Case study: $17,000 of February cash flow</a>',
             '<a href="/tax-strategy/7-day-rule/">The seven day rule</a>',
             '<a href="/property-types/beach/">Beach property investing guide</a>',
         ],
@@ -164,7 +164,7 @@ POSTS = [
         title_tag="Santa Rosa Beach & 30A STR Market (2026)",
         description="30A commands the highest rates on the Gulf and the highest prices. When the premium is worth paying, and when Fort Walton Beach is the better trade.",
         category=CAT,
-        lead="Peter Eck, an IBM Associate Partner and a six-time repeat client, bought two four-bedroom properties in Santa Rosa Beach at $1,100,000 and $1,150,000. Those are large numbers for four bedrooms, and the question worth answering is what the premium buys and when it is worth paying.",
+        lead="Peter E., an IBM Associate Partner and a six-time repeat client, bought two four-bedroom properties in Santa Rosa Beach at $1,100,000 and $1,150,000. Those are large numbers for four bedrooms, and the question worth answering is what the premium buys and when it is worth paying.",
         sections=[
             ("What 30A is", [
                 "Scenic Highway 30A runs along the Gulf in Walton County, connecting a string of planned beach communities including Seaside, Rosemary Beach, Alys Beach, WaterColor and Grayton Beach. Santa Rosa Beach is the broader area encompassing much of it.",
@@ -206,7 +206,7 @@ POSTS = [
         ],
         related=[
             '<a href="/markets/destin/">Destin market analysis</a>',
-            '<a href="/case-studies/peter-eck-ibm-partner-six-properties/">Case study: a six-property portfolio</a>',
+            '<a href="/case-studies/peter-e-santa-rosa-beach/">Case study: a six-property portfolio</a>',
             '<a href="/tax-strategy/cost-segregation/">Cost segregation and depreciation basis</a>',
             '<a href="/regulations/florida/">Florida short-term rental regulations</a>',
         ],
@@ -420,7 +420,7 @@ POSTS = [
         related=[
             '<a href="/markets/poconos/">Poconos market analysis</a>',
             '<a href="/regulations/pennsylvania/">Pennsylvania short-term rental regulations</a>',
-            '<a href="/case-studies/julie-pocono-lake-pa-5br/">Case study: a 5BR Pocono Lake house</a>',
+            '<a href="/case-studies/julie-pocono-lake/">Case study: a 5BR Pocono Lake house</a>',
             '<a href="/property-types/lake/">Lake house investing guide</a>',
         ],
     ),
@@ -709,7 +709,7 @@ POSTS = [
         title_tag="DFW Lake STR Markets: Shady Shores & Beyond (2026)",
         description="Lake Lewisville, Grapevine and the North Texas lakes serve a metro of eight million on a short drive. What that supports and where the ceiling is.",
         category=CAT,
-        lead="Peter Eck's five-bedroom in Shady Shores, Texas at $949,000 sits on Lake Lewisville, roughly forty minutes from central Dallas. That is not a vacation market in the conventional sense. It is a metro amenity market, and it behaves differently from a destination lake.",
+        lead="Peter E.'s five-bedroom in Shady Shores, Texas at $949,000 sits on Lake Lewisville, roughly forty minutes from central Dallas. That is not a vacation market in the conventional sense. It is a metro amenity market, and it behaves differently from a destination lake.",
         sections=[
             ("Metro amenity markets versus destination markets", [
                 "A destination lake market draws guests who traveled specifically to be there. A metro amenity market draws guests who live nearby and want a house on the water for a weekend, a family gathering, a bachelorette or a birthday.",
@@ -745,7 +745,7 @@ POSTS = [
              "Because the guest could stay home instead, which constrains nightly rate in a way that does not apply to a guest who flew to a destination. These properties work on a lower price basis and steadier occupancy rather than peak rates."),
         ],
         related=[
-            '<a href="/case-studies/peter-eck-ibm-partner-six-properties/">Case study: a six-property portfolio</a>',
+            '<a href="/case-studies/peter-e-santa-rosa-beach/">Case study: a six-property portfolio</a>',
             '<a href="/regulations/texas/">Texas short-term rental regulations</a>',
             '<a href="/property-types/lake/">Lake house investing guide</a>',
             '<a href="/blog/str-portfolio-diversification/">Portfolio diversification</a>',
@@ -907,7 +907,7 @@ POSTS = [
         related=[
             '<a href="/markets/smoky-mountains/">Smoky Mountains market analysis</a>',
             '<a href="/markets/gatlinburg/">Gatlinburg market analysis</a>',
-            '<a href="/case-studies/victoria-sevierville-tn-9br-cabin/">Case study: a 9BR that cleared $20K in a month</a>',
+            '<a href="/case-studies/victoria-sevierville/">Case study: a 9BR that cleared $20K in a month</a>',
             '<a href="/property-types/mountain/">Mountain cabin investing guide</a>',
         ],
     ),
@@ -1019,7 +1019,7 @@ POSTS = [
         ],
         related=[
             '<a href="/markets/austin/">Austin and Hill Country market analysis</a>',
-            '<a href="/case-studies/laxman-sabitri-johnson-city-tx-6br/">Case study: a 6BR at $680,000</a>',
+            '<a href="/case-studies/laxman-sabitri-johnson-city/">Case study: a 6BR at $680,000</a>',
             '<a href="/regulations/texas/">Texas short-term rental regulations</a>',
             '<a href="/blog/large-group-str-strategy/">Large group STR strategy</a>',
         ],
@@ -1074,7 +1074,7 @@ POSTS = [
         ],
         related=[
             '<a href="/markets/branson/">Branson market analysis</a>',
-            '<a href="/case-studies/dustin-branson-west-mo-8br/">Case study: an 8BR at $930,900</a>',
+            '<a href="/case-studies/dustin-w-branson-west/">Case study: an 8BR at $930,900</a>',
             '<a href="/regulations/missouri/">Missouri short-term rental regulations</a>',
             '<a href="/property-types/lake/">Lake house investing guide</a>',
         ],
@@ -1185,7 +1185,7 @@ POSTS = [
         ],
         related=[
             '<a href="/markets/nashville/">Nashville market analysis</a>',
-            '<a href="/case-studies/mahmoud-nashville-tn-4br/">Case study: a 4BR permitted Nashville STR</a>',
+            '<a href="/case-studies/mahmoud-nashville/">Case study: a 4BR permitted Nashville STR</a>',
             '<a href="/regulations/tennessee/">Tennessee short-term rental regulations</a>',
             '<a href="/property-types/city/">Urban STR investing guide</a>',
         ],
@@ -1337,7 +1337,7 @@ POSTS = [
             ("How to diversify properly", [
                 "The rule is straightforward: a second property should draw from a different catchment and preferably peak in a different season. Buying a second cabin in the same market as the first is not diversification, it is doubling a position.",
                 "Joe S paired a Broken Bow cabin at $1,400,000 with a Destin beach house at $924,900. Dallas-fed drive market and Gulf Coast destination market, different seasons, different guests, different risks.",
-                "Peter Eck paired a Shady Shores lake property in the Dallas metro with two Santa Rosa Beach properties in Florida. Same logic. A Texas slowdown does not affect Santa Rosa Beach's national catchment, and a Gulf hurricane season does not affect Lake Lewisville.",
+                "Peter E. paired a Shady Shores lake property in the Dallas metro with two Santa Rosa Beach properties in Florida. Same logic. A Texas slowdown does not affect Santa Rosa Beach's national catchment, and a Gulf hurricane season does not affect Lake Lewisville.",
                 ("ul", [
                     "Different metro catchment, so a regional slowdown hits one property and not both.",
                     "Different peak season, so the portfolio has two revenue seasons rather than one twice.",
@@ -1360,7 +1360,7 @@ POSTS = [
              "Not overall. Drive-to demand is more resilient when travel budgets tighten because guests do not need to fly. The risk is concentration rather than fragility, and it is managed at the portfolio level rather than the property level."),
         ],
         related=[
-            '<a href="/case-studies/joe-s-broken-bow-ok-and-destin-fl/">Case study: two markets, two seasons</a>',
+            '<a href="/case-studies/joe-s-broken-bow/">Case study: two markets, two seasons</a>',
             '<a href="/blog/str-portfolio-diversification/">Portfolio diversification</a>',
             '<a href="/property-types/">Property type guides</a>',
             '<a href="/markets/">All market analyses</a>',
@@ -1475,7 +1475,7 @@ POSTS = [
              "Ashley and Billy had close to 80 nights booked within 21 days of going live, achieved by sequencing furnishing, photography and pricing during escrow rather than starting after closing."),
         ],
         related=[
-            '<a href="/case-studies/ashley-billy-fort-walton-beach-fl/">Case study: 80 nights in 21 days</a>',
+            '<a href="/case-studies/ashley-billy-fort-walton-beach/">Case study: 80 nights in 21 days</a>',
             '<a href="/markets/destin/">Destin market analysis</a>',
             '<a href="/property-types/beach/">Beach property investing guide</a>',
             '<a href="/blog/first-90-days-airbnb-launch/">The first 90 days of a launch</a>',

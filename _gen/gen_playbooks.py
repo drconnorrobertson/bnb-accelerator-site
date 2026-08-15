@@ -59,7 +59,7 @@ FINANCING = [
             ("When DSCR is the right tool", [
                 "DSCR makes sense when your debt-to-income ratio is the binding constraint, when you are self-employed or have complex income that conventional underwriting handles badly, when you are buying through an LLC, or when you already hold the conventional financing limit on other properties.",
                 "It makes less sense when you would qualify conventionally and the property is strong. The rate premium is real money over a thirty-year term, and conventional financing on an investment property is meaningfully cheaper.",
-                "The most common pattern we see with clients buying multiple properties is conventional financing for the first one or two, then DSCR once the personal debt-to-income ratio stops cooperating. Peter Eck, an Associate Partner at IBM who has closed six properties with us, is a case where the financing structure had to evolve as the portfolio grew.",
+                "The most common pattern we see with clients buying multiple properties is conventional financing for the first one or two, then DSCR once the personal debt-to-income ratio stops cooperating. Peter E., an Associate Partner at IBM who has closed six properties with us, is a case where the financing structure had to evolve as the portfolio grew.",
                 ("warn", "A DSCR approval based on an aggressive third-party revenue estimate is not a validation of the deal. The lender is protecting a loan at 75% of value. You are buying at 100%. Underwrite the property yourself against actual comparable booking data regardless of what the lender credits."),
             ]),
         ],
@@ -77,7 +77,7 @@ FINANCING = [
             '<a href="/financing/conventional-vs-dscr/">Conventional versus DSCR financing</a>',
             '<a href="/financing/down-payment-strategies/">Down payment strategies for STR purchases</a>',
             '<a href="/revenue-projections/">Building a revenue projection a lender will accept</a>',
-            '<a href="/case-studies/peter-eck-ibm-partner-six-properties/">Case study: financing a six-property portfolio</a>',
+            '<a href="/case-studies/peter-e-santa-rosa-beach/">Case study: financing a six-property portfolio</a>',
         ],
     ),
     dict(
@@ -523,7 +523,7 @@ def gen_revenue():
             '<a href="/tools/str-revenue-calculator/">Run the numbers in the revenue calculator</a>',
             '<a href="/data/average-str-revenue-by-market/">Average STR revenue by market</a>',
             '<a href="/data/str-occupancy-rates-2026/">STR occupancy rates for 2026</a>',
-            '<a href="/case-studies/victoria-sevierville-tn-9br-cabin/">Case study: what a real peak month looks like</a>',
+            '<a href="/case-studies/victoria-sevierville/">Case study: what a real peak month looks like</a>',
         ],
         section_name="Revenue Projections",
     ))

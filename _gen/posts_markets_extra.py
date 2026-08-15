@@ -13,7 +13,7 @@ EXTRA = {
         "It matters for tax planning as well. A material participation strategy requires documented hours, and hours are easier to accumulate across a year when the properties demand attention at different times. An owner running two summer-peaking properties is doing all the work in the same four months.",
     ]),
     "santa-rosa-beach-30a-str-market": ("What a repeat client teaches", [
-        "Peter Eck has closed six properties with us across four years. The Santa Rosa Beach purchases were not his first, and that sequence is informative about how a portfolio actually develops for a high earner with a demanding career.",
+        "Peter E. has closed six properties with us across four years. The Santa Rosa Beach purchases were not his first, and that sequence is informative about how a portfolio actually develops for a high earner with a demanding career.",
         "The first purchase is almost always the hardest, because everything is unfamiliar: the underwriting, the financing structure, the tax mechanics, the management relationship. By the third, the process is a known quantity and the constraint shifts from knowledge to capital.",
         "That is when the tax strategy starts doing structural work. A cost segregation study on each acquisition, paired with a property meeting the seven-day average stay and material participation tests, produces a first-year deduction that reduces the tax bill enough to fund part of the next down payment. The portfolio compounds faster than the cash flow alone would permit, which is the actual mechanism behind a six-property portfolio built while working full time at IBM.",
     ]),

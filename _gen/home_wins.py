@@ -18,8 +18,8 @@ START = "<!-- home-wins:start -->"
 END = "<!-- home-wins:end -->"
 
 # The eight that lead with the strongest verifiable numbers.
-PICKS = ["hari-mukkala", "murali", "antonio-alvarez", "sara-olson",
-         "kenneth-mcpherson", "jason-hoop", "shardul", "randy-lansang"]
+PICKS = ["hari-m", "murali", "antonio-a", "sara-o",
+         "kenneth-m", "jason-h", "shardul", "randy-l"]
 
 
 def main():

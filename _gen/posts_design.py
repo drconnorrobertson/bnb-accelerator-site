@@ -338,7 +338,7 @@ POSTS = [
              "Generally no. Four and five bedrooms have demand every week of the season, lower acquisition cost, simpler turnover and far less month-to-month variance. Large cabins have a higher peak and a much narrower booking calendar."),
         ],
         related=[
-            '<a href="/case-studies/victoria-sevierville-tn-9br-cabin/">The full case study</a>',
+            '<a href="/case-studies/victoria-sevierville/">The full case study</a>',
             '<a href="/blog/what-a-good-month-actually-looks-like/">What a good month looks like</a>',
             '<a href="/property-types/mountain/">Mountain cabin investing</a>',
             '<a href="/revenue-projections/">Building a revenue projection</a>',
@@ -405,7 +405,7 @@ POSTS = [
              "No. This property launched into a long-season market with genuine demand, at a price point with strong economics, meeting its comparable set. A property with an amenity gap or launched into a trough will not replicate it. What generalizes is the sequencing."),
         ],
         related=[
-            '<a href="/case-studies/ashley-billy-fort-walton-beach-fl/">The full case study</a>',
+            '<a href="/case-studies/ashley-billy-fort-walton-beach/">The full case study</a>',
             '<a href="/blog/the-first-30-days-checklist/">The first 30 days checklist</a>',
             '<a href="/blog/fort-walton-beach-value-thesis/">Fort Walton Beach market thesis</a>',
             '<a href="/blog/reviews-compound-like-interest/">How reviews compound</a>',
@@ -418,7 +418,7 @@ POSTS = [
         title_tag="Case Study Breakdown: Six Properties in Four Years",
         description="An IBM Associate Partner closed six properties with us across four years while working full time. The financing, tax and diversification decisions behind it.",
         category=C,
-        lead="Peter Eck is an Associate Partner at IBM. He has closed six properties with us across four years, with three in 2023 and 2024 and three more planned for 2025 and 2026. Working out how that pace is possible for someone with a demanding full-time career is more useful than the headline.",
+        lead="Peter E. is an Associate Partner at IBM. He has closed six properties with us across four years, with three in 2023 and 2024 and three more planned for 2025 and 2026. Working out how that pace is possible for someone with a demanding full-time career is more useful than the headline.",
         sections=[
             ("The three most recent properties", [
                 ("table", ["Market", "Bedrooms", "Price"], [
@@ -468,7 +468,7 @@ POSTS = [
              "No. Concentrating means one regulatory change, storm season or supply glut affects everything. Peter's portfolio spans a Texas metro lake market and a Florida Gulf beach market with different seasons, catchments and climate risks."),
         ],
         related=[
-            '<a href="/case-studies/peter-eck-ibm-partner-six-properties/">The full case study</a>',
+            '<a href="/case-studies/peter-e-santa-rosa-beach/">The full case study</a>',
             '<a href="/blog/the-refund-loop-explained/">The refund loop explained</a>',
             '<a href="/financing/conventional-vs-dscr/">Conventional versus DSCR</a>',
             '<a href="/blog/single-metro-drive-market-risk/">Drive market concentration risk</a>',
@@ -532,7 +532,7 @@ POSTS = [
              "Six months of full carry including mortgage, insurance, property tax, utilities and dues, held in cash. In a market with a severe trough, that reserve is what turns a difficult quarter into a routine one."),
         ],
         related=[
-            '<a href="/case-studies/antonio-fort-myers-fl-6br/">The full case study</a>',
+            '<a href="/case-studies/antonio-fort-myers/">The full case study</a>',
             '<a href="/blog/cape-coral-fort-myers-str-market/">Southwest Florida market analysis</a>',
             '<a href="/tax-strategy/7-day-rule/">The seven day rule</a>',
             '<a href="/blog/what-to-do-in-a-slow-season/">Managing the trough</a>',
@@ -596,7 +596,7 @@ POSTS = [
              "Two management relationships, two cleaner benches, two vendor lists and two sets of local knowledge. An owner with two properties in one market can share all of those; an owner in two markets cannot."),
         ],
         related=[
-            '<a href="/case-studies/joe-s-broken-bow-ok-and-destin-fl/">The full case study</a>',
+            '<a href="/case-studies/joe-s-broken-bow/">The full case study</a>',
             '<a href="/blog/single-metro-drive-market-risk/">Drive market concentration</a>',
             '<a href="/blog/hochatown-oklahoma-str-market/">Broken Bow market analysis</a>',
             '<a href="/blog/str-portfolio-diversification/">Portfolio diversification</a>',
@@ -638,7 +638,7 @@ POSTS = [
             ]),
             ("Months nine to twelve: it becomes boring", [
                 "The systems work. The cleaner is reliable. The messages are automated and answer the questions guests actually ask. Pricing runs itself with occasional deliberate overrides. The reviews accumulate and the ranking holds.",
-                "This is the objective. Peter Eck has closed six properties with us across four years while working full time at IBM, and the reason he keeps buying is not that any individual property was spectacular. It is that the process became boring.",
+                "This is the objective. Peter E. has closed six properties with us across four years while working full time at IBM, and the reason he keeps buying is not that any individual property was spectacular. It is that the process became boring.",
                 "For someone with a demanding career, boring is the entire value proposition. A property that requires constant attention is a second job regardless of what it earns.",
             ]),
             ("What to do differently in year two", [
@@ -941,7 +941,7 @@ POSTS = [
             '<a href="/blog/the-first-30-days-checklist/">The first 30 days checklist</a>',
             '<a href="/blog/buying-in-december-vs-january/">Placed in service timing</a>',
             '<a href="/design/">Design and furnishing playbook</a>',
-            '<a href="/case-studies/ashley-billy-fort-walton-beach-fl/">Case study: 80 nights in 21 days</a>',
+            '<a href="/case-studies/ashley-billy-fort-walton-beach/">Case study: 80 nights in 21 days</a>',
         ],
     ),
     dict(

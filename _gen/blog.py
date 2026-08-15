@@ -147,9 +147,11 @@ def render_index(entries):
     cards = []
     for i, e in enumerate(entries):
         delay = f' data-reveal-delay="{i % 3}"' if i % 3 else ""
+        # Card excerpts are a scan aid, not a summary. One clause is enough on a
+        # phone, where 160 characters is five lines of a card that holds four.
         excerpt = e["excerpt"]
-        if len(excerpt) > 160:
-            excerpt = excerpt[:157].rsplit(" ", 1)[0] + "..."
+        if len(excerpt) > 110:
+            excerpt = excerpt[:107].rsplit(" ", 1)[0].rstrip(",;:") + "..."
         cards.append(f"""        <article class="post-card" data-reveal{delay}>
           <div class="post-body">
             <div class="post-meta"><span class="post-cat">{tpl.esc(e["category"])}</span><time datetime="{e["date"]}">{short_date(e["date"])}</time><span>{e["mins"]} min read</span></div>

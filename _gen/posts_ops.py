@@ -243,7 +243,7 @@ POSTS = [
             '<a href="/blog/how-to-get-5-star-reviews/">How to earn five star reviews</a>',
             '<a href="/blog/first-90-days-airbnb-launch/">The first 90 days</a>',
             '<a href="/blog/airbnb-guest-experience/">Guest experience</a>',
-            '<a href="/case-studies/ashley-billy-fort-walton-beach-fl/">Case study: 80 nights in 21 days</a>',
+            '<a href="/case-studies/ashley-billy-fort-walton-beach/">Case study: 80 nights in 21 days</a>',
         ],
     ),
     dict(
@@ -1005,7 +1005,7 @@ POSTS = [
              "Annual net cash flow after all expenses including reserves, divided by total cash invested, which means down payment plus closing, furnishing, setup and reserve. For high earners, that still understates the return because it excludes the tax benefit."),
         ],
         related=[
-            '<a href="/case-studies/victoria-sevierville-tn-9br-cabin/">Case study: the $20,000 month</a>',
+            '<a href="/case-studies/victoria-sevierville/">Case study: the $20,000 month</a>',
             '<a href="/revenue-projections/">Building a revenue projection</a>',
             '<a href="/blog/airbnb-cash-on-cash-return/">Cash on cash return</a>',
             '<a href="/financing/closing-costs-and-reserves/">Total entry cost</a>',

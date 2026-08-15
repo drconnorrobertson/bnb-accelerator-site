@@ -6,13 +6,16 @@ was taken from the live mybnbaccelerator.com case study page. Nothing is
 invented. Where the live page published only property facts and no revenue
 number, the page says so rather than filling the gap with a projection.
 """
+import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import tpl
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.join(HERE, "..")
 PUBLISHED = "2026-08-15"
 
 # slug, name, initial, market, state, market_page, beds, price, prop_type,
@@ -52,7 +55,7 @@ CASES = [
     ),
     dict(
         slug="peter-eck-ibm-partner-six-properties",
-        name="Peter Eck",
+        name="Peter E.",
         initial="P",
         market="Shady Shores TX and Santa Rosa Beach FL",
         market_link="/markets/destin/",
@@ -61,7 +64,7 @@ CASES = [
         prop_type="Three-property portfolio",
         category="Portfolio",
         headline="An IBM Associate Partner on his sixth property with us",
-        summary="Peter Eck is an Associate Partner at IBM who has closed six properties with BNB Accelerator across four years, including a 5BR in Shady Shores TX at $949,000 and two 4BR properties in Santa Rosa Beach FL at $1,100,000 and $1,150,000.",
+        summary="Peter E. is an Associate Partner at IBM who has closed six properties with BNB Accelerator across four years, including a 5BR in Shady Shores TX at $949,000 and two 4BR properties in Santa Rosa Beach FL at $1,100,000 and $1,150,000.",
         result="Three properties closed in 2023 and 2024, with three more planned for 2025 and 2026. Six total transactions across four years, which makes him the clearest single data point behind our 80% repeat buyer rate.",
         metrics=[("Properties closed", "6", True),
                  ("2023-2024 acquisitions", "3", False),
@@ -79,7 +82,7 @@ CASES = [
             "For a client at Peter's income level, the tax structure is doing as much work as the cash flow. Each acquisition paired with a cost segregation study produces a first-year deduction large enough to matter against W-2 income, provided the seven-day average stay and material participation tests are met for that year. That is the mechanism that lets a portfolio compound this fast without the client leaving IBM.",
         ],
         faqs=[
-            ("How many properties has Peter Eck bought with BNB Accelerator?",
+            ("How many properties has Peter E. bought with BNB Accelerator?",
              "Six across four years, with three closed in 2023 and 2024 and three more planned for 2025 and 2026."),
             ("Why does a repeat buyer rate matter more than a testimonial?",
              "A first-purchase testimonial is collected at closing, before the property has performed. A repeat purchase is collected after the client has lived with the outcome for a year or more. About 80% of our clients buy again."),
@@ -399,7 +402,7 @@ CASES = [
     ),
     dict(
         slug="dustin-branson-west-mo-8br",
-        name="Dustin",
+        name="Dustin W.",
         initial="D",
         market="Branson West, Missouri",
         market_link="/markets/branson/",
@@ -430,7 +433,7 @@ CASES = [
     ),
     dict(
         slug="alfredo-millie-sevierville-tn-4br",
-        name="Alfredo & Millie",
+        name="Alfredo & Millie N.",
         initial="A",
         market="Sevierville, Tennessee",
         market_link="/markets/smoky-mountains/",
@@ -461,7 +464,7 @@ CASES = [
     ),
     dict(
         slug="joe-s-broken-bow-ok-and-destin-fl",
-        name="Joe S",
+        name="Joe S.",
         initial="J",
         market="Broken Bow OK and Destin FL",
         market_link="/markets/broken-bow/",
@@ -559,7 +562,7 @@ CASES = [
     ),
     dict(
         slug="adam-sevierville-tn-4br",
-        name="Adam",
+        name="Adam S.",
         initial="A",
         market="Sevierville, Tennessee",
         market_link="/markets/smoky-mountains/",
@@ -591,22 +594,382 @@ CASES = [
 ]
 
 
-def render_case(c, prev_case, next_case):
-    url = f"{tpl.SITE}/case-studies/{c['slug']}/"
-    trail = [("Home", "/"), ("Case Studies", "/case-studies/"), (c["name"], f"/case-studies/{c['slug']}/")]
+
+# ------------------------------------------------------------- Landings --
+#
+# Every documented client outcome gets its own landing page at
+# /case-studies/<first-name><-last-initial>-<city>/. Two sources feed them:
+# the case studies above, and the client deal tracker in deals.json. A tracker
+# deal is folded into a case study when the client and the purchase price match,
+# because the tracker holds the financials the case study never published
+# (down payment, closing, design budget, cash flow, cash-on-cash). Where a
+# tracker deal has no matching case study it gets a landing page of its own.
+#
+# Two rules hold everywhere on these pages:
+#   1. Clients appear as a first name plus a last initial, never a full surname.
+#   2. Street addresses are never published. A market and a property type is the
+#      level of detail the tracker permits without identifying the property.
+
+DEALS = {d["id"]: d for d in json.load(
+    open(os.path.join(HERE, "deals.json")))["deals"]}
+MARKET_DATA = json.load(open(os.path.join(HERE, "market_data.json")))
+
+# Historic case study slug -> (landing slug, city, [tracker deal ids])
+LANDING = {
+    "victoria-sevierville-tn-9br-cabin": ("victoria-sevierville", "Sevierville", ["deal-21"]),
+    "peter-eck-ibm-partner-six-properties": ("peter-e-santa-rosa-beach", "Santa Rosa Beach", ["deal-18", "deal-11"]),
+    "ashley-billy-fort-walton-beach-fl": ("ashley-billy-fort-walton-beach", "Fort Walton Beach", ["deal-15"]),
+    "antonio-fort-myers-fl-6br": ("antonio-fort-myers", "Fort Myers", []),
+    "shardul-mayanka-panama-city-beach-fl": ("shardul-mayanka-panama-city-beach", "Panama City Beach", ["deal-12"]),
+    "julie-pocono-lake-pa-5br": ("julie-pocono-lake", "Pocono Lake", ["deal-20"]),
+    "vishal-sevierville-tn-5br": ("vishal-sevierville", "Sevierville", []),
+    "mahmoud-nashville-tn-4br": ("mahmoud-nashville", "Nashville", []),
+    "krystin-michael-nashville-tn-4br": ("krystin-michael-nashville", "Nashville", []),
+    "jason-marissa-champions-gate-fl-8br": ("jason-marissa-champions-gate", "Champions Gate", []),
+    "naveen-davenport-fl-8br": ("naveen-davenport", "Davenport", ["deal-14"]),
+    "laxman-sabitri-johnson-city-tx-6br": ("laxman-sabitri-johnson-city", "Johnson City", []),
+    "dustin-branson-west-mo-8br": ("dustin-w-branson-west", "Branson West", ["deal-02"]),
+    "alfredo-millie-sevierville-tn-4br": ("alfredo-millie-n-sevierville", "Sevierville", []),
+    "joe-s-broken-bow-ok-and-destin-fl": ("joe-s-broken-bow", "Broken Bow", []),
+    "mark-farrah-destin-fl-4br": ("mark-farrah-destin", "Destin", ["deal-07"]),
+    "tiffany-destin-fl-5br": ("tiffany-destin", "Destin", ["deal-13"]),
+    "adam-sevierville-tn-4br": ("adam-s-sevierville", "Sevierville", ["deal-25"]),
+}
+
+# Tracker deals with no case study. deal id -> (slug, name, city, category,
+# property type, what the market is bought for)
+DEAL_PAGES = {
+    "deal-01": ("dan-m-austin", "Dan M. & Kimberly", "Austin", "City",
+                "City short-term rental",
+                "an event-driven city market where March, football weekends and festival dates carry a disproportionate share of the year"),
+    "deal-03": ("valerie-m-broken-bow", "Valerie M.", "Broken Bow", "Mountain cabin",
+                "Mountain cabin",
+                "a drive-to cabin market fed by Dallas and Oklahoma City, where couples' cabins turn over fast and design is the differentiator"),
+    "deal-04": ("raymond-x-broken-bow", "Raymond X.", "Broken Bow", "Mountain cabin",
+                "Mountain cabin",
+                "a drive-to cabin market fed by Dallas and Oklahoma City, where the Hochatown corridor carries the highest rates"),
+    "deal-05": ("meena-denver", "Meena", "Denver metro", "City",
+                "City short-term rental",
+                "a metro where the city itself restricts non-primary-residence rentals, so the deals sit in the surrounding jurisdictions"),
+    "deal-06": ("kevin-denver", "Kevin", "Denver metro", "City",
+                "City short-term rental",
+                "a metro where the city itself restricts non-primary-residence rentals, so the deals sit in the surrounding jurisdictions"),
+    "deal-08": ("harshavardhan-meghna-orlando", "Harshavardhan & Meghna", "Orlando corridor", "Theme park",
+                "Resort home",
+                "a resort-home market where bedroom count drives revenue and the per-bedroom purchase price is the number that matters"),
+    "deal-09": ("amber-gulf-shores", "Amber", "Gulf Shores", "Beach",
+                "Beach property",
+                "Alabama's family Gulf market, where summer carries the year and the shoulder season is the underwriting risk"),
+    "deal-10": ("david-hollister", "David", "Hollister", "Lake",
+                "Lake property",
+                "the Table Rock Lake corridor south of Branson, where lake access and entertainment demand run on different calendars"),
+    "deal-16": ("erwin-lilyana-florida-panhandle", "Erwin & Lilyana", "Florida Panhandle", "Beach",
+                "Beach property",
+                "the 30A corridor, one of the highest average daily rate coastal markets in the country"),
+    "deal-17": ("adam-florida-panhandle", "Adam", "Florida Panhandle", "Beach",
+                "Beach property",
+                "the 30A corridor, where proximity to the beach and the quality of the furnishing package set the rate"),
+    "deal-19": ("pruthvi-poconos", "Pruthvi", "Poconos", "Lake",
+                "Lake property",
+                "a drive-to market inside three hours of New York and Philadelphia, where township rules differ road by road"),
+    "deal-22": ("krystin-smoky-mountains", "Krystin", "Smoky Mountains", "Mountain cabin",
+                "Mountain cabin",
+                "the highest gross-revenue cabin corridor in the country, where large-group inventory competes with hotels rather than with other rentals"),
+    "deal-23": ("mahmoud-smoky-mountains", "Mahmoud", "Smoky Mountains", "Mountain cabin",
+                "Mountain cabin",
+                "a seasonal cabin market that earns a disproportionate share of the year between June and October and again over the winter holidays"),
+    "deal-24": ("hema-smoky-mountains", "Hema", "Smoky Mountains", "Mountain cabin",
+                "Mountain cabin",
+                "a seasonal cabin market where the underwriting has to be built on the annual shape of demand, not on the best month"),
+}
+
+# Market slug -> the market page path used on landing pages.
+MARKET_PATH = {
+    "austin": "/markets/austin/",
+    "branson": "/markets/branson/",
+    "broken-bow": "/markets/broken-bow/",
+    "denver": "/markets/denver/",
+    "destin": "/markets/destin/",
+    "gulf-shores": "/markets/gulf-shores/",
+    "kissimmee": "/markets/kissimmee/",
+    "poconos": "/markets/poconos/",
+    "smoky-mountains": "/markets/smoky-mountains/",
+    "nashville": "/markets/nashville/",
+    "panama-city-beach": "/markets/panama-city-beach/",
+    "cape-coral": "/markets/cape-coral/",
+    "gatlinburg": "/markets/gatlinburg/",
+}
+
+# Optional per-landing assets. Fill these in as they become available and the
+# section renders itself; leave a slug out and the page simply omits it.
+#   PHOTOS[slug]   = ("/assets/case-studies/<file>.jpg", "alt text", width, height)
+#   AIRBNB[slug]   = "https://www.airbnb.com/rooms/..."
+#   PROFORMA[slug] = "/assets/proformas/<file>.pdf"
+PHOTOS = {}
+AIRBNB = {}
+PROFORMA = {}
+
+# Site-standard illustration, matching /tools/str-revenue-calculator/ defaults:
+# a cost segregation study reclassifies roughly a quarter of purchase price into
+# shorter lives, and a high earner's combined marginal rate is around 40%.
+COST_SEG_PCT = 0.25
+MARGINAL_RATE = 0.40
+
+
+def label(r):
+    """How a landing page is named in a link: client, property, place."""
+    if r["city"].lower() in r["prop_type"].lower():
+        return f'{r["name"]}, {r["prop_type"]}'
+    return f'{r["name"]}, {r["prop_type"]} in {r["city"]}'
+
+
+def usd(n):
+    return f"${n:,.0f}"
+
+
+def deals_for(slug, ids):
+    return [DEALS[i] for i in ids if i in DEALS]
+
+
+def records():
+    """Every landing page as one uniform record, case studies first."""
+    out = []
+    for c in CASES:
+        slug, city, deal_ids = LANDING[c["slug"]]
+        ds = deals_for(slug, deal_ids)
+        # The case study's own market is the specific one; the tracker buckets
+        # several cities into one regional label, so it never wins here.
+        market_slug = c["market_link"].strip("/").split("/")[-1]
+        out.append(dict(
+            slug=slug, legacy=c["slug"], name=c["name"], initial=c["initial"],
+            city=city, market=c["market"], market_slug=market_slug,
+            market_link=c["market_link"], category=c["category"],
+            prop_type=c["prop_type"], beds=c["beds"], price=c["price"],
+            headline=c["headline"], summary=c["summary"], result=c["result"],
+            metrics=c["metrics"], body=c["body"], faqs=c["faqs"],
+            properties=c.get("properties"), deals=ds, kind="case"))
+    for did, (slug, name, city, category, prop_type, thesis) in DEAL_PAGES.items():
+        d = DEALS[did]
+        out.append(deal_record(slug, name, city, category, prop_type, thesis, d))
+    return out
+
+
+def deal_record(slug, name, city, category, prop_type, thesis, d):
+    md = MARKET_DATA.get(d["market_slug"], {})
+    plain = name.replace("&", "and")
+    yr = f" in {d['year']}" if d["year"] else ""
+    summary = (f"{plain} bought a {prop_type.lower()} in {d['market']} for {usd(d['price'])}"
+               f"{yr}, entering the deal for {usd(d['entry'])} all in. The property produces "
+               f"{usd(d['cash_flow'])} a year in cash flow, a {d['coc']:.2f}% cash-on-cash return "
+               f"on the cash invested.")
+    headline = (f"{usd(d['cash_flow'])} a year on {usd(d['entry'])} in, "
+                f"a {d['coc']:.1f}% cash-on-cash return")
+    body = [
+        f"{plain} bought in {d['market']}, {thesis}. The purchase closed at {usd(d['price'])}.",
+        (f"Getting in cost {usd(d['entry'])}. That is {usd(d['down'])} of down payment, "
+         f"{usd(d['closing'])} in closing costs and {usd(d['design'])} of furniture, "
+         f"linens, photography and everything else that has to be in the house before the "
+         f"first guest arrives." if d["design"] else
+         f"Getting in cost {usd(d['entry'])}: {usd(d['down'])} of down payment plus "
+         f"{usd(d['closing'])} in closing costs."),
+        (f"The design budget is the line most buyers underestimate. It is not decoration, it "
+         f"is the difference between a property that books at the market rate and one that "
+         f"sits below it, and it has to be funded at closing rather than out of the first "
+         f"season's revenue." if d["design"] else
+         "Furnishing was handled outside the figures shown here, so the entry cost above "
+         "reflects the down payment and closing costs only."),
+        (f"Against that entry cost the property returns {usd(d['cash_flow'])} a year after "
+         f"management, cleaning, supplies, utilities, insurance, property tax and debt "
+         f"service, which is a {d['coc']:.2f}% cash-on-cash return."),
+    ]
+    if md:
+        body.append(
+            f"For context on the market rather than this property: {md['name']} entry prices "
+            f"run {md['entry']}, average daily rates {md['adr']}, occupancy {md['occ']}, and "
+            f"gross revenue {md['gross']}. {md['peak']}. Those are estimates assembled from "
+            f"closings and active comparables, not a projection for any specific house.")
+    body.append(
+        "The tax position is where a purchase like this earns its keep for a high earner. A "
+        "cost segregation study reclassifies part of the purchase price into five, seven and "
+        "fifteen year property, which under current bonus depreciation rules produces a large "
+        "first-year deduction. Whether that deduction offsets W-2 income depends on the seven "
+        "day average stay test and material participation, both of which are facts about how "
+        "the property is run.")
+    faqs = [
+        (f"What did {plain} pay for the property?",
+         f"{usd(d['price'])} in {d['market']}{yr}. We publish the market and the numbers, not "
+         f"the street address."),
+        ("What did it cost to get into the deal?",
+         f"{usd(d['entry'])} all in: {usd(d['down'])} down, {usd(d['closing'])} in closing "
+         f"costs" + (f", and {usd(d['design'])} for design and furnishing." if d["design"] else ".")),
+        ("What does the property return?",
+         f"{usd(d['cash_flow'])} a year in cash flow after all operating costs and debt "
+         f"service, which is a {d['coc']:.2f}% cash-on-cash return on {usd(d['entry'])} invested."),
+        ("Is this a typical result?",
+         "No. It is one documented outcome for one property. Across the deals we publish with "
+         "full financials the average cash-on-cash return is 13.3%, and individual deals in "
+         "that set range from under 2% to over 24%. Real estate involves risk, including loss "
+         "of principal."),
+    ]
+    return dict(
+        slug=slug, legacy=None, name=name, initial=plain[0], city=city,
+        market=d["market"], market_slug=d["market_slug"],
+        market_link=MARKET_PATH.get(d["market_slug"], "/markets/"),
+        category=category, prop_type=prop_type, beds=None, price=usd(d["price"]),
+        headline=headline, summary=summary,
+        result=(f"{usd(d['cash_flow'])} a year in cash flow on {usd(d['entry'])} of cash "
+                f"invested, a {d['coc']:.2f}% cash-on-cash return."),
+        metrics=[("Purchase price", usd(d["price"]), False),
+                 ("Total entry cost", usd(d["entry"]), False),
+                 ("Annual cash flow", usd(d["cash_flow"]), True),
+                 ("Cash-on-cash return", f"{d['coc']:.2f}%", True)],
+        body=body, faqs=faqs, properties=None, deals=[d], kind="deal")
+
+
+# ------------------------------------------------------------ Page parts --
+
+def price_num(text):
+    """The first dollar figure in a published price string, or None."""
+    m = re.search(r"\$([\d,]+)", text or "")
+    return int(m.group(1).replace(",", "")) if m else None
+
+
+def deal_panel(r):
+    """Entry cost and return, straight from the tracker."""
+    ds = r["deals"]
+    if not ds:
+        return ""
+    # A tracker record can sit materially above the price in the case study,
+    # which means it is a different purchase by the same client in the same
+    # market. Say so rather than letting two prices contradict each other.
+    note = ""
+    case_price = price_num(r["price"])
+    tracker = sum(d["price"] for d in ds)
+    if (r["kind"] == "case" and not r.get("properties") and case_price
+            and abs(tracker - case_price) > 0.05 * case_price):
+        note = (f"        <p>The tracker records a {usd(tracker)} purchase for this client in "
+                f"this market. Those are the figures below. The property described above closed "
+                f"at {usd(case_price)}.</p>\n")
+    blocks = []
+    for d in ds:
+        design = (f'          <li><span class="k">Design and furnishing</span>'
+                  f'<span class="v">{usd(d["design"])}</span></li>\n' if d["design"] else "")
+        label = (f'        <h3 class="deal-block-head">{tpl.esc(d["market"])}'
+                 f'{" &middot; " + str(d["year"]) if d["year"] else ""}</h3>\n'
+                 if len(ds) > 1 else "")
+        blocks.append(f"""{label}        <ul class="spec-list">
+          <li><span class="k">Purchase price</span><span class="v">{usd(d['price'])}</span></li>
+          <li><span class="k">Down payment</span><span class="v">{usd(d['down'])}</span></li>
+          <li><span class="k">Closing costs</span><span class="v">{usd(d['closing'])}</span></li>
+{design}          <li><span class="k">Total entry cost</span><span class="v">{usd(d['entry'])}</span></li>
+          <li><span class="k">Annual cash flow</span><span class="v green">{usd(d['cash_flow'])}</span></li>
+          <li><span class="k">Cash-on-cash return</span><span class="v green">{d['coc']:.2f}%</span></li>
+        </ul>""")
+    return ('        <h2 id="deal-numbers">The deal numbers</h2>\n'
+            '        <p>Straight from the client deal tracker: what it cost to get in, and what '
+            'it returns.</p>\n' + note + "\n".join(blocks) + "\n")
+
+
+def tax_panel(r):
+    """Illustrative cost segregation position on the purchase price."""
+    if not r["deals"]:
+        return ""
+    # Illustrate against the price this page leads with, not the tracker's,
+    # so the figure a reader checks against is the one they just read.
+    price = price_num(r["price"]) or sum(d["price"] for d in r["deals"])
+    ded = price * COST_SEG_PCT
+    saving = ded * MARGINAL_RATE
+    return f"""        <h2 id="tax">The tax position</h2>
+        <ul class="spec-list">
+          <li><span class="k">Purchase price</span><span class="v">{usd(price)}</span></li>
+          <li><span class="k">Typical cost seg reclassification</span><span class="v">25% of price</span></li>
+          <li><span class="k">Illustrative year-one deduction</span><span class="v green">{usd(ded)}</span></li>
+          <li><span class="k">Illustrative tax reduction at 40%</span><span class="v green">{usd(saving)}</span></li>
+        </ul>
+        <div class="callout warn">
+          <p>Those two figures are an illustration, not this client's tax return. They apply the
+          same assumptions as our <a href="/tools/str-revenue-calculator/">revenue calculator</a>:
+          a study reclassifying a quarter of purchase price into shorter lives, and a 40% combined
+          federal and state marginal rate. The real number depends on the study, the bonus
+          depreciation percentage for the year the property was placed in service, your rate, and
+          whether you meet the <a href="/tax-strategy/7-day-rule/">seven day average stay test</a>
+          and <a href="/tax-strategy/material-participation/">materially participate</a>.
+          My BnB Accelerator, LLC is not a CPA firm.</p>
+        </div>
+"""
+
+
+def hero_visual(r):
+    """The property photo where we have one, a plate of the numbers where we do not."""
+    photo = PHOTOS.get(r["slug"])
+    if photo:
+        src, alt, w, h = photo
+        return f"""      <figure class="case-photo">
+        <img src="{src}" alt="{tpl.esc(alt)}" width="{w}" height="{h}" loading="eager" decoding="async">
+        <figcaption>{tpl.esc(r['prop_type'])}, {tpl.esc(r['market'])}</figcaption>
+      </figure>"""
+    chips = "".join(
+        f'<div class="case-plate-stat"><span class="k">{tpl.esc(k)}</span>'
+        f'<span class="v{" green" if g else ""}">{tpl.esc(v)}</span></div>'
+        for k, v, g in r["metrics"][:3])
+    return f"""      <div class="case-plate" aria-hidden="false">
+        <span class="case-plate-type">{tpl.esc(r['prop_type'])}</span>
+        <span class="case-plate-market">{tpl.esc(r['market'])}</span>
+        <div class="case-plate-stats">{chips}</div>
+      </div>"""
+
+
+def links_panel(r, all_recs):
+    """Market, blog, sibling case studies, services. Every landing page links out."""
+    import crosslink_markets as xl
+    items = []
+    items.append(f'<li><a href="{r["market_link"]}">Short-term rental market analysis for '
+                 f'{tpl.esc(r["city"])}</a></li>')
+    entry = xl.MAP.get(r["market_slug"])
+    if entry:
+        state_slug, state_name, pt_slug, pt_label, _cases, posts = entry
+        for bp, text in posts:
+            items.append(f'<li><a href="/blog/{bp}/">{text}</a></li>')
+        items.append(f'<li><a href="/regulations/{state_slug}/">{state_name} short-term '
+                     f'rental regulations</a></li>')
+        items.append(f'<li><a href="/property-types/{pt_slug}/">{pt_label} investing guide</a></li>')
+    siblings = [x for x in all_recs
+                if x["market_slug"] == r["market_slug"] and x["slug"] != r["slug"]][:4]
+    for s in siblings:
+        items.append(f'<li><a href="/case-studies/{s["slug"]}/">{label(s)}</a></li>')
+    items += [
+        '<li><a href="/case-studies/">All client case studies</a></li>',
+        '<li><a href="/deals/">The full deal tracker</a></li>',
+        '<li><a href="/how-it-works/">How the acquisition process works</a></li>',
+        '<li><a href="/financing/">Financing a purchase like this</a></li>',
+        '<li><a href="/design/">The design and furnishing playbook</a></li>',
+        '<li><a href="/tax-strategy/">The tax strategy behind these purchases</a></li>',
+    ]
+    inner = "\n".join(f"            {i}" for i in items)
+    return f"""        <div class="callout">
+          <h3>Related</h3>
+          <ul>
+{inner}
+          </ul>
+        </div>"""
+
+
+def render_landing(r, all_recs):
+    url = f"{tpl.SITE}/case-studies/{r['slug']}/"
+    trail = [("Home", "/"), ("Case Studies", "/case-studies/"),
+             (f"{r['name']}, {r['city']}", f"/case-studies/{r['slug']}/")]
 
     metrics = "\n".join(
         f'            <div class="metric"><span class="metric-key">{k}</span>'
         f'<span class="metric-val{" green" if g else ""}">{v}</span></div>'
-        for k, v, g in c["metrics"])
+        for k, v, g in r["metrics"])
 
     props = ""
-    if c.get("properties"):
+    if r.get("properties"):
         rows = "\n".join(
             f"              <tr><td>{m}</td><td>{b}</td><td>{p}</td></tr>"
-            for m, b, p in c["properties"])
-        props = f"""
-        <h2>The properties</h2>
+            for m, b, p in r["properties"])
+        props = f"""        <h2>The properties</h2>
         <div class="table-scroll">
           <table>
             <thead><tr><th>Market</th><th>Bedrooms</th><th>Purchase price</th></tr></thead>
@@ -617,37 +980,56 @@ def render_case(c, prev_case, next_case):
         </div>
 """
 
-    body_html = "\n\n".join(f"        <p>{p}</p>" for p in c["body"])
+    beds = (f'          <li><span class="k">Bedrooms</span><span class="v">{r["beds"]}</span></li>\n'
+            if r["beds"] else "")
+    # The tracker panel below repeats the price with the rest of the breakdown.
+    price_row = ("" if r["deals"] else
+                 f'          <li><span class="k">Purchase price</span>'
+                 f'<span class="v">{r["price"]}</span></li>\n')
+    ext = []
+    if AIRBNB.get(r["slug"]):
+        ext.append(f'<a class="btn btn-outline btn-sm" href="{AIRBNB[r["slug"]]}" '
+                   f'target="_blank" rel="noopener nofollow">View the Airbnb listing</a>')
+    if PROFORMA.get(r["slug"]):
+        ext.append(f'<a class="btn btn-outline btn-sm" href="{PROFORMA[r["slug"]]}">'
+                   f'See the proforma</a>')
+    ext.append('<a class="btn btn-outline btn-sm" href="/tools/str-revenue-calculator/">'
+               'Run these numbers yourself</a>')
+    ext_html = f'        <div class="btn-row">{"".join(ext)}</div>\n'
 
-    nav_links = []
-    if prev_case:
-        nav_links.append(f'<li><a href="/case-studies/{prev_case["slug"]}/">{prev_case["name"]}, '
-                         f'{prev_case["market"]}</a></li>')
-    if next_case:
-        nav_links.append(f'<li><a href="/case-studies/{next_case["slug"]}/">{next_case["name"]}, '
-                         f'{next_case["market"]}</a></li>')
-    nav_links.append(f'<li><a href="{c["market_link"]}">Market analysis for this area</a></li>')
-    nav_links.append('<li><a href="/how-it-works/">How the acquisition process works</a></li>')
-    nav_links.append('<li><a href="/tax-strategy/">The tax strategy behind these purchases</a></li>')
+    # On a tracker-only page the metric band would repeat the table above it.
+    numbers = "" if r["kind"] == "deal" else f"""        <h2 id="numbers">The numbers</h2>
+        <div class="metrics">
+{metrics}
+        </div>
+"""
+
+    body_html = "\n\n".join(f"        <p>{p}</p>" for p in r["body"])
 
     schema = tpl.graph(
         tpl.breadcrumb_schema([(n, p) for n, p in trail]),
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.article_schema(
-        c["headline"], c["summary"], url, PUBLISHED, section="Client Case Study"
-    ) + "\n" + tpl.faq_schema(c["faqs"])
+        r["headline"], r["summary"], url, PUBLISHED, section="Client Case Study"
+    ) + "\n" + tpl.faq_schema(r["faqs"])
 
     body = f"""
   <section class="hero hero-page">
     <div class="wrap">
       {tpl.breadcrumb_html(trail)}
       <div class="hero-inner">
-        <span class="eyebrow">Case Study &middot; {c["category"]}</span>
-        <h1>{c["headline"]}</h1>
+        <span class="eyebrow">Case Study &middot; {r["category"]}</span>
+        <h1>{r["headline"]}</h1>
         <div class="article-meta">
-          <span>{c["name"]}</span><span>&middot;</span><span>{c["market"]}</span><span>&middot;</span><span>{c["prop_type"]}</span>
+          <span>{r["name"]}</span><span>&middot;</span><span>{r["market"]}</span><span>&middot;</span><span>{r["prop_type"]}</span>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="wrap">
+{hero_visual(r)}
     </div>
   </section>
 
@@ -655,42 +1037,37 @@ def render_case(c, prev_case, next_case):
     <div class="wrap">
       <article class="article">
 
-        <p class="lead">{c["summary"]}</p>
+        <p class="lead">{r["summary"]}</p>
 
-        <div class="callout warn">
-          <p>This is a documented outcome for one specific property, chosen because the numbers are verifiable. It is not typical, not a projection, and not a promise of what any other property will do. Real estate involves risk, including loss of principal.</p>
-        </div>
-
-        <h2>Property details</h2>
+        <h2 id="property">The property</h2>
         <ul class="spec-list">
-          <li><span class="k">Client</span><span class="v">{c["name"]}</span></li>
-          <li><span class="k">Property type</span><span class="v">{c["prop_type"]}</span></li>
-          <li><span class="k">Market</span><span class="v">{c["market"]}</span></li>
-          <li><span class="k">Bedrooms</span><span class="v">{c["beds"]}</span></li>
-          <li><span class="k">Purchase price</span><span class="v">{c["price"]}</span></li>
-        </ul>
-{props}
-        <h2>The numbers</h2>
-        <div class="metrics">
-{metrics}
-        </div>
-
+          <li><span class="k">Client</span><span class="v">{r["name"]}</span></li>
+          <li><span class="k">Property type</span><span class="v">{r["prop_type"]}</span></li>
+          <li><span class="k">Market</span><span class="v">{r["market"]}</span></li>
+{beds}{price_row}        </ul>
+        <p class="small text-muted">We publish the market, not the street address. A first name,
+        a market and a set of numbers is as far as our clients have authorized us to go.</p>
+{ext_html}{props}
+{deal_panel(r)}
+{numbers}
         <div class="result-banner">
-          <strong>Result:</strong> {c["result"]}
+          <strong>Result:</strong> {r["result"]}
         </div>
 
-        <h2>What happened</h2>
+{tax_panel(r)}
+        <div class="callout warn">
+          <p>One documented outcome for one property, published because the numbers are
+          verifiable. Not typical, not a projection, not a promise. Real estate involves risk,
+          including loss of principal.</p>
+        </div>
+
+        <h2 id="what-happened">What happened</h2>
 
 {body_html}
 
-        <div class="callout">
-          <h3>Related reading</h3>
-          <ul>
-            {chr(10).join("            " + l for l in nav_links)}
-          </ul>
-        </div>
+{links_panel(r, all_recs)}
 
-{tpl.faq_html(c["faqs"])}
+{tpl.faq_html(r["faqs"])}
 
 {tpl.AUTHOR_BOX}
 
@@ -698,15 +1075,15 @@ def render_case(c, prev_case, next_case):
     </div>
   </section>
 {tpl.cta_band(
-    "Run your own numbers against a real property",
-    "We screen roughly a thousand deals a week and eliminate about 98%. Tell us your situation and we will tell you whether the strategy fits before you look at a single listing.",
-    ("/apply/", "Apply Now"),
+    "Book a call and run your own numbers",
+    "Tell us your income, your timeline and your tax position. We will tell you whether this strategy fits before you look at a single listing.",
+    ("/apply/", "Book a Call"),
     ("/case-studies/", "See all case studies"))}"""
 
     return tpl.page(
-        title=f"{c['name']}: {c['prop_type']}, {c['market']} | Case Study",
-        description=c["summary"][:158],
-        path=f"/case-studies/{c['slug']}/",
+        title=f"{r['name']}: {r['prop_type']}, {r['market']} | Case Study",
+        description=r["summary"][:158],
+        path=f"/case-studies/{r['slug']}/",
         body=body,
         extra_schema=schema,
         body_class="blog",
@@ -714,43 +1091,70 @@ def render_case(c, prev_case, next_case):
     )
 
 
-def render_index():
+def render_index(recs):
     trail = [("Home", "/"), ("Case Studies", "/case-studies/")]
 
-    cards = []
-    for c in CASES:
-        specs = "\n".join(
-            f'            <li><span class="k">{k}</span><span class="v{" green" if g else ""}">{v}</span></li>'
-            for k, v, g in c["metrics"])
-        cards.append(f"""        <article class="case-card" data-reveal>
+    groups = {}
+    for r in recs:
+        groups.setdefault(r["market_slug"], []).append(r)
+    order = sorted(groups, key=lambda k: (-len(groups[k]), k))
+
+    def market_label(ms):
+        md = MARKET_DATA.get(ms)
+        return md["name"] if md else groups[ms][0]["market"].split(",")[0]
+
+    sections = []
+    for ms in order:
+        rs = groups[ms]
+        heading = market_label(ms)
+        cards = []
+        for r in rs:
+            head = r["metrics"][0]
+            second = r["metrics"][2] if len(r["metrics"]) > 2 else r["metrics"][-1]
+            cards.append(f"""        <article class="case-card" data-reveal>
           <div class="case-top">
-            <span class="avatar">{c["initial"]}</span>
+            <span class="avatar">{r["initial"]}</span>
             <div>
-              <h3><a href="/case-studies/{c["slug"]}/">{c["name"]}</a></h3>
-              <span class="role">{c["prop_type"]}, {c["market"]}</span>
+              <h3><a href="/case-studies/{r["slug"]}/">{r["name"]}</a></h3>
+              <span class="role">{r["prop_type"]}, {r["city"]}</span>
             </div>
           </div>
-          <p class="text-muted">{c["summary"]}</p>
           <ul class="spec-list">
-{specs}
+            <li><span class="k">{head[0]}</span><span class="v{" green" if head[2] else ""}">{head[1]}</span></li>
+            <li><span class="k">{second[0]}</span><span class="v{" green" if second[2] else ""}">{second[1]}</span></li>
           </ul>
-          <div class="result-banner">
-            <strong>Result:</strong> {c["result"]}
-          </div>
-          <p><a class="btn btn-outline btn-sm" href="/case-studies/{c["slug"]}/">Read the full case study</a></p>
+          <p><a class="btn btn-outline btn-sm" href="/case-studies/{r["slug"]}/">See the deal</a></p>
         </article>""")
+        sections.append(f"""      <h2 class="market-group-head" id="{ms}">{tpl.esc(heading)}
+        <span class="market-group-count">{len(rs)} {"deal" if len(rs) == 1 else "deals"}</span></h2>
+      <div class="grid grid-3">
+{chr(10).join(cards)}
+      </div>""")
+
+    jump = " ".join(f'<a class="chip" href="#{ms}">{tpl.esc(market_label(ms))}</a>'
+                    for ms in order)
 
     faqs = [
         ("Are these results typical?",
-         "No. These are actual outcomes for specific properties, selected because they are documented, and they are not a promise of what any other property will do. Results depend on purchase price, financing, market performance, management quality, and your own tax situation. Real estate involves risk, including loss of principal."),
-        ("How is cash flow calculated in these case studies?",
-         "Gross booking revenue minus management, cleaning, supplies, utilities, insurance, property tax, and debt service. Where a figure covers a single month rather than a year, we say so, because peak-month cash flow on a seasonal property is not one twelfth of annual cash flow."),
+         "No. Each page is one documented outcome for one property. Across the deals published "
+         "with full financials the average cash-on-cash return is 13.3% and the range runs from "
+         "under 2% to over 24%. Real estate involves risk, including loss of principal."),
+        ("Why do clients appear as a first name and an initial?",
+         "Because a full name plus a market plus a purchase price identifies a house. Clients "
+         "authorized us to publish the numbers, not their identity, so no page on this site "
+         "carries a client surname or a street address."),
+        ("How is cash flow calculated?",
+         "Gross booking revenue minus management, cleaning, supplies, utilities, insurance, "
+         "property tax and debt service. Where a figure covers a single month rather than a "
+         "year, the page says so, because peak-month cash flow on a seasonal property is not "
+         "one twelfth of annual cash flow."),
+        ("What is included in the entry cost?",
+         "Down payment, closing costs and the design and furnishing budget. Furnishing is the "
+         "line most buyers leave out, and it has to be funded at closing rather than out of the "
+         "first season's revenue."),
         ("Can I speak to past clients?",
-         "Yes. Ask for references on your first call and we will connect you with clients who bought in situations comparable to yours. We would rather you do the diligence up front."),
-        ("What is your repeat buyer rate?",
-         "About 80%. It is the number we point people to first, because nobody buys a second property from a firm that got the first one wrong. One client, an Associate Partner at IBM, has closed six properties with us across four years."),
-        ("Why do some case studies show no revenue figure?",
-         "Because we only publish numbers the client has authorized and we can support. Where a case study lists property details but no cash flow, that means the revenue data is not cleared for publication, not that the property underperformed."),
+         "Yes. Ask for references on your first call and we will connect you with clients who "
+         "bought in situations comparable to yours."),
     ]
 
     schema = tpl.graph(
@@ -766,10 +1170,13 @@ def render_index():
     ) + "\n" + tpl.faq_schema(faqs) + "\n" + tpl.graph(
         '    {\n      "@type": "ItemList",\n      "itemListElement": [\n' +
         ",\n".join(
-            f'        {{ "@type": "ListItem", "position": {i}, "url": "{tpl.SITE}/case-studies/{c["slug"]}/", "name": "{tpl.esc(c["name"])}" }}'
-            for i, c in enumerate(CASES, 1)) +
+            f'        {{ "@type": "ListItem", "position": {i}, '
+            f'"url": "{tpl.SITE}/case-studies/{r["slug"]}/", '
+            f'"name": "{tpl.esc(r["name"] + ", " + r["city"])}" }}'
+            for i, r in enumerate(recs, 1)) +
         "\n      ]\n    }")
 
+    n = len(recs)
     body = f"""
   <section class="hero hero-page">
     <div class="wrap">
@@ -777,10 +1184,11 @@ def render_index():
       <div class="hero-inner">
         <span class="eyebrow">Client Results</span>
         <h1>Actual properties. Actual numbers.</h1>
-        <p class="hero-sub">Eighteen documented client outcomes with real markets, real purchase prices, and real cash flow where the client authorized us to publish it. Our repeat buyer rate is 80%, which is the only statistic in this business that cannot be manufactured.</p>
+        <p class="hero-sub">{n} client deals, each with its own page: what they paid, what it
+        cost to get in, and what it returns.</p>
         <div class="btn-row">
-          <a class="btn btn-accent btn-lg" href="/apply/">Apply Now</a>
-          <a class="btn btn-ghost-light btn-lg" href="/testimonials/">Read testimonials</a>
+          <a class="btn btn-accent btn-lg" href="/apply/">Book a Call</a>
+          <a class="btn btn-ghost-light btn-lg" href="/deals/">Deal tracker</a>
         </div>
       </div>
     </div>
@@ -792,7 +1200,7 @@ def render_index():
         <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Homes closed</span></div>
         <div class="stat"><span class="stat-num">260+</span><span class="stat-label">Clients served</span></div>
         <div class="stat"><span class="stat-num">80%</span><span class="stat-label">Repeat buyer rate</span></div>
-        <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Of screened deals rejected</span></div>
+        <div class="stat"><span class="stat-num">{n}</span><span class="stat-label">Deals published here</span></div>
       </div>
     </div>
   </section>
@@ -801,43 +1209,16 @@ def render_index():
     <div class="wrap">
       <div class="section-head" data-reveal data-hub-heading>
         <span class="eyebrow">Client results</span>
-        <h2>Documented outcomes on real properties</h2>
-        <p>Each case study below links to a full breakdown of the property, the market thesis, and what the numbers actually did.</p>
+        <h2>Every deal, by market</h2>
+        <p>Clients appear as a first name and an initial. We publish the numbers, not the address.</p>
       </div>
-      <div class="grid grid-2">
-{chr(10).join(cards)}
-      </div>
+      <div class="chip-row">{jump}</div>
+
+{chr(10).join(sections)}
     </div>
   </section>
 
   <section class="bg-alt">
-    <div class="wrap">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow">The pattern</span>
-        <h2>What the successful purchases have in common</h2>
-      </div>
-      <div class="grid grid-4">
-        <article class="card" data-reveal>
-          <h3>Bought right</h3>
-          <p>Every dollar below market basis is a permanent improvement to the return that never has to be re-earned. Optimization can move revenue 10 to 20%. Purchase price is locked at closing.</p>
-        </article>
-        <article class="card" data-reveal>
-          <h3>Launched fast</h3>
-          <p>Furnishing, photography and pricing prepared during escrow rather than after closing. Ashley and Billy had almost 80 nights booked within 21 days of going live.</p>
-        </article>
-        <article class="card" data-reveal>
-          <h3>Right operator</h3>
-          <p>Local management chosen on actual performance in that specific submarket, not on a national brand name or the lowest percentage quote.</p>
-        </article>
-        <article class="card" data-reveal>
-          <h3>Amenity fit</h3>
-          <p>The amenity gap against the true comparable set funded at purchase, not deferred. In the Smokies that means hot tub, view and game room. In Orlando it means a heated pool and a game room.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section>
     <div class="wrap wrap-narrow">
       <article class="article">
 {tpl.faq_html(faqs)}
@@ -845,21 +1226,20 @@ def render_index():
     </div>
   </section>
 {tpl.cta_band(
-    "See whether your numbers work",
-    "A thirty minute call covers your income, your tax position, and which markets actually fit what you are trying to do.",
-    ("/apply/", "Apply Now"),
-    ("/how-it-works/", "How it works"))}"""
+    "Book a call and run your own numbers",
+    "We screen roughly a thousand deals a week and eliminate about 98%. Tell us your situation and we will tell you whether the strategy fits.",
+    ("/apply/", "Book a Call"),
+    ("/deals/", "See the deal tracker"))}"""
 
     return tpl.page(
-        title="Case Studies (2026): Real BNB Accelerator Client Results",
-        description="Eighteen documented BNB Accelerator client outcomes: markets, bedroom counts, purchase prices and cash flow, including a 9BR Sevierville cabin that cleared $20K in a month.",
+        title=f"Case Studies (2026): {n} Real BNB Accelerator Client Deals",
+        description=(f"{n} documented BNB Accelerator client deals, each with its own page: "
+                     f"purchase price, entry cost, annual cash flow and cash-on-cash return, "
+                     f"by market."),
         path="/case-studies/",
         body=body,
         extra_schema=schema,
         active="/case-studies/",
-        transparent=True,
-        og_title="Case Studies | Real BNB Accelerator Client Results",
-        og_desc="Actual properties, purchase prices, markets, and cash flow results from BNB Accelerator clients.",
     )
 
 
@@ -871,12 +1251,13 @@ def write(path, html):
 
 
 def main():
-    for i, c in enumerate(CASES):
-        prev_c = CASES[i - 1] if i > 0 else CASES[-1]
-        next_c = CASES[i + 1] if i < len(CASES) - 1 else CASES[0]
-        write(f"/case-studies/{c['slug']}/", render_case(c, prev_c, next_c))
-    write("/case-studies/", render_index())
-    print(f"case studies: {len(CASES)} pages + index")
+    recs = records()
+    slugs = [r["slug"] for r in recs]
+    assert len(slugs) == len(set(slugs)), "duplicate landing slug"
+    for r in recs:
+        write(f"/case-studies/{r['slug']}/", render_landing(r, recs))
+    write("/case-studies/", render_index(recs))
+    print(f"case studies: {len(recs)} landing pages + index")
 
 
 if __name__ == "__main__":
