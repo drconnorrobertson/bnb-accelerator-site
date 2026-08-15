@@ -1575,3 +1575,180 @@ body.blog [data-reveal] {
   transform: none;
   transition: none;
 }
+
+/* =====================================================================
+   Mobile optimization
+   Targets 320-428px handsets. Three concerns, in order:
+   1. Nothing overflows the viewport horizontally.
+   2. Every interactive control clears a 44px touch target.
+   3. Padding and type scale down so content, not chrome, fills the screen.
+   ===================================================================== */
+
+/* -------------------------------------------------- Overflow guardrails */
+/* Long slugs, URLs, and unbroken strings are the usual cause of a page
+   that scrolls sideways. Break them rather than letting them push the
+   layout wider than the viewport. */
+h1, h2, h3, h4, h5, p, li, dd, dt, blockquote, figcaption, .stat-num, .metric-val {
+  overflow-wrap: break-word;
+}
+.article a, .footer-col a, .breadcrumb, .spec-list .k, .spec-list .v {
+  overflow-wrap: break-word;
+}
+
+/* Anything that must stay wide gets its own scroll container instead of
+   widening the document. */
+.table-scroll { max-width: 100%; }
+pre, code { overflow-wrap: break-word; white-space: pre-wrap; }
+
+@media (max-width: 1000px) {
+  /* Mobile browser chrome makes 100vh taller than the visible area, which
+     buries the last nav item under the address bar. */
+  .nav { max-height: calc(100dvh - var(--header-h)); }
+}
+
+/* ------------------------------------------------------- Touch targets */
+@media (max-width: 900px) {
+  .menu-toggle { width: 44px; height: 44px; }
+  .logo { min-height: 44px; }
+
+  /* Pill buttons keep their look but gain height. */
+  .btn { min-height: 44px; }
+  .btn-sm { min-height: 44px; padding: 11px 20px; }
+
+  /* Footer and FAQ links are the two places where text links are the
+     primary navigation, so they get real hit areas. */
+  .footer-col li { margin-bottom: 4px; }
+  .footer-col a {
+    display: inline-block;
+    padding: 10px 0;
+    min-height: 44px;
+  }
+  .faq-nav a { min-height: 44px; display: inline-flex; align-items: center; }
+  .post-link { min-height: 44px; display: inline-flex; align-items: center; }
+  .breadcrumb a { display: inline-flex; align-items: center; min-height: 44px; }
+  .breadcrumb { margin-bottom: 12px; }
+  body.blog .breadcrumb { margin-bottom: 18px; }
+}
+
+/* iOS zooms the whole page when a focused input renders below 16px.
+   The design size is 15.6px, so pin form controls to 16px on touch
+   viewports and let the layout absorb the extra pixel. */
+@media (max-width: 900px) {
+  .field input,
+  .field select,
+  .field textarea { font-size: 16px; }
+}
+
+/* ------------------------------------------------- Spacing at handset */
+@media (max-width: 640px) {
+  section { padding: 56px 0; }
+  .section-sm { padding: 40px 0; }
+  .section-lg { padding: 68px 0; }
+  .section-head { margin-bottom: 36px; }
+  .section-head p { font-size: 1.02rem; }
+
+  .grid { gap: 18px; }
+  .steps { gap: 18px; }
+
+  .hero { padding: calc(var(--header-h) + 52px) 0 60px; }
+  .hero-page { padding: calc(var(--header-h) + 40px) 0 48px; }
+  .hero-sub { font-size: 1.08rem; margin-bottom: 26px; }
+  .hero-trust { margin-top: 22px; font-size: 0.85rem; }
+  .trustpilot { flex-wrap: wrap; font-size: 0.82rem; margin-bottom: 20px; }
+
+  /* Container padding shrinks so text lines stay long enough to read. */
+  .card { padding: 24px 22px; }
+  .step { padding: 26px 22px 24px; }
+  .panel { padding: 24px 22px; }
+  .form-card { padding: 26px 22px; }
+  .partner-card { padding: 24px 22px; gap: 18px; }
+  .case-card { padding: 24px 22px; }
+  .quote-card { padding: 24px 22px; }
+  .toc { padding: 20px 22px; }
+  .author-box { padding: 22px; gap: 14px; }
+  .inline-cta { padding: 24px 22px; margin: 34px 0; }
+  .callout { padding: 18px 20px; margin: 26px 0; }
+
+  .cta-band { padding: 64px 0; }
+  .cta-band p { font-size: 1.02rem; }
+  .site-footer { padding: 52px 0 28px; }
+  .footer-grid { padding-bottom: 34px; gap: 28px; }
+
+  .market-head { padding: 22px 22px 18px; }
+  .market-body { padding: 20px 22px 24px; }
+
+  /* Key/value rows: let the label wrap instead of crushing the value. */
+  .spec-list li { gap: 12px; font-size: 0.9rem; }
+  .spec-list .k { flex: 1 1 auto; min-width: 0; }
+  .spec-list .v { flex: 0 0 auto; }
+
+  .metrics { gap: 8px; margin-top: 18px; padding-top: 18px; }
+  .metric-val { font-size: 0.98rem; }
+  .metric-key { font-size: 0.64rem; letter-spacing: 0.05em; }
+
+  details.faq summary { padding: 20px 40px 20px 0; font-size: 1.02rem; }
+  .faq-answer { padding: 0 8px 24px 0; }
+  .faq-group { margin-bottom: 44px; }
+
+  .article { font-size: 1.04rem; }
+  .article blockquote { padding-left: 20px; font-size: 1.06rem; margin: 26px 0; }
+  body.blog .article { font-size: 1.04rem; line-height: 1.72; }
+  body.blog .article .inline-cta { padding: 26px 0; margin: 40px 0; }
+  body.blog .cta-band { padding: 52px 0; margin-top: 52px; }
+}
+
+/* ------------------------------------------------ Narrow handsets (320) */
+@media (max-width: 400px) {
+  /* Reclaim horizontal space: 24px of gutter on a 320px screen leaves
+     272px of text, which is too narrow for the article measure. */
+  .wrap { padding: 0 18px; }
+
+  body { font-size: 16px; }
+  h1 { font-size: clamp(1.85rem, 8.6vw, 2.15rem); }
+  h2 { font-size: clamp(1.5rem, 6.8vw, 1.75rem); }
+
+  .card, .step, .panel, .form-card, .case-card, .quote-card, .partner-card {
+    padding: 20px 18px;
+  }
+  .toc { padding: 18px; }
+  .inline-cta { padding: 20px 18px; }
+
+  /* Full-width buttons stack cleanly and stop long labels from
+     overflowing, since .btn is nowrap by default. */
+  .btn-row { gap: 10px; }
+  .hero .btn-row .btn,
+  .cta-band .btn-row .btn,
+  .inline-cta .btn { width: 100%; }
+  .btn { white-space: normal; }
+  .btn-lg { padding: 15px 22px; font-size: 0.99rem; }
+
+  .stat { padding: 26px 12px; }
+  .stat-label { font-size: 0.72rem; letter-spacing: 0.06em; }
+
+  /* Three metric columns at 320px give each about 85px. Two reads better. */
+  .metrics { grid-template-columns: repeat(2, 1fr); gap: 14px 10px; }
+
+  .footer-bottom { font-size: 0.79rem; }
+  .disclaimer { font-size: 0.74rem; }
+
+  .article { font-size: 1.01rem; }
+  body.blog .article { font-size: 1.01rem; }
+  body.blog .hero h1 { font-size: clamp(1.75rem, 7.6vw, 2rem); }
+}
+
+/* ------------------------------------------------- Reveal safety valves */
+/* Above-the-fold content must paint on first frame. A scroll-triggered
+   reveal on the hero delays LCP and shows an empty screen until the
+   observer fires, which is most visible on a slow mobile connection. */
+.hero [data-reveal],
+.hero [data-reveal][data-reveal-delay] {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+/* If scripting is unavailable the observer never runs, so content that
+   starts at opacity 0 would stay invisible. Show everything instead. */
+@media (scripting: none) {
+  [data-reveal] { opacity: 1; transform: none; }
+}
