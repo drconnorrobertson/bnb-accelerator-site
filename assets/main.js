@@ -221,3 +221,40 @@
     });
   }
 })();
+
+/* Client wins lightbox. The cards are buttons so the gallery is reachable by
+   keyboard; this only handles opening, closing and focus restoration. */
+(function () {
+  var box = document.querySelector('[data-win-lightbox]');
+  if (!box) return;
+  var img = box.querySelector('[data-win-img]');
+  var cap = box.querySelector('[data-win-cap]');
+  var opener = null;
+
+  function open(btn) {
+    opener = btn;
+    img.src = btn.getAttribute('data-full');
+    img.alt = btn.querySelector('img') ? btn.querySelector('img').alt : '';
+    cap.textContent = btn.getAttribute('data-caption') || '';
+    box.hidden = false;
+    document.body.style.overflow = 'hidden';
+    box.querySelector('[data-win-close]').focus();
+  }
+
+  function close() {
+    box.hidden = true;
+    img.src = '';
+    document.body.style.overflow = '';
+    if (opener) { opener.focus(); opener = null; }
+  }
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-win-open]');
+    if (btn) { e.preventDefault(); open(btn); return; }
+    if (e.target.closest('[data-win-close]') || e.target === box) close();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !box.hidden) close();
+  });
+})();

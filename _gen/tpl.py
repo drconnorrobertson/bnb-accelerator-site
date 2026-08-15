@@ -53,6 +53,7 @@ ORG_SCHEMA = """    {
 NAV_ITEMS = [
     ("/how-it-works/", "How It Works"),
     ("/markets/", "Markets"),
+    ("/wins/", "Wins"),
     ("/case-studies/", "Case Studies"),
     ("/tax-strategy/", "Tax Strategy"),
     ("/compare/", "Compare"),
@@ -130,6 +131,7 @@ def footer():
         <ul>
           <li><a href="/how-it-works/">How It Works</a></li>
           <li><a href="/markets/">Markets</a></li>
+          <li><a href="/wins/">Client Wins</a></li>
           <li><a href="/case-studies/">Case Studies</a></li>
           <li><a href="/testimonials/">Testimonials</a></li>
           <li><a href="/compare/">Compare</a></li>
