@@ -1299,6 +1299,13 @@ table.compare th[scope="row"] { font-weight: 600; color: var(--text); }
   background: linear-gradient(160deg, #131B31 0%, #1B2541 45%, #24325C 100%);
   color: rgba(255,255,255,0.76);
 }
+/* Headings default to navy, which is the same colour as the panel behind
+   them here, so the 404 headline and card titles were invisible. */
+.error-page h1,
+.error-page h2,
+.error-page h3 { color: #fff; }
+.error-page .lead,
+.error-page p { color: rgba(255,255,255,0.76); }
 .error-code {
   font-size: clamp(5rem, 16vw, 9rem);
   font-weight: 800;
