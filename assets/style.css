@@ -2555,3 +2555,197 @@ body.blog .section-heading:first-of-type { margin-top: 8px; }
   .big-stat:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .case-line { font-size: 1rem; }
 }
+
+/* =====================================================================
+   Compare section
+   The index is a menu, not a document: one card per competitor, nothing
+   else. The matchup pages carry a verdict, a two-column table, three
+   differentiators and proof. The table stacks into per-row cards on a
+   handset rather than scrolling sideways, which is what made the old
+   pages feel clunky on a phone.
+   ===================================================================== */
+
+/* ---------------------------------------------------- Index card menu -- */
+.cmp-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+}
+
+.cmp-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 22px 24px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  color: var(--text);
+  transition: transform .26s cubic-bezier(.2,.8,.2,1), box-shadow .26s ease, border-color .26s ease;
+}
+.cmp-card:hover,
+.cmp-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(67, 97, 238, 0.42);
+  color: var(--text);
+}
+
+.cmp-mark {
+  flex: 0 0 auto;
+  width: 54px; height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: linear-gradient(140deg, rgba(67,97,238,0.13), rgba(61,220,132,0.16));
+  color: var(--primary);
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.cmp-card-body { min-width: 0; }
+.cmp-card-body h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+}
+.cmp-go {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.85rem;
+  font-weight: 650;
+  color: var(--primary);
+}
+.cmp-go::after {
+  content: "\2192";
+  transition: transform .26s cubic-bezier(.2,.8,.2,1);
+}
+.cmp-card:hover .cmp-go::after { transform: translateX(5px); }
+
+/* A quiet row of links to the buying guides, so they stay reachable
+   without putting comparison content back on the index. */
+.cmp-guides {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 26px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cmp-guides li { margin: 0; font-size: 0.94rem; }
+
+/* -------------------------------------------------------- Quick verdict -- */
+.verdict {
+  background: linear-gradient(135deg, rgba(67,97,238,0.075), rgba(61,220,132,0.06));
+  border: 1px solid rgba(67, 97, 238, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 30px 34px;
+}
+.verdict-label {
+  display: block;
+  font-size: 0.735rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+.verdict p {
+  margin: 0;
+  font-size: 1.16rem;
+  line-height: 1.6;
+  letter-spacing: -0.012em;
+  color: var(--text);
+}
+
+/* ------------------------------------------------------ Matchup table -- */
+table.cmp-table { margin: 0; }
+table.cmp-table thead th {
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+table.cmp-table th[scope="row"] {
+  width: 22%;
+  font-size: 0.93rem;
+  color: var(--text-muted);
+  font-weight: 650;
+}
+table.cmp-table td { font-size: 0.95rem; vertical-align: top; }
+
+@media (max-width: 720px) {
+  /* Stack each feature into its own card. No sideways scrolling. */
+  .cmp-table-wrap {
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: none;
+  }
+  table.cmp-table, table.cmp-table tbody, table.cmp-table tr,
+  table.cmp-table th, table.cmp-table td { display: block; width: 100%; }
+  /* The desktop table sets a 760px floor to keep columns readable; stacked
+     rows have no columns, so the floor has to come off or the page scrolls. */
+  table.cmp-table { min-width: 0; border: 0; background: none; box-shadow: none; }
+  table.cmp-table .yes, table.cmp-table .no, table.cmp-table .partial {
+    align-items: flex-start;
+  }
+  table.cmp-table .yes::before, table.cmp-table .no::before,
+  table.cmp-table .partial::before { margin-top: 2px; }
+  table.cmp-table thead { display: none; }
+  table.cmp-table tbody tr {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 6px 18px 14px;
+    margin-bottom: 14px;
+  }
+  table.cmp-table tbody tr:hover { background: var(--white); }
+  table.cmp-table th[scope="row"] {
+    width: auto;
+    padding: 15px 0 10px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--text-light);
+  }
+  table.cmp-table td {
+    border-bottom: 0;
+    padding: 12px 0 0;
+  }
+  table.cmp-table td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-light);
+  }
+  table.cmp-table td.us {
+    background: rgba(67, 97, 238, 0.055);
+    border-radius: 10px;
+    padding: 11px 14px;
+    margin-top: 12px;
+  }
+  table.cmp-table td.us::before { color: var(--primary); }
+}
+
+/* --------------------------------------------------------- Proof cards -- */
+.cmp-proof { display: grid; gap: 20px; grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 700px) { .cmp-proof { grid-template-columns: 1fr; } }
+
+/* ------------------------------------------------------------ Handset -- */
+@media (max-width: 640px) {
+  .cmp-grid { grid-template-columns: 1fr; gap: 14px; }
+  .cmp-card { padding: 18px 20px; gap: 15px; }
+  .cmp-mark { width: 46px; height: 46px; border-radius: 13px; font-size: 0.84rem; }
+  .verdict { padding: 24px 22px; }
+  .verdict p { font-size: 1.06rem; }
+}

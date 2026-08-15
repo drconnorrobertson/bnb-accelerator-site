@@ -151,8 +151,8 @@ ANSWERS = {
 }
 
 
-def block(answer):
-    return (f'{START}\n        <p class="lead speakable-answer">{answer}</p>\n{END}')
+def block(answer, cls="lead"):
+    return (f'{START}\n        <p class="{cls} speakable-answer">{answer}</p>\n{END}')
 
 
 def insert_answer(path, answer):
@@ -164,8 +164,13 @@ def insert_answer(path, answer):
         return False
     s = open(f, encoding="utf-8").read()
     if START in s:
+        # Keep whichever class the block already carries. A first run that
+        # replaced a hero sub-paragraph leaves `hero-sub` behind, and rebuilding
+        # it as `lead` on the next run silently restyles the page.
+        cur = re.search(re.escape(START) + r".*?" + re.escape(END), s, re.S).group(0)
+        cls = "hero-sub" if 'class="hero-sub' in cur else "lead"
         s = re.sub(re.escape(START) + r".*?" + re.escape(END),
-                   lambda _: block(answer), s, flags=re.S)
+                   lambda _: block(answer, cls), s, flags=re.S)
         open(f, "w", encoding="utf-8").write(s)
         return True
 
