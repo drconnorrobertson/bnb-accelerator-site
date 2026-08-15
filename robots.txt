@@ -89,4 +89,8 @@ Crawl-delay: 10
 User-agent: DotBot
 Crawl-delay: 10
 
+# Plain-text summary of what BNB Accelerator is, for language models that
+# read it. Mirrors the entity facts on /about/ and the figures on /deals/.
+# https://mybnbaccelerator.com/llms.txt
+
 Sitemap: https://mybnbaccelerator.com/sitemap.xml

@@ -258,3 +258,28 @@
     if (e.key === 'Escape' && !box.hidden) close();
   });
 })();
+
+/* Deal tracker market filter. Progressive enhancement: with JS off every deal
+   is visible and the filter bar simply does nothing. */
+(function () {
+  var bar = document.querySelector('.deal-filters');
+  if (!bar) return;
+  var cards = [].slice.call(document.querySelectorAll('.deal-card'));
+  var empty = document.querySelector('[data-deal-empty]');
+
+  bar.addEventListener('click', function (e) {
+    var btn = e.target.closest('.deal-filter');
+    if (!btn) return;
+    var f = btn.getAttribute('data-filter');
+    [].forEach.call(bar.querySelectorAll('.deal-filter'), function (b) {
+      b.classList.toggle('is-active', b === btn);
+    });
+    var shown = 0;
+    cards.forEach(function (c) {
+      var match = f === 'all' || c.getAttribute('data-market') === f;
+      c.hidden = !match;
+      if (match) shown++;
+    });
+    if (empty) empty.hidden = shown > 0;
+  });
+})();

@@ -2191,3 +2191,102 @@ body.blog .section-heading:first-of-type { margin-top: 8px; }
   .win-card:hover { transform: none; }
   .win-card:hover .win-shot img { transform: none; }
 }
+
+/* ----------------------------------------------------------------- deals */
+
+.deal-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1.75rem;
+}
+
+.deal-filter {
+  font: inherit;
+  font-size: .85rem;
+  font-weight: 600;
+  padding: .5rem .95rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.deal-filter span {
+  opacity: .6;
+  margin-left: .3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.deal-filter:hover { border-color: var(--primary); color: var(--primary); }
+
+.deal-filter.is-active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.deal-filter.is-active span { opacity: .85; }
+
+.deal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1.25rem;
+}
+
+.deal-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.35rem 1.4rem;
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.deal-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(67, 97, 238, .4);
+}
+
+.deal-card[hidden] { display: none; }
+
+.deal-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .6rem;
+}
+
+.deal-head h3 { margin: 0; font-size: 1.05rem; }
+
+.deal-year {
+  font-size: .78rem;
+  color: var(--text-light);
+  font-variant-numeric: tabular-nums;
+}
+
+.deal-market {
+  display: inline-block;
+  font-size: .84rem;
+  margin: .2rem 0 .9rem;
+}
+
+.deal-sub {
+  display: block;
+  font-size: .8rem;
+  color: var(--text-light);
+  font-weight: 400;
+}
+
+.deal-coc { font-variant-numeric: tabular-nums; color: var(--accent-dark); }
+
+@media (max-width: 560px) {
+  .deal-grid { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .deal-card { transition: none; }
+  .deal-card:hover { transform: none; }
+}

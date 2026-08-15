@@ -3415,6 +3415,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://mybnbaccelerator.com/about/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mybnbaccelerator.com/answers/can-airbnb-losses-offset-w2-income/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -3463,6 +3469,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://mybnbaccelerator.com/ask/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mybnbaccelerator.com/data/average-str-revenue-by-market/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -3470,6 +3482,12 @@
   </url>
   <url>
     <loc>https://mybnbaccelerator.com/data/str-occupancy-rates-2026/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mybnbaccelerator.com/deals/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

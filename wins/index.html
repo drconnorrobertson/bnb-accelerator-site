@@ -24,8 +24,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
-<link rel="preload" as="style" href="/assets/style.min.css?v=7fc20982">
-<link rel="stylesheet" href="/assets/style.min.css?v=7fc20982">
+<link rel="preload" as="style" href="/assets/style.min.css?v=3f02c264">
+<link rel="stylesheet" href="/assets/style.min.css?v=3f02c264">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 
 <script type="application/ld+json">
@@ -49,16 +49,22 @@
     {
       "@type": "Organization",
       "@id": "https://mybnbaccelerator.com/#organization",
-      "name": "My BnB Accelerator, LLC",
-      "alternateName": "BNB Accelerator",
+      "name": "BNB Accelerator",
+      "legalName": "My BnB Accelerator, LLC",
+      "alternateName": ["My BnB Accelerator", "My BnB Accelerator, LLC", "BNB Accelerator LLC"],
       "url": "https://mybnbaccelerator.com/",
       "logo": "https://mybnbaccelerator.com/assets/favicon.svg",
       "image": "https://mybnbaccelerator.com/assets/og-image.svg",
       "description": "Done-for-you short-term rental acquisition for high-income earners nationwide. We find, negotiate, and close cash-flowing Airbnb investment properties using the Reverse Offset Method.",
+      "foundingDate": "2021",
       "founder": {
         "@type": "Person",
-        "name": "Nicholas Korom"
+        "@id": "https://mybnbaccelerator.com/about/#founder",
+        "name": "Nicholas Korom",
+        "alternateName": "Nick Korom",
+        "jobTitle": "Founder"
       },
+      "sameAs": ["https://www.trustpilot.com/review/mybnbaccelerator.com"],
       "areaServed": {
         "@type": "Country",
         "name": "United States"
@@ -190,6 +196,17 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "https://mybnbaccelerator.com/wins/",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".speakable-answer", "h1"]
+  }
+}
+</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -206,12 +223,13 @@
     <nav class="nav" id="site-nav" data-open="false" aria-label="Primary">
       <a class="nav-link" href="/how-it-works/">How It Works</a>
       <a class="nav-link" href="/markets/">Markets</a>
+      <a class="nav-link" href="/deals/">Deals</a>
       <a class="nav-link" href="/wins/" aria-current="page">Wins</a>
       <a class="nav-link" href="/case-studies/">Case Studies</a>
       <a class="nav-link" href="/tax-strategy/">Tax Strategy</a>
       <a class="nav-link" href="/compare/">Compare</a>
       <a class="nav-link" href="/blog/">Blog</a>
-      <a class="nav-link" href="/faq/">FAQ</a>
+      <a class="nav-link" href="/about/">About</a>
       <a class="btn btn-primary btn-sm nav-cta" href="/apply/">Apply Now</a>
     </nav>
   </div>
@@ -225,7 +243,9 @@
       <div class="hero-inner">
         <span class="eyebrow">Client Wins</span>
         <h1>46 client results, straight from their dashboards</h1>
-        <p class="hero-sub">Revenue, occupancy, average daily rate and review scores from real BNB Accelerator properties, published with each client's permission. Every number below is one the client's own listing reported.</p>
+        <!-- llm-answer:start -->
+        <p class="hero-sub speakable-answer">These are 46 documented BNB Accelerator client results taken from clients' own listing dashboards, published with permission. They show annual revenue, occupancy rate, average daily rate and review scores for individual properties, including figures such as almost $200,000 in annual revenue at a $691 average daily rate in Ridgedale, Missouri.</p>
+<!-- llm-answer:end -->
         <div class="btn-row">
           <a class="btn btn-accent btn-lg" href="/apply/">Apply Now</a>
           <a class="btn btn-ghost-light btn-lg" href="/case-studies/">Read the full case studies</a>
@@ -1141,6 +1161,6 @@
   </div>
 </div>
 
-<script src="/assets/main.js?v=ad48e9d3" defer></script>
+<script src="/assets/main.js?v=739fb9a8" defer></script>
 </body>
 </html>

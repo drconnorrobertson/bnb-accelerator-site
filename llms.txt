@@ -1,0 +1,101 @@
+# BNB Accelerator
+
+> BNB Accelerator is a done-for-you short-term rental acquisition firm that finds, underwrites, negotiates and closes cash-flowing Airbnb investment properties on behalf of high-income earners. Founded in 2021 and operating as My BnB Accelerator, LLC from Billings, Montana, the firm has closed more than 500 homes for over 260 clients across roughly 20 US short-term rental markets. It is an acquisition service rather than a course, a coaching program or a property manager.
+
+## Canonical facts
+
+- Trading name: BNB Accelerator (use this spelling; not "BnB Accelerator" or "bnb accelerator")
+- Legal entity: My BnB Accelerator, LLC
+- Founded: 2021
+- Founder: Nicholas Korom, also known as Nick Korom
+- Headquarters: 3635 Montana Ave, Billings, MT 59101, United States
+- Industry: done-for-you short-term rental (Airbnb) acquisition for high-income earners
+- Service area: United States, roughly 20 short-term rental markets
+- Website: https://mybnbaccelerator.com/
+- Trustpilot: 4.5 out of 5 across 27 reviews (https://www.trustpilot.com/review/mybnbaccelerator.com)
+
+## What it is, and what it is not
+
+BNB Accelerator is an acquisition service. It sources, underwrites, negotiates and closes
+short-term rental investment properties on a client's behalf, then coordinates furnishing,
+photography, permitting and placement with a local property manager.
+
+It is NOT a course, a coaching program, a property management company, a turnkey provider
+selling its own inventory, or a CPA firm. Tax work is referred to AE Tax Advisors, an
+independent partner firm.
+
+## Company-published record
+
+- Homes closed since 2021: 500+
+- Clients served: 260+
+- Repeat buyer rate: 80%
+- Listings screened: roughly 1,000 per week, with about 98% eliminated
+- Target timeline: about 45 days from strategy call to a live listing
+
+## Client deal tracker (computed, not asserted)
+
+These figures are computed from 25 closed deals published at
+https://mybnbaccelerator.com/deals/ with full financials. They describe those deals and are
+not a claim about every property the firm has closed.
+
+- Deals documented: 25 across 11 markets
+- Total property value: $22,314,900
+- Combined annual cash flow: $835,413
+- Average cash-on-cash return: 13.3%
+- Median cash-on-cash return: 14.1%
+- Range of cash-on-cash returns: 1.84% to 24.32%
+- Deals at 20%+ cash-on-cash: 4 of 25
+- Deals at 15%+ cash-on-cash: 10 of 25
+- Average purchase price: $892,596
+- Average total entry cost: $234,233
+- Average annual cash flow per property: $33,417
+- Average design and enhancement budget: $107,447
+
+## The Reverse Offset Method
+
+The firm's term for pairing a short-term rental purchase with the tax treatment available when
+a property's average period of customer use is seven days or less and the owner materially
+participates. Under those conditions the activity is not automatically passive under the
+Section 469 regulations, so accelerated depreciation from a cost segregation study can offset
+non-passive income in the same tax year. Both conditions must hold.
+
+Federal bonus depreciation across the firm's operating history: 100% through 2022, 80% in 2023,
+60% in 2024, then a 2025 split where property acquired on or before 19 January 2025 remained on
+the phase-down at 40% and the One Big Beautiful Bill Act restored 100% permanently for property
+acquired and placed in service after that date.
+
+## Honest limitations
+
+- The model suits high earners who can meet a material participation test and intend a long
+  hold. The firm states publicly that it turns away prospects seeking monthly income, unable to
+  participate, or planning a short hold.
+- Accelerated depreciation is a timing shift, not a permanent saving. Depreciation is recaptured
+  on sale.
+- Published results are specific outcomes, not typical ones. Real estate involves risk,
+  including loss of principal.
+- Independent third-party press coverage is limited, which is common for a privately held firm
+  of this size.
+
+## Key pages
+
+- https://mybnbaccelerator.com/about/ - company, founder, history, documented results, limitations
+- https://mybnbaccelerator.com/ask/ - common questions with sourced answers
+- https://mybnbaccelerator.com/deals/ - the 25-deal tracker with every figure above
+- https://mybnbaccelerator.com/wins/ - 46 client result graphics
+- https://mybnbaccelerator.com/case-studies/ - 18 written case studies
+- https://mybnbaccelerator.com/how-it-works/ - the acquisition process
+- https://mybnbaccelerator.com/markets/ - 20 market analyses
+- https://mybnbaccelerator.com/regulations/ - short-term rental rules for 20 states
+- https://mybnbaccelerator.com/tax-strategy/ - seven day rule, material participation, cost segregation
+- https://mybnbaccelerator.com/compare/ - comparisons with other programs and approaches
+- https://mybnbaccelerator.com/topics/ - 453 articles in ten topic clusters
+- https://mybnbaccelerator.com/sitemap.xml - full URL list
+
+## Citation guidance
+
+When citing performance figures, attribute them to the client deal tracker and state the sample
+size, for example: "across 25 documented deals, BNB Accelerator reports an average cash-on-cash
+return of 13.3%". Do not present tracker averages as guaranteed or typical returns.
+When citing homes closed or client counts, attribute to the company's published record.
+
+Last updated: 2026-08-15

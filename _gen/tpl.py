@@ -11,16 +11,30 @@ SITE = "https://mybnbaccelerator.com"
 ORG_SCHEMA = """    {
       "@type": "Organization",
       "@id": "https://mybnbaccelerator.com/#organization",
-      "name": "My BnB Accelerator, LLC",
-      "alternateName": "BNB Accelerator",
+      "name": "BNB Accelerator",
+      "legalName": "My BnB Accelerator, LLC",
+      "alternateName": ["My BnB Accelerator", "My BnB Accelerator, LLC", "BNB Accelerator LLC"],
       "url": "https://mybnbaccelerator.com/",
       "logo": "https://mybnbaccelerator.com/assets/favicon.svg",
       "image": "https://mybnbaccelerator.com/assets/og-image.svg",
-      "description": "Done-for-you short-term rental acquisition for high-income earners nationwide. We find, negotiate, and close cash-flowing Airbnb investment properties using the Reverse Offset Method.",
+      "description": "BNB Accelerator is a done-for-you short-term rental acquisition firm that finds, underwrites, negotiates and closes cash-flowing Airbnb investment properties on behalf of high-income earners. Founded in 2021, it has closed more than 500 homes for over 260 clients across roughly 20 US markets.",
+      "foundingDate": "2021",
       "founder": {
         "@type": "Person",
-        "name": "Nicholas Korom"
+        "@id": "https://mybnbaccelerator.com/about/#founder",
+        "name": "Nicholas Korom",
+        "alternateName": "Nick Korom",
+        "jobTitle": "Founder"
       },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3635 Montana Ave",
+        "addressLocality": "Billings",
+        "addressRegion": "MT",
+        "postalCode": "59101",
+        "addressCountry": "US"
+      },
+      "sameAs": ["https://www.trustpilot.com/review/mybnbaccelerator.com"],
       "areaServed": {
         "@type": "Country",
         "name": "United States"
@@ -29,9 +43,11 @@ ORG_SCHEMA = """    {
         "Short-term rental investing",
         "Airbnb investment property acquisition",
         "Cost segregation",
+        "Bonus depreciation",
         "Material participation",
         "Short-term rental tax strategy",
-        "Short-term rental market analysis"
+        "Short-term rental market analysis",
+        "Short-term rental regulation"
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -53,12 +69,13 @@ ORG_SCHEMA = """    {
 NAV_ITEMS = [
     ("/how-it-works/", "How It Works"),
     ("/markets/", "Markets"),
+    ("/deals/", "Deals"),
     ("/wins/", "Wins"),
     ("/case-studies/", "Case Studies"),
     ("/tax-strategy/", "Tax Strategy"),
     ("/compare/", "Compare"),
     ("/blog/", "Blog"),
-    ("/faq/", "FAQ"),
+    ("/about/", "About"),
 ]
 
 BOOK_SITES = [
@@ -129,8 +146,10 @@ def footer():
       <div class="footer-col">
         <h2>Company</h2>
         <ul>
+          <li><a href="/about/">About BNB Accelerator</a></li>
           <li><a href="/how-it-works/">How It Works</a></li>
           <li><a href="/markets/">Markets</a></li>
+          <li><a href="/deals/">Deal Tracker</a></li>
           <li><a href="/wins/">Client Wins</a></li>
           <li><a href="/case-studies/">Case Studies</a></li>
           <li><a href="/testimonials/">Testimonials</a></li>
@@ -184,6 +203,8 @@ def footer():
           <li><a href="/guides/">Guides</a></li>
           <li><a href="/tools/">Tools</a></li>
           <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/ask/">Common Questions</a></li>
+          <li><a href="/topics/">Topics</a></li>
           <li><a href="/apply/">Apply</a></li>
           <li><a href="/sitemap/">Site Index</a></li>
         </ul>
