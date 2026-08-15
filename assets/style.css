@@ -131,6 +131,9 @@ section { padding: 88px 0; }
   color: var(--text-muted);
   line-height: 1.62;
 }
+/* --text-muted is a dark slate: on a dark hero it drops to about 2:1 against
+   the background. Match the hero's own body colour instead. */
+.hero .lead, .bg-dark .lead { color: rgba(255,255,255,0.76); }
 
 /* --------------------------------------------------------------- Grid -- */
 .grid { display: grid; gap: 26px; }
