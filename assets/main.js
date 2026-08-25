@@ -50,53 +50,135 @@
   }
 
   /* ------------------------------------------------- Reveal on scroll -- */
-  var revealItems = doc.querySelectorAll('[data-reveal]');
-  if (revealItems.length) {
-    if (!('IntersectionObserver' in window)) {
-      revealItems.forEach(function (el) { el.classList.add('is-visible'); });
-    } else {
-      var revealObserver = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible');
-            revealObserver.unobserve(entry.target);
-          }
-        });
-      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-      revealItems.forEach(function (el) { revealObserver.observe(el); });
-    }
+  /* The stylesheet only hides [data-reveal] once .js-reveal is on <html>,
+     so this block owns the hidden state end to end: if it never runs, the
+     page renders in full. The observer is the fast path; the scroll sweep
+     below is the guarantee, because an observer can silently never fire
+     (a zero-size viewport, a document laid out before the frame it needs,
+     an element taller than the threshold could ever satisfy) and that
+     leaves real content stranded at opacity 0. */
+  var revealItems = [].slice.call(doc.querySelectorAll('[data-reveal]'));
+  if (revealItems.length && 'IntersectionObserver' in window) {
+    doc.documentElement.classList.add('js-reveal');
+
+    var pendingReveal = revealItems.length;
+    var revealObserver = null;
+
+    var show = function (el) {
+      if (el.classList.contains('is-visible')) return;
+      el.classList.add('is-visible');
+      if (revealObserver) revealObserver.unobserve(el);
+      pendingReveal--;
+    };
+
+    /* A viewport we cannot measure is the failure case that strands content:
+       give it a moment to appear, then show everything rather than hide it. */
+    var noViewport = false;
+
+    /* Reached the viewport, or sits above it. */
+    var reached = function (el) {
+      var vh = window.innerHeight || doc.documentElement.clientHeight || 0;
+      if (!vh) return noViewport;
+      return el.getBoundingClientRect().top <= vh;
+    };
+
+    var sweep = function () {
+      revealItems.forEach(function (el) {
+        if (!el.classList.contains('is-visible') && reached(el)) show(el);
+      });
+      if (pendingReveal <= 0) {
+        window.removeEventListener('scroll', sweep);
+        window.removeEventListener('resize', sweep);
+      }
+    };
+
+    revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) show(entry.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
+
+    revealItems.forEach(function (el) { revealObserver.observe(el); });
+    window.addEventListener('scroll', sweep, { passive: true });
+    window.addEventListener('resize', sweep, { passive: true });
+    window.addEventListener('load', sweep);
+    setTimeout(function () { noViewport = true; sweep(); }, 1500);
+    requestAnimationFrame(sweep);
   }
 
   /* -------------------------------------------------- Counting stats -- */
   var counters = doc.querySelectorAll('[data-count]');
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  /* The final figure is already in the markup, so the stat is correct before
+     a single frame runs and stays correct if the animation never does. */
   function runCount(el) {
+    if (el.getAttribute('data-counting') === 'done') return;
+    el.setAttribute('data-counting', 'done');
+
     var target = parseFloat(el.getAttribute('data-count'));
     if (isNaN(target)) return;
     if (reduceMotion) { el.textContent = String(target); return; }
+
     var duration = 1500;
     var start = null;
+    var settled = false;
+
+    function settle() {
+      if (settled) return;
+      settled = true;
+      el.textContent = String(target);
+    }
+
+    /* Frames get starved -- image decode, a backgrounded tab, a slow phone --
+       and a starved count freezes on whatever partial number it last painted
+       before snapping to the target. Land it on schedule no matter what. */
+    var failsafe = setTimeout(settle, duration + 250);
+
     function frame(ts) {
+      if (settled) return;
       if (start === null) start = ts;
       var progress = Math.min((ts - start) / duration, 1);
       // easeOutExpo
       var eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
       el.textContent = String(Math.round(eased * target));
-      if (progress < 1) requestAnimationFrame(frame);
-      else el.textContent = String(target);
+      if (progress < 1) { requestAnimationFrame(frame); return; }
+      clearTimeout(failsafe);
+      settle();
     }
+
+    el.textContent = '0';
     requestAnimationFrame(frame);
+  }
+
+  /* Hold the animation until the page has finished loading. The stats sit
+     just under the hero, so the old code started counting while the browser
+     was still decoding images -- the numbers stalled part-way, then jumped. */
+  var countQueue = [];
+  var pageLoaded = doc.readyState === 'complete';
+
+  function queueCount(el) {
+    if (pageLoaded) requestAnimationFrame(function () { runCount(el); });
+    else countQueue.push(el);
+  }
+
+  if (!pageLoaded) {
+    window.addEventListener('load', function () {
+      pageLoaded = true;
+      requestAnimationFrame(function () {
+        countQueue.splice(0).forEach(runCount);
+      });
+    });
   }
 
   if (counters.length) {
     if (!('IntersectionObserver' in window)) {
-      counters.forEach(runCount);
+      counters.forEach(queueCount);
     } else {
       var countObserver = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            runCount(entry.target);
+            queueCount(entry.target);
             countObserver.unobserve(entry.target);
           }
         });

@@ -343,10 +343,20 @@ section { padding: 88px 0; }
 }
 
 /* --------------------------------------------------------------- Hero -- */
+/* The photograph sits under a near-opaque brand gradient: enough of the
+   property reads through to give the hero depth, not enough to compete with
+   the headline. The solid colour underneath means a slow or failed image
+   request looks identical to the gradient the hero shipped with. */
 .hero {
   position: relative;
   padding: calc(var(--header-h) + 84px) 0 96px;
-  background: linear-gradient(160deg, #131B31 0%, #1B2541 42%, #24325C 100%);
+  background-color: #131B31;
+  background-image:
+    linear-gradient(160deg, rgba(19,27,49,0.94) 0%, rgba(27,37,65,0.90) 42%, rgba(36,50,92,0.84) 100%),
+    url("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=2000&q=65");
+  background-size: cover, cover;
+  background-position: center, center 32%;
+  background-repeat: no-repeat, no-repeat;
   color: rgba(255,255,255,0.8);
   overflow: hidden;
   isolation: isolate;
@@ -1246,13 +1256,17 @@ table.compare th[scope="row"] { font-weight: 600; color: var(--text); }
 .partner-body p { color: var(--text-muted); font-size: 0.965rem; margin-bottom: 16px; }
 
 /* -------------------------------------------------------- Animations -- */
-[data-reveal] {
+/* Reveal-on-scroll is opt-in, not opt-out. Nothing is hidden until the
+   script that reveals it has confirmed it is running (it puts .js-reveal on
+   <html>), so a script that never loads, never parses or never gets a
+   viewport to measure leaves the page fully readable instead of blank. */
+.js-reveal [data-reveal] {
   opacity: 0;
   transform: translateY(22px);
   transition: opacity .65s cubic-bezier(.2,.8,.2,1), transform .65s cubic-bezier(.2,.8,.2,1);
   will-change: opacity, transform;
 }
-[data-reveal].is-visible { opacity: 1; transform: none; }
+.js-reveal [data-reveal].is-visible { opacity: 1; transform: none; }
 [data-reveal-delay="1"] { transition-delay: .09s; }
 [data-reveal-delay="2"] { transition-delay: .18s; }
 [data-reveal-delay="3"] { transition-delay: .27s; }
@@ -1264,7 +1278,7 @@ table.compare th[scope="row"] { font-weight: 600; color: var(--text); }
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
   }
-  [data-reveal] { opacity: 1; transform: none; }
+  .js-reveal [data-reveal] { opacity: 1; transform: none; }
 }
 
 /* ------------------------------------------------------------- Utils  -- */
@@ -1761,10 +1775,12 @@ pre, code { overflow-wrap: break-word; white-space: pre-wrap; }
   transition: none;
 }
 
-/* If scripting is unavailable the observer never runs, so content that
-   starts at opacity 0 would stay invisible. Show everything instead. */
+/* Belt and braces alongside the .js-reveal gate above: with scripting off
+   the gate class is never applied, and this keeps the content visible even
+   if a future edit reintroduces an unscoped hidden state. */
 @media (scripting: none) {
-  [data-reveal] { opacity: 1; transform: none; }
+  [data-reveal],
+  .js-reveal [data-reveal] { opacity: 1; transform: none; }
 }
 
 /* =====================================================================
