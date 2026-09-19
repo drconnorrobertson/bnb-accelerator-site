@@ -304,6 +304,25 @@
   }
 })();
 
+/* Blog library search. All articles remain visible and crawlable without JS. */
+(function () {
+  var input = document.querySelector('[data-article-search]');
+  if (!input) return;
+  var cards = [].slice.call(document.querySelectorAll('.post-grid .post-card'));
+  var empty = document.querySelector('[data-article-empty]');
+
+  input.addEventListener('input', function () {
+    var query = input.value.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (card) {
+      var match = !query || card.textContent.toLowerCase().indexOf(query) !== -1;
+      card.hidden = !match;
+      if (match) shown++;
+    });
+    if (empty) empty.hidden = shown !== 0;
+  });
+})();
+
 /* Client wins lightbox. The cards are buttons so the gallery is reachable by
    keyboard; this only handles opening, closing and focus restoration. */
 (function () {

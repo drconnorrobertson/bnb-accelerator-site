@@ -1726,6 +1726,24 @@ pre, code { overflow-wrap: break-word; white-space: pre-wrap; }
   body.blog .cta-band { padding: 52px 0; margin-top: 52px; }
 }
 
+/* ------------------------------------------------ Premium research hub -- */
+.research-network { background: var(--navy, #111a26); color: #c8d0dc; }
+.research-network-grid { display: grid; grid-template-columns: 1.05fr 1fr 1fr; gap: 1px; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.14); }
+.research-network-grid > div, .research-network-link { padding: 34px; background: var(--navy, #111a26); }
+.research-network-grid h2 { color: #fff; font-size: clamp(1.7rem, 3vw, 2.5rem); margin-bottom: 0; }
+.research-network-link { color: #fff; text-decoration: none; display: flex; flex-direction: column; justify-content: center; transition: background .2s ease; }
+.research-network-link:hover { background: #1b2a3f; }
+.research-network-link span { color: #cfac72; font-size: .7rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 18px; }
+.research-network-link strong { font-family: var(--font-display, Georgia, serif); font-size: 1.4rem; font-weight: 500; margin-bottom: 8px; }
+.research-network-link small { color: #aeb8c7; line-height: 1.55; }
+.article-library-head { display: grid; grid-template-columns: 1fr minmax(300px, 480px); gap: 40px; align-items: end; padding: 60px 0 28px; border-bottom: 1px solid var(--border); margin-bottom: 28px; }
+.article-library-head h2 { margin-bottom: 0; }
+.article-search span { display: block; color: var(--text-light); font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 8px; }
+.article-search input { width: 100%; border: 1px solid var(--border); border-radius: 0; background: var(--white); color: var(--text); font: inherit; padding: 14px 16px; }
+.article-search input:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.article-empty { padding: 24px; background: var(--surface); border-left: 3px solid var(--accent); }
+@media (max-width: 860px) { .research-network-grid, .article-library-head { grid-template-columns: 1fr; } }
+
 /* ------------------------------------------------ Narrow handsets (320) */
 @media (max-width: 400px) {
   /* Reclaim horizontal space: 24px of gutter on a 320px screen leaves
