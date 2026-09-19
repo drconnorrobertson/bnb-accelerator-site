@@ -206,7 +206,7 @@ def about_page():
                 ["Headquarters", FACTS["address"]],
                 ["Industry", "Real estate acquisition services"],
                 ["Service area", "United States"],
-                ["Website", "https://mybnbaccelerator.com/"],
+                ["Website", "https://www.bnbaccelerator.com/"],
                 ["Tax partner", f"{FACTS['partner']} (independent)"],
             ]),
         ]),
@@ -217,18 +217,18 @@ def about_page():
         tpl.breadcrumb_schema(trail),
         f"""    {{
       "@type": "Organization",
-      "@id": "https://mybnbaccelerator.com/#organization",
+      "@id": "https://www.bnbaccelerator.com/#organization",
       "name": "BNB Accelerator",
       "legalName": "{FACTS['legal']}",
       "alternateName": ["My BnB Accelerator", "My BnB Accelerator, LLC", "BNB Accelerator LLC"],
-      "url": "https://mybnbaccelerator.com/",
-      "logo": "https://mybnbaccelerator.com/assets/favicon.svg",
-      "image": "https://mybnbaccelerator.com/assets/og-image.svg",
+      "url": "https://www.bnbaccelerator.com/",
+      "logo": "https://www.bnbaccelerator.com/assets/favicon.svg",
+      "image": "https://www.bnbaccelerator.com/assets/og-image.svg",
       "description": "{tpl.esc(DEFINITION)}",
       "foundingDate": "{FACTS['founded']}",
       "founder": {{
         "@type": "Person",
-        "@id": "https://mybnbaccelerator.com/about/#founder",
+        "@id": "https://www.bnbaccelerator.com/about/#founder",
         "name": "{FACTS['founder']}",
         "alternateName": "{FACTS['founder_alt']}",
         "jobTitle": "Founder",
@@ -267,8 +267,8 @@ def about_page():
       "name": "About BNB Accelerator",
       "description": "{tpl.esc(DEFINITION)}",
       "url": "{tpl.SITE}/about/",
-      "mainEntity": {{ "@id": "https://mybnbaccelerator.com/#organization" }},
-      "isPartOf": {{ "@id": "https://mybnbaccelerator.com/#website" }}
+      "mainEntity": {{ "@id": "https://www.bnbaccelerator.com/#organization" }},
+      "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }}
     }}""",
     ) + "\n" + tpl.faq_schema(faqs)
 
@@ -505,7 +505,7 @@ def llms_txt():
 - Headquarters: {FACTS['address']}, United States
 - Industry: done-for-you short-term rental (Airbnb) acquisition for high-income earners
 - Service area: United States, roughly {FACTS['markets_covered']} short-term rental markets
-- Website: https://mybnbaccelerator.com/
+- Website: https://www.bnbaccelerator.com/
 - Trustpilot: {FACTS['trustpilot']} (https://www.trustpilot.com/review/mybnbaccelerator.com)
 
 ## What it is, and what it is not
@@ -529,7 +529,7 @@ independent partner firm.
 ## Client deal tracker (computed, not asserted)
 
 These figures are computed from {FACTS['deals']} closed deals published at
-https://mybnbaccelerator.com/deals/ with full financials. They describe those deals and are
+https://www.bnbaccelerator.com/deals/ with full financials. They describe those deals and are
 not a claim about every property the firm has closed.
 
 - Deals documented: {FACTS['deals']} across {FACTS['deal_markets']} markets
@@ -572,18 +572,18 @@ acquired and placed in service after that date.
 
 ## Key pages
 
-- https://mybnbaccelerator.com/about/ - company, founder, history, documented results, limitations
-- https://mybnbaccelerator.com/ask/ - common questions with sourced answers
-- https://mybnbaccelerator.com/deals/ - the {FACTS['deals']}-deal tracker with every figure above
-- https://mybnbaccelerator.com/wins/ - 46 client result graphics
-- https://mybnbaccelerator.com/case-studies/ - 18 written case studies
-- https://mybnbaccelerator.com/how-it-works/ - the acquisition process
-- https://mybnbaccelerator.com/markets/ - 20 market analyses
-- https://mybnbaccelerator.com/regulations/ - short-term rental rules for 20 states
-- https://mybnbaccelerator.com/tax-strategy/ - seven day rule, material participation, cost segregation
-- https://mybnbaccelerator.com/compare/ - comparisons with other programs and approaches
-- https://mybnbaccelerator.com/topics/ - 453 articles in ten topic clusters
-- https://mybnbaccelerator.com/sitemap.xml - full URL list
+- https://www.bnbaccelerator.com/about/ - company, founder, history, documented results, limitations
+- https://www.bnbaccelerator.com/ask/ - common questions with sourced answers
+- https://www.bnbaccelerator.com/deals/ - the {FACTS['deals']}-deal tracker with every figure above
+- https://www.bnbaccelerator.com/wins/ - 46 client result graphics
+- https://www.bnbaccelerator.com/case-studies/ - 18 written case studies
+- https://www.bnbaccelerator.com/how-it-works/ - the acquisition process
+- https://www.bnbaccelerator.com/markets/ - 20 market analyses
+- https://www.bnbaccelerator.com/regulations/ - short-term rental rules for 20 states
+- https://www.bnbaccelerator.com/tax-strategy/ - seven day rule, material participation, cost segregation
+- https://www.bnbaccelerator.com/compare/ - comparisons with other programs and approaches
+- https://www.bnbaccelerator.com/topics/ - 453 articles in ten topic clusters
+- https://www.bnbaccelerator.com/sitemap.xml - full URL list
 
 ## Citation guidance
 

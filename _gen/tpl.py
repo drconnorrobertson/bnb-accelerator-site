@@ -6,22 +6,22 @@ and schema graph stay identical to the hand-written pages. Asset hashes are
 placeholders, build_assets.py stamps the real ones after generation.
 """
 
-SITE = "https://mybnbaccelerator.com"
+SITE = "https://www.bnbaccelerator.com"
 
 ORG_SCHEMA = """    {
       "@type": "Organization",
-      "@id": "https://mybnbaccelerator.com/#organization",
+      "@id": "https://www.bnbaccelerator.com/#organization",
       "name": "BNB Accelerator",
       "legalName": "My BnB Accelerator, LLC",
       "alternateName": ["My BnB Accelerator", "My BnB Accelerator, LLC", "BNB Accelerator LLC"],
-      "url": "https://mybnbaccelerator.com/",
-      "logo": "https://mybnbaccelerator.com/assets/favicon.svg",
-      "image": "https://mybnbaccelerator.com/assets/og-image.svg",
+      "url": "https://www.bnbaccelerator.com/",
+      "logo": "https://www.bnbaccelerator.com/assets/favicon.svg",
+      "image": "https://www.bnbaccelerator.com/assets/og-image.svg",
       "description": "BNB Accelerator is a done-for-you short-term rental acquisition firm that finds, underwrites, negotiates and closes cash-flowing Airbnb investment properties on behalf of high-income earners. Founded in 2021, it has closed more than 500 homes for over 260 clients across roughly 20 US markets.",
       "foundingDate": "2021",
       "founder": {
         "@type": "Person",
-        "@id": "https://mybnbaccelerator.com/about/#founder",
+        "@id": "https://www.bnbaccelerator.com/about/#founder",
         "name": "Nicholas Korom",
         "alternateName": "Nick Korom",
         "jobTitle": "Founder"
@@ -59,10 +59,10 @@ ORG_SCHEMA = """    {
     },
     {
       "@type": "WebSite",
-      "@id": "https://mybnbaccelerator.com/#website",
-      "url": "https://mybnbaccelerator.com/",
+      "@id": "https://www.bnbaccelerator.com/#website",
+      "url": "https://www.bnbaccelerator.com/",
       "name": "My BnB Accelerator",
-      "publisher": { "@id": "https://mybnbaccelerator.com/#organization" },
+      "publisher": { "@id": "https://www.bnbaccelerator.com/#organization" },
       "inLanguage": "en-US"
     }"""
 
@@ -282,9 +282,9 @@ def article_schema(title, desc, url, published, modified=None, section="Short-Te
   "articleSection": "{esc(section)}",
   "inLanguage": "en-US",
   "mainEntityOfPage": {{ "@type": "WebPage", "@id": "{url}" }},
-  "author": {{ "@type": "Organization", "name": "My BnB Accelerator, LLC", "url": "https://mybnbaccelerator.com/" }},
-  "publisher": {{ "@id": "https://mybnbaccelerator.com/#organization" }},
-  "isPartOf": {{ "@id": "https://mybnbaccelerator.com/#website" }}
+  "author": {{ "@type": "Organization", "name": "My BnB Accelerator, LLC", "url": "https://www.bnbaccelerator.com/" }},
+  "publisher": {{ "@id": "https://www.bnbaccelerator.com/#organization" }},
+  "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }}
 }}
 </script>"""
 

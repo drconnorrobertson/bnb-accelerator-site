@@ -133,7 +133,7 @@ def main():
       "name": "BNB Accelerator client deal tracker",
       "description": "{tpl.esc(answer)}",
       "url": "{tpl.SITE}/deals/",
-      "creator": {{ "@id": "https://mybnbaccelerator.com/#organization" }},
+      "creator": {{ "@id": "https://www.bnbaccelerator.com/#organization" }},
       "variableMeasured": [
         {{ "@type": "PropertyValue", "name": "Deals documented", "value": {AGG['deals']} }},
         {{ "@type": "PropertyValue", "name": "Total property value", "value": {AGG['total_value']}, "unitCode": "USD" }},

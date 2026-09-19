@@ -220,7 +220,7 @@ def main():
       "name": "BNB Accelerator Client Wins",
       "description": "{n} documented client results: revenue, occupancy, average daily rate and review scores from BNB Accelerator client properties.",
       "url": "{tpl.SITE}/wins/",
-      "isPartOf": {{ "@id": "https://mybnbaccelerator.com/#website" }}
+      "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }}
     }}""",
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.faq_schema(faqs) + "\n" + tpl.graph(

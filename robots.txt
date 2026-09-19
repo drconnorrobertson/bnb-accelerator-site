@@ -1,4 +1,4 @@
-# robots.txt for mybnbaccelerator.com
+# robots.txt for bnbaccelerator.com
 # Static site, no user accounts, no private areas: everything is crawlable.
 # Rules below exist for crawl efficiency, not to hide anything.
 
@@ -91,6 +91,6 @@ Crawl-delay: 10
 
 # Plain-text summary of what BNB Accelerator is, for language models that
 # read it. Mirrors the entity facts on /about/ and the figures on /deals/.
-# https://mybnbaccelerator.com/llms.txt
+# https://www.bnbaccelerator.com/llms.txt
 
-Sitemap: https://mybnbaccelerator.com/sitemap.xml
+Sitemap: https://www.bnbaccelerator.com/sitemap.xml

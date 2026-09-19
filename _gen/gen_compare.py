@@ -525,9 +525,9 @@ def build_matchup(slug, name, verdict, them, keys, index):
       "image": "{tpl.SITE}/assets/og-image.svg",
       "articleSection": "Comparison",
       "inLanguage": "en-US",
-      "author": {{ "@type": "Organization", "name": "My BnB Accelerator, LLC", "url": "https://mybnbaccelerator.com/" }},
-      "publisher": {{ "@id": "https://mybnbaccelerator.com/#organization" }},
-      "isPartOf": {{ "@id": "https://mybnbaccelerator.com/#website" }}
+      "author": {{ "@type": "Organization", "name": "My BnB Accelerator, LLC", "url": "https://www.bnbaccelerator.com/" }},
+      "publisher": {{ "@id": "https://www.bnbaccelerator.com/#organization" }},
+      "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }}
     }}"""
     schema = tpl.graph(
         article,

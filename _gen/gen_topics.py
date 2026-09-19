@@ -53,7 +53,7 @@ def pillar(cluster_key, posts):
       "name": "{tpl.esc(c['name'])} articles",
       "description": "{tpl.esc(c['intro'])}",
       "url": "{tpl.SITE}{path}",
-      "isPartOf": {{ "@id": "https://mybnbaccelerator.com/#website" }}
+      "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }}
     }}""",
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.graph(

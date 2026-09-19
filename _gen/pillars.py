@@ -143,7 +143,7 @@ def hub(*, path, title, h1, eyebrow, description, sub, cards, sections=None,
       "name": "{tpl.esc(list_name or h1)}",
       "description": "{tpl.esc(description)}",
       "url": "{tpl.SITE}{path}",
-      "isPartOf": {{ "@id": "https://mybnbaccelerator.com/#website" }}
+      "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }}
     }}""",
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.graph(

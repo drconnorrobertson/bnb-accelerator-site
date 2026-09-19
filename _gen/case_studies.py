@@ -1185,8 +1185,8 @@ def render_index(recs):
       "@type": "CollectionPage",
       "name": "BNB Accelerator Case Studies",
       "description": "Documented client outcomes from done-for-you short-term rental acquisitions.",
-      "url": "https://mybnbaccelerator.com/case-studies/",
-      "isPartOf": { "@id": "https://mybnbaccelerator.com/#website" }
+      "url": "https://www.bnbaccelerator.com/case-studies/",
+      "isPartOf": { "@id": "https://www.bnbaccelerator.com/#website" }
     }""",
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.faq_schema(faqs) + "\n" + tpl.graph(

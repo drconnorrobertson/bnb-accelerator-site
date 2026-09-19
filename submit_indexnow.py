@@ -6,7 +6,7 @@ Naver. Google does not participate. Brave runs an independent index and
 publishes no submission endpoint, so the only levers there are the Bravebot
 allow in robots.txt and the sitemap reference.
 
-The key file must be live at https://mybnbaccelerator.com/<key>.txt before a
+The key file must be live at https://www.bnbaccelerator.com/<key>.txt before a
 batch is accepted, so deploy first, then run this.
 
 Usage:
@@ -26,7 +26,7 @@ from urllib.error import HTTPError, URLError
 
 BASE_DIR = Path(__file__).parent
 SITEMAP = BASE_DIR / "sitemap.xml"
-HOST = "mybnbaccelerator.com"
+HOST = "www.bnbaccelerator.com"
 SITE_URL = f"https://{HOST}"
 ENDPOINT = "https://api.indexnow.org/indexnow"
 

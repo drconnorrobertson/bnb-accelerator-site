@@ -186,12 +186,12 @@ def render_index(entries):
         tpl.breadcrumb_schema(trail),
         f"""    {{
       "@type": "Blog",
-      "@id": "https://mybnbaccelerator.com/blog/#blog",
+      "@id": "https://www.bnbaccelerator.com/blog/#blog",
       "name": "The BNB Accelerator Blog",
       "description": "Short-term rental investing, tax strategy, market analysis and operations, written for high-income earners buying cash-flowing Airbnb properties.",
-      "url": "https://mybnbaccelerator.com/blog/",
-      "isPartOf": {{ "@id": "https://mybnbaccelerator.com/#website" }},
-      "publisher": {{ "@id": "https://mybnbaccelerator.com/#organization" }}
+      "url": "https://www.bnbaccelerator.com/blog/",
+      "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }},
+      "publisher": {{ "@id": "https://www.bnbaccelerator.com/#organization" }}
     }}""",
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.graph(

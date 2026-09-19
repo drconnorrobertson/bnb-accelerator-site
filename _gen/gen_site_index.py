@@ -142,7 +142,7 @@ def main():
 
     write("/sitemap/", tpl.page(
         title=f"Site Index: All {total} Pages | BNB Accelerator",
-        description=f"Every page on mybnbaccelerator.com, organised by section: {total} pages covering markets, case studies, tax strategy, financing, regulations and the blog.",
+        description=f"Every page on bnbaccelerator.com, organised by section: {total} pages covering markets, case studies, tax strategy, financing, regulations and the blog.",
         path="/sitemap/",
         body=body,
         extra_schema=schema,
