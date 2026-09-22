@@ -2,6 +2,10 @@
 
 Baseline on 22 September 2026: 632 public HTML routes before this batch. Doubling the route count would require roughly 632 additional pages. The goal is more useful search coverage, not a URL quota. Google may omit repetitive or low-value pages from Search even when they are in a sitemap.
 
+## Editorial audit before further scale
+
+The September 22 review found substantial repeated passages in several older year-by-year and quarterly blog series. The Q3 and Q4 2026 retrospective market updates were published before those quarters ended; both were removed and redirected. The remaining annual and quarterly variants need individual checks for genuinely distinct evidence, accurate publication dates, and a search intent that merits its own URL. Consolidate or rewrite weak variants before adding another generated series. The technical audit below checks crawlability; it does not certify editorial quality or guarantee indexing.
+
 ## Publishing order
 
 1. **Recover old search demand.** Keep a redirect ledger for former WordPress URLs. Redirect each retired URL to the closest current answer, with no homepage catch-all. Check Search Console's Not found report and add exact mappings for discovered 404s. The first 24 source paths are in `vercel.json`.

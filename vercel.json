@@ -4,6 +4,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/str-market-update-q4-2026/",
+      "destination": "/topics/market-updates/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q3-2026/",
+      "destination": "/topics/market-updates/",
+      "permanent": true
+    },
+    {
       "source": "/services/",
       "destination": "/how-it-works/",
       "permanent": true

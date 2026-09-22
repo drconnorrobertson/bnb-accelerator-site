@@ -174,7 +174,10 @@ def build(q, year):
 
 
 def all_posts():
-    return [build(q, y) for y in sorted(era.YEARS) for q in (1, 2, 3, 4)]
+    # Hold the 2026 Q3/Q4 drafts until a sourced editorial review replaces
+    # their retrospective claims about quarters that were still unfinished.
+    return [build(q, y) for y in sorted(era.YEARS)
+            for q in (1, 2, 3, 4) if (y, q) <= (2026, 2)]
 
 
 if __name__ == "__main__":
