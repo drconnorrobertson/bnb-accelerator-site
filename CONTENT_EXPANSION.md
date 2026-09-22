@@ -35,6 +35,8 @@ This is a research backlog, not permission to generate 665 templated pages. Some
 - The page is accessible with JavaScript off, returns 200, is not `noindex`, and appears once in the XML sitemap.
 - A human can answer what the reader learned that was unavailable on the parent page.
 
+Run `python3 audit_content.py` before every release. It checks all routes, sitemap coverage, duplicate metadata, canonical URLs, JSON-LD, internal links, and redirect targets.
+
 ## Release measurement
 
 After each cluster, inspect Search Console over several weeks for discovery, indexation, impressions, and queries. Merge or improve pages that Google declines to index when they overlap. Track qualified applications and assisted conversions, not just route count.
