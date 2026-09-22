@@ -5,12 +5,12 @@
   "redirects": [
     {
       "source": "/blog/str-market-update-q4-2026/",
-      "destination": "/topics/market-updates/",
+      "destination": "/topics/market-analysis/",
       "permanent": true
     },
     {
       "source": "/blog/str-market-update-q3-2026/",
-      "destination": "/topics/market-updates/",
+      "destination": "/topics/market-analysis/",
       "permanent": true
     },
     {
@@ -341,6 +341,1051 @@
     {
       "source": "/case-studies/adam-sevierville-tn-4br/",
       "destination": "/case-studies/adam-s-sevierville/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyzing-deals-2021/",
+      "destination": "/revenue-projections/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyzing-deals-2022/",
+      "destination": "/revenue-projections/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyzing-deals-2023/",
+      "destination": "/revenue-projections/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyzing-deals-2024/",
+      "destination": "/revenue-projections/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyzing-deals-2025/",
+      "destination": "/revenue-projections/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyzing-deals-2026/",
+      "destination": "/revenue-projections/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/austin-str-market-2021/",
+      "destination": "/markets/austin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/austin-str-market-2022/",
+      "destination": "/markets/austin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/austin-str-market-2023/",
+      "destination": "/markets/austin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/austin-str-market-2024/",
+      "destination": "/markets/austin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/austin-str-market-2025/",
+      "destination": "/markets/austin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/austin-str-market-2026/",
+      "destination": "/markets/austin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/big-bear-str-market-2021/",
+      "destination": "/markets/big-bear/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/big-bear-str-market-2022/",
+      "destination": "/markets/big-bear/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/big-bear-str-market-2023/",
+      "destination": "/markets/big-bear/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/big-bear-str-market-2024/",
+      "destination": "/markets/big-bear/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/big-bear-str-market-2025/",
+      "destination": "/markets/big-bear/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/big-bear-str-market-2026/",
+      "destination": "/markets/big-bear/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bonus-depreciation-2021/",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bonus-depreciation-2022/",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bonus-depreciation-2023/",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bonus-depreciation-2024/",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bonus-depreciation-2025/",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bonus-depreciation-2026/",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/branson-str-market-2021/",
+      "destination": "/markets/branson/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/branson-str-market-2022/",
+      "destination": "/markets/branson/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/branson-str-market-2023/",
+      "destination": "/markets/branson/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/branson-str-market-2024/",
+      "destination": "/markets/branson/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/branson-str-market-2025/",
+      "destination": "/markets/branson/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/branson-str-market-2026/",
+      "destination": "/markets/branson/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broken-bow-str-market-2021/",
+      "destination": "/markets/broken-bow/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broken-bow-str-market-2022/",
+      "destination": "/markets/broken-bow/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broken-bow-str-market-2023/",
+      "destination": "/markets/broken-bow/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broken-bow-str-market-2024/",
+      "destination": "/markets/broken-bow/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broken-bow-str-market-2025/",
+      "destination": "/markets/broken-bow/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/broken-bow-str-market-2026/",
+      "destination": "/markets/broken-bow/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cape-coral-str-market-2021/",
+      "destination": "/markets/cape-coral/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cape-coral-str-market-2022/",
+      "destination": "/markets/cape-coral/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cape-coral-str-market-2023/",
+      "destination": "/markets/cape-coral/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cape-coral-str-market-2024/",
+      "destination": "/markets/cape-coral/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cape-coral-str-market-2025/",
+      "destination": "/markets/cape-coral/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cape-coral-str-market-2026/",
+      "destination": "/markets/cape-coral/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cost-segregation-2021/",
+      "destination": "/tax-strategy/cost-segregation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cost-segregation-2022/",
+      "destination": "/tax-strategy/cost-segregation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cost-segregation-2023/",
+      "destination": "/tax-strategy/cost-segregation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cost-segregation-2024/",
+      "destination": "/tax-strategy/cost-segregation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cost-segregation-2025/",
+      "destination": "/tax-strategy/cost-segregation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cost-segregation-2026/",
+      "destination": "/tax-strategy/cost-segregation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/denver-str-market-2021/",
+      "destination": "/markets/denver/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/denver-str-market-2022/",
+      "destination": "/markets/denver/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/denver-str-market-2023/",
+      "destination": "/markets/denver/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/denver-str-market-2024/",
+      "destination": "/markets/denver/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/denver-str-market-2025/",
+      "destination": "/markets/denver/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/denver-str-market-2026/",
+      "destination": "/markets/denver/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-furnishing-2021/",
+      "destination": "/design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-furnishing-2022/",
+      "destination": "/design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-furnishing-2023/",
+      "destination": "/design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-furnishing-2024/",
+      "destination": "/design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-furnishing-2025/",
+      "destination": "/design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-furnishing-2026/",
+      "destination": "/design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/destin-str-market-2021/",
+      "destination": "/markets/destin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/destin-str-market-2022/",
+      "destination": "/markets/destin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/destin-str-market-2023/",
+      "destination": "/markets/destin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/destin-str-market-2024/",
+      "destination": "/markets/destin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/destin-str-market-2025/",
+      "destination": "/markets/destin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/destin-str-market-2026/",
+      "destination": "/markets/destin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gatlinburg-str-market-2021/",
+      "destination": "/markets/gatlinburg/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gatlinburg-str-market-2022/",
+      "destination": "/markets/gatlinburg/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gatlinburg-str-market-2023/",
+      "destination": "/markets/gatlinburg/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gatlinburg-str-market-2024/",
+      "destination": "/markets/gatlinburg/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gatlinburg-str-market-2025/",
+      "destination": "/markets/gatlinburg/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gatlinburg-str-market-2026/",
+      "destination": "/markets/gatlinburg/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guest-experience-2021/",
+      "destination": "/blog/reviews-compound-like-interest/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guest-experience-2022/",
+      "destination": "/blog/reviews-compound-like-interest/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guest-experience-2023/",
+      "destination": "/blog/reviews-compound-like-interest/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guest-experience-2024/",
+      "destination": "/blog/reviews-compound-like-interest/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guest-experience-2025/",
+      "destination": "/blog/reviews-compound-like-interest/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guest-experience-2026/",
+      "destination": "/blog/reviews-compound-like-interest/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gulf-shores-str-market-2021/",
+      "destination": "/markets/gulf-shores/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gulf-shores-str-market-2022/",
+      "destination": "/markets/gulf-shores/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gulf-shores-str-market-2023/",
+      "destination": "/markets/gulf-shores/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gulf-shores-str-market-2024/",
+      "destination": "/markets/gulf-shores/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gulf-shores-str-market-2025/",
+      "destination": "/markets/gulf-shores/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gulf-shores-str-market-2026/",
+      "destination": "/markets/gulf-shores/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/joshua-tree-str-market-2021/",
+      "destination": "/markets/joshua-tree/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/joshua-tree-str-market-2022/",
+      "destination": "/markets/joshua-tree/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/joshua-tree-str-market-2023/",
+      "destination": "/markets/joshua-tree/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/joshua-tree-str-market-2024/",
+      "destination": "/markets/joshua-tree/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/joshua-tree-str-market-2025/",
+      "destination": "/markets/joshua-tree/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/joshua-tree-str-market-2026/",
+      "destination": "/markets/joshua-tree/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kissimmee-str-market-2021/",
+      "destination": "/markets/kissimmee/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kissimmee-str-market-2022/",
+      "destination": "/markets/kissimmee/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kissimmee-str-market-2023/",
+      "destination": "/markets/kissimmee/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kissimmee-str-market-2024/",
+      "destination": "/markets/kissimmee/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kissimmee-str-market-2025/",
+      "destination": "/markets/kissimmee/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kissimmee-str-market-2026/",
+      "destination": "/markets/kissimmee/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lake-tahoe-str-market-2021/",
+      "destination": "/markets/lake-tahoe/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lake-tahoe-str-market-2022/",
+      "destination": "/markets/lake-tahoe/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lake-tahoe-str-market-2023/",
+      "destination": "/markets/lake-tahoe/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lake-tahoe-str-market-2024/",
+      "destination": "/markets/lake-tahoe/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lake-tahoe-str-market-2025/",
+      "destination": "/markets/lake-tahoe/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lake-tahoe-str-market-2026/",
+      "destination": "/markets/lake-tahoe/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/management-systems-2021/",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/management-systems-2022/",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/management-systems-2023/",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/management-systems-2024/",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/management-systems-2025/",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/management-systems-2026/",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/material-participation-2021/",
+      "destination": "/tax-strategy/material-participation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/material-participation-2022/",
+      "destination": "/tax-strategy/material-participation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/material-participation-2023/",
+      "destination": "/tax-strategy/material-participation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/material-participation-2024/",
+      "destination": "/tax-strategy/material-participation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/material-participation-2025/",
+      "destination": "/tax-strategy/material-participation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/material-participation-2026/",
+      "destination": "/tax-strategy/material-participation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nashville-str-market-2021/",
+      "destination": "/markets/nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nashville-str-market-2022/",
+      "destination": "/markets/nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nashville-str-market-2023/",
+      "destination": "/markets/nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nashville-str-market-2024/",
+      "destination": "/markets/nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nashville-str-market-2025/",
+      "destination": "/markets/nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nashville-str-market-2026/",
+      "destination": "/markets/nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/panama-city-beach-str-market-2021/",
+      "destination": "/markets/panama-city-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/panama-city-beach-str-market-2022/",
+      "destination": "/markets/panama-city-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/panama-city-beach-str-market-2023/",
+      "destination": "/markets/panama-city-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/panama-city-beach-str-market-2024/",
+      "destination": "/markets/panama-city-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/panama-city-beach-str-market-2025/",
+      "destination": "/markets/panama-city-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/panama-city-beach-str-market-2026/",
+      "destination": "/markets/panama-city-beach/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/park-city-str-market-2021/",
+      "destination": "/markets/park-city/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/park-city-str-market-2022/",
+      "destination": "/markets/park-city/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/park-city-str-market-2023/",
+      "destination": "/markets/park-city/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/park-city-str-market-2024/",
+      "destination": "/markets/park-city/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/park-city-str-market-2025/",
+      "destination": "/markets/park-city/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/park-city-str-market-2026/",
+      "destination": "/markets/park-city/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/phoenix-mesa-str-market-2021/",
+      "destination": "/markets/phoenix-mesa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/phoenix-mesa-str-market-2022/",
+      "destination": "/markets/phoenix-mesa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/phoenix-mesa-str-market-2023/",
+      "destination": "/markets/phoenix-mesa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/phoenix-mesa-str-market-2024/",
+      "destination": "/markets/phoenix-mesa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/phoenix-mesa-str-market-2025/",
+      "destination": "/markets/phoenix-mesa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/phoenix-mesa-str-market-2026/",
+      "destination": "/markets/phoenix-mesa/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/poconos-str-market-2021/",
+      "destination": "/markets/poconos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/poconos-str-market-2022/",
+      "destination": "/markets/poconos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/poconos-str-market-2023/",
+      "destination": "/markets/poconos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/poconos-str-market-2024/",
+      "destination": "/markets/poconos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/poconos-str-market-2025/",
+      "destination": "/markets/poconos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/poconos-str-market-2026/",
+      "destination": "/markets/poconos/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pricing-strategy-2021/",
+      "destination": "/blog/pricing-the-booking-window/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pricing-strategy-2022/",
+      "destination": "/blog/pricing-the-booking-window/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pricing-strategy-2023/",
+      "destination": "/blog/pricing-the-booking-window/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pricing-strategy-2024/",
+      "destination": "/blog/pricing-the-booking-window/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pricing-strategy-2025/",
+      "destination": "/blog/pricing-the-booking-window/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pricing-strategy-2026/",
+      "destination": "/blog/pricing-the-booking-window/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/regulation-2021/",
+      "destination": "/regulations/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/regulation-2022/",
+      "destination": "/regulations/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/regulation-2023/",
+      "destination": "/regulations/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/regulation-2024/",
+      "destination": "/regulations/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/regulation-2025/",
+      "destination": "/regulations/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/regulation-2026/",
+      "destination": "/regulations/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scottsdale-str-market-2021/",
+      "destination": "/markets/scottsdale/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scottsdale-str-market-2022/",
+      "destination": "/markets/scottsdale/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scottsdale-str-market-2023/",
+      "destination": "/markets/scottsdale/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scottsdale-str-market-2024/",
+      "destination": "/markets/scottsdale/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scottsdale-str-market-2025/",
+      "destination": "/markets/scottsdale/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scottsdale-str-market-2026/",
+      "destination": "/markets/scottsdale/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sedona-str-market-2021/",
+      "destination": "/markets/sedona/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sedona-str-market-2022/",
+      "destination": "/markets/sedona/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sedona-str-market-2023/",
+      "destination": "/markets/sedona/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sedona-str-market-2024/",
+      "destination": "/markets/sedona/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sedona-str-market-2025/",
+      "destination": "/markets/sedona/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sedona-str-market-2026/",
+      "destination": "/markets/sedona/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seven-day-rule-2021/",
+      "destination": "/tax-strategy/7-day-rule/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seven-day-rule-2022/",
+      "destination": "/tax-strategy/7-day-rule/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seven-day-rule-2023/",
+      "destination": "/tax-strategy/7-day-rule/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seven-day-rule-2024/",
+      "destination": "/tax-strategy/7-day-rule/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seven-day-rule-2025/",
+      "destination": "/tax-strategy/7-day-rule/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seven-day-rule-2026/",
+      "destination": "/tax-strategy/7-day-rule/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/smoky-mountains-str-market-2021/",
+      "destination": "/markets/smoky-mountains/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/smoky-mountains-str-market-2022/",
+      "destination": "/markets/smoky-mountains/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/smoky-mountains-str-market-2023/",
+      "destination": "/markets/smoky-mountains/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/smoky-mountains-str-market-2024/",
+      "destination": "/markets/smoky-mountains/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/smoky-mountains-str-market-2025/",
+      "destination": "/markets/smoky-mountains/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/smoky-mountains-str-market-2026/",
+      "destination": "/markets/smoky-mountains/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-financing-2021/",
+      "destination": "/financing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-financing-2022/",
+      "destination": "/financing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-financing-2023/",
+      "destination": "/financing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-financing-2024/",
+      "destination": "/financing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-financing-2025/",
+      "destination": "/financing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-financing-2026/",
+      "destination": "/financing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q1-2021/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q1-2022/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q1-2023/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q1-2024/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q1-2025/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q1-2026/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q2-2021/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q2-2022/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q2-2023/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q2-2024/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q2-2025/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q2-2026/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q3-2021/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q3-2022/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q3-2023/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q3-2024/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q3-2025/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q4-2021/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q4-2022/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q4-2023/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q4-2024/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/str-market-update-q4-2025/",
+      "destination": "/topics/market-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/topics/market-updates/",
+      "destination": "/topics/market-analysis/",
       "permanent": true
     }
   ],

@@ -74,6 +74,7 @@ def interleave(posts):
 
 
 def main():
+    raise SystemExit("Automated archive backdating is disabled. Set a truthful publication date for each reviewed article.")
     posts = collect()
     slugs = [p["slug"] for p in posts]
     if len(set(slugs)) != len(slugs):

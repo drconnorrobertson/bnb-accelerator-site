@@ -40,12 +40,12 @@ Vercel as-is.
 /management/               Self vs co-host vs full service
 /revenue-projections/      Building a projection that survives contact
 /wins/                     46 client win graphics with a lightbox gallery
-/topics/                   Ten topic cluster pillars
-/blog/                     Index + 453 posts, 2021 to 2026
+/topics/                   Nine topic cluster pillars
+/blog/                     Index + 243 posts published in 2026
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
-sitemap.xml                All 615 indexable URLs with lastmod and priority
+sitemap.xml                All 424 public HTML URLs with lastmod and priority
 <key>.txt                  IndexNow key file
 build_assets.py            Minify CSS, stamp hashed asset URLs
 submit_indexnow.py         Submit sitemap URLs to IndexNow
@@ -56,8 +56,8 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-615 indexable pages: 453 blog posts, 46 client wins, 20 market earnings pages,
-20 state regulation pages, 32 client case study landing pages, 25 comparison pages, ten topic
+424 public HTML pages: 243 blog posts, 46 client wins, 20 market earnings pages,
+20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a
 revenue calculator.
@@ -113,8 +113,8 @@ gallery.
 
 ## Generators
 
-`_gen/` is the source of truth for everything generated. Regenerating is
-cheaper than hand-editing 615 files, and it is how the footer, the schema
+`_gen/` is the source of truth for active generated sections. Regenerating is
+cheaper than hand-editing hundreds of files, and it is how the footer, the schema
 graph and the site index stay consistent.
 
 ```
@@ -129,13 +129,13 @@ _gen/posts_*.py            104 hand-written blog posts as data, by category
 _gen/era.py                Per-year context: market, rates, risk, bonus depreciation
 _gen/market_arcs.py        One line per market per year, 2021 to 2026
 _gen/market_data.json      Revenue and ADR ranges scraped from the market pages
-_gen/gen_market_year.py    120 posts: each market in each year
-_gen/gen_topic_year.py     66 posts: each topic in each year
-_gen/gen_market_updates.py 24 quarterly market updates
-_gen/gen_topics.py         Ten cluster pillar pages plus the /topics/ hub
+_gen/gen_market_year.py    Retired market-by-year template (do not publish)
+_gen/gen_topic_year.py     Retired topic-by-year template (do not publish)
+_gen/gen_market_updates.py Retired quarterly template (do not publish)
+_gen/gen_topics.py         Nine cluster pillar pages plus the /topics/ hub
 _gen/gen_wins.py           /wins/ from the client win graphics
 _gen/home_wins.py          The Client Wins strip on the home page
-_gen/run_archive.py        Dates every post across 2021 to 2026 and builds them
+_gen/run_archive.py        Disabled legacy archive backdating script
 _gen/crosslink_markets.py  Adds the related-links block to each market page
 _gen/gen_site_index.py     Rebuilds /sitemap/ from what is on disk
 _gen/sitewide.py           Stamps the footer everywhere, rebuilds sitemap.xml
@@ -144,7 +144,8 @@ _gen/sitewide.py           Stamps the footer everywhere, rebuilds sitemap.xml
 Run order after any content change:
 
 ```
-python3 _gen/run_archive.py         # every blog post + cluster pillars + blog index
+# The legacy run_archive.py is disabled. Rebuild blog and topic indexes from the
+# surviving articles using _gen/blog.py and _gen/gen_topics.py after review.
 python3 _gen/case_studies.py        # 32 deal landing pages + the hub
 python3 _gen/gen_property_types.py  # 6 property type guides + hub
 python3 _gen/gen_regulations.py     # 20 state pages + hub
@@ -186,20 +187,13 @@ A previous pass put the reference treatment on the conversion pages and cost
 them their clean first screen. If a change would add a paragraph above the fold
 on a conversion page, it belongs on a reference page instead.
 
-`run_archive.py` is the entry point for anything blog-related. It regenerates
-all 453 posts, assigns their dates, builds the ten cluster pillars and rewrites
-the blog index in one pass.
-
-Blog post dates are assigned in `run_archive.py`, not stored per post. The
-archive runs from 4 January 2021 to 13 August 2026 and publishes on Mondays and
-Thursdays: 453 posts across 586 available slots, evenly spread at 79 or 80 a
-year through 2025 and 57 in the eight months of 2026 so far.
-
-A year in a post's H1 pins it to that year, because that is genuine era content.
-A year appearing only in the `<title>` tag is the "(2026)" SEO suffix the older
-posts were written with; those are dated on merit and the suffix is dropped
-rather than rewritten, because some bodies discuss law that did not exist in the
-assigned year.
+The legacy `run_archive.py` was disabled because it assigned artificial dates
+from 2021 to 2026. The 208 formulaic annual and quarterly pages it generated
+were retired and redirected to the closest surviving guides. Remaining blog
+article dates reflect the first repository commit for each article; this is the
+best available publication evidence in the repository, not proof of the first
+public deployment. New articles need their own source review and true publish
+date before release.
 
 Era accuracy matters most for the tax posts, and the bonus depreciation spine in
 `era.py` is factual: 100% through 2022, 80% in 2023, 60% in 2024, then the 2025

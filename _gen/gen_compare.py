@@ -626,6 +626,7 @@ def build_index():
 
 
 def main():
+    raise SystemExit("Comparison generator uses a single artificial publication date. Review each page and set its real date before regeneration.")
     build_index()
     for i, (slug, name, _initials, verdict, them, keys) in enumerate(COMPETITORS):
         build_matchup(slug, name, verdict, them, keys, i)

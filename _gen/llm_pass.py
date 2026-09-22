@@ -124,10 +124,10 @@ ANSWERS = {
         "45 days from strategy call to a live listing. It is not a course, a property manager or a "
         "CPA firm."),
     "/topics/": (
-        "This archive holds 453 articles on short-term rental investing published between 2021 and "
-        "2026, organised into ten topic clusters: market analysis, tax strategy, acquisition and "
+        "This archive holds 243 articles on short-term rental investing published in 2026, "
+        "organised into nine topic clusters: market analysis, tax strategy, acquisition and "
         "financing, design, revenue optimization, guest experience, property management, "
-        "regulation, case studies and market updates."),
+        "regulation and case studies."),
     "/guides/": (
         "These are BNB Accelerator's operational guides and free downloads covering short-term "
         "rental market analysis, furnishing and design, property management standard operating "

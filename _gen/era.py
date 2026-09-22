@@ -191,8 +191,8 @@ CLUSTERS = {
     "market-analysis": dict(
         name="STR Market Analysis",
         slug="market-analysis",
-        blurb="City-by-city market analysis and how each market moved year by year.",
-        intro="Twenty markets, tracked across six years. What each one was in 2021, what happened to it through the correction, and where it stands now.",
+        blurb="City-by-city market analysis, economics and due diligence.",
+        intro="Market guides with property economics, seasonality and parcel-level due diligence.",
     ),
     "tax-strategy": dict(
         name="Tax Strategy",
@@ -242,12 +242,7 @@ CLUSTERS = {
         blurb="Client results, before and after, and full ROI breakdowns.",
         intro="Documented client outcomes with the underwriting that produced them, and what generalises from each.",
     ),
-    "market-updates": dict(
-        name="Market Updates",
-        slug="market-updates",
-        blurb="Airbnb policy changes, travel trends and seasonal analysis.",
-        intro="What changed in the industry each quarter, and what it meant for an owner rather than for a headline.",
-    ),
+
 }
 
 # Existing hand-written and previously generated posts map onto clusters by

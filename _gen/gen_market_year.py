@@ -166,13 +166,7 @@ def build(slug, year):
 
 
 def all_posts():
-    out = []
-    for slug in sorted(DATA):
-        if slug not in ARCS:
-            continue
-        for year in sorted(era.YEARS):
-            out.append(build(slug, year))
-    return out
+    raise SystemExit("Market-by-year templates were retired: they reused current ranges as historical data. Publish only after source review.")
 
 
 if __name__ == "__main__":

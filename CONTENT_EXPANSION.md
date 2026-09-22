@@ -6,6 +6,8 @@ Baseline on 22 September 2026: 632 public HTML routes before this batch. Doublin
 
 The September 22 review found substantial repeated passages in several older year-by-year and quarterly blog series. The Q3 and Q4 2026 retrospective market updates were published before those quarters ended; both were removed and redirected. The remaining annual and quarterly variants need individual checks for genuinely distinct evidence, accurate publication dates, and a search intent that merits its own URL. Consolidate or rewrite weak variants before adding another generated series. The technical audit below checks crawlability; it does not certify editorial quality or guarantee indexing.
 
+The follow-up review traced the generated archive to the August 15, 2026 repository commit titled “Backdate the archive to 2021.” It retired all 208 remaining market-by-year, topic-by-year, and quarterly variants and redirected each to the closest surviving guide. It also corrected the publication metadata and visible dates on 213 surviving blog posts to their first repository commit date. This leaves 424 public HTML routes, including 243 blog articles. Those dates are repository evidence, not a guarantee of when each URL first became publicly reachable. More content should be added only after the distinct-value gate below is met.
+
 ## Publishing order
 
 1. **Recover old search demand.** Keep a redirect ledger for former WordPress URLs. Redirect each retired URL to the closest current answer, with no homepage catch-all. Check Search Console's Not found report and add exact mappings for discovered 404s. The first 24 source paths are in `vercel.json`.

@@ -67,7 +67,7 @@ def pillar(cluster_key, posts):
       <div class="hero-inner">
         <span class="eyebrow">Topic cluster</span>
         <h1>{c["name"]}</h1>
-        <p class="hero-sub">{c["intro"]} {len(posts)} articles, from 2021 to today.</p>
+        <p class="hero-sub">{c["intro"]} {len(posts)} articles.</p>
         <div class="btn-row">
           <a class="btn btn-accent btn-lg" href="/apply/">Apply Now</a>
           <a class="btn btn-ghost-light btn-lg" href="/topics/">All topics</a>
@@ -101,8 +101,8 @@ def pillar(cluster_key, posts):
         "A thirty minute call covers your income, your tax position, and whether any of this applies to your situation.")}"""
 
     write(path, tpl.page(
-        title=f"{c['name']}: {len(posts)} Articles (2021-2026)",
-        description=f"{c['intro']} {len(posts)} articles covering 2021 to 2026.",
+        title=f"{c['name']}: {len(posts)} Articles",
+        description=f"{c['intro']} {len(posts)} articles.",
         path=path,
         body=body,
         extra_schema=schema,
@@ -121,8 +121,8 @@ def topics_hub(counts):
         title="Topic Clusters: STR Investing Articles by Subject",
         h1="Every article, organised by subject",
         eyebrow="Topics",
-        description=f"{total} short-term rental investing articles across ten topic clusters, from market analysis and tax strategy to design, pricing and regulation.",
-        sub=f"{total} articles across ten clusters, written between 2021 and today. Each cluster page lists every article in it, grouped by year.",
+        description=f"{total} short-term rental investing articles across nine topic clusters, from market analysis and tax strategy to design, pricing and regulation.",
+        sub=f"{total} articles across nine clusters. Each cluster page lists every article in it by publication date.",
         cards=cards,
         sections=[
             ("How this is organised", [
@@ -131,9 +131,9 @@ def topics_hub(counts):
                 "structure exists because short-term rental questions are rarely standalone: a "
                 "pricing question is usually also an occupancy question, and a tax question is "
                 "almost always also a management question.",
-                "The archive runs from 2021, when BNB Accelerator started, through today. The "
-                "older posts are kept as written rather than quietly updated, because what people "
-                "believed in 2021 and 2023 is part of the record and the mistakes are instructive.",
+                "The archive was published in 2026. Some articles discuss earlier tax and market "
+                "conditions as historical context; their publication dates reflect when the "
+                "articles entered this site's repository.",
                 ("ul", [
                     "<strong>Year matters for tax posts.</strong> Bonus depreciation was 100% "
                     "through 2022, 80% in 2023, 60% in 2024, and split in 2025 before OBBBA "
@@ -148,8 +148,8 @@ def topics_hub(counts):
         faqs=[
             ("What is a topic cluster?",
              "A pillar page covering a subject, plus every article on that subject linking to it and to each other. It helps readers find the next useful thing and it helps search engines understand which pages belong together."),
-            ("Why are old posts kept as written?",
-             "Because the record is instructive. A 2021 post arguing from a market where everything filled, read next to a 2023 post arguing from the correction, teaches more than either would alone."),
+            ("When were these articles published?",
+             "The archive was published in 2026. References to earlier years describe historical conditions rather than the original publication date."),
             ("Which cluster should I start with?",
              "If you are deciding whether to buy at all, start with Tax Strategy and Acquisition & Financing. If you already own, start with Revenue Optimization and Property Management."),
         ],

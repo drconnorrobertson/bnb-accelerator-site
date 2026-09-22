@@ -462,7 +462,7 @@ def build(key, year):
 
 
 def all_posts():
-    return [build(k, y) for k in TOPICS for y in sorted(era.YEARS)]
+    raise SystemExit("Topic-by-year templates were retired for repeated copy and artificial dates. Publish only after source review.")
 
 
 if __name__ == "__main__":

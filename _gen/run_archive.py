@@ -63,9 +63,6 @@ def collect_new():
                 p["sections"] = list(p["sections"]) + [extra[p["slug"]]]
             p.setdefault("cluster", era.cluster_for(p["category"]))
             posts.append(p)
-    for p in (gen_market_year.all_posts() + gen_topic_year.all_posts()
-              + gen_market_updates.all_posts()):
-        posts.append(p)
     return posts
 
 
@@ -153,6 +150,7 @@ def add_pillar_link(p):
 
 
 def main():
+    raise SystemExit("Archive backdating is disabled pending an editorial rebuild. Use the individual content generators only after source and date review.")
     new = collect_new()
     new_slugs = {p["slug"] for p in new}
     if len(new_slugs) != len(new):
