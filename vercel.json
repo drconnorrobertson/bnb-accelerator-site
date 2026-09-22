@@ -4,6 +4,246 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/services",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/services/:page",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/offering",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/offering/:page",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/results",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/results/:page",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/apply/",
+      "permanent": true
+    },
+    {
+      "source": "/contact/:page",
+      "destination": "/apply/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-review-legit",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-review-legit/:page",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/is-bnb-accelerator-legit",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/is-bnb-accelerator-legit/:page",
+      "destination": "/reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-faq",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-faq/:page",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-cost-pricing",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-cost-pricing/:page",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-cost-what-does-the-done-for-you-service-actually-cost",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/bnb-accelerator-cost-what-does-the-done-for-you-service-actually-cost/:page",
+      "destination": "/pricing/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-response-rate-why-it-matters-and-how-to-keep-it-at-100",
+      "destination": "/guides/airbnb-response-rate/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-response-rate-why-it-matters-and-how-to-keep-it-at-100/:page",
+      "destination": "/guides/airbnb-response-rate/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-during-a-recession-does-str-investing-hold-up-in-economic-downturns",
+      "destination": "/guides/airbnb-recession-risk/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-during-a-recession-does-str-investing-hold-up-in-economic-downturns/:page",
+      "destination": "/guides/airbnb-recession-risk/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-taxes-for-hosts-complete-guide-to-str-tax-obligations",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-taxes-for-hosts-complete-guide-to-str-tax-obligations/:page",
+      "destination": "/tax-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/str-self-manage-vs-professional-management",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/str-self-manage-vs-professional-management/:page",
+      "destination": "/management/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-average-daily-rate-how-to-maximize-your-adr",
+      "destination": "/blog/airbnb-pricing-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-average-daily-rate-how-to-maximize-your-adr/:page",
+      "destination": "/blog/airbnb-pricing-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-vs-vrbo-which-platform-should-str-investors-prioritize",
+      "destination": "/blog/airbnb-vs-vrbo/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-vs-vrbo-which-platform-should-str-investors-prioritize/:page",
+      "destination": "/blog/airbnb-vs-vrbo/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-property-management-software",
+      "destination": "/blog/airbnb-automation-tools/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-property-management-software/:page",
+      "destination": "/blog/airbnb-automation-tools/",
+      "permanent": true
+    },
+    {
+      "source": "/short-term-rental-portfolio-how-to-build-3-5-cash-flowing-strs",
+      "destination": "/blog/scale-from-1-to-10-airbnbs/",
+      "permanent": true
+    },
+    {
+      "source": "/short-term-rental-portfolio-how-to-build-3-5-cash-flowing-strs/:page",
+      "destination": "/blog/scale-from-1-to-10-airbnbs/",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-bnb-accelerator-and-how-it-helps-you-buy-better-short-term-rentals",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-bnb-accelerator-and-how-it-helps-you-buy-better-short-term-rentals/:page",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/from-purchase-to-profit-the-complete-short-term-rental-timeline",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/from-purchase-to-profit-the-complete-short-term-rental-timeline/:page",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/why-short-term-rentals-require-a-framework-the-bnb-accelerator-advantage",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/why-short-term-rentals-require-a-framework-the-bnb-accelerator-advantage/:page",
+      "destination": "/how-it-works/",
+      "permanent": true
+    },
+    {
+      "source": "/the-top-10-short-term-rental-markets-to-watch-in-2025",
+      "destination": "/best-cities-airbnb-investment-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/the-top-10-short-term-rental-markets-to-watch-in-2025/:page",
+      "destination": "/best-cities-airbnb-investment-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-zoning-how-to-verify-your-property-is-legally-allowed-to-be-an-str",
+      "destination": "/underwriting/permit-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-zoning-how-to-verify-your-property-is-legally-allowed-to-be-an-str/:page",
+      "destination": "/underwriting/permit-transfer/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-amenities-that-actually-increase-bookings-and-revenue",
+      "destination": "/blog/airbnb-amenities-that-increase-revenue/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-amenities-that-actually-increase-bookings-and-revenue/:page",
+      "destination": "/blog/airbnb-amenities-that-increase-revenue/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-hot-tub-the-best-roi-amenity-you-can-add-to-your-str-property",
+      "destination": "/blog/airbnb-hot-tub-roi/",
+      "permanent": true
+    },
+    {
+      "source": "/airbnb-hot-tub-the-best-roi-amenity-you-can-add-to-your-str-property/:page",
+      "destination": "/blog/airbnb-hot-tub-roi/",
+      "permanent": true
+    },
+    {
       "source": "/case-studies/victoria-sevierville-tn-9br-cabin",
       "destination": "/case-studies/victoria-sevierville/",
       "permanent": true
