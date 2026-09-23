@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Sitewide passes: replace the footer everywhere, then rebuild sitemap.xml.
+"""Sitewide passes: replace shared navigation, then rebuild sitemap.xml.
 
-The footer is the site's comprehensive navigation layer, so it is generated
-once in tpl.footer() and stamped across every page rather than maintained by
-hand in 300 files.
+The header and footer are generated once in tpl.py and stamped across every
+page rather than maintained by hand in hundreds of files.
 """
 import datetime
 import glob
@@ -17,6 +16,48 @@ import tpl
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
 FOOTER_RE = re.compile(r'<footer class="site-footer">.*?</html>\s*\Z', re.S)
+HEADER_RE = re.compile(
+    r'(?:<a class="skip-link"[^>]*>.*?</a>\s*)?'
+    r'<header class="site-header"[^>]*>.*?</header>',
+    re.S,
+)
+
+
+def active_nav(path):
+    """Map deep sections to one of the five primary navigation destinations."""
+    section = path.strip("/").split("/", 1)[0]
+    if section == "how-it-works":
+        return "/how-it-works/"
+    if section == "markets":
+        return "/markets/"
+    if section in {"case-studies", "deals", "wins", "testimonials", "reviews"}:
+        return "/case-studies/"
+    if section == "about":
+        return "/about/"
+    if section in {"blog", "guides", "topics", "answers", "data", "tools",
+                   "regulations", "tax-strategy", "financing", "design",
+                   "management", "compare"}:
+        return "/blog/"
+    return None
+
+
+def rewrite_headers():
+    n = 0
+    for path, f in page_urls():
+        s = open(f, encoding="utf-8").read()
+        match = HEADER_RE.search(s)
+        if not match:
+            continue
+        transparent = 'data-start="transparent"' in match.group(0)
+        out = HEADER_RE.sub(
+            lambda _: tpl.header(active=active_nav(path), transparent=transparent),
+            s,
+            count=1,
+        )
+        if out != s:
+            open(f, "w", encoding="utf-8").write(out)
+            n += 1
+    print(f"header: rewritten on {n} pages")
 
 
 def rewrite_footers():
@@ -159,5 +200,6 @@ def build_sitemap():
 
 
 if __name__ == "__main__":
+    rewrite_headers()
     rewrite_footers()
     build_sitemap()

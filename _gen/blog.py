@@ -152,7 +152,8 @@ def render_index(entries):
         excerpt = e["excerpt"]
         if len(excerpt) > 110:
             excerpt = excerpt[:107].rsplit(" ", 1)[0].rstrip(",;:") + "..."
-        cards.append(f"""        <article class="post-card" data-reveal{delay}>
+        search_text = " ".join((e["title"], e["category"], e["excerpt"])).lower()
+        cards.append(f"""        <article class="post-card" data-blog-post data-category="{tpl.esc(e["category"])}" data-search="{tpl.esc(search_text)}" data-reveal{delay}>
           <div class="post-body">
             <div class="post-meta"><span class="post-cat">{tpl.esc(e["category"])}</span><time datetime="{e["date"]}">{short_date(e["date"])}</time><span>{e["mins"]} min read</span></div>
             <h3><a href="/blog/{e["slug"]}/">{tpl.esc(e["title"])}</a></h3>
@@ -177,6 +178,9 @@ def render_index(entries):
     cat_list = "\n".join(
         f'          <li>{tpl.esc(c)} <span class="text-muted">({n})</span></li>'
         for c, n in sorted(cats.items(), key=lambda x: -x[1]))
+    cat_options = "\n".join(
+        f'            <option value="{tpl.esc(c)}">{tpl.esc(c)} ({n})</option>'
+        for c, n in sorted(cats.items()))
 
     items = ",\n".join(
         f'        {{ "@type": "ListItem", "position": {i}, "url": "{tpl.SITE}/blog/{e["slug"]}/", "name": "{tpl.esc(e["title"])}" }}'
@@ -245,7 +249,25 @@ def render_index(entries):
 
   <section>
     <div class="wrap">
-      <div class="post-grid">
+      <div class="library-tools" data-blog-library>
+        <label class="library-field">
+          <span>Search the library</span>
+          <input type="search" data-blog-search placeholder="Try a market, tax topic, or strategy" autocomplete="off">
+        </label>
+        <label class="library-field library-category">
+          <span>Topic</span>
+          <select data-blog-category>
+            <option value="">All topics ({len(entries)})</option>
+{cat_options}
+          </select>
+        </label>
+        <div class="library-status">
+          <span data-blog-count aria-live="polite">Showing all {len(entries)} articles</span>
+          <button type="button" class="library-reset" data-blog-reset disabled>Clear filters</button>
+        </div>
+      </div>
+      <p class="library-empty" data-blog-empty hidden>No articles match those filters. Try a broader term or clear the topic.</p>
+      <div class="post-grid" data-blog-grid>
 {chr(10).join(cards)}
       </div>
     </div>
@@ -260,6 +282,7 @@ def render_index(entries):
         path="/blog/",
         body=body,
         extra_schema=schema,
+        body_class="blog-library",
         active="/blog/",
         transparent=True,
     )

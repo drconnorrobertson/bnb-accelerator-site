@@ -27,8 +27,8 @@
 <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
-<link rel="preload" as="style" href="/assets/style.min.css?v=22dacafa">
-<link rel="stylesheet" href="/assets/style.min.css?v=22dacafa">
+<link rel="preload" as="style" href="/assets/style.min.css?v=c83e6df4">
+<link rel="stylesheet" href="/assets/style.min.css?v=c83e6df4">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 
 <style>
@@ -36,8 +36,9 @@
   .home .logo-mark{border-radius:3px;background:#b9975b;color:#111a26;box-shadow:none}
   .home .site-header[data-mode="transparent"] .logo-text span{color:#d1b47e}
   .home .btn{border-radius:3px}
-  .home .hero{padding-bottom:112px}
-  .home .hero h1{font-size:clamp(3rem,6vw,5rem);font-weight:400;letter-spacing:-.042em;line-height:1.02;max-width:13ch}
+  .home .hero{padding-top:calc(var(--header-h) + 58px);padding-bottom:76px;min-height:min(760px,100svh);display:flex;align-items:center}
+  .home .hero-inner{max-width:920px}
+  .home .hero h1{font-size:clamp(3rem,5.4vw,4.65rem);font-weight:400;letter-spacing:-.042em;line-height:1.02;max-width:18ch}
   .home .hero-sub{font-size:1.18rem;line-height:1.72;max-width:62ch}
   .home-proofline{margin-top:28px;color:rgba(255,255,255,.66);font-size:.86rem;letter-spacing:.035em}
   .home-intro{display:grid;grid-template-columns:.82fr 1.18fr;gap:8vw;align-items:start}
@@ -62,8 +63,8 @@
   .home-cta{background:var(--dark);color:rgba(255,255,255,.78)}
   .home-cta h2{color:#fff;font-size:clamp(2.4rem,4vw,3.6rem);font-weight:400}
   .home-cta-inner{display:flex;align-items:center;justify-content:space-between;gap:48px}
-  @media(max-width:820px){.home-intro,.home-evidence-grid{grid-template-columns:1fr}.home-evidence-facts{border-left:0;border-top:1px solid #d8d1c4}.home-cta-inner{align-items:flex-start;flex-direction:column}.home .hero{padding-bottom:82px}}
-  @media(max-width:520px){.home-evidence-fact{padding:24px 18px}.home .hero h1{font-size:2.7rem}.home .btn-row .btn{width:100%}}
+  @media(max-width:820px){.home-intro,.home-evidence-grid{grid-template-columns:1fr}.home-evidence-facts{border-left:0;border-top:1px solid #d8d1c4}.home-cta-inner{align-items:flex-start;flex-direction:column}.home .hero{padding-top:calc(var(--header-h) + 54px);padding-bottom:62px;min-height:0}}
+  @media(max-width:520px){.home-evidence-fact{padding:24px 18px}.home .hero h1{font-size:2.7rem;max-width:14ch}.home .hero-sub{font-size:1.04rem;line-height:1.62}.home .btn-row .btn{width:100%}.home-proofline{line-height:1.7}}
 </style>
 
 <script type="application/ld+json">
@@ -392,6 +393,6 @@
   </div>
 </footer>
 
-<script src="/assets/main.js?v=cfc000be" defer></script>
+<script src="/assets/main.js?v=93071465" defer></script>
 </body>
 </html>

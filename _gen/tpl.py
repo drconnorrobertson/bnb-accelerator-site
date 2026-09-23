@@ -67,15 +67,11 @@ ORG_SCHEMA = """    {
     }"""
 
 NAV_ITEMS = [
-    ("/how-it-works/", "How It Works"),
+    ("/how-it-works/", "Services"),
     ("/markets/", "Markets"),
-    ("/deals/", "Deals"),
-    ("/wins/", "Wins"),
-    ("/case-studies/", "Case Studies"),
-    ("/tax-strategy/", "Tax Strategy"),
-    ("/compare/", "Compare"),
-    ("/blog/", "Blog"),
+    ("/case-studies/", "Results"),
     ("/about/", "About"),
+    ("/blog/", "Insights"),
 ]
 
 BOOK_SITES = [
@@ -109,7 +105,7 @@ def header(active=None, transparent=False):
     for href, label in NAV_ITEMS:
         cur = ' aria-current="page"' if href == active else ""
         links.append(f'      <a class="nav-link" href="{href}"{cur}>{label}</a>')
-    links.append('      <a class="btn btn-primary btn-sm nav-cta" href="/apply/">Apply Now</a>')
+    links.append('      <a class="btn btn-primary btn-sm nav-cta" href="/apply/">Contact</a>')
     return f"""<a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header"{ds}>

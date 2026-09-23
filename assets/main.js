@@ -323,6 +323,49 @@
   });
 })();
 
+/* Blog library search and topic filter. Every card remains in the document
+   for search engines and no-script visitors; this is progressive enhancement. */
+(function () {
+  var library = document.querySelector('[data-blog-library]');
+  if (!library) return;
+
+  var search = library.querySelector('[data-blog-search]');
+  var category = library.querySelector('[data-blog-category]');
+  var count = library.querySelector('[data-blog-count]');
+  var reset = library.querySelector('[data-blog-reset]');
+  var empty = document.querySelector('[data-blog-empty]');
+  var posts = [].slice.call(document.querySelectorAll('[data-blog-post]'));
+
+  function applyBlogFilters() {
+    var query = search.value.trim().toLowerCase();
+    var topic = category.value;
+    var shown = 0;
+
+    posts.forEach(function (post) {
+      var matchesText = !query || post.getAttribute('data-search').indexOf(query) !== -1;
+      var matchesTopic = !topic || post.getAttribute('data-category') === topic;
+      var match = matchesText && matchesTopic;
+      post.hidden = !match;
+      if (match) shown++;
+    });
+
+    count.textContent = query || topic
+      ? shown + (shown === 1 ? ' article found' : ' articles found')
+      : 'Showing all ' + posts.length + ' articles';
+    empty.hidden = shown !== 0;
+    reset.disabled = !query && !topic;
+  }
+
+  search.addEventListener('input', applyBlogFilters);
+  category.addEventListener('change', applyBlogFilters);
+  reset.addEventListener('click', function () {
+    search.value = '';
+    category.value = '';
+    applyBlogFilters();
+    search.focus();
+  });
+})();
+
 /* Client wins lightbox. The cards are buttons so the gallery is reachable by
    keyboard; this only handles opening, closing and focus restoration. */
 (function () {
