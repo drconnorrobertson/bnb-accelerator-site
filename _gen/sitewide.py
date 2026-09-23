@@ -100,6 +100,8 @@ def classify(path):
 
 def lastmod_for(path, f):
     """Blog posts use their published date; everything else uses today."""
+    if path in SEPTEMBER_22_RELEASE:
+        return "2026-09-22"
     if path.startswith("/blog/") and path != "/blog/":
         s = open(f, encoding="utf-8").read()
         m = re.search(r'"dateModified":\s*"([0-9-]+)"', s)
@@ -112,6 +114,22 @@ def lastmod_for(path, f):
 
 
 TODAY = datetime.date(2026, 8, 15).isoformat()
+SEPTEMBER_22_RELEASE = {
+    "/blog/",
+    "/markets/",
+    "/markets/chandler/",
+    "/markets/davenport/",
+    "/markets/fort-walton-beach/",
+    "/markets/gilbert/",
+    "/markets/jacksonville/",
+    "/markets/jim-thorpe/",
+    "/markets/johnson-city/",
+    "/markets/lake-harmony/",
+    "/markets/manchaca/",
+    "/markets/mesa/",
+    "/markets/sevierville/",
+    "/markets/tobyhanna/",
+}
 
 
 def build_sitemap():
