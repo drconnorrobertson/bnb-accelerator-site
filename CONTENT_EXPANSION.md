@@ -8,6 +8,8 @@ The September 22 review found substantial repeated passages in several older yea
 
 The follow-up review traced the generated archive to the August 15, 2026 repository commit titled “Backdate the archive to 2021.” It retired all 208 remaining market-by-year, topic-by-year, and quarterly variants and redirected each to the closest surviving guide. It also corrected the publication metadata and visible dates on 213 surviving blog posts to their first repository commit date. This leaves 424 public HTML routes, including 243 blog articles. Those dates are repository evidence, not a guarantee of when each URL first became publicly reachable. More content should be added only after the distinct-value gate below is met.
 
+The September 22 expansion brings the library to 679 public routes and exactly 486 blog articles. It adds 12 city-level service-area pages so every one of the 20 active markets named on the market hub has a dedicated URL, plus 243 property-system guides. The blog batch is organized as 27 physical and operating systems crossed with nine separate owner decisions: budget, acquisition, inspection, design, operations, maintenance, insurance, revenue and repair-versus-replace. New articles use their actual September 22, 2026 release date and are not backdated.
+
 ## Publishing order
 
 1. **Recover old search demand.** Keep a redirect ledger for former WordPress URLs. Redirect each retired URL to the closest current answer, with no homepage catch-all. Check Search Console's Not found report and add exact mappings for discovered 404s. The first 24 source paths are in `vercel.json`.

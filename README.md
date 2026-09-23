@@ -19,8 +19,8 @@ Vercel as-is.
 ```
 /                          Home
 /how-it-works/             The 5-stage process + Reverse Offset Method
-/markets/                  8 states, plus 20 market earnings pages
-/markets/<market>/         "How much can you make on Airbnb in X" + data table
+/markets/                  8 states and 20 active city/submarket service areas
+/markets/<market>/         Market data or local acquisition service page
 /case-studies/             Documented client results
 /tax-strategy/             7-day rule, material participation, cost seg
 /partners/                 AE Tax Advisors, and where our work stops
@@ -41,7 +41,7 @@ Vercel as-is.
 /revenue-projections/      Building a projection that survives contact
 /wins/                     46 client win graphics with a lightbox gallery
 /topics/                   Nine topic cluster pillars
-/blog/                     Index + 243 posts published in 2026
+/blog/                     Index + 486 posts published in 2026
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
@@ -56,7 +56,7 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-424 public HTML pages: 243 blog posts, 46 client wins, 20 market earnings pages,
+679 public HTML pages: 486 blog posts, 46 client wins, 32 market and local service pages,
 20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a
@@ -132,6 +132,8 @@ _gen/market_data.json      Revenue and ADR ranges scraped from the market pages
 _gen/gen_market_year.py    Retired market-by-year template (do not publish)
 _gen/gen_topic_year.py     Retired topic-by-year template (do not publish)
 _gen/gen_market_updates.py Retired quarterly template (do not publish)
+_gen/gen_local_markets.py  12 city pages completing the 20 active service areas
+_gen/gen_blog_expansion.py 243 property-system decision guides (27 systems x 9 decisions)
 _gen/gen_topics.py         Nine cluster pillar pages plus the /topics/ hub
 _gen/gen_wins.py           /wins/ from the client win graphics
 _gen/home_wins.py          The Client Wins strip on the home page
@@ -154,6 +156,8 @@ python3 _gen/gen_wins.py            # /wins/
 python3 _gen/home_wins.py           # the home page wins strip
 python3 _gen/gen_deals.py           # /deals/
 python3 _gen/gen_entity.py          # /about/, /ask/, llms.txt
+python3 _gen/gen_local_markets.py   # missing active city/submarket pages + hub links
+python3 _gen/gen_blog_expansion.py  # 243 distinct property-system decision guides
 python3 _gen/crosslink_markets.py   # market pages -> case studies, blog, rules
 python3 _gen/llm_pass.py            # direct-answer + speakable blocks
 python3 _gen/sitewide.py            # footer + sitemap.xml
