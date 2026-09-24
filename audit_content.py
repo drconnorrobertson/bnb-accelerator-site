@@ -67,7 +67,20 @@ for label, values in (("title", titles), ("description", descriptions)):
 
 try:
     sitemap = ET.parse(ROOT / "sitemap.xml")
-    listed = [item.text for item in sitemap.iter() if item.tag.endswith("loc")]
+    root_tag = sitemap.getroot().tag
+    if root_tag.endswith("sitemapindex"):
+        listed = []
+        child_urls = [item.text for item in sitemap.iter() if item.tag.endswith("loc")]
+        for child_url in child_urls:
+            child_name = child_url.rsplit("/", 1)[-1]
+            child_path = ROOT / child_name
+            if not child_path.exists():
+                ERRORS.append(f"sitemap index references missing file: {child_name}")
+                continue
+            child = ET.parse(child_path)
+            listed.extend(item.text for item in child.iter() if item.tag.endswith("loc"))
+    else:
+        listed = [item.text for item in sitemap.iter() if item.tag.endswith("loc")]
     if len(listed) != len(set(listed)):
         ERRORS.append("sitemap contains duplicate URLs")
     wanted = {SITE + url for url in pages}

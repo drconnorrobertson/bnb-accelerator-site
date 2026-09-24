@@ -18,9 +18,9 @@ Usage:
 """
 
 import json
-import re
 import sys
 from pathlib import Path
+from xml.etree import ElementTree as ET
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -40,13 +40,27 @@ BATCH = 10000
 def sitemap_entries():
     if not SITEMAP.exists():
         sys.exit("sitemap.xml not found next to this script.")
-    xml = SITEMAP.read_text(encoding="utf-8")
     out = []
-    for block in re.findall(r"<url>(.*?)</url>", xml, re.S):
-        loc = re.search(r"<loc>(.*?)</loc>", block)
-        mod = re.search(r"<lastmod>(.*?)</lastmod>", block)
-        if loc:
-            out.append((loc.group(1).strip(), mod.group(1).strip() if mod else ""))
+
+    def read_file(path):
+        root = ET.parse(path).getroot()
+        if root.tag.endswith("sitemapindex"):
+            for item in root:
+                loc = next((node.text for node in item if node.tag.endswith("loc")), None)
+                if not loc:
+                    continue
+                child = BASE_DIR / loc.rsplit("/", 1)[-1]
+                if not child.exists():
+                    sys.exit(f"child sitemap not found: {child.name}")
+                read_file(child)
+            return
+        for item in root:
+            loc = next((node.text for node in item if node.tag.endswith("loc")), None)
+            mod = next((node.text for node in item if node.tag.endswith("lastmod")), "")
+            if loc:
+                out.append((loc.strip(), mod.strip() if mod else ""))
+
+    read_file(SITEMAP)
     return out
 
 

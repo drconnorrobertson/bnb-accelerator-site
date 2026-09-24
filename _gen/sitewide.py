@@ -165,7 +165,7 @@ def lastmod_for(path, f):
     return TODAY
 
 
-TODAY = datetime.date(2026, 9, 23).isoformat()
+TODAY = datetime.date.today().isoformat()
 SEPTEMBER_22_RELEASE = {
     "/blog/",
     "/markets/",
@@ -184,15 +184,20 @@ SEPTEMBER_22_RELEASE = {
 }
 
 
-def build_sitemap():
-    entries = []
-    for path, f in page_urls():
-        prio, freq = classify(path)
-        entries.append((path, lastmod_for(path, f), freq, prio))
+def sitemap_group(path):
+    """Put each URL in one diagnostic sitemap without changing indexability."""
+    if path.startswith("/blog/"):
+        return "blog"
+    if path.startswith("/scenarios/"):
+        return "scenarios"
+    if path.startswith("/markets/") or path.startswith("/regulations/"):
+        return "markets"
+    if path.startswith(("/case-studies/", "/wins/", "/testimonials/", "/reviews/")):
+        return "proof"
+    return "core"
 
-    # sort by descending priority, then path, so the important URLs lead
-    entries.sort(key=lambda e: (-float(e[3]), e[0]))
 
+def render_urlset(entries):
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, mod, freq, prio in entries:
@@ -202,11 +207,39 @@ def build_sitemap():
         lines.append(f"    <changefreq>{freq}</changefreq>")
         lines.append(f"    <priority>{prio}</priority>")
         lines.append("  </url>")
-    lines.append("</urlset>")
-    lines.append("")
+    lines.extend(["</urlset>", ""])
+    return "\n".join(lines)
 
+
+def build_sitemap():
+    entries = []
+    for path, f in page_urls():
+        prio, freq = classify(path)
+        entries.append((path, lastmod_for(path, f), freq, prio))
+
+    # sort by descending priority, then path, so the important URLs lead
+    entries.sort(key=lambda e: (-float(e[3]), e[0]))
+
+    groups = {name: [] for name in ("core", "blog", "scenarios", "markets", "proof")}
+    for entry in entries:
+        groups[sitemap_group(entry[0])].append(entry)
+
+    for name, grouped in groups.items():
+        filename = f"sitemap-{name}.xml"
+        open(os.path.join(ROOT, filename), "w", encoding="utf-8").write(render_urlset(grouped))
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for name, grouped in groups.items():
+        latest = max((entry[1] for entry in grouped), default=TODAY)
+        lines.extend(["  <sitemap>",
+                      f"    <loc>{tpl.SITE}/sitemap-{name}.xml</loc>",
+                      f"    <lastmod>{latest}</lastmod>",
+                      "  </sitemap>"])
+    lines.extend(["</sitemapindex>", ""])
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(lines))
-    print(f"sitemap: {len(entries)} URLs")
+    summary = ", ".join(f"{name}={len(grouped)}" for name, grouped in groups.items())
+    print(f"sitemap index: {len(entries)} URLs ({summary})")
     return entries
 
 

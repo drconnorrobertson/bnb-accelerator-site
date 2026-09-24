@@ -46,7 +46,8 @@ Vercel as-is.
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
-sitemap.xml                All 1,606 public HTML URLs with lastmod and priority
+sitemap.xml                Sitemap index for core, blog, scenarios, markets, and proof URLs
+sitemap-*.xml              Segmented URL sets for Search Console indexing diagnostics
 <key>.txt                  IndexNow key file
 build_assets.py            Minify CSS, stamp hashed asset URLs
 submit_indexnow.py         Submit sitemap URLs to IndexNow
@@ -142,7 +143,8 @@ _gen/home_wins.py          The Client Wins strip on the home page
 _gen/run_archive.py        Disabled legacy archive backdating script
 _gen/crosslink_markets.py  Adds the related-links block to each market page
 _gen/gen_site_index.py     Rebuilds /sitemap/ from what is on disk
-_gen/sitewide.py           Stamps the footer everywhere, rebuilds sitemap.xml
+_gen/sitewide.py           Stamps the footer and rebuilds the segmented sitemap index
+_gen/audit_scenarios.py    Validates all 750 scenario pages and reports template similarity
 ```
 
 Run order after any content change:
@@ -163,8 +165,9 @@ python3 _gen/gen_blog_expansion.py  # 243 distinct property-system decision guid
 python3 _gen/crosslink_markets.py   # market pages -> case studies, blog, rules
 python3 _gen/llm_pass.py            # direct-answer + speakable blocks
 python3 _gen/gen_buyer_decisions_100.py  # buyer decision guides + blog index
-python3 _gen/sitewide.py            # footer + sitemap.xml
+python3 _gen/sitewide.py            # footer + segmented sitemap index
 python3 _gen/gen_site_index.py      # /sitemap/
+python3 _gen/audit_scenarios.py     # scenario calculations, metadata, links, similarity watch
 python3 build_assets.py             # minify and stamp asset hashes
 ```
 
