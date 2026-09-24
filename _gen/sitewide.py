@@ -30,6 +30,8 @@ def active_nav(path):
         return "/how-it-works/"
     if section == "markets":
         return "/markets/"
+    if section == "scenarios":
+        return "/scenarios/"
     if section in {"case-studies", "deals", "wins", "testimonials", "reviews"}:
         return "/case-studies/"
     if section == "about":
@@ -87,6 +89,7 @@ PRIORITY = [
     ("/case-studies/", "0.9", "weekly"),
     ("/tax-strategy/", "0.9", "monthly"),
     ("/markets/", "0.9", "weekly"),
+    ("/scenarios/", "0.8", "weekly"),
     ("/property-types/", "0.8", "monthly"),
     ("/regulations/", "0.8", "monthly"),
     ("/financing/", "0.8", "monthly"),
@@ -154,7 +157,7 @@ def lastmod_for(path, f):
     return TODAY
 
 
-TODAY = datetime.date(2026, 8, 15).isoformat()
+TODAY = datetime.date(2026, 9, 23).isoformat()
 SEPTEMBER_22_RELEASE = {
     "/blog/",
     "/markets/",

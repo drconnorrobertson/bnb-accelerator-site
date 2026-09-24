@@ -21,6 +21,7 @@ Vercel as-is.
 /how-it-works/             The 5-stage process + Reverse Offset Method
 /markets/                  8 states and 20 active city/submarket service areas
 /markets/<market>/         Market data or local acquisition service page
+/scenarios/                750 market × property × operating-goal planning pages
 /case-studies/             Documented client results
 /tax-strategy/             7-day rule, material participation, cost seg
 /partners/                 AE Tax Advisors, and where our work stops
@@ -56,7 +57,7 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-679 public HTML pages: 486 blog posts, 46 client wins, 32 market and local service pages,
+1,488 public HTML pages: 486 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
 20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a

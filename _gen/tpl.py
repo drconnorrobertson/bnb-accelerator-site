@@ -69,6 +69,7 @@ ORG_SCHEMA = """    {
 NAV_ITEMS = [
     ("/how-it-works/", "Services"),
     ("/markets/", "Markets"),
+    ("/scenarios/", "Scenarios"),
     ("/case-studies/", "Results"),
     ("/about/", "About"),
     ("/blog/", "Insights"),
@@ -198,6 +199,7 @@ def footer():
           <li><a href="/answers/">Answers</a></li>
           <li><a href="/guides/">Guides</a></li>
           <li><a href="/tools/">Tools</a></li>
+          <li><a href="/scenarios/">Scenario Library</a></li>
           <li><a href="/faq/">FAQ</a></li>
           <li><a href="/ask/">Common Questions</a></li>
           <li><a href="/topics/">Topics</a></li>
