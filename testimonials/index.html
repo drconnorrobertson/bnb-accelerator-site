@@ -151,6 +151,24 @@
   }
 }
 </script>
+<style>
+.client-notes{background:#f5f7fa}
+.client-notes .section-head{max-width:720px}
+.client-notes .section-head p{color:#536078}
+.client-notes-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.client-note{display:flex;flex-direction:column;min-width:0;padding:28px;background:#fff;border:1px solid #dbe1e9;border-radius:8px;box-shadow:0 8px 24px rgba(27,37,65,.04)}
+.client-note-feature{grid-column:span 3;display:grid;grid-template-columns:180px minmax(0,1fr) 150px;align-items:center;gap:28px;padding:34px 38px;border-left:4px solid #b9975b}
+.client-note-context{color:#68758a;font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;line-height:1.5}
+.client-note blockquote{margin:16px 0 22px;color:#1b2541;font-family:Georgia,serif;font-size:1.16rem;line-height:1.55}
+.client-note-feature blockquote{margin:0;font-size:1.38rem;line-height:1.48}
+.client-note-byline{margin:auto 0 0;padding-top:14px;border-top:1px solid #e5e9ef;color:#536078;font-size:.86rem;line-height:1.5}
+.client-note-byline strong,.client-note-byline span{display:block}
+.client-note-byline strong{color:#1b2541}
+.client-note-feature .client-note-byline{padding-top:0;border:0}
+.client-notes-disclosure{margin:24px 0 0;color:#68758a;font-size:.86rem;line-height:1.6}
+@media(max-width:900px){.client-notes-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.client-note-feature{grid-column:span 2;grid-template-columns:1fr;gap:12px}.client-note-feature blockquote{margin:0}.client-note-feature .client-note-byline{padding-top:12px;border-top:1px solid #e5e9ef}}
+@media(max-width:600px){.client-notes-grid{grid-template-columns:1fr}.client-note-feature{grid-column:span 1;padding:26px}.client-note{padding:24px}.client-note blockquote{font-size:1.12rem}.client-note-feature blockquote{font-size:1.25rem}}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -233,6 +251,59 @@
         <h2>Read every public review</h2>
         <p>Our <a href="/reviews/">source-linked review directory</a> covers all 27 Trustpilot posts visible on 22 September 2026, including critical feedback. Each entry links to the original review and any company response.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="client-notes" aria-labelledby="client-notes-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Direct client feedback</span>
+        <h2 id="client-notes-title">Notes from the buying process</h2>
+        <p>These excerpts come from messages clients sent to the BNB Accelerator team in 2026. They are edited only for length and punctuation. They are separate from the public Trustpilot reviews above.</p>
+      </div>
+      <div class="client-notes-grid">
+        <article class="client-note client-note-feature">
+          <span class="client-note-context">At closing · August 2026</span>
+          <blockquote>“There were definitely moments when the process felt overwhelming, but having people who were willing to guide me, answer my questions, work through the details, and keep things moving made such a difference. We officially made it to closing!”</blockquote>
+          <p class="client-note-byline"><strong>Sylvia H.</strong><span>Short term rental buyer</span></p>
+        </article>
+        <article class="client-note client-note-feature">
+          <span class="client-note-context">Closing experience · August 2026</span>
+          <blockquote>“Can’t believe it was THAT easy! Now I need to get that property fixed up and redesigned asap so I can get it back on the market! You guys are all totally Awesome! You sure do make it happen for your clients!”</blockquote>
+          <p class="client-note-byline"><strong>Jeff B.</strong><span>Short term rental buyer</span></p>
+        </article>
+        <article class="client-note">
+          <span class="client-note-context">Working with the team · July 2026</span>
+          <blockquote>“Thank you for your dedication. I've really enjoyed working with you.”</blockquote>
+          <p class="client-note-byline"><strong>Sean T.</strong><span>Client message to Joe</span></p>
+        </article>
+        <article class="client-note">
+          <span class="client-note-context">Guidance · July 2026</span>
+          <blockquote>“Really appreciate him walking me through next steps and his expertise + professionalism.”</blockquote>
+          <p class="client-note-byline"><strong>Joshua E.</strong><span>Client message about Joe</span></p>
+        </article>
+        <article class="client-note">
+          <span class="client-note-context">Post-closing preparation · September 2026</span>
+          <blockquote>“This is excellent, very thorough and helpful. Will work on these closer to the closing date.”</blockquote>
+          <p class="client-note-byline"><strong>Chirag B.</strong><span>On a property setup guide</span></p>
+        </article>
+        <article class="client-note">
+          <span class="client-note-context">Closing support · August 2026</span>
+          <blockquote>“Thought you were a seasoned vet you did great. Would be super happy to work with you on the next one.”</blockquote>
+          <p class="client-note-byline"><strong>Tyler</strong><span>Client message to Tracy</span></p>
+        </article>
+        <article class="client-note">
+          <span class="client-note-context">Repeat investment · August 2026</span>
+          <blockquote>“Getting geared up for STR #2. Got anything coming up on the east coast of Florida?”</blockquote>
+          <p class="client-note-byline"><strong>Joey D.</strong><span>Returning buyer</span></p>
+        </article>
+        <article class="client-note">
+          <span class="client-note-context">Coordination · September 2026</span>
+          <blockquote>“Look at you already saving us money thank you.”</blockquote>
+          <p class="client-note-byline"><strong>Jason F.</strong><span>After an earlier inspection was arranged at a lower quote</span></p>
+        </article>
+      </div>
+      <p class="client-notes-disclosure">Selected client messages reflect individual experiences. A closing or appraisal does not establish investment performance, and results vary by property.</p>
     </div>
   </section>
 
