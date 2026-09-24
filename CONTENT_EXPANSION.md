@@ -10,6 +10,10 @@ The follow-up review traced the generated archive to the August 15, 2026 reposit
 
 The September 22 expansion brings the library to 679 public routes and exactly 486 blog articles. It adds 12 city-level service-area pages so every one of the 20 active markets named on the market hub has a dedicated URL, plus 243 property-system guides. The blog batch is organized as 27 physical and operating systems crossed with nine separate owner decisions: budget, acquisition, inspection, design, operations, maintenance, insurance, revenue and repair-versus-replace. New articles use their actual September 22, 2026 release date and are not backdated.
 
+## September 23 buyer-decision expansion
+
+The September 23 release adds 100 question-led guides, bringing the site to 1,588 public routes and the blog to 586 articles. The new pages cover ten distinct decision clusters: contracts, revenue evidence, operating economics, financing, insurance, permits, vendors, pricing, tax coordination, and exits. Each guide has its own question, direct answer, evidence list, decision test, worked example, failure mode, and stop/proceed/renegotiate boundary. The batch deliberately avoids city-keyword permutations and preserves the existing scenario, market, and property-system libraries.
+
 ## Publishing order
 
 1. **Recover old search demand.** Keep a redirect ledger for former WordPress URLs. Redirect each retired URL to the closest current answer, with no homepage catch-all. Check Search Console's Not found report and add exact mappings for discovered 404s. The first 24 source paths are in `vercel.json`.

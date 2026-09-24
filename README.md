@@ -42,7 +42,7 @@ Vercel as-is.
 /revenue-projections/      Building a projection that survives contact
 /wins/                     46 client win graphics with a lightbox gallery
 /topics/                   Nine topic cluster pillars
-/blog/                     Index + 486 posts published in 2026
+/blog/                     Index + 586 posts published in 2026
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
@@ -57,7 +57,7 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-1,488 public HTML pages: 486 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
+1,588 public HTML pages: 586 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
 20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a
@@ -122,6 +122,7 @@ graph and the site index stay consistent.
 _gen/tpl.py                Shared page shell: head, header, footer, schema
 _gen/pillars.py            guide() and hub() renderers for section pages
 _gen/blog.py               Post renderer + blog index rebuilder
+_gen/gen_buyer_decisions_100.py  100 evidence-led buyer decision guides
 _gen/case_studies.py       32 deal landing pages + the hub, merging deals.json
 _gen/gen_property_types.py 6 property type guides + hub
 _gen/gen_regulations.py    20 state pages + hub
@@ -161,6 +162,7 @@ python3 _gen/gen_local_markets.py   # missing active city/submarket pages + hub 
 python3 _gen/gen_blog_expansion.py  # 243 distinct property-system decision guides
 python3 _gen/crosslink_markets.py   # market pages -> case studies, blog, rules
 python3 _gen/llm_pass.py            # direct-answer + speakable blocks
+python3 _gen/gen_buyer_decisions_100.py  # buyer decision guides + blog index
 python3 _gen/sitewide.py            # footer + sitemap.xml
 python3 _gen/gen_site_index.py      # /sitemap/
 python3 build_assets.py             # minify and stamp asset hashes
