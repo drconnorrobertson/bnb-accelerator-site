@@ -42,7 +42,7 @@ Vercel as-is.
 /revenue-projections/      Building a projection that survives contact
 /wins/                     46 client win graphics with a lightbox gallery
 /topics/                   Nine topic cluster pillars
-/blog/                     Index + 605 posts published in 2026
+/blog/                     Index + 606 posts published in 2026
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
@@ -58,7 +58,7 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-1,607 public HTML pages: 605 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
+1,608 public HTML pages: 606 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
 20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a
