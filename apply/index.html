@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Apply (2026) | Buy a Cash-Flowing Airbnb Investment</title>
-<meta name="description" content="Apply to work with BNB Accelerator. We review every application individually and work with a limited number of clients at a time. No obligation, no pressure.">
+<title>Book a Strategy Call | BNB Accelerator</title>
+<meta name="description" content="Book a BNB Accelerator strategy call to discuss your short-term rental acquisition goals, capital, timeline, and fit. No obligation.">
 <link rel="canonical" href="https://www.bnbaccelerator.com/apply/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#1B2541">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="My BnB Accelerator">
-<meta property="og:title" content="Apply | BNB Accelerator">
-<meta property="og:description" content="Apply to work with BNB Accelerator. Every application is reviewed individually. No obligation.">
+<meta property="og:title" content="Book a Strategy Call | BNB Accelerator">
+<meta property="og:description" content="Choose a time to discuss your short-term rental acquisition goals with BNB Accelerator. No obligation.">
 <meta property="og:url" content="https://www.bnbaccelerator.com/apply/">
 <meta property="og:image" content="https://www.bnbaccelerator.com/assets/og-image.svg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Apply | BNB Accelerator">
-<meta name="twitter:description" content="Apply to work with BNB Accelerator. Every application is reviewed individually. No obligation.">
+<meta name="twitter:title" content="Book a Strategy Call | BNB Accelerator">
+<meta name="twitter:description" content="Choose a time to discuss your short-term rental acquisition goals with BNB Accelerator. No obligation.">
 <meta name="twitter:image" content="https://www.bnbaccelerator.com/assets/og-image.svg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +27,12 @@
 <link rel="preload" as="style" href="/assets/style.min.css?v=c83e6df4">
 <link rel="stylesheet" href="/assets/style.min.css?v=c83e6df4">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<style>
+  .booking-shell{max-width:920px;margin:0 auto;padding:clamp(1rem,3vw,2rem);background:#fff;border:1px solid rgba(27,37,65,.12);border-radius:18px;box-shadow:0 16px 44px rgba(27,37,65,.08)}
+  .booking-calendar{display:block;width:100%;height:850px;min-height:700px;border:0;overflow:hidden}
+  .booking-help{text-align:center;margin-top:1rem}
+  @media(max-width:640px){.booking-shell{padding:.75rem}.booking-calendar{height:950px}}
+</style>
 
 <script type="application/ld+json">
 {
@@ -34,7 +40,7 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bnbaccelerator.com/" },
-    { "@type": "ListItem", "position": 2, "name": "Apply", "item": "https://www.bnbaccelerator.com/apply/" }
+    { "@type": "ListItem", "position": 2, "name": "Book a Call", "item": "https://www.bnbaccelerator.com/apply/" }
   ]
 }
 </script>
@@ -45,18 +51,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens after I apply?",
+      "name": "What happens after I book a call?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A member of the acquisitions team reaches out to schedule a strategy call, usually within one business day. On that call we go through your income picture, your capital position, your timeline, and what you want the purchase to accomplish. If short-term rentals are not the right tool for you, we say so on that call."
+        "text": "On the strategy call, we go through your income picture, capital position, timeline, and what you want the purchase to accomplish. If short-term rentals are not the right tool for you, we will say so. If you prefer to send details before scheduling, you can use the application form below."
       }
     },
     {
       "@type": "Question",
-      "name": "Is there a cost to apply?",
+      "name": "Is there a cost to book a call?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Applying and the first strategy call are free. Pricing depends on the scope of the engagement, the market, and the property price point, and we quote it on that call rather than publishing a number that would be wrong for most people."
+        "text": "No. Booking and the first strategy call are free. Pricing for an engagement depends on its scope, market, and property price point, and is discussed on the call."
       }
     },
     {
@@ -192,26 +198,41 @@
   <section class="hero hero-page">
     <div class="wrap">
       <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a><span class="sep">/</span><span>Apply</span>
+        <a href="/">Home</a><span class="sep">/</span><span>Book a Call</span>
       </nav>
       <div class="hero-inner">
         <span class="eyebrow">Get Started</span>
-        <h1>Apply to work with us</h1>
-        <p class="hero-sub">Every application is read by a person. If short-term rental investing is the wrong tool for your situation, we will tell you on the first call rather than sell you something that will not work.</p>
+        <h1>Book a strategy call</h1>
+        <p class="hero-sub">Tell us what you want a short-term rental to accomplish. We will discuss your budget, timeline, and whether our done-for-you acquisition service is a fit. The first call is free and there is no obligation.</p>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="book-call">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Choose a Time</span>
+        <h2>Schedule your BNB Accelerator call</h2>
+        <p>Pick an available time in the calendar below. Have a rough sense of your capital, financing plans, and timeline ready so we can make the conversation useful.</p>
+      </div>
+      <div class="booking-shell">
+        <iframe class="booking-calendar" id="bnb-booking-calendar" title="Schedule a BNB Accelerator call" src="https://api.leadconnectorhq.com/widget/booking/ZsaZ20WoBCzlaqpmBxQF" loading="eager" scrolling="no" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <p class="booking-help small">Calendar not loading? <a href="https://mybnbaccelerator.com/schedule-bnb" target="_blank" rel="noopener noreferrer">Open the booking page directly</a>, or <a href="#application">send your details using the form below</a>. Scheduling is handled by our booking provider.</p>
+    </div>
+  </section>
+
+  <section id="application" class="bg-alt">
     <div class="wrap">
       <div class="split">
 
         <div data-reveal>
-          <h2>What happens next</h2>
+          <h2>Prefer to send your details first?</h2>
+          <p>Use the application form if you are not ready to choose a time or cannot find a suitable opening on the calendar.</p>
           <ol class="mt-3">
             <li><strong>You submit this form.</strong> It takes about three minutes. Nothing is binding.</li>
             <li><strong>We review it individually.</strong> Not an autoresponder. A member of the acquisitions team reads it.</li>
-            <li><strong>We reach out within one business day</strong> to schedule a strategy call.</li>
+            <li><strong>We reach out to schedule a strategy call.</strong> You can also use the calendar above whenever you are ready.</li>
             <li><strong>The strategy call.</strong> Thirty to forty-five minutes on your numbers, your tax picture, your timeline, and which markets fit your budget and goals.</li>
             <li><strong>You decide.</strong> If it is a fit, we scope the engagement and start sourcing. If it is not, we say so.</li>
           </ol>
@@ -241,7 +262,7 @@
 
         <div data-reveal data-reveal-delay="1">
           <div class="form-card">
-            <h3>Application</h3>
+            <h3>Send an application</h3>
             <p class="text-muted small">All fields marked with an asterisk are required.</p>
 
             <form id="apply-form" novalidate>
@@ -343,8 +364,8 @@
           </div>
 
           <div class="callout green mt-3">
-            <h3>Prefer to book a call directly?</h3>
-            <p>If you would rather skip the form, email us or book a tax-strategy consultation with our partner firm first: <a href="/tax-strategy/#book">AE Tax Advisors consultation</a>.</p>
+            <h3>Want to choose a time now?</h3>
+            <p><a href="#book-call">Return to the booking calendar</a>. You do not need to submit this form first.</p>
           </div>
         </div>
 
@@ -356,7 +377,7 @@
   <section class="bg-alt">
     <div class="wrap">
       <div class="section-head" data-reveal>
-        <span class="eyebrow">Before You Apply</span>
+        <span class="eyebrow">Before Your Call</span>
         <h2>Things worth knowing up front</h2>
       </div>
       <div class="grid grid-3">
@@ -415,18 +436,18 @@
     <div class="wrap wrap-narrow">
       <div class="section-head">
         <span class="eyebrow">FAQ</span>
-        <h2>Questions about applying</h2>
+        <h2>Questions about booking</h2>
       </div>
         <details class="faq" id="what-happens-after-i-apply" data-reveal>
-          <summary>What happens after I apply?</summary>
+          <summary>What happens after I book a call?</summary>
           <div class="faq-answer">
-            <p>A member of the acquisitions team reaches out to schedule a strategy call, usually within one business day. On that call we go through your income picture, your capital position, your timeline, and what you want the purchase to accomplish. If short-term rentals are not the right tool for you, we say so on that call.</p>
+            <p>On the strategy call, we go through your income picture, capital position, timeline, and what you want the purchase to accomplish. If short-term rentals are not the right tool for you, we will say so. If you prefer to send details before scheduling, you can use the application form above.</p>
           </div>
         </details>
         <details class="faq" id="is-there-a-cost-to-apply" data-reveal>
-          <summary>Is there a cost to apply?</summary>
+          <summary>Is there a cost to book a call?</summary>
           <div class="faq-answer">
-            <p>No. Applying and the first strategy call are free. Pricing depends on the scope of the engagement, the market, and the property price point, and we quote it on that call rather than publishing a number that would be wrong for most people.</p>
+            <p>No. Booking and the first strategy call are free. Pricing for an engagement depends on its scope, market, and property price point, and is discussed on the call.</p>
           </div>
         </details>
         <details class="faq" id="what-do-i-need-to-qualify" data-reveal>
@@ -540,10 +561,11 @@
       <strong>Ready to run your numbers?</strong>
       <span>Free strategy call &middot; No obligation</span>
     </div>
-    <a class="btn btn-accent btn-sm" href="/apply/">Book a Call</a>
+    <a class="btn btn-accent btn-sm" href="#book-call">Book a Call</a>
   </div>
 </div>
 
 <script src="/assets/main.js?v=93071465" defer></script>
+<script src="https://link.msgsndr.com/js/form_embed.js" async></script>
 </body>
 </html>
