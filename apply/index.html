@@ -28,10 +28,14 @@
 <link rel="stylesheet" href="/assets/style.min.css?v=c83e6df4">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <style>
-  .booking-shell{max-width:920px;margin:0 auto;padding:clamp(1rem,3vw,2rem);background:#fff;border:1px solid rgba(27,37,65,.12);border-radius:18px;box-shadow:0 16px 44px rgba(27,37,65,.08)}
+  .booking-page{padding:calc(var(--header-h) + 28px) 0 64px;min-height:100vh;background:var(--bg)}
+  .booking-intro{max-width:780px;margin:0 auto 28px;text-align:center}
+  .booking-intro h1{margin:.35rem 0}
+  .booking-intro p{color:var(--text-muted);font-size:1.06rem}
+  .booking-shell{max-width:1060px;margin:0 auto;padding:clamp(.6rem,2vw,1.5rem);background:#fff;border:1px solid rgba(27,37,65,.12);border-radius:18px;box-shadow:0 16px 44px rgba(27,37,65,.08)}
   .booking-calendar{display:block;width:100%;height:850px;min-height:700px;border:0;overflow:hidden}
   .booking-help{text-align:center;margin-top:1rem}
-  @media(max-width:640px){.booking-shell{padding:.75rem}.booking-calendar{height:950px}}
+  @media(max-width:640px){.booking-page{padding-top:calc(var(--header-h) + 18px)}.booking-intro{margin-bottom:18px}.booking-intro p{font-size:.95rem}.booking-shell{padding:.5rem}.booking-calendar{height:950px}}
 </style>
 
 <script type="application/ld+json">
@@ -41,46 +45,6 @@
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bnbaccelerator.com/" },
     { "@type": "ListItem", "position": 2, "name": "Book a Call", "item": "https://www.bnbaccelerator.com/apply/" }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What happens after I book a call?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "On the strategy call, we go through your income picture, capital position, timeline, and what you want the purchase to accomplish. If short-term rentals are not the right tool for you, we will say so. If you prefer to send details before scheduling, you can use the application form below."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a cost to book a call?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Booking and the first strategy call are free. Pricing for an engagement depends on its scope, market, and property price point, and is discussed on the call."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What do I need to qualify?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally a meaningful income to offset and enough liquid capital for a down payment, furnishing, closing costs, and reserves. Most clients earn $300,000 or more and are losing a substantial amount to taxes each year. We work with a limited number of clients at a time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if short-term rentals are not right for my situation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We will tell you on the first call rather than take the transaction. If your marginal rate is low, if you cannot materially participate and will not co-host, or if your capital is better deployed elsewhere, this strategy is not the right instrument and we would rather say that than sell you something."
-      }
-    }
   ]
 }
 </script>
@@ -150,7 +114,7 @@
         "Compare",
         "Blog",
         "About",
-        "Apply"
+        "Book a Call"
       ],
       "url": [
         "https://www.bnbaccelerator.com/how-it-works/",
@@ -172,7 +136,7 @@
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header" data-start="transparent">
+<header class="site-header">
   <div class="wrap">
     <a class="logo" href="/">
       <span class="logo-mark" aria-hidden="true">BA</span>
@@ -188,284 +152,25 @@
       <a class="nav-link" href="/case-studies/">Results</a>
       <a class="nav-link" href="/about/">About</a>
       <a class="nav-link" href="/blog/">Insights</a>
-      <a class="btn btn-primary btn-sm nav-cta" href="/apply/">Contact</a>
+      <a class="btn btn-primary btn-sm nav-cta" href="#book-call">Book a Call</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
-
-  <section class="hero hero-page">
+  <section id="book-call" class="booking-page">
     <div class="wrap">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a><span class="sep">/</span><span>Book a Call</span>
-      </nav>
-      <div class="hero-inner">
+      <div class="booking-intro">
         <span class="eyebrow">Get Started</span>
-        <h1>Book a strategy call</h1>
-        <p class="hero-sub">Tell us what you want a short-term rental to accomplish. We will discuss your budget, timeline, and whether our done-for-you acquisition service is a fit. The first call is free and there is no obligation.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="book-call">
-    <div class="wrap">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow">Choose a Time</span>
-        <h2>Schedule your BNB Accelerator call</h2>
-        <p>Pick an available time in the calendar below. Have a rough sense of your capital, financing plans, and timeline ready so we can make the conversation useful.</p>
+        <h1>Book a Call</h1>
+        <p>Choose a time below to discuss your short-term rental goals, budget, and timeline. The first call is free and there is no obligation.</p>
       </div>
       <div class="booking-shell">
         <iframe class="booking-calendar" id="bnb-booking-calendar" title="Schedule a BNB Accelerator call" src="https://api.leadconnectorhq.com/widget/booking/ZsaZ20WoBCzlaqpmBxQF" loading="eager" scrolling="no" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
-      <p class="booking-help small">Calendar not loading? <a href="https://mybnbaccelerator.com/schedule-bnb" target="_blank" rel="noopener noreferrer">Open the booking page directly</a>, or <a href="#application">send your details using the form below</a>. Scheduling is handled by our booking provider.</p>
+      <p class="booking-help small">Calendar not loading? <a href="https://mybnbaccelerator.com/schedule-bnb" target="_blank" rel="noopener noreferrer">Open the booking page directly</a>. Scheduling is handled by our booking provider.</p>
     </div>
   </section>
-
-  <section id="application" class="bg-alt">
-    <div class="wrap">
-      <div class="split">
-
-        <div data-reveal>
-          <h2>Prefer to send your details first?</h2>
-          <p>Use the application form if you are not ready to choose a time or cannot find a suitable opening on the calendar.</p>
-          <ol class="mt-3">
-            <li><strong>You submit this form.</strong> It takes about three minutes. Nothing is binding.</li>
-            <li><strong>We review it individually.</strong> Not an autoresponder. A member of the acquisitions team reads it.</li>
-            <li><strong>We reach out to schedule a strategy call.</strong> You can also use the calendar above whenever you are ready.</li>
-            <li><strong>The strategy call.</strong> Thirty to forty-five minutes on your numbers, your tax picture, your timeline, and which markets fit your budget and goals.</li>
-            <li><strong>You decide.</strong> If it is a fit, we scope the engagement and start sourcing. If it is not, we say so.</li>
-          </ol>
-
-          <div class="callout mt-3">
-            <h3>What to have ready for the call</h3>
-            <p>A rough sense of your household income, how much liquid capital you can deploy, whether you plan to finance or pay cash, and your timeline. If tax offset is your primary motivation, having last year's return handy helps a lot.</p>
-          </div>
-
-          <h3 class="mt-4">Who this is built for</h3>
-          <ul class="check-list">
-            <li>Households earning roughly $500,000 or more per year</li>
-            <li>$200,000+ in liquid capital available to deploy</li>
-            <li>People losing six figures a year to taxes</li>
-            <li>Busy professionals who want the asset, not the project</li>
-            <li>Investors comfortable buying out of state</li>
-          </ul>
-
-          <h3 class="mt-4">Who this is not built for</h3>
-          <ul>
-            <li>Anyone looking for guaranteed returns. Real estate carries risk, including loss of principal.</li>
-            <li>Buyers who want a property in California. <a href="/faq/#why-not-california">Nothing pencils there</a>, and we will not pretend otherwise.</li>
-            <li>People who want to learn to do this themselves. That is a course, and we are not one.</li>
-            <li>Anyone who needs the capital back inside two years.</li>
-          </ul>
-        </div>
-
-        <div data-reveal data-reveal-delay="1">
-          <div class="form-card">
-            <h3>Send an application</h3>
-            <p class="text-muted small">All fields marked with an asterisk are required.</p>
-
-            <form id="apply-form" novalidate>
-              <div class="field-row">
-                <div class="field">
-                  <label for="first-name">First name *</label>
-                  <input type="text" id="first-name" name="firstName" autocomplete="given-name" required>
-                </div>
-                <div class="field">
-                  <label for="last-name">Last name *</label>
-                  <input type="text" id="last-name" name="lastName" autocomplete="family-name" required>
-                </div>
-              </div>
-
-              <div class="field">
-                <label for="email">Email *</label>
-                <input type="email" id="email" name="email" autocomplete="email" required>
-              </div>
-
-              <div class="field">
-                <label for="phone">Phone *</label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
-              </div>
-
-              <div class="field">
-                <label for="income">Household annual income *</label>
-                <select id="income" name="income" required>
-                  <option value="">Select a range</option>
-                  <option>Under $250,000</option>
-                  <option>$250,000 - $500,000</option>
-                  <option>$500,000 - $750,000</option>
-                  <option>$750,000 - $1,000,000</option>
-                  <option>Over $1,000,000</option>
-                </select>
-              </div>
-
-              <div class="field">
-                <label for="capital">Liquid capital available to deploy *</label>
-                <select id="capital" name="capital" required>
-                  <option value="">Select a range</option>
-                  <option>Under $150,000</option>
-                  <option>$150,000 - $250,000</option>
-                  <option>$250,000 - $500,000</option>
-                  <option>$500,000 - $1,000,000</option>
-                  <option>Over $1,000,000</option>
-                </select>
-              </div>
-
-              <div class="field">
-                <label for="timeline">Timeline *</label>
-                <select id="timeline" name="timeline" required>
-                  <option value="">Select a timeline</option>
-                  <option>Ready now</option>
-                  <option>Within 3 months</option>
-                  <option>3 to 6 months</option>
-                  <option>6 to 12 months</option>
-                  <option>Just researching</option>
-                </select>
-              </div>
-
-              <div class="field">
-                <label for="market">Market interest <span class="hint">(optional)</span></label>
-                <select id="market" name="market">
-                  <option value="">No preference / not sure yet</option>
-                  <option>Florida</option>
-                  <option>Tennessee</option>
-                  <option>Arizona</option>
-                  <option>Oklahoma</option>
-                  <option>Pennsylvania</option>
-                  <option>Texas</option>
-                  <option>Colorado</option>
-                  <option>Missouri</option>
-                </select>
-              </div>
-
-              <div class="field">
-                <label for="goal">What are you trying to accomplish? *</label>
-                <textarea id="goal" name="goal" placeholder="Cash flow, tax offset, portfolio building, or all three. Tell us what would make this a win." required></textarea>
-              </div>
-
-              <div class="field">
-                <label for="experience">Prior real estate experience <span class="hint">(optional)</span></label>
-                <select id="experience" name="experience">
-                  <option value="">Select one</option>
-                  <option>None, this would be my first</option>
-                  <option>Own a primary residence only</option>
-                  <option>Own 1-2 rental properties</option>
-                  <option>Own 3+ rental properties</option>
-                  <option>Already own a short-term rental</option>
-                </select>
-              </div>
-
-              <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Submit Application</button>
-
-              <p class="form-consent">By submitting, you agree to be contacted by My BnB Accelerator, LLC about your application by phone, email, or text. We do not sell or share your information. Submitting an application creates no obligation on either side.</p>
-
-              <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
-            </form>
-          </div>
-
-          <div class="callout green mt-3">
-            <h3>Want to choose a time now?</h3>
-            <p><a href="#book-call">Return to the booking calendar</a>. You do not need to submit this form first.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================================================== REASSURANCE -->
-  <section class="bg-alt">
-    <div class="wrap">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow">Before Your Call</span>
-        <h2>Things worth knowing up front</h2>
-      </div>
-      <div class="grid grid-3">
-        <div class="card" data-reveal>
-          <h3>We never touch your money</h3>
-          <p>You wire funds to title, never to us. We are an acquisition team, not a custodian, a fund, or a syndicator. You own the property directly and outright.</p>
-        </div>
-        <div class="card" data-reveal data-reveal-delay="1">
-          <h3>We do not own inventory</h3>
-          <p>We do not profit from a higher purchase price, which is exactly why we can negotiate hard on your behalf. Clients save $25,000 to $85,000 on a typical deal.</p>
-        </div>
-        <div class="card" data-reveal data-reveal-delay="2">
-          <h3>Fees are disclosed before you commit</h3>
-          <p>You will know the full cost of the engagement before anything is signed. No surprise charges appear later in the process.</p>
-        </div>
-      </div>
-
-      <div class="btn-row center mt-4" data-reveal>
-        <a class="btn btn-outline" href="/faq/">Read the FAQ first</a>
-        <a class="btn btn-outline" href="/case-studies/">See client results</a>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow">Resources</span>
-        <h2>Read before your call</h2>
-      </div>
-      <div class="grid grid-4">
-        <article class="card" data-reveal>
-          <h3><a href="/blog/short-term-rental-investing-2026/">Short term rental investing in 2026</a></h3>
-          <p>The state of the strategy and what a deal has to clear.</p>
-        </article>
-        <article class="card" data-reveal data-reveal-delay="1">
-          <h3><a href="/blog/how-much-money-to-start-airbnb/">How much money you need to start</a></h3>
-          <p>Down payment, furnishing, closing costs, and reserves.</p>
-        </article>
-        <article class="card" data-reveal data-reveal-delay="2">
-          <h3><a href="/blog/str-tax-savings-guide/">STR tax benefits and cost segregation</a></h3>
-          <p>So the tax conversation on the call is a productive one.</p>
-        </article>
-        <article class="card" data-reveal data-reveal-delay="3">
-          <h3><a href="/blog/airbnb-property-management/">Airbnb property management</a></h3>
-          <p>The decision that most often determines the tax outcome.</p>
-        </article>
-      </div>
-      <div class="btn-row center mt-4" data-reveal>
-        <a class="btn btn-outline" href="/blog/">Read all guides</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-alt">
-    <div class="wrap wrap-narrow">
-      <div class="section-head">
-        <span class="eyebrow">FAQ</span>
-        <h2>Questions about booking</h2>
-      </div>
-        <details class="faq" id="what-happens-after-i-apply" data-reveal>
-          <summary>What happens after I book a call?</summary>
-          <div class="faq-answer">
-            <p>On the strategy call, we go through your income picture, capital position, timeline, and what you want the purchase to accomplish. If short-term rentals are not the right tool for you, we will say so. If you prefer to send details before scheduling, you can use the application form above.</p>
-          </div>
-        </details>
-        <details class="faq" id="is-there-a-cost-to-apply" data-reveal>
-          <summary>Is there a cost to book a call?</summary>
-          <div class="faq-answer">
-            <p>No. Booking and the first strategy call are free. Pricing for an engagement depends on its scope, market, and property price point, and is discussed on the call.</p>
-          </div>
-        </details>
-        <details class="faq" id="what-do-i-need-to-qualify" data-reveal>
-          <summary>What do I need to qualify?</summary>
-          <div class="faq-answer">
-            <p>Generally a meaningful income to offset and enough liquid capital for a down payment, furnishing, closing costs, and reserves. Most clients earn $300,000 or more and are losing a substantial amount to taxes each year. We work with a limited number of clients at a time.</p>
-          </div>
-        </details>
-        <details class="faq" id="what-if-short-term-rentals-are-not-right-for-my-situation" data-reveal>
-          <summary>What if short-term rentals are not right for my situation?</summary>
-          <div class="faq-answer">
-            <p>We will tell you on the first call rather than take the transaction. If your marginal rate is low, if you cannot materially participate and will not co-host, or if your capital is better deployed elsewhere, this strategy is not the right instrument and we would rather say that than sell you something.</p>
-          </div>
-        </details>
-
-    </div>
-  </section>
-
 </main>
 
 <footer class="site-footer">
@@ -540,7 +245,7 @@
           <li><a href="/guides/">Guides</a></li>
           <li><a href="/tools/">Tools</a></li>
           <li><a href="/faq/">FAQ</a></li>
-          <li><a href="/apply/">Apply</a></li>
+          <li><a href="/apply/">Book a Call</a></li>
           <li><a href="/sitemap/">Site Index</a></li>
         </ul>
       </div>
@@ -555,15 +260,6 @@
   </div>
 </footer>
 
-<div class="sticky-cta" data-sticky-cta>
-  <div class="sticky-cta-inner">
-    <div class="sticky-cta-text">
-      <strong>Ready to run your numbers?</strong>
-      <span>Free strategy call &middot; No obligation</span>
-    </div>
-    <a class="btn btn-accent btn-sm" href="#book-call">Book a Call</a>
-  </div>
-</div>
 
 <script src="/assets/main.js?v=93071465" defer></script>
 <script src="https://link.msgsndr.com/js/form_embed.js" async></script>
