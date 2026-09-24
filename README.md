@@ -42,11 +42,11 @@ Vercel as-is.
 /revenue-projections/      Building a projection that survives contact
 /wins/                     46 client win graphics with a lightbox gallery
 /topics/                   Nine topic cluster pillars
-/blog/                     Index + 601 posts published in 2026
+/blog/                     Index + 604 posts published in 2026
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
-sitemap.xml                All 424 public HTML URLs with lastmod and priority
+sitemap.xml                All 1,606 public HTML URLs with lastmod and priority
 <key>.txt                  IndexNow key file
 build_assets.py            Minify CSS, stamp hashed asset URLs
 submit_indexnow.py         Submit sitemap URLs to IndexNow
@@ -57,7 +57,7 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-1,603 public HTML pages: 601 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
+1,606 public HTML pages: 604 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
 20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a
