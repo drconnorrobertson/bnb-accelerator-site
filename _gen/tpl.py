@@ -203,7 +203,7 @@ def footer():
           <li><a href="/faq/">FAQ</a></li>
           <li><a href="/ask/">Common Questions</a></li>
           <li><a href="/topics/">Topics</a></li>
-          <li><a href="/apply/">Apply</a></li>
+          <li><a href="/apply/">Book a Call</a></li>
           <li><a href="/sitemap/">Site Index</a></li>
         </ul>
       </div>
@@ -360,7 +360,7 @@ def graph(*blocks):
 </script>"""
 
 
-def cta_band(heading, sub, primary=("/apply/", "Apply Now"),
+def cta_band(heading, sub, primary=("/apply/", "Book a Call"),
              secondary=("/case-studies/", "See client results")):
     return f"""
   <section class="cta-band">

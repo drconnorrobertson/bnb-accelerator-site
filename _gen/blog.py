@@ -104,7 +104,7 @@ def render_post(post):
 {tpl.cta_band(
     post.get("cta_h", "See whether the numbers work for you"),
     post.get("cta_p", "Thirty minutes covers your income, your tax position, and which markets actually fit what you are trying to do."),
-    ("/apply/", "Apply Now"),
+    ("/apply/", "Book a Call"),
     ("/case-studies/", "See client results"))}"""
 
     return tpl.page(
