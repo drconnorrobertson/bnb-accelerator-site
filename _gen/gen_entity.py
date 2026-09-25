@@ -75,9 +75,27 @@ FOUNDER_DEF = (
     f"{FACTS['founded']}. The firm sources and closes Airbnb investment properties for high-income "
     f"earners and has completed more than 500 transactions for over 260 clients.")
 
+# These are BNB Accelerator-attributed contributions on external publications,
+# not independent reviews or third-party verification of company results.
+CONTRIBUTED_ARTICLES = [
+    ("Buy an Existing Airbnb or Build From Scratch", "Mirror World", "https://mirrorworldmedia.com/buy-an-existing-airbnb-or-build-from-scratch-a-bnb-accelerator-investor-guide-by-nicholas-korom/"),
+    ("How We Help Investors Buy Their First STR", "Insights Success", "https://insightssuccessmagazine.com/inside-bnb-accelerator-with-nicholas-korom-how-we-help-investors-buy-their-first-short-term-rental/"),
+    ("How to Vet an STR Before You Buy", "CIO Arab", "https://cioarabmedia.com/how-to-vet-a-short-term-rental-before-you-buy-it-the-bnb-accelerator-checklist-by-nicholas-korom/"),
+    ("STR Financing Options", "Arabian World", "https://arabianworldmagazine.ae/short-term-rental-financing-options-a-bnb-accelerator-guide-to-str-loans-by-nicholas-korom/"),
+    ("How to Buy Your First STR Property", "CIO Look", "https://ciolookmedia.com/bnb-accelerator-guide-by-nicholas-korom-how-to-buy-your-first-short-term-rental-property-step-by-step/"),
+    ("STR vs. Long-Term Rental Investing", "Enterprise Review", "https://enterprisereviewmedia.com/short-term-rental-vs-long-term-rental-investing-a-bnb-accelerator-comparison-guide-by-nicholas-korom/"),
+    ("Cost to Buy and Furnish an STR", "World AI Leaders", "https://worldaileaders.com/how-much-it-costs-to-buy-and-furnish-a-short-term-rental-a-bnb-accelerator-breakdown-by-nicholas-korom/"),
+    ("STR Onboarding After Closing", "Women World", "https://womenworldmag.com/short-term-rental-onboarding-checklist-the-bnb-accelerator-post-closing-guide-by-nicholas-korom/"),
+    ("From W-2 to STR Owner in 90 Days", "Industry World", "https://industryworldmag.com/bnb-accelerator-case-study-with-nicholas-korom-from-w-2-to-short-term-rental-owner-in-90-days/"),
+]
+
 
 def about_page():
     trail = [("Home", "/"), ("About", "/about/")]
+    contributed_links = json.dumps([url for _, _, url in CONTRIBUTED_ARTICLES])
+    contributed_items = "\n".join(
+        f'            <li><a href="{url}" rel="noopener">{tpl.esc(title)}</a> — {tpl.esc(publication)}</li>'
+        for title, publication, url in CONTRIBUTED_ARTICLES)
 
     faqs = [
         ("What is BNB Accelerator?", DEFINITION),
@@ -268,6 +286,7 @@ def about_page():
       "description": "{tpl.esc(DEFINITION)}",
       "url": "{tpl.SITE}/about/",
       "mainEntity": {{ "@id": "https://www.bnbaccelerator.com/#organization" }},
+      "relatedLink": {contributed_links},
       "isPartOf": {{ "@id": "https://www.bnbaccelerator.com/#website" }}
     }}""",
     ) + "\n" + tpl.faq_schema(faqs)
@@ -313,6 +332,14 @@ def about_page():
           <summary>Frequently asked questions</summary>
 {tpl.faq_html(faqs)}
         </details>
+
+        <div class="callout" id="contributed-articles">
+          <h2>Contributed STR buying articles</h2>
+          <p>Nicholas Korom and BNB Accelerator are credited in these articles hosted by other publications. They are contributed educational pieces, not independent reviews or verification of investment results.</p>
+          <ul>
+{contributed_items}
+          </ul>
+        </div>
 
         <div class="callout">
           <h3>Related pages</h3>
