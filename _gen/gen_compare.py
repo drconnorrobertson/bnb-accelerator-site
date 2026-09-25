@@ -343,6 +343,13 @@ GUIDES = [
     ("/compare/best-str-financing-options/", "Best STR financing options"),
 ]
 
+# Substantive buyer comparisons with their own blog editorial format. Keep them
+# linked from the comparison hub without generating a second page for the intent.
+BLOG_MATCHUPS = [
+    ("/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/", "BNB Accelerator vs BNB Turnkey"),
+    ("/blog/bnb-accelerator-vs-kleer-circle-str-buyer/", "BNB Accelerator vs Kleer Circle"),
+]
+
 
 def usd(n):
     return f"${n:,.0f}"
@@ -562,6 +569,8 @@ def build_index():
         </a>""")
 
     guides = "\n".join(f'        <li><a href="{u}">{t}</a></li>' for u, t in GUIDES)
+    blog_matchups = "\n".join(
+        f'        <li><a href="{u}">{t}</a></li>' for u, t in BLOG_MATCHUPS)
 
     items = ",\n".join(
         f"""        {{ "@type": "ListItem", "position": {i}, "name": "BNB Accelerator vs {tpl.esc(name)}", "url": "{tpl.SITE}/compare/{slug}/" }}"""
@@ -605,6 +614,17 @@ def build_index():
       </div>
       <ul class="cmp-guides" data-reveal>
 {guides}
+      </ul>
+    </div>
+  </section>
+  <section class="section-sm">
+    <div class="wrap">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow">Buyer comparisons</span>
+        <h2>Compare the full purchase and operating plan</h2>
+      </div>
+      <ul class="cmp-guides" data-reveal>
+{blog_matchups}
       </ul>
     </div>
   </section>
