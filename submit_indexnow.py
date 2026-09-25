@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Submit every URL in sitemap.xml to IndexNow.
+"""Submit sitemap URLs, optionally restricted to verified live URLs, to IndexNow.
 
 IndexNow is a shared submission endpoint honoured by Bing, Yandex, Seznam and
 Naver. Google does not participate. Brave runs an independent index and
@@ -12,11 +12,14 @@ batch is accepted, so deploy first, then run this.
 Usage:
     python3 submit_indexnow.py              # submit every sitemap URL
     python3 submit_indexnow.py --dry-run    # print what would be sent
+    python3 submit_indexnow.py --url https://www.bnbaccelerator.com/blog/example/
+                                            # submit one sitemap URL
     python3 submit_indexnow.py --since 2026-08-15
                                             # only URLs with lastmod >= date
     python3 submit_indexnow.py --force      # submit without key verification
 """
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -101,18 +104,31 @@ def submit(urls):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--url", action="append", default=[],
+                        help="Submit only this canonical sitemap URL (repeatable)")
+    parser.add_argument("--since", help="Only URLs with lastmod on or after YYYY-MM-DD")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--force", action="store_true")
+    args = parser.parse_args()
     entries = sitemap_entries()
 
-    since = None
-    if "--since" in sys.argv:
-        since = sys.argv[sys.argv.index("--since") + 1]
-        entries = [e for e in entries if e[1] >= since]
-        print(f"filtered to lastmod >= {since}")
+    if args.since:
+        entries = [e for e in entries if e[1] >= args.since]
+        print(f"filtered to lastmod >= {args.since}")
+
+    if args.url:
+        requested = set(args.url)
+        known = {url for url, _ in entries}
+        missing = requested - known
+        if missing:
+            parser.error(f"URL not present in selected sitemap entries: {sorted(missing)}")
+        entries = [e for e in entries if e[0] in requested]
 
     urls = [u for u, _ in entries]
     print(f"{len(urls)} URLs to submit")
 
-    if "--dry-run" in sys.argv:
+    if args.dry_run:
         print("\n".join(urls))
         return
 
@@ -120,12 +136,12 @@ def main():
         print("nothing to submit")
         return
 
-    print(f"Checking local {KEY}.txt ...")
+    print("Checking local IndexNow key file ...")
     local_key_matches()
 
-    print(f"Checking {SITE_URL}/{KEY}.txt ...")
+    print("Checking live IndexNow key file ...")
     if not key_is_live():
-        if "--force" not in sys.argv:
+        if not args.force:
             sys.exit("Key file is not live yet. Deploy first, then re-run. "
                      "Pass --force to submit anyway.")
         print("  key NOT verified; --force given, submitting anyway")
