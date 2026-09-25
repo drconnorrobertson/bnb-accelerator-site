@@ -1,5 +1,9 @@
 # BNB Accelerator content expansion
 
+## September 24 investor purchase library
+
+The new `/guides/str-investment/` library contains 500 purchase-decision guides: 20 short-term-rental property types crossed with 25 underwriting, financing, diligence, operating-cost, and exit questions. The audience is business owners and real estate investors. Each page links to its parent library and to a broader BNB guide, states a decision method, names records to request, and gives a downside worksheet. This is a buyer-intent taxonomy; no keyword-volume dataset was available, so traffic or ranking potential has not been quantified. Review Search Console's indexation and query data after publication and consolidate pages that do not earn distinct demand.
+
 Baseline on 22 September 2026: 632 public HTML routes before this batch. Doubling the route count would require roughly 632 additional pages. The goal is more useful search coverage, not a URL quota. Google may omit repetitive or low-value pages from Search even when they are in a sitemap.
 
 ## Editorial audit before further scale

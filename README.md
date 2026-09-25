@@ -21,13 +21,14 @@ Vercel as-is.
 /how-it-works/             The 5-stage process + Reverse Offset Method
 /markets/                  8 states and 20 active city/submarket service areas
 /markets/<market>/         Market data or local acquisition service page
-/scenarios/                750 market × property × operating-goal planning pages
+/scenarios/                Market × property × operating-goal planning pages
 /case-studies/             Documented client results
 /tax-strategy/             7-day rule, material participation, cost seg
 /partners/                 AE Tax Advisors, and where our work stops
 /answers/                  Short definition pages for AI overview capture
 /data/                     Revenue and occupancy datasets across 20 markets
 /guides/                   Operational guides + two free lead magnets
+/guides/str-investment/    500 property-specific acquisition decision guides
 /tools/str-revenue-calculator/   Interactive cash-flow and tax model
 /faq/                      Questions with FAQPage schema
 /testimonials/             Client quotes, Trustpilot
@@ -42,7 +43,7 @@ Vercel as-is.
 /revenue-projections/      Building a projection that survives contact
 /wins/                     46 client win graphics with a lightbox gallery
 /topics/                   Nine topic cluster pillars
-/blog/                     Index + 609 posts published in 2026
+/blog/                     Index + 675 posts
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
@@ -58,7 +59,7 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-1,611 public HTML pages: 609 blog posts, 750 scenario plans, 46 client wins, 32 market and local service pages,
+2,178 public HTML pages: 675 blog posts, 808 scenario plans, 500 investor purchase guides, 46 client wins, 32 market and local service pages,
 20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
 cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
 under `/answers/`, three playbooks, operational guides, two datasets, and a
@@ -124,6 +125,7 @@ _gen/tpl.py                Shared page shell: head, header, footer, schema
 _gen/pillars.py            guide() and hub() renderers for section pages
 _gen/blog.py               Post renderer + blog index rebuilder
 _gen/gen_buyer_decisions_100.py  100 evidence-led buyer decision guides
+_gen/gen_investor_purchase_guides.py  500 property-specific investor purchase guides
 _gen/case_studies.py       32 deal landing pages + the hub, merging deals.json
 _gen/gen_property_types.py 6 property type guides + hub
 _gen/gen_regulations.py    20 state pages + hub
@@ -165,6 +167,7 @@ python3 _gen/gen_blog_expansion.py  # 243 distinct property-system decision guid
 python3 _gen/crosslink_markets.py   # market pages -> case studies, blog, rules
 python3 _gen/llm_pass.py            # direct-answer + speakable blocks
 python3 _gen/gen_buyer_decisions_100.py  # buyer decision guides + blog index
+python3 _gen/gen_investor_purchase_guides.py  # 500 acquisition guides + hub
 python3 _gen/sitewide.py            # footer + segmented sitemap index
 python3 _gen/gen_site_index.py      # /sitemap/
 python3 _gen/audit_scenarios.py     # scenario calculations, metadata, links, similarity watch
