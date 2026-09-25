@@ -144,6 +144,8 @@ def classify(path):
 
 def lastmod_for(path, f):
     """Blog posts use their published date; everything else uses today."""
+    if path in {"/deals/", "/about/", "/ask/"}:
+        return "2026-09-25"
     if path.startswith("/compare/markets/"):
         return "2026-09-25"
     if path == "/blog/":

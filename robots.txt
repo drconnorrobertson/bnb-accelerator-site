@@ -5,11 +5,8 @@
 User-agent: *
 Allow: /
 
-# Query strings on this site are cache-busting or tracking parameters only.
-# The canonical, parameter-free URL is declared on every page, but blocking
-# the variants keeps crawl budget on real pages.
-Disallow: /*?*v=
-Disallow: /*?*cb=
+# Keep versioned CSS and JavaScript crawlable: pages load them with ?v=.
+# Only tracking-only query variants are excluded; pages declare canonicals.
 Disallow: /*?*utm_
 Disallow: /*?*fbclid=
 Disallow: /*?*gclid=

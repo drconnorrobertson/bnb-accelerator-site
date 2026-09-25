@@ -59,6 +59,14 @@ for url, path in pages.items():
         target = target.rstrip("/") + "/"
         if target not in pages:
             ERRORS.append(f"{url}: missing route link {target}")
+    for asset in re.findall(r'(?:href|src)=["\'](/assets/[^"\']+)', source):
+        asset_path = asset.split("?", 1)[0].split("#", 1)[0]
+        if not (ROOT / asset_path.lstrip("/")).exists():
+            ERRORS.append(f"{url}: missing asset {asset_path}")
+
+robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
+if "Disallow: /*?*v=" in robots and any("/assets/style.min.css?v=" in p.read_text(encoding="utf-8") for p in pages.values()):
+    ERRORS.append("robots.txt blocks the versioned CSS used by site pages")
 
 for label, values in (("title", titles), ("description", descriptions)):
     for value, count in values.items():

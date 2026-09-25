@@ -126,7 +126,7 @@ def comparison_page(a, b, related):
   </div></section>
   <section class="section-sm"><div class="wrap wrap-narrow">
     <div class="verdict"><span class="verdict-label">Decision in brief</span><p>{tpl.esc(entry)} {tpl.esc(cash)}</p></div>
-    <p class="small text-muted mt-3">Published market ranges are screening estimates assembled from closings and active comparables. They are not returns promised for a specific property. See the underlying <a href="/markets/{a}/">{tpl.esc(na)} market guide</a> and <a href="/markets/{b}/">{tpl.esc(nb)} market guide</a>; refresh comparables, costs and permit status before an offer.</p>
+    <p class="small text-muted mt-3">Published market ranges are screening estimates assembled from closings and active comparables. They are not returns promised for a specific property. Read <a href="/data/average-str-revenue-by-market/#method">how the estimates were assembled</a> and the underlying <a href="/markets/{a}/">{tpl.esc(na)} market guide</a> and <a href="/markets/{b}/">{tpl.esc(nb)} market guide</a>; refresh comparables, costs and permit status before an offer.</p>
   </div></section>
   <section class="bg-alt"><div class="wrap wrap-narrow">
     <div class="section-head"><span class="eyebrow">At a glance</span><h2>Side-by-side market ranges</h2></div>

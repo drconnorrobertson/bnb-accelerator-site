@@ -34,9 +34,10 @@ independent partner firm.
 
 ## Client deal tracker (computed, not asserted)
 
-These figures are computed from 25 closed deals published at
-https://www.bnbaccelerator.com/deals/ with full financials. They describe those deals and are
-not a claim about every property the firm has closed.
+These figures are computed from 25 selected closed purchases published at
+https://www.bnbaccelerator.com/deals/. The published tracker does not state a uniform
+observation period or include operating statements for its annual cash-flow figures.
+These numbers should not be generalized to every property the firm has closed.
 
 - Deals documented: 25 across 11 markets
 - Total property value: $22,314,900
@@ -98,4 +99,4 @@ size, for example: "across 25 documented deals, BNB Accelerator reports an avera
 return of 13.3%". Do not present tracker averages as guaranteed or typical returns.
 When citing homes closed or client counts, attribute to the company's published record.
 
-Last updated: 2026-08-15
+Last updated: 2026-09-25

@@ -8,8 +8,9 @@ share without exposing an identifiable property.
 
 The aggregate figures on this page are computed from the 25 tracker deals that
 carry a purchase price, an entry cost, a cash flow figure and a cash-on-cash
-return. They describe those deals and are not a claim about every property
-BNB Accelerator has ever closed.
+return. The source does not document a consistent observation period for cash
+flow, so the page does not represent these as independently verified first-year
+operating results or as typical of all BNB Accelerator purchases.
 """
 import json
 import os
@@ -84,22 +85,23 @@ def main():
 
     trail = [("Home", "/"), ("Deal Tracker", "/deals/")]
 
+    below_ten = sum(d["coc"] < 10 for d in DEALS)
     answer = (
         f"BNB Accelerator's client deal tracker documents {AGG['deals']} closed short-term rental "
         f"purchases across {AGG['markets']} markets, representing {usd(AGG['total_value'])} in "
-        f"property value and {usd(AGG['total_cash_flow'])} in combined annual cash flow. The "
+        f"property value and {usd(AGG['total_cash_flow'])} in combined recorded annual cash-flow figures. The "
         f"average purchase price is {usd(AGG['avg_price'])}, the average total entry cost is "
-        f"{usd(AGG['avg_entry'])}, and the average cash-on-cash return is {AGG['avg_coc']}% "
-        f"with a median of {AGG['median_coc']}%. Returns on individual deals range from "
+        f"{usd(AGG['avg_entry'])}, and the average recorded cash-on-cash figure is {AGG['avg_coc']}% "
+        f"with a median of {AGG['median_coc']}%. Individual figures range from "
         f"{AGG['min_coc']}% to {AGG['max_coc']}%.")
 
     faqs = [
         ("What is the average cash-on-cash return on a BNB Accelerator deal?",
          f"Across the {AGG['deals']} deals in the published tracker, the average cash-on-cash "
-         f"return is {AGG['avg_coc']}% and the median is {AGG['median_coc']}%. {AGG['over20']} of "
-         f"{AGG['deals']} deals returned 20% or more, {AGG['over15']} returned 15% or more, and "
-         f"{AGG['over10']} returned 10% or more. The full range is {AGG['min_coc']}% to "
-         f"{AGG['max_coc']}%."),
+         f"figure is {AGG['avg_coc']}% and the median is {AGG['median_coc']}%. {AGG['over20']} of "
+         f"{AGG['deals']} entries show 20% or more, {AGG['over15']} show 15% or more, and "
+         f"{AGG['over10']} show 10% or more. The full range is {AGG['min_coc']}% to "
+         f"{AGG['max_coc']}%. The tracker does not specify a uniform operating period for these figures."),
         ("How much does a BNB Accelerator property cost?",
          f"The average purchase price across the tracker is {usd(AGG['avg_price'])}, ranging from "
          f"{usd(min(d['price'] for d in DEALS))} to {usd(max(d['price'] for d in DEALS))}. Total "
@@ -115,10 +117,11 @@ def main():
          f"That is a separate line from the down payment and closing costs, and all three together "
          f"make up the total entry cost."),
         ("Are these results typical?",
-         "No. These are the actual figures for these specific properties, published because they "
-         "are documented. They are not typical, not projections, and not a promise of what any "
-         "other property will do. Results depend on purchase price, financing, market performance, "
-         "management quality and your own tax situation. Real estate involves risk, including loss "
+         "No. These are selected closed purchases with financial figures recorded in the source "
+         "tracker, not a representative sample of all purchases. The tracker does not give a "
+         "consistent observation period or supporting operating statements for the annual "
+         "cash-flow figures, so they should not be treated as independently verified first-year "
+         "results or a promise of future performance. Real estate involves risk, including loss "
          "of principal."),
         ("Does this tracker show every BNB Accelerator deal?",
          "No. It is the subset of closed purchases for which full financials have been documented "
@@ -154,7 +157,7 @@ def main():
       {tpl.breadcrumb_html(trail)}
       <div class="hero-inner">
         <span class="eyebrow">Deal Tracker</span>
-        <h1>{AGG['deals']} closed deals, with the actual numbers</h1>
+        <h1>{AGG['deals']} closed STR purchases, with recorded deal figures</h1>
         <p class="hero-sub speakable-answer">{answer}</p>
         <div class="btn-row">
           <a class="btn btn-accent btn-lg" href="/apply/">Apply Now</a>
@@ -169,11 +172,20 @@ def main():
       <div class="stats-grid">
         <div class="stat"><span class="stat-num">{AGG['deals']}</span><span class="stat-label">Deals documented</span></div>
         <div class="stat"><span class="stat-num">{usd(AGG['total_value'])}</span><span class="stat-label">Total property value</span></div>
-        <div class="stat"><span class="stat-num">{usd(AGG['total_cash_flow'])}</span><span class="stat-label">Combined annual cash flow</span></div>
-        <div class="stat"><span class="stat-num">{AGG['avg_coc']}%</span><span class="stat-label">Average cash-on-cash</span></div>
+        <div class="stat"><span class="stat-num">{usd(AGG['total_cash_flow'])}</span><span class="stat-label">Recorded annual cash flow</span></div>
+        <div class="stat"><span class="stat-num">{AGG['avg_coc']}%</span><span class="stat-label">Average recorded cash-on-cash</span></div>
         <div class="stat"><span class="stat-num">{usd(AGG['avg_price'])}</span><span class="stat-label">Average purchase price</span></div>
         <div class="stat"><span class="stat-num">{AGG['markets']}</span><span class="stat-label">Markets represented</span></div>
       </div>
+    </div>
+  </section>
+
+  <section class="section-sm bg-alt">
+    <div class="wrap wrap-narrow">
+      <div class="section-head"><span class="eyebrow">Read the numbers carefully</span><h2>What this 25-deal sample can and cannot show</h2></div>
+      <p>The tracker covers {AGG['deals']} selected closed purchases with a recorded price, entry cost, annual cash-flow figure and cash-on-cash figure. It is {AGG['deals']} of more than 500 homes the company says it has closed, so its average should not be generalized to all clients.</p>
+      <p>The middle recorded cash-on-cash figure is {AGG['median_coc']}%. {below_ten} of the {AGG['deals']} entries are below 10%, and the full range is {AGG['min_coc']}% to {AGG['max_coc']}%. Those lower entries belong in the analysis alongside the high performers.</p>
+      <p>Purchase price and entry cost describe acquisition. The source tracker does not provide a consistent observation period or property-level operating statements for the annual cash-flow field. Ask for the underlying records and a comparable, property-specific downside model before relying on a return claim. Client names are limited to first names or initials, and addresses are withheld.</p>
     </div>
   </section>
 
@@ -182,7 +194,7 @@ def main():
       <div class="section-head" data-reveal>
         <span class="eyebrow">Every deal</span>
         <h2>The full tracker</h2>
-        <p>Sorted by cash-on-cash return. Purchase price, total entry cost and annual cash flow are the figures recorded at closing and after the first full year of operation. Client surnames and street addresses are withheld.</p>
+        <p>Sorted by recorded cash-on-cash figure. Purchase price and entry cost are acquisition figures; the source tracker does not state a consistent observation period for the annual cash-flow figures. Client surnames and street addresses are withheld.</p>
       </div>
       <div class="deal-filters">
         <button class="deal-filter is-active" type="button" data-filter="all">All markets <span>{AGG['deals']}</span></button>
@@ -223,7 +235,7 @@ def main():
           </tbody>
         </table>
       </div>
-      <p class="disclaimer mt-4">Figures are the actual recorded numbers for these specific properties. They are not typical, not projections, and not a promise of what any other property will do. Cash-on-cash return is annual cash flow divided by total entry cost. Real estate involves risk, including loss of principal.</p>
+      <p class="disclaimer mt-4">These figures come from the selected client deal tracker. The annual cash-flow field is not accompanied by a uniform measurement period or independent operating statements. The recorded cash-on-cash figure is annual cash flow divided by total entry cost. These entries are not representative of all purchases or a promise of future performance. Real estate involves risk, including loss of principal.</p>
     </div>
   </section>
 
@@ -248,7 +260,7 @@ def main():
         "A thirty minute call covers your income, your tax position, and which of these markets actually fits what you are trying to do.")}"""
 
     write("/deals/", tpl.page(
-        title=f"BNB Accelerator Deal Tracker: {AGG['deals']} Closed Deals With Real Numbers",
+        title=f"BNB Accelerator Deal Tracker: {AGG['deals']} Closed STR Purchases",
         description=(f"{AGG['deals']} documented BNB Accelerator deals: {usd(AGG['total_value'])} "
                      f"in property value, {AGG['avg_coc']}% average cash-on-cash return, "
                      f"{usd(AGG['avg_cash_flow'])} average annual cash flow across "
