@@ -253,16 +253,18 @@ COMPETITORS = [
      ["screen", "buyside", "speed"]),
 
     ("rabbu", "Rabbu", "RB",
-     "Rabbu is free and genuinely useful for early screening, and an automated estimate is not "
-     "underwriting. Use Rabbu to explore, then use an acquisition service once you have decided to "
-     "buy.",
-     [("partial", "Free data platform and marketplace"),
-      ("yes", "Free for core data"),
-      ("yes", "Any US address, instantly"),
-      ("partial", "Marketplace listings and related services"),
-      ("no", "Not addressed"),
-      ("partial", "A tool, not a transacting firm"),
-      ("no", "You interpret the estimate and act")],
+     "Rabbu is not just a free estimate tool: its <a href=\"https://rabbu.com/about\" "
+     "rel=\"noopener\">current buyer offering</a> includes STR listings, agents, lenders and "
+     "done-for-you search consultants through closing. Compare its actual written service and fee "
+     "proposal with ours on the same property; independently verify seller history, projections "
+     "and legal use before offering.",
+     [("partial", "STR marketplace, data and buyer services"),
+      ("partial", "Free tools; confirm service and referral terms"),
+      ("partial", "Broad US marketplace; confirm local coverage"),
+      ("yes", "Listings, agents, lenders and search consultants"),
+      ("partial", "Partner resources; ask what is included"),
+      ("partial", "Ask for relevant closed-deal evidence"),
+      ("partial", "Tools plus optional buyer assistance")],
      ["screen", "buyside", "speed"]),
 
     ("awning", "Awning", "AW",
