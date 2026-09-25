@@ -348,6 +348,7 @@ GUIDES = [
 BLOG_MATCHUPS = [
     ("/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/", "BNB Accelerator vs BNB Turnkey"),
     ("/blog/bnb-accelerator-vs-kleer-circle-str-buyer/", "BNB Accelerator vs Kleer Circle"),
+    ("/blog/bnb-accelerator-vs-str-insights-buyer/", "BNB Accelerator vs STR Insights"),
 ]
 
 
