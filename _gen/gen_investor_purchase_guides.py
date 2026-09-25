@@ -166,14 +166,35 @@ def titlecase(value: str) -> str:
     return value.title().replace("Dscr", "DSCR").replace("Hoa", "HOA")
 
 
+def with_article(value: str, capitalized=False) -> str:
+    article = "an" if value[0].lower() in "aeiou" else "a"
+    if capitalized:
+        article = article.capitalize()
+    return f"{article} {value}"
+
+
 def guide(asset, decision):
     name, asset_slug, fit, revenue, physical, legal, finance, operations, resale = asset
     slug, phrase, question, method, documents, stress, boundary = decision
     path = f"{BASE}{asset_slug}/{slug}/"
     title = f"{titlecase(name)} STR {titlecase(phrase)} Guide"
-    description = f"Buying a {name}? Check {phrase}, required documents, downside cases and the decision rule before committing capital."
+    description = f"Buying {with_article(name)}? Check {phrase}, required documents, downside cases and the decision rule before committing capital."
     trail = [("Home", "/"), ("Guides", "/guides/"), ("STR investor guides", BASE), (title, path)]
-    related = [(f"{BASE}{asset_slug}/{d[0]}/", d[1]) for d in DECISIONS if d[0] != slug][:2]
+    decision_idx = next(i for i, d in enumerate(DECISIONS) if d[0] == slug)
+    asset_idx = next(i for i, a in enumerate(ASSETS) if a[1] == asset_slug)
+    previous_decision = DECISIONS[(decision_idx - 1) % len(DECISIONS)]
+    next_decision = DECISIONS[(decision_idx + 1) % len(DECISIONS)]
+    previous_asset = ASSETS[(asset_idx - 1) % len(ASSETS)]
+    next_asset = ASSETS[(asset_idx + 1) % len(ASSETS)]
+    related = [
+        (f"{BASE}{asset_slug}/{previous_decision[0]}/", f"{titlecase(previous_decision[1])} for this {name}"),
+        (f"{BASE}{asset_slug}/{next_decision[0]}/", f"{titlecase(next_decision[1])} for this {name}"),
+        (f"{BASE}{previous_asset[1]}/{slug}/", f"{titlecase(phrase)} for {with_article(previous_asset[0])}"),
+        (f"{BASE}{next_asset[1]}/{slug}/", f"{titlecase(phrase)} for {with_article(next_asset[0])}"),
+    ]
+    related_html = "\n".join(
+        f'      <li><a href="{url}">{esc(label)}</a></li>' for url, label in related
+    )
     if slug in {"dscr-loan", "conventional-financing", "bridge-financing", "seller-financing"}:
         parent = "/financing/"
     elif slug in {"permit-diligence", "hoa-diligence"}:
@@ -186,10 +207,10 @@ def guide(asset, decision):
     body = f"""
   <section class="hero hero-page"><div class="wrap">{tpl.breadcrumb_html(trail)}
     <div class="hero-inner"><span class="eyebrow">For business owners and real estate investors</span>
-      <h1>{esc(title)}</h1><p class="hero-sub">{esc(question)} A purchase-stage worksheet for {esc(('an' if name[0].lower() in 'aeiou' else 'a') + ' ' + name)}.</p>
+      <h1>{esc(title)}</h1><p class="hero-sub">{esc(question)} A purchase-stage worksheet for {esc(with_article(name))}.</p>
     </div></div></section>
   <section><div class="wrap"><article class="article">
-    <p class="lead">{esc(('An' if name[0].lower() in 'aeiou' else 'A') + ' ' + name)} can appeal to investors because of {esc(fit)}. Before committing capital, answer this question for the actual address: {esc(question)} The method is to {esc(method[0].lower() + method[1:])}</p>
+    <p class="lead">{esc(with_article(name, capitalized=True))} can appeal to investors because of {esc(fit)}. Before committing capital, answer this question for the actual address: {esc(question)} The method is to {esc(method[0].lower() + method[1:])}</p>
     <h2>Make the decision before the deposit is at risk</h2>
     <p>{esc(DECISION_NOTES[slug])}</p>
     <h2>What changes for this property</h2>
@@ -211,8 +232,7 @@ def guide(asset, decision):
     <p>{esc(boundary)} Also test the exit: {esc(resale)}. A business owner should decide whether the property still fits when attention is focused on the primary business; a real estate investor should compare the same capital with the next available deal on a consistent after-reserve basis.</p>
     <p>Use the <a href="{parent}">existing BNB Accelerator guide</a> for the broader method, then bring the address, documents and assumptions to a qualified lender, insurer, attorney, CPA or inspector as appropriate. These pages are decision worksheets, not a representation that any listed property type is available or approved in a given market.</p>
     <div class="callout"><h3>Continue the purchase file</h3><ul>
-      <li><a href="{related[0][0]}">Review {esc(related[0][1])} for this property type</a></li>
-      <li><a href="{related[1][0]}">Review {esc(related[1][1])} for this property type</a></li>
+{related_html}
       <li><a href="{BASE}">Browse all investor decision guides</a></li>
     </ul></div>
     {tpl.AUTHOR_BOX}
@@ -233,7 +253,10 @@ def hub():
             f'<li><a href="{BASE}{slug}/{d[0]}/">{esc(titlecase(d[1]))}</a></li>'
             for d in DECISIONS
         )
-        groups.append(f'<section><h2>{esc(name.title())}</h2><ul class="sitemap-list">{links}</ul></section>')
+        groups.append(f'<section id="{slug}"><h2>{esc(titlecase(name))}</h2><ul class="sitemap-list">{links}</ul></section>')
+    jump_links = "\n".join(
+        f'<li><a href="#{a[1]}">{esc(titlecase(a[0]))}</a></li>' for a in ASSETS
+    )
     body = f"""
   <section class="hero hero-page"><div class="wrap">{tpl.breadcrumb_html(trail)}
     <div class="hero-inner"><span class="eyebrow">Acquisition library</span>
@@ -241,6 +264,7 @@ def hub():
       <p class="hero-sub">500 property-specific decisions for business owners and real estate investors. Choose the property and the purchase question, then replace every assumption with address-specific evidence.</p>
     </div></div></section>
   <section><div class="wrap"><p class="lead">Start with the capital decision, legal use and an operating downside. Each guide names the records to request and the condition that can change the offer.</p>
+    <nav aria-label="Choose a property type"><ul class="sitemap-list">{jump_links}</ul></nav>
     <div class="sitemap-index">{''.join(groups)}</div>
   </div></section>
   {tpl.cta_band("Ready to screen an actual property?", "Bring the address and documents to a BNB Accelerator strategy call.", ("/apply/", "Apply for a Call"), ("/underwriting/", "See Underwriting"))}

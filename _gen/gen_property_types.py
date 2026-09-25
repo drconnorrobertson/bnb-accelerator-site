@@ -444,6 +444,7 @@ def main():
              "Mountain cabins and lake houses, because stays are longer and turnover is less frequent than in city or beach markets. City rentals are the most operationally demanding, with the fastest turnover and the tightest guest response expectations."),
         ],
         related=[
+            '<a href="/guides/str-investment/">Property-specific STR purchase decisions</a>',
             '<a href="/markets/">All market analyses</a>',
             '<a href="/case-studies/">Client case studies by market</a>',
             '<a href="/revenue-projections/">How to build a revenue projection</a>',

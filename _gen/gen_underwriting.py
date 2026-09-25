@@ -59,6 +59,7 @@ def render():
     intro = [("A sequence for screening a deal", [
         "Start with legal use: <a href=\"/underwriting/permit-transfer/\">permit transfer</a> and <a href=\"/underwriting/hoa-restrictions/\">HOA restrictions</a>. Then verify the revenue evidence, rebuild expenses, obtain an insurance quote, and calculate your full cash requirement. Only after those steps should the base and downside cases determine whether to offer.",
         "Each guide is a separate decision tool with a worked method or document checklist. No single page can approve a property: local rules, lender terms, property condition, and your own finances control the result.",
+        "For property-specific purchase checks, browse the <a href=\"/guides/str-investment/\">STR investor acquisition library</a> and choose the property type and decision you are underwriting.",
     ])]
     html = hub(path="/underwriting/", title="Short-Term Rental Underwriting Guides | BNB Accelerator", h1="Short-Term Rental Underwriting: From Listing to Decision", eyebrow="Underwriting", description="Eight practical guides to STR permits, HOA rules, seller financials, expenses, insurance, cash needed, break-even occupancy and downside scenarios.", sub="Use these checks to decide whether a specific vacation rental is legal, financeable, insurable and likely to survive a weak season.", cards=cards, sections=intro, related=['<a href="/deals/">Explore documented deals</a>', '<a href="/tools/str-revenue-calculator/">Model a property</a>'])
     write("/underwriting/", html)

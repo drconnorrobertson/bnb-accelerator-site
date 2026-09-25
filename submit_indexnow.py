@@ -16,6 +16,8 @@ Usage:
                                             # submit one sitemap URL
     python3 submit_indexnow.py --since 2026-08-15
                                             # only URLs with lastmod >= date
+    python3 submit_indexnow.py --prefix /guides/str-investment/
+                                            # only URLs in a route section
     python3 submit_indexnow.py --force      # submit without key verification
 """
 
@@ -108,6 +110,8 @@ def main():
     parser.add_argument("--url", action="append", default=[],
                         help="Submit only this canonical sitemap URL (repeatable)")
     parser.add_argument("--since", help="Only URLs with lastmod on or after YYYY-MM-DD")
+    parser.add_argument("--prefix", action="append", default=[],
+                        help="Submit only canonical URLs under this site-root path (repeatable)")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
@@ -116,6 +120,11 @@ def main():
     if args.since:
         entries = [e for e in entries if e[1] >= args.since]
         print(f"filtered to lastmod >= {args.since}")
+
+    if args.prefix:
+        prefixes = tuple(SITE_URL + p for p in args.prefix)
+        entries = [e for e in entries if e[0].startswith(prefixes)]
+        print(f"filtered to route prefixes: {', '.join(args.prefix)}")
 
     if args.url:
         requested = set(args.url)

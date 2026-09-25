@@ -291,6 +291,7 @@ def gen_financing():
              "Yes, and a HELOC is the most common source for a first purchase. Because the debt is secured against your home, size the draw so a poor first year for the rental is survivable from income alone."),
         ],
         related=[
+            '<a href="/guides/str-investment/">Financing decisions by STR property type</a>',
             '<a href="/tax-strategy/">The tax strategy behind these purchases</a>',
             '<a href="/revenue-projections/">Building a revenue projection a lender will accept</a>',
             '<a href="/case-studies/">Client case studies</a>',

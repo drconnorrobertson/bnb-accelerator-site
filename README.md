@@ -47,7 +47,7 @@ Vercel as-is.
 /sitemap/                  Human-readable site index
 404.html                   Custom 404
 robots.txt                 Crawl rules + AI crawler allowances
-sitemap.xml                Sitemap index for core, blog, scenarios, markets, and proof URLs
+sitemap.xml                Sitemap index for core, investor guides, blog, scenarios, markets, and proof URLs
 sitemap-*.xml              Segmented URL sets for Search Console indexing diagnostics
 <key>.txt                  IndexNow key file
 build_assets.py            Minify CSS, stamp hashed asset URLs

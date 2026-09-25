@@ -186,6 +186,8 @@ SEPTEMBER_22_RELEASE = {
 
 def sitemap_group(path):
     """Put each URL in one diagnostic sitemap without changing indexability."""
+    if path.startswith("/guides/str-investment/"):
+        return "investor-guides"
     if path.startswith("/blog/"):
         return "blog"
     if path.startswith("/scenarios/"):
@@ -220,7 +222,7 @@ def build_sitemap():
     # sort by descending priority, then path, so the important URLs lead
     entries.sort(key=lambda e: (-float(e[3]), e[0]))
 
-    groups = {name: [] for name in ("core", "blog", "scenarios", "markets", "proof")}
+    groups = {name: [] for name in ("core", "investor-guides", "blog", "scenarios", "markets", "proof")}
     for entry in entries:
         groups[sitemap_group(entry[0])].append(entry)
 
