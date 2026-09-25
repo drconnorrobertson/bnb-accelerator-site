@@ -18,6 +18,10 @@ The September 22 expansion brings the library to 679 public routes and exactly 4
 
 The September 23 release adds 100 question-led guides, bringing the site to 1,588 public routes and the blog to 586 articles. The new pages cover ten distinct decision clusters: contracts, revenue evidence, operating economics, financing, insurance, permits, vendors, pricing, tax coordination, and exits. Each guide has its own question, direct answer, evidence list, decision test, worked example, failure mode, and stop/proceed/renegotiate boundary. The batch deliberately avoids city-keyword permutations and preserves the existing scenario, market, and property-system libraries.
 
+## September 25 market comparison expansion
+
+This release adds 100 market-versus-market comparison pages and one index, bringing the site to 2,284 routes. Each page uses the existing 20-market estimate dataset, compares six metrics, states the difference in purchase range and estimated net-range midpoint, contrasts booking seasons, and gives separate property-level checks for each market. These are screening estimates rather than property forecasts. The generator is `_gen/gen_market_comparisons.py`; run it before `_gen/sitewide.py`, `_gen/gen_site_index.py`, and `build_assets.py`.
+
 ## Publishing order
 
 1. **Recover old search demand.** Keep a redirect ledger for former WordPress URLs. Redirect each retired URL to the closest current answer, with no homepage catch-all. Check Search Console's Not found report and add exact mappings for discovered 404s. The first 24 source paths are in `vercel.json`.

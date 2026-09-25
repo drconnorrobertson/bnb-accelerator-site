@@ -33,7 +33,7 @@ Vercel as-is.
 /faq/                      Questions with FAQPage schema
 /testimonials/             Client quotes, Trustpilot
 /apply/                    Application form
-/compare/                  vs DIY / BNB Mastery / Robuilt / agents / managers
+/compare/                  vs DIY / BNB Mastery / Robuilt / agents / managers, plus market comparisons
 /case-studies/<client>/    32 client deal landing pages, one per documented deal
 /property-types/           beach, mountain, lake, city, ski, desert
 /regulations/<state>/      STR rules for 20 states
@@ -59,11 +59,10 @@ assets/                    style.css, style.min.css, main.js, favicon.svg, og-im
 
 ## Content
 
-2,178 public HTML pages: 675 blog posts, 808 scenario plans, 500 investor purchase guides, 46 client wins, 32 market and local service pages,
-20 state regulation pages, 32 client case study landing pages, 25 comparison pages, nine topic
-cluster pillars, 6 property type guides, 4 financing guides, 8 definition pages
-under `/answers/`, three playbooks, operational guides, two datasets, and a
-revenue calculator.
+2,284 public HTML pages, including 100 market-versus-market comparisons,
+investor purchase guides, scenario plans, blog articles, case studies,
+market guides, regulation pages, property type guides, financing guides,
+definition pages under `/answers/`, playbooks, datasets, and a revenue calculator.
 
 Every documented client deal has its own landing page at
 `/case-studies/<first-name><-last-initial>-<city>/`. Two sources feed them: the
@@ -138,6 +137,7 @@ _gen/gen_market_year.py    Retired market-by-year template (do not publish)
 _gen/gen_topic_year.py     Retired topic-by-year template (do not publish)
 _gen/gen_market_updates.py Retired quarterly template (do not publish)
 _gen/gen_local_markets.py  12 city pages completing the 20 active service areas
+_gen/gen_market_comparisons.py  100 market-pair comparisons + index
 _gen/gen_blog_expansion.py 243 property-system decision guides (27 systems x 9 decisions)
 _gen/gen_topics.py         Nine cluster pillar pages plus the /topics/ hub
 _gen/gen_wins.py           /wins/ from the client win graphics
@@ -163,6 +163,7 @@ python3 _gen/home_wins.py           # the home page wins strip
 python3 _gen/gen_deals.py           # /deals/
 python3 _gen/gen_entity.py          # /about/, /ask/, llms.txt
 python3 _gen/gen_local_markets.py   # missing active city/submarket pages + hub links
+python3 _gen/gen_market_comparisons.py  # 100 market-pair comparisons + index
 python3 _gen/gen_blog_expansion.py  # 243 distinct property-system decision guides
 python3 _gen/crosslink_markets.py   # market pages -> case studies, blog, rules
 python3 _gen/llm_pass.py            # direct-answer + speakable blocks
