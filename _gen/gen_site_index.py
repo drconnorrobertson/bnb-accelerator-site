@@ -42,6 +42,9 @@ SECTIONS = [
 ]
 
 MAIN = ["/", "/how-it-works/", "/markets/", "/case-studies/", "/testimonials/",
+        "/buy-a-short-term-rental/", "/airbnb-investment-property/",
+        "/short-term-rental-investment/", "/done-for-you-airbnb/",
+        "/turnkey-str-investment/",
         "/tax-strategy/", "/property-types/", "/regulations/", "/financing/",
         "/revenue-projections/", "/design/", "/management/", "/compare/",
         "/faq/", "/apply/", "/partners/", "/blog/", "/answers/", "/data/",

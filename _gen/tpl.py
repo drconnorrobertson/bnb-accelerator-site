@@ -155,6 +155,16 @@ def footer():
         </ul>
       </div>
       <div class="footer-col">
+        <h2>Buy an STR</h2>
+        <ul>
+          <li><a href="/buy-a-short-term-rental/">Buy a Short-Term Rental</a></li>
+          <li><a href="/airbnb-investment-property/">Airbnb Investment Property</a></li>
+          <li><a href="/short-term-rental-investment/">STR Investment Guide</a></li>
+          <li><a href="/done-for-you-airbnb/">Done-for-You Acquisition</a></li>
+          <li><a href="/turnkey-str-investment/">Turnkey STR Investment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
         <h2>Property types</h2>
         <ul>
           <li><a href="/property-types/beach/">Beach STRs</a></li>

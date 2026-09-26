@@ -15,7 +15,7 @@ from xml.etree import ElementTree as ET
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import tpl
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
 # Preserve actual recorded modification dates across a rebuild. Regenerating
 # a sitemap does not mean every article was edited today.
@@ -28,7 +28,7 @@ for previous_file in glob.glob(os.path.join(ROOT, "sitemap-*.xml")):
 CHANGED_FILES = set(subprocess.check_output(
     ["git", "diff", "--name-only", "HEAD"], cwd=ROOT, text=True).splitlines())
 
-FOOTER_RE = re.compile(r'<footer class="site-footer">.*?</html>\s*\Z', re.S)
+FOOTER_RE = re.compile(r'<footer class="site-footer">.*?</footer>', re.S)
 HEADER_RE = re.compile(
     r'(?:<a class="skip-link"[^>]*>.*?</a>\s*)?'
     r'<header class="site-header"[^>]*>.*?</header>',
@@ -76,7 +76,7 @@ def rewrite_headers():
 
 
 def rewrite_footers():
-    new = tpl.footer()
+    new = tpl.footer().split('</footer>', 1)[0] + '</footer>'
     n = 0
     for f in sorted(glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True)):
         if "/_gen/" in f:
@@ -90,6 +90,32 @@ def rewrite_footers():
             open(f, "w", encoding="utf-8").write(out)
             n += 1
     print(f"footer: rewritten on {n} pages")
+
+
+BUYING_CONTEXT = '''<!-- buying-pillar-links -->
+<section class="bg-alt" aria-label="Short-term rental buying guides"><div class="wrap wrap-narrow">
+  <h2>Put this decision in a purchase plan</h2>
+  <p>Work through the complete <a href="/buy-a-short-term-rental/">short-term rental buying process</a>,
+  <a href="/airbnb-investment-property/">evaluate an Airbnb investment property</a>,
+  and <a href="/short-term-rental-investment/">review investment risks and returns</a> before making an offer.</p>
+</div></section>
+<!-- /buying-pillar-links -->'''
+
+
+def link_buying_guides():
+    """Connect detailed purchase guides to the parent investment topics."""
+    count = 0
+    for path, f in page_urls():
+        if not path.startswith('/guides/str-investment/') or path == '/guides/str-investment/':
+            continue
+        source = open(f, encoding='utf-8').read()
+        source = re.sub(r'<!-- buying-pillar-links -->.*?<!-- /buying-pillar-links -->', '', source, flags=re.S)
+        if '</main>' not in source:
+            continue
+        source = source.replace('</main>', BUYING_CONTEXT + '\n</main>', 1)
+        open(f, 'w', encoding='utf-8').write(source)
+        count += 1
+    print(f'buying guides: linked from {count} pages')
 
 
 # ------------------------------------------------------------------ sitemap
@@ -269,4 +295,5 @@ def build_sitemap():
 if __name__ == "__main__":
     rewrite_headers()
     rewrite_footers()
+    link_buying_guides()
     build_sitemap()
