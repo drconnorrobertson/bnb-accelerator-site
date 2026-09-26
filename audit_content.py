@@ -10,6 +10,7 @@ from xml.etree import ElementTree as ET
 import json
 import re
 import sys
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.bnbaccelerator.com"
@@ -24,9 +25,11 @@ def route(path):
 pages = {route(path): path for path in ROOT.rglob("index.html") if ".git" not in path.parts}
 titles = Counter()
 descriptions = Counter()
+link_graph = {}
 
 for url, path in pages.items():
     source = path.read_text(encoding="utf-8")
+    link_graph[url] = set()
     title = re.search(r"<title>(.*?)</title>", source, re.S)
     description = re.search(r'<meta name="description" content="([^"]+)"', source)
     canonical = re.search(r'<link rel="canonical" href="([^"]+)"', source)
@@ -57,6 +60,7 @@ for url, path in pages.items():
                 ERRORS.append(f"{url}: missing file link {target}")
             continue
         target = target.rstrip("/") + "/"
+        link_graph[url].add(target)
         if target not in pages:
             ERRORS.append(f"{url}: missing route link {target}")
     for asset in re.findall(r'(?:href|src)=["\'](/assets/[^"\']+)', source):
@@ -94,6 +98,9 @@ try:
     wanted = {SITE + url for url in pages}
     if set(listed) != wanted:
         ERRORS.append(f"sitemap mismatch: missing {len(wanted - set(listed))}, extra {len(set(listed) - wanted)}")
+    for url in listed:
+        if urlparse(url).netloc != urlparse(SITE).netloc:
+            ERRORS.append(f"sitemap URL uses unexpected host: {url}")
 except (OSError, ET.ParseError) as exc:
     ERRORS.append(f"invalid sitemap: {exc}")
 
@@ -102,10 +109,24 @@ sources = [entry["source"] for entry in config.get("redirects", [])]
 if len(sources) != len(set(sources)):
     ERRORS.append("duplicate redirect sources")
 for entry in config.get("redirects", []):
+    if entry["source"] in pages:
+        ERRORS.append(f"redirect shadows an indexable page: {entry['source']}")
     if config.get("trailingSlash") and not entry["source"].endswith("/"):
         ERRORS.append(f"redirect source lacks trailing slash: {entry['source']}")
     if entry["destination"] not in pages:
         ERRORS.append(f"redirect target missing: {entry['destination']}")
+
+# A sitemap entry alone does not establish a navigable path from the homepage.
+reachable = set()
+pending = ["/"]
+while pending:
+    current = pending.pop()
+    if current in reachable:
+        continue
+    reachable.add(current)
+    pending.extend(link_graph.get(current, set()) - reachable)
+for url in pages.keys() - reachable:
+    ERRORS.append(f"page unreachable from homepage links: {url}")
 
 if ERRORS:
     print("Content audit failed:")

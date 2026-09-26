@@ -9,11 +9,24 @@ import glob
 import os
 import re
 import sys
+import subprocess
+from xml.etree import ElementTree as ET
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import tpl
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+
+# Preserve actual recorded modification dates across a rebuild. Regenerating
+# a sitemap does not mean every article was edited today.
+PREVIOUS_DATES = {}
+for previous_file in glob.glob(os.path.join(ROOT, "sitemap-*.xml")):
+    for entry in ET.parse(previous_file).getroot():
+        fields = {node.tag.rsplit("}", 1)[-1]: node.text for node in entry}
+        if fields.get("loc") and fields.get("lastmod"):
+            PREVIOUS_DATES[fields["loc"].removeprefix(tpl.SITE)] = fields["lastmod"]
+CHANGED_FILES = set(subprocess.check_output(
+    ["git", "diff", "--name-only", "HEAD"], cwd=ROOT, text=True).splitlines())
 
 FOOTER_RE = re.compile(r'<footer class="site-footer">.*?</html>\s*\Z', re.S)
 HEADER_RE = re.compile(
@@ -143,7 +156,11 @@ def classify(path):
 
 
 def lastmod_for(path, f):
-    """Blog posts use their published date; everything else uses today."""
+    """Use today's date only for new or changed pages, retain older dates."""
+    if os.path.relpath(f, ROOT).replace(os.sep, "/") in CHANGED_FILES:
+        return TODAY
+    if path in PREVIOUS_DATES:
+        return PREVIOUS_DATES[path]
     if path in {"/deals/", "/about/", "/ask/"}:
         return "2026-09-25"
     if path.startswith("/compare/markets/"):

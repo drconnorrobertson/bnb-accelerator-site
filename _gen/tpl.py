@@ -204,6 +204,7 @@ def footer():
           <li><a href="/ask/">Common Questions</a></li>
           <li><a href="/topics/">Topics</a></li>
           <li><a href="/apply/">Book a Call</a></li>
+          <li><a href="/buy-a-short-term-rental/">STR Buyer Workbook</a></li>
           <li><a href="/sitemap/">Site Index</a></li>
         </ul>
       </div>
