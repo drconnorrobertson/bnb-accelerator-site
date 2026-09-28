@@ -81,6 +81,7 @@ CONTRIBUTED_ARTICLES = [
     ("Buy an Existing Airbnb or Build From Scratch", "Mirror World", "https://mirrorworldmedia.com/buy-an-existing-airbnb-or-build-from-scratch-a-bnb-accelerator-investor-guide-by-nicholas-korom/"),
     ("How We Help Investors Buy Their First STR", "Insights Success", "https://insightssuccessmagazine.com/inside-bnb-accelerator-with-nicholas-korom-how-we-help-investors-buy-their-first-short-term-rental/"),
     ("How to Vet an STR Before You Buy", "CIO Arab", "https://cioarabmedia.com/how-to-vet-a-short-term-rental-before-you-buy-it-the-bnb-accelerator-checklist-by-nicholas-korom/"),
+    ("How to Underwrite a Short-Term Rental Property", "The CIO World Media", "https://thecioworldmedia.com/how-to-underwrite-a-short-term-rental-property-the-bnb-accelerator-formula-by-nicholas-korom/"),
     ("STR Financing Options", "Arabian World", "https://arabianworldmagazine.ae/short-term-rental-financing-options-a-bnb-accelerator-guide-to-str-loans-by-nicholas-korom/"),
     ("How to Buy Your First STR Property", "CIO Look", "https://ciolookmedia.com/bnb-accelerator-guide-by-nicholas-korom-how-to-buy-your-first-short-term-rental-property-step-by-step/"),
     ("STR vs. Long-Term Rental Investing", "Enterprise Review", "https://enterprisereviewmedia.com/short-term-rental-vs-long-term-rental-investing-a-bnb-accelerator-comparison-guide-by-nicholas-korom/"),
