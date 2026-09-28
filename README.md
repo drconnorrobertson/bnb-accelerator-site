@@ -163,6 +163,7 @@ python3 _gen/home_wins.py           # the home page wins strip
 python3 _gen/gen_deals.py           # /deals/
 python3 _gen/gen_entity.py          # /about/, /ask/, llms.txt
 python3 _gen/gen_local_markets.py   # missing active city/submarket pages + hub links
+python3 _gen/gen_city_buying_guides.py # 20 property-type guides + 20 local-agent buyer guides
 python3 _gen/enhance_market_intent.py  # market analysis and deal-buying sections on existing city URLs
 python3 _gen/gen_market_comparisons.py  # 100 market-pair comparisons + index
 python3 _gen/gen_blog_expansion.py  # 243 distinct property-system decision guides

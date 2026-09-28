@@ -12,8 +12,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = json.loads((ROOT / '_gen/market_data.json').read_text())
 from gen_local_markets import MARKETS  # noqa: E402
+from gen_city_buying_guides import ROWS as BUYER_GUIDES
 
 LOCAL = {m['slug']: m for m in MARKETS}
+GUIDE_SLUGS = {row[0] for row in BUYER_GUIDES}
 EXTRA = {
     'fort-walton-beach': ('Emerald Coast beach access and military travel', 'storm and flood insurance plus city versus county boundaries'),
     'jacksonville': ('specific medical, beach or business demand nodes', 'neighborhood-level comparables and exact jurisdiction'),
@@ -35,6 +37,8 @@ END = '<!-- local-intent-end -->'
 
 def block(slug, name, demand, risk):
     name, demand, risk = map(html.escape, (name, demand, risk))
+    buying_guide = (f'<p><a href="/markets/{slug}/best-short-term-rentals/">Compare the best STR property types in {name}</a> and <a href="/markets/{slug}/airbnb-real-estate-agent/">questions for a local Airbnb buyer agent</a>.</p>'
+                    if slug in GUIDE_SLUGS else '')
     return f'''{START}
         <section id="market-analysis" aria-labelledby="market-analysis-title">
           <h2 id="market-analysis-title">How to analyze the {name} short-term rental market</h2>
@@ -46,6 +50,7 @@ def block(slug, name, demand, risk):
           <h2 id="buy-local-deal-title">Buying an Airbnb property in {name}</h2>
           <p>Send the listing address, asking price and any revenue history to the acquisition team. The first decision is whether legal use and the guest profile justify deeper diligence. The next is an offer ceiling based on current comparables, all-in setup costs and downside cash flow. If the seller has bookings, verify which obligations and deposits can transfer at closing.</p>
           <p>BNB Accelerator can help define a local buy box, screen candidate properties and coordinate the purchase and launch. You make the investment decision. <a href="/apply/">Book a {name} acquisition call on the BNB Accelerator calendar</a> to discuss a market or a specific deal.</p>
+{buying_guide}
         </section>
 {END}'''
 
