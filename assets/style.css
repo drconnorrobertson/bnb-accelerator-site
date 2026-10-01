@@ -993,7 +993,7 @@ table.compare th[scope="row"] { font-weight: 600; color: var(--text); }
   justify-content: space-between;
   align-items: center;
   font-size: 0.84rem;
-  color: rgba(255,255,255,0.42);
+  color: rgba(255,255,255,0.72);
 }
 .footer-bottom address { font-style: normal; }
 
@@ -1003,7 +1003,7 @@ table.compare th[scope="row"] { font-weight: 600; color: var(--text); }
   border-top: 1px solid rgba(255,255,255,0.07);
   font-size: 0.78rem;
   line-height: 1.65;
-  color: rgba(255,255,255,0.36);
+  color: rgba(255,255,255,0.70);
 }
 
 /* --------------------------------------------------------- Breadcrumb -- */

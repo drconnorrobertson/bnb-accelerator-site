@@ -26,10 +26,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="preload" as="image" fetchpriority="high" media="(min-width: 821px)" href="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&amp;fit=crop&amp;w=2000&amp;q=65">
+<link rel="preload" as="image" fetchpriority="high" media="(max-width: 820px)" href="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&amp;fit=crop&amp;w=900&amp;q=65">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
-<link rel="preload" as="style" href="/assets/style.min.css?v=c83e6df4">
-<link rel="stylesheet" href="/assets/style.min.css?v=c83e6df4">
+<link rel="preload" as="style" href="/assets/style.min.css?v=b4a42305">
+<link rel="stylesheet" href="/assets/style.min.css?v=b4a42305">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 
 <style>
@@ -62,9 +64,10 @@
   .home-evidence-fact strong{font-family:var(--font-display);font-size:clamp(2.2rem,4vw,3.4rem);font-weight:400;color:var(--dark);line-height:1}
   .home-evidence-fact span{margin-top:10px;color:var(--text-muted);font-size:.78rem;font-weight:650;letter-spacing:.1em;text-transform:uppercase}
   .home-cta{background:var(--dark);color:rgba(255,255,255,.78)}
+  .home-cta .eyebrow{color:#d1b47e}
   .home-cta h2{color:#fff;font-size:clamp(2.4rem,4vw,3.6rem);font-weight:400}
   .home-cta-inner{display:flex;align-items:center;justify-content:space-between;gap:48px}
-  @media(max-width:820px){.home-intro,.home-evidence-grid{grid-template-columns:1fr}.home-evidence-facts{border-left:0;border-top:1px solid #d8d1c4}.home-cta-inner{align-items:flex-start;flex-direction:column}.home .hero{padding-top:calc(var(--header-h) + 54px);padding-bottom:62px;min-height:0}}
+  @media(max-width:820px){.home .hero{background-image:linear-gradient(160deg,rgba(20,25,35,.88) 0%,rgba(28,35,50,.82) 50%,rgba(35,42,58,.75) 100%),url("https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=65")} .home-intro,.home-evidence-grid{grid-template-columns:1fr}.home-evidence-facts{border-left:0;border-top:1px solid #d8d1c4}.home-cta-inner{align-items:flex-start;flex-direction:column}.home .hero{padding-top:calc(var(--header-h) + 54px);padding-bottom:62px;min-height:0}}
   @media(max-width:520px){.home-evidence-fact{padding:24px 18px}.home .hero h1{font-size:2.7rem;max-width:14ch}.home .hero-sub{font-size:1.04rem;line-height:1.62}.home .btn-row .btn{width:100%}.home-proofline{line-height:1.7}}
 </style>
 
@@ -104,7 +107,7 @@
       <div class="hero-inner">
         <span class="home-eyebrow" data-reveal>Acquisition and launch execution</span>
         <h1 data-reveal>Buy a Short-Term Rental with a Clear Acquisition Plan</h1>
-        <p class="hero-sub" data-reveal data-reveal-delay="1">We source, evaluate, negotiate, and close cash-flowing vacation rental properties across eight U.S. markets. You review the numbers and make the final call.</p>
+        <p class="hero-sub" data-reveal data-reveal-delay="1">We source, evaluate, negotiate, and close cash-flowing vacation rental properties across eight U.S. states and more than twenty submarkets. You review the numbers and make the final call.</p>
         <div class="btn-row" data-reveal data-reveal-delay="2">
           <a class="btn btn-accent btn-lg" href="/apply/">Book a Call</a>
           <a class="btn btn-ghost-light btn-lg" href="/case-studies/">Review Client Deals</a>
@@ -176,7 +179,7 @@
         <div class="home-evidence-facts" aria-label="BNB Accelerator company facts">
           <div class="home-evidence-fact"><strong>500+</strong><span>Properties closed</span></div>
           <div class="home-evidence-fact"><strong>260+</strong><span>Clients served</span></div>
-          <div class="home-evidence-fact"><strong>8</strong><span>Operating markets</span></div>
+          <div class="home-evidence-fact"><strong>8</strong><span>Operating states</span></div>
           <div class="home-evidence-fact"><strong>80%</strong><span>Repeat buyer rate</span></div>
         </div>
       </div>
@@ -222,7 +225,7 @@
         </div>
         <div class="stat">
           <span class="stat-num"><span data-count="8">8</span></span>
-          <span class="stat-label">U.S. Markets</span>
+          <span class="stat-label">U.S. States</span>
         </div>
         <div class="stat">
           <span class="stat-num"><span data-count="80">80</span><span class="suffix">%</span></span>
@@ -239,7 +242,6 @@
     </div>
   </section>
 
-  <section class="home-cta">
   <section class="bg-alt"><div class="wrap"><div class="section-head"><span class="eyebrow">Before you buy</span><h2>Your short-term rental buyer workbook</h2><p>Work through the purchase budget, property shortlist, evidence, offer and opening plan before you commit.</p></div><div class="steps"><article class="step"><h3>Define the purchase</h3><p>Set your available cash, operating responsibilities and property criteria.</p><a href="/buy-a-short-term-rental/investment-readiness/">Check investment readiness</a></article><article class="step"><h3>Verify the deal</h3><p>Connect seller claims and projected returns to documents, quotes and a downside case.</p><a href="/buy-a-short-term-rental/investment-memo-template/">Build the investment memo</a></article><article class="step"><h3>Close and launch</h3><p>Verify inventory, condition and the operating handoff before the first guest arrives.</p><a href="/buy-a-short-term-rental/launch-handoff-checklist/">Plan the launch handoff</a></article></div><p><a class="btn btn-primary" href="/buy-a-short-term-rental/">Explore All 10 Buyer Worksheets</a></p></div></section>
 <section class="home-cta">
     <div class="wrap home-cta-inner">
@@ -360,6 +362,6 @@
   </div>
 </footer>
 
-<script src="/assets/main.js?v=93071465" defer></script>
+<script src="/assets/main.js?v=21a7ac22" defer></script>
 </body>
 </html>

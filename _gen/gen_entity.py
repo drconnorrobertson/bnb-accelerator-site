@@ -303,13 +303,6 @@ def about_page():
         "Short-term rental market analysis",
         "Short-term rental regulation"
       ],
-      "aggregateRating": {{
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "27",
-        "bestRating": "5",
-        "worstRating": "1"
-      }},
       "sameAs": ["https://www.trustpilot.com/review/mybnbaccelerator.com"]
     }}""",
         f"""    {{

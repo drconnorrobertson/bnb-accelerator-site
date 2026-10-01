@@ -276,31 +276,9 @@ page's `<link>`/`<script>` to a content-hashed URL, so a deploy invalidates
 the previously cached copy. `main.js` is deliberately left unminified: it is
 small, and a hand-rolled JS minifier is a correctness risk for no real gain.
 
-## Deployment blocker: the domain does not serve this repo
+## Production domain
 
-As of 15 August 2026, `mybnbaccelerator.com` resolves to a GoHighLevel /
-LeadConnector funnel behind Cloudflare, not to this site. Every path 301s to
-`/home`, the live `robots.txt` is empty, and the live `sitemap.xml` is
-GoHighLevel's own index. Verify with:
-
-```
-curl -sI https://mybnbaccelerator.com/blog/          # 301 -> /home
-curl -s  https://mybnbaccelerator.com/sitemap.xml    # GHL sitemapindex
-```
-
-Nothing in this repo is publicly reachable until DNS points at the Vercel
-deployment. That is also what blocks IndexNow: submission requires the key
-file to be readable at `https://mybnbaccelerator.com/<key>.txt`, and today
-that URL returns the funnel's HTML. A forced attempt on 15 August 2026 was
-rejected by the endpoint with:
-
-```
-403 {"errorCode":"SiteVerificationNotCompleted", ...}
-```
-
-Do not submit to IndexNow before the cutover. Pushing 215 URLs that all
-redirect to `/home` feeds redirect and soft-404 signals to Bing, Yandex,
-Seznam and Naver, which is worse than not submitting at all.
+The October 1, 2026 production domain is `https://www.bnbaccelerator.com/`. The apex redirects to www. This repository is deployed from GitHub main to Vercel. The separate `mybnbaccelerator.com` funnel is not the canonical host for these static content pages.
 
 ## Search engine submission
 
@@ -313,7 +291,7 @@ python3 submit_indexnow.py               # submit
 python3 submit_indexnow.py --since 2026-08-15   # only recently changed URLs
 ```
 
-The script refuses to submit unless `https://mybnbaccelerator.com/<key>.txt`
+The script refuses to submit unless `https://www.bnbaccelerator.com/<key>.txt`
 is live and serves the matching key, so deploy before running it.
 
 ## Deploying to Vercel
@@ -328,29 +306,9 @@ Output Directory:  (leave empty / root)
 
 `vercel.json` handles clean URLs, trailing slashes, asset caching, and security headers.
 
-## Before going live
+## Current release status
 
-- [ ] **Point `mybnbaccelerator.com` at the Vercel deployment.** Blocks everything below.
-
-  Re-checked 15 August 2026, after the expansion to 615 pages: the apex domain
-  still serves the previous funnel site. Every path 301s to
-  `https://mybnbaccelerator.com/home`, and the IndexNow key file returns 403
-  there, so `submit_indexnow.py` correctly refuses the batch. It has not been
-  forced, and it should not be: submitting 615 URLs that redirect away is worse
-  than not submitting, because it teaches the participating engines that this
-  host serves redirects.
-
-  The Vercel deployment is live and current at
-  `https://bnb-accelerator-site.vercel.app/`, serving all 615 URLs including
-  the key file. Nothing else on this list can be finished until DNS moves.
-
-- [ ] Wire the `/apply/` form and the two `/guides/` lead-magnet forms to a real endpoint (GoHighLevel, Formspree, or a Vercel serverless function). Currently `assets/main.js` stores the submission in `sessionStorage` and shows a confirmation, it does **not** transmit anywhere.
-- [ ] Replace the AE Tax booking iframe URL in `/tax-strategy/` with the live calendar embed
-- [ ] Replace the three video placeholders in `/testimonials/` with real embed URLs
-- [ ] Confirm the Trustpilot profile URL in `/testimonials/`
-- [ ] Submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools
-- [ ] Run `python3 submit_indexnow.py` once the cutover is done and the key file resolves
-- [ ] Have counsel review the disclaimers in the footer and the illustrative tax figures
+The application page embeds the live BNB booking calendar. Resource guides now link to the booking flow instead of collecting browser-only entries. Search Console has the index and all section sitemaps submitted; verify individual fetch status before treating a submission as success. IndexNow accepted the three new evidence resources on October 1. Client outcomes require approved evidence, and changing market rules require current municipal sources.
 
 ## Content notes
 
@@ -371,3 +329,7 @@ After regenerating the acquisition, pricing, reviews or tax hub pages, run `pyth
 ## October 1 indexing and evidence release
 
 Run `python3 _gen/improve_indexing_release.py` after the search-intent optimizer. This adds the investment service page, proposal responsibility matrix and deal evidence register, and links seven relevant hubs. Then run `python3 _gen/sitewide.py`, `python3 _gen/gen_site_index.py`, `python3 build_assets.py`, and `python3 audit_content.py`. Sitemap dates compare main content and structured data to HEAD so footer, navigation, asset hashes and whitespace alone do not imply fresh editorial work. New untracked pages are included in the change inventory. Tracking URL variants remain crawlable to expose canonicals; source files and the direct 404 document carry noindex response headers.
+
+## October 1 performance and conversion corrections
+
+The homepage preloads the appropriate mobile or desktop hero image, describes eight states consistently with the markets directory, and closes its sections correctly. Footer contrast is improved. The unused browser-only lead/application confirmation handlers have been removed. Organization schema omits self-serving aggregate ratings, following Google review-snippet eligibility; public review links remain. Preserve those rules during regeneration.

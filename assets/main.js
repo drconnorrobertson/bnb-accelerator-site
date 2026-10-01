@@ -241,67 +241,7 @@
   }
 
 
-  /* ------------------------------------------------------- Lead magnets -- */
-  /* Same pattern as the application form: no backend is wired up on the
-     static build, so capture locally and confirm. Swap the stub for a real
-     endpoint and the markup does not change. */
-  doc.querySelectorAll('form.lead-form').forEach(function (lf) {
-    lf.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var status = doc.getElementById(lf.id + '-status');
-      var btn = lf.querySelector('button[type="submit"]');
-      var email = lf.querySelector('input[type="email"]');
 
-      if (email && !email.checkValidity()) {
-        if (status) {
-          status.setAttribute('data-state', 'err');
-          status.textContent = 'Please enter a valid email address so we can send it to you.';
-        }
-        email.focus();
-        return;
-      }
-
-      var original = btn ? btn.textContent : '';
-      if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
-      try {
-        var data = {};
-        new FormData(lf).forEach(function (v, k) { data[k] = v; });
-        window.sessionStorage.setItem('bnb_lead_' + lf.id, JSON.stringify(data));
-      } catch (err) { /* storage unavailable -- non-fatal */ }
-
-      if (status) {
-        status.setAttribute('data-state', 'ok');
-        status.textContent = 'Thanks. We will email it to you within two to three business days.';
-      }
-      lf.reset();
-      if (btn) { btn.disabled = false; btn.textContent = original; }
-    });
-  });
-
-  /* ------------------------------------------------- Application form -- */
-  var form = doc.getElementById('apply-form');
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var status = doc.getElementById('form-status');
-      var btn = form.querySelector('button[type="submit"]');
-      if (btn) { btn.disabled = true; btn.textContent = 'Submitting...'; }
-      // No backend is wired up on the static build. Store locally and confirm,
-      // so the form is usable the moment an endpoint is added.
-      try {
-        var data = {};
-        new FormData(form).forEach(function (v, k) { data[k] = v; });
-        window.sessionStorage.setItem('bnb_application', JSON.stringify(data));
-      } catch (err) { /* storage unavailable -- non-fatal */ }
-      if (status) {
-        status.setAttribute('data-state', 'ok');
-        status.textContent = 'Thanks. Your application is in. A member of our acquisitions team will reach out within one business day to schedule your strategy call.';
-        status.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
-      }
-      form.reset();
-      if (btn) { btn.disabled = false; btn.textContent = 'Submit Application'; }
-    });
-  }
 })();
 
 /* Blog library search. All articles remain visible and crawlable without JS. */
