@@ -363,3 +363,7 @@ Output Directory:  (leave empty / root)
 
 My BnB Accelerator, LLC
 3635 Montana Ave, Billings, MT 59101
+
+## Search-intent optimization
+
+After regenerating the acquisition, pricing, reviews or tax hub pages, run `python3 _gen/optimize_search_intent.py` to reapply the focused metadata, service scope and contextual links. Then run `python3 audit_content.py` before publishing. The reviews directory owns public review intent; testimonials covers direct client stories. The buyer workbook covers independent purchase planning; the done-for-you page covers acquisition service scope.
