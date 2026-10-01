@@ -18,6 +18,8 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 # (path prefix, section heading, blurb). Order controls the page.
 SECTIONS = [
     ("__main__", "Main pages", None),
+    ("/faq/", "Client FAQ library",
+     "Detailed answers on buying, closing, launching and operating a short-term rental."),
     ("/case-studies/", "Client case studies",
      "Documented outcomes with real markets, purchase prices and cash flow where the client authorised publication."),
     ("/markets/", "Market analyses",
