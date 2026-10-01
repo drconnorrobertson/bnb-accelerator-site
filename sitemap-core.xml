@@ -938,7 +938,7 @@
   </url>
   <url>
     <loc>https://www.bnbaccelerator.com/guides/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -992,13 +992,13 @@
   </url>
   <url>
     <loc>https://www.bnbaccelerator.com/airbnb-investment-company/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.bnbaccelerator.com/airbnb-investment-property/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1148,7 +1148,7 @@
   </url>
   <url>
     <loc>https://www.bnbaccelerator.com/done-for-you-airbnb/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1375,6 +1375,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.bnbaccelerator.com/guides/str-deal-evidence-register/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.bnbaccelerator.com/guides/str-furnishing-design-guide/</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -1389,6 +1395,12 @@
   <url>
     <loc>https://www.bnbaccelerator.com/guides/str-property-management-sop/</loc>
     <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.bnbaccelerator.com/guides/str-service-responsibility-matrix/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1418,13 +1430,19 @@
   </url>
   <url>
     <loc>https://www.bnbaccelerator.com/pricing/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.bnbaccelerator.com/short-term-rental-investment-service/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.bnbaccelerator.com/short-term-rental-investment/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1514,7 +1532,7 @@
   </url>
   <url>
     <loc>https://www.bnbaccelerator.com/underwriting/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

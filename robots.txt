@@ -6,13 +6,11 @@ User-agent: *
 Allow: /
 
 # Keep versioned CSS and JavaScript crawlable: pages load them with ?v=.
-# Only tracking-only query variants are excluded; pages declare canonicals.
-Disallow: /*?*utm_
-Disallow: /*?*fbclid=
-Disallow: /*?*gclid=
+# Tracking variants remain crawlable so canonical signals can be processed.
+# Allow crawlers to see the canonical on tracking URL variants.
 
 # The 404 document is reachable directly; it should never be crawled as content.
-Disallow: /404.html
+# /404.html carries noindex and must be crawlable for that directive to be read.
 
 # --------------------------------------------------------------- AI crawlers
 # Explicitly allowed. This site is written to be quoted and summarised.

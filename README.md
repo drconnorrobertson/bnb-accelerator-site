@@ -367,3 +367,7 @@ My BnB Accelerator, LLC
 ## Search-intent optimization
 
 After regenerating the acquisition, pricing, reviews or tax hub pages, run `python3 _gen/optimize_search_intent.py` to reapply the focused metadata, service scope and contextual links. Then run `python3 audit_content.py` before publishing. The reviews directory owns public review intent; testimonials covers direct client stories. The buyer workbook covers independent purchase planning; the done-for-you page covers acquisition service scope.
+
+## October 1 indexing and evidence release
+
+Run `python3 _gen/improve_indexing_release.py` after the search-intent optimizer. This adds the investment service page, proposal responsibility matrix and deal evidence register, and links seven relevant hubs. Then run `python3 _gen/sitewide.py`, `python3 _gen/gen_site_index.py`, `python3 build_assets.py`, and `python3 audit_content.py`. Sitemap dates compare main content and structured data to HEAD so footer, navigation, asset hashes and whitespace alone do not imply fresh editorial work. New untracked pages are included in the change inventory. Tracking URL variants remain crawlable to expose canonicals; source files and the direct 404 document carry noindex response headers.

@@ -27,6 +27,8 @@ for previous_file in glob.glob(os.path.join(ROOT, "sitemap-*.xml")):
             PREVIOUS_DATES[fields["loc"].removeprefix(tpl.SITE)] = fields["lastmod"]
 CHANGED_FILES = set(subprocess.check_output(
     ["git", "diff", "--name-only", "HEAD"], cwd=ROOT, text=True).splitlines())
+CHANGED_FILES.update(subprocess.check_output(
+    ["git", "ls-files", "--others", "--exclude-standard"], cwd=ROOT, text=True).splitlines())
 
 FOOTER_RE = re.compile(r'<footer class="site-footer">.*?</footer>', re.S)
 HEADER_RE = re.compile(
@@ -183,7 +185,10 @@ def classify(path):
 
 def lastmod_for(path, f):
     """Use today's date only for new or changed pages, retain older dates."""
-    if os.path.relpath(f, ROOT).replace(os.sep, "/") in CHANGED_FILES:
+    relative = os.path.relpath(f, ROOT).replace(os.sep, "/")
+    # Shared navigation, asset hashes and whitespace are not editorial updates.
+    # Compare the main content and structured data against the committed page.
+    if relative in CHANGED_FILES and significant_change(relative, f):
         return TODAY
     if path in PREVIOUS_DATES:
         return PREVIOUS_DATES[path]
@@ -210,6 +215,22 @@ def lastmod_for(path, f):
         if m:
             return m.group(1)
     return TODAY
+
+
+def editorial_signature(source):
+    main = re.search(r'<main\b[^>]*>(.*?)</main>', source, re.S)
+    content = main.group(1) if main else source
+    structured = re.findall(r'<script type="application/ld\+json">(.*?)</script>', source, re.S)
+    return re.sub(r'\s+', ' ', content).strip(), tuple(re.sub(r'\s+', ' ', item).strip() for item in structured)
+
+
+def significant_change(relative, filename):
+    previous = subprocess.run(["git", "show", "HEAD:" + relative], cwd=ROOT,
+                              text=True, capture_output=True)
+    if previous.returncode:
+        return True
+    with open(filename, encoding="utf-8") as current:
+        return editorial_signature(previous.stdout) != editorial_signature(current.read())
 
 
 TODAY = datetime.date.today().isoformat()
