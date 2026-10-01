@@ -127,6 +127,8 @@ def main():
 
     n = 0
     for f in sorted(glob.glob("**/*.html", recursive=True)):
+        if f.startswith("public/"):
+            continue
         s = open(f, encoding="utf-8").read()
         o = s
         s = re.sub(r'href="/assets/style(?:\.min)?\.css(?:\?v=[a-f0-9]+)?"',

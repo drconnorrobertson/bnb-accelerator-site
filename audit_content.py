@@ -22,7 +22,7 @@ def route(path):
     return "/" if relative == Path("index.html") else "/" + relative.parent.as_posix() + "/"
 
 
-pages = {route(path): path for path in ROOT.rglob("index.html") if ".git" not in path.parts}
+pages = {route(path): path for path in ROOT.rglob("index.html") if ".git" not in path.parts and "public" not in path.relative_to(ROOT).parts}
 titles = Counter()
 descriptions = Counter()
 link_graph = {}

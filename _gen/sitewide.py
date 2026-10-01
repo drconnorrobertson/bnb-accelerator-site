@@ -81,7 +81,7 @@ def rewrite_footers():
     new = tpl.footer().split('</footer>', 1)[0] + '</footer>'
     n = 0
     for f in sorted(glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True)):
-        if "/_gen/" in f:
+        if "/_gen/" in f or "/public/" in f:
             continue
         s = open(f, encoding="utf-8").read()
         if '<footer class="site-footer">' not in s:
@@ -157,6 +157,8 @@ def page_urls():
     out = []
     for f in sorted(glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True)):
         rel = os.path.relpath(f, ROOT)
+        if rel.startswith("public" + os.sep):
+            continue
         path = "/" + os.path.dirname(rel).replace(os.sep, "/")
         if path == "/.":
             path = "/"

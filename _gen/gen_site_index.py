@@ -60,6 +60,8 @@ def scan():
     out = {}
     for f in glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True):
         rel = os.path.relpath(f, ROOT)
+        if rel.startswith("public" + os.sep):
+            continue
         d = os.path.dirname(rel).replace(os.sep, "/")
         path = "/" if d == "" else f"/{d}/"
         s = open(f, encoding="utf-8").read()
