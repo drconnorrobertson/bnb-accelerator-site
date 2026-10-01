@@ -1485,6 +1485,15 @@
           "value": "noindex"
         }
       ]
+    },
+    {
+      "source": "/404/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
     }
   ]
 }
