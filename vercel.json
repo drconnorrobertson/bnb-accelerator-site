@@ -1495,5 +1495,7 @@
         }
       ]
     }
-  ]
+  ],
+  "buildCommand": "node build_public.mjs",
+  "outputDirectory": "public"
 }

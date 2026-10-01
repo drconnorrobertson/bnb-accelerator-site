@@ -296,12 +296,12 @@ is live and serves the matching key, so deploy before running it.
 
 ## Deploying to Vercel
 
-No build configuration needed. Import the repo and deploy, Vercel serves it as a static site.
+Import the repo and deploy. The build stages public pages and assets only; generator inputs, Python scripts and editorial records must not be deployed.
 
 ```
 Framework Preset:  Other
-Build Command:     (leave empty)
-Output Directory:  (leave empty / root)
+Build Command:     node build_public.mjs
+Output Directory:  public
 ```
 
 `vercel.json` handles clean URLs, trailing slashes, asset caching, and security headers.
@@ -333,3 +333,5 @@ Run `python3 _gen/improve_indexing_release.py` after the search-intent optimizer
 ## October 1 performance and conversion corrections
 
 The homepage preloads the appropriate mobile or desktop hero image, describes eight states consistently with the markets directory, and closes its sections correctly. Footer contrast is improved. The unused browser-only lead/application confirmation handlers have been removed. Organization schema omits self-serving aggregate ratings, following Google review-snippet eligibility; public review links remain. Preserve those rules during regeneration.
+
+The public build verifies that every sitemap URL has a corresponding output file and that internal generator records are excluded. Run `node build_public.mjs` to check this boundary before deployment.
