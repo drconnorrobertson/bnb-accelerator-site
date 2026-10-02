@@ -39,21 +39,23 @@ HEADER_RE = re.compile(
 
 
 def active_nav(path):
-    """Map deep sections to one of the five primary navigation destinations."""
+    """Map deep sections to a primary navigation destinations."""
     section = path.strip("/").split("/", 1)[0]
     if section == "how-it-works":
         return "/how-it-works/"
     if section == "markets":
         return "/markets/"
-    if section == "scenarios":
-        return "/scenarios/"
+    if section in {"buy-a-short-term-rental", "scenarios"}:
+        return "/buy-a-short-term-rental/"
+    if section == "compare" or path in {"/guides/elk-ridge-investments-ownership-questions/", "/guides/str-search-property-match-questions/", "/guides/bnb-turnkey-management-handoff/", "/guides/kleer-circle-year-one-operations/", "/guides/str-insights-service-tiers/"}:
+        return "/compare/"
     if section in {"case-studies", "deals", "wins", "testimonials", "reviews"}:
         return "/case-studies/"
     if section == "about":
         return "/about/"
     if section in {"blog", "guides", "topics", "answers", "data", "tools",
                    "regulations", "tax-strategy", "financing", "design",
-                   "management", "compare"}:
+                   "management"}:
         return "/blog/"
     return None
 

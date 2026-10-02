@@ -60,3 +60,13 @@ Run `python3 audit_content.py` before every release. It checks all routes, sitem
 ## Release measurement
 
 After each cluster, inspect Search Console over several weeks for discovery, indexation, impressions, and queries. Merge or improve pages that Google declines to index when they overlap. Track qualified applications and assisted conversions, not just route count.
+
+## October 1 first-buyer and competitor release
+
+The acquisition pages now lead with buying a first STR. The homepage, first-purchase hub, service pages, financing entry points, selected purchase articles and 20 local buying guides retain their existing URLs. `/tools/first-str-purchase-budget/` adds a distinct cash and funding-gap task; hypothetical inputs are not lender quotes or provider prices.
+
+The competitor directory covers 18 provider/program/tool paths. Each has one owner URL for a direct comparison and one for alternatives. Elk Ridge Investments and STR Search add new comparisons. Five acquisition providers also have genuinely different proposal-review worksheets: Elk Ridge ownership/control/exit; STR Search match criteria/remedies; BNB Turnkey management access/termination; Kleer Circle year-one duty coverage; STR Insights tier accountability. Existing detailed BNB Turnkey, Kleer Circle and STR Insights articles stay the comparison owner URLs; no duplicate `/compare/` versions are created. Historical STR Profit Academy material and STR University's old cohort announcement are labeled rather than represented as current offers. Awning retains its September 27 scope verification because the October 1 refetch was blocked.
+
+No keyword-volume or difficulty dataset is available. No competitor search rank or multiple-result placement is promised. Use Search Console impressions, clicks and indexed URLs for each cluster to decide which pages deserve further evidence and which should be consolidated. Do not create branded review pages without first-hand experience, fake star ratings, synonym clones or extra domains to manufacture results. Pages disclose that BNB Accelerator is the commercial publisher and link to dated public sources.
+
+Regeneration order after any earlier content generators: `python3 _gen/gen_first_str_budget.py`, `python3 _gen/optimize_first_str_buyers.py`, `python3 _gen/expand_competitor_buyers.py`, `python3 _gen/sitewide.py`, `python3 _gen/gen_site_index.py`, `python3 build_assets.py`, `python3 audit_content.py`, `node build_public.mjs`. The expansion generator intentionally supersedes the older comparison/alternatives generator output. Preserve the real publication date when updating a route.

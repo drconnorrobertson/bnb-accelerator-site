@@ -62,9 +62,9 @@ ORG_SCHEMA = """    {
 NAV_ITEMS = [
     ("/how-it-works/", "Services"),
     ("/markets/", "Markets"),
-    ("/scenarios/", "Scenarios"),
+    ("/buy-a-short-term-rental/", "First STR"),
     ("/case-studies/", "Results"),
-    ("/about/", "About"),
+    ("/compare/", "Compare"),
     ("/blog/", "Insights"),
 ]
 
