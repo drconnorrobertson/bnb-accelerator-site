@@ -129,12 +129,38 @@ def source(r):
 def links(r):
  g=CONTRACTS.get(r[0]);more=f' · <a href="{g[1]}">{esc(g[0])}</a>' if g else ''
  return f'<p><a href="{r[4]}">BNB Accelerator vs {esc(r[1])}</a> · <a href="/compare/alternatives-to-{r[0]}/">{esc(r[1])} alternatives</a>{more}</p>'
+NAMED_OPTIONS={
+ 'elk-ridge-investments':['techvestor','alpha-geek-capital','kleer-circle'],
+ 'str-search':['str-insights','kleer-circle','the-short-term-shop'],
+ 'bnb-turnkey':['kleer-circle','str-insights','awning'],
+ 'kleer-circle':['bnb-turnkey','str-search','str-insights'],
+ 'str-insights':['str-search','bnb-turnkey','rabbu'],
+ 'the-short-term-shop':['str-search','str-insights','awning'],
+ 'awning':['bnb-turnkey','the-short-term-shop','rabbu'],
+ 'rabbu':['str-insights','str-search','airdna'],
+ 'rent-to-retirement':['the-short-term-shop','bnb-turnkey','str-search'],
+ 'techvestor':['elk-ridge-investments','alpha-geek-capital'],
+ 'alpha-geek-capital':['elk-ridge-investments','techvestor'],
+ 'bnb-mastery':['michael-elefante','real-estate-robinsons','robuilt'],
+ 'robuilt':['michael-elefante','real-estate-robinsons','str-university'],
+ 'michael-elefante':['robuilt','real-estate-robinsons','str-university'],
+ 'real-estate-robinsons':['michael-elefante','robuilt','bnb-mastery'],
+ 'str-university':['michael-elefante','robuilt','real-estate-robinsons'],
+ 'str-profit-academy':['bnb-mastery','robuilt','real-estate-robinsons'],
+ 'airdna':['rabbu','str-insights','str-search'],
+}
+def named_options(slug):
+ rows=[next(x for x in ALL if x[0]==other) for other in NAMED_OPTIONS[slug]]
+ cards=''.join(f'<article class="bc-option"><span class="eyebrow">{esc(x[2])}</span><h3>{esc(x[1])}</h3><p>{esc(x[5])}</p><a href="{x[4]}">Read this provider comparison →</a></article>' for x in rows)
+ return f'<section class="section-sm"><div class="wrap"><h2>Other named providers to investigate</h2><p>These are research options with different scopes, not a ranked shortlist. Use their linked comparisons to confirm the service model, then request current market coverage and written terms.</p><div class="bc-grid">{cards}</div></div></section>'
+
 def alternatives(r):
  slug,name,cat,src,cmp,q,fit,opts,dil=r; h,exercise,records=EXERCISES[slug]
  cards=''.join(f'<article class="bc-option"><span class="eyebrow">Path {i}</span><h3>{esc(n)}</h3><p><strong>Fits:</strong> {esc(w)}</p><p><strong>Tradeoff:</strong> {esc(t)}</p></article>' for i,(n,w,t) in enumerate(opts,1))
  body=hero(f'Alternatives to {name}',q,'Alternatives · Purchase decision')
  body+=section('Start with the outcome you need',f'<p>{esc(fit)}</p><p>For a first STR, decide whether you want to select a particular home, own an interest in managed assets, or learn to execute the purchase yourself. These paths involve different control, capital and work. BNB Accelerator coordinates sourcing, underwriting, purchase and launch for a client-approved property; the signed scope defines the work included.</p>')
  body+=f'<section class="bg-alt"><div class="wrap"><h2>Three credible paths to compare</h2><div class="bc-grid">{cards}</div></div></section>'
+ body+=named_options(slug)
  body+=section(h,f'<p>{esc(exercise)}</p><div class="bc-docs"><h3>Build this decision file</h3><ol>'+''.join(f'<li>{esc(x)}</li>' for x in records)+'</ol></div>')
  body+=section('Make the total cash comparable','<p>Use the same property price and current financing terms for direct-purchase proposals. Add down payment, closing, furnishing, repairs, quoted service fees and retained reserves. For an offering, separate the subscription amount from possible future capital obligations and liquidity restrictions. A lower fee is meaningful only when the missing work and buyer responsibilities are visible.</p><p><a href="/tools/first-str-purchase-budget/">Calculate first-STR purchase cash</a> and enter the fees actually quoted to you. Use conservative revenue and address-specific expense evidence; neither a provider’s case study nor potential tax savings funds your down payment.</p>')
  body+=section('Choose before you sign',f'<div class="callout"><p>{esc(dil)}</p></div><p>Proceed when the documents settle that question and the capital, scope and operating plan fit. Request a revision if duties or charges are vague. Pause when legal use, financing, insurance or operator capacity can change the purchase. Compare proposals on the same decision file and keep the right to reject an unsuitable property.</p>{links(r)}{source(r)}')
@@ -143,7 +169,7 @@ def alternatives(r):
 def matchup(r):
  slug,name,cat,src,path,q,fit,opts,dil=r
  if path.startswith('/blog/'):return # preserve established, detailed owner URL
- rows=[('Service model','Sourcing, underwriting and purchase-to-launch coordination',cat),('Buyer decision','Client approves the property and commits purchase capital',q),('Work to document','Named purchase, launch and operator handoffs',dil),('Fees','Request current acquisition fee, exclusions and vendor disclosures','Request the actual tier, itemized charges and ongoing terms'),('Evidence','Property-level memo, full cash budget and downside case','Request the records listed below for your exact product')]
+ rows=[('Service model','Sourcing, underwriting and purchase-to-launch coordination',cat),('Buyer fit','Client approves the property and commits purchase capital',opts[1][1]),('Work to document','Named purchase, launch and operator handoffs',dil),('Fees','Request current acquisition fee, exclusions and vendor disclosures','Request the actual tier, itemized charges and ongoing terms'),('Evidence','Property-level memo, full cash budget and downside case','Request the records listed below for your exact product')]
  table='<div class="bc-table-scroll" role="region" aria-label="Provider scope comparison" tabindex="0"><table><thead><tr><th scope="col">Decision</th><th scope="col">BNB Accelerator</th><th scope="col">'+esc(name)+'</th></tr></thead><tbody>'+''.join('<tr>'+''.join(f'<{tag}>{esc(v)}</{tag}>' for tag,v in [('th',a),('td',b),('td',c)])+'</tr>' for a,b,c in rows)+'</tbody></table></div>'
  h,exercise,records=EXERCISES[slug]
  body=hero('BNB Accelerator vs '+name,q)

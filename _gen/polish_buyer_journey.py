@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+"""Final coherence fixes. Run after competitor and first-buyer generators."""
+from pathlib import Path
+import re,sys
+sys.path.insert(0,str(Path(__file__).parent))
+import tpl
+import expand_competitor_buyers as cmp
+ROOT=Path(__file__).resolve().parent.parent
+OPTIONS=[
+ ('bnb-accelerator-vs-diy','Buying Your First STR Yourself','Do you want to coordinate the purchase yourself or hire acquisition support?',
+  'DIY purchasing keeps you in charge of sourcing, analysis and vendor selection. BNB Accelerator coordinates those tasks within its written scope, while the buyer still approves and funds the purchase.',
+  [('Search','You set the buy box, research markets and screen listings','The team screens properties against agreed criteria'),('Underwriting','You build or commission the model and reconcile professional findings','The team coordinates property analysis and a buyer decision'),('Closing','You engage the licensed agent, lender, inspector and counsel and track handoffs','The team coordinates with the transaction professionals'),('Launch','You obtain quotes, place orders and arrange an operator','Confirm design, furnishing and operating handoffs in the scope')],
+  'Compare work, not invented hour estimates','List ten purchase tasks with an owner, deadline and quote. Keep the tasks you can perform well and price the gaps. DIY has no acquisition-service fee, but analysis, professionals, setup and your time still cost money. An acquisition service can reduce coordination work without guaranteeing an earlier closing or better investment.',
+  'https://www.bnbaccelerator.com/how-it-works/'),
+ ('bnb-accelerator-vs-real-estate-agent','An STR Buyer Agent','Will representation cover your purchase needs, or do you need wider coordination?',
+  'A licensed buyer agent represents you under a negotiated agreement. An acquisition coordinator may help with analysis and launch alongside that agent. They can complement each other; neither title establishes all the work included.',
+  [('Representation','Confirm the licensed agent and representation terms','Confirm who provides licensed representation'),('Analysis','Ask what revenue and expense evidence the agent supplies','Ask for the property memo and evidence behind assumptions'),('Compensation','Review the signed representation agreement and all payment arrangements','Review the acquisition fee plus any separately owed professional costs'),('Launch','Ask which post-close services or introductions are included','Confirm furnishing and operator handoff deliverables')],
+  'Assign the work before hiring a second team','Use one live listing to request two written scopes. If your agent already coordinates the property model, regulatory professionals and launch vendors, another engagement may add little. If the model, opening budget or vendor schedule remains yours to create, price that gap and decide who should own it.',
+  'https://www.bnbaccelerator.com/blog/str-buyer-agent-vs-acquisition-team/'),
+ ('bnb-accelerator-vs-property-manager','A Property Manager','Are you buying a home or choosing the team that will operate it?',
+  'Property management handles an operating property under its own agreement. Acquisition support coordinates the purchase. Some managers also help buyers evaluate or find homes; check the actual scope rather than assuming their work starts only after closing.',
+  [('Before purchase','Ask for local demand, management quotes and address acceptance','Coordinate sourcing and property analysis'),('Contract','Management terms establish operational authority and charges','Acquisition terms establish search, closing and launch duties'),('Daily operations','Confirm guest response, cleaning, repairs, pricing and reporting','BNB Accelerator does not itself become your property manager'),('Buyer work','You retain ownership decisions and responsibilities not contracted out','You approve the deal, supply capital and decide the operating model')],
+  'Get an operator quote while the deal is still optional','Ask a local operator to review the candidate address and quote a complete operating scope before removing contingencies. Model its actual fee base, excluded services, reserves and setup costs. Check account access and termination rights. Outsourcing does not eliminate owner decisions; your CPA assesses the tax effects of the actual work arrangement.',
+  'https://www.bnbaccelerator.com/management/'),
+ ('bnb-accelerator-vs-turnkey-providers','Turnkey Property Providers','Do you want a prepared property from available inventory or a search under your own buy box?',
+  'A turnkey offer packages a property and some preparation or operating support. Inventory, seller relationships and fees differ by provider. BNB Accelerator describes sourcing a third-party property for a client-approved acquisition. Compare the actual asset and agreements.',
+  [('Selection','Review the offered inventory and whether it fits your criteria','Search within agreed markets and property criteria'),('Incentives','Identify the seller, affiliates, representation and compensation','Request acquisition and referral compensation disclosures'),('Condition','Verify completed work, warranties and independent inspection','Obtain inspections and repair or furnishing quotes for the candidate'),('Operating plan','Verify local management terms and permitted rental use','Confirm the chosen operator and launch handoff')],
+  'Separate a prepared house from a proven rental business','A furnished house may still lack permits, verified revenue, transferable bookings or suitable insurance. Compare its price with independent sales evidence and its operating case with address-level facts. If inventory is designed for long-term rental, do not substitute an Airbnb revenue estimate without permission and a separate cost model.',
+  'https://www.bnbaccelerator.com/blog/buy-existing-airbnb-vs-start-from-scratch/'),
+ ('bnb-accelerator-vs-airbnb-arbitrage','Airbnb Rental Arbitrage','Do you want to buy a property or operate a rental under a lease?',
+  'Direct purchase and rental arbitrage are different businesses. Ownership requires purchase capital and exposes you to property and financing risk. Arbitrage relies on a lease, explicit subletting permission and local operating eligibility. Neither route is universally cheaper or better.',
+  [('Legal interest','A lease and permission to host; you do not buy the building','Purchase a property under the chosen ownership structure'),('Capital','Deposits, furnishings, setup, carrying costs and reserves','Down payment or purchase funds, closing, setup and reserves'),('Permission','Verify landlord, lease, local and association restrictions','Verify address-level STR eligibility and restrictions'),('Exit','Lease termination, furniture disposition and booking obligations','Sale or operator change subject to contracts and market conditions')],
+  'Run the downside before choosing the entry route','For a leased unit, model rent through a zero-booking period, lease default exposure and what happens if hosting permission changes. For a purchased home, model debt, fixed costs, repairs and a lawful fallback. Tax treatment depends on activity, participation, ownership and other limitations; a lease alone does not determine whether losses offset other income. Have your CPA review the actual facts.',
+  'https://www.irs.gov/publications/p925'),
+ ('zuubly','Review Websites Such as Zuubly','Are you researching a provider or hiring someone to perform purchase work?',
+  'A review article and an acquisition engagement serve different purposes. Use reviews to identify questions, then verify the provider’s current written terms and evidence. This page does not rate Zuubly or claim first-hand experience with its editorial process.',
+  [('Purpose','Read and assess claims about programs or services','Coordinate work on a client-approved STR acquisition'),('Evidence','Look for dates, sources, first-hand testing and commercial disclosures','Request a property memo, current scope and professional handoffs'),('Payment','Distinguish reading content from buying the product reviewed','Confirm the acquisition quote and complete property budget'),('Decision','Use reviews to generate questions; the contract controls deliverables','Choose or reject the property after evidence and affordability checks')],
+  'Make a review claim verifiable','Choose three claims that matter to your purchase: current fees, who executes work, and control after closing. Ask the provider for dated documents supporting each. Distinguish a customer review from a public-offer summary or affiliate recommendation. A favorable score cannot establish address-level STR permission or your investment outcome.',
+  'https://www.bnbaccelerator.com/reviews/'),
+]
+for slug,name,question,lead,rows,task,exercise,src in OPTIONS:
+ path=f'/compare/{slug}/';title=f'BNB Accelerator vs {name}: Buyer Responsibilities'
+ body=cmp.hero('BNB Accelerator vs '+name,question)
+ body+=cmp.section('What you are choosing',f'<p>{tpl.esc(lead)}</p>')
+ table='<div class="bc-table-scroll" role="region" aria-label="Buying approach comparison" tabindex="0"><table><thead><tr><th scope="col">Decision</th><th scope="col">'+tpl.esc(name)+'</th><th scope="col">BNB Accelerator / direct purchase</th></tr></thead><tbody>'+''.join('<tr><th scope="row">'+tpl.esc(a)+'</th><td>'+tpl.esc(b)+'</td><td>'+tpl.esc(c)+'</td></tr>' for a,b,c in rows)+'</tbody></table></div>'
+ body+=f'<section class="section-sm bg-alt"><div class="wrap"><h2>Compare the actual responsibilities</h2>{table}</div></section>'
+ body+=cmp.section(task,f'<p>{tpl.esc(exercise)}</p>')
+ body+=cmp.section('Keep the purchase decision complete','<p>For your first STR, define available cash, financing conditions, legal-use checks, property condition, operating costs and the downside case before committing. Assign each unresolved question to a named professional and a deadline. Retain decision control and verify which tasks are delivered rather than introduced to another vendor.</p><p><a href="/tools/first-str-purchase-budget/">Build your purchase cash plan</a> · <a href="/buy-a-short-term-rental/">Follow the first-STR roadmap</a> · <a href="/compare/">Compare providers and alternatives</a></p>')
+ body+=cmp.section('Read the scope before choosing',f'<p>BNB Accelerator publishes this commercial comparison of buying approaches. It does not establish current third-party prices, typical hours, guaranteed timelines or investment results. Review the actual agreements. <a href="{src}">Read the supporting resource</a>. Updated October 1, 2026.</p>')
+ body+=tpl.cta_band('Choose the support your purchase needs','Bring your budget, candidate listing and questions about who does each task.',primary=('/apply/','Discuss My First STR'),secondary=('/compare/','Compare Acquisition Options'))
+ cmp.page(path,title,'Compare '+name+' with BNB Accelerator by work performed, ownership, costs and first-STR purchase responsibilities.',body)
+# Protect the first-buyer roadmap table on narrow screens.
+p=ROOT/'buy-a-short-term-rental/index.html';s=p.read_text();start=s.index('<!-- first-str:start -->');end=s.index('<!-- first-str:end -->',start);chunk=s[start:end]
+if 'bc-table-scroll' not in chunk:chunk=chunk.replace('<table>','<div class="bc-table-scroll" role="region" aria-label="First STR buyer next steps" tabindex="0"><table>',1).replace('</table>','</table></div>',1)
+s=s[:start]+chunk+s[end:];p.write_text(s)
+# The ceiling assumes financing; avoid the ambiguous phrase "cash-only".
+for file in ['assets/first-str-budget.js','_gen/gen_first_str_budget.py']:
+ p=ROOT/file;s=p.read_text().replace('Cash-only property price ceiling at these fixed inputs','Property price limit from cash budget at this down payment').replace('20261001a','20261001b');p.write_text(s)
+p=ROOT/'tools/first-str-purchase-budget/index.html';s=p.read_text().replace('20261001a','20261001b');p.write_text(s)
+print('Polished six older comparisons, roadmap table and cash-planner wording')

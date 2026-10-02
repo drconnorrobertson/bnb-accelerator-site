@@ -70,3 +70,7 @@ The competitor directory covers 18 provider/program/tool paths. Each has one own
 No keyword-volume or difficulty dataset is available. No competitor search rank or multiple-result placement is promised. Use Search Console impressions, clicks and indexed URLs for each cluster to decide which pages deserve further evidence and which should be consolidated. Do not create branded review pages without first-hand experience, fake star ratings, synonym clones or extra domains to manufacture results. Pages disclose that BNB Accelerator is the commercial publisher and link to dated public sources.
 
 Regeneration order after any earlier content generators: `python3 _gen/gen_first_str_budget.py`, `python3 _gen/optimize_first_str_buyers.py`, `python3 _gen/expand_competitor_buyers.py`, `python3 _gen/sitewide.py`, `python3 _gen/gen_site_index.py`, `python3 build_assets.py`, `python3 audit_content.py`, `node build_public.mjs`. The expansion generator intentionally supersedes the older comparison/alternatives generator output. Preserve the real publication date when updating a route.
+
+### Final buyer-journey coherence pass
+
+Run `python3 _gen/polish_buyer_journey.py` after `expand_competitor_buyers.py` and before sitewide/build/audit. It replaces six older buying-approach comparisons with scope-based decisions, removes blanket tax/timeline/hour claims, wraps the first-buyer roadmap table for narrow displays and clarifies the cash planner's financed price limit. Alternatives guides now include named provider research options without claiming a universal ranking.

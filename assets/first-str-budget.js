@@ -37,7 +37,7 @@
         'Cash retained as reserves: ' + money(r.reserve),
         'Total allocated cash needed: ' + money(r.total),
         r.remaining >= 0 ? 'Cash remaining after this plan: ' + money(r.remaining) : 'Cash gap to resolve: ' + money(-r.remaining),
-        'Cash-only property price ceiling at these fixed inputs: ' + money(r.cashPriceCeiling),
+        'Property price limit from cash budget at this down payment: ' + money(r.cashPriceCeiling),
         'Planning estimate only. Confirm lender eligibility, property-specific costs, required liquidity and deal economics before buying.'
       ];
       if (values.fees === 0) lines.push('No service fee is included. Obtain and enter your written quote; zero does not represent BNB Accelerator pricing.');
