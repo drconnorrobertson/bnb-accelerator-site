@@ -61,12 +61,13 @@ def render():
     )
     body = f'''<section class="hero hero-page"><div class="wrap">
   {tpl.breadcrumb_html([("Home", "/"), ("Reviews", "/reviews/")])}
-  <div class="hero-inner"><span class="eyebrow">Independent reviews</span>
+  <div class="hero-inner"><span class="eyebrow">Public review sources</span>
     <h1>BNB Accelerator reviews: all 27 public Trustpilot posts</h1>
     <p class="hero-sub">A source-linked index of the positive, mixed, and critical feedback visible on Trustpilot on 22 September 2026.</p>
   </div>
 </div></section>
 <section><div class="wrap wrap-narrow"><article class="article">
+  <p><strong>Publisher disclosure:</strong> This index is published by BNB Accelerator. Trustpilot hosts the original reviews; our summaries are company-published commentary, not independent ratings.</p>
   <p class="lead">Trustpilot displayed a 4.5 out of 5 TrustScore from 27 reviews when we checked. The 27 entries below are our brief summaries, not quotations or independently verified accounts of a client's results. Follow each link for the reviewer's full text, date, rating, and any company reply.</p>
   <p>We include the one-star review and mixed feedback. Trustpilot reviewers may edit or remove their posts, and the platform's count and TrustScore can change. The source profile is <a href="https://www.trustpilot.com/review/mybnbaccelerator.com" target="_blank" rel="noopener noreferrer">My BnB Accelerator on Trustpilot</a>. See our <a href="/testimonials/">direct feedback and client stories</a> separately.</p>
 </article></div></section>

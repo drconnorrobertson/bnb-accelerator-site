@@ -937,7 +937,7 @@ def big_numbers(r):
             for k, v, g in r["metrics"]:
                 add(k, v, g)
     if price:
-        add("Year-one tax reduction", usd(price * COST_SEG_PCT * MARGINAL_RATE), True)
+        add("Illustrative tax reduction", usd(price * COST_SEG_PCT * MARGINAL_RATE), True)
 
     cells = "".join(
         f'<div class="big-stat"><span class="big-stat-val{" green" if g else ""}">'
