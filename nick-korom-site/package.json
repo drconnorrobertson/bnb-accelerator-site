@@ -1,0 +1,1 @@
+{"name":"nick-korom-site","version":"1.0.0","private":true,"scripts":{"build":"mkdir -p public && tar -xzf source.tar.gz -C public"}}
