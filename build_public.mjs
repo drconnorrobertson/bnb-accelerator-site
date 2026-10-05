@@ -4,6 +4,7 @@ import { dirname, extname, join, relative } from 'node:path';
 import assert from 'node:assert/strict';
 import { normalizeResourceLinks, resourceRoutes } from './resource_links.mjs';
 import { normalizePerformanceDisclosures } from './performance_disclosures.mjs';
+import { addMetaPixel } from './meta_pixel.mjs';
 const root = process.cwd();
 const out = join(root, 'public');
 const publicExtensions = new Set(['.html', '.css', '.js', '.svg', '.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.eot', '.pdf', '.mp4', '.webm']);
@@ -22,7 +23,7 @@ async function walk(directory) {
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {
-    await writeFile(target, normalizePerformanceDisclosures(normalizeResourceLinks(await readFile(source, 'utf8')), path));
+    await writeFile(target, addMetaPixel(normalizePerformanceDisclosures(normalizeResourceLinks(await readFile(source, 'utf8')), path)));
   } else {
     await copyFile(source, target);
   }
