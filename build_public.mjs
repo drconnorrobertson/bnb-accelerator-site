@@ -1,11 +1,13 @@
 // Deploy only public site output. Generator inputs and editorial records stay in Git.
-import { readdir, mkdir, copyFile, rm, readFile, access } from 'node:fs/promises';
+import { readdir, mkdir, copyFile, rm, readFile, writeFile, access } from 'node:fs/promises';
 import { dirname, extname, join, relative } from 'node:path';
 import assert from 'node:assert/strict';
+import { normalizeResourceLinks, resourceRoutes } from './resource_links.mjs';
 const root = process.cwd();
 const out = join(root, 'public');
 const publicExtensions = new Set(['.html', '.css', '.js', '.svg', '.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.eot', '.pdf', '.mp4', '.webm']);
 const publicRootFiles = new Set(['robots.txt', 'llms.txt', 'sitemap.xml', 'sitemap-core.xml', 'sitemap-investor-guides.xml', 'sitemap-blog.xml', 'sitemap-scenarios.xml', 'sitemap-markets.xml', 'sitemap-proof.xml', 'c745eff13e89424cb1ed10f69adea860.txt']);
+for (const route of resourceRoutes.values()) await access(join(root, route, 'index.html'));
 await rm(out, { recursive: true, force: true });
 let copied = 0;
 async function walk(directory) {
@@ -18,7 +20,11 @@ async function walk(directory) {
   if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path)) continue;
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
-  await copyFile(source, target);
+  if (extname(source) === '.html') {
+    await writeFile(target, normalizeResourceLinks(await readFile(source, 'utf8')));
+  } else {
+    await copyFile(source, target);
+  }
   copied++;
  }
 }
@@ -40,3 +46,4 @@ for (const file of sitemapFiles) {
  }
 }
 console.log(`Public build: ${copied} files; all ${urls} sitemap routes present; internal records excluded.`);
+

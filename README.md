@@ -335,3 +335,8 @@ Run `python3 _gen/improve_indexing_release.py` after the search-intent optimizer
 The homepage preloads the appropriate mobile or desktop hero image, describes eight states consistently with the markets directory, and closes its sections correctly. Footer contrast is improved. The unused browser-only lead/application confirmation handlers have been removed. Organization schema omits self-serving aggregate ratings, following Google review-snippet eligibility; public review links remain. Preserve those rules during regeneration.
 
 The public build verifies that every sitemap URL has a corresponding output file and that internal generator records are excluded. Run `node build_public.mjs` to check this boundary before deployment.
+
+
+## Resource link migration
+
+`resource_links.mjs` maps the five legacy GitHub Pages resource links onto matching public routes. `build_public.mjs` applies the mapping to every deployed HTML page and checks that every mapped route exists before copying output. Navigation to the market and design hubs uses labels matching their destination.
