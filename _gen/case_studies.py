@@ -803,14 +803,8 @@ def deal_record(slug, name, city, category, prop_type, thesis, d):
         ("What did it cost to get into the deal?",
          f"{usd(d['entry'])} all in: {usd(d['down'])} down, {usd(d['closing'])} in closing "
          f"costs" + (f", and {usd(d['design'])} for design and furnishing." if d["design"] else ".")),
-        ("What does the property return?",
-         f"{usd(d['cash_flow'])} a year in cash flow after all operating costs and debt "
-         f"service, which is a {d['coc']:.2f}% cash-on-cash return on {usd(d['entry'])} invested."),
-        ("Is this a typical result?",
-         "No. It is one documented outcome for one property. Across the deals we publish with "
-         "full financials the average cash-on-cash return is 13.3%, and individual deals in "
-         "that set range from under 2% to over 24%. Real estate involves risk, including loss "
-         "of principal."),
+        ("What does the property return?", 'The tracker records an annual cash-flow figure and a cash-on-cash percentage. Confirm period, expenses and invested cash; the percentage may not reconcile with listed entry cost.'),
+        ("Is this a typical result?", 'No. These are selected company-published examples. Cash-flow periods, expense coverage and return denominators are not consistently established by the public summaries. Recorded cash-on-cash figures may not reconcile with listed entry costs. They are not verified typical returns or a promise of future performance; real estate involves risk, including loss of principal.'),
     ]
     return dict(
         slug=slug, legacy=None, name=name, initial=plain[0], city=city,
@@ -818,12 +812,12 @@ def deal_record(slug, name, city, category, prop_type, thesis, d):
         market_link=MARKET_PATH.get(d["market_slug"], "/markets/"),
         category=category, prop_type=prop_type, beds=None, price=usd(d["price"]),
         headline=headline, summary=summary,
-        result=(f"{usd(d['cash_flow'])} a year in cash flow on {usd(d['entry'])} of cash "
-                f"invested, a {d['coc']:.2f}% cash-on-cash return."),
+        result=(f"Tracker-recorded annual cash flow: {usd(d['cash_flow'])}; "
+                f"recorded cash-on-cash: {d['coc']:.2f}%. Period and denominator require confirmation."),
         metrics=[("Purchase price", usd(d["price"]), False),
                  ("Total entry cost", usd(d["entry"]), False),
-                 ("Annual cash flow", usd(d["cash_flow"]), True),
-                 ("Cash-on-cash return", f"{d['coc']:.2f}%", True)],
+                 ("Recorded annual cash flow", usd(d["cash_flow"]), True),
+                 ("Recorded cash-on-cash", f"{d['coc']:.2f}%", True)],
         body=body, faqs=faqs, properties=None, deals=[d], kind="deal")
 
 
@@ -863,12 +857,12 @@ def deal_panel(r):
           <li><span class="k">Down payment</span><span class="v">{usd(d['down'])}</span></li>
           <li><span class="k">Closing costs</span><span class="v">{usd(d['closing'])}</span></li>
 {design}          <li><span class="k">Total entry cost</span><span class="v">{usd(d['entry'])}</span></li>
-          <li><span class="k">Annual cash flow</span><span class="v green">{usd(d['cash_flow'])}</span></li>
-          <li><span class="k">Cash-on-cash return</span><span class="v green">{d['coc']:.2f}%</span></li>
+          <li><span class="k">Recorded annual cash flow</span><span class="v green">{usd(d['cash_flow'])}</span></li>
+          <li><span class="k">Recorded cash-on-cash</span><span class="v green">{d['coc']:.2f}%</span></li>
         </ul>""")
     return ('        <h2 id="deal-numbers">The deal numbers</h2>\n'
-            '        <p>Straight from the client deal tracker: what it cost to get in, and what '
-            'it returns.</p>\n' + note + "\n".join(blocks) + "\n")
+            '        <p>Figures recorded in the client deal tracker; confirm period, expense coverage and '
+            'return denominator before relying on them.</p>\n' + note + "\n".join(blocks) + "\n")
 
 
 def tax_panel(r):
@@ -915,14 +909,13 @@ def big_numbers(r):
         out.append((k, v, green))
 
     if ds and not r.get("properties"):
-        # The tracker's own cash-on-cash figure, never a recomputed one: its
-        # denominator is the cash the client actually had at risk.
+        # Retain the recorded source percentage; its denominator is unresolved.
         coc = (f'{ds[0]["coc"]:.2f}%' if len(ds) == 1 else
                f'{sum(d["coc"] for d in ds) / len(ds):.2f}% avg')
         add("Purchase price", usd(price or sum(d["price"] for d in ds)))
         add("Total entry", usd(sum(d["entry"] for d in ds)))
-        add("Annual cash flow", usd(sum(d["cash_flow"] for d in ds)), True)
-        add("Cash-on-cash", coc, True)
+        add("Recorded annual cash flow", usd(sum(d["cash_flow"] for d in ds)), True)
+        add("Recorded cash-on-cash", coc, True)
     else:
         # "$2,324,900 across two properties" is a sentence, not a stat.
         if price:
@@ -943,7 +936,7 @@ def big_numbers(r):
         f'<div class="big-stat"><span class="big-stat-val{" green" if g else ""}">'
         f'{tpl.esc(v)}</span><span class="big-stat-key">{tpl.esc(k)}</span></div>'
         for k, v, g in out[:5])
-    return f'      <div class="big-stats">{cells}</div>'
+    return f'      <div class="big-stats">{cells}</div>' + '<p class="performance-basis-note"><strong>Return basis unresolved:</strong> Tracker cash-flow figures are not established here as actual full-year results. Reporting periods, complete expense definitions and cash-investment denominators need confirmation. Recorded cash-on-cash percentages may not reconcile with the entry costs shown; treat them as source-reported fields, not independently verified comparable returns. <a href="/guides/reading-str-case-study-results/">Check the evidence and calculation basis</a>.</p>'
 
 
 def hero_visual(r):
@@ -1157,19 +1150,12 @@ def render_index(recs):
                     for ms in order)
 
     faqs = [
-        ("Are these results typical?",
-         "No. Each page is one documented outcome for one property. Across the deals published "
-         "with full financials the average cash-on-cash return is 13.3% and the range runs from "
-         "under 2% to over 24%. Real estate involves risk, including loss of principal."),
+        ("Are these results typical?", 'No. These are selected company-published examples. Confirm cash-flow periods, expense coverage and investment denominators. Recorded percentages may not reconcile with listed entry costs and are not verified typical returns. Real estate involves risk, including loss of principal.'),
         ("Why do clients appear as a first name and an initial?",
          "Because a full name plus a market plus a purchase price identifies a house. Clients "
          "authorized us to publish the numbers, not their identity, so no page on this site "
          "carries a client surname or a street address."),
-        ("How is cash flow calculated?",
-         "Gross booking revenue minus management, cleaning, supplies, utilities, insurance, "
-         "property tax and debt service. Where a figure covers a single month rather than a "
-         "year, the page says so, because peak-month cash flow on a seasonal property is not "
-         "one twelfth of annual cash flow."),
+        ("How is cash flow calculated?", 'Ask which reporting period and costs are included. Tracker labels alone do not establish actual full-year results; peak-month cash flow cannot be annualized without supporting records.'),
         ("What is included in the entry cost?",
          "Down payment, closing costs and the design and furnishing budget. Furnishing is the "
          "line most buyers leave out, and it has to be funded at closing rather than out of the "
