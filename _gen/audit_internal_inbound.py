@@ -155,7 +155,7 @@ def inventory(public):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--output', default='docs/orphan-audit-before')
+    parser.add_argument('--output', default='docs/orphan-audit-after')
     parser.add_argument('--public', default='public')
     args = parser.parse_args()
     output = ROOT / args.output

@@ -122,6 +122,17 @@ gallery.
 
 ## Generators
 
+The second reviewed buyer-intent cohort uses `_gen/buyer_intent.py` and
+`_gen/buyer_intent_inputs.py` for eight exact existing URLs. The shared page
+renderer gives these reviewed payloads precedence over older investor, blog
+and local sources; the late market enhancer skips reviewed market routes.
+Refresh only this cohort with `python3 _gen/refresh_buyer_intent.py`, then run
+`python3 _gen/test_buyer_intent.py` alongside the existing checks below. See
+[the second batch's numerical, public-source and link evidence](docs/buyer-intent-batch-two-review.md).
+The scoped refresh preserves the current shell and original publication dates;
+it adds no routes. The internal-link audit defaults to the after directory so
+the delivered before inventory remains intact.
+
 The reviewed buyer cohort uses `_gen/buyer_evidence.py` through the blog and
 pillar renderers. `_gen/case_evidence.py` applies the public-evidence limits to
 Adam's Florida Panhandle and Ashley/Billy's Fort Walton Beach records without

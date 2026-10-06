@@ -96,13 +96,33 @@ Google's indexing decisions or the relevance of every proposed destination.
 
 ```sh
 node build_public.mjs
-python3 _gen/audit_internal_inbound.py --output docs/orphan-audit-before
 python3 audit_content.py
-# After reviewed content and contextual links:
-python3 _gen/audit_internal_inbound.py --output docs/orphan-audit-after
+python3 _gen/audit_internal_inbound.py
 ```
 
 Preserve the committed baseline inventory when making the after report. Report
 actual true-orphan, reachability and weak-context counts separately. Verify
 sampled live HTTP responses, self-canonicals and robots eligibility against the
 baseline; a local graph alone is not a live indexing report.
+
+## Implemented outcome, October 6, 2026
+
+The eight pages were reviewed and rewritten before the seven listed
+relationships were applied. See the [implementation and verification
+record](buyer-intent-batch-two-review.md) and [complete after
+inventory](orphan-audit-after/public-route-inventory.csv). The before files
+above remain the delivered baseline.
+
+| Measure | Before | After |
+|---|---:|---:|
+| Eligible self-canonical routes | 2,412 | 2,412 |
+| True canonical orphans | 0 | 0 |
+| Homepage-unreachable | 0 | 0 |
+| Sitemap-only | 0 | 0 |
+| Zero structurally contextual inbound | 1,215 | 1,213 |
+
+Investment cost, furnishing budget and fourplex break-even gained contextual
+sources. Chandler's rewritten guide also stopped promoting its unreviewed
+agent derivative, which remains reachable but now has zero contextual sources.
+That explains the net change of two routes. No new route or bulk linking was
+introduced, and these structural changes supply no ranking or indexing result.

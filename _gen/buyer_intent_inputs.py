@@ -1,7 +1,7 @@
 """Hypothetical buyer examples prepared before list-first linking changes.
 
 These are educational inputs, not current market averages, financing quotes,
-BNB service prices or client outcomes. No renderer uses this module yet.
+BNB service prices or client outcomes. buyer_intent.py uses these inputs.
 """
 from decimal import Decimal, ROUND_CEILING
 
