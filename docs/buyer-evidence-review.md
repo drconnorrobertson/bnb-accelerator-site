@@ -61,9 +61,12 @@ Ashley/Billy's fields: $630,000 purchase, $63,000 down, $1,950 closing and
 $159,750 design. Components sum to $224,700, against the recorded $220,800
 total, leaving a $3,900 unexplained difference. Both are labeled as reported
 fields; neither total is promoted to a corrected client outcome. Nearly 80
-nights booked within 21 days remains a reported booking milestone, not proof
+nights booked within 21 days after launch remains a reported booking milestone, not proof
 of completed stays, payouts, the closing-to-opening interval or annual profit.
 The earlier $43,946/17.52% fields are described only as unresolved source claims.
+The 21 days are labeled as the booking observation period after launch,
+and the hub retains the roughly 80 booked nights alongside that period. The
+source does not establish a 21-day interval from closing to opening.
 
 To restore any definitive return, reviewers need dated property-level income
 and expense records, debt service, realized-versus-projected status and the
@@ -78,7 +81,7 @@ Local validation passed:
 
 - `python3 audit_content.py`: 2,412 HTML/sitemap routes, unique metadata,
   valid JSON-LD, internal links/assets, homepage reachability and 277 redirects.
-- `python3 _gen/test_buyer_evidence.py`: seven tests covering case-study
+- `python3 _gen/test_buyer_evidence.py`: eight tests covering case-study
   evidence gaps, hypothetical arithmetic, lender/owner distinctions,
   generator persistence, unchanged publication dates, shared design and funnel.
 - `python3 _gen/audit_scenarios.py`: 750 scenarios, metadata, canonicals,

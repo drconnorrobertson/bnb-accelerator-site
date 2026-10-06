@@ -1137,7 +1137,7 @@ def render_index(recs):
         cards = []
         for r in rs:
             head = r["metrics"][0]
-            second = r["metrics"][2] if len(r["metrics"]) > 2 else r["metrics"][-1]
+            second = r.get("hub_metric", r["metrics"][2] if len(r["metrics"]) > 2 else r["metrics"][-1])
             cards.append(f"""        <article class="case-card" data-reveal>
           <div class="case-top">
             <span class="avatar">{r["initial"]}</span>

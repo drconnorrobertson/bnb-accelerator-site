@@ -26,6 +26,22 @@ def schemas(markup):
 
 
 class BuyerEvidenceTests(unittest.TestCase):
+    def test_booking_observation_period_is_not_a_launch_duration(self):
+        records = case_studies.records()
+        ashley = next(r for r in records if r["slug"] == "ashley-billy-fort-walton-beach")
+        for markup in (source("/case-studies/ashley-billy-fort-walton-beach/"),
+                       case_studies.render_landing(ashley, records)):
+            self.assertNotIn("Reported launch window", markup)
+            self.assertIn("Booking observation period after launch", markup)
+            self.assertIn("the time from closing to opening", markup)
+            self.assertIn("21 days after launch", markup)
+        for markup in (source("/case-studies/"), case_studies.render_index(records)):
+            card = next(card for card in re.findall(r'<article class="case-card".*?</article>', markup, re.S)
+                        if '/case-studies/ashley-billy-fort-walton-beach/' in card)
+            self.assertNotIn("Reported launch window", card)
+            self.assertIn("Reported booked nights after launch", card)
+            self.assertIn("~80 in 21 days", card)
+
     def test_case_arithmetic_is_an_evidence_gap_not_a_new_return(self):
         cases = {r["slug"]: r for r in case_studies.records()}
         adam = cases["adam-florida-panhandle"]["deals"][0]

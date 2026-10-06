@@ -38,11 +38,12 @@ def review_record(record):
     else:
         record.update(
             headline="A reported launch of nearly 80 booked nights on a $630,000 Fort Walton Beach purchase",
-            summary="Ashley and Billy's published story reports a $630,000 four-bedroom purchase and nearly 80 booked nights within 21 days; entry costs remain unreconciled.",
+            summary="Ashley and Billy's story reports a $630,000 purchase and nearly 80 booked nights within 21 days after launch; entry costs remain unreconciled.",
             result="The story reports nearly 80 nights booked within 21 days of going live. Booked nights do not establish completed stays, collected income or an annual return.",
             metrics=[("Recorded purchase price", "$630,000", False),
                      ("Reported booked nights", "~80", False),
-                     ("Reported launch window", "21 days", False)],
+                     ("Booking observation period after launch", "21 days", False)],
+            hub_metric=("Reported booked nights after launch", "~80 in 21 days", False),
             body=[
                 "The company-published story describes a four-bedroom Fort Walton Beach purchase at $630,000 and close to 80 nights booked within 21 days of launch. Keep that as a reported booking milestone. It does not establish completed stays, collected payouts, net profit, the time from closing to opening, or a repeatable launch result.",
                 "The associated tracker lists $63,000 down, $1,950 closing and $159,750 design. Those line items sum to $224,700, while its entry-total field says $220,800, a $3,900 difference. The public summary does not show a settlement statement or itemized reconciliation that explains the difference. Both are retained as recorded fields; neither is promoted to a corrected all-in cost.",
