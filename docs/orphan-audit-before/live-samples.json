@@ -1,0 +1,129 @@
+[
+  {
+    "url": "https://www.bnbaccelerator.com/guides/str-investment/beach-house/investment-cost/",
+    "status": 200,
+    "canonical": [
+      "https://www.bnbaccelerator.com/guides/str-investment/beach-house/investment-cost/"
+    ],
+    "robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1"
+    ],
+    "x_robots_tag": "",
+    "location": "",
+    "matches_baseline_build": true
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/guides/str-investment/fourplex/break-even-occupancy/",
+    "status": 200,
+    "canonical": [
+      "https://www.bnbaccelerator.com/guides/str-investment/fourplex/break-even-occupancy/"
+    ],
+    "robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1"
+    ],
+    "x_robots_tag": "",
+    "location": "",
+    "matches_baseline_build": true
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/markets/chandler/",
+    "status": 200,
+    "canonical": [
+      "https://www.bnbaccelerator.com/markets/chandler/"
+    ],
+    "robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1"
+    ],
+    "x_robots_tag": "",
+    "location": "",
+    "matches_baseline_build": true
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/answers/what-is-revpar/",
+    "status": 200,
+    "canonical": [
+      "https://www.bnbaccelerator.com/answers/what-is-revpar/"
+    ],
+    "robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    ],
+    "x_robots_tag": "",
+    "location": "",
+    "matches_baseline_build": true
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/blog/airbnb-occupancy-rates-explained/",
+    "status": 200,
+    "canonical": [
+      "https://www.bnbaccelerator.com/blog/airbnb-occupancy-rates-explained/"
+    ],
+    "robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1"
+    ],
+    "x_robots_tag": "",
+    "location": "",
+    "matches_baseline_build": true
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/blog/arizona-str-investing/",
+    "status": 200,
+    "canonical": [
+      "https://www.bnbaccelerator.com/blog/arizona-str-investing/"
+    ],
+    "robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1"
+    ],
+    "x_robots_tag": "",
+    "location": "",
+    "matches_baseline_build": true
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/blog/regulation-2025/",
+    "status": 308,
+    "canonical": [],
+    "robots": [],
+    "x_robots_tag": "",
+    "location": "/regulations/",
+    "matches_baseline_build": false
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/results/",
+    "status": 308,
+    "canonical": [],
+    "robots": [],
+    "x_robots_tag": "",
+    "location": "/case-studies/",
+    "matches_baseline_build": false
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/404.html",
+    "status": 308,
+    "canonical": [],
+    "robots": [],
+    "x_robots_tag": "",
+    "location": "/404/",
+    "matches_baseline_build": false
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/404/",
+    "status": 200,
+    "canonical": [],
+    "robots": [
+      "noindex, follow"
+    ],
+    "x_robots_tag": "noindex",
+    "location": "",
+    "classification": "Excluded noindex utility / error response"
+  },
+  {
+    "url": "https://www.bnbaccelerator.com/bnb-inventory-missing-route-check/",
+    "status": 404,
+    "canonical": [],
+    "robots": [
+      "noindex, follow"
+    ],
+    "x_robots_tag": "",
+    "location": "",
+    "classification": "Excluded noindex utility / error response"
+  }
+]

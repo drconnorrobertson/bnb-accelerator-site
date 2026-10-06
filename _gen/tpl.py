@@ -306,6 +306,12 @@ def breadcrumb_html(trail):
 def page(*, title, description, path, body, extra_schema="", body_class="",
          active=None, transparent=False, og_title=None, og_desc=None):
     """Render a complete page. `path` is the site-root path with trailing slash."""
+    from buyer_intent import curated_payload
+    reviewed = curated_payload(path)
+    if reviewed:
+        title, description, body = (reviewed[k] for k in ('title', 'description', 'body'))
+        extra_schema, body_class, active = (reviewed[k] for k in ('extra_schema', 'body_class', 'active'))
+        og_title, og_desc, transparent = title, description, False
     url = SITE + path
     og_title = og_title or title
     og_desc = og_desc or description
