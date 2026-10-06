@@ -50,6 +50,8 @@ def main():
         if probe.get('http_status')==200 and probe.get('live_canonical')!=url:action='Investigate confirmed live canonical mismatch'
         if noindex or probe.get('live_noindex'):action='Investigate actual noindex directive'
         rows.append(dict(url=url,observed_at=evidence['observed_at'],priority=url in priorities,indexing_verdict=inspection.get('verdict','unknown'),indexing_state=inspection.get('indexingState','unknown'),coverage_state=coverage,last_google_crawl=inspection.get('lastCrawlTime','unknown'),inspection_error=error,http_status=probe.get('http_status','not probed'),final_url=probe.get('final_url','not probed'),robots_allows_googlebot=rp.can_fetch('Googlebot',url),source_noindex=noindex,live_noindex=probe.get('live_noindex','not probed'),source_canonical=canonical[0] if len(canonical)==1 else '',live_canonical=probe.get('live_canonical','not probed'),sitemap_included=url in sitemap,inbound_pages=inbound[url],topic_cluster=stage.group(1) if stage else 'review needed',impressions=p['impressions'] if p else 'not returned',clicks=p['clicks'] if p else 'not returned',performance_start=evidence['performance_start'],performance_end=evidence['performance_end'],article_text_present=probe.get('article_text_present','not probed'),probe_error=probe.get('probe_error',''),recommended_action=action))
+    for row in rows:
+        row['observed_at']=inspected.get(row['url'],{}).get('observed_at',row['observed_at'])
     output=ROOT/'_gen/blog-indexing-inventory.csv'
     with output.open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
