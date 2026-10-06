@@ -1,5 +1,12 @@
 # BNB Accelerator Site
 
+For the complete canonical orphan inventory and the contextual-link mapping
+prepared before the next buyer-intent edits, see
+[`docs/internal-linking-plan.md`](docs/internal-linking-plan.md). After building
+the public output, run `python3 _gen/audit_internal_inbound.py --output
+docs/orphan-audit-after` to compare the actual eligible inbound and reachability
+counts. The original `docs/orphan-audit-before` files are the preserved baseline.
+
 Static marketing site for **My BnB Accelerator, LLC**, done-for-you short-term rental acquisition for high-income earners.
 
 Plain HTML/CSS/JS. Two small Python scripts handle asset minification and
