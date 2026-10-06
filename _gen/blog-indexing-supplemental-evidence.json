@@ -11,6 +11,17 @@
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
       "referringUrls": ["https://www.bnbaccelerator.com/blog/str-maximum-offer-price-from-revenue/"]
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/future-booking-calendar-value/",
+      "observed_at": "2026-10-06T23:09:38Z",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": []
     }
   ],
   "note": "Actual URL Inspection API evidence. Indexing of the URL does not confirm receipt of the October 6 replacement body; unreturned performance is not zero."
