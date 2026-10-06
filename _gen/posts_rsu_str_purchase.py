@@ -1,0 +1,66 @@
+"""Prewriting October 6, 2026: 96 = 24/30/14/19/9.
+Query: can I use RSU income to qualify for an STR purchase?
+Current primary Fannie Mae B3-3.3-07 and B3-4.3-01 read; current mortgage
+broker search results establish the real RSU-income question, not volume.
+Whole-site restricted-stock/RSU/equity-compensation inventory reviewed.
+Executive tax timing, employment changes, asset depletion and securities-backed
+down payments are different decisions. This page separates qualifying employment
+income from settled purchase cash and uses a two-price employer-stock stress.
+No approval threshold, stock-sale recommendation or performance claim.
+"""
+import blog
+
+POSTS = [{
+    "slug": "rsu-income-qualify-str-purchase",
+    "title": "Using RSU Income to Qualify for an STR Purchase",
+    "title_tag": "RSU Income for an STR Purchase: Qualification vs Cash",
+    "h1": "Can you use RSU income to qualify for an STR purchase?",
+    "description": "Buying an STR with RSU compensation? Separate lender-accepted income from vested stock and closing cash before setting your offer budget.",
+    "date": "2026-10-06", "category": "STR Buyer Financing",
+    "lead": "Potentially, but the value on an employer's stock-grant dashboard is not your STR mortgage income or your purchase budget. Before making an offer, get the lender's accepted monthly income calculation and independently confirm funds available for down payment, closing, launch and retained cash. A buyer can pass one test and fail the other. <a href=\"/apply/\">Book a call to build an STR shortlist around lender-reviewed RSU income and a documented purchase cash plan</a>.",
+    "sections": [
+        ("Separate three stock numbers before shopping for an STR", [
+            "Start a three-column purchase worksheet: total grant or future award value; the monthly compensation your lender accepts; and assets actually available for the acquisition. Record the evidence and decision date beside each. A compensation presentation is not an underwriting worksheet. Nor does a larger grant establish that money can reach the closing agent before your contract deadline. Treat an unresolved number as unresolved rather than carrying the dashboard total through every column.",
+            "For an applicable agency loan, <a href=\"https://selling-guide.fanniemae.com/sel/b3-3.3-07/restricted-stock-units-and-restricted-stock-employment-income\" rel=\"noopener\">Fannie Mae's restricted-stock employment-income guidance</a> requires vested, unrestricted distributions and excludes restricted-stock sign-on bonuses. Award type affects history and continuance requirements. Documentation includes employment/distribution evidence, vesting schedules, publicly traded status and account statements. Its share-based calculation uses the 200-day average price times pretax vested shares distributed over the latest 24 months, divided by 24; an eligible shorter history may use actual months. Checked October 6, 2026. Have the underwriter apply the complete rule to your facts.",
+            "Do not transfer that method to every portfolio or property-income mortgage. Ask which product is being reviewed, whether it accepts your particular awards and whether the intended STR use and borrower structure are eligible. Disclose the investment purpose accurately. A rule explaining employment income does not, by itself, approve the borrower, property or rental-income assumptions. The <a href=\"/blog/str-mortgage-preapproval-before-property/\">preapproval-before-property guide</a> covers the broader financing screen.",
+        ]),
+        ("Work an income calculation without turning it into an approval promise", [
+            "Illustrative share-income worksheet: suppose an underwriter confirms that the relevant distributions are eligible, with 1,800 pretax shares distributed over 24 months and a $80 documented 200-day average. The simplified calculation is $80 × 1,800 ÷ 24 = $6,000 monthly. It is not the value of the employee's entire award package divided by twelve, and it is not $6,000 of new monthly cash deposited to fund the STR. These hypothetical inputs are not a lender quote or a stock forecast.",
+            "Assume a separate $12,000 monthly salary is accepted and $7,000 of monthly obligations, including the proposed property housing expense, is counted. The simple obligations-to-income screen is $7,000 ÷ $18,000 = 38.89%. With salary alone, it is $7,000 ÷ $12,000 = 58.33%. Neither ratio is an approval threshold. The lender must establish actual income, liabilities, rental treatment, reserves and all applicable conditions. The comparison simply exposes how much this proposed purchase relies on acceptance of the equity compensation.",
+            "Ask for an income worksheet rather than a vague statement that the lender 'does RSUs.' Which distributions were included, what period was used, and what evidence remains outstanding? What changes would require a fresh calculation before closing? If the lender cannot yet accept the compensation, do not instruct an agent to search at the higher hypothetical purchase ceiling. A financing contingency should address the actual purchase; discuss appropriate terms and deadlines with your agent and qualified counsel.",
+        ]),
+        ("Verify closing funds separately from compensation history", [
+            "Fannie Mae's separate <a href=\"https://selling-guide.fanniemae.com/sel/b3-4.3-01/stocks-stock-options-bonds-and-mutual-funds\" rel=\"noopener\">stock-assets guidance</a> permits verified vested stocks as funds, with account ownership and value documented and margin balances deducted. Its liquidation-documentation treatment differs by purpose and asset coverage. Confirm the applicable requirements with the actual lender. Even when loan documentation does not require proof of liquidation, the purchase still needs a practical funding plan for payments that must be made in cash.",
+            "Build a closing-date reconciliation using current holdings, existing cash, any restrictions, transaction timing, amounts already committed elsewhere and adviser-reviewed tax provisions. Ask the broker, lender and closing professional what documents and timing they require. Do not presume a vest, sale, settlement and transfer all happen on one date. Do not treat shares withheld for taxes as shares still available to sell. This is a documentation and timing exercise, not advice to sell employer stock or choose an investment allocation.",
+            "Keep future awards outside the committed cash plan until availability is established. If a contemplated vest is essential to the purchase, show the exact unresolved dependency on the offer worksheet and arrange appropriate protections rather than assuming tomorrow's funds exist today. The lender may accept a compensation history while the buyer still lacks enough spendable money for furnishing, permit-related work or an opening delay. BNB Accelerator's <a href=\"/tools/first-str-purchase-budget/\">purchase-and-launch planner</a> can help expose those additional uses.",
+            "This is different from borrowing against securities. A <a href=\"/blog/securities-backed-str-down-payment/\">securities-backed down payment</a> introduces a separate loan and collateral risk. It is also different from <a href=\"/blog/asset-depletion-loan-buy-str/\">asset-depletion financing</a>, which addresses another income methodology. Do not substitute either structure silently when the original offer assumed accepted employment compensation and unborrowed closing cash.",
+        ]),
+        ("Stress the stock-dependent purchase on two different price measures", [
+            "Illustrative independent cash scenario: a buyer has $100,000 settled cash plus 800 already-held, unrestricted shares assumed available for sale. At a hypothetical $100 spot price, the holdings have $80,000 gross value and combined resources are $180,000 before taxes, transaction costs or other deductions. Suppose the acquisition plan needs $100,000 down, $15,000 closing, $25,000 launch and a $30,000 retained floor: $170,000 total. The apparent $10,000 excess is not yet a net closing cushion.",
+            "At a hypothetical $70 spot price, those same 800 shares are worth $56,000, giving $156,000 before deductions. The plan is $14,000 short of its $170,000 requirement. A lender's approval based on accepted compensation would not repair this funding deficit. Resolve a shortfall with a genuinely available lower-cost purchase or additional documented funds; do not fill it with unvested awards, undisclosed borrowing or anticipated Airbnb bookings.",
+            "The qualification sensitivity is separate. If a later lender worksheet used a $60 200-day average with the same illustrative 1,800-share distribution history, the share-income calculation would be $4,500 monthly. Combined with the assumed salary, $7,000 ÷ $16,500 gives 42.42%. A spot-price move to $70 does not automatically change a 200-day average to $60: these are two independently constructed scenarios. Have the lender refresh actual inputs. This distinction keeps an asset-price shock from being misrepresented as an immediate underwriting formula change.",
+            "Finally, stress the STR itself without salary or future grants making the operating case look profitable. Use conservative revenue, all expenses, actual financing costs and a realistic opening schedule. If employer compensation and acquisition funds both depend on the same stock, ask an independent financial adviser to review the concentration before committing. The <a href=\"/underwriting/downside-scenario/\">property downside framework</a> is the next test, not an assurance that a financed deal will work.",
+        ]),
+        ("Set an offer deadline that both the lender and cash plan can meet", [
+            "Proceed when the lender has reviewed the award documents, confirmed the purchase structure and resolved material income conditions, while the complete cash plan and property downside case remain funded. Renegotiate price or choose a lower-cost candidate if the available resources cannot support both closing and launch. Delay an offer when an essential distribution, liquidation permission or financing decision is unresolved. Reject a purchase that only works by counting the headline grant value as verified income and immediately spendable cash.",
+            "Before submitting an offer, send the lender your award documents, payroll and distribution history, current account evidence, intended STR use, price range and proposed deadline. Request its specific outstanding conditions. Separately give the acquisition team a dated budget showing documented funds, expected transfers, complete uses and money that must remain untouched. Share sensitive payroll and brokerage records only through appropriate secure channels; the acquisition discussion can start with reviewed summaries rather than unnecessary personal identifiers.",
+            "<a href=\"/apply/\">Book a call to compare STR purchase candidates against your accepted compensation, closing-date funds and downside budget</a>. BNB Accelerator can help find, underwrite and coordinate an acquisition, but does not determine lender eligibility or advise on selling stock. This is educational, not individualized lending, securities, legal, tax or investment advice. Consult your lender and qualified independent advisers. All worked figures are illustrative; mortgage approval, investment outcomes and rental results are not guaranteed.",
+        ]),
+    ],
+    "faqs": [
+        ("Is my RSU grant value my STR mortgage income?", "No. Request the actual lender's income worksheet for your awards and proposed STR loan. Keep the grant dashboard separate from accepted monthly compensation and available purchase funds."),
+        ("Can accepted RSU income still leave me short of STR closing cash?", "Yes. An income calculation does not establish that enough spendable funds will reach closing and remain available for launch. Reconcile documented holdings, timing, deductions and all purchase uses separately."),
+        ("Does a falling stock price affect qualification and closing cash identically?", "No. Spot valuation of held shares and a lender's averaged-price income calculation are different measures. Test both using clearly identified inputs and obtain updated lender review when necessary."),
+        ("Should I sell employer stock to buy an STR?", "This guide does not recommend a securities transaction. Have qualified independent advisers review taxes, concentration and your financial position, then compare purchases using a documented funding plan."),
+    ],
+    "related": [
+        '<a href="/blog/buy-str-changing-jobs-before-closing/">Review employment changes before STR closing</a>',
+        '<a href="/financing/conventional-vs-dscr/">Compare available STR financing paths</a>',
+        '<a href="/blog/str-cash-reserves-seasonality/">Retain cash after buying the STR</a>',
+    ],
+    "cta_h": "Buy within verified income and available cash",
+    "cta_p": "Bring the lender-reviewed compensation summary and complete closing-and-launch budget so the STR search fits your actual purchase capacity.",
+}]
+
+if __name__ == "__main__":
+    blog.build(POSTS)
