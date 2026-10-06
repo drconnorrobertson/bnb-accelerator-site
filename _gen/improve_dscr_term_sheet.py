@@ -79,7 +79,7 @@ def main():
         nonlocal count
         c=m.group()
         if '/blog/'+SLUG+'/' not in c:return c
-        count+=1;c=re.sub(r'<h2>.*?</h2>','<h2><a href="/blog/'+SLUG+'/">'+TITLE+'</a></h2>',c,count=1,flags=re.S)
+        count+=1;c=re.sub(r'<h3>.*?</h3>','<h3><a href="/blog/'+SLUG+'/">'+TITLE+'</a></h3>',c,count=1,flags=re.S)
         c=re.sub(r'<p>.*?</p>','<p>'+DESC+'</p>',c,count=1,flags=re.S)
         c=re.sub(r'data-search="[^"]*"','data-search="'+html.escape((TITLE+' '+DESC).lower(),quote=True)+'"',c)
         return re.sub(r'<span>\d+ min read</span>',f'<span>{minutes} min read</span>',c)
