@@ -45,6 +45,8 @@ def verify(slugs):
         assert any(n.get('@type') == 'FAQPage' for n in nodes)
         assert listed.count(url) == 1, (url, listed.count(url))
         assert all(route in hub for hub in hubs), route
+        if slug.startswith('bnb-accelerator-vs-'):
+            assert route in fetch(BASE + '/compare/')[0], ('comparison discovery missing', route)
         for ref in re.findall(r'(?:href|src)="([^"]+)"', html):
             target = urljoin(url, ref)
             parsed = urlparse(target)
