@@ -13,3 +13,5 @@ jobs:
           python-version: '3.12'
       - run: python3 audit_content.py
       - run: node --check assets/main.js
+      - run: node build_public.mjs
+      - run: node test_nonhome_seo.mjs
