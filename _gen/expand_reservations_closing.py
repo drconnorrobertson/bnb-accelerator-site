@@ -43,7 +43,10 @@ BODY = '''<p class="lead">Buying the house does not automatically transfer its A
 <p>For <a href="/blog/buy-str-high-income-large-tax-bill/">high-income buyers with substantial deployable capital</a>, the next step is an evidence-backed offer and opening-cash plan, not assuming booked stays support a tax result. <a href="/apply/">Book a call to compare this STR's documented reservation handoff with a clean-launch acquisition</a>. BNB Accelerator assists within its contracted acquisition scope; independent advisers and the platform determine their respective approvals.</p>
 <p class="small">Primary sources reviewed October 6, 2026. Educational information only, not legal, tax, insurance, lending or personalized investment advice. Worked figures are hypothetical. No permit, booking, payout, tax benefit or return is guaranteed.</p>'''
 
-def main():
+def main(slug=SLUG, title=TITLE, h1=H1, description=DESCRIPTION, body=BODY,
+         search_terms='reservation handoff closing cash',
+         hub_attribute='data-reservation-transition-link', hub_block=None):
+    SLUG, TITLE, H1, DESCRIPTION, BODY = slug, title, h1, description, body
     path = ROOT / 'blog' / SLUG / 'index.html'
     s = path.read_text()
     published = re.search(r'"datePublished":\s*"([^"]+)"', s).group(1)
@@ -81,15 +84,15 @@ def main():
         matches += 1
         c = re.sub(r'(<h3><a[^>]*>).*?(</a></h3>)', lambda z: z.group(1)+html.escape(H1)+z.group(2), c, flags=re.S)
         c = re.sub(r'<p>.*?</p>', '<p>'+DESCRIPTION+'</p>', c, count=1, flags=re.S)
-        c = re.sub(r'data-search="[^"]*"', 'data-search="'+html.escape((H1+' '+DESCRIPTION+' reservation handoff closing cash').lower(), quote=True)+'"', c)
+        c = re.sub(r'data-search="[^"]*"', 'data-search="'+html.escape((H1+' '+DESCRIPTION+' '+search_terms).lower(), quote=True)+'"', c)
         return re.sub(r'<span>\d+ min read</span>', f'<span>{minutes} min read</span>', c)
     a = re.sub(r'<article class="post-card".*?</article>', card, archive.read_text(), flags=re.S)
     assert matches == 1
     archive.write_text(a)
     hub = ROOT / 'blog/buy-str-high-income-large-tax-bill/index.html'
     h = hub.read_text()
-    block = '<p data-reservation-transition-link>Buying an operating property with guests already booked? Use the <a href="/blog/future-reservations-at-closing/">reservation closing ledger and liquidity test</a> to resolve guest duties, payout ownership and costs due before receipts arrive.</p>'
-    h = re.sub(r'<p data-reservation-transition-link>.*?</p>', '', h, flags=re.S)
+    block = hub_block or '<p data-reservation-transition-link>Buying an operating property with guests already booked? Use the <a href="/blog/future-reservations-at-closing/">reservation closing ledger and liquidity test</a> to resolve guest duties, payout ownership and costs due before receipts arrive.</p>'
+    h = re.sub(r'<p '+re.escape(hub_attribute)+r'>.*?</p>', '', h, flags=re.S)
     h = h.replace('<div class="author-box">', block+'\n<div class="author-box">', 1)
     assert block in h
     hub.write_text(h)
