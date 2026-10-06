@@ -15,3 +15,4 @@ jobs:
       - run: node --check assets/main.js
       - run: node build_public.mjs
       - run: node test_nonhome_seo.mjs
+      - run: node test_nonhome_design.mjs

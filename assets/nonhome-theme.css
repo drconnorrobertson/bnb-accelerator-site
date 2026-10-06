@@ -1,0 +1,78 @@
+
+.bnb-theme{--accent:#4267da;--accent-dark:#3453bc;--font-display:Inter,Arial,sans-serif;background:#fff;color:#101828}.bnb-theme h1,.bnb-theme h2,.bnb-theme h3{font-family:Inter,Arial,sans-serif;letter-spacing:-.035em}.bnb-theme .site-header{position:relative;background:#e6ecfb;padding:20px 24px;height:auto;box-shadow:none}.bnb-theme .site-header .wrap{max-width:1170px;background:#fff;border-radius:12px;padding:10px 28px;min-height:70px;box-shadow:0 5px 20px #273d7010}.bnb-theme .logo img{width:130px;height:57px;object-fit:contain}.bnb-theme .nav-link{color:#101828;font-size:.9rem}.bnb-theme .nav-cta{background:#3d5fca;color:white;border:0;border-radius:6px}.bnb-theme .menu-toggle span{background:#101828}.bnb-theme .match-wrap{max-width:1120px;margin:auto;padding:0 24px;text-align:center}.bnb-theme .match-narrow{max-width:850px}.bnb-theme .match-hero{padding:24px 0 60px;background:radial-gradient(ellipse at center,#fff 0%,#edf1fd 55%,#d7e0fa 100%)}.match-trust{display:inline-flex;align-items:center;gap:14px;font-size:.9rem;color:#202936;margin:0 0 24px}.match-stars{background:#00a67c;color:white;padding:2px 9px;letter-spacing:3px}.bnb-theme .match-hero h1{font-size:clamp(2.15rem,3.6vw,3rem);font-weight:800;line-height:1.12;max-width:1040px;margin:0 auto 16px}.match-hero h1 span{color:#4267da}.match-qualification{font-size:1.08rem;line-height:1.6;margin:0 auto 28px;max-width:980px}.match-video{max-width:760px;margin:28px auto;aspect-ratio:16/9;border-radius:22px;overflow:hidden;background:#111827;box-shadow:0 12px 30px #14265c12}.match-video iframe{width:100%;height:100%;display:block;border:0}.match-button{display:inline-flex;gap:28px;align-items:center;justify-content:center;background:#3d5fca;color:#fff!important;padding:16px 34px;font-size:1.12rem;font-weight:750;border-radius:7px;text-transform:uppercase;box-shadow:0 4px 10px #273d7030;text-decoration:none!important;transition:background .2s,transform .2s}.match-button:hover{background:#2e4db0;transform:translateY(-2px)}.match-button:focus-visible,.bnb-theme summary:focus-visible{outline:3px solid #122e87;outline-offset:5px}.match-pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;max-width:820px;margin:42px auto}.match-pillars article>span{display:block;font-size:2.5rem;color:#4267da}.bnb-theme .match-pillars h2{font-size:1rem;text-transform:uppercase;font-weight:800;letter-spacing:.08em;margin:8px 0}.match-pillars p{font-size:1rem;line-height:1.5;margin:0}.match-intro{font-size:clamp(1.15rem,2vw,1.5rem);line-height:1.6;font-weight:600;max-width:1000px;margin:40px auto 0}.bnb-theme .match-section{padding:72px 0}.match-tint{background:#f0f4ff}.match-kicker{font-size:.8rem;font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:#4267da;margin:0 0 14px}.bnb-theme .match-section h2{font-size:clamp(1.8rem,3.2vw,2.6rem);line-height:1.2;font-weight:800;margin:0 auto 18px}.match-subtitle{font-size:1.22rem;line-height:1.5;max-width:850px;margin:0 auto 26px}.match-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin:36px 0}.match-stats strong{display:block;font-size:2.4rem;color:#4267da;font-weight:800}.match-stats span{font-size:.9rem}.match-note{font-size:.83rem;line-height:1.65;color:#546176;margin:24px auto;max-width:900px}.match-note a,.match-deal-list a,.match-text-link{color:#3453bc;text-decoration:underline;text-underline-offset:3px}.match-interviews{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:56px 0 0}.bnb-theme .match-interview h3{font-size:1.13rem;line-height:1.4;min-height:3em;margin:0}.match-interview .match-kicker{font-size:.65rem}.match-interview .match-video{border-radius:12px;margin-bottom:0}.match-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:38px 0}.match-benefit{padding:32px 26px;background:white;border:1px solid #dce4f7;border-radius:14px;text-align:left}.bnb-theme .match-benefit h3{font-size:1.45rem;line-height:1.3;color:#3453bc;margin:0 0 20px}.match-benefit p{font-size:.95rem;line-height:1.75;margin:0 0 16px}.match-benefit p:last-child{margin-bottom:0}.match-deal-list{text-align:left;list-style:none;padding:0;margin:32px 0}.match-deal-list li{padding:18px 22px;margin:0;border-bottom:1px solid #dce4f7;font-size:.94rem;line-height:1.8;overflow-wrap:anywhere}.match-deal-list li:nth-child(odd){background:#f6f8fe}.match-tint .match-deal-list li:nth-child(odd){background:#fff}.bnb-theme details{text-align:left;border-bottom:1px solid #cfd9ef;padding:22px 0}.bnb-theme summary{font-weight:700;font-size:1.05rem;cursor:pointer}.bnb-theme details p{margin:18px 0 0;line-height:1.75}.match-text-link{display:inline-block;margin:24px 0 0;font-weight:650}.match-final{background:#e0e8fc}.bnb-theme .research-links{margin:0 auto;padding:48px 24px}.bnb-theme .footer-bottom{line-height:1.7}
+@media(max-width:1000px){.bnb-theme .nav{gap:14px}.bnb-theme .nav-link{font-size:.8rem}.bnb-theme .site-header .wrap{padding:10px 16px}.match-interviews{grid-template-columns:1fr}.match-interview .match-video{max-width:660px}.bnb-theme .match-interview h3{min-height:0}.match-benefits{gap:16px}.match-benefit{padding:24px 20px}}
+@media(max-width:820px){.bnb-theme .site-header{padding:12px 16px}.bnb-theme .site-header .wrap{min-height:66px}.bnb-theme .nav[data-open="true"]{background:#fff;top:90px}.bnb-theme .nav-link{font-size:1.1rem}.bnb-theme .match-hero{padding-top:26px}.match-trust{font-size:.75rem;gap:8px}.match-qualification{font-size:.95rem}.match-benefits{grid-template-columns:1fr}.bnb-theme .match-section{padding:52px 0}.match-pillars{gap:16px}.match-pillars p{font-size:.85rem}.bnb-theme .match-pillars h2{font-size:.8rem}.match-stats{grid-template-columns:repeat(2,1fr)}.match-video{border-radius:12px}.match-deal-list li{padding:16px 12px}.bnb-theme .match-wrap{padding:0 20px}}
+@media(prefers-reduced-motion:reduce){.match-button{transition:none}}
+
+
+.bnb-application{width:min(760px,calc(100% - 28px));max-height:92svh;border:8px solid #d0dae5;border-radius:5px;padding:28px 22px;background:#fff;overflow:auto;color:#101828;box-shadow:0 20px 80px #0004}.bnb-application::backdrop{background:#0008}.home .bnb-application h2{font:800 clamp(1.2rem,2.3vw,1.65rem)/1.3 Inter,Arial,sans-serif;text-align:center;margin:4px 35px 12px}.bnb-close{position:absolute;right:8px;top:8px;border:0;border-radius:50%;background:#202936;color:#fff;width:30px;height:30px;cursor:pointer;font-size:22px;line-height:1}.bnb-application iframe{display:block;width:100%;height:600px;border:0;margin:18px auto 0;background:#fff}.bnb-application[data-step="schedule"]{width:min(1000px,calc(100% - 28px))}.bnb-application[data-step="schedule"] iframe{height:850px}.bnb-application .match-note{text-align:center;margin:12px auto 0}.bnb-scheduler-help{font-size:.8rem;text-align:center;color:#546176}.bnb-scheduler-help a{color:#3453bc;text-decoration:underline}@media(max-width:640px){.bnb-application{padding:22px 8px;border-width:5px}.bnb-application iframe{height:670px}.bnb-application[data-step="schedule"] iframe{height:1000px}}
+
+/* Homepage design tokens applied to the existing editorial and tool layouts. */
+.bnb-theme{--primary:#4267da;--primary-dark:#3453bc;--primary-light:#728de3;--accent:#4267da;--accent-dark:#3453bc;--bg:#f0f4ff;--text:#101828;--text-muted:#546176;--border:#dce4f7;--font-display:Inter,Arial,sans-serif;--ink:#101828;--paper:#fff;--cream:#f0f4ff;--lime:#4267da;--mint:#4267da;--line:#dce4f7;--muted:#546176;--blue:#4267da;--shadow:0 4px 16px #14265c12;font-family:Inter,Arial,sans-serif}
+.bnb-theme h1,.bnb-theme h2,.bnb-theme h3,.bnb-theme h4{font-family:Inter,Arial,sans-serif;letter-spacing:-.035em}
+.bnb-theme .site-header{position:relative!important;top:auto;z-index:50;border:0;background:#e6ecfb!important;backdrop-filter:none}
+.bnb-theme .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.bnb-theme .logo{flex-shrink:0}.bnb-theme .logo img{display:block}
+.bnb-theme .nav{display:flex;gap:22px;align-items:center}
+.bnb-theme .nav-link{white-space:nowrap}.bnb-theme .nav-cta{padding:11px 20px}
+.bnb-theme .hero,.bnb-theme .booking-page{background:radial-gradient(ellipse at center,#fff 0%,#edf1fd 55%,#d7e0fa 100%);color:#101828;padding-top:44px;padding-bottom:60px;margin-top:0}
+.bnb-theme .hero:before,.bnb-theme .hero:after{display:none}
+.bnb-theme .hero h1{color:#101828;font-size:clamp(2.15rem,3.6vw,3rem);font-weight:800;line-height:1.12;max-width:1040px}
+.bnb-theme .hero h2,.bnb-theme .hero h3,.bnb-theme .hero p,.bnb-theme .hero strong,.bnb-theme .hero .lead,.bnb-theme .hero-sub{color:#101828}
+.bnb-theme .hero-inner{max-width:1040px;margin-left:auto;margin-right:auto;text-align:center}
+.bnb-theme .hero h1,.bnb-theme .hero .lead,.bnb-theme .hero-sub{margin-left:auto;margin-right:auto}
+.bnb-theme .hero .btn-row,.bnb-theme .hero .article-meta{justify-content:center}
+.bnb-theme .hero a:not(.btn),.bnb-theme .breadcrumb a,.bnb-theme .crumb a{color:#3453bc}
+.bnb-theme .breadcrumb,.bnb-theme .crumb,.bnb-theme .article-meta,.bnb-theme .breadcrumb span{color:#546176}
+.bnb-theme .eyebrow,.bnb-theme .kicker,.bnb-theme .research-kicker{color:#4267da}
+.bnb-theme .btn{border-radius:7px;font-weight:750}
+.bnb-theme .btn-primary,.bnb-theme .btn-accent{background:#3d5fca;color:#fff;border-color:#3d5fca;box-shadow:0 4px 10px #273d7020}
+.bnb-theme .btn-primary:hover,.bnb-theme .btn-accent:hover{background:#2e4db0;border-color:#2e4db0}
+.bnb-theme .hero .btn-ghost-light,.bnb-theme .cta-band .btn-ghost-light{color:#3453bc;border-color:#3453bc;background:transparent}
+.bnb-theme .cta-band{background:#e0e8fc;color:#101828}
+.bnb-theme .cta-band h2,.bnb-theme .cta-band p,.bnb-theme .cta-band strong{color:#101828}
+.bnb-theme .card,.bnb-theme .market-card,.bnb-theme .blog-card,.bnb-theme .tool-card,.bnb-theme .compare-card{border-color:#dce4f7;border-radius:14px;background:#fff;box-shadow:0 4px 16px #14265c08}
+.bnb-theme .card:before,.bnb-theme .card:after{border-color:#4267da}
+.bnb-theme .article{line-height:1.8}.bnb-theme .article h2{font-weight:800}
+.bnb-theme .article a:not(.btn),.bnb-theme .research-content a:not(.btn){color:#3453bc;text-decoration:underline;text-underline-offset:3px}
+.bnb-theme .library-nav{padding:16px 24px;border-bottom:1px solid #dce4f7;background:#fff;display:flex;justify-content:center;gap:24px;flex-wrap:wrap;font-size:.9rem}
+.bnb-theme .library-note{padding:28px 24px;background:#f0f4ff;color:#546176;font-size:.85rem;line-height:1.7}
+.bnb-theme .library-note .wrap{max-width:1120px}
+.bnb-theme .research-content{font-family:Inter,Arial,sans-serif;max-width:900px;padding:48px 24px;line-height:1.8}
+.bnb-theme .site-footer{background:#131b31;color:#c9d2e4}
+.bnb-theme .site-footer h2,.bnb-theme .site-footer strong,.bnb-theme .site-footer .logo-text{color:#fff}
+.bnb-theme .site-footer a{color:#c9d2e4}.bnb-theme .site-footer a:hover{color:#fff}
+.bnb-theme .site-footer .logo-mark{background:#4267da;color:#fff}
+.bnb-theme .site-footer .footer-col h2{font-size:.85rem;letter-spacing:.06em}
+
+
+.bnb-theme .site-footer .footer-bottom{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+.bnb-theme .site-footer address{font-style:normal}
+.bnb-theme .bnb-application h2{font-size:1.55rem;color:#101828}
+.bnb-theme .bnb-application .match-note{font-size:.83rem;line-height:1.65;color:#546176;text-align:center}
+.bnb-theme input:focus,.bnb-theme select:focus,.bnb-theme textarea:focus{outline-color:#4267da}
+@media(max-width:1000px){.bnb-theme .nav{gap:14px}.bnb-theme .nav-link{font-size:.8rem}}
+@media(max-width:820px){.bnb-theme .menu-toggle{display:flex}.bnb-theme .nav{display:none}.bnb-theme .nav[data-open="true"]{display:flex;position:fixed;inset:90px 0 0;background:#fff;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:12px;padding:28px;overflow-y:auto;z-index:100}.bnb-theme .nav-link{font-size:1.1rem}.bnb-theme .nav-cta{text-align:center}.bnb-theme .hero{padding:28px 0 44px}.bnb-theme .library-nav{justify-content:flex-start;gap:16px}}
+@media(min-width:821px){.bnb-theme .menu-toggle{display:none}}
+@media(max-width:480px){.bnb-theme .site-footer .footer-bottom{display:block}.bnb-theme .site-footer address{margin-top:16px}.bnb-theme .hero h1{overflow-wrap:anywhere}}
+.bnb-theme .hero>.wrap{text-align:center}.bnb-theme .hero .lede{max-width:850px;margin-left:auto;margin-right:auto;font-size:1.08rem;line-height:1.6;color:#101828}
+.bnb-theme .hero .wrap:after{display:none}.bnb-theme .hero-actions,.bnb-theme .chips{justify-content:center}
+.bnb-theme .button{background:#3d5fca;border-color:#3d5fca;color:#fff!important;border-radius:7px;padding:14px 24px;box-shadow:0 4px 10px #273d7020}
+.bnb-theme .button.secondary{background:transparent;color:#3453bc!important;border-color:#3453bc;box-shadow:none}
+.bnb-theme .result{background:#f0f4ff;border:1px solid #dce4f7;color:#101828}.bnb-theme .result strong{color:#4267da}
+.bnb-theme .bg-dark{background:#e0e8fc;color:#101828}.bnb-theme .bg-dark h1,.bnb-theme .bg-dark h2,.bnb-theme .bg-dark h3,.bnb-theme .bg-dark p,.bnb-theme .bg-dark strong,.bnb-theme .bg-dark .lead{color:#101828}
+.bnb-theme .bg-dark .btn-ghost-light{color:#3453bc;border-color:#3453bc}
+.bnb-theme .site-header .nav{padding:0;margin:0;max-width:none}
+@media(max-width:820px){.bnb-theme .site-header .nav[data-open="true"]{padding:28px}}
+body.bnb-theme .hero,body.bnb-theme .hero.hero-page{background:radial-gradient(ellipse at center,#fff 0%,#edf1fd 55%,#d7e0fa 100%);color:#101828;padding:44px 0 60px;margin:0;overflow:hidden}
+body.bnb-theme .hero .eyebrow{color:#4267da}
+body.bnb-theme .hero h1{color:#101828;max-width:1040px;font-size:clamp(2.15rem,3.6vw,3rem);font-weight:800;line-height:1.12}
+body.bnb-theme .hero .article-meta{color:#546176;border:0;padding-bottom:0}
+body.bnb-theme .cta-band{background:#e0e8fc;color:#101828;margin-top:0}
+body.bnb-theme .cta-band .btn-ghost-light{color:#3453bc;border-color:#3453bc}
+@media(max-width:820px){body.bnb-theme .hero,body.bnb-theme .hero.hero-page{padding:28px 0 44px}}
+.bnb-theme .site-footer .footer-proof strong{color:#4267da}
+.bnb-theme .calc-results{background:#f0f4ff;color:#101828;border:1px solid #dce4f7}
+.bnb-theme .calc-results h2,.bnb-theme .calc-results .spec-list .v,.bnb-theme .calc-results .result-banner strong{color:#101828}
+.bnb-theme .calc-results .spec-list .k{color:#546176}.bnb-theme .calc-results .spec-list .v.green{color:#4267da}
+.bnb-theme .calc-results .spec-list li{border-color:#dce4f7}.bnb-theme .calc-results .result-banner{background:#fff;border-color:#dce4f7;color:#546176}
