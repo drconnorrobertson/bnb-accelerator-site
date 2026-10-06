@@ -50,6 +50,8 @@ def read_minutes(post):
 
 
 def render_post(post):
+    from buyer_evidence import curated_post
+    post = curated_post(post)
     slug = post["slug"]
     path = f"/blog/{slug}/"
     url = tpl.SITE + path
@@ -62,7 +64,8 @@ def render_post(post):
         tpl.breadcrumb_schema(trail),
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.article_schema(
-        post["h1"], post["description"], url, post["date"], section=post["category"]
+        post["h1"], post["description"], url, post["date"],
+        modified=post.get("modified"), section=post["category"]
     ) + "\n" + tpl.faq_schema(post["faqs"])
 
     body = f"""
@@ -73,7 +76,7 @@ def render_post(post):
         <span class="eyebrow">{post["category"]}</span>
         <h1>{post["h1"]}</h1>
         <div class="article-meta">
-          <span>Published {fmt_date(post["date"])}</span><span>&middot;</span><span>{mins} min read</span>
+          <span>Published {fmt_date(post["date"])}</span>{'<span>&middot;</span><span>Updated ' + fmt_date(post['modified']) + '</span>' if post.get('modified') else ''}<span>&middot;</span><span>{mins} min read</span>
         </div>
       </div>
     </div>
