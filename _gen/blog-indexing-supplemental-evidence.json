@@ -1,6 +1,17 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-partnership-structure/",
+      "observed_at": "2026-10-06T23:49:23Z",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": []
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-appraisal-income-approach/",
       "observed_at": "2026-10-06T23:45:54Z",
       "verdict": "NEUTRAL",
