@@ -20,6 +20,9 @@ def main():
     evidence=json.loads((ROOT/'_gen/blog-indexing-evidence-2026-10-06.json').read_text())
     priorities=evidence['priority_urls'];perf={x['page']:x for x in evidence['performance_pages']}
     inspected={x['url']:x for x in evidence['inspection_results']}
+    supplemental=ROOT/'_gen/blog-indexing-supplemental-evidence.json'
+    if supplemental.exists():
+        inspected.update({x['url']:x for x in json.loads(supplemental.read_text())['inspection_results']})
     sitemap={html.unescape(x) for x in re.findall(r'<loc>(.*?)</loc>',(ROOT/'public/sitemap-blog.xml').read_text())}
     inbound=Counter()
     for path in (ROOT/'public').rglob('index.html'):
