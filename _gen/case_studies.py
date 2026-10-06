@@ -752,7 +752,8 @@ def records():
     for did, (slug, name, city, category, prop_type, thesis) in DEAL_PAGES.items():
         d = DEALS[did]
         out.append(deal_record(slug, name, city, category, prop_type, thesis, d))
-    return out
+    from case_evidence import review_record
+    return [review_record(record) for record in out]
 
 
 def deal_record(slug, name, city, category, prop_type, thesis, d):
@@ -831,6 +832,9 @@ def price_num(text):
 
 def deal_panel(r):
     """Entry cost and return, straight from the tracker."""
+    if r.get("evidence_reviewed"):
+        from case_evidence import acquisition_panel
+        return acquisition_panel(r, usd)
     ds = r["deals"]
     if not ds:
         return ""
@@ -867,6 +871,8 @@ def deal_panel(r):
 
 def tax_panel(r):
     """Illustrative cost segregation position on the purchase price."""
+    if r.get("evidence_reviewed"):
+        return ""
     if not r["deals"]:
         return ""
     # Illustrate against the price this page leads with, not the tracker's,
@@ -908,7 +914,10 @@ def big_numbers(r):
         seen.add(v)
         out.append((k, v, green))
 
-    if ds and not r.get("properties"):
+    if r.get("evidence_reviewed"):
+        for k, v, g in r["metrics"]:
+            add(k, v, g)
+    elif ds and not r.get("properties"):
         # Retain the recorded source percentage; its denominator is unresolved.
         coc = (f'{ds[0]["coc"]:.2f}%' if len(ds) == 1 else
                f'{sum(d["coc"] for d in ds) / len(ds):.2f}% avg')
@@ -929,13 +938,15 @@ def big_numbers(r):
             # rather than leading the page with "Not published".
             for k, v, g in r["metrics"]:
                 add(k, v, g)
-    if price:
+    if price and not r.get("evidence_reviewed"):
         add("Illustrative tax reduction", usd(price * COST_SEG_PCT * MARGINAL_RATE), True)
 
     cells = "".join(
         f'<div class="big-stat"><span class="big-stat-val{" green" if g else ""}">'
         f'{tpl.esc(v)}</span><span class="big-stat-key">{tpl.esc(k)}</span></div>'
         for k, v, g in out[:5])
+    if r.get("evidence_reviewed"):
+        return f'      <div class="big-stats">{cells}</div><p class="performance-basis-note"><strong>Evidence reviewed October 6, 2026:</strong> {r["evidence_note"]}</p>'
     return f'      <div class="big-stats">{cells}</div>' + '<p class="performance-basis-note"><strong>Return basis unresolved:</strong> Tracker cash-flow figures are not established here as actual full-year results. Reporting periods, complete expense definitions and cash-investment denominators need confirmation. Recorded cash-on-cash percentages may not reconcile with the entry costs shown; treat them as source-reported fields, not independently verified comparable returns. <a href="/guides/reading-str-case-study-results/">Check the evidence and calculation basis</a>.</p>'
 
 
@@ -1034,7 +1045,8 @@ def render_landing(r, all_recs):
         tpl.breadcrumb_schema([(n, p) for n, p in trail]),
         tpl.ORG_SCHEMA,
     ) + "\n" + tpl.article_schema(
-        r["headline"], r["summary"], url, PUBLISHED, section="Client Case Study"
+        r["headline"], r["summary"], url, PUBLISHED,
+        modified=r.get("evidence_reviewed"), section="Client Case Study"
     ) + "\n" + tpl.faq_schema(r["faqs"])
 
     faq_items = "\n".join(
@@ -1090,8 +1102,8 @@ def render_landing(r, all_recs):
     </div>
   </section>
 {tpl.cta_band(
-    "Want numbers like these on your own deal?",
-    "One call. We will tell you what your income, timeline and tax position can actually buy.",
+    "Review the evidence for your own purchase" if r.get("evidence_reviewed") else "Want numbers like these on your own deal?",
+    "Bring the property, budget and unresolved diligence questions to a buyer strategy call." if r.get("evidence_reviewed") else "One call. We will tell you what your income, timeline and tax position can actually buy.",
     ("/apply/", "Book a Call"),
     ("/case-studies/", "See all deals"))}"""
 
@@ -1170,7 +1182,7 @@ def render_index(recs):
         """    {
       "@type": "CollectionPage",
       "name": "BNB Accelerator Case Studies",
-      "description": "Documented client outcomes from done-for-you short-term rental acquisitions.",
+      "description": "Company-published acquisition and operating stories, with source and reporting limits.",
       "url": "https://www.bnbaccelerator.com/case-studies/",
       "isPartOf": { "@id": "https://www.bnbaccelerator.com/#website" }
     }""",
@@ -1191,9 +1203,9 @@ def render_index(recs):
       {tpl.breadcrumb_html(trail)}
       <div class="hero-inner">
         <span class="eyebrow">Client Results</span>
-        <h1>Actual properties. Actual numbers.</h1>
-        <p class="hero-sub">{n} client deals, each with its own page: what they paid, what it
-        cost to get in, and what it returns.</p>
+        <h1>Published acquisition and operating stories.</h1>
+        <p class="hero-sub">{n} selected company-published records. Check each page for what
+        the source establishes and which costs, periods or return definitions remain unresolved.</p>
         <div class="btn-row">
           <a class="btn btn-accent btn-lg" href="/apply/">Book a Call</a>
           <a class="btn btn-ghost-light btn-lg" href="/deals/">Deal tracker</a>
@@ -1242,7 +1254,7 @@ def render_index(recs):
     return tpl.page(
         title=f"Case Studies (2026): {n} Real BNB Accelerator Client Deals",
         description=(f"{n} documented BNB Accelerator client deals, each with its own page: "
-                     f"purchase price, entry cost, annual cash flow and cash-on-cash return, "
+                     f"acquisition facts, reported operating milestones and evidence limits, "
                      f"by market."),
         path="/case-studies/",
         body=body,

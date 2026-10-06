@@ -115,6 +115,27 @@ gallery.
 
 ## Generators
 
+The reviewed buyer cohort uses `_gen/buyer_evidence.py` through the blog and
+pillar renderers. `_gen/case_evidence.py` applies the public-evidence limits to
+Adam's Florida Panhandle and Ashley/Billy's Fort Walton Beach records without
+changing the original tracker fields. These reviewed sources take precedence
+when an older generator renders the same route.
+
+To refresh only those existing pages and the case-study hub, preserving the
+current shared design and publication dates:
+
+```sh
+python3 _gen/refresh_buyer_evidence.py
+python3 _gen/test_buyer_evidence.py
+python3 audit_content.py
+python3 _gen/audit_scenarios.py
+node build_public.mjs
+```
+
+See [the review evidence and unresolved decisions](docs/buyer-evidence-review.md).
+Do not restore a definitive client return or choose a corrected entry total
+without dated source records establishing the period, expenses and denominator.
+
 `_gen/` is the source of truth for active generated sections. Regenerating is
 cheaper than hand-editing hundreds of files, and it is how the footer, the schema
 graph and the site index stay consistent.

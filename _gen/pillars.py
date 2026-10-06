@@ -65,6 +65,16 @@ def guide(*, slug, parent, parent_name, title, h1, eyebrow, description, lead,
                "Thirty minutes tells you whether the strategy fits before you look at a single property.")):
     """Render a long-form guide page under `parent` (a path like '/financing/')."""
     path = f"{parent}{slug}/" if slug else parent
+    from buyer_evidence import GUIDES, RELATED, REVIEWED
+    reviewed = GUIDES.get(path)
+    if reviewed:
+        read_min = 6
+        title, h1, eyebrow = (reviewed[k] for k in ("title", "h1", "eyebrow"))
+        description, lead = reviewed["description"], reviewed["lead"]
+        sections, faqs = reviewed["sections"], reviewed["faqs"]
+        related = [item for item in RELATED if path not in item]
+        cta = ("Review the purchase before committing capital",
+               "Bring the property, available cash and unresolved diligence questions to a buyer strategy call.")
     url = tpl.SITE + path
     trail = [("Home", "/")]
     if slug:
@@ -77,7 +87,8 @@ def guide(*, slug, parent, parent_name, title, h1, eyebrow, description, lead,
     schema = tpl.graph(
         tpl.breadcrumb_schema(trail),
         tpl.ORG_SCHEMA,
-    ) + "\n" + tpl.article_schema(h1, description, url, PUB, section=section_name) \
+    ) + "\n" + tpl.article_schema(h1, description, url, PUB,
+                                modified=REVIEWED if reviewed else None, section=section_name) \
       + "\n" + tpl.faq_schema(faqs)
 
     body = f"""
@@ -88,7 +99,7 @@ def guide(*, slug, parent, parent_name, title, h1, eyebrow, description, lead,
         <span class="eyebrow">{eyebrow}</span>
         <h1>{h1}</h1>
         <div class="article-meta">
-          <span>Updated August 2026</span><span>&middot;</span><span>{read_min} min read</span>
+          <span>Updated {'October 6, 2026' if reviewed else 'August 2026'}</span><span>&middot;</span><span>{read_min} min read</span>
         </div>
       </div>
     </div>
