@@ -16,3 +16,4 @@ jobs:
       - run: node build_public.mjs
       - run: node test_nonhome_seo.mjs
       - run: node test_nonhome_design.mjs
+      - run: node test_blog_buyer_intent.mjs

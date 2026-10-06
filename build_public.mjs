@@ -7,6 +7,7 @@ import { normalizePerformanceDisclosures } from './performance_disclosures.mjs';
 import { addMetaPixel } from './meta_pixel.mjs';
 import { normalizeNonhomeSeo } from './nonhome_seo.mjs';
 import { normalizeNonhomeDesign } from './nonhome_design.mjs';
+import { optimizeBlogBuyerIntent } from './blog_buyer_intent.mjs';
 const root = process.cwd();
 const out = join(root, 'public');
 const publicExtensions = new Set(['.html', '.css', '.js', '.svg', '.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.eot', '.pdf', '.mp4', '.webm']);
@@ -25,7 +26,7 @@ async function walk(directory) {
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {
-    await writeFile(target, addMetaPixel(normalizePerformanceDisclosures(normalizeResourceLinks(normalizeNonhomeDesign(normalizeNonhomeSeo(await readFile(source, 'utf8'), path), path)), path)));
+    await writeFile(target, addMetaPixel(normalizePerformanceDisclosures(normalizeResourceLinks(normalizeNonhomeDesign(optimizeBlogBuyerIntent(normalizeNonhomeSeo(await readFile(source, 'utf8'), path), path), path)), path)));
   } else {
     await copyFile(source, target);
   }
