@@ -1,6 +1,18 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/reading-a-dscr-term-sheet/",
+      "observed_at": "2026-10-06T23:22:30Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-27T02:06:03Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": ["https://www.bnbaccelerator.com/blog/second-home-loan-rental-intent/"]
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/new-listing-ramp-underwriting/",
       "observed_at": "2026-10-06T23:03:40Z",
       "verdict": "PASS",
