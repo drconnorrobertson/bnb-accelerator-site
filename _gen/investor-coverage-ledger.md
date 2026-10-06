@@ -34,3 +34,7 @@ Continue the existing scheduled publishing effort through these reviews and genu
 
 ## Editorial quality pass, October 6
 A source scan flagged 99 articles containing repeated-template markers. These markers require body review; they do not establish exclusion, duplicate intent or a reason to remove a URL. Rewrote delayed-financing-cash-str with lender-specific evidence, current Fannie Mae guidance and an original smaller/no-refinance cash bridge. Preserved its original URL and publication date, recorded the actual modification date, and aligned archive metadata and sitemap lastmod. The remaining 98 candidates are in _gen/article_quality_review_queue.csv. Work through the buyer-relevant financing/acquisition pages first, scaled to thorough source checking. Do not mass-remove or mechanically paraphrase the queue.
+
+## October 6: remaining 98-article editorial cleanup
+
+Removed repeated worksheet/register filler from all 98 flagged articles. Retained their individual investor questions, evidence requirements and scenarios, added distinct transaction checks, corrected calendar denominators, utility units, unsupported contingency claims and jurisdiction examples. Preserved URLs and publication dates; removed obsolete FAQ schema and updated actual modification dates. Six primary-reference links and four explicit source-backed clarifications added. These are concise decision notes, not claims that every article has received legal or tax professional review. Queue is now empty; additional expansion should follow measured search gaps.
