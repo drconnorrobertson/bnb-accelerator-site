@@ -1,0 +1,19 @@
+# Existing blanket-financing guide: substantive review
+
+October 7, 2026. Existing URL: `/blog/blanket-loan-vs-individual-mortgages-str/`. Not a new expansion page. Complete original body and four FAQs reviewed, along with the five complete neighboring borrower/portfolio bodies recorded in `_gen/borrower-portfolio-overlap-review.md`. Retain this intent owner rather than publish another generic cross-collateral or signer-release page.
+
+Primary pages read again October 7:
+
+- https://visiolending.com/lending-process/ — entity-owner guarantee example explicitly provider-specific, not universal liability advice.
+- https://www.corevestfinance.com/loan-types/rental-portfolio-loans — multi-property description, term options and recourse choices; no approval, advertised leverage, release formula or eligibility inference.
+- https://www.corevestfinance.com/loan-types/short-term-rental-loans — multi-property thirty-year description demonstrates why a universal short-balloon assertion is unsupported. Product descriptions differ; actual documents govern. No reliance on old third-party release-percentage reports.
+
+Removed categorical separate-loan default isolation, universally easier independent sales, unsupported typical release percentages/terms and the claim long fixed debt removes all timing risk. Retained acquisition structure, consolidation, written lender comparison, liability review and exit questions. Added six-row document register and distinct original cash/qualification example. All amounts/tests are hypothetical, not either lender's program or client results.
+
+Arithmetic reviewed: 400,000−24,000−260,000=116,000; 400,000−24,000−300,000−5,000=71,000. Difference45,000 is available-cash difference, not investment loss. Against95,000 next-purchase input,21,000 headroom versus24,000 shortfall before omitted tax/obligations. Blanket900,000−300,000=600,000 only under expressly assumed principal treatment. 72,000/60,000=1.20; fictional1.25 test at unchanged debt service needs75,000 income,3,000 gap. No inferred loan-payment change or promised release/refinance.
+
+Preserved September24 original publication, URL, H1, existing organization authorship and conversion flow. Meaningful October7 modification,1540words/seven-minute estimate, four new visible/schema-matched FAQs. Existing FAQ anchor retained; original body had no other section IDs. Archive has742cards: exactly one target card changed and all non-card bytes identical. Blog sitemap target truthful lastmod advanced from October1 to October7. Added public high-income hub link and aligned site-index label, no new URL or changed counts.
+
+Fresh actual URL Inspection: NEUTRAL / Discovered - currently not indexed, no reported crawl, unspecified robots/fetch/indexing states, no referring URLs returned. This is discovery/exclusion evidence, not a diagnosed technical or content cause. Serving verification and submission outcomes are recorded after publication separately.
+
+Required build, buyer-intent, nonhome SEO/design, preclosing, precall, full content audit and similarity checks required before push. Similarity742pages/741pairs max0.011. Entire public diff and this scoped renderer reviewed. Protected source homepage SHA25658db91a9ec1bd726f5d6d68052208b9153d04eecd60de82e723725e6bf2ee7e2; built SHA2565a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484. No homepage/assets/shared module edits. No new financing promise or professional legal/tax review claimed.
