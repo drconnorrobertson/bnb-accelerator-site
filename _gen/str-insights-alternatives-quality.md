@@ -1,0 +1,11 @@
+# STR Insights alternatives — October 7 review
+
+Existing canonical owner, not a new guide or 509 addition. Complete source HTML/schema and adjacent service-tier guide reviewed; retain alternatives-versus-contract-guide distinction. Existing direct comparison stays linked. Competitive-brief and content-creation skills guided current-source research, buyer-fit framing and original decision support, not unsupported weakness/ranking claims.
+
+Primary public materials checked October 7: STR Insights homepage and introduction, STR Search go.strsearch.com/1, The Short Term Shop homepage, Rabbu homepage, Awning how-it-works. STR Search www fetch failure is not a site defect; accessible primary campaign page supports only property matching/analysis description, not guaranteed outcomes. No provider result figures, review scores, quoted fees or superiority adopted. STR Insights descriptions summarized below 200 words per source; advertising is not a signed scope. No firsthand testing or executed BNB contract reviewed; BNB inclusions explicitly contingent on signed agreement.
+
+Added fair purchase-path alternatives, task/fee-trigger/exclusion/decision-right register and hypothetical complete capital comparison. Independent arithmetic: 600000*0.25=150000;150000+18000+35000+12000+30000=245000;245000+8000+14000=267000;245000+18000=263000;267000-260000=7000;263000-260000=3000. No provider-price attribution, double-counted launch cost or tax benefit assumed available.
+
+Original October1 publication, H1, title, author, URL and conversion flow preserved; dateModified and sole core sitemap entry updated October7. No FAQ schema previously present, none invented. No new URLs, hubs, redirects or blog count change. Core sitemap, not blog sitemap, is relevant. Full scoped diff review and required build/buyer/nonhomeSEO/design/preclosing/precall/content checks passed; source/built homepage SHA256 unchanged. Live verification and meaningful sitemap/IndexNow submission required after publish.
+
+Actual Google Inspection this run: NEUTRAL, URL is unknown to Google, no last crawl, unspecified robots/indexing/fetch fields. This is not a confirmed technical barrier, newly indexed result or performance measurement. Keep live eligibility and submission evidence separate.
