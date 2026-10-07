@@ -8,13 +8,13 @@
   "minimum_buyer_relevance": 27,
   "minimum_acquisition_service_fit": 17,
   "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
-  "verified_live_new_pages": 0,
+  "verified_live_new_pages": 1,
   "approved_candidates": [
     {
       "slug": "verify-closing-wire-before-buying-str",
       "editorial_score": [24, 30, 14, 17, 9],
       "total": 94,
-      "status": "Draft rendered; repository validation and live publication completion required before counting",
+      "status": "Published in 28af76f8 and verified live; counted once",
       "publication_date": "2026-10-06"
     }
   ],
@@ -25,11 +25,29 @@
       "provisional_editorial_score": [24, 30, 14, 17, 9],
       "provisional_total": 94,
       "review_brief": "_gen/closing-wire-verification-review-brief.md",
-      "counted_as_published": false
+      "counted_as_published": true
     }
   ],
-  "published": [],
+  "published": [
+    {
+      "slug": "verify-closing-wire-before-buying-str",
+      "url": "https://www.bnbaccelerator.com/blog/verify-closing-wire-before-buying-str/",
+      "content_commit": "28af76f8",
+      "verified_live_at": "2026-10-07T03:51:09Z",
+      "words": 1393,
+      "reading_minutes": 7,
+      "matched_faqs": 4,
+      "internal_targets_verified": 106,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.012,
+      "validation": "Build; buyer-intent; nonhome SEO/design; preclosing; precall; content audit; similarity; scoped diff and homepage protection passed",
+      "indexnow": "HTTP 200 accepted for guide, changed investor hub and archive; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T03:51:32.476Z; pending download",
+      "google_inspection": "Before publication: NEUTRAL / URL is unknown to Google; no reported crawl",
+      "confirmed_indexing": false
+    }
+  ],
   "rejected_or_existing_intents": [],
-  "status": "First distinct intent approved and drafted; live completion pending. No claim that 509 distinct gaps have been established.",
+  "status": "1 of 509 additional new guides validated and live. Remaining 508 are a target, not established qualified gaps or completed pages.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }

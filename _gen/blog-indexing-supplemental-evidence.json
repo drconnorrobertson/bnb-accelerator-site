@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/verify-closing-wire-before-buying-str/",
+      "observed_at": "2026-10-07T03:49:17Z",
+      "observation_time_basis": "Prepublication inspection obtained before this time; not a returned inspection request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T03:51:09Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/verify-closing-wire-before-buying-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 106,
+      "content_commit": "28af76f8",
+      "indexnow_status": "HTTP 200 accepted for three changed canonicals; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T03:51:32.476Z; pending download, not indexing",
+      "caveat": "New URL unknown before publication is not a technical exclusion diagnosis. Live eligibility and submissions do not establish indexing, rankings, clicks or enquiries."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-personal-use-days/",
       "observed_at": "2026-10-07T03:26:31Z",
       "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
