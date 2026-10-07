@@ -425,6 +425,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-revenue-projections/",
+      "content_commit": "79600e2",
+      "verified_live_at": "2026-10-07T13:26:11.627740+00:00",
+      "counted_toward_509": false,
+      "validation": "1781 built-schema words/9min/9matchedFAQs including5preserved checks; all required tests/full scoped diff/math;63live internal links-assets/15inbound/four exact public artifacts/homepage preserved",
+      "submission": "IndexNow3URLsHTTP200/livekeyverified; GSCblog sitemap confirmed13:26:26.286Zpending/zero reported errors/warnings; prior September25indexed crawl not revised indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/what-lenders-do-with-airdna/",
       "content_commit": "45e80d4",
       "verified_live_at": "2026-10-07T13:12:47.017510+00:00",
