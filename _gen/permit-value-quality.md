@@ -1,0 +1,7 @@
+# Permit-value quality review — October 7, 2026
+
+Existing September 23 canonical refreshed, not a new 509 page. Full concise owner and three developed permission/delay neighbors read; their distinct intents retained. Primary Nashville permit-types page read including specified AR2A/R/RS/RM renewal versus nontransfer on sale and March 13 update. Local example is bounded, not nationwide eligibility or a service-area claim.
+
+Original six-input premium register and hypothetical same-property permitted-versus-lawful-alternative comparison. Independently checked 90,000−54,000=36,000; 48,000−26,000=22,000; difference14,000; excluded compliance2,000 gives12,000; 60,000/12,000=5. Half-year6,000 less distinct4,000 work=2,000; not forecast, appraisal or complete return. Separate350,000funds versus275,000allocation including45,000reserve +60,000premium +20,000work=355,000/5,000gap. No guessed probability, perpetual premium, double counting of income capitalization, projected tax cash or unsupported financing assumption.
+
+Required build, buyer pathways, nonhome SEO/design, preclosing keywords, pre-call checks, audit_content and diff checks passed. Similarity746pages/745pairs max0.018. Full four-public-file diff reviewed; original title/H1/publication/author/CTA preserved, metadata/three FAQs/archive search/read time/mod/one sitemap entry aligned. Source and built homepage hashes unchanged. Shared modules/assets/application/scheduling have no diff. Exact live verification and submissions recorded separately after publication.
