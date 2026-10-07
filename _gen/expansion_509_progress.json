@@ -18,6 +18,15 @@
   "verified_live_new_pages": 8,
   "separately_counted_resource_guide_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/guides/str-search-property-match-questions/",
+      "content_commit": "80510388102f10eb78ec247cf9bdb546b732dd04",
+      "verified_live_at": "2026-10-07T17:53:24.518938+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/str-search-signing-live-evidence.json",
+      "validation": "All required checks/full two-public-file diff/independent arithmetic/original October1 publication and four worksheet questions/55 live targets-assets/5 inbound/homepage and shared flow preserved",
+      "submission": "One canonical IndexNowHTTP200;coreXMLconfirmed17:53:36.475Zpending/zero reported errorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/guides/str-service-responsibility-matrix/",
       "content_commit": "f82299df2b535ea7884ffe0a00fa53ad7cd25952",
       "verified_live_at": "2026-10-07T17:12:59.254054+00:00",
