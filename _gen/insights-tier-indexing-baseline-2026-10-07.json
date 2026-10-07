@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-07T18:04:56Z",
+  "url": "https://www.bnbaccelerator.com/guides/str-insights-service-tiers/",
+  "source": "Connected Google Search Console URL Inspection API through GSC Wizard",
+  "first_actual_observation": true,
+  "prior_history": "Previous publishing run checked exhausted 252 stored rows/213 unique URLs and found no matching resource observation.",
+  "verdict": "NEUTRAL",
+  "coverage_state": "Discovered - currently not indexed",
+  "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+  "last_crawl_time": null,
+  "succeeded": 1,
+  "failed": 0,
+  "skipped": 0,
+  "quota_before": {"used": 191, "remaining": 1809, "limit": 2000},
+  "quota_after": {"used": 192, "remaining": 1808, "limit": 2000},
+  "independent_serving_evidence": "_gen/insights-tier-live-evidence.json",
+  "serving_verified_at": "2026-10-07T18:02:46.378674+00:00",
+  "content_commit": "71c6cbdfbee2f4e6a96b07cd6038e79623668866",
+  "limits": "Discovery without a reported crawl is not a diagnosed technical barrier, worsening trend or proof Google received the revision. Separate live HTTP200/Googlebot access/canonical/sitemap/4 inbound evidence remains intact. Submission receipts are not indexing; no fresh search/conversion gains measured.",
+  "action": "Allow discovery time; avoid repeated unchanged submissions and immediate repeat Inspection. Continue independent existing-owner content and distinct-intent review, then revisit on measured indexing cadence.",
+  "public_changes": false,
+  "counted_toward_509": false
+}
