@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/septic-system-roi-short-term-rental/",
+      "observed_at": "2026-10-07T08:08:39Z",
+      "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-06T08:28:18Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/septic-system-roi-short-term-rental/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 120,
+      "content_commit": "0483c425c8beab124d983faa77d1247be36709d0",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T08:08:51.461Z; pending download; zero reported errors/warnings",
+      "caveat": "Prior indexing from Oct6crawl, not receipt of revised guide or performance/conversion gain. One propagation retry passed exact four public artifacts/fourFAQs/120internal and55independenttargets/protected homepage. No authenticated VercelREADY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/septic-system-buying-short-term-rental/",
       "observed_at": "2026-10-07T08:00:53Z",
       "observation_time_basis": "All production checks completed by this time; actual URL Inspection obtained before publication",
