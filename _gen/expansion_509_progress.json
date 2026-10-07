@@ -669,6 +669,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-vs-real-estate-syndications/",
+      "content_commit": "604f8bf679037a528e10f35350dfafc9097f5e91",
+      "verified_live_at": "2026-10-07T23:26:00.931190+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/syndication-decision-live-evidence.json",
+      "validation": "1455words/sevenminutes/four original alignedFAQs; requiredchecks/full four-public diff/current IRS-SEC evidence/original ownership and capital-call worksheet/independent arithmetic/similarity0.030;60live targets-assets/4inbound; August11 publication/homepage/shared flow preserved",
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed23:26:17.300Zpending/zero reportederrorswarnings;actual indexing unknown from empty completefiltered storedhistory and not inferred from submissions"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/is-bnb-accelerator-worth-it/",
       "content_commit": "eef3de49367e4905c615f1da0662e524dd2a7fcb",
       "verified_live_at": "2026-10-07T22:14:29.849594+00:00",
