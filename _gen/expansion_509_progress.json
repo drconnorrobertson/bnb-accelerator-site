@@ -264,6 +264,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/first-90-days-airbnb-launch/",
+      "content_commit": "a7bcaab5a4d8610fae81718d2d5a857339507066",
+      "initial_content_commit": "0f2ff127",
+      "verified_live_at": "2026-10-07T06:41:51Z",
+      "counted_toward_509": false,
+      "validation": "1431words/7minutes/4revisedFAQs; required checks/full scoped diff;116live internal targets/18inbound pages; independent57links/assets; originalAugust11publication/author/anchors and protectedhomepage/assets/modules preserved",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:42:04.234Z/pending. Prior indexing confirmed from September26crawl, not revised indexing or outcome gain"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/closing-before-peak-season-str/",
       "content_commit": "1373dcbe9b0093636d9f73dbce88cc912a42c645",
       "verified_live_at": "2026-10-07T06:35:45Z",

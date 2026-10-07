@@ -1,6 +1,31 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/first-90-days-airbnb-launch/",
+      "observed_at": "2026-10-07T06:41:51Z",
+      "observation_time_basis": "Live checks completed by this time; actual inspection obtained before revision publication",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-26T02:26:47Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": ["https://www.bnbaccelerator.com/blog/fort-walton-beach-value-thesis/"],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/first-90-days-airbnb-launch/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 18,
+      "internal_targets_verified": 116,
+      "content_commit": "a7bcaab5a4d8610fae81718d2d5a857339507066",
+      "initial_content_commit": "0f2ff127",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T06:42:04.234Z; pending download; zero reported errors/warnings",
+      "caveat": "September26 crawl confirms prior indexing, not receipt of October7 revision. Exact production body/dates/schema/final metadata and protected homepage verified after one propagation retry; independent57 links/assets passed. No authenticated VercelREADY/log or search/enquiry gain claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/closing-before-peak-season-str/",
       "observed_at": "2026-10-07T06:35:45Z",
       "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before revision publication",
