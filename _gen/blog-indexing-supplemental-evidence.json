@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/wetlands-before-buying-str/",
+      "observed_at": "2026-10-07T07:49:16Z",
+      "observation_time_basis": "Both production scripts and exact five-artifact checks completed by this time; actual inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/wetlands-before-buying-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 124,
+      "content_commit": "c5b3396fd068b726d43e1fbf7e2b1327596c604a",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T07:49:34.673Z; pending download; zero reported errors/warnings",
+      "caveat": "Prepublication unknown is not a diagnosed exclusion or postpublication indexing verdict. Exact five public artifacts/fourFAQ/124internaltargets/59independenttargets and protected homepage passed. No fresh performance/conversion or authenticated VercelREADY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/does-ada-apply-short-term-rental/",
       "observed_at": "2026-10-07T07:37:07Z",
       "observation_time_basis": "All live checks completed by this time; actual URL Inspection obtained before publication",

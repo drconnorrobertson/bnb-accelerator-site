@@ -8,13 +8,13 @@
   "minimum_buyer_relevance": 27,
   "minimum_acquisition_service_fit": 17,
   "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
-  "verified_live_new_pages": 6,
+  "verified_live_new_pages": 7,
   "approved_candidates": [
     {
       "slug": "wetlands-before-buying-str",
       "editorial_score": [24, 29, 14, 18, 10],
       "total": 95,
-      "status": "Reviewed and locally validated; publication/live verification pending; not counted",
+      "status": "Published in c5b3396fd068b726d43e1fbf7e2b1327596c604a and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
@@ -63,9 +63,9 @@
   "research_candidates": [
     {
       "candidate_intent": "Aquatic-resource screening, field boundary and actual regulatory determination versus a planned acreage STR site-work footprint",
-      "status": "Not approved or scored: complete nine-neighbor body/FAQ overlap review and USFWS map-limitations primary reading completed; direct USACE RRS shell/Charleston403 prevent claiming full determination-source review. Generic environmental/site-permission/waterfront label swap rejected. Next verify accessible current primary determination evidence and original decision support before scoring",
+      "status": "Narrow intent accepted95/100 after complete nine-neighbor review and accessible USFWS/EPA/eCFR primary reading; generic site-permission/waterfront label swap rejected. Published in c5b3396fd068b726d43e1fbf7e2b1327596c604a and verified live. Unread district/RRS pages omitted as public authorities",
       "review_brief": "_gen/wetlands-site-footprint-acquisition-screen.md",
-      "counted_as_published": false
+      "counted_as_published": true
     },
     {
       "candidate_intent": "Generic ADA, room-approval or alteration-trigger diligence before buying an STR",
@@ -149,6 +149,22 @@
     }
   ],
   "published": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/wetlands-before-buying-str/",
+      "content_commit": "c5b3396fd068b726d43e1fbf7e2b1327596c604a",
+      "verified_live_at": "2026-10-07T07:49:16Z",
+      "verification_time_basis": "Both serving-production scripts and exact five-artifact checks completed by this time",
+      "words": 1714,
+      "reading_minutes": 8,
+      "matched_faqs": 4,
+      "internal_targets_verified": 124,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.012,
+      "validation": "Required build/tests/full content audit and scoped semantic review; all744 old archivecards preserved; exact guide/hub/archive/XML sitemap/HTML sitemap; independent59links/assets; homepage/assets/sharedmodules unchanged",
+      "submission_status": "IndexNow three changed canonicals HTTP200 accepted; blog sitemap confirmed2026-10-07T07:49:34.673Z/pending; neither establishes indexing",
+      "indexing_evidence": "Actual prepublication NEUTRAL/URLunknown/no reported crawl/unspecified states; not a technical-cause diagnosis or postpublication indexing verdict",
+      "counted_toward_509": true
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
       "content_commit": "14e090c7e224366ab1955e6ca531c96f24b37a6d",
@@ -414,6 +430,6 @@
       "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
     }
   ],
-  "status": "6 of 509 additional new guides validated and live. Remaining 503 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
+  "status": "7 of 509 additional new guides validated and live. Remaining 502 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }
