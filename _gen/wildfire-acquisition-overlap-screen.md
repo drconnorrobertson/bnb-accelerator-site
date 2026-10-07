@@ -1,0 +1,11 @@
+# Wildfire acquisition overlap screen — October 7, 2026
+
+Current main synchronized at 16b5dfd; working tree clean before review. Read the complete substantive article bodies, visible FAQs and author blocks for wildfire-insurability-str, wildfire-evacuation-route-before-buying-str and str-insurance-quote-before-purchase-offer. Output was not truncated.
+
+Reject a generic new wildfire insurance or evacuation purchase page: existing destinations already separate binding/use/mitigation and renewal cost from legal/physical access, official alerts and guest response. The offer-insurance guide already covers quoted-versus-bindable stages, local contract rights, premium sensitivity, deductible exposure and prepaid cash. No new candidate approved or score fabricated; no 509 credit.
+
+The concise wildfire-insurability note is a suitable existing refresh candidate for a deeper property-specific coverage and mitigation completion register. A useful distinct expansion would document which work or inspection conditions remain before actual coverage can become effective, who pays and verifies them, and separate upfront work/dated owner liquidity from recurring renewal sensitivity. It must link rather than clone the general insurance-offer worksheet and the substantial evacuation guide.
+
+No current carrier appetite, premium, FAIR-plan eligibility, admitted/nonadmitted coverage, statutory discount, renewal or cancellation rule was verified in this read-only screen. The existing source list and current primary authorities must be read before drafting financial/regulatory assertions. Do not equate a FAIR plan with complete STR coverage, assume a state rule nationwide, infer a safety certification from insurance approval, or infer indexing from impressions. Preserve the detailed evacuation guide and its labeled 10-night x $350 x 60% = $2,100 gross sensitivity, which expressly excludes refund/saved-cost/insurance assumptions. No public edits, builds, submissions or new indexing claims in this review.
+
+Next non-overlapping content run: primary-source research and actual indexing/eligibility evidence for the existing wildfire-insurability note; publish only a fully validated substantive revision. Overnight schedule unchanged; restoration remains due at or after October 7 09:00 America/New_York.
