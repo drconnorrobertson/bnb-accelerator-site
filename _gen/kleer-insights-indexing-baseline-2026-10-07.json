@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-07T21:36:11.194332+00:00",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/compare/kleer-circle-vs-str-insights/",
+  "evidence_type": "First stored actual Google URL Inspection; filtered connected history returned zero rows with hasMore false before inspection",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": null,
+  "referringUrls": [],
+  "quota_after": {"count": 204, "limit": 2000, "remaining": 1796},
+  "independent_eligibility": "_gen/kleer-insights-live-evidence.json:21:34:18.475468UTC exact revised build, HTTP200/selfcanonical/robotsallowed/noindexabsent/Googlebot-UA200/58linkedtargets/twoinbound/exactprotectedhome",
+  "historical_performance": "Impressions and clicks not retrieved for this comparison; not zero or an exclusion diagnosis",
+  "recommended_action": "Maintain public discovery; allow crawl time and continue substantive buyer-quality work without immediate repeat inspection or unchanged submissions",
+  "limits": "Unknown/no reported crawl does not establish technical exclusion cause, duplicate intent, worsening trend or revised body receipt. Empty referringUrls is not absence of independently verified inbound links. Serving eligibility, submission acceptance and actual indexing are separate. No search or enquiry gain established.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}

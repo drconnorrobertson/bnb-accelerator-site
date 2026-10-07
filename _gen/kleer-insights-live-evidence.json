@@ -22,7 +22,7 @@
   "sitemap_lastmod": "2026-10-07",
   "protected_homepage_exact": true,
   "validation": "Required build/buyer/SEO/design/preclosing/precall/content checks and complete scoped diff passed; original title/H1/publication/author/fourFAQ/outer flow/source and built homepage hashes preserved; independent arithmetic passed",
-  "google_indexing_evidence": {"stored_history_matches": 0, "has_more": false, "confirmed_indexing": "unknown", "exclusion_reason": "not established", "last_google_crawl": null, "impressions": "not retrieved", "clicks": "not retrieved", "recommended_action": "Establish first actual Inspection baseline separately; maintain discovery; missing stored history is not exclusion proof"},
+  "google_indexing_evidence": {"observed_at": "2026-10-07T21:36:11.194332+00:00", "source": "Actual Google URL Inspection; _gen/kleer-insights-indexing-baseline-2026-10-07.json", "verdict": "NEUTRAL", "coverage_state": "URL is unknown to Google", "confirmed_indexing": false, "exclusion_reason": "not established", "last_google_crawl": null, "impressions": "not retrieved", "clicks": "not retrieved", "recommended_action": "Maintain discovery and allow crawl time; continue substantive quality work without immediate repeat inspection or unchanged submissions"},
   "topic_cluster": "Service selection: quote equivalence, acquisition and retained operating work",
   "indexnow": {"changed_canonicals": 1, "http_status": 200, "key_verified_without_disclosure": true, "confirmed_indexing": false},
   "search_console_sitemap": {"last_submitted": "2026-10-07T21:34:39.678Z", "accepted": true, "confirmed_submission": true, "pending": true, "reported_errors": 0, "reported_warnings": 0, "confirmed_indexing": false},
