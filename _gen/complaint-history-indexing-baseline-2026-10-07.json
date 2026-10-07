@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-07T21:07:56.530007+00:00",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/blog/str-complaint-permit-revocation/",
+  "evidence_type": "First stored actual Google URL Inspection; filtered connected history returned zero rows with hasMore false before inspection",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": null,
+  "referringUrls": [],
+  "quota_after": {"count": 202, "limit": 2000, "remaining": 1798},
+  "independent_eligibility": "_gen/complaint-history-live-evidence.json:21:06:02.462975UTC exact revised build, HTTP200/selfcanonical/robotsallowed/noindexabsent/Googlebot-UA200/58linkedtargets/fiveinbound/exactprotectedhome",
+  "historical_performance": "No matching impressions/clicks returned in the September6–October3 inventory snapshot; not zero or an exclusion diagnosis",
+  "recommended_action": "Allow discovery/crawl time; continue substantive buyer-quality work independently without immediate repeat inspection or unchanged submission",
+  "limits": "Unknown/no reported crawl does not establish technical exclusion cause, duplicate intent, worsening trend or Google receipt of the revision. Live serving eligibility and accepted submissions are separate from indexing. Empty Google referringUrls is not absence of independently verified inbound links. No search/conversion gain established.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}

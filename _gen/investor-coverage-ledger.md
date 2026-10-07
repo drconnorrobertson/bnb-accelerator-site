@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: complaint-history first actual indexing baseline
+
+Connected filtered history had zero prior records/hasMorefalse. Actual Inspection21:07:56.530007UTC returned NEUTRAL/URLunknown/unspecifiedrobots,indexing,fetch/no reportedcrawl and emptyreferringUrls. Quota202used/1798remaining. One inventory row distinguishes actual Google observation from21:06 exact live eligibility/five independent inboundpages; historical not-returned impressions/clicks retained as unknown, notzero. No technicalcause, duplicateintent, worseningtrend, revisedbodyreceipt orsearchgain established. Private complaint-history-indexing-baseline-2026-10-07.json records evidence/limits. No publicchanges/newsubmissions/immediatereinspection; eightnew509guides/50existingblogrefreshes unchanged. Continue independent substantive acquisition-service comparison and buyer-quality review under activefive-minute schedule.
+
 ## October 7: complaint-history purchase evidence expansion
 
 Content05799442d9d1424817ac044efc88d58128bf59dd exactlive21:06:02.462975 UTC after one normal30-second propagation retry:four changedartifacts/58linkedtargets-assets/fiveinbound/Googlebot-UA200/selfcanonical/robotsallowed/noindexabsent/threealignedFAQs/exactprotectedhome. Requiredchecks/fullscopeddiff/math passed;similarity0.021. IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed21:06:17.256Zpending/zero reportederrorswarnings—notconfirmed indexing orGoogle revisionreceipt. Evidence:complaint-history-live-evidence.json. Register now50existingblogrefreshes;newguides8/509 unchanged. Next actual indexing baseline if missing, then substantive distinct acquisition-service comparison gaps and concise buyer owners. Activefive-minute schedule unchanged.
