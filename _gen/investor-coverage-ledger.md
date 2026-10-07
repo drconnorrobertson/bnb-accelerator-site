@@ -2,6 +2,8 @@
 
 ## October7: comparison-hub purchase evidence path
 
+Contentd39679be2f30cb4a034ee848610a477812dbfffa exactlive18:43:28.530085UTC afterone30secondpropagationretry:twoexactartifacts/123links-assets/2488inboundincludingglobalnav/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/homeexact. IndexNowonechangedhubHTTP200;GSCcoreXMLconfirmed18:43:40.234Zpending/zero reportederrorswarnings—notindexing. Evidencecomparison-evidence-path-live-evidence.json;nofreshInspection/revisioncrawl/searchconversiongainclaim. Hubnavigationimprovementseparatefromnew8of509/blog44/comparison10/resource5 counts. Next substantive independentservice/evidenceowners and distinctpurchase-readyintent review;ACTIVEfive-minute schedule preserved.
+
 Fullsubstantivehub reviewed; existingprovider/direct/alternatives/signing/research/ownershiplinks retained. Addedfour-step contextualresponsibility→marketreport→dealevidence→agent/teamdecision path usingactualexistingowners,notnewproviderclaims/rankings/contractrights. OriginalOctober1pub/title/H1/author/CTA/sharedclasses retained;mod/corelastmodOct7. Allrequiredchecks/fulltwopublicdiff/homehashes/buildpersistencepassed;productionpending. Hubnavigationseparatefromcomparison/article/new509counts;8new/44blog/10comparison/5resourceunchanged. Nooldergenerator/home/sharedflowchanges. ACTIVEfive-minute schedule preserved.
 
 ## October7: market-report intent ownership and consistency screen
