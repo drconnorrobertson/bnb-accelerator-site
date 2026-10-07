@@ -1,6 +1,28 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/normalize-owner-blocks-str/",
+      "observed_at": "2026-10-07T03:12:11Z",
+      "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T03:12:11Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/normalize-owner-blocks-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "content_commit": "77fe2926",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing",
+      "caveat": "Unknown inspection state does not diagnose a technical barrier or content cause. Live eligibility and submission do not establish indexing or performance gains."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/combine-vrbo-direct-airbnb-revenue/",
       "observed_at": "2026-10-07T02:55:03Z",
       "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
