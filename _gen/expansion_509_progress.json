@@ -48,6 +48,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Incoming communications-lease rent entitlement and postclosing payee before a fee-simple STR acquisition",
+      "status": "Unapproved and unscored: five complete neighboring bodies/FAQs reviewed; operator property-owner page supports a document question but ownership-change form contents and broader income-rights overlap remain unverified",
+      "review_brief": "_gen/infrastructure-lease-acquisition-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Land-use tax enrollment, proposed site footprint and transition-liability cash before buying an acreage STR",
       "status": "Distinct intent published and live verified after complete five-neighbor review and Texas/Virginia primary-source checks; original footprint and transition-cash decision support",
       "review_brief": "_gen/land-use-tax-acquisition-review.md",
@@ -162,6 +168,14 @@
     }
   ],
   "rejected_or_existing_intents": [
+    {
+      "candidate_intent": "Generic solar lease or PPA transfer before buying an STR",
+      "decision": "Existing substantive contract, lender, provider approval, payment normalization and exit-transfer answer; no provider-swapped duplicate",
+      "existing_url": "https://www.bnbaccelerator.com/blog/solar-lease-ppa-transfer-before-buying-str/",
+      "substantive_review": "Complete five neighboring bodies and FAQs reviewed; current Fannie Mae relevant solar subsection checked with program-specific limits",
+      "research_brief": "_gen/infrastructure-lease-acquisition-screen.md",
+      "counted_as_published": false
+    },
     {
       "candidate_intent": "Generic bankruptcy-estate STR seller authority and free-and-clear purchase review",
       "decision": "Existing complete acquisition guide already covers the actual order/asset/title/operating package and worked reset offer ceiling; no duplicate page approved",
