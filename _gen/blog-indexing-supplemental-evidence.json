@@ -1,6 +1,18 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/permit-pending-due-diligence-extension/",
+      "observed_at": "2026-10-07T00:07:03Z",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "referringUrls": []
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/llc-for-short-term-rental/",
       "observed_at": "2026-10-07T00:01:30Z",
       "verdict": "PASS",
