@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-07T17:54:58Z",
+  "url": "https://www.bnbaccelerator.com/guides/str-search-property-match-questions/",
+  "evidence_source": "Connected Google Search Console URL Inspection API through GSC Wizard",
+  "prior_history_review": "Previous publishing run exhausted 252 stored observations across 213 unique URLs and found no matching signing-guide observation.",
+  "first_actual_observation": true,
+  "verdict": "NEUTRAL",
+  "coverage_state": "URL is unknown to Google",
+  "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+  "last_crawl_time": null,
+  "succeeded": 1,
+  "failed": 0,
+  "skipped": 0,
+  "quota_before": {"used": 190, "remaining": 1810, "limit": 2000},
+  "quota_after": {"used": 191, "remaining": 1809, "limit": 2000},
+  "independent_serving_evidence": "_gen/str-search-signing-live-evidence.json",
+  "serving_verified_at": "2026-10-07T17:53:24.518938+00:00",
+  "content_commit": "80510388102f10eb78ec247cf9bdb546b732dd04",
+  "limits": "First baseline is not a worsening trend, confirmed technical barrier, Google crawl of the revision or submission failure. No reported crawl; earlier live HTTP200/Googlebot access/canonical/sitemap/5 inbound observations remain separate from actual indexing. No fresh impressions, clicks or enquiries measured.",
+  "recommended_action": "Allow discovery time without repeat unchanged submissions or immediate repeat Inspection; continue independent substantive buyer content and existing-owner review. Revisit later as part of measured indexing review.",
+  "public_changes": false,
+  "counted_toward_509": false
+}
