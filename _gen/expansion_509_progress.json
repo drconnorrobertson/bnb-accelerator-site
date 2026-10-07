@@ -55,6 +55,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Generic ADA, room-approval or alteration-trigger diligence before buying an STR",
+      "status": "Generic new intent rejected after complete five-article substantive review. Current DOJ36.402-36.403 and Access Board scope/path-cost evidence checked; bounded scope/prior-work/route and funded-cost addition to the existing ADA guide remains unapproved, not a new URL or scored gap",
+      "review_brief": "_gen/accessibility-alterations-acquisition-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Generic furnished-asset allocation or business-asset STR purchase checklist",
       "status": "Generic new intent rejected after complete six-article overlap review. Existing furnishings-allocation note expanded with current IRS source boundaries, original purchase-cost register and funded duplicate/missing-scope decision in 8d89c930dab920065a5176541713dd7d7642d4a2; verified live. Existing refresh only, no new URL or509credit",
       "review_brief": "_gen/furnished-asset-acquisition-overlap-screen.md",
