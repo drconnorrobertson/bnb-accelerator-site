@@ -18,6 +18,15 @@
   "verified_live_new_pages": 8,
   "separately_counted_resource_guide_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/guides/str-market-analysis-report/",
+      "content_commit": "7ef1c9f5d5d75b35180d05c680a73d9d0086a840",
+      "verified_live_at": "2026-10-07T18:33:46.784160+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/market-report-live-evidence.json",
+      "validation": "All required checks/full two-public-file diff/independent arithmetic/original August15 publication/three aligned FAQs/52 live targets-assets/2 inbound/protected homepage and shared flow",
+      "submission": "One canonical IndexNowHTTP200;coreXMLconfirmed18:33:58.982Zpending/zero reported errorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/guides/reading-str-case-study-results/",
       "content_commit": "b0aaf19aed8ffee4991cae32373f4c8fe826cfc1",
       "verified_live_at": "2026-10-07T18:20:12.711897+00:00",
