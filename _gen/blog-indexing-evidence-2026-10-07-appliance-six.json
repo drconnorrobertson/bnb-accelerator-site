@@ -1,0 +1,168 @@
+{
+  "batch": "2026-10-07-appliance-family-six",
+  "observed_through": "2026-10-07 10:30:05 UTC",
+  "source_commit": "641a280",
+  "scope": "Six existing appliance-family URLs lacking actual Inspection evidence; not a random library sample or sitewide indexed count",
+  "inspection_summary": {
+    "confirmed_indexed": 0,
+    "discovered_currently_not_indexed": 3,
+    "url_unknown_to_google": 3
+  },
+  "inspection_api": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 6,
+    "succeeded": 6,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 129,
+      "limit": 2000,
+      "remaining": 1871
+    },
+    "results": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/appliances-design-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/appliances-insurance-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/appliances-maintenance-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/appliances-operations-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/appliances-repair-replace-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/appliances-roi-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      }
+    ]
+  },
+  "eligibility_probes": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-design-short-term-rental/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/appliances-design-short-term-rental/",
+      "live_canonical": "https://www.bnbaccelerator.com/blog/appliances-design-short-term-rental/",
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "sitemap_occurrences": 1,
+      "inbound_pages": 2,
+      "article_text_present": true,
+      "visible_article_words": 1256,
+      "article_schema": true,
+      "h1_count": 1,
+      "eligible": true
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-insurance-short-term-rental/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/appliances-insurance-short-term-rental/",
+      "live_canonical": "https://www.bnbaccelerator.com/blog/appliances-insurance-short-term-rental/",
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "sitemap_occurrences": 1,
+      "inbound_pages": 2,
+      "article_text_present": true,
+      "visible_article_words": 1253,
+      "article_schema": true,
+      "h1_count": 1,
+      "eligible": true
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-maintenance-short-term-rental/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/appliances-maintenance-short-term-rental/",
+      "live_canonical": "https://www.bnbaccelerator.com/blog/appliances-maintenance-short-term-rental/",
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "sitemap_occurrences": 1,
+      "inbound_pages": 2,
+      "article_text_present": true,
+      "visible_article_words": 1252,
+      "article_schema": true,
+      "h1_count": 1,
+      "eligible": true
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-operations-short-term-rental/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/appliances-operations-short-term-rental/",
+      "live_canonical": "https://www.bnbaccelerator.com/blog/appliances-operations-short-term-rental/",
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "sitemap_occurrences": 1,
+      "inbound_pages": 2,
+      "article_text_present": true,
+      "visible_article_words": 1254,
+      "article_schema": true,
+      "h1_count": 1,
+      "eligible": true
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-repair-replace-short-term-rental/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/appliances-repair-replace-short-term-rental/",
+      "live_canonical": "https://www.bnbaccelerator.com/blog/appliances-repair-replace-short-term-rental/",
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "sitemap_occurrences": 1,
+      "inbound_pages": 2,
+      "article_text_present": true,
+      "visible_article_words": 1256,
+      "article_schema": true,
+      "h1_count": 1,
+      "eligible": true
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-roi-short-term-rental/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/appliances-roi-short-term-rental/",
+      "live_canonical": "https://www.bnbaccelerator.com/blog/appliances-roi-short-term-rental/",
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "sitemap_occurrences": 1,
+      "inbound_pages": 2,
+      "article_text_present": true,
+      "visible_article_words": 1253,
+      "article_schema": true,
+      "h1_count": 1,
+      "eligible": true
+    }
+  ],
+  "protected_homepage_exact": true,
+  "limits": [
+    "Actual unknown/discovered observations do not diagnose exclusion causes or prove content repetition caused exclusion.",
+    "User-agent probes are not authenticated Googlebot IP access, actual Google crawl, browser rendering or Core Web Vitals.",
+    "Historical performance preserved; unreturned metrics are not zero; no conversion or revised indexing gain claim.",
+    "No public changes, deployment or unchanged submissions. Keep existing useful URLs; no mass redirect/delete/noindex."
+  ],
+  "skill_scope": "SEO-audit technical indexing/crawlability checklist bounded to authorized blog evidence and quiet notification safeguards"
+}
