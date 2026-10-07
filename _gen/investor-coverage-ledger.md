@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: manager-exit ownership and CTA accuracy
+
+Full termination/assignment/retention bodies and existing FAQ schemas reviewed. Generic manager-exit/held-reserve/final-accounting acquisition variant rejected76/100 (distinct10/buyer28/evidence12/service18/original8): original delayed-release funding, consent and keep-versus-replace owners already answer the intent. Preserve complementary owners; no new509 credit, merge or noindex. Private manager-exit-overlap-review.md records evidence and limits. Found actual contradictory termination CTA promising listings/reviews/data stay with the property; current Airbnb account-transfer primary guidance checkedOctober7. Replaced only CTA with bounded acquisition/agreement/switching-cost review, counsel/platform rights and no continuity guarantee; CTA destinations/sharedflow/September24pub/body/fourFAQs/archive answer remain intact. og:type Article and meaningful modified/bloglastmodOctober7; unchanged provider source review remains October6. Required checks/live deployment verification pending. Accuracy correction separate from substantive expansion counts; eightnew509/45blog/10comparison/7resource unchanged. ACTIVEfive-minute schedule preserved.
+
 ## October7: after-hours support paid-quote purchase decision
 
 FirstactualownerInspection19:29:34UTC PASS/Submittedandindexed/INDEXING_ALLOWED/robotsALLOWED/fetchSUCCESSFUL/MOBILE,lastcrawlOctober7T09:39:22Z. Filteredstoredhistoryzero/hasMorefalsebeforecheck. ExistingindexedURLconfirmed,notnewlyindexed/later19:27revisionreceipt;morningcrawl predatespublishing. Oneinventoryrowupdated withactualevidence andseparate19:27eligibility/threeinbound;historicalnotreturnedperformanceretained. Evidenceafter-hours-cost-indexing-baseline-2026-10-07.json. No publicchanges/submissions/new509credit/searchconversiongain;continueindependentquality/allowrevisiondiscovery. ACTIVEfive-minute schedule preserved.
