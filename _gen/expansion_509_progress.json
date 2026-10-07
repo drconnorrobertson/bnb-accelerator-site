@@ -105,6 +105,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-real-estate-agent/",
+      "content_commit": "8ab840605a5d701c64e134e8a6976d4dc769dffe",
+      "verified_at": "2026-10-07T22:57:55.256034+00:00",
+      "evidence": "_gen/agent-comparison-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "Required checks/full scoped diff/current NAR and service primary materials/original uncovered-work sheet and compensation cash bridge/original August11 publication/title/H1/52 linked targets-assets/3 inbound/homepage and shared flow preserved",
+      "indexnow_status": "One changed verified canonical acceptedHTTP200; not confirmed indexing",
+      "sitemap_status": "CoreXML confirmed22:58:06.543Z pending/zero reported errorswarnings",
+      "google_indexing_evidence": "Filtered stored Inspection history zero matches/hasMorefalse; actual indexing or crawl unknown, not proof of exclusion"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/best-done-for-you-airbnb-companies/",
       "content_commit": "b5b27f92ca2bd22a7187f6c2ea3a4016c95d33f6",
       "verified_at": "2026-10-07T22:39:02.559609+00:00",
