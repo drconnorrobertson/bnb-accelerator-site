@@ -1,0 +1,14 @@
+# Search-service exit and rejected-candidate ownership — October 7, 2026
+
+Candidate: new generic acquisition-service refund/cancellation guide for a buyer whose first matched STR fails diligence and who then switches providers or finds another property.
+
+Full substantive main bodies reviewed, not titles only:
+
+- /guides/str-search-property-match-questions/: four individual signing questions; candidate delivery versus acceptance; rejected-property replacement, clock, fees and third-party bill questions; paid agreement versus website terms; insurance/permission unresolved candidate sample; version retention and deadline authority; complete hypothetical cash allocations; commercial-interest/document-based/actual-contract limits. No FAQ schema on this resource.
+- /blog/str-buyer-agent-vs-acquisition-team/: representation versus acquisition work, one-property work sample, full service-stack fees/offsets/referral conflicts, five-field two-agreement worksheet, exit/notice/carryover/research rights, rejected-candidate→independently found property→replacement-agent sequence. All nine visible FAQs and FAQ schema read: scope, fee triggers, conflicts, evidence and authority already addressed. Rejecting a property does not itself close an engagement; no universal refund/cancellation right asserted.
+
+Decision: reject generic new owner as materially overlapping. Editorial quality gate score 76/100: distinct intent10/25, imminent buyer relevance28/30, evidence of real question12/15, service fit18/20, original decision support8/10. Buyer/service minima pass, total85 and distinct purchase question do not. Existing FAQs and decision sequences demonstrate relevance, not measured keyword demand, rankings or firsthand customer disputes. No provider/city/income/keyword variants to turn the same answer into 509 credit. Do not merge, delete or noindex these useful complementary formats.
+
+No changing provider/contract facts independently researched in this private ownership screen; existing text is evidence of intent ownership, not renewed certification of its claims. New contract-rights conclusions would need current primary materials, actual agreements and qualified review. Public pages, dates, sitemap, metadata, schema and homepage unchanged. No submission/reinspection needed.
+
+Next quality priority: inspect substantive concise buyer cost notes from completed inventory, starting with /blog/after-hours-guest-support-cost/, and its broader year-one coverage owner before deciding whether an individual property-level paid-support acceptance/cost worksheet adds usefulness without duplicating the existing coverage-gap example. Do not mechanically rewrite the 98 completed articles. Current new-guide count8/509 remains unchanged; resource7/blog44/comparison10 and separate hub navigation remain unchanged. ACTIVE five-minute schedule preserved.

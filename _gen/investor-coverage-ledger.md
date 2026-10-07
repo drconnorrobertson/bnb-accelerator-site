@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: rejected-candidate search-service exit ownership screen
+
+Full STRSearchsigningresource and agent-versus-acquisitionteam bodies/ninevisibleFAQs/schema read. Generic refund/cancellation/replacementprovider acquisitionvariant rejected76/100(distinct10/buyer28/evidence12/service18/original8):delivery-versus-acceptance, paidscope/replacement/fees/clock, exit/carryover/retainedresearch and rejectedcandidate sequence alreadyowned. Preserveusefulformats/nomerge/delete/noindex/provider-swap/new509credit. Private search-service-exit-overlap-review.md recordsactualbodyevidence andlimits;notnewcurrent-contract certification. Nextinspectconciseafter-hours-supportcostowner alongsideyearonecoverage beforeproperty-specificpaid-support acceptance/costdevelopment;no mechanical98rewrite. Publicchanges/submissions0;new8/blog44/comparison10/resource7/hubnavigationunchanged. ACTIVEfive-minute schedule preserved.
+
 ## October7: Kleer Circle year-one availability acceptance
 
 FirstactualresourceInspection19:14:40UTC NEUTRAL/URLunknown/unspecifiedrobots-indexing-fetchstates/no reportedcrawl/referringURLsempty. Filteredstoredhistoryzero rows/hasMorefalse beforeinspection;notrepeat. Evidencekleer-year-one-indexing-baseline-2026-10-07.json. Separate19:12liveeligibility/fiveactualinbound preserved;nottechnicalcause/decline/revisedcrawlreceipt/no gain. Allowdiscoverytime/noimmediatereinspection/unchangedsubmission;continueindependentbuyerquality. Publicchanges0/new509credit0;ACTIVEfive-minute schedule preserved.
