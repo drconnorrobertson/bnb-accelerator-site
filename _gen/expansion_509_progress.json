@@ -16,6 +16,17 @@
     "duplicate intents"
   ],
   "verified_live_new_pages": 8,
+  "separately_counted_resource_guide_refreshes": [
+    {
+      "url": "https://www.bnbaccelerator.com/guides/str-service-responsibility-matrix/",
+      "content_commit": "f82299df2b535ea7884ffe0a00fa53ad7cd25952",
+      "verified_live_at": "2026-10-07T17:12:59.254054+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/responsibility-review-live-evidence.json",
+      "validation": "All required tests/full two-public-file diff/independent arithmetic/original October1 publication and matrix/53live linkedtargets-assets/24inbound/homepage shared flow preserved",
+      "submission": "One canonical IndexNowHTTP200;coreXMLconfirmed17:13:16.501Zpending;not confirmed indexing"
+    }
+  ],
   "separately_counted_comparison_refreshes": [
     {
       "url": "https://www.bnbaccelerator.com/compare/rabbu/",
