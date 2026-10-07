@@ -1,0 +1,30 @@
+{
+  "content_commit": "23785a5f1070faab445529f85216727938daf00c",
+  "verified_at": "2026-10-07T15:58:03.195050+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 55,
+  "records": [{
+    "url": "https://www.bnbaccelerator.com/blog/material-participation-str/",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/material-participation-str/",
+    "canonical": "https://www.bnbaccelerator.com/blog/material-participation-str/",
+    "robots_allowed": true,
+    "noindex": false,
+    "exact_public_build_match": true,
+    "server_article_text": true,
+    "publication_date": "2026-08-10",
+    "modified_date": "2026-10-07",
+    "words": 1524,
+    "matched_faqs": 4,
+    "sitemap_entries": 1,
+    "sitemap_lastmod": "2026-10-07",
+    "inbound_public_pages": 47,
+    "internal_targets": 55,
+    "googlebot_ua_http_200": true
+  }],
+  "indexnow": {"canonical_urls": 3, "http_status": 200, "key_verified": true, "accepted_for_processing": true},
+  "search_console_sitemap": {"url": "https://www.bnbaccelerator.com/sitemap-blog.xml", "accepted": true, "confirmed_submission": true, "lastSubmitted": "2026-10-07T15:58:16.586Z", "pending": true, "reported_errors": 0, "reported_warnings": 0},
+  "indexing_evidence": "Actual indexing remains unknown; historical performance not returned is not exclusion evidence. No fresh Inspection, revised crawl, indexing or search/conversion gain asserted.",
+  "limits": "Serving eligibility and accepted submissions are not confirmed indexing, browser rendering or authenticated Vercel deployment status. Existing refresh excluded from 509."
+}

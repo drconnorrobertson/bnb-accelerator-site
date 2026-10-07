@@ -517,6 +517,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/material-participation-str/",
+      "content_commit": "23785a5f1070faab445529f85216727938daf00c",
+      "verified_live_at": "2026-10-07T15:58:03.195050+00:00",
+      "counted_toward_509": false,
+      "validation": "1524words/7minutes/4matchedFAQs; required checks/full four-public-file diff/independent math/similarity.019/homehashes; four exact artifacts/55links-assets/47inbound/Googlebot200/homepage unchanged; originalAugust10pub/H1/author/allIDs and745othercards/framing retained",
+      "submission": "IndexNow3changedcanonicalsHTTP200/livekeyverified; GSCblogXMLconfirmed15:58:16.586Zpending/zero reported errorswarnings; actualindexunknown/historicalnotreturned retained separately, not exclusion proof or revised indexing",
+      "evidence": "_gen/participation-review-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/cohosting-vs-self-managing/",
       "content_commit": "a287ff97a9e8b878187e2c7bb5e9d6a671bc9f82",
       "verified_live_at": "2026-10-07T15:47:15.806608+00:00",
