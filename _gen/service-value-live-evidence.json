@@ -28,5 +28,6 @@
   "historical_performance": {"impressions": 7, "clicks": 1, "start": "2026-09-06", "end": "2026-10-03", "not_after_refresh_outcome": true},
   "counted_toward_509": false,
   "classification": "Substantive existing acquisition-guide expansion",
+  "stored_connector_history_confirmation": {"evidence": "_gen/service-value-stored-indexing-history-2026-10-07.json", "inspection_requested_at": "2026-10-06T21:05:23.935302+00:00", "robots_txt_state": "ALLOWED", "page_fetch_state": "SUCCESSFUL", "crawled_as": "MOBILE", "no_new_inspection": true},
   "limits": "Exact serving/eligibility and submission acceptance are not confirmed revised Google indexing, new crawl, browser rendering, authenticated Vercel status or search/conversion gains. Exact production verified after one30-second propagation retry; no immediate repeat Inspection."
 }
