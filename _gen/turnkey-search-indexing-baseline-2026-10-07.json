@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-07T21:26:05.620926+00:00",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/compare/bnb-turnkey-vs-str-search/",
+  "evidence_type": "First stored actual Google URL Inspection; filtered connected history returned zero rows with hasMore false before inspection",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+  "referringUrls": [],
+  "quota_after": {"count": 203, "limit": 2000, "remaining": 1797},
+  "independent_eligibility": "_gen/turnkey-search-live-evidence.json:21:23:47.906150UTC exact revised build, HTTP200/selfcanonical/robotsallowed/noindexabsent/Googlebot-UA200/57linkedtargets/twoinbound/exactprotectedhome",
+  "historical_performance": "Impressions and clicks not retrieved for this comparison; not zero or an exclusion diagnosis",
+  "recommended_action": "Maintain public discovery; allow crawl time and continue substantive buyer-quality work without immediate repeat inspection or unchanged submissions",
+  "limits": "Google confirms discovery and currently-not-indexed coverage, not the technical cause, duplicate intent, worsening trend or receipt of the revised body. No crawl is reported. Empty referringUrls is not absence of independently verified inbound links. Serving eligibility, submission acceptance and actual indexing are separate. No search or enquiry gain established.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
