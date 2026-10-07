@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: negotiation-benefit and purchase-cash overlap review
+
+Read four complete substantive owners including visible FAQ/purchase checks: credit-versus-price, furnishing credit, earnest release and updated DIY comparison. Each retains distinct offer/finance/scope or contractual-risk decisions and original worksheets. Genericnew“negotiated discount pays fee/funds furniture”guide rejected78/100(distinct9,buyer29,question13,service18,original9);no new qualified gap established. Private negotiation-cash-overlap-review.md records substantive coverage and next bounded existing service-value owner review. Preserve useful URLs/cross-links; no merge/noindex/delete or Googleduplication/exclusion claim. No public changes/submissions/reinspection;counts8new/52existingblog unchanged. ACTIVEfive-minute schedule preserved.
+
 ## October 7: delegation owners stored indexing evidence
 
 Read connected filtered latest Inspection history for DIY and done-for-you canonical owners; both hasMorefalse and PASS/Submitted-and-indexed/ALLOWED/SUCCESSFUL/MOBILE. Exact original requested times October6T21:08:11.181062 and21:08:17.722022; crawls September23T12:18:29 and12:23:35 respectively. Inventory21:09 is earlier aggregate capture, not API timestamp. Private delegation-owner-stored-indexing-history-2026-10-07.json and liveevidence files distinguish earlier confirmed URL indexing from unconfirmed October7 body receipt. No fresh Inspection/quota use/recrawl request, repeated submission, public changes or searchgain claim. Counts52existingblog/8new509 unchanged; next independent substantive purchase-gap review. ACTIVEfive-minute schedule unchanged.
