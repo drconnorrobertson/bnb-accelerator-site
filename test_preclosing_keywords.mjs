@@ -13,7 +13,7 @@ for (const p of profiles) {
     assert.equal((html.match(/id="purchase-check-\d"/g) || []).length, 5);
     const schemas = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>(.*?)<\/script>/gs)].flatMap(m => { const d = JSON.parse(m[1]); return d['@graph'] || [d]; });
     const article = schemas.find(n => ['Article', 'BlogPosting'].includes(n['@type']));
-    assert.equal(article.dateModified, ['airbnb-cash-on-cash-return', 'flood-zone-str-underwriting'].includes(p.slug) ? '2026-10-07' : '2026-10-06');
+    assert.equal(article.dateModified, ['airbnb-cash-on-cash-return', 'flood-zone-str-underwriting', 'dscr-loans-for-airbnb'].includes(p.slug) ? '2026-10-07' : '2026-10-06');
     // Synthetic later revision: regenerating the purchase checks must not backdate it.
     const later = expandPreclosingKeywords(html.replace(/"dateModified": "\d{4}-\d{2}-\d{2}"/, '"dateModified": "2030-01-02"'), path);
     assert(later.includes('"dateModified": "2030-01-02"'));
