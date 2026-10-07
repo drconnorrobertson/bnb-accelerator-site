@@ -1,0 +1,298 @@
+{
+  "observed_at": "2026-10-07T11:45:24.163302+00:00",
+  "source_main": "9bea8ef",
+  "summary": {
+    "confirmed_indexed": 3,
+    "discovered_not_indexed": 4,
+    "unknown": 5,
+    "scope_urls": 12,
+    "not_indexing_gains": true
+  },
+  "inspection_api": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 12,
+    "succeeded": 12,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 141,
+      "limit": 2000,
+      "remaining": 1859
+    },
+    "results": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-hot-tub-roi/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-24T15:46:06Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-budget-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-design-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-inspection-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-insurance-short-term-rental/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-03T06:09:55Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-maintenance-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-operations-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-repair-replace-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-replacement-reserve/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-roi-short-term-rental/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-03T01:47:50Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/pool-hot-tub-utility-easement-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      }
+    ]
+  },
+  "public_eligibility": {
+    "probed_at": "2026-10-07T11:45:24.163302+00:00",
+    "protected_homepage_exact": true,
+    "records": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-hot-tub-roi/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/airbnb-hot-tub-roi/",
+        "canonical": "https://www.bnbaccelerator.com/blog/airbnb-hot-tub-roi/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 14,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-budget-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-budget-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-budget-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-design-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-design-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-design-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-inspection-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-inspection-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-inspection-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-insurance-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-insurance-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-insurance-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-maintenance-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-maintenance-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-maintenance-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-operations-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-operations-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-operations-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-repair-replace-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-repair-replace-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-repair-replace-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-replacement-reserve/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-replacement-reserve/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-replacement-reserve/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/hot-tub-roi-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-roi-short-term-rental/",
+        "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-roi-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/pool-hot-tub-utility-easement-before-buying-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/pool-hot-tub-utility-easement-before-buying-str/",
+        "canonical": "https://www.bnbaccelerator.com/blog/pool-hot-tub-utility-easement-before-buying-str/",
+        "robots_allows_googlebot": true,
+        "source_noindex": false,
+        "live_noindex": false,
+        "sitemap_included": true,
+        "inbound_pages": 4,
+        "server_article_text_present": true,
+        "googlebot_ua_http_200": true,
+        "one_h1_article_schema": true,
+        "probe_error": ""
+      }
+    ],
+    "limits": "Read-only Googlebot-UA serving checks are eligibility, not authentic Google IP crawl, browser rendering, index confirmation or search/conversion gains."
+  },
+  "interpretation": "Prior crawl dates confirm existing indexed evidence, not gains or current-body receipt. Unknown/discovered does not diagnose a technical/content cause. No new public files, submissions, conversions or 509 credit."
+}
