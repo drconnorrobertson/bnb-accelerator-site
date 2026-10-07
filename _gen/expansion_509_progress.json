@@ -669,6 +669,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-portfolio-diversification/",
+      "content_commit": "7b7e9ca88d6b7447775dc2bdc9687aef8ac2479d",
+      "verified_live_at": "2026-10-07T23:41:11.025038+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/portfolio-diversification-live-evidence.json",
+      "validation": "1473words/sevenminutes/four original alignedFAQs; requiredsevenchecks/fullfourpublicdiff/current SEC-IRS evidence/original shared-risk acceptance and cash worksheet/independent arithmetic/similarity0.020;61live targets-assets/12inbound; August11 publication/homepage/shared flow preserved",
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed23:41:24.973Zpending/zero reportederrorswarnings;existing indexedSeptember26crawl not new indexing or revised-body receipt"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-vs-real-estate-syndications/",
       "content_commit": "604f8bf679037a528e10f35350dfafc9097f5e91",
       "verified_live_at": "2026-10-07T23:26:00.931190+00:00",
