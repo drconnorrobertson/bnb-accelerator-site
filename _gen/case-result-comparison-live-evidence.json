@@ -1,0 +1,23 @@
+{
+  "content_commit": "b0aaf19aed8ffee4991cae32373f4c8fe826cfc1",
+  "verified_at": "2026-10-07T18:20:12.711897+00:00",
+  "url": "https://www.bnbaccelerator.com/guides/reading-str-case-study-results/",
+  "http_status": 200,
+  "exact_public_artifacts": 2,
+  "canonical": "https://www.bnbaccelerator.com/guides/reading-str-case-study-results/",
+  "robots_allowed": true,
+  "noindex": false,
+  "googlebot_ua_200": true,
+  "publication_date": "2026-10-04",
+  "modified_date": "2026-10-07",
+  "sitemap_entries": 1,
+  "internal_targets_checked": 52,
+  "inbound_public_pages": 42,
+  "protected_homepage_exact": true,
+  "deployment_check": "Exact production HTML/core sitemap and protected homepage after one 30-second propagation retry; no authenticated Vercel status assertion or browser-rendering test.",
+  "indexnow": {"submitted_urls": 1, "http_status": 200, "meaning": "Accepted for processing, not confirmed indexing"},
+  "search_console_sitemap": {"url": "https://www.bnbaccelerator.com/sitemap-core.xml", "accepted": true, "confirmed": true, "lastSubmitted": "2026-10-07T18:20:29.267Z", "isPending": true, "reported_errors": "0", "reported_warnings": "0"},
+  "google_indexing_evidence": "No matching observation in previously loaded 252-row inspection history; not a fresh URL Inspection or proof of exclusion. No confirmed indexing of this revision.",
+  "limits": "Eligibility/submission is not actual Google crawling, indexing, search performance or qualified enquiries.",
+  "counted_toward_509": false
+}

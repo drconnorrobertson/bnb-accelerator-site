@@ -18,6 +18,15 @@
   "verified_live_new_pages": 8,
   "separately_counted_resource_guide_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/guides/reading-str-case-study-results/",
+      "content_commit": "b0aaf19aed8ffee4991cae32373f4c8fe826cfc1",
+      "verified_live_at": "2026-10-07T18:20:12.711897+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/case-result-comparison-live-evidence.json",
+      "validation": "All required checks/full two-public-file diff/independent arithmetic/original October4 publication and existing result caveats/52 live targets-assets/42 inbound/protected homepage and shared flow",
+      "submission": "One canonical IndexNowHTTP200;coreXMLconfirmed18:20:29.267Zpending/zero reported errorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/guides/str-insights-service-tiers/",
       "content_commit": "71c6cbdfbee2f4e6a96b07cd6038e79623668866",
       "verified_live_at": "2026-10-07T18:02:46.378674+00:00",
