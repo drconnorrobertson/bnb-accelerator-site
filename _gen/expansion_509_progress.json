@@ -11,6 +11,13 @@
   "verified_live_new_pages": 1,
   "approved_candidates": [
     {
+      "slug": "reverse-1031-buy-str-before-selling",
+      "editorial_score": [24, 29, 14, 18, 10],
+      "total": 95,
+      "status": "Approved distinct replacement-first acquisition intent; draft awaiting checks and live verification",
+      "publication_date": "2026-10-07"
+    },
+    {
       "slug": "verify-closing-wire-before-buying-str",
       "editorial_score": [24, 30, 14, 17, 9],
       "total": 94,

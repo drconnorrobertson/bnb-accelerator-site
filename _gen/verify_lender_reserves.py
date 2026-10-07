@@ -17,13 +17,14 @@ archive_marker=sys.argv[4] if len(sys.argv)>4 else 'worked qualification-gap exa
 publication=sys.argv[5] if len(sys.argv)>5 else '2026-09-23'
 read_minutes=sys.argv[6] if len(sys.argv)>6 else '6'
 faq_count=int(sys.argv[7]) if len(sys.argv)>7 else 0
+modification=sys.argv[8] if len(sys.argv)>8 else '2026-10-06'
 all_links=set()
 for path,expected in [(route,marker),('/blog/buy-str-high-income-large-tax-bill/',hub_marker)]:
     url=BASE+path;s,final=fetch(url)
     assert final==url and expected in s and 'canonical" href="'+url+'"' in s and 'noindex' not in s.lower()
     data=[json.loads(x) for x in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',s,re.S)]
     nodes=[n for x in data for n in x.get('@graph',[x])]
-    article=next(x for x in nodes if x.get('@type') in ['Article','BlogPosting']);assert article['dateModified']=='2026-10-06'
+    article=next(x for x in nodes if x.get('@type') in ['Article','BlogPosting']);assert article['dateModified']==modification
     if path==route:
         assert article['datePublished']==publication
         faqs=[x for x in nodes if x.get('@type')=='FAQPage']
