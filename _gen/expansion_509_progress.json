@@ -517,6 +517,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/cohosting-vs-self-managing/",
+      "content_commit": "a287ff97a9e8b878187e2c7bb5e9d6a671bc9f82",
+      "verified_live_at": "2026-10-07T15:47:15.806608+00:00",
+      "counted_toward_509": false,
+      "validation": "1438words/7minutes/3matchedFAQs; all required checks/full four-public-file diff/independent math/similarity.012/homehashes; four exact artifacts/58links-assets/26inbound/Googlebot200/protected homepage unchanged; original August10publication/H1/author retained",
+      "submission": "IndexNow3changedcanonicalsHTTP200/livekeyverified; GSCblog sitemapconfirmed15:47:40.487Zpending/zero reported errors/warnings; historical9impressions/0clicks and actual indexing unknown preserved, no revised indexing claim",
+      "evidence": "_gen/cohosting-review-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-property-management-fees/",
       "content_commit": "61e1ffa2f2f9683da46ffc197a28d8bc8acc5cd3",
       "verified_live_at": "2026-10-07T14:43:08.972751+00:00",
