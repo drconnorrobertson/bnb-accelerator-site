@@ -1,6 +1,32 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-insurance-guide/",
+      "observed_at": "2026-10-07T08:26:04.719339Z",
+      "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-24T14:55:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/airbnb-revenue-projections/"
+      ],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/airbnb-insurance-guide/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 32,
+      "internal_targets_verified": 129,
+      "content_commit": "d41d421341c5b1da76db29e8516113a3e0d44910",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T08:26:18.106Z; pending download; zero reported errors/warnings",
+      "caveat": "Prior actual indexed crawl is not revised receipt; one propagation retry passed exact four artifacts/fourFAQs/129internal and60independenttargets/protectedhomepage. No fresh performance/conversion gain or authenticated VercelREADY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/septic-system-insurance-short-term-rental/",
       "observed_at": "2026-10-07T08:15:47Z",
       "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",

@@ -323,6 +323,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-insurance-guide/",
+      "content_commit": "d41d421341c5b1da76db29e8516113a3e0d44910",
+      "verified_live_at": "2026-10-07T08:26:04.719339Z",
+      "validation": "1254words/6minutes/4matchedFAQs; requiredchecks/fullscopeddiff;744othercards/noncardbytes preserved; exactfourpublicartifacts;129liveinternal/32inbound and60independentlinks-assets; originalAug10pub/H1/title/author and homepage/assets/sharedmodules preserved",
+      "decision_support": "Primary-source distinction of AirCover damage protection and third-party liability insurance including Washington exception; unsupported prevalence/cost figures removed; four-question actual-terms handoff; specialized pre-offer and septic cash tools linked, not duplicated",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningfulsitemap confirmed08:26:18.106Z/pending. Actualprepublication indexed fromSept24successfulMOBILEcrawl, not revised receipt or outcome gain",
+      "counted_toward_509": false
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/septic-system-insurance-short-term-rental/",
       "content_commit": "ffd32a7126d73c8cdde473bbbde97668e7f514fa",
       "verified_live_at": "2026-10-07T08:15:47Z",
