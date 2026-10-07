@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
+      "observed_at": "2026-10-07T05:33:10Z",
+      "observation_time_basis": "Live verification completed by this time; actual inspection separately obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T05:33:10Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 111,
+      "content_commit": "8f80e0dec37970296472d1cc787e0f41f029d4e8",
+      "indexnow_status": "HTTP200 accepted for three changed live-verified canonicals; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T05:33:33.477Z; pending download",
+      "caveat": "First production check passed after deployment. Prepublication URL unknown is not a technical exclusion diagnosis. Googlebot-UA response, eligibility and submission acceptance do not establish authenticated Google crawling, indexing or search/enquiry gains. No authenticated Vercel READY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-revenue-guarantee-offers/",
       "observed_at": "2026-10-07T05:21:19Z",
       "observation_time_basis": "Live verification completed before sitemap submission; actual inspection obtained before publication",

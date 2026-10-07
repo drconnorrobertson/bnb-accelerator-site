@@ -8,13 +8,13 @@
   "minimum_buyer_relevance": 27,
   "minimum_acquisition_service_fit": 17,
   "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
-  "verified_live_new_pages": 4,
+  "verified_live_new_pages": 5,
   "approved_candidates": [
     {
       "slug": "land-use-tax-enrollment-before-buying-str",
       "editorial_score": [23, 28, 14, 17, 10],
       "total": 92,
-      "status": "Source-reviewed and repository-validated; awaiting content commit and production verification, not yet counted",
+      "status": "Published in 8f80e0dec37970296472d1cc787e0f41f029d4e8 and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
@@ -49,9 +49,9 @@
   "research_candidates": [
     {
       "candidate_intent": "Land-use tax enrollment, proposed site footprint and transition-liability cash before buying an acreage STR",
-      "status": "Distinct intent approved after complete five-neighbor review and Texas/Virginia primary-source checks; local validation passed, production verification pending",
+      "status": "Distinct intent published and live verified after complete five-neighbor review and Texas/Virginia primary-source checks; original footprint and transition-cash decision support",
       "review_brief": "_gen/land-use-tax-acquisition-review.md",
-      "counted_as_published": false
+      "counted_as_published": true
     },
     {
       "candidate_intent": "Acquisition handoff of recorded grant-assisted historic preservation maintenance, access and compliance obligations",
@@ -81,6 +81,15 @@
     }
   ],
   "published": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
+      "content_commit": "8f80e0dec37970296472d1cc787e0f41f029d4e8",
+      "verified_live_at": "2026-10-07T05:33:10Z",
+      "verification_evidence": "1652 words/eight-minute read/four matched FAQs; required checks/full scoped semantic diff; live exact content, canonicals200/archive/sitemap,111 internal targets/3 inbound pages; independent55 article targets; protected homepage exact match",
+      "submission_status": "IndexNow three changed canonicals HTTP200 accepted; changed blog sitemap confirmed submitted 2026-10-07T05:33:33.477Z/pending download; neither establishes indexing",
+      "indexing_evidence": "Prepublication NEUTRAL/URL unknown/no reported crawl/unspecified states; eligibility and submissions do not confirm indexing",
+      "counted_toward_509": true
+    },
     {
       "slug": "preservation-easement-str-purchase-handoff",
       "url": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
@@ -238,6 +247,6 @@
       "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
     }
   ],
-  "status": "4 of 509 additional new guides validated and live. Remaining 505 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
+  "status": "5 of 509 additional new guides validated and live. Remaining 504 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }
