@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/commercial-umbrella-str/",
+      "observed_at": "2026-10-07T08:32:55.833179Z",
+      "observation_time_basis": "Live checks completed by this time; actual inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/commercial-umbrella-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 125,
+      "content_commit": "e4de2edccfa4985495bf1e78aeacece3648fe172",
+      "indexnow_status": "Three changed canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T08:33:05.655Z; pending download; zero reported errors/warnings",
+      "caveat": "Actual prepublication discovered/no crawl is not technical/content cause; one propagation retry passed exactfourartifacts/fourFAQs/125internal and55independentlinks-assets/protectedhomepage. No revisedindexing/performance/conversiongain or authenticatedVercelREADY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-insurance-guide/",
       "observed_at": "2026-10-07T08:26:04.719339Z",
       "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",
