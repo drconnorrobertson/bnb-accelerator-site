@@ -1,0 +1,237 @@
+{
+  "observed_at": "2026-10-07T17:22:07Z",
+  "scope": "Ten existing buyer owners missing actual Inspection evidence in the persistent inventory",
+  "selection_history": {
+    "stored_inspection_rows_checked": 237,
+    "matching_prior_history_rows": 0,
+    "pagination_exhausted": true
+  },
+  "actual_google_inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 10,
+    "succeeded": 10,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 185,
+      "limit": 2000,
+      "remaining": 1815
+    },
+    "results": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/assembling-a-comparable-set/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T22:22:34Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/buying-airbnb-out-of-state/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T16:38:18Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-arbitrage-vs-ownership/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-investment-strategy/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/crypto-sale-proceeds-str-down-payment/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/finance-wholesale-assigned-str-purchase/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/financed-property-limit-next-str-purchase/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/exercise-lease-option-buy-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/asbestos-survey-before-str-renovation/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/dock-permit-inspection-before-buying-waterfront-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      }
+    ]
+  },
+  "independent_live_eligibility": {
+    "observed_at": "2026-10-07T17:20:51.776318+00:00",
+    "protected_homepage_exact": true,
+    "records": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/assembling-a-comparable-set/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/assembling-a-comparable-set/",
+        "canonical": "https://www.bnbaccelerator.com/blog/assembling-a-comparable-set/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 7
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/buying-airbnb-out-of-state/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buying-airbnb-out-of-state/",
+        "canonical": "https://www.bnbaccelerator.com/blog/buying-airbnb-out-of-state/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 9
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-arbitrage-vs-ownership/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/airbnb-arbitrage-vs-ownership/",
+        "canonical": "https://www.bnbaccelerator.com/blog/airbnb-arbitrage-vs-ownership/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 5
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-investment-strategy/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/airbnb-investment-strategy/",
+        "canonical": "https://www.bnbaccelerator.com/blog/airbnb-investment-strategy/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 13
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/crypto-sale-proceeds-str-down-payment/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/crypto-sale-proceeds-str-down-payment/",
+        "canonical": "https://www.bnbaccelerator.com/blog/crypto-sale-proceeds-str-down-payment/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 2
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/finance-wholesale-assigned-str-purchase/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/finance-wholesale-assigned-str-purchase/",
+        "canonical": "https://www.bnbaccelerator.com/blog/finance-wholesale-assigned-str-purchase/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 2
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/financed-property-limit-next-str-purchase/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/financed-property-limit-next-str-purchase/",
+        "canonical": "https://www.bnbaccelerator.com/blog/financed-property-limit-next-str-purchase/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 3
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/exercise-lease-option-buy-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/exercise-lease-option-buy-str/",
+        "canonical": "https://www.bnbaccelerator.com/blog/exercise-lease-option-buy-str/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 2
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/asbestos-survey-before-str-renovation/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/asbestos-survey-before-str-renovation/",
+        "canonical": "https://www.bnbaccelerator.com/blog/asbestos-survey-before-str-renovation/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 5
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/dock-permit-inspection-before-buying-waterfront-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/dock-permit-inspection-before-buying-waterfront-str/",
+        "canonical": "https://www.bnbaccelerator.com/blog/dock-permit-inspection-before-buying-waterfront-str/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 5
+      }
+    ],
+    "limits": "Live HTTP/robots/text evidence is distinct from actual Google Inspection, browser rendering, content accuracy and search/conversion gains."
+  },
+  "public_changes": 0,
+  "new_509_credit": 0,
+  "summary": {
+    "confirmed_indexed": 2,
+    "discovered_not_indexed": 1,
+    "url_unknown": 7,
+    "live_eligible": 10
+  },
+  "limits": [
+    "September26 crawls confirm existing URL indexing, not newly gained indexing or receipt of an October revision.",
+    "Neutral unknown/discovered statuses do not diagnose robots, canonical, rendering or substantive content defects.",
+    "No browser rendering, content accuracy, new performance or conversion result established by this measurement batch.",
+    "Historical September6–October3 performance retained; not-returned is not a confirmed zero or exclusion.",
+    "No public changes, unchanged sitemap submission, IndexNow submission or immediate repeat Inspection."
+  ],
+  "next_priority": "Read substantive comparables and out-of-state acquisition answers before improving the existing visible owners; evaluate further distinct service-selection gaps independently."
+}

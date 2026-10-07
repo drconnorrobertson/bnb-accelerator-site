@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: ten buyer-owner actual Inspection baseline, batch2
+
+Completed first actual Inspection for10existingbuyerowners absent fromall237storedhistoryrows:2PASSsubmitted/indexed(comparables September26T22:22:34Z andoutofstateSeptember26T16:38:18Z),1discovered/notindexed(cryptosale),7URLunknown. These are existing-index observations, notnewindexinggain/revisionreceipt; no neutralstate cause inferred. Independent17:20:51.776318UTC all10HTTP200/finalselfcanonical/allowedrobots/noindexabsent/serverarticletext/exactpublicbuild/sitemap/inbound2–13 andhomeexact. Actualinspectionquota175→185/1815remaining, noerror/skipped/exhaustion. Inventory10rowsupdated/736otherrows andhistoricalperformance retained. Privatesnapshotbuyer-indexing-baseline-batch2-2026-10-07.json; helperverify_buyer_baseline_batch2.py. No publicchange/unchangedsubmission/509credit. Next readsubstantivecomparables/outofstateowners beforeimproving visibleanswers, thenindependentservice-selection gaps. ACTIVEfive-minute schedule unchanged.
+
 ## October7: existing responsibility-matrix acceptance expansion
 
 ActualresourceInspection andanalyticsconnectionbaseline17:15:18UTC:responsibility-matrix NEUTRAL/Discovered-currently-not-indexed/no reportedcrawl; first actualobservation in this work record, nottechnicalexclusioncause/revisionreceipt. Independent17:12liveeligibility/24inbound retained separately. GSCWizard connectedBNBsite stillga4PropertyIdnull/siteOwner/readable/ACTIVE; cannotmeasurequalifiedenquiries through thislink, notproofnoanalyticselsewhere. Resource-specificimpressions/clicks notmeasured. Privateresponsibility-indexing-analytics-baseline-2026-10-07.json retainsobservations,limits,nextaction; nopublicchange/unchangedsubmission/repeatedInspection/509credit. Continueindependentcontentworkwhileallowingdiscoverytime.
