@@ -105,6 +105,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/bnb-turnkey-vs-str-search/",
+      "content_commit": "c97eb4724619cdaacfec36b3e7633410bf8411b2",
+      "verified_at": "2026-10-07T21:23:47.906150+00:00",
+      "evidence": "_gen/turnkey-search-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "Required checks/full scoped diff/four original FAQs/current primary service sources/original rejected-candidate register and independent hypothetical cash math/57 linked targets-assets/2 inbound/original October6 publication/homepage shared flow preserved",
+      "indexnow_status": "One changed verified canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Core XML confirmed submission21:24:06.047Z pending/zero reported errorswarnings",
+      "google_indexing_evidence": "No matching stored Inspection observation; unknown actual indexing and exclusion reason; absence of history is not exclusion proof"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/the-short-term-shop-vs-str-search/",
       "content_commit": "27cabc2973c368ac060cafeceac2431788e61a44",
       "verified_at": "2026-10-07T17:45:56.710220+00:00",
