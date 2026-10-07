@@ -636,6 +636,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/done-for-you-airbnb-model/",
+      "content_commit": "c2a45db1735045a05a6f58a24ec0f7ab7fe4ee29",
+      "verified_live_at": "2026-10-07T21:51:40.944199+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/done-for-you-model-live-evidence.json",
+      "validation": "1407words/sevenminutes/three alignedFAQs; required checks/full scoped diff/current BNB and NAR primary guidance/independent cash-time worksheets/similarity0.012;53live targets-assets/8inbound; original publication/homepage/shared flow preserved",
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed21:51:52.869Zpending/zero reportederrorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-complaint-permit-revocation/",
       "content_commit": "05799442d9d1424817ac044efc88d58128bf59dd",
       "verified_live_at": "2026-10-07T21:06:02.462975+00:00",
