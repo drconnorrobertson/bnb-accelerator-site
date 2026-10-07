@@ -56,7 +56,7 @@
   "research_candidates": [
     {
       "candidate_intent": "Generic ADA, room-approval or alteration-trigger diligence before buying an STR",
-      "status": "Generic new intent rejected after complete five-article substantive review. Current DOJ36.402-36.403 and Access Board scope/path-cost evidence checked; bounded scope/prior-work/route and funded-cost addition to the existing ADA guide remains unapproved, not a new URL or scored gap",
+      "status": "Generic new intent rejected after complete five-article review. Existing ADA guide's bounded scope/prior-work/route register and original funded-cost addition published in8a7bdb1bdd9cd8bcbaae773ba5260388a6b5565b and verified live; preserved substantive coverage/fiveFAQs, added sixth matchedFAQ. Existing refresh only, no new URL/score/509credit",
       "review_brief": "_gen/accessibility-alterations-acquisition-screen.md",
       "counted_as_published": false
     },
@@ -293,6 +293,15 @@
     }
   ],
   "separately_counted_existing_refreshes": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/does-ada-apply-short-term-rental/",
+      "content_commit": "8a7bdb1bdd9cd8bcbaae773ba5260388a6b5565b",
+      "verified_live_at": "2026-10-07T07:37:07Z",
+      "validation": "2938words/14minutes/sixalignedFAQs; original substantivebody/H1/title/author/fiveFAQs/publication retained; requiredchecks/fullscopeddiff;743otherarchivecards preserved; exact fourchangedpublicartifacts;121live internal targets/3inbound; independent56links/assets; homepage/assets/sharedmodules unchanged",
+      "decision_support": "Four-row scope/route/prior-records/responsibility register; original400kfunds/390kbaseline/395kreview/407kcorrection/411kcarry test shows11kgap, not regulatory determination or universal percentage cap",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningfulblogsitemap confirmed07:37:22.113Z/pending. Actual prepublication URLunknown/no lastcrawl is not a technical-cause or revised indexing conclusion",
+      "counted_toward_509": false
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/cost-seg-furnishings-allocation/",
       "content_commit": "8d89c930dab920065a5176541713dd7d7642d4a2",

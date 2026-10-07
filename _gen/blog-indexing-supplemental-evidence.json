@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/does-ada-apply-short-term-rental/",
+      "observed_at": "2026-10-07T07:37:07Z",
+      "observation_time_basis": "All live checks completed by this time; actual URL Inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/does-ada-apply-short-term-rental/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 121,
+      "content_commit": "8a7bdb1bdd9cd8bcbaae773ba5260388a6b5565b",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T07:37:22.113Z; pending download; zero reported errors/warnings",
+      "caveat": "Actual prepublication URLunknown/no crawl is not a technical-cause diagnosis or receipt of the revision. One propagation retry resolved old serving content. Exact four changed public artifacts, six alignedFAQs, original publication and protected homepage passed; independent56links/assets passed. No authenticated VercelREADY/log or fresh search/conversion outcome claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/cost-seg-furnishings-allocation/",
       "observed_at": "2026-10-07T07:25:50Z",
       "observation_time_basis": "All live checks completed by this time; actual URL Inspection obtained before publication",
