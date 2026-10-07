@@ -604,6 +604,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-license-renewal-calendar/",
+      "content_commit": "f14a59f171f56f6e5a23a27723f3f67c997d555a",
+      "verified_live_at": "2026-10-07T20:35:27.546417+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/renewal-calendar-live-evidence.json",
+      "validation": "1360words/sevenminutes/three alignedFAQs; requiredchecks/full scoped diff/Nashville primary/deadline and independent cash review/similarity0.024;58live targets-assets/3inbound; original publication/homepage/shared flow preserved",
+      "submission": "IndexNow three changed canonicalsHTTP200;blog sitemap confirmed20:35:38.755Zpending/zero reported errorswarnings; not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-permit-value-sale/",
       "content_commit": "6ccd712cab0c046510ad37f7299edf8173395743",
       "verified_live_at": "2026-10-07T20:20:27.682618+00:00",
