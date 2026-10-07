@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-07T18:56:22Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/guides/bnb-turnkey-management-handoff/",
+  "evidence_type": "First actual Google URL Inspection for this resource; no matching observation in previously loaded252-row history",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "request": {"count": 1, "succeeded": 1, "failed": 0, "skipped": 0},
+  "quota": {"count": 195, "limit": 2000, "remaining": 1805},
+  "independent_eligibility": "_gen/turnkey-handoff-live-evidence.json:18:53:28.410073UTC exact production guide/coreXML/selfcanonical/HTTP200/GooglebotUA/allowedrobots/noindexabsent/55live linkedtargets/6inbound/protected homepage",
+  "recommended_action": "Allow discovery time while continuing independent substantive buyer-quality work; no immediate reinspection or unchanged submission",
+  "limits": "Discovered/not indexed/no reported crawl does not diagnose a technical cause, establish a decline or prove receipt of the October7 revision. No search or conversion gain established.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
