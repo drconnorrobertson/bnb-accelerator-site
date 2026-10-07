@@ -425,6 +425,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-occupancy-rates-explained/",
+      "content_commit": "70b24fddcff27d77c166889e901adc53196c3571",
+      "verified_live_at": "2026-10-07T12:28:46.003085+00:00",
+      "counted_toward_509": false,
+      "validation": "1456words/7minutes/4matchedFAQs; required checks/full four-public diff;59live links-assets/20inbound; original pub/anchors/author/protectedhome/sharedflow preserved; independent occupancy/RevPAR/cash arithmetic",
+      "submission": "IndexNow3URLsHTTP200/livekeyverified; GSCsitemapconfirmed12:29:01.584Zpending/zeroerrorswarnings,notindexing. Actual prior September25indexedcrawl retained; revised indexing not confirmed"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-cash-reserves-seasonality/",
       "content_commit": "910287da457829cb1708eaad26dca929a08d5e92",
       "verified_live_at": "2026-10-07T12:16:53.468990+00:00",
