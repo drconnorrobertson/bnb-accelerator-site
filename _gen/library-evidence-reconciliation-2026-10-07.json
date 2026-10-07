@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-07T16:40:02.937Z",
+  "source_commit": "7931e01",
+  "source_inventory": "_gen/blog-indexing-inventory.csv",
+  "inventory_articles": 746,
+  "blog_sitemap_destinations_including_archive": 747,
+  "recorded_inspection_evidence": {
+    "submitted_and_indexed": 63,
+    "discovered_currently_not_indexed": 46,
+    "url_unknown_to_google": 78,
+    "not_yet_recorded_in_inventory": 559,
+    "recorded_total": 187,
+    "limits": "Aggregates of stored observations from different dates, not 746 fresh inspections or a complete indexed-site census. Unknown and discovered states are not diagnosed exclusion causes. These 63 confirmations are existing evidence, not new indexing gains."
+  },
+  "recorded_serving_evidence": {
+    "http_200": 188,
+    "not_probed": 558,
+    "known_zero_inbound_inventory_rows": 0,
+    "limits": "Checks and internal-link counts have different observation dates; not a simultaneous full live crawl or proof of actual Google access/rendering."
+  },
+  "historical_performance_evidence": {
+    "pages_with_positive_reported_impressions": 91,
+    "pages_without_returned_performance": 647,
+    "other_or_unmeasured_pages": 8,
+    "limits": "Stored historical page data, not a fresh reporting window, indexing count, nonbranded-query count or conversions. Not-returned data is not zero impressions or exclusion proof."
+  },
+  "publication_accounting": {
+    "verified_additional_new_guides": 8,
+    "requested_target": 509,
+    "remaining_target_not_established_intents": 501,
+    "existing_blog_refreshes": 41,
+    "existing_comparison_refreshes": 9
+  },
+  "public_content_unchanged": true,
+  "unchanged_submissions": true,
+  "next_priority": "Continue substantive accuracy and acquisition decision support in existing priority owners; expand actual Inspection evidence on previously uninspected buyer URLs selectively. Approve new guides only after substantive cross-route overlap review and the existing scoring gate."
+}
