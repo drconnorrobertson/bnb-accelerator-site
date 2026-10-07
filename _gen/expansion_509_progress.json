@@ -636,6 +636,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-diy/",
+      "content_commit": "716a181a5dff9320b1dd82a4d45f81be558f53f1",
+      "verified_live_at": "2026-10-07T21:57:09.383726+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/diy-decision-live-evidence.json",
+      "validation": "1481words/sevenminutes/three alignedFAQs; requiredchecks/full scoped diff/BNB and NAR primary scope/independent same-property cash-down-debt comparison/similarity0.003;52live targets-assets/7inbound; original publication/homepage/shared flow preserved",
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed21:57:20.854Zpending/zero reportederrorswarnings;earlier indexed evidence not revised-content receipt orsearch gains"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/done-for-you-airbnb-model/",
       "content_commit": "c2a45db1735045a05a6f58a24ec0f7ab7fe4ee29",
       "verified_live_at": "2026-10-07T21:51:40.944199+00:00",
