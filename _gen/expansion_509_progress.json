@@ -11,6 +11,13 @@
   "verified_live_new_pages": 2,
   "approved_candidates": [
     {
+      "slug": "mineral-rights-before-buying-str",
+      "editorial_score": [24, 29, 14, 18, 10],
+      "total": 95,
+      "status": "Qualified and drafted; validation/live verification pending; not yet counted",
+      "publication_date": "2026-10-07"
+    },
+    {
       "slug": "reverse-1031-buy-str-before-selling",
       "editorial_score": [24, 29, 14, 18, 10],
       "total": 95,
@@ -28,7 +35,7 @@
   "research_candidates": [
     {
       "candidate_intent": "Surface-use and ownership evidence before buying a rural STR with severed mineral rights",
-      "status": "Unapproved/unscored: full ground-lease, title and geotechnical answers reviewed; title matrix already mentions minerals. Federal BLM context checked; broader overlap, primary evidence and distinct original support still required",
+      "status": "Qualified/drafted after five complete neighboring bodies/FAQs and Texas RRC/BLM primary review; rights-holder/site-use register and distinct cash stress test. Live verification pending",
       "review_brief": "_gen/mineral-estate-acquisition-review.md",
       "counted_as_published": false
     },

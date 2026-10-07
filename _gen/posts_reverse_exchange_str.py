@@ -77,7 +77,7 @@ POST = {
  'cta_p': 'Connect a source-checked STR shortlist with real financing, sale milestones and pre-sale cash.',
 }
 
-def main():
+def main(expected_articles=739, expected_total_pages=2480, hub_attribute='data-reverse-exchange-link', hub_copy=None):
     dest = ROOT / 'blog' / SLUG / 'index.html'
     assert not dest.exists()
     source = blog.render_post(POST)
@@ -93,11 +93,11 @@ def main():
     dest.parent.mkdir(); dest.write_text(source)
     archive = ROOT / 'blog/index.html'; s = archive.read_text()
     old = re.findall(r'<article class="post-card".*?</article>', s, re.S)
-    assert len(old) == 739 and ROUTE not in s
+    assert len(old) == expected_articles and ROUTE not in s
     search = html.escape((TITLE + ' ' + POST['category'] + ' ' + DESC).lower(), quote=True)
     card = f'<article class="post-card" data-blog-post data-category="{POST["category"]}" data-search="{search}" data-reveal><div class="post-body"><div class="post-meta"><span class="post-cat">{POST["category"]}</span><time datetime="{DATE}">Oct 7, 2026</time><span>{minutes} min read</span></div><h3><a href="{ROUTE}">{TITLE}</a></h3><p>{DESC}</p><a class="post-link" href="{ROUTE}">Read more</a></div></article>'
     s = s.replace('<div class="post-grid" data-blog-grid>', '<div class="post-grid" data-blog-grid>' + card, 1)
-    s = s.replace('All topics (739)', 'All topics (740)').replace('Showing all 739 articles', 'Showing all 740 articles')
+    s = s.replace(f'All topics ({expected_articles})', f'All topics ({expected_articles+1})').replace(f'Showing all {expected_articles} articles', f'Showing all {expected_articles+1} articles')
     cards = re.findall(r'<article class="post-card".*?</article>', s, re.S); assert cards[1:] == old
     cats = collections.Counter(html.unescape(re.search(r'data-category="([^"]+)"', c)[1]) for c in cards)
     months = collections.Counter(re.search(r'<time datetime="(\d{4}-\d{2})', c)[1] for c in cards)
@@ -118,7 +118,9 @@ def main():
         return '<script type="application/ld+json">'+json.dumps(data)+'</script>' if changed else m[0]
     archive.write_text(re.sub(r'<script type="application/ld\+json">(.*?)</script>', itemlist, s, flags=re.S))
     hub = ROOT / 'blog/buy-str-high-income-large-tax-bill/index.html'; s = hub.read_text(); assert ROUTE not in s
-    link = f'<p data-reverse-exchange-link>Buying the replacement rental before selling? Test the <a href="{ROUTE}">reverse-exchange setup and two-property cash bridge</a> before relying on future sale proceeds.</p>\n'
+    if hub_copy is None:
+        hub_copy = f'Buying the replacement rental before selling? Test the <a href="{ROUTE}">reverse-exchange setup and two-property cash bridge</a> before relying on future sale proceeds.'
+    link = f'<p {hub_attribute}>{hub_copy}</p>\n'
     s = s.replace('<div class="author-box">', link+'<div class="author-box">', 1)
     s = s.replace('"dateModified": "2026-10-06"', '"dateModified": "2026-10-07"')
     hub.write_text(s)
@@ -128,9 +130,9 @@ def main():
     entry = f'  <url>\n    <loc>{blog.tpl.SITE}{ROUTE}</loc>\n    <lastmod>{DATE}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n'
     sitemap.write_text(s.replace('</urlset>', entry+'</urlset>'))
     index = ROOT / 'sitemap/index.html'; s = index.read_text(); assert ROUTE not in s
-    needle = '<h2 class="section-heading">Blog <span class="count">739</span></h2>\n      <p class="text-muted">Every article, newest first.</p>\n      <ul class="sitemap-list">'
+    needle = f'<h2 class="section-heading">Blog <span class="count">{expected_articles}</span></h2>\n      <p class="text-muted">Every article, newest first.</p>\n      <ul class="sitemap-list">'
     assert needle in s
-    index.write_text(s.replace(needle, needle.replace('739','740')+f'\n          <li><a href="{ROUTE}">{TITLE}</a></li>', 1).replace('2480 pages in total','2481 pages in total'))
-    print(f'{SLUG}: {words} words/{minutes} minutes; 740 archive cards; protected homepage untouched')
+    index.write_text(s.replace(needle, needle.replace(f'>{expected_articles}<',f'>{expected_articles+1}<')+f'\n          <li><a href="{ROUTE}">{TITLE}</a></li>', 1).replace(f'{expected_total_pages} pages in total',f'{expected_total_pages+1} pages in total'))
+    print(f'{SLUG}: {words} words/{minutes} minutes; {expected_articles+1} archive cards; protected homepage untouched')
 
 if __name__ == '__main__': main()
