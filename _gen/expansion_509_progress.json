@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_recorded_accuracy_corrections": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-neighbors-and-noise/",
+      "content_commit": "545776cb25cf1dec8e05eff83b6d321a20e1eecc",
+      "verified_live_at": "2026-10-07T20:56:24.834592+00:00",
+      "evidence": "_gen/neighbor-noise-correction-live-evidence.json",
+      "counted_toward_509": false,
+      "counted_as_substantive_expansion_batch": false,
+      "correction": "Remove unsupported ordinance/effectiveness/outcome/permanence claims; source-check noise-monitor policy; preserve original publication/URL/author/CTA, align FAQs and archive",
+      "submission": "Two changed canonicals IndexNowHTTP200;blog sitemap confirmed20:56:40.481Z pending/zero reported errorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-management-agreement-termination/",
       "content_commit": "202fc8609768aabed52c5809149d62c0bda67519",
       "verified_live_at": "2026-10-07T19:39:40.354594+00:00",
