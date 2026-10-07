@@ -58,7 +58,7 @@
       "note": "No rows matched."
     }
   },
-  "actual_google_indexing": "Unknown: no matching stored inspections in complete filtered history. Absence of stored history is not proof of exclusion, crawl failure or nonindexing.",
+  "actual_google_indexing": "First actual Inspection2026-10-07T23:16:27.825724UTC confirms PASS/Submitted and indexed/ALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE with September24T15:12:48Z crawl. Existing indexing, not a new gain caused by October7 refresh or receipt of revised body. See manager-comparison-indexing-baseline-2026-10-07.json. Empty stored history at publication remains historically correct.",
   "counted_toward_509": false,
   "limits": "Serving eligibility and submission acceptance do not establish actual Google crawl/indexing, browser rendering, rankings or qualified enquiries."
 }

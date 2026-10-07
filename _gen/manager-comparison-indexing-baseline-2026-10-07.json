@@ -1,0 +1,61 @@
+{
+  "inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-property-manager/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-24T15:12:48Z",
+    "pageFetchState": "SUCCESSFUL",
+    "crawledAs": "MOBILE",
+    "referringUrls": [
+      "https://www.bnbaccelerator.com/blog/str-property-management-fees/"
+    ]
+  },
+  "history_before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "history_after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "a475863b-48ac-4ea4-a983-64ee50c5e963",
+        "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-property-manager/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-09-24T15:12:48+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-07T23:16:27.825724+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "quota_after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 211,
+    "limit": 2000,
+    "remaining": 1789
+  },
+  "eligibility_record": "_gen/manager-comparison-live-evidence.json",
+  "method": "First actual Google URL Inspection after complete filtered stored history returned zero observations; no repeat or recrawl request.",
+  "interpretation": "Google confirms existing URL indexing from a September24 crawl. Not a new indexing gain attributable to the October7 refresh, receipt of the revised body, or measured query/ranking/conversion improvement. Preserve existing visibility; no repeated submissions or public changes.",
+  "counted_toward_509": false
+}
