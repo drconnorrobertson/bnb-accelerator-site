@@ -8,13 +8,13 @@
   "minimum_buyer_relevance": 27,
   "minimum_acquisition_service_fit": 17,
   "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
-  "verified_live_new_pages": 3,
+  "verified_live_new_pages": 4,
   "approved_candidates": [
     {
       "slug": "preservation-easement-str-purchase-handoff",
       "editorial_score": [23, 28, 13, 17, 10],
       "total": 91,
-      "status": "Qualified/drafted; validation and live verification pending; not counted",
+      "status": "Published in ccfab1a42e9046c49e4f328b52ddef8343976f4a and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
@@ -42,9 +42,9 @@
   "research_candidates": [
     {
       "candidate_intent": "Acquisition handoff of recorded grant-assisted historic preservation maintenance, access and compliance obligations",
-      "status": "Narrow preservation completed-work/operating-handoff guide qualified after dedicated whole-library search and NPS model review; editorial91/100, original condition/calendar/quote worksheets; validation/live pending",
+      "status": "Narrow preservation completed-work/operating-handoff guide published and live verified; editorial91/100, original condition/calendar/quote worksheets",
       "review_brief": "_gen/conservation-preservation-acquisition-screen.md",
-      "counted_as_published": false
+      "counted_as_published": true
     },
     {
       "candidate_intent": "Surface-use and ownership evidence before buying a rural STR with severed mineral rights",
@@ -68,6 +68,24 @@
     }
   ],
   "published": [
+    {
+      "slug": "preservation-easement-str-purchase-handoff",
+      "url": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
+      "content_commit": "ccfab1a42e9046c49e4f328b52ddef8343976f4a",
+      "verified_live_at": "2026-10-07T05:02:52Z",
+      "verification_time_basis": "Both serving-production scripts completed by this time after one30second propagation retry",
+      "words": 1491,
+      "reading_minutes": 7,
+      "matched_faqs": 4,
+      "internal_targets_verified": 109,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.011,
+      "validation": "Build; buyer-intent; nonhome SEO/design; preclosing; precall; content audit; similarity; full scoped diff;741prior archivecards and protectedhomepage/assets/sharedmodules unchanged",
+      "indexnow": "HTTP200 accepted for guide, changed hub and archive; not indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T05:03:03.399Z; pending download",
+      "google_inspection": "Prepublication NEUTRAL / URLunknown / no reportedcrawl; not an exclusion diagnosis",
+      "confirmed_indexing": false
+    },
     {
       "slug": "mineral-rights-before-buying-str",
       "url": "https://www.bnbaccelerator.com/blog/mineral-rights-before-buying-str/",

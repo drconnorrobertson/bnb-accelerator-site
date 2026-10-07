@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
+      "observed_at": "2026-10-07T05:02:52Z",
+      "observation_time_basis": "Live verifications completed by this time; inspection separately obtained before content publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T05:02:52Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 109,
+      "content_commit": "ccfab1a42e9046c49e4f328b52ddef8343976f4a",
+      "indexnow_status": "HTTP200 accepted for three changed canonicals; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T05:03:03.399Z; pending download",
+      "caveat": "Initial404 and old-sitemap response resolved after one30second propagation retry. New URL unknown before publication is not a technical cause. Live eligibility and submissions do not prove indexing or performance."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/mineral-rights-before-buying-str/",
       "observed_at": "2026-10-07T04:52:26Z",
       "observation_time_basis": "Live verifications completed by this time; inspection obtained separately before content publication",

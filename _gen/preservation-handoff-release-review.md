@@ -1,4 +1,5 @@
 # Recorded preservation agreement: purchase handoff review
+Release ccfab1a42e9046c49e4f328b52ddef8343976f4a live verified by05:02:52UTC: both canonical200/body/schema/dates/fourFAQs/archive/sitemap,109internaltargets/3inboundpages,Googlebot-UA200/robotsallowed/noheadernoindex/protectedhomepage exact. Independent57targets passed. Initial404/old sitemap resolved after one30second propagation retry, not persistent defect. IndexNow3changedcanonicalsHTTP200;blogsitemapconfirmed05:03:03.399Zpendingdownload. Only eligibility/discovery/submission, not indexing or gains; no authenticatedVercelREADY/log claim. Progress4/509;505remaining is an unestablished target. Pending wording below records prepublication review.
 
 October7,2026. Candidate /blog/preservation-easement-str-purchase-handoff/.
 
