@@ -425,6 +425,16 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-inspection-short-term-rental/",
+      "content_commit": "0d7bef20f3909c8d0d5e72aa05752d702f9b37b8",
+      "verified_at": "2026-10-07T10:41:58.031403+00:00",
+      "validation": "Required checks/full scoped diff/homepage protection; exact four public artifacts, 56 links/assets, four matched FAQs and Googlebot UA HTTP200 passed",
+      "submission": "IndexNow three verified canonicals HTTP200 accepted; sitemap confirmed 2026-10-07T10:42:17.682Z pending download. Neither confirms indexing.",
+      "confirmed_revised_indexing": false,
+      "counted_toward_509": false,
+      "live_evidence": "_gen/appliance-inspection-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/appliances-budget-short-term-rental/",
       "content_commit": "9370869c37da978fe11c585bf6e2eaa7c81054e2",
       "verified_at": "2026-10-07T10:26:23.240021+00:00",
