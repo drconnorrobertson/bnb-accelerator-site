@@ -1,0 +1,11 @@
+# Existing wildfire insurability note — October 7, 2026
+
+Read full existing wildfire-insurability, evacuation-route and pre-offer-insurance bodies/FAQs/author blocks. Generic new wildfire insurance or evacuation answer rejected; existing note is the refresh destination. No new URL, candidate score or509credit. Separate full evacuation guide and general pre-offer workflow retained, not cloned.
+
+Full primary NAIC wildfire guidance (September14,2023), FAIR-plan overview (December13,2024) and business-interruption overview (June25,2026) read. Public paraphrases per source remain under200words; omit statistics, universal coverage/eligibility/discount/renewal rules, local safety prescriptions and claims predictions. Household guidance not STR underwriting approval; residual basic property coverage not complete STR stack; conditional civil-authority provisions not all evacuation payments. Exact forms, licensed advisers, lender and local officials control.
+
+Original condition/completion/payer/date register. Hypothetical300kavailable/210kdownclosing32ksetup40kretained=282k/18kflex; setup contains6kroof. Actualassumed14kroof replaces6k, plus4kvegetation1kreview=13kincremental;setup45k/allocation295k/5kleft. Distinct6knetdelay=>301k/1kgap; no duplicatedroof/basecost or foregonegross invoice. Separate9.5kannualcase−3kincrementalrenewalstress=6.5k not futurequote/expectedincrease or upfrontmoney. No proceeds/refund assumed, reserveusechangesassumption.
+
+OriginalSeptember23publication/title/H1/author retained; meaningfulOctober7modified/lastmod/archive/hub; fournewmatchedFAQs (noneprevious). No preclosing-profile block on target. Actualprepublication InspectionNEUTRAL/Discovered-currently-not-indexed/no crawl/unspecifiedrobots-index-fetch, not technical/content cause. Checks, full diff, live and submissions pending.
+
+Local validation passed: build_public (2,601 files), buyer intent, nonhome SEO/design, preclosing keywords, pre-call, audit_content (2,487HTML/2,486sitemap/277redirects), similarity across744peers maximum0.014. Full four-public-file diff and scoped renderer reviewed. Independent title/H1/author/pub/744othercards/archive noncard bytes/source-builthomepage hashes/arithmetic guards passed;1448words/sevenminutes. Homepage, shared modules and assets unchanged. Live and submissions pending.
