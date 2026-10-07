@@ -2,6 +2,8 @@
 
 ## October7: acquisition-provider manager-handoff ownership screen
 
+Existingnamedresource expanded aftercurrentprimaryservices/pre-call review,notduplicateblog. Individualizedfourquestionworksheet;originalone-addressmanageracceptance/day10decisionday12proposal sample;hyp20%feebase80000lodging=16000vs92000inclcleaning=18400/2400difference. Separate300000accessible/278000allocatedinc45000reserve+4000onboard+6000helddeposit=288000/12000margin;+9000=297000/3000margin;+7000=304000/4000gap. Notactualproviderfees/clientresult/refundright/deadlineextension/reserveadequacy. OriginalOct1pub/title/H1/author/CTA/knownscope caveats preserved,mod/source-review/corelastmodOct7. Commercialinterest/document-based/notfirsthand/privacy/professionalrights limits. Requiredchecks/fulltwopublicdiff/math/homehashespassed;productionpending/resourcecountonlyafterliveverification/new8unchanged. ACTIVEfive-minute schedule preserved.
+
 Full namedBNBTurnkeyhandoffguide/assignmentblog/retainmanagerblog substantivebodies andFAQs read. Genericnewmanager-handoff/providercontract review rejected77/100 (distinct11/buyer28/evidence12/service18/original8): control/fees/consent/access/transitioncost/offerdecision alreadyanswered across distinctexistingowners. Preserveowners/nomerge/noindex/delete/provider-swap/new509credit. Nextdevelopnamedconciseresource's repetitivefour-rowworksheet andgenericcostexample withactualprimaryscope/originalfeebase/acceptance/cashdecisions,notgenerichosttips. Privatemanager-handoff-overlap-review.md preservesbodyevidence. Publicchanges/submissions0;new8/blog44/comparison10/resource5/hubnavigationunchanged. ACTIVEfive-minute schedule preserved.
 
 ## October7: comparison-hub purchase evidence path
