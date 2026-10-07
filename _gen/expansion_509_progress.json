@@ -124,6 +124,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Generic airport-adjacent quietness or leased-land STR purchase checklist",
+      "status": "Rejected generic proposals after complete airport-noise, ground-lease and title-commitment substantive body/FAQ/example review. Existing answers already provide the relevant acquisition workflow; no new score, demand claim, public URL or509credit. Specialized aviation or land-estate procedure remains unapproved, not assumed equivalent",
+      "review_brief": "_gen/airport-leasehold-acquisition-overlap-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Proposed public road-project stage/version versus future parcel footprint, access and independently funded acquisition alternatives",
       "status": "Accepted94 after five complete substantive neighbor reviews and TxDOT sections1.3/2.7 primary reading; current title/survey/private-road and generic diligence retained. Texas stages illustrative, no compensation entitlement or measured search demand claimed. Published and verified live.",
       "review_brief": "_gen/public-project-acquisition-overlap-screen.md",

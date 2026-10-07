@@ -1,0 +1,21 @@
+# Airport and leasehold acquisition overlap screen
+
+Reviewed October 7, 2026, from current main38d87f2. Scope: purchase-ready STR buyers; this is editorial overlap evidence, not a fresh legal, lending or acoustic review. Three substantive existing article bodies, examples, visible FAQs, disclosures and purchase next steps read; initially truncated ground-lease/title passages recovered before conclusions.
+
+## Existing answers retained
+
+- `/blog/airport-noise-before-buying-short-term-rental/`: distinguishes published planning maps and their dates from property-level guest exposure, repeated site visits, interior versus outdoor guest use, comparable reviews and conservative revenue. Its original180x350=63000 versus165x325=53625 sensitivity gives9375 difference without claiming an airport-specific discount. It already asks about local influence areas, disclosures, easements and planned operational changes, and routes recorded easements to counsel. Four visible FAQs cover contour limitations, voluntary maps, visit sampling and property-specific pricing.
+- `/blog/ground-lease-before-buying-short-term-rental/`: distinguishes owning improvements from the land interest, local permissions from lease permission, actual executed amendments and renewal rights, lender review of the exact estate, assignment/default/cure/improvement rights, annual rent and shrinking remaining term at exit. Its illustrative450000 price/6000 annual rent/3% escalation/22-year remaining lease and10-year hold are already a decision comparison, not evidence of a market discount. Four FAQs separately address operation, loan eligibility, renewal and valuation.
+- `/blog/title-commitment-before-buying-str/`: substantive full-document, land/estate/insured identity, objection deadline and final-policy reconciliation workflow; an STR-specific exception matrix includes access, private restrictions, spatial easements, severed rights, leases, taxes and plats. The lake-access example shows why a summary or credit does not establish rights. Six general and five preserved preclosing FAQs connect actual governing instruments to counsel/title/surveyor/lender review and cash/use decisions.
+
+## Candidate dispositions
+
+Reject a new generic airport-adjacent STR noise/quietness acquisition guide: the existing airport answer already covers the actual map/visit/guest-positioning/downside purchase question. Changing title, airport or year would not create a distinct intent. Preserve its URL and useful evidence; no merge or noindex.
+
+Reject a new generic leased-land/leasehold STR buying checklist: the existing ground-lease answer already supplies use, term, escalation, lender and exit decision support. Renaming the landowner category without a separately evidenced acquisition procedure is not a qualified gap. This is not a conclusion that tribal trust-land or other specialized estate procedures are identical; none was researched, approved or scored in this screen.
+
+Do not approve a generic airport-easement title checklist from keyword absence. Airport coverage already calls for the actual recorded instrument, and the title guide supplies the document/footprint/use/deadline workflow. A narrower aviation-rights or specialized land-estate guide would require its own demonstrated distinct question, current primary authorities within their jurisdiction, substantive neighboring review and original funding/site-use decision support before scoring. No blanket nationwide rights, height, consent, waiver or lending rule is inferred.
+
+No candidates passed the distinct-intent gate, so no qualified score or search-demand claim is invented. No new public article, URL, redirect, schema, publication date or sitemap entry created; no existing public article rewritten. No fresh source verification or professional review claimed. The technical SEO skill's gap checklist informed substantive overlap decisions only; user homepage, scope and quiet-notification protections override full-site/competitor expansion and routine questions.
+
+Eight live distinct additions toward509 remain; these rejected generic proposals do not establish a total shortfall or prove that all remaining investor questions are covered. Continue with other materially distinct acquisition questions and substantive improvements where actually warranted, not airport/city/landowner label swaps.
