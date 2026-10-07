@@ -27,6 +27,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Surface-use and ownership evidence before buying a rural STR with severed mineral rights",
+      "status": "Unapproved/unscored: full ground-lease, title and geotechnical answers reviewed; title matrix already mentions minerals. Federal BLM context checked; broader overlap, primary evidence and distinct original support still required",
+      "review_brief": "_gen/mineral-estate-acquisition-review.md",
+      "counted_as_published": false
+    },
+    {
       "slug": "verify-closing-wire-before-buying-str",
       "status": "Primary sources and five substantive neighboring guides reviewed; distinct intent approved and drafted",
       "provisional_editorial_score": [24, 30, 14, 17, 9],
