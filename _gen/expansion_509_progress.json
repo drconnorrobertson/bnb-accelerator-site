@@ -604,6 +604,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-reviews-property-sale/",
+      "content_commit": "bdca46ed7e1180720c625f839cb70ad058344293",
+      "verified_live_at": "2026-10-07T20:06:27.875242+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/review-transfer-live-evidence.json",
+      "validation": "1240 words, six minutes, three aligned FAQs; required checks, full scoped diff, primary Airbnb evidence and independent cash arithmetic; similarity 0.022; 56 live targets/assets, 10 inbound pages; original publication, homepage and shared flow preserved",
+      "submission": "IndexNow three changed canonicals HTTP 200; blog sitemap confirmed 20:06:38.784Z, pending, zero reported errors/warnings; not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-sale-data-room/",
       "content_commit": "bff6e4435f2585b93d1d7d2f08d2a04b79bffd13",
       "verified_live_at": "2026-10-07T19:49:33.822491+00:00",
