@@ -1,0 +1,71 @@
+{
+  "inspection_completed_by": "2026-10-07T12:09:15Z",
+  "inspection_window_started": "2026-10-07T12:07Z",
+  "response": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 7,
+    "succeeded": 7,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 149,
+      "limit": 2000,
+      "remaining": 1851
+    },
+    "results": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/verify-closing-wire-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/reverse-1031-buy-str-before-selling/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/mineral-rights-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/wetlands-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      }
+    ]
+  },
+  "public_serving_reference": "All111overnight guides live HTTP200/selfcanonical/exactbuild/sitemap checked2026-10-07T12:01:20.345053UTC; not a new probe in this inspection batch.",
+  "omitted_url": "Road-project guide retained actual09:16postpublicationunknown baseline; no immediate repeat.",
+  "limits": "4discovered/3unknown/no reportedcrawl among7. No confirmed indexing, technical exclusion cause, search gains or resubmission."
+}
