@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-revenue-guarantee-offers/",
+      "observed_at": "2026-10-07T05:21:19Z",
+      "observation_time_basis": "Live verification completed before sitemap submission; actual inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T05:21:19Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/str-revenue-guarantee-offers/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 108,
+      "content_commit": "cf0412605942859e91b13a801e1c5b74b990c1ef",
+      "indexnow_status": "HTTP200 accepted for three changed canonicals; not indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T05:21:19.829Z; pending download",
+      "caveat": "Initial previous-content response resolved after one30second propagation retry. Discovered/not-indexed is actual evidence, not a diagnosed technical or content cause. Eligibility and submissions do not confirm Google crawling, indexing or performance."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
       "observed_at": "2026-10-07T05:15:49Z",
       "observation_time_basis": "Live verification completed before sitemap submission; actual inspection obtained before content publication",

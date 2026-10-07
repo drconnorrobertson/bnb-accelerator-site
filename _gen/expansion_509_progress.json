@@ -185,6 +185,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-revenue-guarantee-offers/",
+      "content_commit": "cf0412605942859e91b13a801e1c5b74b990c1ef",
+      "verified_live_at": "2026-10-07T05:21:19Z",
+      "counted_toward_509": false,
+      "validation": "1534words/7minutes/4matchedFAQs; required checks/full scoped review;108live internal targets/3inboundpages; protected homepage and shared flow preserved",
+      "submission": "IndexNow3URLsHTTP200; meaningful changed sitemap submitted05:21:19.829Z/pending; pre-release discovered/not-indexed/no reportedcrawl, no cause or improvement inferred"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
       "content_commit": "d7384a33c7a099c3b03371733250088465eaa6eb",
       "verified_live_at": "2026-10-07T05:15:49Z",
