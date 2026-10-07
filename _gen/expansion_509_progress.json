@@ -55,6 +55,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Generic auction or bank-owned STR purchase guide",
+      "status": "Rejected as substantially overlapping after complete foreclosure/probate/short-sale/bankruptcy body and FAQ review; no passing score or measured demand claimed",
+      "review_brief": "_gen/auction-acquisition-overlap-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Incoming communications-lease rent entitlement and postclosing payee before a fee-simple STR acquisition",
       "status": "Narrow incoming-rent entitlement/payee guide accepted after substantive neighbor review; editorial94/100, not measured demand; published and verified live",
       "review_brief": "_gen/communications-rent-acquisition-review.md",
