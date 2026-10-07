@@ -1,0 +1,46 @@
+"""Existing owner-block purchase guide; primary sources checked October 6, 2026."""
+from expand_reservations_closing import main
+
+BODY = '''<p class="lead">Owner-blocked nights can explain why a seller offered an STR for only part of the year. They do not prove that a buyer can sell every reopened date. Before pricing the purchase, separate the seller's actual paid stays, documented personal use and other closures, then subtract your own intended use. Normalize the available inventory, not a guaranteed revenue result. A high-income buyer with ample cash still needs a supported property forecast.</p>
+<p><a href="/apply/">Book an STR acquisition call to compare the seller's calendar with your intended purchase plan</a>.</p>
+<h2>Verify what the seller's owner blocks actually represent</h2>
+<p>Request a dated calendar export and the seller's explanation for each unavailable period. Match reservation identifiers across channels before accepting an owner-use label: an Airbnb block may be a paid Vrbo stay rather than a vacation. Obtain authorized records through a secure channel; keep guest identities and private financial information out of public worksheets.</p>
+<p><a href="https://www.airbnb.com/help/article/3612" rel="noopener">Airbnb's blocked-night guidance</a> identifies availability settings, linked calendars or software, pending and confirmed reservations, cancellations, missing information and local stay restrictions as possible causes. A screenshot alone cannot distinguish those reasons. A setting change is not permission to operate or evidence of future demand.</p>
+<p>Use the <a href="/blog/blocked-calendar-demand-signal/">historical calendar evidence guide</a> to classify nights and avoid treating unavailable dates as paid stays. This page's separate purchase question is which seller-personal-use dates could become buyer inventory, after allowing for your own plans and actual readiness.</p>
+<h2>Build a seller-to-buyer date inventory</h2>
+<p>Make one row per date or documented date range. Record the original reason, supporting record, proposed buyer treatment, unresolved issue, responsible reviewer and decision deadline. Keep each date in one category so a synchronized booking or overlapping maintenance period is not counted twice.</p>
+<div class="table-wrap"><table><thead><tr><th>Seller calendar category</th><th>Evidence to request</th><th>Buyer treatment before an offer</th></tr></thead><tbody>
+<tr><td>Claimed owner or family stay</td><td>Dated use log and matching calendar explanation</td><td>Identify dates you would release versus dates you want to retain</td></tr>
+<tr><td>Paid stay on another channel</td><td>Reservation and corresponding revenue record</td><td>Include in reconciled history, not newly created capacity</td></tr>
+<tr><td>Repair or unavailable amenity</td><td>Work order, completion evidence and buyer inspection</td><td>Budget remaining work and downtime separately</td></tr>
+<tr><td>Settings or management restriction</td><td>Specific availability rule and proposed manager's plan</td><td>Verify practical changes without assuming new demand</td></tr>
+<tr><td>Unexplained or permission-related closure</td><td>Seller explanation and address-specific approval evidence</td><td>Exclude from supported expansion until resolved</td></tr>
+</tbody></table></div>
+<p>Review dates by season and day of week, not just annual totals. Releasing quiet weekdays while reserving high-value holiday periods is a different buyer plan from releasing the same number of peak dates. Use actual comparable evidence for the specific periods; this worksheet supplies no local rate or occupancy estimate.</p>
+<h2>Test released inventory without copying the seller's occupancy</h2>
+<p>Hypothetical annual inventory only: the seller offered 250 nights and recorded 180 paid nights. That is 72% of offered nights, but 180 divided by 365 is about 49.3% of calendar nights. Neither denominator proves how previously unavailable dates would perform. The remaining 115 dates are not 115 missed paid bookings.</p>
+<p>Suppose records classify those 115 dates as 70 owner-use nights, 25 maintenance nights and 20 unresolved nights. The categories sum to 365 with the 250 offered nights. You choose to retain 20 of the 70 owner-use dates. At most 50 dates in that category could become newly offered inventory, subject to lawful use, operating readiness and the actual buyer calendar. The maintenance and unresolved categories are not automatically released.</p>
+<p>For a deliberately simplified sensitivity test, assume all 50 dates become offerable and accommodation revenue would be $250 per additional paid night. Test zero, 15 and 25 additional paid nights rather than multiplying 50 by the seller's 72%. These are constructed scenarios, not probabilities, market forecasts or bookings.</p>
+<div class="table-wrap"><table><thead><tr><th>Additional paid nights</th><th>Incremental accommodation revenue</th><th>Assumed 25% variable costs</th><th>Contribution before other costs</th></tr></thead><tbody>
+<tr><td>0</td><td>$0</td><td>$0</td><td>$0</td></tr>
+<tr><td>15</td><td>$3,750</td><td>$937.50</td><td>$2,812.50</td></tr>
+<tr><td>25</td><td>$6,250</td><td>$1,562.50</td><td>$4,687.50</td></tr>
+</tbody></table></div>
+<p>Contribution is not owner cash flow. Add actual management terms, fixed expenses, debt, remaining setup, carrying costs and taxes to the full buyer model. Do not assume the variable-cost fraction includes every bill. If reopening requires cash or happens midyear, fund that work and model the timing rather than treating a stabilized sensitivity as first-year receipts. The <a href="/blog/seller-proforma-vs-trailing-revenue/">seller-proforma uplift bridge</a> addresses pricing supported changes and testing a no-uplift purchase.</p>
+<h2>State your own personal use before approving the purchase</h2>
+<p>Write down the dates your household actually wants, including any promised family stays or seller-retained use. Compare the investment case with and without those dates before choosing a property or agreeing to price. A larger personal-use allocation may be acceptable to you, but it belongs in the model rather than being concealed as rental inventory.</p>
+<p><a href="https://www.irs.gov/taxtopics/tc415" rel="noopener">IRS Topic 415</a> explains that personal use can affect rental-expense allocation and limitations and includes defined categories beyond the owner's own stays. An economic calendar label does not establish tax treatment. Give your qualified tax adviser the actual proposed use, stay records and ownership facts before relying on any deduction estimate. The 20 personal nights in this example are not a safe-harbor recommendation or proof of tax suitability.</p>
+<p>Describe the intended occupancy and rental use honestly to your lender and insurer, and confirm local permissions with the relevant authority and retained counsel. An operating seller's arrangements do not establish the buyer's approvals. Keep household and business liquidity separate from the <a href="/blog/how-much-money-to-start-airbnb/">complete acquisition and launch budget</a>.</p>
+<h2>Make the offer depend on evidence, not reopened-night promises</h2>
+<p>Proceed when the existing economics and independently supported buyer-calendar case fit your requirements. Renegotiate a viable purchase if price assumes unsupported reopened-night receipts. Discuss unresolved records, remedies and deadlines with your agent and counsel; do not assume missing evidence grants an automatic extension or cancellation right. Reject a purchase that needs unverified capacity or permission to work.</p>
+<p>Bring the dated inventory, retained-use plan, zero-additional-booking case, funded reopening scope and specific unresolved questions to an <a href="/apply/">STR purchase call</a>. For <a href="/blog/buy-str-high-income-large-tax-bill/">buyers with substantial capital or a large tax bill</a>, the useful next step is a defensible acquisition decision, not paying for every night the seller chose not to offer. BNB Accelerator assists within its contracted acquisition scope; independent advisers determine their respective matters.</p>
+<p class="small">Primary sources reviewed October 6, 2026. Educational information only, not personalized investment, tax, lending, insurance or legal advice. All worked figures are hypothetical. No permission, booking, tax benefit, revenue or return is guaranteed.</p>'''
+
+if __name__ == '__main__':
+    main(slug='normalize-owner-blocks-str',
+         title='Owner-Blocked STR Nights: Buyer Inventory Worksheet',
+         h1='How Should Owner-Blocked Nights Affect STR Occupancy?',
+         description='Normalize owner-blocked STR nights before buying: verify seller use, subtract your own dates and test reopened inventory without assuming bookings.',
+         body=BODY, search_terms='owner blocked calendar personal use reopened inventory buyer occupancy',
+         hub_attribute='data-owner-block-link',
+         hub_block='<p data-owner-block-link>Does the seller claim more revenue if personal-use dates reopen? Use the <a href="/blog/normalize-owner-blocks-str/">owner-block buyer inventory worksheet</a> to subtract your own intended use and test zero additional bookings before pricing that upside.</p>')

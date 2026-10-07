@@ -4,6 +4,7 @@ Updated October 6, 2026. Domain: www.bnbaccelerator.com. Scope: affluent purchas
 Published route counts are not indexed counts. Before new work fetch current main, check the existing article body, and update this ledger with live URLs, source checks and decision support. An existing title is evidence of a candidate match, not proof that it fully answers the intent.
 
 ## Latest original decision guides
+Existing owner-block guide expansion is in local validation: `/blog/normalize-owner-blocks-str/` now separates seller personal use from the buyer's actual proposed date inventory. No new URL or publication/indexing claim until live verification.
 Existing combined-channel revenue guide is published and live-verified below with a reservation map and duplicate-total example. No new URL or confirmed indexing gain.
 Latest existing-note expansion: `/blog/str-refunds-chargebacks-underwriting/` separates completed refunds, unresolved disputes and repair addbacks. Published and live-verified below; no new URL or confirmed indexing gain.
 Latest existing concise-note expansion: `/blog/str-1099-payout-reconciliation/` distinguishes account-level form totals from the purchased property's supported income. Published and live-verified below; actual pre-release URL inspection confirms existing indexing, not receipt of the revised body.
@@ -33,6 +34,12 @@ The latest three are linked from the high-income hub, searchable blog archive an
 
 ## Publication gate
 Read the relevant existing page before deciding a gap exists. Add an article only for a materially distinct purchase decision. Include original analysis, a worksheet, a comparison or a specific evidence checklist. Verify changing financial, legal and tax facts from primary sources. Clearly label hypothetical figures. Preserve honest authorship and dates. Do not generate city, occupation, tax-bill or capital-amount swaps for volume.
+
+## October 6 overnight: owner-block buyer inventory
+
+Read existing owner-block and personal-use-calendar notes, expanded historical blocked-calendar guide and complete personal-use-days, second-home and seller-proforma bodies. Preserved the distinct future-inventory purchase intent rather than repeating historical classification or adding a new URL. Airbnb3612 and IRS415 primary substantive sources reviewed October6. Five-row evidence register and original hypothetical365-night inventory:250offered,70seller-owner-use,25maintenance,20unresolved; buyer retains20of70, leaving at most50newlyofferable in that category. Original180/250=72% versus180/365=49.3% warning retained; neither proves future booking demand.
+
+Constructed zero/15/25additionalpaid-night cases at250accommodationrate yield0/3750/6250gross, with separately assumed25%variablecosts leaving0/2812.50/4687.50contribution before other expenses/debt/tax. Maintenance/unresolved dates require separate resolution, buyer use is date-specific, and the example's20personalnights is not tax approval. No client results, guaranteed demand or broad addback.1093words/fiveminutes; original September23publication/H1/URL/author preserved, meaningful October6modification. Archive card/search/excerpt aligned and buyer-hub contextual link added. Sitemap already has October6lastmod; unchanged, not resubmitted. Local checks and live evidence pending; do not infer publication or confirmed indexing from this draft record.
 
 ## October 6 overnight: management exit obligations before purchase
 
