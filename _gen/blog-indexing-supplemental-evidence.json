@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/closing-before-peak-season-str/",
+      "observed_at": "2026-10-07T06:35:45Z",
+      "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before revision publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/closing-before-peak-season-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 5,
+      "internal_targets_verified": 113,
+      "content_commit": "1373dcbe9b0093636d9f73dbce88cc912a42c645",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T06:35:59.327Z; pending download; zero reported errors/warnings",
+      "caveat": "Pre-refresh discovered-not-indexed/no crawl does not establish a technical cause or revised indexing result. Exact production body/dates/schema and homepage verified after one propagation retry; independent56 links/assets passed. No authenticated VercelREADY/log or search/enquiry gain claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/rate-buydown-str-investment/",
       "observed_at": "2026-10-07T06:28:50Z",
       "observation_time_basis": "Production checks completed by this time; actual inspection obtained before revision publication",

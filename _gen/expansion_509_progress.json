@@ -264,6 +264,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/closing-before-peak-season-str/",
+      "content_commit": "1373dcbe9b0093636d9f73dbce88cc912a42c645",
+      "verified_live_at": "2026-10-07T06:35:45Z",
+      "counted_toward_509": false,
+      "validation": "1274words/6minutes/4matchedFAQs; required checks/full scoped diff;113live internal targets/5inbound pages; independent56links/assets; originalSeptember23publication and homepage/assets/sharedmodules preserved",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:35:59.327Z/pending; pre-release discovered-not-indexed/no lastcrawl, no revised indexing proof"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/rate-buydown-str-investment/",
       "content_commit": "2813e52be80d091378c20450b25dac1ab49535b2",
       "verified_live_at": "2026-10-07T06:28:50Z",
