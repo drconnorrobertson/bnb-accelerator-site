@@ -1,0 +1,783 @@
+{
+  "batch": "2026-10-07-purchase-25",
+  "source_commit": "f10ab19cc841f3732b3580d68f39a57ad284e73b",
+  "scope": "Read-only 25 existing acquisition-relevant URLs whose inventory previously lacked actual Inspection evidence; not a random sample or full-site indexed count.",
+  "observed_through": "2026-10-07T09:31:34.218457Z",
+  "inspection_summary": {
+    "confirmed_indexed": 2,
+    "discovered_currently_not_indexed": 12,
+    "url_unknown_to_google": 11
+  },
+  "eligibility_summary": {
+    "checked": 25,
+    "googlebot_user_agent_http_200": 25,
+    "correct_final_self_canonical": 25,
+    "robots_allowed": 25,
+    "noindex_absent": 25,
+    "server_delivered_article_paragraph_matches_build": 25,
+    "sitemap_unique_inclusion": 25,
+    "non_orphan_inbound_pages": 25
+  },
+  "limitations": [
+    "User-agent probe is not proof Google crawled this revision.",
+    "Inspection history lacks Google-selected canonical and referring URL fields; no conclusions invented.",
+    "The two confirmed indexed observations are baseline evidence, not new indexing gains or confirmation of current replacement bodies.",
+    "Unknown/discovered states do not identify a technical or content cause.",
+    "Performance fields remain their existing historical observations; not returned is not zero. No new conversion/GA4 claim.",
+    "The first bulk call exceeded the client return boundary; 19 records recovered from stored history, then six missing responses requested once. Final latest-per-URL history reconciled all25. Transport/serialization output issue is not a site defect.",
+    "No public content, homepage, assets or conversion modules changed; no build deployment or unchanged sitemap/IndexNow submission requested."
+  ],
+  "skill_scope": "Technical SEO checklist from seo-audit applied only to authorized blog eligibility/indexing batch; user protections override full-site/competitor/keyword-volume assumptions and routine follow-up questions.",
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/adjustable-vs-fixed-mortgage-str-purchase/",
+      "inspection": {
+        "id": "b76ad59e-76cc-4839-902b-819f64ec51c4",
+        "url": "https://www.bnbaccelerator.com/blog/adjustable-vs-fixed-mortgage-str-purchase/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:30:27.5167+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/adjustable-vs-fixed-mortgage-str-purchase/",
+        "observed_at": "2026-10-07T09:31:33.420741+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/adjustable-vs-fixed-mortgage-str-purchase/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/adjustable-vs-fixed-mortgage-str-purchase/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-house-right-after-closing/",
+      "inspection": {
+        "id": "7f9e3872-fc34-43a8-8f9f-f855e1a4babd",
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-house-right-after-closing/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-09-26T17:04:22+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-07T09:27:58.076231+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/airbnb-house-right-after-closing/",
+        "observed_at": "2026-10-07T09:31:33.431040+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/airbnb-house-right-after-closing/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/airbnb-house-right-after-closing/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/airport-noise-before-buying-short-term-rental/",
+      "inspection": {
+        "id": "9d076dac-a014-4825-8b45-2c4ed6985ab4",
+        "url": "https://www.bnbaccelerator.com/blog/airport-noise-before-buying-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:28:04.838492+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/airport-noise-before-buying-short-term-rental/",
+        "observed_at": "2026-10-07T09:31:33.505451+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/airport-noise-before-buying-short-term-rental/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/airport-noise-before-buying-short-term-rental/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/alimony-child-support-income-buy-str/",
+      "inspection": {
+        "id": "dcd2b75c-c576-4caa-8878-0be54ccaf4f9",
+        "url": "https://www.bnbaccelerator.com/blog/alimony-child-support-income-buy-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:28:11.490804+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/alimony-child-support-income-buy-str/",
+        "observed_at": "2026-10-07T09:31:33.474394+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/alimony-child-support-income-buy-str/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/alimony-child-support-income-buy-str/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-arrived-str-purchase/",
+      "inspection": {
+        "id": "6ec9c065-9254-4fe2-87f7-ac9b77d3e0c6",
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-arrived-str-purchase/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:28:18.171753+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-arrived-str-purchase/",
+        "observed_at": "2026-10-07T09:31:33.485029+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-arrived-str-purchase/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-arrived-str-purchase/",
+        "sitemap_included": true,
+        "inbound_pages": 7,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-ember-flex-str-purchase/",
+      "inspection": {
+        "id": "8f83ab59-8e40-453e-9006-9fda48da8999",
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-ember-flex-str-purchase/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:28:25.031586+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-ember-flex-str-purchase/",
+        "observed_at": "2026-10-07T09:31:33.450644+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-ember-flex-str-purchase/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-ember-flex-str-purchase/",
+        "sitemap_included": true,
+        "inbound_pages": 7,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/boundary-survey-before-buying-str/",
+      "inspection": {
+        "id": "0afcc054-d3f1-42ed-8df2-4dfc842e2a74",
+        "url": "https://www.bnbaccelerator.com/blog/boundary-survey-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:28:31.641811+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/boundary-survey-before-buying-str/",
+        "observed_at": "2026-10-07T09:31:33.644895+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/boundary-survey-before-buying-str/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/boundary-survey-before-buying-str/",
+        "sitemap_included": true,
+        "inbound_pages": 12,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buried-oil-tank-before-buying-str/",
+      "inspection": {
+        "id": "6d0ec502-5a44-459b-9a96-e219954f3fd7",
+        "url": "https://www.bnbaccelerator.com/blog/buried-oil-tank-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:28:38.171069+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buried-oil-tank-before-buying-str/",
+        "observed_at": "2026-10-07T09:31:33.679967+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buried-oil-tank-before-buying-str/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buried-oil-tank-before-buying-str/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-five-unit-str-building-financing/",
+      "inspection": {
+        "id": "065ab8ef-671a-4b90-8b6b-65d52944bf85",
+        "url": "https://www.bnbaccelerator.com/blog/buy-five-unit-str-building-financing/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:28:45.122293+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-five-unit-str-building-financing/",
+        "observed_at": "2026-10-07T09:31:33.820885+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-five-unit-str-building-financing/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-five-unit-str-building-financing/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-after-bankruptcy/",
+      "inspection": {
+        "id": "dc9fbb88-3e96-467c-b26c-a2537f53749f",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-after-bankruptcy/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:28:51.866557+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-after-bankruptcy/",
+        "observed_at": "2026-10-07T09:31:33.654882+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-after-bankruptcy/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-after-bankruptcy/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-after-business-sale/",
+      "inspection": {
+        "id": "4d3277e1-8f20-4549-bdb8-6117bd700a64",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-after-business-sale/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:28:58.680113+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-after-business-sale/",
+        "observed_at": "2026-10-07T09:31:33.730739+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-after-business-sale/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-after-business-sale/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-after-divorce-former-home-mortgage/",
+      "inspection": {
+        "id": "fbfe9df7-b04e-4c7b-8e5c-8da4082ebc86",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-after-divorce-former-home-mortgage/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:29:05.345713+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-after-divorce-former-home-mortgage/",
+        "observed_at": "2026-10-07T09:31:33.770888+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-after-divorce-former-home-mortgage/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-after-divorce-former-home-mortgage/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-contract-for-deed/",
+      "inspection": {
+        "id": "45a54daf-33b3-44da-84ee-fc83de814367",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-contract-for-deed/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:29:12.086924+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-contract-for-deed/",
+        "observed_at": "2026-10-07T09:31:33.864326+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-contract-for-deed/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-contract-for-deed/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-declining-bonus-commission-income/",
+      "inspection": {
+        "id": "efc8b412-5341-45f3-982d-b2e7a43d869f",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-declining-bonus-commission-income/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:29:18.873139+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-declining-bonus-commission-income/",
+        "observed_at": "2026-10-07T09:31:33.836356+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-declining-bonus-commission-income/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-declining-bonus-commission-income/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-during-temporary-leave/",
+      "inspection": {
+        "id": "b71a57da-d29d-4afa-83a3-6229716ea086",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-during-temporary-leave/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:29:25.423059+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-during-temporary-leave/",
+        "observed_at": "2026-10-07T09:31:33.907495+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-during-temporary-leave/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-during-temporary-leave/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-high-income-large-tax-bill/",
+      "inspection": {
+        "id": "deddc507-8ffb-4dd2-ab37-4fb7da7901fe",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-high-income-large-tax-bill/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:29:32.098573+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-high-income-large-tax-bill/",
+        "observed_at": "2026-10-07T09:31:33.933900+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-high-income-large-tax-bill/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-high-income-large-tax-bill/",
+        "sitemap_included": true,
+        "inbound_pages": 90,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-irs-payment-plan/",
+      "inspection": {
+        "id": "5c64d6bf-15af-45a9-b9ff-0879466f912b",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-irs-payment-plan/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:29:38.73933+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-irs-payment-plan/",
+        "observed_at": "2026-10-07T09:31:33.952900+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-irs-payment-plan/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-irs-payment-plan/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-less-than-two-years-self-employed/",
+      "inspection": {
+        "id": "35096b12-cdad-4799-b1b2-71c6c01cc8f9",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-less-than-two-years-self-employed/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:29:45.485641+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-less-than-two-years-self-employed/",
+        "observed_at": "2026-10-07T09:31:34.002543+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-less-than-two-years-self-employed/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-less-than-two-years-self-employed/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-portfolio-seller-package/",
+      "inspection": {
+        "id": "c736866d-eff0-41f9-a52e-789a9c262c93",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-portfolio-seller-package/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:29:52.16972+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-portfolio-seller-package/",
+        "observed_at": "2026-10-07T09:31:33.983843+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-portfolio-seller-package/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-portfolio-seller-package/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-revocable-living-trust/",
+      "inspection": {
+        "id": "caccd01b-e766-462e-a688-ec146c6289e7",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-revocable-living-trust/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:29:58.78323+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-revocable-living-trust/",
+        "observed_at": "2026-10-07T09:31:34.010562+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-revocable-living-trust/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-revocable-living-trust/",
+        "sitemap_included": true,
+        "inbound_pages": 4,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-with-declining-revenue/",
+      "inspection": {
+        "id": "c9f79cdd-b5fc-481c-9c1d-cb60b184646d",
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-with-declining-revenue/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:30:34.315983+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-str-with-declining-revenue/",
+        "observed_at": "2026-10-07T09:31:34.121213+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-str-with-declining-revenue/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-str-with-declining-revenue/",
+        "sitemap_included": true,
+        "inbound_pages": 2,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/cell-service-before-buying-remote-str/",
+      "inspection": {
+        "id": "d5fb9c0f-1473-4cf3-b325-8ded5b77f126",
+        "url": "https://www.bnbaccelerator.com/blog/cell-service-before-buying-remote-str/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-05T06:55:20+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-07T09:30:41.078952+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/cell-service-before-buying-remote-str/",
+        "observed_at": "2026-10-07T09:31:34.092649+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/cell-service-before-buying-remote-str/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/cell-service-before-buying-remote-str/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/check-yard-drainage-before-buying-str/",
+      "inspection": {
+        "id": "4b63a46d-40ee-4008-87e3-04901ceae0ea",
+        "url": "https://www.bnbaccelerator.com/blog/check-yard-drainage-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:30:47.913738+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/check-yard-drainage-before-buying-str/",
+        "observed_at": "2026-10-07T09:31:34.160319+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/check-yard-drainage-before-buying-str/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/check-yard-drainage-before-buying-str/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/clue-report-before-buying-str/",
+      "inspection": {
+        "id": "3303a5da-aba2-463e-a6d6-2c2b48301a89",
+        "url": "https://www.bnbaccelerator.com/blog/clue-report-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:30:54.845201+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/clue-report-before-buying-str/",
+        "observed_at": "2026-10-07T09:31:34.218457+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/clue-report-before-buying-str/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/clue-report-before-buying-str/",
+        "sitemap_included": true,
+        "inbound_pages": 6,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/converted-bedroom-count-before-buying-str/",
+      "inspection": {
+        "id": "0bfd9b2e-2647-4d6a-ab7e-f518d1861ad1",
+        "url": "https://www.bnbaccelerator.com/blog/converted-bedroom-count-before-buying-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:31:01.569919+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/converted-bedroom-count-before-buying-str/",
+        "observed_at": "2026-10-07T09:31:34.164864+00:00",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/converted-bedroom-count-before-buying-str/",
+        "robots_allows_googlebot": true,
+        "live_noindex": false,
+        "live_canonical": "https://www.bnbaccelerator.com/blog/converted-bedroom-count-before-buying-str/",
+        "sitemap_included": true,
+        "inbound_pages": 3,
+        "server_delivered_article_text": true,
+        "first_paragraph_matches_build": true,
+        "probe_error": ""
+      },
+      "recommended_action": "Continue substantive buyer-quality and discovery review; use actual later Inspection evidence. Unknown/discovered is not a diagnosed technical or content cause; do not noindex/delete based on absence of impressions."
+    }
+  ]
+}
