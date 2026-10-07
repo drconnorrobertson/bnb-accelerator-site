@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/avery-carl-short-term-shop/",
+      "content_commit": "cf1d7eef1e2c130ebe1e73857e8f1ca2d5c6a752",
+      "verified_at": "2026-10-07T14:55:25.959573+00:00",
+      "evidence": "_gen/short-term-shop-versus-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One verified changed canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Changed core sitemap confirmed submitted14:55:38.626Zpending/zero reported errorswarnings",
+      "google_indexing_evidence": "Earlier actual URLunknown/no reportedcrawl retained; live eligibility is separate from confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/str-search/",
       "content_commit": "8a42d27c052e56c1a88ec5f68defc6c1a200b343",
       "verified_at": "2026-10-07T14:49:40.649844+00:00",
