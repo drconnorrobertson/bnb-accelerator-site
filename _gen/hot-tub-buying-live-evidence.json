@@ -1,0 +1,55 @@
+{
+  "verified_at": "2026-10-07T12:49:27.602495+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 57,
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+      "canonical": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "publication_date": "2026-09-22",
+      "modified_date": "2026-10-07",
+      "words": 1388,
+      "matched_faqs": 4,
+      "sitemap_entries": 1,
+      "sitemap_lastmod": "2026-10-07",
+      "inbound_public_pages": 3,
+      "internal_targets": 57,
+      "googlebot_ua_http_200": true
+    }
+  ],
+  "limits": "Serving/eligibility checks are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion.",
+  "content_commit": "afaaffe",
+  "submissions": {
+    "indexnow": {
+      "status": 200,
+      "canonical_urls": [
+        "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+        "https://www.bnbaccelerator.com/blog/",
+        "https://www.bnbaccelerator.com/blog/buy-str-high-income-large-tax-bill/"
+      ],
+      "live_key_verified": true,
+      "acceptance_not_indexing": true
+    },
+    "gsc_sitemap": {
+      "confirmed_at": "2026-10-07T12:49:39.896Z",
+      "pending": true,
+      "reported_errors": 0,
+      "reported_warnings": 0,
+      "not_indexing": true
+    }
+  },
+  "actual_indexing_baseline": {
+    "observed_at": "2026-10-07T11:45:24.163302+00:00",
+    "coverage_state": "Discovered - currently not indexed",
+    "verdict": "NEUTRAL",
+    "last_google_crawl": null,
+    "no_immediate_repeat_inspection": true
+  }
+}

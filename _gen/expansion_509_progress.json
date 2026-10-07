@@ -425,6 +425,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+      "content_commit": "afaaffe",
+      "verified_live_at": "2026-10-07T12:49:27.602495+00:00",
+      "counted_toward_509": false,
+      "validation": "1388words/sevenminutes/fourmatchedFAQs; all requiredchecks/fullfourpublicdiff;57live links-assets/3inbound; originalpublication/anchors/author/protectedhome/sharedflow preserved; independent treatment-cash comparison",
+      "submission": "IndexNow3URLsHTTP200/livekeyverified; GSCsitemapconfirmed12:49:39.896Zpending/zeroerrorswarnings,notindexing. Actual prior discovered-not-indexed/no lastcrawl preserved; revised indexing not confirmed"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-occupancy-rates-explained/",
       "content_commit": "70b24fddcff27d77c166889e901adc53196c3571",
       "verified_live_at": "2026-10-07T12:28:46.003085+00:00",
