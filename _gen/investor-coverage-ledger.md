@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: appraisal and seller-revenue overlap review
+
+Read four full substantive owners with tables/visibleFAQ or purchase checks: appraisal-income approach, furnished appraisal gap, comparable-set selection and seller proforma versus history. Each already answers a distinct valuation/funding/evidence/offer decision with worked examples. Genericnewlow-appraisal-versus-Airbnb-forecast guide rejected77/100(distinct8,buyer29,question13,service18,original9);no independently established new509 intent. Private appraisal-revenue-overlap-review.md records substantive coverage; useful URLs preserved with no merge/redirect/noindex/delete or Googleduplication/exclusion-cause claim. No public changes, fresh Inspection or unchanged submissions;53existingblog/8new counts unchanged. Next actual lender/appraisal evidence or separately established purchase-ready gap review. ACTIVEfive-minute schedule unchanged.
+
 ## October 7: service-value stored indexing provenance
 
 Connected filtered latest Inspection history confirms existing service-value URL PASS/Submitted-and-indexed/ALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE; exact original request October6T21:05:23.935302 and September23T12:16:42 crawl. Complete filtered history hasMorefalse, two matching rows collapsed to one latest result. Inventory21:09 is aggregate capture, not API time. Persisted service-value-stored-indexing-history-2026-10-07.json and liveevidence provenance without changing earlier inventory observation/performance. No fresh Inspection/quota/recrawl, public changes or repeated submissions. Earlier indexing does not establish October7 revised-body receipt or search gains. Counts53existingblog/8new509 unchanged; next independent buyer-quality/gap work. ACTIVEfive-minute schedule unchanged.
