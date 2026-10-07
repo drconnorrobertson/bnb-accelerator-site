@@ -55,6 +55,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Generic prior-use, Phase I or contaminated-site STR purchase guide",
+      "status": "Rejected as overlapping complete existing Phase I and buried-tank substantive answers; narrower recorded residual-control handoff remains unapproved and unscored pending further overlap/source work",
+      "review_brief": "_gen/environmental-acquisition-overlap-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Generic co-buyer capital-call, signing-authority, ownership-exit and personal-exposure STR purchase checklist",
       "status": "Rejected as substantially overlapping full existing partnership, entity, guarantee and revocable-trust bodies/FAQs; original funded examples already present; no passing score or measured demand claimed",
       "review_brief": "_gen/joint-ownership-acquisition-overlap-screen.md",
