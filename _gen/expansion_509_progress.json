@@ -517,6 +517,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/vrbo-listing-handoff-buying-str/",
+      "content_commit": "77bfd43498ba2646b547067c51f55084a6acd250",
+      "verified_live_at": "2026-10-07T16:33:04.676186+00:00",
+      "counted_toward_509": false,
+      "validation": "1978words/9minutes/4preserved matchedFAQs; all required checks/full four-public diff;58live links-assets/6inbound;745othercards/framing and originalSeptember25pub/H1/title/author/IDs retained; homepage/sharedflow exact",
+      "submission": "IndexNow3changedcanonicalsHTTP200; blogXMLconfirmed16:33:18.242Zpending/zero reportederrorswarnings. Earlier actual submitted/indexed September26crawl retained, no revised crawl/indexing/search gain",
+      "evidence": "_gen/vrbo-handoff-review-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
       "content_commit": "1a390fcceed119f9af216631c9247854b540036b",
       "verified_live_at": "2026-10-07T16:16:48.359549+00:00",
