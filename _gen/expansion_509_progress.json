@@ -425,6 +425,16 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-roi-short-term-rental/",
+      "content_commit": "bc2c07d9d48a332b855b7dd250839d8009ac1404",
+      "verified_at": "2026-10-07T11:08:07.893551+00:00",
+      "validation": "All required checks/full scoped diff/homepage protection; four exact public artifacts,58linked destinations/assets,four matchedFAQs/GooglebotUA200 passed",
+      "submission": "IndexNow three verified canonicals HTTP200; sitemap confirmed2026-10-07T11:08:19.827Z pending. Neither confirms indexing.",
+      "confirmed_revised_indexing": false,
+      "counted_toward_509": false,
+      "live_evidence": "_gen/appliance-roi-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/appliances-repair-replace-short-term-rental/",
       "content_commit": "3eee0bf955fc44d2cf8058bb55f54810e10431cb",
       "verified_at": "2026-10-07T10:51:51.167414+00:00",
