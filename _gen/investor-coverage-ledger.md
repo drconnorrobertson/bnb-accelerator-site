@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: after-hours support paid-quote purchase decision
+
+Existing concise owner expanded after full original note/noFAQ review and separate yearone coverage owner distinction, notnew509guide. PrimaryAirbnbpermissionsdocument checkedOctober7;platformaccess≠acceptedservice. Original sixfieldquoteacceptance/threeplannedtabletops/inventedfee-crossover pluslaunchcash reconciliation, notgenerichosttips/pricerating/clientresult. A300+40n/B650+15n plus360dispatch:n8=980/1130;n20=1460/1310;n14=1220each. Separate250000funds/234000allocationinc35000reserve+900onboard+2940=237840/12160margin;replaceone980with1460 adds480→238320/11680margin. September23pub/title/H1/author/CTA preserved;Oct7modified/archive/search/lastmod andthreeFAQs aligned.1353words/sevenminutes. Requiredchecks/fullfourpublicdiff/math/homehashes/similarity.015passed;productionpending. Existingblog44/new8of509/resource7/comparison10 unchangeduntilliveverification. ACTIVEfive-minute schedule preserved.
+
 ## October7: rejected-candidate search-service exit ownership screen
 
 Full STRSearchsigningresource and agent-versus-acquisitionteam bodies/ninevisibleFAQs/schema read. Generic refund/cancellation/replacementprovider acquisitionvariant rejected76/100(distinct10/buyer28/evidence12/service18/original8):delivery-versus-acceptance, paidscope/replacement/fees/clock, exit/carryover/retainedresearch and rejectedcandidate sequence alreadyowned. Preserveusefulformats/nomerge/delete/noindex/provider-swap/new509credit. Private search-service-exit-overlap-review.md recordsactualbodyevidence andlimits;notnewcurrent-contract certification. Nextinspectconciseafter-hours-supportcostowner alongsideyearonecoverage beforeproperty-specificpaid-support acceptance/costdevelopment;no mechanical98rewrite. Publicchanges/submissions0;new8/blog44/comparison10/resource7/hubnavigationunchanged. ACTIVEfive-minute schedule preserved.
