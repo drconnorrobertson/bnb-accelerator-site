@@ -11,6 +11,13 @@
   "verified_live_new_pages": 3,
   "approved_candidates": [
     {
+      "slug": "preservation-easement-str-purchase-handoff",
+      "editorial_score": [23, 28, 13, 17, 10],
+      "total": 91,
+      "status": "Qualified/drafted; validation and live verification pending; not counted",
+      "publication_date": "2026-10-07"
+    },
+    {
       "slug": "mineral-rights-before-buying-str",
       "editorial_score": [24, 29, 14, 18, 10],
       "total": 95,
@@ -35,7 +42,7 @@
   "research_candidates": [
     {
       "candidate_intent": "Acquisition handoff of recorded grant-assisted historic preservation maintenance, access and compliance obligations",
-      "status": "Unapproved/unscored: complete HOA, ground lease, historic-renovation and utility-easement answers reviewed; generic conservation/site-permission page would overlap. NPS HPF overview/model reviewed; narrower baseline and calendar handoff needs dedicated overlap and original-support qualification",
+      "status": "Narrow preservation completed-work/operating-handoff guide qualified after dedicated whole-library search and NPS model review; editorial91/100, original condition/calendar/quote worksheets; validation/live pending",
       "review_brief": "_gen/conservation-preservation-acquisition-screen.md",
       "counted_as_published": false
     },

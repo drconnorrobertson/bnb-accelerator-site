@@ -1,0 +1,15 @@
+# Recorded preservation agreement: purchase handoff review
+
+October7,2026. Candidate /blog/preservation-easement-str-purchase-handoff/.
+
+Distinct from future renovation/designation approvals: reconcile the seller's claimed completed condition with referenced baseline records and approvals, then test the successor's access/calendar and responsibility handoff. No new generic conservation or utility-easement relocation article.
+
+Full four neighboring bodies/FAQs read in the preceding screen (historic renovation, HOA declaration, ground lease, utility-easement pool); earlier full title/survey reviews supplemented by targeted source review. This run's full-library grant-assisted/public-access-days/baseline/preservation-covenant/conservation-easement search matched only general title and historic renovation answers, neither a dedicated completed-work/operating-handoff guide.
+
+Editorial score23distinct/28imminentbuyer/13question/17servicefit/10originalsupport=91; meets85total/27buyer/17fit. Not measured query demand. NPS's actual grant-context model and guidance supply evidence of responsibilities worth investigating, not a verified STR client's situation or nationwide obligation.
+
+Official source https://www.nps.gov/subjects/historicpreservationfund/easements-covenants-and-preservation-agreements.htm checkedOctober7; lastupdatedNovember9,2023 truthfully stated. Relevant overview/model/exhibits fully read across screen and this run. Source-derived explanation deliberately bounded below200words; no copied long clauses. Actual recorded terms/counsel/holder govern; no model day-count, notice, funding or liability rule asserted nationally.
+
+Original five-row baseline/current-condition/difference register; trim-replacement missing-approval scenario leaves status unresolved instead of declaring a violation. Original six daytime sessions:four during existing setup blocks,two calendar conflicts,not automatically two lost nights. Original18k same-scope roof quote replaced26k =>8k increment,not44k; six175staffing=1050plus650reporting=1700annualincrement,remove management duplicates. Not NPSfees, marketquotes, lost-revenue forecast or clientresults. Ongoing services separate from one-time work. Preserve security/privacy and independent professional boundaries.
+
+1491words/7minutes/fourFAQ; truthful October7publication/modification/review date and original agency lastupdate; established application destination and organization author. All741prior archivecards byte-identical; archive non-card and completeItemList changes reviewed, new search excerpt/hublink/sitemap/siteindexcounts accurate. Build2601files/2483sitemaproutes, buyer-intent/nonhome SEO/design/preclosing/precall,2484HTML/2483sitemap/277redirect audit,742page similaritymax0.011,diff-check passed. Complete draft/rendered body/metadata/Article/FAQ and scoped diff reviewed. Homepage source/built hashes/assets/sharedmodules unchanged; freshmain0/0. Serving verification pending;3/509live count unchanged. Prepublication GoogleinspectionNEUTRAL/unknown/no reportedcrawl is not an exclusion cause or postpublication evidence.
