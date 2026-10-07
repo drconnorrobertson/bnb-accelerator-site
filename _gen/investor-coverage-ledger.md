@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: provider-incentive distinct-intent screen
+
+Full current agent-versus-acquisition-team substantive body/originalFAQ/preclosingquestions read. Genericnewprovider-referralconflict buyer guide rejected73/100: existingowner already answers compensation/offset/related-partybenefit/conflict disclosure/two-agreement authority. No provider-swappedvariant/new509credit/delete/noindex approved. Privateprovider-conflict-overlap-review.md preserves scorecomponents and owner evidence. Existing14:02competitorperformance baseline alreadycoverssettledSeptember7–October4; no unchangedquery/submissionrepeat andno zero-row exclusion inference. Next seek independentlydifferent buyerdecision across substantiveowners. No publicchange/home/sharedflowmutations;ACTIVEfive-minute schedule unchanged.
+
 ## October7: existing STR Insights service-tier owner expansion
 
 First actualtierguideInspection baseline18:04:56UTC:NEUTRAL/Discovered-currently-not-indexed/INDEXING_STATE_UNSPECIFIED/no reportedcrawl;1success/0failed/skipped,quota191→192/1808remaining. Notconfirmedtechnicalbarrier/worseningtrend/revisionreceipt. Separate18:02liveeligibility/4inbound retained; snapshotinsights-tier-indexing-baseline-2026-10-07.json. Allowdiscoverytime/no unchangedresubmissions/immediaterepeatInspection;continue independentcontentreview. No publicchange/509credit/searchconversiongain;ACTIVEfive-minute schedule unchanged.
