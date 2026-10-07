@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/cost-seg-timing-and-hold-period/",
+      "observed_at": "2026-10-07T04:20:36Z",
+      "observation_time_basis": "Pre-release inspection obtained before this time; not a returned request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T04:22:11Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/cost-seg-timing-and-hold-period/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 5,
+      "internal_targets_verified": 102,
+      "content_commit": "ad957d16d216eabc00d2a34febc2090fddac81c2",
+      "indexnow_status": "HTTP 200 accepted for three changed canonicals; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T04:22:25.714Z; pending download, not indexing",
+      "caveat": "Existing URL unknown is not a technical-cause diagnosis. Live eligibility does not confirm indexing or performance."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/reverse-1031-buy-str-before-selling/",
       "observed_at": "2026-10-07T04:09:38Z",
       "observation_time_basis": "Prepublication inspection obtained before this time; not a returned inspection request timestamp",

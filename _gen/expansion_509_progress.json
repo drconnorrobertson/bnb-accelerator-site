@@ -97,6 +97,16 @@
       "counted_as_published": false
     }
   ],
+  "separately_counted_existing_refreshes": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/cost-seg-timing-and-hold-period/",
+      "content_commit": "ad957d16d216eabc00d2a34febc2090fddac81c2",
+      "verified_live_at": "2026-10-07T04:22:11Z",
+      "counted_toward_509": false,
+      "validation": "1262words/6minutes/4matchedFAQs; required checks/full scoped review; 102 live internal targets; source/built homepage and shared flow preserved",
+      "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
+    }
+  ],
   "status": "2 of 509 additional new guides validated and live. Remaining 507 are a target, not established qualified gaps or completed pages.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }
