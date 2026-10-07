@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-07T20:22:54.495447+00:00",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/blog/str-permit-value-sale/",
+  "evidence_type": "First stored actual Google URL Inspection for this owner; connected filtered history returned zero rows with hasMore false before inspection",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+  "referringUrls": [],
+  "quota_after": {"count": 199, "limit": 2000, "remaining": 1801},
+  "independent_eligibility": "_gen/permit-value-live-evidence.json:20:20:27.682618 UTC; four exact artifacts, self-canonical HTTP200, robots allowed, noindex absent, Googlebot-UA200, 58 linked targets, three inbound pages and exact protected homepage",
+  "recommended_action": "Allow crawl/discovery time and continue independent buyer-quality work; no immediate repeat inspection or unchanged submission",
+  "limits": "Actual discovered/not-indexed status with no reported crawl does not establish a technical barrier, duplicate intent, worsening trend or receipt of the expanded body. Three independently verified inbound pages are not Google referringUrls. Historical performance not returned is not zero performance. No search or conversion gain.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
