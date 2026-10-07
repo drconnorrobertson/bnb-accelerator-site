@@ -47,13 +47,14 @@ BODY='''<p class="lead">An STR hold period matters before you buy because accele
 <p><a href="/apply/">Discuss the acquisition shortlist with a bounded hold-period memo</a>: available early cash, intended use, financing conditions, operating downside, expected liquidity dates and adviser questions. Keep tax returns and asset records in agreed secure channels. BNB Accelerator assists within its contracted acquisition scope; independent professionals determine tax, legal, exchange and financing conclusions. See the <a href="/blog/buy-str-high-income-large-tax-bill/">high-income buyer roadmap</a> for the rest of the purchase path.</p>
 <p class="small">IRS primary materials reviewed October 7, 2026; currently published editions above are 2025 materials, not newly issued 2026 editions. Educational information only, not legal, tax, lending or personalized investment advice. All example numbers are hypothetical. No deduction, refund, sale, exchange, financing or return is guaranteed.</p>'''
 
-def main():
- p=ROOT/'blog'/SLUG/'index.html';s=p.read_text();published=re.search(r'"datePublished":\s*"([^"]+)"',s)[1];assert published=='2026-08-15'
+def main(expected_publication='2026-08-15', hub_attribute='data-hold-period-review-link', hub_paragraph='Before relying on an early deduction, compare the <a href="/blog/cost-seg-timing-and-hold-period/">hold-period review register and taxable-sale cash worksheet</a>. Future proceeds and projected tax benefits are not today’s acquisition cash.'):
+ p=ROOT/'blog'/SLUG/'index.html';s=p.read_text();published=re.search(r'"datePublished":\s*"([^"]+)"',s)[1];assert published==expected_publication
  author=re.search(r'<div class="author-box">.*?</div>\s*</div>',s,re.S)[0]
  faq='<h2 id="faq">Frequently asked questions</h2>'+''.join('<div class="faq-group"><h3>'+html.escape(q)+'</h3><div class="faq-answer"><p>'+html.escape(a)+'</p></div></div>' for q,a in FAQ)
  body=BODY+faq+author;words=len(html.unescape(re.sub('<[^>]+>',' ',body)).split());minutes=math.ceil(words/220)
  s=re.sub(r'(<article class="article">).*?</article>',lambda m:m[1]+'\n'+body+'\n</article>',s,count=1,flags=re.S)
  s=re.sub(r'<title>.*?</title>','<title>'+TITLE+'</title>',s,count=1);s=re.sub(r'<h1>.*?</h1>','<h1>'+H1+'</h1>',s,count=1)
+ s=re.sub(r'(<meta property="article:published_time" content=")[^"]*(")',lambda m:m[1]+published+m[2],s)
  for name,val in [('description',DESC),('og:description',DESC),('twitter:description',DESC),('og:title',TITLE),('twitter:title',TITLE)]:s=re.sub(r'(<meta (?:name|property)="'+name+r'" content=")[^"]*(")',lambda m:m[1]+html.escape(val,quote=True)+m[2],s)
  def schema(m):
   d=json.loads(m[2])
@@ -71,8 +72,8 @@ def main():
   count+=1;c=re.sub(r'(<h3><a[^>]*>).*?(</a></h3>)',lambda z:z[1]+H1+z[2],c,flags=re.S);c=re.sub(r'<p>.*?</p>','<p>'+DESC+'</p>',c,count=1,flags=re.S)
   c=re.sub(r'data-search="[^"]*"','data-search="'+html.escape((H1+' '+DESC).lower(),quote=True)+'"',c);return re.sub(r'<span>\d+ min read</span>',f'<span>{minutes} min read</span>',c)
  a=re.sub(r'<article class="post-card".*?</article>',card,old,flags=re.S);assert count==1;archive.write_text(a)
- hub=ROOT/'blog/buy-str-high-income-large-tax-bill/index.html';h=hub.read_text();h=re.sub(r'<p data-hold-period-review-link>.*?</p>\s*','',h,flags=re.S)
- h=h.replace('<div class="author-box">','<p data-hold-period-review-link>Before relying on an early deduction, compare the <a href="/blog/cost-seg-timing-and-hold-period/">hold-period review register and taxable-sale cash worksheet</a>. Future proceeds and projected tax benefits are not today’s acquisition cash.</p>\n<div class="author-box">',1);hub.write_text(h)
+ hub=ROOT/'blog/buy-str-high-income-large-tax-bill/index.html';h=hub.read_text();h=re.sub(r'<p '+re.escape(hub_attribute)+r'>.*?</p>\s*','',h,flags=re.S)
+ h=h.replace('<div class="author-box">','<p '+hub_attribute+'>'+hub_paragraph+'</p>\n<div class="author-box">',1);hub.write_text(h)
  sm=ROOT/'sitemap-blog.xml';xml=sm.read_text();url='https://www.bnbaccelerator.com/blog/'+SLUG+'/'
  xml,n=re.subn(r'(<loc>'+re.escape(url)+r'</loc>\s*<lastmod>)[^<]+',lambda m:m[1]+DATE,xml);assert n==1;sm.write_text(xml)
  si=ROOT/'sitemap/index.html';v=si.read_text();v=re.sub(r'(<a href="/blog/'+SLUG+r'/">)[^<]+',lambda m:m[1]+TITLE,v);si.write_text(v)
