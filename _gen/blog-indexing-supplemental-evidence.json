@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-personal-use-days/",
+      "observed_at": "2026-10-07T03:26:31Z",
+      "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-25T00:53:09Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": ["https://www.bnbaccelerator.com/blog/7-day-rule-explained/"],
+      "live_probe_at": "2026-10-07T03:27:36Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/str-personal-use-days/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 15,
+      "content_commit": "0c72719d",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmation of revision recrawl",
+      "sitemap_submission": "Confirmed 2026-10-07T03:27:44.368Z; pending download, not indexing",
+      "caveat": "Confirms earlier URL indexing, not Google's receipt of the newly revised article or performance gains."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/normalize-owner-blocks-str/",
       "observed_at": "2026-10-07T03:12:11Z",
       "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
