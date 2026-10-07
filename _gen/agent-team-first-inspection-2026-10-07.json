@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-07T16:53:03Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "inspectionUrl": "https://www.bnbaccelerator.com/blog/str-buyer-agent-vs-acquisition-team/",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "referringUrls": [],
+  "eligibility_evidence": "_gen/agent-team-review-live-evidence.json",
+  "interpretation": "First actual Inspection for this inventory owner. Google reports URL unknown and no crawl time; this is not a diagnosed robots/canonical/rendering defect. Independently live verified HTTP200, Googlebot-UA200, canonical, allowed robots, no noindex, sitemap and links at16:50:54UTC. Accepted submissions are not indexing. No new inspection requested again immediately.",
+  "recommended_action": "Allow discovery time; prioritize substantive buyer improvements independently and compare later actual inspection/query evidence. No unchanged resubmission.",
+  "public_changes": 0
+}
