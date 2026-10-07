@@ -107,6 +107,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/depreciation-recapture-str/",
+      "content_commit": "af65b04914e9eb26fb4ef75eb8f0539b5d03693d",
+      "verified_live_at": "2026-10-07T04:34:57Z",
+      "counted_toward_509": false,
+      "validation": "1331words/7minutes/4matchedFAQs; required checks/full scoped review; 101 live internal targets/24inbound pages; protected homepage and shared flow preserved",
+      "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:34:57.135Z submission; existing URL indexing confirmed from September26crawl, revision receipt unconfirmed"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/cost-seg-timing-and-hold-period/",
       "content_commit": "ad957d16d216eabc00d2a34febc2090fddac81c2",
       "verified_live_at": "2026-10-07T04:22:11Z",

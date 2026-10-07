@@ -1,6 +1,31 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/depreciation-recapture-str/",
+      "observed_at": "2026-10-07T04:33:27Z",
+      "observation_time_basis": "Pre-release inspection obtained before this time; not a returned request timestamp",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-26T02:22:52Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": ["https://www.bnbaccelerator.com/blog/str-investing-mistakes/"],
+      "live_probe_at": "2026-10-07T04:34:57Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/depreciation-recapture-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 24,
+      "internal_targets_verified": 101,
+      "content_commit": "af65b04914e9eb26fb4ef75eb8f0539b5d03693d",
+      "indexnow_status": "HTTP 200 accepted for three changed canonicals; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T04:34:57.135Z; pending download, not indexing",
+      "caveat": "Existing URL indexing confirmed from September26crawl, not receipt of October7revision. Live eligibility/submissions do not prove new search or enquiry outcomes."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/cost-seg-timing-and-hold-period/",
       "observed_at": "2026-10-07T04:20:36Z",
       "observation_time_basis": "Pre-release inspection obtained before this time; not a returned request timestamp",
