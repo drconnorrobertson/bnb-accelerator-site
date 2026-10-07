@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-07T20:58:02.144244+00:00",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/blog/airbnb-neighbors-and-noise/",
+  "evidence_type": "First stored actual Google URL Inspection; filtered connected history returned zero rows with hasMore false before inspection",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-24T15:06:49Z",
+  "pageFetchState": "SUCCESSFUL",
+  "crawledAs": "MOBILE",
+  "referringUrls": ["https://www.bnbaccelerator.com/blog/sedona-arizona-str-market/"],
+  "quota_after": {"count": 201, "limit": 2000, "remaining": 1799},
+  "independent_eligibility": "_gen/neighbor-noise-correction-live-evidence.json:20:56:24.834592UTC exact revised build, HTTP200, selfcanonical,robotsallowed,noindexabsent,Googlebot-UA200,58internal targets,seven inbound pages,exact protected homepage",
+  "historical_performance": {"start": "2026-09-06", "end": "2026-10-03", "impressions": 5, "clicks": 0},
+  "recommended_action": "Preserve indexed canonical; measure revised crawl and buyer queries later without immediate repeat inspection or unchanged submissions",
+  "limits": "Confirms existing URL indexing, not new indexing caused by the correction or Google receipt of the October7 revised body. Reported September24 crawl predates correction. Historical performance is not current improvement or qualified enquiries; one Google referringURL does not replace independently checked seven inbound pages.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
