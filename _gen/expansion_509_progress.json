@@ -47,7 +47,17 @@
       "confirmed_indexing": false
     }
   ],
-  "rejected_or_existing_intents": [],
+  "rejected_or_existing_intents": [
+    {
+      "candidate_intent": "Final walkthrough before closing an STR purchase",
+      "decision": "Existing public resource; do not create or count a duplicate blog article",
+      "existing_url": "https://www.bnbaccelerator.com/buy-a-short-term-rental/final-walkthrough-checklist/",
+      "reviewed_at": "2026-10-07T03:56:48Z",
+      "substantive_review": "Read the complete public workbook answer and neighboring furniture, diligence, rent-back and opening guides. The workbook already covers the agreed baseline, changed condition, repair evidence, included items, possession, utilities, exception escalation and separate financial/launch gates.",
+      "research_brief": "_gen/final-walkthrough-overlap-review.md",
+      "counted_as_published": false
+    }
+  ],
   "status": "1 of 509 additional new guides validated and live. Remaining 508 are a target, not established qualified gaps or completed pages.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }
