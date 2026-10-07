@@ -8,8 +8,15 @@
   "minimum_buyer_relevance": 27,
   "minimum_acquisition_service_fit": 17,
   "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
-  "verified_live_new_pages": 5,
+  "verified_live_new_pages": 6,
   "approved_candidates": [
+    {
+      "slug": "communications-lease-rent-before-buying-str",
+      "editorial_score": [24, 28, 14, 18, 10],
+      "total": 94,
+      "status": "Published in 14e090c7e224366ab1955e6ca531c96f24b37a6d and verified live; counted once",
+      "publication_date": "2026-10-07"
+    },
     {
       "slug": "land-use-tax-enrollment-before-buying-str",
       "editorial_score": [23, 28, 14, 17, 10],
@@ -49,9 +56,9 @@
   "research_candidates": [
     {
       "candidate_intent": "Incoming communications-lease rent entitlement and postclosing payee before a fee-simple STR acquisition",
-      "status": "Unapproved and unscored: operator ownership/payee pages visually verified and five further neighboring answers read. Existing STR/LTR comparison accuracy refresh takes priority; no passing new-intent score or measured buyer demand claimed",
-      "review_brief": "_gen/infrastructure-lease-acquisition-screen.md",
-      "counted_as_published": false
+      "status": "Narrow incoming-rent entitlement/payee guide accepted after substantive neighbor review; editorial94/100, not measured demand; published and verified live",
+      "review_brief": "_gen/communications-rent-acquisition-review.md",
+      "counted_as_published": true
     },
     {
       "candidate_intent": "Land-use tax enrollment, proposed site footprint and transition-liability cash before buying an acreage STR",
@@ -87,6 +94,22 @@
     }
   ],
   "published": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
+      "content_commit": "14e090c7e224366ab1955e6ca531c96f24b37a6d",
+      "verified_live_at": "2026-10-07T06:12:13Z",
+      "verification_time_basis": "Both serving-production scripts completed by this time; discovery sitemap required one30second propagation retry",
+      "words": 1665,
+      "reading_minutes": 8,
+      "matched_faqs": 4,
+      "internal_targets_verified": 117,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.010,
+      "validation": "Required build/tests/content audit and full scoped semantic diff; all743 prior archivecards preserved; homepage/assets/protectedsharedmodules unchanged; independent57 live articlelinks/assets passed",
+      "submission_status": "IndexNow three changed canonicals HTTP200 accepted; changed blog sitemap submitted 2026-10-07T06:12:23.765Z/pending; neither establishes indexing",
+      "indexing_evidence": "Actual prepublication NEUTRAL/URLunknown/no lastcrawl/unspecified states; not a technical exclusion diagnosis or postpublication indexing verdict",
+      "counted_toward_509": true
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
       "content_commit": "8f80e0dec37970296472d1cc787e0f41f029d4e8",
@@ -285,6 +308,6 @@
       "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
     }
   ],
-  "status": "5 of 509 additional new guides validated and live. Remaining 504 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
+  "status": "6 of 509 additional new guides validated and live. Remaining 503 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }

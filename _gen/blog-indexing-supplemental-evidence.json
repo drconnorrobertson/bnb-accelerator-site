@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
+      "observed_at": "2026-10-07T06:12:13Z",
+      "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 117,
+      "content_commit": "14e090c7e224366ab1955e6ca531c96f24b37a6d",
+      "indexnow_status": "Three changed live-verified canonicals accepted HTTP200; not indexing evidence",
+      "sitemap_submission": "Confirmed 2026-10-07T06:12:23.765Z; pending download; zero reported errors/warnings",
+      "caveat": "Prepublication unknown state is not a technical exclusion diagnosis. Exact production article and unchanged homepage verified; independent57 links/assets passed after one propagation retry. No authenticated Vercel READY/log, postpublication indexing or search/enquiry gain claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-cash-on-cash-return/",
       "observed_at": "2026-10-07T06:04:02Z",
       "observation_time_basis": "Evidence recorded after live checks/submission; actual inspection obtained before revision publication",

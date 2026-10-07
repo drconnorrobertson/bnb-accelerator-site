@@ -23,3 +23,7 @@ Build2603files/all2485sitemaproutes. Buyer-intent, nonhome SEO/design, preclosin
 ## Indexing evidence
 
 Actual prepublication URL Inspection: NEUTRAL, URL is unknown to Google, no reported last crawl, unspecified robots/indexing/fetch states, no referring URLs. This is not a confirmed technical barrier or a postpublication indexing verdict. Production verification and submissions pending; do not count this draft toward509 yet.
+
+## Completed release (supersedes pending status)
+
+Content commit14e090c7e224366ab1955e6ca531c96f24b37a6d pushed main; both production checks completed before06:12:13UTC. Live canonical200/body/dates/fourFAQs/archive/sitemap,117internal targets/3inbound pages; Googlebot-UA200/robotsallow/noindexabsent/protectedhomepageexact. Independent57articlelinks/assets passed after one30second sitemap propagation retry. IndexNow guide/changedhub/archive HTTP200 accepted; meaningful changed blog sitemap confirmed06:12:23.765Z/pendingdownload/zero reported errors-warnings. No authenticated VercelREADY/log, confirmed new indexing or search/enquiry outcome claimed. Counted once as6/509newliveguides; existing refreshes separate. Next review substantive transaction evidence gaps rather than create generic tower/provider/lease variants.
