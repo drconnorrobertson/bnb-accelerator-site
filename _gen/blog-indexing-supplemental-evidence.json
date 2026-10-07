@@ -1,6 +1,20 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/llc-for-short-term-rental/",
+      "observed_at": "2026-10-07T00:01:30Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-26T11:42:29Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/compare/best-str-financing-options/"
+      ]
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-entity-structure-basics/",
       "observed_at": "2026-10-06T23:54:16Z",
       "verdict": "NEUTRAL",
