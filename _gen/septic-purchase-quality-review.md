@@ -1,0 +1,17 @@
+# Existing septic purchase guide review — October 7, 2026
+
+Existing URL only: /blog/septic-system-buying-short-term-rental/. No new article or 509 credit.
+
+Read complete substantive bodies and FAQs of septic buying, inspection, repair/replace, budget, design and septic-pumping-occupancy-cost. Five generic family answers substantially repeat framework language; this is a review signal, not evidence of Google exclusion or authority to merge the remaining family. Refresh the existing purchase answer, retain other URLs and useful distinct professional/operating questions. No mass noindex, deletion or keyword-swapped new page.
+
+Primary reading: complete EPA New Homebuyer landing page and four-page August 2017 PDF, plus current EPA How to Care for Your Septic System (updated August 17, 2026), checked October 7. The dated PDF supplies records/inspection questions, not a 2026 standard, fee or life estimate. Current household guidance supplies load/site safeguards, not a universal STR interval or design rule. Local authority and qualified specialists determine actual approval, condition, inspection scope and proposed use.
+
+Content-creation skill informed the purchase evidence register and original cash worksheet. Approval, inspection limitations, actual load, site footprint, feasible corrections and dated funds remain separate. Twelve sleeping places versus a three-bedroom file is a question, not a legal conclusion. No DIY tank entry, covers, wastewater testing or site work. Lower capacity does not cure condition uncertainty or justify proportional seller-revenue extrapolation.
+
+Hypothetical cash: 300k available; 220k purchase +25k setup +35k retained reserve =280k. Setup already includes3k septic: replace it with12k once =>34k setup,289k allocation/11k flexibility. Distinct2k review =>291k/9k; distinct10k net carry =>301k/1k gap. Spending reserve leaves34k, not35k. No client outcomes, typical costs, demand, refund or investment guarantee.
+
+Original September22 publication, H1/title, author and established application destination preserved. Modified October7; archive target excerpt/search/read time aligned, high-income hub linked, target XML lastmod meaningfully updated. Old three FAQ answers replaced by four matching buyer-specific answers. HTML sitemap label preserved; homepage/shared modules/assets unchanged.
+
+Prepublication URL Inspection returned NEUTRAL / Discovered - currently not indexed, no last crawl, unspecified robots/fetch/indexing states and no referring URLs. This is actual discovery/exclusion evidence, not a content-cause diagnosis, technical defect or proof the revision was crawled.
+
+Local validation: 1,635 words/eight-minute read/four matched FAQs; public build 2,601 files/2,486 sitemap routes. Required buyer pathways, nonhome SEO/design, preclosing/precall and content audit checks passed; similarity maximum0.014 across745articles. Full public article/metadata/schema, owned archive card, hub and XML diff reviewed;744othercards and non-card archive bytes preserved. Original H1/title/author and exact source/built homepage checksums retained. No asset/shared-module diff. Publication and serving evidence will be appended after live verification. Seven verified new guides remain separate.
