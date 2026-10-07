@@ -105,6 +105,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/kleer-circle-vs-str-insights/",
+      "content_commit": "9b36a99df03c90024b91ef9d4acceeecd88d22d6",
+      "verified_at": "2026-10-07T21:34:18.475468+00:00",
+      "evidence": "_gen/kleer-insights-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "All required checks/full scoped diff/current primary sources/original quote-equivalence register/hypothetical arithmetic/four original FAQs/October6 publication/58 linked targets-assets/2 inbound/homepage shared flow preserved",
+      "indexnow_status": "One changed verified canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "CoreXMLconfirmed21:34:39.678Z pending/zero reported errorswarnings",
+      "google_indexing_evidence": "No matching stored Inspection observation; actual indexing/cause unknown; missing history not exclusion proof"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/bnb-turnkey-vs-str-search/",
       "content_commit": "c97eb4724619cdaacfec36b3e7633410bf8411b2",
       "verified_at": "2026-10-07T21:23:47.906150+00:00",
