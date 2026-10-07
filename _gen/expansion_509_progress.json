@@ -1,0 +1,35 @@
+{
+  "requested_additional_pages": 509,
+  "baseline_commit": "ea49eed9a89151bc0f70e70c09c0c5213c11a769",
+  "baseline_blog_articles": 738,
+  "baseline_blog_sitemap_entries_including_archive": 739,
+  "scope": "Distinct purchase-ready STR acquisition guides for BNB Accelerator; preserve homepage and shared conversion flow.",
+  "minimum_candidate_score": 85,
+  "minimum_buyer_relevance": 27,
+  "minimum_acquisition_service_fit": 17,
+  "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
+  "verified_live_new_pages": 0,
+  "approved_candidates": [
+    {
+      "slug": "verify-closing-wire-before-buying-str",
+      "editorial_score": [24, 30, 14, 17, 9],
+      "total": 94,
+      "status": "Draft rendered; repository validation and live publication completion required before counting",
+      "publication_date": "2026-10-06"
+    }
+  ],
+  "research_candidates": [
+    {
+      "slug": "verify-closing-wire-before-buying-str",
+      "status": "Primary sources and five substantive neighboring guides reviewed; distinct intent approved and drafted",
+      "provisional_editorial_score": [24, 30, 14, 17, 9],
+      "provisional_total": 94,
+      "review_brief": "_gen/closing-wire-verification-review-brief.md",
+      "counted_as_published": false
+    }
+  ],
+  "published": [],
+  "rejected_or_existing_intents": [],
+  "status": "First distinct intent approved and drafted; live completion pending. No claim that 509 distinct gaps have been established.",
+  "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
+}
