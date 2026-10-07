@@ -4,7 +4,7 @@ import expand_hold_period as page
 page.SLUG='first-90-days-airbnb-launch'
 page.TITLE='First 90 Days of an Airbnb Launch: Buyer Handoff Plan'
 page.H1='The First 90 Days of an Airbnb Launch'
-page.DESC='Before buying an STR, assign launch responsibilities, confirm readiness and test pricing costs. Use a 90-day handoff plan without buying reviews or promising rank.'
+page.DESC='Before buying an STR, assign launch roles, confirm readiness and test pricing costs. Use a 90-day handoff plan without buying reviews or promising rank.'
 page.FAQ=[
 ('What should I do first after closing on a short-term rental?', 'Confirm possession, buyer-specific rental permission, effective coverage, safety and required work before hosting. Assign utilities, furnishing, access, cleaners and guest-response responsibilities with dated acceptance evidence; filing an application is not assumed approval.'),
 ('Should I discount my Airbnb when it first launches?', 'Not automatically. Compare the actual eligible promotion and net contribution with a no-discount case. Do not exchange discounts or refunds for reviews or assume a fixed number of discounted stays guarantees ranking or demand.'),
