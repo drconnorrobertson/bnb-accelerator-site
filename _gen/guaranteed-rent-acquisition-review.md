@@ -1,0 +1,18 @@
+# Existing guaranteed-rent acquisition comparison
+
+October7,2026. `/blog/str-revenue-guarantee-offers/` remains the existing owner; no new expansion page. Read the original substantive body/fourFAQs and neighboring buyer-agent/acquisition-team, BNBTurnkey comparison and manager-assignment substantive answers. Generic provider-scope/manager-handoff intents already covered; do not clone those. Existing guaranteed-rent example incorrectly calls a reserve-inclusive, tax/insurance-excluded subtotal NOI and compares it with operator payments while owner-retained work differs. This is a financial-comparison quality issue, not an indexing-cause diagnosis.
+
+Primary sources fully read October7:
+
+- https://www.airbnb.com/help/article/1397 — general contract/permissions/local-use and insurance questions; not controlling parcel law or operator-lease approval.
+- https://content.naic.org/article/consumer-insight-renting-out-your-home-you-need-insurance-coverage-home-sharing-rentals — rental use may affect coverage and insurer review is important. Correctly identify actual March19,2020publication rather than claim a new2026source. No current provider coverage amount, required policy form or legal result inferred.
+
+Scope: accepted buyer arrangement, collectible payment versus forecast/contract, consistent owner cash, funded interruption and transition. Removed unsupported typical20–30percent certainty premium, prescribed1–2monthdeposit, categorical owner/tenant/tax classification, guaranteed no-owner-work framing and universal insurance/exit prescription. Six-row cost/evidence register; professional/local review, secure records, approved terms and actual deadlines. Acquisition CTAs use established `/apply/`; no promise BNBprovides tax/legal/lending/operator services.
+
+Original hypothetical math reviewed: managed90k−50k−10k−24k=6k; operator36k−6k−10k−24k=−4k; manageddownside75k−43k−10k−24k=−2k; three missed3kpayments replaces36kwith27k, yielding−13k. These are budget balances, notNOI/taxablegain/totalreturn. Reserve earmarking remains cash until spent. Separateliquiditytest expressly assumes13kactualdeficitcash and distinct8ktransitionoutflow:30k−13k−8k=9k,11kbelow20kbuffer. No double deduction or deposit/legalrecovery/refund counted. No market/clientfigures or landlord rights invented.
+
+1534words/7minutes/fourvisible-schemaFAQs; September24 honest publication/H1/URL/author retained, meaningfulOctober7modification and sitemaplastmod. One742archivecardchanged/noncardbytesidentical; publichighincomehub context link/siteindexlabel updated. Required build/sharedtests/preclosing/precall/contentaudit/similarity and fullscopeddiff review before publishing. Protectedsourcehomepage SHA25658db91a9ec1bd726f5d6d68052208b9153d04eecd60de82e723725e6bf2ee7e2; built5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484; assets/sharedmodules excluded.
+
+Fresh actual pre-releaseURLInspection NEUTRAL/Discovered-currently-not-indexed, no reportedcrawl/referrers, unspecifiedrobots/fetch/indexing. No barrier or contentcause inferred. Live serving and submission results recorded separately after publication. Expansion4/509unchanged.
+
+Initial content audit caught a draft link to a nonexistent blog permit-transfer route. Corrected renderer to the existing `/underwriting/permit-transfer/` public resource, regenerated only this scoped batch and reran validation. Not a production defect; nothing was pushed with the missing link.
