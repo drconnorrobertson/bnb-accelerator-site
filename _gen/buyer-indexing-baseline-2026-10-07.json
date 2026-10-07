@@ -1,0 +1,216 @@
+{
+  "observed_at": "2026-10-07T16:26:28.889347+00:00",
+  "selection": "Ten buyer/market owners with historical impressions and previously unknown inventory evidence; zero matches in complete 216-row connected blog inspection history before this batch.",
+  "inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 10,
+    "succeeded": 10,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 173,
+      "limit": 2000,
+      "remaining": 1827
+    },
+    "results": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/gilbert-chandler-airbnb-investing/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T19:34:50Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/nashville-airbnb-investing/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T02:42:28Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/vrbo-listing-handoff-buying-str/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T17:05:37Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/short-term-rental-investing-2026/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-23T08:11:47Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/str-portfolio-diversification/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T03:02:15Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/str-investing-mistakes/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-25T14:06:55Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/how-to-buy-first-airbnb/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-26T02:05:47Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/how-to-choose-str-market/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-25T14:22:49Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/str-market-saturation/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-24T14:51:43Z"
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/w2-to-wealth-str-portfolio/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-07T05:57:38Z"
+      }
+    ]
+  },
+  "serving_records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/gilbert-chandler-airbnb-investing/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/gilbert-chandler-airbnb-investing/",
+      "canonical": "https://www.bnbaccelerator.com/blog/gilbert-chandler-airbnb-investing/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 5
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/nashville-airbnb-investing/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/nashville-airbnb-investing/",
+      "canonical": "https://www.bnbaccelerator.com/blog/nashville-airbnb-investing/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 5
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/vrbo-listing-handoff-buying-str/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/vrbo-listing-handoff-buying-str/",
+      "canonical": "https://www.bnbaccelerator.com/blog/vrbo-listing-handoff-buying-str/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 5
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/short-term-rental-investing-2026/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/short-term-rental-investing-2026/",
+      "canonical": "https://www.bnbaccelerator.com/blog/short-term-rental-investing-2026/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 12
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-portfolio-diversification/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/str-portfolio-diversification/",
+      "canonical": "https://www.bnbaccelerator.com/blog/str-portfolio-diversification/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 11
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-investing-mistakes/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/str-investing-mistakes/",
+      "canonical": "https://www.bnbaccelerator.com/blog/str-investing-mistakes/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 16
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/how-to-buy-first-airbnb/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/how-to-buy-first-airbnb/",
+      "canonical": "https://www.bnbaccelerator.com/blog/how-to-buy-first-airbnb/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 14
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/how-to-choose-str-market/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/how-to-choose-str-market/",
+      "canonical": "https://www.bnbaccelerator.com/blog/how-to-choose-str-market/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 22
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-market-saturation/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/str-market-saturation/",
+      "canonical": "https://www.bnbaccelerator.com/blog/str-market-saturation/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 17
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/w2-to-wealth-str-portfolio/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/w2-to-wealth-str-portfolio/",
+      "canonical": "https://www.bnbaccelerator.com/blog/w2-to-wealth-str-portfolio/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "sitemap_included": true,
+      "inbound_public_pages": 9
+    }
+  ],
+  "protected_homepage_exact": true,
+  "public_content_unchanged": true,
+  "unchanged_submissions": true,
+  "skill_application": "SEO-audit indexing/technical evidence checklist limited to the selected buyer pages; no rank, authority, professional content review or quality-based exclusion inference.",
+  "limits": "Ten actual PASS/Submitted and indexed states confirm these existing URLs, not an indexed-library census, indexing gain, revision receipt, ranking or qualified enquiries. Historical September6–October3 impressions and clicks retained; source/page publication and public content unchanged."
+}
