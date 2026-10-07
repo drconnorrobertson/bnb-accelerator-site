@@ -1,0 +1,7 @@
+# Renewal-calendar quality review — October 7, 2026
+
+Existing September23 canonical, not new509 credit. Full original calendar and enforcement/HOA-cap bodies read; no original calendar FAQ. Preserve distinct eligibility, price, enforcement and allocation owners. Current Nashville renewal primary page read October7, March11 source update; form review/payment responsibility bounded under200 source-derived words. Initial guessed short URL tool fetch failed; actual official navigation link resolved and read. No site defect inferred from tool failure.
+
+Original six-event acceptance register and labeled Day−18/−14/contract−10/closing0/seller-expiry+14 sample; no actual legal deadline or processing forecast.13months is planning horizon, not duration. Independent cash arithmetic600+400+1200+300=2500;18×125=2250;290000+4750=294750;330000−294750=35250.30×125=3750;290000+6250=296250;remaining33750. Baseline includes40000reserve; no extra subtraction, annual-cost double count or lostgross invoice.
+
+Build and all required buyer/nonhome/preclosing/precall/content/diff checks passed;746page similarity max0.024. Full four-public-file diff and new helpers reviewed; original title/H1/September23publication/author/CTA preserved; three visible/schemaFAQs aligned and archive excerpt/search/readtime/mod/sitemap updated. Source/built homepage hashes exact; shared design/assets/application/scheduling unchanged. Record exact live eligibility and submissions separately after publication, without indexing/return claims.
