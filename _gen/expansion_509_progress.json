@@ -592,6 +592,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/after-hours-guest-support-cost/",
+      "content_commit": "fc0a08ef1d5cbbb8bf0873fdad1341164cf58212",
+      "verified_live_at": "2026-10-07T19:27:30.795558+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/after-hours-cost-live-evidence.json",
+      "validation": "1353words/sevenminutes/three aligned FAQs; requiredchecks/fullfourpublicdiff/745otherarchivecards/framing/math/sourcecheckedpermissions/similarity.015;56live targets-assets/3inbound/homepage shared flow and original September23publication preserved",
+      "submission": "IndexNow3changedcanonicalsHTTP200;blogXMLconfirmed19:27:46.326Zpending/zero reportederrorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/buying-airbnb-out-of-state/",
       "content_commit": "210ccdf634aa601666c570ab9a566b0f0b8afcac",
       "verified_live_at": "2026-10-07T17:36:34.858428+00:00",
