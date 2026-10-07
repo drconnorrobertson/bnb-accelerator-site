@@ -517,6 +517,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-buyer-agent-vs-acquisition-team/",
+      "content_commit": "fef0233f41ee34bf4c6ace399223251464851397",
+      "verified_live_at": "2026-10-07T16:50:54.777719+00:00",
+      "counted_toward_509": false,
+      "validation": "2066 source/2138 built words;10minutes/9preserved matchedFAQs; all required checks/full scoped diff;58live links-assets/52inbound;745othercards/framing and originalSeptember24pub/H1/title/author/IDs/exactpreclosingchecks retained; homepage/sharedflow exact",
+      "submission": "IndexNow3changedcanonicalsHTTP200; blogXMLconfirmed16:51:11.611Zpending/zero reportederrorswarnings. Prior indexing unknown retained, no fresh Inspection or revised crawl/indexing/search gain",
+      "evidence": "_gen/agent-team-review-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/vrbo-listing-handoff-buying-str/",
       "content_commit": "77bfd43498ba2646b547067c51f55084a6acd250",
       "verified_live_at": "2026-10-07T16:33:04.676186+00:00",
