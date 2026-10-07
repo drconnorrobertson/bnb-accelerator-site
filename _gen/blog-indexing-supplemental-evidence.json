@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-cash-on-cash-return/",
+      "observed_at": "2026-10-07T06:04:02Z",
+      "observation_time_basis": "Evidence recorded after live checks/submission; actual inspection obtained before revision publication",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-24T15:56:50Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": ["https://www.bnbaccelerator.com/markets/phoenix-mesa/"],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/airbnb-cash-on-cash-return/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 25,
+      "internal_targets_verified": 110,
+      "content_commit": "b61317f70ff8898906c56319a3fd898ae892b0cd",
+      "indexnow_status": "Three changed live-verified canonicals accepted HTTP200; not revised indexing evidence",
+      "sitemap_submission": "Confirmed 2026-10-07T06:04:02.368Z; pending download; zero reported errors/warnings",
+      "caveat": "September24 crawl confirms prior indexing, not receipt of October7 revision. Exact production content, independent55 links/assets and unchanged homepage verified. Review-date transformer regression fixed locally before release. No authenticated Vercel READY/log, updated indexing or search/enquiry gain claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rental-roi/",
       "observed_at": "2026-10-07T05:57:01Z",
       "observation_time_basis": "Evidence recorded after live checks and submission; actual URL Inspection obtained before revision publication",

@@ -229,6 +229,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-cash-on-cash-return/",
+      "content_commit": "b61317f70ff8898906c56319a3fd898ae892b0cd",
+      "verified_live_at": "2026-10-07T06:03:49Z",
+      "counted_toward_509": false,
+      "validation": "1507words/eightminutes/four refreshed FAQs plus five preserved purchase checks; all required checks/full scoped diff and regression preventing review-date backdating;110live internal targets/25inbound pages; independent55 links/assets; homepage/shared flow unchanged",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:04:02.368Z/pending. Prior indexing confirmed from September24 crawl, not receipt of revision or outcome gain"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rental-roi/",
       "content_commit": "21f879e2c81c1fc39ed4819ed03e4c9accde3294",
       "verification_recorded_at": "2026-10-07T05:57:01Z",
