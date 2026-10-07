@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: acquisition-provider manager-handoff ownership screen
+
+Full namedBNBTurnkeyhandoffguide/assignmentblog/retainmanagerblog substantivebodies andFAQs read. Genericnewmanager-handoff/providercontract review rejected77/100 (distinct11/buyer28/evidence12/service18/original8): control/fees/consent/access/transitioncost/offerdecision alreadyanswered across distinctexistingowners. Preserveowners/nomerge/noindex/delete/provider-swap/new509credit. Nextdevelopnamedconciseresource's repetitivefour-rowworksheet andgenericcostexample withactualprimaryscope/originalfeebase/acceptance/cashdecisions,notgenerichosttips. Privatemanager-handoff-overlap-review.md preservesbodyevidence. Publicchanges/submissions0;new8/blog44/comparison10/resource5/hubnavigationunchanged. ACTIVEfive-minute schedule preserved.
+
 ## October7: comparison-hub purchase evidence path
 
 Contentd39679be2f30cb4a034ee848610a477812dbfffa exactlive18:43:28.530085UTC afterone30secondpropagationretry:twoexactartifacts/123links-assets/2488inboundincludingglobalnav/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/homeexact. IndexNowonechangedhubHTTP200;GSCcoreXMLconfirmed18:43:40.234Zpending/zero reportederrorswarnings—notindexing. Evidencecomparison-evidence-path-live-evidence.json;nofreshInspection/revisioncrawl/searchconversiongainclaim. Hubnavigationimprovementseparatefromnew8of509/blog44/comparison10/resource5 counts. Next substantive independentservice/evidenceowners and distinctpurchase-readyintent review;ACTIVEfive-minute schedule preserved.
