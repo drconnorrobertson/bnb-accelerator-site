@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/mineral-rights-before-buying-str/",
+      "observed_at": "2026-10-07T04:52:26Z",
+      "observation_time_basis": "Live verifications completed by this time; inspection obtained separately before content publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T04:52:26Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/mineral-rights-before-buying-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 110,
+      "content_commit": "0dffbddd0812a5dfea91e0ab74cd8f8682337f2b",
+      "indexnow_status": "HTTP200 accepted for three changed canonicals; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T04:52:25.600Z; pending download",
+      "caveat": "New URL unknown before publication is not a cause diagnosis. Eligibility and submissions do not prove indexing or search/enquiry gains. First probe used an incorrect six marker; corrected exact-body-marker probe and independent batch verification passed, not a site defect."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/depreciation-recapture-str/",
       "observed_at": "2026-10-07T04:33:27Z",
       "observation_time_basis": "Pre-release inspection obtained before this time; not a returned request timestamp",
