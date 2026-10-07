@@ -477,6 +477,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-property-management-fees/",
+      "content_commit": "61e1ffa2f2f9683da46ffc197a28d8bc8acc5cd3",
+      "verified_live_at": "2026-10-07T14:43:08.972751+00:00",
+      "counted_toward_509": false,
+      "validation": "1505words/7minutes/4matchedFAQs; all required checks/full scoped diff/math; four exact artifacts/57links-assets/11inbound/protected homepage unchanged; original publication/H1/author/fragments and745other archive cards preserved",
+      "submission": "IndexNow3changedcanonicalsHTTP200/livekeyverified; GSCblog sitemapconfirmed14:43:24.820Zpending/zero reported errors/warnings; historical indexed September26crawl not revised indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-market-research-tools/",
       "content_commit": "a9aa0ee",
       "verified_live_at": "2026-10-07T13:34:30.013999+00:00",
