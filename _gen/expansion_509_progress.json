@@ -16,6 +16,18 @@
     "duplicate intents"
   ],
   "verified_live_new_pages": 8,
+  "separately_recorded_accuracy_corrections": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-management-agreement-termination/",
+      "content_commit": "202fc8609768aabed52c5809149d62c0bda67519",
+      "verified_live_at": "2026-10-07T19:39:40.354594+00:00",
+      "evidence": "_gen/manager-exit-correction-live-evidence.json",
+      "counted_toward_509": false,
+      "counted_as_substantive_expansion_batch": false,
+      "correction": "Remove contradictory listing/review/data-continuity promise in existing CTA; preserve body/FAQ/publication/application destination and homepage/shared flow",
+      "submission": "One canonical IndexNowHTTP200;blog sitemap confirmed19:40:08.143Z pending/zero reported errorswarnings;not confirmed indexing"
+    }
+  ],
   "separately_counted_resource_guide_refreshes": [
     {
       "url": "https://www.bnbaccelerator.com/guides/kleer-circle-year-one-operations/",
