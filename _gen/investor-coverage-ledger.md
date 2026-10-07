@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: comparison-hub purchase evidence path
+
+Fullsubstantivehub reviewed; existingprovider/direct/alternatives/signing/research/ownershiplinks retained. Addedfour-step contextualresponsibility→marketreport→dealevidence→agent/teamdecision path usingactualexistingowners,notnewproviderclaims/rankings/contractrights. OriginalOctober1pub/title/H1/author/CTA/sharedclasses retained;mod/corelastmodOct7. Allrequiredchecks/fulltwopublicdiff/homehashes/buildpersistencepassed;productionpending. Hubnavigationseparatefromcomparison/article/new509counts;8new/44blog/10comparison/5resourceunchanged. Nooldergenerator/home/sharedflowchanges. ACTIVEfive-minute schedule preserved.
+
 ## October7: market-report intent ownership and consistency screen
 
 First actualresourceInspection18:36:22UTC NEUTRAL/URLunknown/unspecifiedindexstate/no reportedcrawl;1success0failed0skipped/quota194used1806remaining. Evidencemarket-report-indexing-baseline-2026-10-07.json. Separate18:33exactliveeligibility/2inbound retained;notconfirmedtechnicalbarrier/decline/Google revisionreceipt. Allowdiscoverytime/nounchangedsubmissionsorimmediatereinspection; continueindependentbuyerquality. Publicchanges/submissions0/new509credit0;ACTIVEfive-minute schedule unchanged.
