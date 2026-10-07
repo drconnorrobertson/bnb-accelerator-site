@@ -1,4 +1,8 @@
 # Investor acquisition coverage ledger
+
+## October7: existing responsibility-matrix acceptance expansion
+
+Full original guide/schema and management-assignment answer read; improve existing /guides/str-service-responsibility-matrix/ rather than new generic service-guide duplicate. Original8deliverables/5assignmentfields retained. Added original6field acceptance register, day8/day10/day11 hypothetical missing-insurance sequence and250000/238000/242000/253000allocation worksheet with35000retainedreserve and3000alternative shortfall; no double counting, providerfees/outcomes, automaticlegalrights orrefundfunding. Current primaryNAR guidance bounded to service articulation/professional roles; commercial-interest/document-based disclosures. OriginalOctober1publication/title/H1/author/footer/sharedCTA preserved; meaningfulOct7mod/corelastmod. Allrequiredchecks/fulltwopublicdiff/math/homehashes pass. Guide-only refresh, notblog/comparison/new509credit; liveverificationpending. ACTIVEfive-minute schedule unchanged.
 Updated October 7, 2026. Domain: www.bnbaccelerator.com. Scope: affluent purchase-ready STR investors, including buyers with large tax exposure. Consumer travel topics are excluded.
 
 Published route counts are not indexed counts. Before new work fetch current main, check the existing article body, and update this ledger with live URLs, source checks and decision support. An existing title is evidence of a candidate match, not proof that it fully answers the intent.
