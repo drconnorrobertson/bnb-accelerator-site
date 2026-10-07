@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-1099-payout-reconciliation/",
+      "observed_at": "2026-10-07T02:24:29Z",
+      "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-03T02:14:30Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T02:26:03Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/str-1099-payout-reconciliation/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 2,
+      "content_commit": "da6b4bff",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmation that Google crawled the revision",
+      "caveat": "Confirms existing URL indexing, not Google's receipt of the newly revised article or a performance gain."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/reading-an-hoa-declaration/",
       "observed_at": "2026-10-07T02:14:32Z",
       "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
