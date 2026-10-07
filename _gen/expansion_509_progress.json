@@ -425,6 +425,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-cash-reserves-seasonality/",
+      "content_commit": "910287da457829cb1708eaad26dca929a08d5e92",
+      "verified_live_at": "2026-10-07T12:16:53.468990+00:00",
+      "counted_toward_509": false,
+      "validation": "1528words/sevenminutes/fourmatchedFAQs; all requiredchecks/fullfourpublicdiff;56live links-assets/46inbound; originalpublication/anchors/protectedhome/sharedflow preserved; corrected monthly arithmetic",
+      "submission": "IndexNow3URLsHTTP200/livekeyverified; sitemapconfirmed12:17:08.391Z pending/zeroerrorswarnings,notindexing. Actual prior September26indexedcrawl preserved; no revisedindexing/searchgain inferred"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/hot-tub-replacement-reserve/",
       "content_commit": "066afc4a90259664e2a43aeefc4e4be1a2e123af",
       "verified_live_at": "2026-10-07T11:55:29.446599+00:00",
