@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: appraisal owners indexing follow-up
+
+Read complete filtered prior Inspection histories and ran two actual checks after about22hours45minutes. Exactrequests22:26:30.759743 and22:26:40.318324 bothNEUTRAL/unknown/unspecifiedrobots-indexing-fetch/no reportedcrawl/nullagent. Gap owner's earlierdiscovered label and incomeowner'searlierunknown preserved with exactOctober6API times in appraisal-indexing-followup-2026-10-07.json;nottechnicalcause/duplication/lostindexedvisibility. Quota204to206used/1794remaining. Independentlive22:27:00.500508UTC both200/selfcanonical/robotsallowed/noindexabsent/exactcurrentbuild/articletext/singleXMLentry/9and4inbound/homeexact. No publicchanges/unchangedsubmission/recrawlrequest/searchgain;historicalnotreturned performance preserved. Counts53existingblog/8new509 unchanged. Continue independent buyer-quality/gap work and settled monitoring, not five-minute reinspection. ACTIVEfive-minute schedule unchanged.
+
 ## October 7: appraisal and seller-revenue overlap review
 
 Read four full substantive owners with tables/visibleFAQ or purchase checks: appraisal-income approach, furnished appraisal gap, comparable-set selection and seller proforma versus history. Each already answers a distinct valuation/funding/evidence/offer decision with worked examples. Genericnewlow-appraisal-versus-Airbnb-forecast guide rejected77/100(distinct8,buyer29,question13,service18,original9);no independently established new509 intent. Private appraisal-revenue-overlap-review.md records substantive coverage; useful URLs preserved with no merge/redirect/noindex/delete or Googleduplication/exclusion-cause claim. No public changes, fresh Inspection or unchanged submissions;53existingblog/8new counts unchanged. Next actual lender/appraisal evidence or separately established purchase-ready gap review. ACTIVEfive-minute schedule unchanged.
