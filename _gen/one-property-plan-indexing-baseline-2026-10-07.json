@@ -1,0 +1,59 @@
+{
+  "inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/one-property-or-three/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-10-07T19:37:41Z",
+    "pageFetchState": "SUCCESSFUL",
+    "crawledAs": "MOBILE",
+    "referringUrls": []
+  },
+  "history_before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "history_after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "cc5c1b54-783d-430a-8656-4fef791df96f",
+        "url": "https://www.bnbaccelerator.com/blog/one-property-or-three/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-07T19:37:41+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-07T23:48:25.955772+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "quota_after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 213,
+    "limit": 2000,
+    "remaining": 1787
+  },
+  "eligibility_record": "_gen/one-property-plan-live-evidence.json",
+  "method": "First actual URL Inspection after complete filtered stored history returned zero observations; no repeat inspection or recrawl request.",
+  "interpretation": "Confirmed existing URL indexing from October7T19:37:41Z crawl, before the23:46 publication. Not a new indexing gain caused by the refresh, receipt of its revised body or measured query/conversion gain. Preserve existing visibility and independent live eligibility; no unchanged submissions.",
+  "counted_toward_509": false
+}

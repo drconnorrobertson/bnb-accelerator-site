@@ -58,7 +58,8 @@
       "note": "No rows matched."
     }
   },
-  "actual_google_indexing": "Unknown; complete filtered stored history empty is not proof of exclusion or a technical cause. No revised-body receipt or search gains established.",
+  "actual_google_indexing": "First actual Inspection2026-10-07T23:48:25.955772+00:00: PASS/Submitted and indexed/ALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE; Googlecrawl2026-10-07T19:37:41Z predates23:46 publication. Existing indexing, not a gain caused by the refresh or receipt of its revised body.",
+  "indexing_baseline": "_gen/one-property-plan-indexing-baseline-2026-10-07.json",
   "counted_toward_509": false,
   "limits": "Serving eligibility is not confirmed indexing, browser rendering or measured query/conversion gains."
 }

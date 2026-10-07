@@ -675,7 +675,8 @@
       "counted_toward_509": false,
       "evidence": "_gen/one-property-plan-live-evidence.json",
       "validation": "1438words/sevenminutes/three original alignedFAQs; requiredsevenchecks/fullfourpublicdiff/current IRS-Fannie evidence/original release-register and second-purchase worksheet/math/similarity0.012;61live targets-assets/5inbound; August15 publication/homepage/shared flow preserved",
-      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed23:46:40.209Zpending/zero reportederrorswarnings;actual indexing unknown from empty completefiltered storedhistory and not inferred from submissions"
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed23:46:40.209Zpending/zero reportederrorswarnings;firstactualInspection23:48:25.955772UTC confirms existingindexedOctober7T19:37:41crawl beforepublication, not new indexing or revisedbodyreceipt",
+      "indexing_baseline": "_gen/one-property-plan-indexing-baseline-2026-10-07.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/str-portfolio-diversification/",
