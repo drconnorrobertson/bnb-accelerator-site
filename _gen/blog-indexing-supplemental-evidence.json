@@ -1,6 +1,28 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/reading-an-hoa-declaration/",
+      "observed_at": "2026-10-07T02:14:32Z",
+      "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": ["https://www.bnbaccelerator.com/topics/regulatory/"],
+      "live_probe_at": "2026-10-07T02:16:43Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/reading-an-hoa-declaration/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 13,
+      "content_commit": "ff6d80e5",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing",
+      "caveat": "Actual discovery/exclusion evidence is not a diagnosed technical barrier or proof of content cause; live eligibility and submissions do not establish indexing."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/parcel-jurisdiction-str/",
       "observed_at": "2026-10-07T02:02:35Z",
       "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
