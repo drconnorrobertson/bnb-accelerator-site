@@ -2,6 +2,8 @@
 
 ## October7: existing STR Insights service-tier owner expansion
 
+Content71c6cbdfbee2f4e6a96b07cd6038e79623668866 exactlive18:02:46.378674UTC afterone30secondpropagationretry:twoartifacts/54linkedtargets-assets/4inbound/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/homeexact. IndexNowonecanonicalHTTP200;GSCcoreXMLconfirmed18:02:56.188Zpending/zero reportederrorswarnings—notindexing. No freshInspection/revisioncrawlreceipt orsearchconversiongain asserted. Evidenceinsights-tier-live-evidence.json. Resourceguide refresh3/10comparison/44blog/8new509. Next review distinct service-selection buyerquestions across existing owners;ACTIVEfive-minute schedule preserved.
+
 Fulltier/alternativesbody/schema reviewed; no independentlydistinct new providerblog approved. Currentprimary homepage/introduction bounded consulting/software-versus-advertisedacquisition/opening scope checked. Originalfourrowevidencegates/sixfieldpunchlist/backorderedbed-receipt-versus-installation/operatoracceptance example; inventedupgradecreditworksheet240000base+3000+5000+17000=265000or documentedcredit257000;additional18000task283000/275000against280000. Noactualproviderfee/creditright/clientresult/withholdingremedy orautomaticBNBscope. OriginalOctober1publication/title/H1/author/CTA preserved;Oct7mod/coreXMLlastmod. Requiredchecks/fulltwopublicdiff/math/homehashes pass;livepending. Resource-onlyrefresh,8new509/44blog/10comparison unchanged. ACTIVEfive-minute schedule preserved.
 
 ## October7: existing STR Search signing-owner expansion
