@@ -517,6 +517,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+      "content_commit": "1a390fcceed119f9af216631c9247854b540036b",
+      "verified_live_at": "2026-10-07T16:16:48.359549+00:00",
+      "counted_toward_509": false,
+      "validation": "2052words/10minutes/3preserved matchedFAQs; all required checks/full four-public diff;64live links-assets/14inbound;745othercards/framing and originalSeptember25pub/H1/title/author/IDs retained; homepage/sharedflow exact",
+      "submission": "IndexNow3changedcanonicalsHTTP200; blogXMLconfirmed16:17:06.144Zpending/zero reportederrorswarnings. Earlier actual discovered-not-indexed/no reportedcrawl retained, no revised crawl/indexing/search gain",
+      "evidence": "_gen/str-insights-buyer-review-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/material-participation-str/",
       "content_commit": "23785a5f1070faab445529f85216727938daf00c",
       "verified_live_at": "2026-10-07T15:58:03.195050+00:00",
