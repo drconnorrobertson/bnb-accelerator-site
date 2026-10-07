@@ -1,6 +1,26 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/assign-str-management-contract-sale/",
+      "observed_at": "2026-10-07T01:31:57Z",
+      "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-27T03:35:59Z",
+      "pageFetchState": "SUCCESSFUL",
+      "referringUrls": ["https://www.bnbaccelerator.com/blog/keep-str-manager-after-buying-property/"],
+      "live_probe_at": "2026-10-07T01:33:47Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/assign-str-management-contract-sale/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 6,
+      "caveat": "Google reports the earlier URL indexed with a September27crawl; this does not establish recrawling of the October6revision. Static text and Googlebot-UA checks are eligibility evidence, not an authenticated Google crawl."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-furniture-bill-of-sale/",
       "observed_at": "2026-10-07T01:25:07Z",
       "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
