@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-07T19:29:34Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/blog/after-hours-guest-support-cost/",
+  "evidence_type": "First stored Google URL Inspection for this owner; filtered history returned zero rows with hasMore false before inspection",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-10-07T09:39:22Z",
+  "pageFetchState": "SUCCESSFUL",
+  "crawledAs": "MOBILE",
+  "referringUrls": [],
+  "quota_before": {"count": 196, "limit": 2000, "remaining": 1804},
+  "quota_after": {"count": 197, "limit": 2000, "remaining": 1803},
+  "independent_eligibility": "_gen/after-hours-cost-live-evidence.json:19:27:30.795558UTC exact article/archive/hub/XML/HTTP200/selfcanonical/robotsallowed/noindexabsent/GooglebotUA/56linkedtargets/3inbound/protected homepage",
+  "recommended_action": "Preserve actual indexed URL evidence and allow discovery of the revision; continue independent buyer-quality work without immediate reinspection or unchanged submission",
+  "limits": "Confirmed existing URL indexing is not newly indexed status or Google receipt of the later19:27 article revision. Morning09:39 crawl predates that publication. Empty reported referringUrls is distinct from three independently verified inbound pages. No search or conversion gain established.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
