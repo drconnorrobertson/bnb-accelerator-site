@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/wildfire-insurability-str/",
+      "observed_at": "2026-10-07T08:56:04.836184Z",
+      "observation_time_basis": "Live checks completed by this time; actual inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/wildfire-insurability-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 6,
+      "internal_targets_verified": 127,
+      "content_commit": "8461b293ab074810b9a0fbbf13572710a5ebdb56",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T08:56:15.923Z; pending download; zero reported errors/warnings",
+      "caveat": "Actual prepublication discovered/no crawl is not a diagnosed technical or content cause. One propagation retry passed exact four artifacts/four FAQs/127 internal and54 independent links-assets/protected homepage. No revised indexing, search/conversion gain or authenticated Vercel READY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/flood-zone-str-underwriting/",
       "observed_at": "2026-10-07T08:43:41.602539Z",
       "observation_time_basis": "Live checks completed by this time; actual inspection obtained before publication",
