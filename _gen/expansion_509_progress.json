@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/alternatives-to-str-search/",
+      "content_commit": "4d11c93d7d7baed58126dd994eabfff0c9178996",
+      "verified_at": "2026-10-07T14:00:55.374562+00:00",
+      "evidence": "_gen/str-search-alternatives-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One changed live canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Changed core sitemap submitted14:01:17.553Z pending zero errors/warnings",
+      "google_indexing_evidence": "Earlier actual discovered-currently-not-indexed/no crawl; serving checks are separate"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/alternatives-to-str-insights/",
       "content_commit": "ccc9cf0c0d32e26c702f62f9d76e5f32d1e6af9d",
       "verified_at": "2026-10-07T13:50:15.717802+00:00",
