@@ -636,6 +636,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/is-bnb-accelerator-worth-it/",
+      "content_commit": "eef3de49367e4905c615f1da0662e524dd2a7fcb",
+      "verified_live_at": "2026-10-07T22:14:29.849594+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/service-value-live-evidence.json",
+      "validation": "1423words/sevenminutes/three alignedFAQs; requiredchecks/full scoped diff/BNB and NAR primary scope/independent no-purchase-refund-replacement cash branches/similarity0.013;57live targets-assets/9inbound; original publication/homepage/shared flow preserved",
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed22:14:43.964Zpending/zero reportederrorswarnings;earlier indexed evidence not revised-content receipt orsearch gains"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-diy/",
       "content_commit": "716a181a5dff9320b1dd82a4d45f81be558f53f1",
       "verified_live_at": "2026-10-07T21:57:09.383726+00:00",
