@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/combine-vrbo-direct-airbnb-revenue/",
+      "observed_at": "2026-10-07T02:55:03Z",
+      "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T02:56:00Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/combine-vrbo-direct-airbnb-revenue/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "content_commit": "9cd969cd",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing",
+      "caveat": "Confirmed discovery state is not a diagnosed technical barrier or content-cause finding; live eligibility and submissions do not establish indexing or performance gains."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-refunds-chargebacks-underwriting/",
       "observed_at": "2026-10-07T02:40:33Z",
       "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
