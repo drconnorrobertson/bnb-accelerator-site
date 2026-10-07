@@ -1,6 +1,20 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-due-diligence-checklist/",
+      "observed_at": "2026-10-07T00:11:42Z",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-24T15:04:35Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/how-to-analyze-airbnb-deal/"
+      ]
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/permit-pending-due-diligence-extension/",
       "observed_at": "2026-10-07T00:07:03Z",
       "verdict": "NEUTRAL",
