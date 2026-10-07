@@ -6,7 +6,12 @@
   "verified_additional_guides_in_register": 8,
   "requested_additional_guides": 509,
   "remaining_requested_not_established_gaps": 501,
-  "recorded_existing_refresh_urls": 30,
+  "recorded_existing_refresh_urls": 32,
+  "recorded_refresh_count_basis": "Current progress register includes later seasonal-reserve and occupancy refreshes after08:00EDT; not a replacement for the103 overnight existing-body changes.",
+  "receipt_pairing_reference": "_gen/overnight-receipt-pairing.json",
+  "receipt_pairing_existing_urls": 66,
+  "receipt_pairing_unpaired_existing_urls": 37,
+  "receipt_pairing_limits": "66of103 existing URLs have a saved structured or unambiguous narrative acceptance statement; not independent server logs or proof every latest revision was submitted.37unpaired is missing evidence, not confirmed non-submission. All8new URLs paired. No repeat submissions.",
   "fresh_overnight_reconciliation": {
     "reconciled_from_commit": "4135d6245a016f23cebed69f93455f24f49ba96d",
     "window": "October 6 at 18:00 through October 7 at 08:00 America/New_York; first in-window commit18:54",
@@ -22,7 +27,7 @@
     "live_failures": [],
     "protected_homepage_exact": true,
     "new_article_indexnow_receipts": "All8 acceptedHTTP200 in recorded release evidence; no repeat submission during this reconciliation.",
-    "existing_article_indexnow_receipts": "Individual receipts for all103 updates not yet fully reconciled. Do not claim all103 submitted, or treat missing persistent receipt as proof no submission happened.",
+    "existing_article_indexnow_receipts": "Read-only pairing found saved acceptance statements for66of103 existing URLs;37remain unpaired. Dates and latest revision commits not fully reconciled. Do not claim all103 latest updates submitted or treat missing receipt as proof no submission happened.",
     "search_console_sitemap_read_at_minute": "2026-10-07T12:00Z",
     "search_console_last_submitted": "2026-10-07T11:55:44.199Z",
     "search_console_last_downloaded": "2026-10-07T08:43:51.858Z",
@@ -46,21 +51,21 @@
       "content_commit": "c5b3396fd068b726d43e1fbf7e2b1327596c604a",
       "recorded_live_verification_at": "2026-10-07T07:49:16Z",
       "submission_record": "IndexNow three changed canonicals HTTP200 accepted; blog sitemap confirmed2026-10-07T07:49:34.673Z/pending; neither establishes indexing",
-      "indexing_record": "Actual prepublication NEUTRAL/URLunknown/no reported crawl/unspecified states; not a technical-cause diagnosis or postpublication indexing verdict"
+      "indexing_record": "Actual postpublication Inspection by2026-10-07T12:09:15Z: NEUTRAL/Discovered-currently-not-indexed/INDEXING_STATE_UNSPECIFIED/no reportedcrawl. Discovery, not confirmed indexing or technical cause."
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
       "content_commit": "14e090c7e224366ab1955e6ca531c96f24b37a6d",
       "recorded_live_verification_at": "2026-10-07T06:12:13Z",
       "submission_record": "IndexNow three changed canonicals HTTP200 accepted; changed blog sitemap submitted 2026-10-07T06:12:23.765Z/pending; neither establishes indexing",
-      "indexing_record": "Actual prepublication NEUTRAL/URLunknown/no lastcrawl/unspecified states; not a technical exclusion diagnosis or postpublication indexing verdict"
+      "indexing_record": "Actual postpublication Inspection by2026-10-07T12:09:15Z: NEUTRAL/Discovered-currently-not-indexed/INDEXING_STATE_UNSPECIFIED/no reportedcrawl. Discovery, not confirmed indexing or technical cause."
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
       "content_commit": "8f80e0dec37970296472d1cc787e0f41f029d4e8",
       "recorded_live_verification_at": "2026-10-07T05:33:10Z",
       "submission_record": "IndexNow three changed canonicals HTTP200 accepted; changed blog sitemap confirmed submitted 2026-10-07T05:33:33.477Z/pending download; neither establishes indexing",
-      "indexing_record": "Prepublication NEUTRAL/URL unknown/no reported crawl/unspecified states; eligibility and submissions do not confirm indexing"
+      "indexing_record": "Actual postpublication Inspection by2026-10-07T12:09:15Z: NEUTRAL/URLunknown/INDEXING_STATE_UNSPECIFIED/no reportedcrawl. Not confirmed indexing or technical exclusion cause."
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
@@ -70,7 +75,7 @@
         "indexnow": "HTTP200 accepted for guide, changed hub and archive; not indexing",
         "sitemap": "Confirmed 2026-10-07T05:03:03.399Z; pending download"
       },
-      "indexing_record": "Prepublication NEUTRAL / URLunknown / no reportedcrawl; not an exclusion diagnosis"
+      "indexing_record": "Actual postpublication Inspection by2026-10-07T12:09:15Z: NEUTRAL/Discovered-currently-not-indexed/INDEXING_STATE_UNSPECIFIED/no reportedcrawl. Discovery, not confirmed indexing or technical cause."
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/mineral-rights-before-buying-str/",
@@ -80,7 +85,7 @@
         "indexnow": "HTTP200 accepted for guide, changed hub and archive; not indexing",
         "sitemap": "Confirmed 2026-10-07T04:52:25.600Z; pending download"
       },
-      "indexing_record": "Prepublication NEUTRAL / URL unknown / no reported lastcrawl; not an exclusion diagnosis"
+      "indexing_record": "Actual postpublication Inspection by2026-10-07T12:09:15Z: NEUTRAL/URLunknown/INDEXING_STATE_UNSPECIFIED/no reportedcrawl. Not confirmed indexing or technical exclusion cause."
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/reverse-1031-buy-str-before-selling/",
@@ -90,7 +95,7 @@
         "indexnow": "HTTP 200 accepted for guide, changed investor hub and archive; not confirmed indexing",
         "sitemap": "Confirmed 2026-10-07T04:11:19.996Z; pending download"
       },
-      "indexing_record": "Before publication: NEUTRAL / URL is unknown to Google; no reported crawl; obtained before 04:09:38UTC"
+      "indexing_record": "Actual postpublication Inspection by2026-10-07T12:09:15Z: NEUTRAL/Discovered-currently-not-indexed/INDEXING_STATE_UNSPECIFIED/no reportedcrawl. Discovery, not confirmed indexing or technical cause."
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/verify-closing-wire-before-buying-str/",
@@ -100,7 +105,7 @@
         "indexnow": "HTTP 200 accepted for guide, changed investor hub and archive; not confirmed indexing",
         "sitemap": "Confirmed 2026-10-07T03:51:32.476Z; pending download"
       },
-      "indexing_record": "Before publication: NEUTRAL / URL is unknown to Google; no reported crawl"
+      "indexing_record": "Actual postpublication Inspection by2026-10-07T12:09:15Z: NEUTRAL/URLunknown/INDEXING_STATE_UNSPECIFIED/no reportedcrawl. Not confirmed indexing or technical exclusion cause."
     }
   ],
   "limits": "Local presence, actual baseline path absence and sitemap parity checked. Eight recorded content commits fully resolved after bounded shallow-history recovery. Live verification/submissions are historical at stated dates, not confirmed indexing or search/conversion gains. Existing refresh count is progress-register coverage, not all overnight work. Reconcile latest main before final morning report.",

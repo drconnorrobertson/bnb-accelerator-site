@@ -1,0 +1,1220 @@
+{
+  "window": "October6 18:00 to October7 08:00 America/New_York",
+  "baseline_commit": "6820e04e7e1be4606900e6efbb48dafc9557ee5b",
+  "window_end_commit": "4135d6245a016f23cebed69f93455f24f49ba96d",
+  "existing_changed": 103,
+  "new_articles": 8,
+  "existing_urls_with_saved_acceptance_statement": 66,
+  "new_urls_with_saved_acceptance_statement": 8,
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/adjustable-vs-fixed-mortgage-str-purchase/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-cash-on-cash-return/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals accepted HTTP200; not revised indexing evidence"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:04:02.368Z/pending. Prior indexing confirmed from September24 crawl, not receipt of revision or outcome gain"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-insurance-guide/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningfulsitemap confirmed08:26:18.106Z/pending. Actualprepublication indexed fromSept24successfulMOBILEcrawl, not revised receipt or outcome gain"
+        },
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 7 overnight: indexed general insurance guide source correction",
+          "record": "IndexNowthreechangedcanonicalsHTTP200accepted; meaningfulsitemapconfirmed08:26:18.106Zpending/zeroerrorswarnings."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-revenue-projections/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rental-roi/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals accepted HTTP200; not indexing evidence"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow three changed canonicals HTTP200; changed blog sitemap confirmed submitted05:57:01.140Z/pending. Pre-release URL unknown/no last crawl, no technical exclusion or indexing gain inferred"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rentals/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals accepted HTTP200; not revised indexing evidence"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningfully changed blog sitemap submitted05:49:51.672Z/pending. September24 prior crawl confirms existing indexing, not revised body receipt or outcome gain"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/amenity-roi-ranking/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/amenity-ranking-live-evidence.json#indexnow",
+          "record": {
+            "http_status": 200,
+            "live_key_verified": true,
+            "time_basis": "2026-10-07T11:36Z"
+          }
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3URLsHTTP200/livekeyverified; GSCsitemap confirmed11:36:44.496Z pending/zero reportederrorswarnings; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-budget-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/appliance-budget-live-evidence.json#indexnow",
+          "record": {
+            "http_status": 200,
+            "live_key_verified": true,
+            "time_basis": "Accepted during 2026-10-07T10:26UTC execution; exact server timestamp unavailable"
+          }
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-buying-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/appliance-acquisition-live-evidence.json#indexnow",
+          "record": {
+            "http_status": 200,
+            "live_key_verified": true,
+            "time_basis": "Accepted during 2026-10-07T10:12UTC execution; exact server timestamp unavailable"
+          }
+        },
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three live changed canonicals acceptedIndexNowHTTP200; sitemapconfirmed2026-10-07T10:12:47.607Z pending/zeroerrorswarnings; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "Three live changed canonicals acceptedIndexNowHTTP200; sitemapconfirmed2026-10-07T10:12:47.607Z pending/zeroerrorswarnings; not indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-inspection-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/appliance-inspection-live-evidence.json#indexnow",
+          "record": {
+            "http_status": 200,
+            "live_key_verified": true,
+            "time_basis": "Accepted during 2026-10-07T10:42UTC execution; exact server timestamp unavailable"
+          }
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow three verified canonicals HTTP200 accepted; sitemap confirmed 2026-10-07T10:42:17.682Z pending download. Neither confirms indexing."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-repair-replace-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/appliance-repair-live-evidence.json#indexnow",
+          "record": {
+            "http_status": 200,
+            "live_key_verified": true,
+            "time_basis": "Accepted during2026-10-07T10:52UTC execution; exact server timestamp unavailable"
+          }
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow three verified canonicals HTTP200 accepted; sitemap confirmed2026-10-07T10:52:28.925Z pending download. Neither confirms indexing."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-roi-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/appliance-roi-live-evidence.json#indexnow",
+          "record": {
+            "http_status": 200,
+            "live_key_verified": true,
+            "time_basis": "Accepted during2026-10-07T11:08UTC execution; exact server timestamp unavailable"
+          }
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow three verified canonicals HTTP200; sitemap confirmed2026-10-07T11:08:19.827Z pending. Neither confirms indexing."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/appraisal-gap-furnished-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: furnished STR appraisal-gap cash decision",
+          "record": "IndexNow accepted both meaningfully changed URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/assign-str-management-contract-sale/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: buyer consent for management-contract continuation",
+          "record": "IndexNow accepted only the two changed canonical URLs with HTTP200; unchanged sitemap not resubmitted."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/bank-statement-loan-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: bank-statement financing before an STR offer",
+          "record": "IndexNow accepted the two meaningfully changed URLs with HTTP200; unchanged Search Console sitemap not resubmitted."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP200 accepted for three changed canonicals; not confirmed indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3URLsHTTP200; meaningful changed blog sitemap submitted05:15:49.769Z/pending; actual pre-release discovered/not-indexed/no reportedcrawl, no cause or indexing gain inferred"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/blocked-calendar-demand-signal/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: blocked dates as acquisition demand evidence",
+          "record": "IndexNow accepted both changed canonical URLs with HTTP 200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/boundary-survey-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/bridge-loan-buy-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-airbnb-without-str-permit/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-property-with-adu-for-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-entity-or-assets/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: indexed seller-entity versus asset purchase comparison",
+          "record": "IndexNow accepted only both meaningfully changed canonical URLs withHTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-sight-unseen/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-str-with-declining-revenue/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-tenant-occupied-property-for-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/closing-before-peak-season-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:35:59.327Z/pending; pre-release discovered-not-indexed/no lastcrawl, no revised indexing proof"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/combine-vrbo-direct-airbnb-revenue/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing"
+        },
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: unique channel reservations before pricing seller income",
+          "record": "IndexNow accepted the two changed canonicals withHTTP200 after live verification; no indexing, query, click or enquiry gain inferred."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/commercial-umbrella-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningfulsitemapconfirmed08:33:05.655Zpending. Actualprepublication discovered/no crawl, not barrierdiagnosis or revisedindexing/outcome gain"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals accepted HTTP200; not indexing evidence"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/compare-two-str-properties-before-offer/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/converted-bedroom-count-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/cost-seg-furnishings-allocation/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningfully changed blog sitemap confirmed07:25:50.349Z/pending. Actual prepublication URLunknown/no lastcrawl is not a technical-cause or revised indexing finding"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/cost-seg-timing-and-hold-period/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for three changed canonicals; not confirmed indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/depreciation-recapture-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for three changed canonicals; not confirmed indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3URLsHTTP200; blog sitemap pending after04:34:57.135Z submission; existing URL indexing confirmed from September26crawl, revision receipt unconfirmed"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/does-ada-apply-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningfulblogsitemap confirmed07:37:22.113Z/pending. Actual prepublication URLunknown/no lastcrawl is not a technical-cause or revised indexing conclusion"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/dscr-loans-for-airbnb/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "IndexNow existing local workflow accepted four verified changed canonicals HTTP200 at 2026-10-07T09:54UTC; live key verified, no force. Search Console sitemap confirmed2026-10-07T09:52:08.558Z pending download/zero errors and warnings. Neither confirms revised-content indexing."
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow existing local workflow accepted four verified changed canonicals HTTP200 at 2026-10-07T09:54UTC; live key verified, no force. Search Console sitemap confirmed2026-10-07T09:52:08.558Z pending download/zero errors and warnings. Neither confirms revised-content indexing."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/dscr-vacancy-factor-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "IndexNow existing local workflow accepted four verified changed canonicals HTTP200 at 2026-10-07T09:54UTC; live key verified, no force. Search Console sitemap confirmed2026-10-07T09:52:08.558Z pending download/zero errors and warnings. Neither confirms revised-content indexing."
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow existing local workflow accepted four verified changed canonicals HTTP200 at 2026-10-07T09:54UTC; live key verified, no force. Search Console sitemap confirmed2026-10-07T09:52:08.558Z pending download/zero errors and warnings. Neither confirms revised-content indexing."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/due-diligence-items-buyers-skip/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: pre-offer STR evidence blind spots",
+          "record": "IndexNow accepted only both meaningfully changed URLs withHTTP200; Search Console accepted the changed blog sitemap at00:20:36.351UTC pendingdownload, not proof of indexing or search gains."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/earnest-money-amount-str-offer/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/earnest-money-release-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: early earnest-money release and recovery cash branches",
+          "record": "IndexNow accepted only the two meaningfully changed canonical URLs with HTTP200; no unchanged sitemap submission or duplicate inspection."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/electrical-panel-inspection-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/escalation-clause-str-purchase-offer/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/first-90-days-airbnb-launch/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:42:04.234Z/pending. Prior indexing confirmed from September26crawl, not revised indexing or outcome gain"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/flood-zone-str-underwriting/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3HTTP200; Confirmed2026-10-07T08:43:50.753Z; pending download; zero reported errors/warnings"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/future-booking-calendar-value/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: booking-calendar premium in an STR offer",
+          "record": "IndexNow returned HTTP200 for the guide and meaningfully changed high-income hub."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/future-reservations-at-closing/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/gift-funds-str-down-payment/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: gift-funds eligibility and funded-launch decision",
+          "record": "IndexNow accepted the two meaningfully changed canonical URLs with HTTP200 after the live checks."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/hoa-rental-cap-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/hot-tub-replacement-reserve/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200/livekeyverified; sitemapconfirmed11:55:44.199Z pending/zeroerrorswarnings, notindexing. Actual prepublicationunknown/no reportedcrawl preserved; no cause or revised indexing gain inferred"
+        },
+        {
+          "source": "_gen/hot-tub-reserve-live-evidence.json#indexnow",
+          "record": {
+            "http_status": 200,
+            "live_key_verified": true,
+            "time_basis": "2026-10-07T11:55Z"
+          }
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/how-to-choose-str-market/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/how-to-finance-airbnb-investment-property/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/inspection-contingency-length-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: inspection-window dependencies before an STR offer",
+          "record": "IndexNow accepted only both meaningfully changed URLsHTTP200; no unchanged sitemap submission, confirmed indexing or ranking/click/conversion gain."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP200 accepted for three changed live-verified canonicals; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/llc-for-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: LLC choice before the first STR offer",
+          "record": "IndexNow accepted both meaningfully changed canonical URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/mineral-rights-before-buying-str/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP200 accepted for three changed canonicals; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/new-listing-ramp-underwriting/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: new-listing cash ramp before an STR offer",
+          "record": "IndexNow returned HTTP200 for the refreshed guide and meaningfully changed investor hub."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/normalize-owner-blocks-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/normalize-str-utility-bills/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three live-verified changed canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow three changed canonicals HTTP200 accepted; sitemap confirmed2026-10-07T09:25:22.735Z pending/zero reported errors and warnings; not indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/parcel-jurisdiction-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing"
+        },
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: parcel authority and unresolved-permission cash decision",
+          "record": "IndexNow accepted only the two changed canonical URLs withHTTP200; no sitemap resubmission or confirmed recrawl/indexing/performance gain."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/permit-pending-due-diligence-extension/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: pending-permit extension deadline and new-spend test",
+          "record": "IndexNow accepted only the two meaningfully changed canonical URLs withHTTP200; not confirmed indexing or performance gains."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/permits-that-do-not-transfer/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/phase-i-environmental-site-assessment-str-purchase/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed07:07:04.382Z/pending. Actual pre-refresh URL unknown to Google/no lastcrawl; not a technical-cause or revised indexing conclusion"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP200 accepted for three changed canonicals; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/private-road-maintenance-agreement-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/private-well-inspection-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/proposed-road-project-before-buying-str/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 7 overnight: qualified proposed public-road project acquisition guide",
+          "record": "IndexNow three changed canonical URLs HTTP200 accepted; blog sitemap confirmed2026-10-07T09:16:49.131Z pending/zero reported errors and warnings; neither confirms indexing."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/rate-buydown-str-investment/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:29:05.020Z/pending; pre-release discovered-not-indexed/no lastcrawl, no revised indexing proof"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/reading-a-dscr-term-sheet/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: DSCR purchase term-sheet comparison",
+          "record": "IndexNow accepted the single changed canonical URL with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/reading-an-hoa-declaration/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing"
+        },
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: HOA document conflicts and assessment reconciliation",
+          "record": "IndexNow accepted only the two meaningfully changed canonical URLs withHTTP200 after verification; neither serving nor submission proves Google's receipt or indexing of the revision."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/reconcile-airbnb-payout-export/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/refinance-after-str-stabilization/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: stabilized STR refinance net-cash worksheet",
+          "record": "IndexNow accepted the two meaningfully changed canonical URLs withHTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/reverse-1031-buy-str-before-selling/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for three changed canonicals; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/roof-age-str-policy-binding/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: roof condition, insurance binding and replacement cash",
+          "record": "IndexNow accepted the two changed canonical URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/roof-inspection-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/second-home-loan-rental-intent/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: second-home financing and disclosed rental intent",
+          "record": "IndexNow returned HTTP200 for the guide and meaningfully modified high-income hub; no unchanged sitemap resubmission."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/seller-credit-str-furnishings/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: furnishing-credit scope and timed setup cash",
+          "record": "IndexNow accepted only the two meaningfully changed canonical URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/seller-financing-balloon-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: seller-note balloon repayment worksheet",
+          "record": "IndexNow accepted only both meaningfully changed canonical URLs withHTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/seller-new-str-bookings-during-escrow/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/seller-proforma-vs-trailing-revenue/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/septic-system-buying-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningfulblog sitemap confirmed08:01:10.514Z/pending. Actualprepublication discovered-not-indexed/no crawl, no revised indexing or outcome gain"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/septic-system-inspection-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/septic-system-insurance-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningfulsitemap confirmed08:15:59.152Z/pending. Actualprepublicationunknown/no reportedcrawl, not revisedindexing or outcome gain"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/septic-system-roi-short-term-rental/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3changedcanonicalsHTTP200; meaningful sitemap confirmed08:08:51.461Z/pending. Actualprepublication PASS/indexed from Oct6successfulMOBILEcrawl, not revised receipt or outcome gain"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/sewer-scope-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/short-term-rental-buy-box/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-1099-payout-reconciliation/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for two changed canonical URLs; not confirmation that Google crawled the revision"
+        },
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: seller1099 account scope versus purchased-property income",
+          "record": "IndexNow accepted only the two meaningfully changed canonical URLs withHTTP200 after live verification; acceptance does not confirm Google's receipt of the revision."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-appraisal-income-approach/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: appraisal income evidence before an STR offer",
+          "record": "IndexNow accepted only the two meaningfully changed canonical URLs with HTTP200; neither acceptance nor the content release establishes indexing, rankings, clicks or qualified leads."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-buyer-agent-vs-acquisition-team/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-condo-project-financing-eligibility/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-due-diligence-checklist/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: STR diligence findings to revised purchase decision",
+          "record": "IndexNow accepted the two meaningfully changed URLs withHTTP200; Search Console accepted changed sitemap at00:14:32.461UTC, pendingdownload."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-entity-structure-basics/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: source-checked entity purchase approval sequence",
+          "record": "IndexNow accepted both changed canonical URLs with HTTP200; Search Console accepted meaningfully changed blog sitemap at23:56:50.843UTC, pending download."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-furniture-bill-of-sale/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: furnished inventory ownership and closing acceptance",
+          "record": "IndexNow accepted only the two changed canonical URLs with HTTP200; unchanged sitemap not resubmitted."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-insurance-quote-before-purchase-offer/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-lender-reserve-requirements/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: lender reserves versus spendable purchase cash",
+          "record": "IndexNow accepted both meaningfully changed canonical URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-management-agreement-termination/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: management exit obligations before purchase",
+          "record": "IndexNow accepted only two changed canonicals with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-maximum-offer-price-from-revenue/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: worked maximum STR offer-price test",
+          "record": "IndexNow accepted only the changed article URL with HTTP 200; unchanged investor hub was not resubmitted."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-partnership-structure/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: partner funding deadlines and capital-call capacity",
+          "record": "IndexNow accepted the two changed canonical URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-personal-use-days/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for two changed canonical URLs; not confirmation of revision recrawl"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-property-wont-qualify-for-loan/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-refunds-chargebacks-underwriting/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-regulations-before-you-buy/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-revenue-guarantee-offers/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP200 accepted for three changed canonicals; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3URLsHTTP200; meaningful changed sitemap submitted05:21:19.829Z/pending; pre-release discovered/not-indexed/no reportedcrawl, no cause or improvement inferred"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-seller-credit-vs-price-reduction/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-seller-wont-share-revenue-records/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/structural-engineer-foundation-cracks-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/title-commitment-before-buying-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [],
+      "status": "no unambiguous receipt paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/vacant-renovation-str-coverage/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: vacancy, renovation and rental coverage handoff",
+          "record": "IndexNow accepted only the two changed canonical URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/verify-closing-wire-before-buying-str/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "HTTP 200 accepted for three changed canonicals; not confirmed indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/wetlands-before-buying-str/",
+      "kind": "new guide",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/wildfire-insurability-str/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/blog-indexing-supplemental-evidence.json#indexnow_status",
+          "record": "Three changed live-verified canonicals HTTP200 accepted; not indexing"
+        },
+        {
+          "source": "_gen/expansion_509_progress.json#submission",
+          "record": "IndexNow3HTTP200; sitemap confirmed2026-10-07T08:56:15.923Z pending/zeroerrorswarnings"
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/wind-deductible-str-reserve/",
+      "kind": "existing refresh",
+      "saved_acceptance_evidence": [
+        {
+          "source": "_gen/investor-coverage-ledger.md#October 6 overnight: wind deductible, closure cash and pre-payment funding",
+          "record": "IndexNow accepted only the two meaningfully changed canonical URLs with HTTP200."
+        }
+      ],
+      "status": "saved acceptance statement paired"
+    }
+  ],
+  "limits": "Historical saved narrative/structured acceptance evidence is not confirmed indexing or independent server logs. Missing evidence does not prove non-submission. Does not prove latest revision submission; dates/commits need individual reconciliation. No network calls or resubmissions."
+}
