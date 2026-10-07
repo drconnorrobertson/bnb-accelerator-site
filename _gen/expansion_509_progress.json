@@ -18,6 +18,15 @@
   "verified_live_new_pages": 8,
   "separately_counted_resource_guide_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/guides/bnb-turnkey-management-handoff/",
+      "content_commit": "70fd27a0edf84e35e32bfc1d87b0f05cd3268733",
+      "verified_live_at": "2026-10-07T18:53:28.410073+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/turnkey-handoff-live-evidence.json",
+      "validation": "All required checks/full two-public-file diff/primary service-material review/independent fee and held-deposit arithmetic/original October1 publication and four questions/55 live targets-assets/6 inbound/homepage shared flow preserved",
+      "submission": "One canonical IndexNowHTTP200;coreXMLconfirmed18:53:41.801Zpending/zero reported errorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/guides/str-market-analysis-report/",
       "content_commit": "7ef1c9f5d5d75b35180d05c680a73d9d0086a840",
       "verified_live_at": "2026-10-07T18:33:46.784160+00:00",
