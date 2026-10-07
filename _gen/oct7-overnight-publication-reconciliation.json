@@ -6,11 +6,25 @@
   "verified_additional_guides_in_register": 8,
   "requested_additional_guides": 509,
   "remaining_requested_not_established_gaps": 501,
-  "recorded_existing_refresh_urls": 32,
-  "recorded_refresh_count_basis": "Current progress register includes later seasonal-reserve and occupancy refreshes after08:00EDT; not a replacement for the103 overnight existing-body changes.",
+  "recorded_existing_refresh_urls": 33,
+  "recorded_refresh_count_basis": "Current progress register at63a9eac includes later seasonal-reserve, occupancy and hot-tub buying refreshes after08:00EDT; not a replacement for the103 overnight existing-body changes.",
+  "latest_later_refresh": {
+    "url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
+    "content_commit": "afaaffe",
+    "verified_at": "2026-10-07T12:49:27.602495+00:00",
+    "evidence_reference": "_gen/hot-tub-buying-live-evidence.json",
+    "classification": "Existing owner refresh; not a new guide or an addition to fixed18:00-08:00 overnight window. No fresh probe or resubmission during this report update."
+  },
   "receipt_pairing_reference": "_gen/overnight-receipt-pairing.json",
   "receipt_pairing_existing_urls": 66,
   "receipt_pairing_unpaired_existing_urls": 37,
+  "receipt_gap_routing": {
+    "checked_against": "_gen/preclosing-keyword-map.json",
+    "distinct_mapped_owners": 50,
+    "unpaired_urls_also_mapped_owners": 36,
+    "other_unpaired_url": "https://www.bnbaccelerator.com/blog/future-reservations-at-closing/",
+    "meaning": "Routes further receipt recovery toward the earlier FAQ batch and reservations owner. Map membership is not submission evidence;66/37 totals unchanged."
+  },
   "receipt_pairing_limits": "66of103 existing URLs have a saved structured or unambiguous narrative acceptance statement; not independent server logs or proof every latest revision was submitted.37unpaired is missing evidence, not confirmed non-submission. All8new URLs paired. No repeat submissions.",
   "fresh_overnight_reconciliation": {
     "reconciled_from_commit": "4135d6245a016f23cebed69f93455f24f49ba96d",
