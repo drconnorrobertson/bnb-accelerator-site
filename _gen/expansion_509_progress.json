@@ -229,6 +229,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rental-roi/",
+      "content_commit": "21f879e2c81c1fc39ed4819ed03e4c9accde3294",
+      "verification_recorded_at": "2026-10-07T05:57:01Z",
+      "counted_toward_509": false,
+      "validation": "1538 words/seven-minute read/four matched FAQs; all required checks/full scoped diff; 111 live internal targets/ten inbound pages; independent56 article links/assets; protected homepage/shared flow unchanged",
+      "submission": "IndexNow three changed canonicals HTTP200; changed blog sitemap confirmed submitted05:57:01.140Z/pending. Pre-release URL unknown/no last crawl, no technical exclusion or indexing gain inferred"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rentals/",
       "content_commit": "d6f31c3d",
       "verification_recorded_at": "2026-10-07T05:49:52Z",

@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rental-roi/",
+      "observed_at": "2026-10-07T05:57:01Z",
+      "observation_time_basis": "Evidence recorded after live checks and submission; actual URL Inspection obtained before revision publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rental-roi/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 10,
+      "internal_targets_verified": 111,
+      "content_commit": "21f879e2c81c1fc39ed4819ed03e4c9accde3294",
+      "indexnow_status": "Three changed live-verified canonicals accepted HTTP200; not indexing evidence",
+      "sitemap_submission": "Confirmed 2026-10-07T05:57:01.140Z; pending download; zero reported errors/warnings",
+      "caveat": "Unknown-to-Google state is not a technical-cause diagnosis. Approved network execution resolved local restricted DNS fetch failures; production checks passed with independent56 article links/assets and exact homepage match. No authenticated Vercel READY/log, actual Google crawl of revision, indexing or search/enquiry gain claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rentals/",
       "observed_at": "2026-10-07T05:49:52Z",
       "observation_time_basis": "Evidence recorded after live checks and submission; actual URL Inspection obtained before revision publication",
