@@ -141,6 +141,14 @@
   ],
   "rejected_or_existing_intents": [
     {
+      "candidate_intent": "Partner emergency cash, signer release and blanket-loan collateral purchase planning",
+      "decision": "Existing substantive partner/guarantee/co-borrower/package/blanket answers; no duplicate generic page approved",
+      "existing_url": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
+      "substantive_review": "Five complete bodies/FAQs read. Partnership already contains funded contribution/overrun tests. Existing blanket guide owns collateral/release intent but categorical isolation and unsupported typical terms merit source-checked expansion.",
+      "research_brief": "_gen/borrower-portfolio-overlap-review.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Verify private/shared well water quality, yield and repair rights before buying an STR",
       "decision": "Existing substantive shared-well acquisition answer and private-well buying/inspection coverage; no duplicate generic testing page approved",
       "existing_url": "https://www.bnbaccelerator.com/blog/shared-well-agreement-before-buying-str/",
