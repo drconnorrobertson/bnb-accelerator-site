@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/septic-system-buying-short-term-rental/",
+      "observed_at": "2026-10-07T08:00:53Z",
+      "observation_time_basis": "All production checks completed by this time; actual URL Inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/septic-system-buying-short-term-rental/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 122,
+      "content_commit": "4041f30736c000c8e0ca6c008ca8399211676054",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T08:01:10.514Z; pending download; zero reported errors/warnings",
+      "caveat": "Actual prepublication discovered-not-indexed/no crawl is not a content/technical cause or revised-indexing finding. One propagation retry passed exact four changed public artifacts/fourFAQs/122internal and56independenttargets/protected homepage. No fresh metrics/conversions or authenticated VercelREADY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/wetlands-before-buying-str/",
       "observed_at": "2026-10-07T07:49:16Z",
       "observation_time_basis": "Both production scripts and exact five-artifact checks completed by this time; actual inspection obtained before publication",
