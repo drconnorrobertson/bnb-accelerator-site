@@ -47,7 +47,10 @@ export function expandPreclosingKeywords(source, path) {
   if (!html.includes('<div class="author-box">')) throw new Error(`Missing author insertion point: ${path}`);
   html = html.replace('<div class="author-box">', section + '<div class="author-box">');
   // Preserve evidenced publication dates; modification records the new substance.
-  html = html.replace(/(<span>Published [^<]+<\/span>)(?:<span>&middot;<\/span><span>Updated [^<]+<\/span>)?/, '$1<span>&middot;</span><span>Updated October 6, 2026</span>');
+  const priorModified = source.match(/"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})"/)?.[1];
+  const modified = priorModified && priorModified > '2026-10-06' ? priorModified : '2026-10-06';
+  const modifiedLabel = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(modified + 'T00:00:00Z'));
+  html = html.replace(/(<span>Published [^<]+<\/span>)(?:<span>&middot;<\/span><span>Updated [^<]+<\/span>)?/, '$1<span>&middot;</span><span>Updated ' + modifiedLabel + '</span>');
   const text = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/)?.[1]?.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() || '';
   const words = text.split(' ').length;
   html = html.replace(/<span>\d+ min read<\/span>/, `<span>${Math.max(6, Math.ceil(words / 210))} min read</span>`);
@@ -60,7 +63,7 @@ export function expandPreclosingKeywords(source, path) {
     const data = JSON.parse(json);
     const nodes = data['@graph'] || [data];
     for (const node of nodes) {
-      if (['Article', 'BlogPosting'].includes(node['@type'])) { node.dateModified = '2026-10-06'; node.wordCount = words; }
+      if (['Article', 'BlogPosting'].includes(node['@type'])) { node.dateModified = modified; node.wordCount = words; }
       if (node['@type'] === 'FAQPage') {
         node.mainEntity = (node.mainEntity || []).filter(q => !questions.has(q.name));
         node.mainEntity.push(...profile.tasks.map(t => ({ '@type': 'Question', name: t.question, acceptedAnswer: { '@type': 'Answer', text: t.answer } })));

@@ -13,7 +13,11 @@ for (const p of profiles) {
     assert.equal((html.match(/id="purchase-check-\d"/g) || []).length, 5);
     const schemas = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>(.*?)<\/script>/gs)].flatMap(m => { const d = JSON.parse(m[1]); return d['@graph'] || [d]; });
     const article = schemas.find(n => ['Article', 'BlogPosting'].includes(n['@type']));
-    assert.equal(article.dateModified, '2026-10-06');
+    assert.equal(article.dateModified, p.slug === 'airbnb-cash-on-cash-return' ? '2026-10-07' : '2026-10-06');
+    // Synthetic later revision: regenerating the purchase checks must not backdate it.
+    const later = expandPreclosingKeywords(html.replace(/"dateModified": "\d{4}-\d{2}-\d{2}"/, '"dateModified": "2030-01-02"'), path);
+    assert(later.includes('"dateModified": "2030-01-02"'));
+    assert(later.includes('<span>Updated January 2, 2030</span>'));
     const faqs = schemas.filter(n => n['@type'] === 'FAQPage').flatMap(n => n.mainEntity);
     for (const t of p.tasks) {
       assert(html.includes(t.question.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')));
