@@ -1,0 +1,143 @@
+{
+  "method": "Two actual Google Inspection follow-ups about22hours21minutes after previous checks; complete filtered histories reconciled, no five-minute reinspection.",
+  "prior": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "6cac70c8-6df6-48ab-8f1d-557cae1149ec",
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-release-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T00:29:30.492829+00:00"
+      },
+      {
+        "id": "1be1def4-63a7-4391-bf50-67e5e98a7112",
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-amount-str-offer/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T00:29:23.93226+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 100,
+      "offset": 0,
+      "returned": 2,
+      "hasMore": false,
+      "note": "Showing all 2 rows."
+    }
+  },
+  "current": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 2,
+    "succeeded": 2,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 209,
+      "limit": 2000,
+      "remaining": 1791
+    },
+    "results": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-amount-str-offer/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-release-str/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      }
+    ]
+  },
+  "stored_history_after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "288c6155-dd15-4342-9022-6249bc9b4284",
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-release-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T22:50:33.801135+00:00"
+      },
+      {
+        "id": "a575d8bf-8981-4522-90e4-8813d04efc89",
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-amount-str-offer/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T22:50:33.712952+00:00"
+      },
+      {
+        "id": "6cac70c8-6df6-48ab-8f1d-557cae1149ec",
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-release-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T00:29:30.492829+00:00"
+      },
+      {
+        "id": "1be1def4-63a7-4391-bf50-67e5e98a7112",
+        "url": "https://www.bnbaccelerator.com/blog/earnest-money-amount-str-offer/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T00:29:23.93226+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 100,
+      "offset": 0,
+      "returned": 4,
+      "hasMore": false,
+      "note": "Showing all 4 rows."
+    }
+  },
+  "independent_live_probe": {
+    "verified_at": "2026-10-07T22:50:52.767Z",
+    "both_http_200": true,
+    "both_googlebot_ua_http_200": true,
+    "both_exact_current_public_build": true,
+    "both_final_self_canonical": true,
+    "both_server_article_text": true,
+    "both_noindex_header_absent": true,
+    "protected_homepage_exact": true
+  },
+  "interpretation": "Both changed from unknown to discovered/currently-not-indexed; no reported Google crawl. This is discovery evidence, not confirmed indexing, revised-body receipt, a technical exclusion cause or performance gain. Unspecified robots/fetch states are not blocked findings. Existing performance values retained, not treated as index counts.",
+  "public_changes": 0,
+  "indexing_submissions": 0,
+  "new_509_credit": 0,
+  "next_action": "Continue substantive acquisition-owner improvements or verified distinct gaps; allow crawl time rather than reinspecting unchanged state every trigger."
+}
