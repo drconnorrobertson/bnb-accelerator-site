@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/awning/",
+      "content_commit": "c07ffb4e69ca01df1588243fdea607c2aba35a2e",
+      "verified_at": "2026-10-07T15:05:50.084191+00:00",
+      "evidence": "_gen/awning-versus-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One verified changed canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Core sitemap confirmed submitted15:06:17.626Zpending/zero reported errorswarnings",
+      "google_indexing_evidence": "Earlier actual URLunknown/no reportedcrawl retained; serving eligibility separate from indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/avery-carl-short-term-shop/",
       "content_commit": "cf1d7eef1e2c130ebe1e73857e8f1ca2d5c6a752",
       "verified_at": "2026-10-07T14:55:25.959573+00:00",
