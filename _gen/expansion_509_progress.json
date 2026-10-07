@@ -413,6 +413,24 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/dscr-vacancy-factor-str/",
+      "content_commit": "61ceb58a988402357bb420cbf657ce27f2f33f7e",
+      "verified_live_at": null,
+      "counted_toward_509": false,
+      "validation": "Required checks/full scoped diff/source-built homepage guards passed; see _gen/dscr-income-quality-review.md",
+      "deployment_status": "Awaiting live verification: production still serves prior DSCR guide after propagation retry and longer wait; scoped Vercel Inspection403; no CLI available; GitHub statuses empty, not proof of failed deployment",
+      "submission": "Not requested; wait for exact current public artifacts. Prepublication Google Inspection indexed, not revised-body receipt"
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/dscr-loans-for-airbnb/",
+      "content_commit": "61ceb58a988402357bb420cbf657ce27f2f33f7e",
+      "verified_live_at": null,
+      "counted_toward_509": false,
+      "validation": "Required checks/full scoped diff/source-built homepage guards passed; see _gen/dscr-income-quality-review.md",
+      "deployment_status": "Awaiting live verification: production still serves prior DSCR guide after propagation retry and longer wait; scoped Vercel Inspection403; no CLI available; GitHub statuses empty, not proof of failed deployment",
+      "submission": "Not requested; wait for exact current public artifacts. Prepublication Google Inspection indexed, not revised-body receipt"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/normalize-str-utility-bills/",
       "content_commit": "9547750fff03dac0e5ff26f5eca0c7ec321ee68a",
       "verified_live_at": "2026-10-07T09:25:06.920060Z",

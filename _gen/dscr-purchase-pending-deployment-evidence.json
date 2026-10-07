@@ -1,0 +1,43 @@
+{
+  "content_commit": "61ceb58a988402357bb420cbf657ce27f2f33f7e",
+  "state": "validated and pushed; awaiting exact live verification",
+  "public_verification": "Initial, one30second propagation retry and longer60second deployment wait still returned the previous broader DSCR guide. HTTP200 is not proof of this release. No confirmed build failure inferred.",
+  "deployment_access": {
+    "project_id": "prj_ZKt3ArO33U2uE2gQZQZUdLT4Dpri",
+    "team_id": "team_QnyaJ8DIDMZzcJ8hhaPmVqEe",
+    "scope": "drconnorrobertsons-projects",
+    "scoped_inspection": "403 forbidden; connection not authorized for this scope",
+    "cli_fallback": "No vercel executable available; no secrets requested/read or credentials bypassed",
+    "github_commit_statuses": [],
+    "status_caveat": "Empty GitHub statuses and scoped inspection failure do not prove Vercel build failed. Reconnect appropriate scope or verify matching production artifacts later. No rollback, homepage change or redeployment attempted."
+  },
+  "google_inspections": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/dscr-vacancy-factor-str/",
+      "timing": "Actual API result before content commit and publication, not revised-body receipt",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-04T00:11:10Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": []
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/dscr-loans-for-airbnb/",
+      "timing": "Actual API result before content commit and publication, not revised-body receipt",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-05T12:00:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": ["https://www.bnbaccelerator.com/blog/str-bookkeeping-records/"]
+    }
+  ],
+  "submissions": "Not requested until reviewed current production destinations verified",
+  "expansion_509": "8 live new guides unchanged; both existing refreshes excluded",
+  "next": "Run _gen/verify_dscr_purchase_methods.py after deployment becomes available; only then submit changed canonical URLs and sitemap and record actual evidence. Preserve homepage and all existing releases."
+}
