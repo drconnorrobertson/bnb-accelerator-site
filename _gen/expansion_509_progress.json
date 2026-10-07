@@ -11,6 +11,13 @@
   "verified_live_new_pages": 6,
   "approved_candidates": [
     {
+      "slug": "wetlands-before-buying-str",
+      "editorial_score": [24, 29, 14, 18, 10],
+      "total": 95,
+      "status": "Reviewed and locally validated; publication/live verification pending; not counted",
+      "publication_date": "2026-10-07"
+    },
+    {
       "slug": "communications-lease-rent-before-buying-str",
       "editorial_score": [24, 28, 14, 18, 10],
       "total": 94,
