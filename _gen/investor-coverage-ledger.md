@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: existing STR Search signing-owner expansion
+
+Full substantive signing/alternatives owners reviewed; no independently distinct new provider-variant approved. Expanded /guides/str-search-property-match-questions/ with specific four-row evidence/decision gates, original unresolved-insurance/permit candidate acceptance sample and hypothetical275000/287000/312000allocation test against300000accessiblecash. Reserve40000countedonce; additional12000opening task and25000repair distinguished from included scope. Primary STRSearch homepage/website terms reviewedOctober7; no authenticated paid agreement, automaticrefund/extension, actualfee or guaranteed investment result. Commercial-interest/document-based/notfirsthand disclosures explicit. OriginalOctober1publication/title/H1/author/CTA preserved;Oct7mod/coreXMLlastmod. Allrequiredchecks/fulltwopublicdiff/math/homehashes pass; productionpending. Resource-only refresh;8new509/44blog/10comparison unchanged. ACTIVEfive-minute schedule unchanged.
+
 ## October7: existing Short Term Shop versus STR Search comparison
 
 Content27cabc2973c368ac060cafeceac2431788e61a44 exactlive17:45:56.710220UTC afterone30secondpropagationretry:twoartifacts/56links-assets/2inbound/hubdiscovery/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/homeexact. OriginalOctober6publication/fourFAQ/title/H1/sharedflow preserved;requiredchecks/fullscopeddiff/mathpassed. IndexNowonechangedcanonicalHTTP200;GSCcoreXMLconfirmed17:46:17.557Zpending/zero reportederrorswarnings—notindexing. No matchingstored Inspectionhistory andnofreshrevisionInspection;unknown evidence notexclusiondiagnosis. Evidenceshop-search-live-evidence.json. Comparisonrefresh10/blogrefresh44/resource1/new8of509unchanged. Next substantively review remaining existing canonical comparison and matching-contract owners;no provider-swappednewguide. ACTIVEfive-minute schedule preserved.
