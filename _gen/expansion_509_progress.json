@@ -185,6 +185,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
+      "content_commit": "d7384a33c7a099c3b03371733250088465eaa6eb",
+      "verified_live_at": "2026-10-07T05:15:49Z",
+      "counted_toward_509": false,
+      "validation": "1540words/7minutes/4matchedFAQs; required checks/full scoped diff;106live internal targets/5inbound pages; exact protected homepage and shared flow preserved",
+      "submission": "IndexNow3URLsHTTP200; meaningful changed blog sitemap submitted05:15:49.769Z/pending; actual pre-release discovered/not-indexed/no reportedcrawl, no cause or indexing gain inferred"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/depreciation-recapture-str/",
       "content_commit": "af65b04914e9eb26fb4ef75eb8f0539b5d03693d",
       "verified_live_at": "2026-10-07T04:34:57Z",
@@ -201,6 +209,6 @@
       "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
     }
   ],
-  "status": "2 of 509 additional new guides validated and live. Remaining 507 are a target, not established qualified gaps or completed pages.",
+  "status": "4 of 509 additional new guides validated and live. Remaining 505 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }

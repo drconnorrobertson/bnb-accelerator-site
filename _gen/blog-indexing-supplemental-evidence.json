@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
+      "observed_at": "2026-10-07T05:15:49Z",
+      "observation_time_basis": "Live verification completed before sitemap submission; actual inspection obtained before content publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T05:15:49Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 5,
+      "internal_targets_verified": 106,
+      "content_commit": "d7384a33c7a099c3b03371733250088465eaa6eb",
+      "indexnow_status": "HTTP200 accepted for three changed canonicals; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T05:15:49.769Z; pending download",
+      "caveat": "First check saw the previous content; one30second propagation retry passed. Actual discovered/not-indexed state is not a cause diagnosis. Live eligibility, submissions and Googlebot-UA response do not establish authenticated Google crawling, indexing or performance."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/preservation-easement-str-purchase-handoff/",
       "observed_at": "2026-10-07T05:02:52Z",
       "observation_time_basis": "Live verifications completed by this time; inspection separately obtained before content publication",
