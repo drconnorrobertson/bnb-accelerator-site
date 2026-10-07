@@ -16,6 +16,18 @@
     "duplicate intents"
   ],
   "verified_live_new_pages": 8,
+  "separately_counted_comparison_refreshes": [
+    {
+      "url": "https://www.bnbaccelerator.com/compare/alternatives-to-str-insights/",
+      "content_commit": "ccc9cf0c0d32e26c702f62f9d76e5f32d1e6af9d",
+      "verified_at": "2026-10-07T13:50:15.717802+00:00",
+      "evidence": "_gen/str-insights-alternatives-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One verified canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Changed core sitemap confirmed submitted 13:50:39.273Z, pending, zero reported errors/warnings",
+      "google_indexing_evidence": "Pre-publication Inspection URL unknown, no crawl; live eligibility is separate"
+    }
+  ],
   "approved_candidates": [
     {
       "slug": "proposed-road-project-before-buying-str",
