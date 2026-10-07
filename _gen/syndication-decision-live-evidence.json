@@ -51,7 +51,8 @@
     "matches": 0,
     "hasMore": false
   },
-  "actual_google_indexing": "Unknown; no matching stored inspection observations. Absence of history is not proof of exclusion or a diagnosed cause. No fresh Google crawl, revised-body receipt or search gain inferred.",
+  "actual_google_indexing": "First actual Inspection 2026-10-07T23:29:14.957882+00:00: NEUTRAL/Discovered - currently not indexed; no reported crawl and unspecified robots/indexing/fetch/user-agent. Discovery/current nonindexing is not a diagnosed technical cause, duplication, revised-body receipt or search gain.",
+  "indexing_baseline": "_gen/syndication-decision-indexing-baseline-2026-10-07.json",
   "counted_toward_509": false,
   "limits": "Serving evidence is not confirmed indexing, browser rendering or query/conversion gains."
 }

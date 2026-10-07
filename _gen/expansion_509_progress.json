@@ -675,7 +675,8 @@
       "counted_toward_509": false,
       "evidence": "_gen/syndication-decision-live-evidence.json",
       "validation": "1455words/sevenminutes/four original alignedFAQs; requiredchecks/full four-public diff/current IRS-SEC evidence/original ownership and capital-call worksheet/independent arithmetic/similarity0.030;60live targets-assets/4inbound; August11 publication/homepage/shared flow preserved",
-      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed23:26:17.300Zpending/zero reportederrorswarnings;actual indexing unknown from empty completefiltered storedhistory and not inferred from submissions"
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemapconfirmed23:26:17.300Zpending/zero reportederrorswarnings;first actual Inspection23:29:14.957882UTC discovered/currently-not-indexed with no reportedcrawl, not a technical-cause or revised-body receipt finding",
+      "indexing_baseline": "_gen/syndication-decision-indexing-baseline-2026-10-07.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/is-bnb-accelerator-worth-it/",
