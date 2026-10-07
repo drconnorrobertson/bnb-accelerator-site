@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/septic-system-insurance-short-term-rental/",
+      "observed_at": "2026-10-07T08:15:47Z",
+      "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/septic-system-insurance-short-term-rental/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 122,
+      "content_commit": "ffd32a7126d73c8cdde473bbbde97668e7f514fa",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T08:15:59.152Z; pending download; zero reported errors/warnings",
+      "caveat": "Actualprepublicationunknown/no crawl is not technicalcause or revisedindexing; one propagation retry passed exactfourartifacts/fourFAQs/122internal and54independenttargets/protectedhomepage. No search/conversiongain or authenticatedVercelREADY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/septic-system-roi-short-term-rental/",
       "observed_at": "2026-10-07T08:08:39Z",
       "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",
