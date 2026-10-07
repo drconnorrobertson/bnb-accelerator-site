@@ -1,0 +1,549 @@
+{
+  "batch": "2026-10-07-acquisition-16",
+  "source_commit": "a6e1897bf6aefee25a773218b4cf210239fb25c0",
+  "scope": "Sixteen existing imminent acquisition URLs previously missing actual Inspection evidence. Selected buyers' property and finance routes, not a random sample or sitewide indexed count.",
+  "observed_through": "2026-10-07T09:59:42Z",
+  "inspection_summary": {
+    "confirmed_indexed": 2,
+    "discovered_currently_not_indexed": 4,
+    "url_unknown_to_google": 10
+  },
+  "eligibility_summary": {
+    "checked": 16,
+    "googlebot_user_agent_http_200": 16,
+    "correct_final_self_canonical": 16,
+    "robots_allowed": 16,
+    "noindex_absent": 16,
+    "server_delivered_article_text": 16,
+    "unique_sitemap_inclusion": 16,
+    "non_orphan_inbound_pages": 16,
+    "protected_homepage_exact": true
+  },
+  "quota_after": {
+    "count": 120,
+    "limit": 2000,
+    "remaining": 1880
+  },
+  "limitations": [
+    "Actual Google Inspection confirms prior indexed visibility for foreclosure and simultaneous purchases, not indexing gains or current-body receipt.",
+    "Unknown and discovered states do not identify technical defects or content causes. No automatic deletion/noindex/rewrite.",
+    "User-agent probes are not authenticated Googlebot IP access, browser rendering, Core Web Vitals or actual Google crawl.",
+    "Performance fields retained; not returned is not zero. No conversion or new analytics availability claim.",
+    "No public files changed; no build/deployment, unchanged sitemap or IndexNow submission requested."
+  ],
+  "skill_scope": "seo-audit technical indexing/crawlability checklist bounded to authorized blog baseline; homepage/design and user quiet-notification protections override full-site competitor/keyword assumptions or routine questions.",
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/401k-loan-str-down-payment/",
+      "inspection": {
+        "id": "4d10a9cb-7b3a-421e-ad3c-a9b293db180e",
+        "url": "https://www.bnbaccelerator.com/blog/401k-loan-str-down-payment/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:57:41.946609+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/401k-loan-str-down-payment/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/401k-loan-str-down-payment/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/401k-loan-str-down-payment/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1479,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/bridge-loan-buy-short-term-rental/",
+      "inspection": {
+        "id": "ab819e87-6c68-4987-96ce-223b1129117e",
+        "url": "https://www.bnbaccelerator.com/blog/bridge-loan-buy-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:57:48.597275+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/bridge-loan-buy-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bridge-loan-buy-short-term-rental/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/bridge-loan-buy-short-term-rental/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1504,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-airbnb-without-str-permit/",
+      "inspection": {
+        "id": "84785231-3caf-4928-a898-05e41b80c068",
+        "url": "https://www.bnbaccelerator.com/blog/buy-airbnb-without-str-permit/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:57:55.274227+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-airbnb-without-str-permit/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-airbnb-without-str-permit/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-airbnb-without-str-permit/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 3,
+        "article_text_present": true,
+        "visible_article_words": 1561,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-bankruptcy-estate-property-as-str/",
+      "inspection": {
+        "id": "f6be58db-7ea1-4e0f-95e4-763e34252a25",
+        "url": "https://www.bnbaccelerator.com/blog/buy-bankruptcy-estate-property-as-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:58:02.038044+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-bankruptcy-estate-property-as-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-bankruptcy-estate-property-as-str/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-bankruptcy-estate-property-as-str/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1917,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-coop-apartment-as-short-term-rental/",
+      "inspection": {
+        "id": "0af81532-bc1d-459f-81d3-e149a1770d7e",
+        "url": "https://www.bnbaccelerator.com/blog/buy-coop-apartment-as-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:58:08.921974+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-coop-apartment-as-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-coop-apartment-as-short-term-rental/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-coop-apartment-as-short-term-rental/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1954,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-duplex-for-short-term-rental/",
+      "inspection": {
+        "id": "736e1178-4fcc-483b-a0a0-0db33cc7a4bf",
+        "url": "https://www.bnbaccelerator.com/blog/buy-duplex-for-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:58:15.512178+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-duplex-for-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-duplex-for-short-term-rental/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-duplex-for-short-term-rental/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 4,
+        "article_text_present": true,
+        "visible_article_words": 1318,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-family-vacation-home-as-str/",
+      "inspection": {
+        "id": "6d9ddb34-32d0-4c09-b6a0-95bf8566d6a9",
+        "url": "https://www.bnbaccelerator.com/blog/buy-family-vacation-home-as-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:58:22.082101+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-family-vacation-home-as-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-family-vacation-home-as-str/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-family-vacation-home-as-str/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1715,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+      "inspection": {
+        "id": "d3262a13-e806-4163-b43b-d4fda0cd69c1",
+        "url": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-05T05:00:05+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-07T09:58:28.882023+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 5,
+        "article_text_present": true,
+        "visible_article_words": 1373,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-manufactured-home-short-term-rental/",
+      "inspection": {
+        "id": "986dd4c4-10f8-4a98-bf39-c74124972ecd",
+        "url": "https://www.bnbaccelerator.com/blog/buy-manufactured-home-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:58:39.417255+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-manufactured-home-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-manufactured-home-short-term-rental/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-manufactured-home-short-term-rental/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1880,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-mixed-use-building-with-str-apartments/",
+      "inspection": {
+        "id": "ada82141-f865-429e-a174-ea9dae431b81",
+        "url": "https://www.bnbaccelerator.com/blog/buy-mixed-use-building-with-str-apartments/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:58:46.021308+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-mixed-use-building-with-str-apartments/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-mixed-use-building-with-str-apartments/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-mixed-use-building-with-str-apartments/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1832,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-probate-property-short-term-rental/",
+      "inspection": {
+        "id": "02c81c42-7c06-489f-9559-5ddd102d9dfc",
+        "url": "https://www.bnbaccelerator.com/blog/buy-probate-property-short-term-rental/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:58:52.728977+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-probate-property-short-term-rental/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-probate-property-short-term-rental/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-probate-property-short-term-rental/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 3,
+        "article_text_present": true,
+        "visible_article_words": 1770,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-property-with-adu-for-str/",
+      "inspection": {
+        "id": "23246ac5-0c68-4660-b8c0-5c02097f0569",
+        "url": "https://www.bnbaccelerator.com/blog/buy-property-with-adu-for-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:58:59.348717+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-property-with-adu-for-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-property-with-adu-for-str/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-property-with-adu-for-str/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1521,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-short-sale-property-as-str/",
+      "inspection": {
+        "id": "24535794-a3c1-41e2-bb5a-f7b667d74f9f",
+        "url": "https://www.bnbaccelerator.com/blog/buy-short-sale-property-as-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-07T09:59:05.963907+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-short-sale-property-as-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-short-sale-property-as-str/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-short-sale-property-as-str/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 2,
+        "article_text_present": true,
+        "visible_article_words": 1901,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-short-term-rental-student-loan-debt/",
+      "inspection": {
+        "id": "97d48aa5-d6a9-457f-a0ac-78b48c3a99f8",
+        "url": "https://www.bnbaccelerator.com/blog/buy-short-term-rental-student-loan-debt/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:59:12.780857+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-short-term-rental-student-loan-debt/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-short-term-rental-student-loan-debt/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-short-term-rental-student-loan-debt/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 3,
+        "article_text_present": true,
+        "visible_article_words": 1608,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-tenant-occupied-property-for-str/",
+      "inspection": {
+        "id": "e2ee7ea7-828f-4f2d-bcee-6114b8e4374e",
+        "url": "https://www.bnbaccelerator.com/blog/buy-tenant-occupied-property-for-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T09:59:19.433567+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-tenant-occupied-property-for-str/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-tenant-occupied-property-for-str/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-tenant-occupied-property-for-str/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 6,
+        "article_text_present": true,
+        "visible_article_words": 1503,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/buy-two-short-term-rentals-at-once/",
+      "inspection": {
+        "id": "6ec760a1-07f4-4637-be42-be63abca1dbd",
+        "url": "https://www.bnbaccelerator.com/blog/buy-two-short-term-rentals-at-once/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-06T09:10:35+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-07T09:59:26.171913+00:00"
+      },
+      "eligibility": {
+        "url": "https://www.bnbaccelerator.com/blog/buy-two-short-term-rentals-at-once/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/buy-two-short-term-rentals-at-once/",
+        "live_canonical": "https://www.bnbaccelerator.com/blog/buy-two-short-term-rentals-at-once/",
+        "live_noindex": false,
+        "robots_allows_googlebot": true,
+        "sitemap_occurrences": 1,
+        "inbound_pages": 5,
+        "article_text_present": true,
+        "visible_article_words": 1331,
+        "article_schema": true,
+        "h1_count": 1,
+        "eligible": true,
+        "observed_at": "2026-10-07T09:59:42Z"
+      },
+      "recommended_action": "Preserve actual visibility and continue substantive buyer review; use later crawl/query evidence without inferring a cause from unknown/discovered states."
+    }
+  ]
+}
