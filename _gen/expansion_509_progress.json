@@ -425,6 +425,16 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-repair-replace-short-term-rental/",
+      "content_commit": "3eee0bf955fc44d2cf8058bb55f54810e10431cb",
+      "verified_at": "2026-10-07T10:51:51.167414+00:00",
+      "validation": "All required checks/full scoped diff/homepage protection; four exact public artifacts, 56 linked destinations/assets, four matched FAQs and Googlebot UA HTTP200 passed",
+      "submission": "IndexNow three verified canonicals HTTP200 accepted; sitemap confirmed2026-10-07T10:52:28.925Z pending download. Neither confirms indexing.",
+      "confirmed_revised_indexing": false,
+      "counted_toward_509": false,
+      "live_evidence": "_gen/appliance-repair-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/appliances-inspection-short-term-rental/",
       "content_commit": "0d7bef20f3909c8d0d5e72aa05752d702f9b37b8",
       "verified_at": "2026-10-07T10:41:58.031403+00:00",
