@@ -11,6 +11,13 @@
   "verified_live_new_pages": 4,
   "approved_candidates": [
     {
+      "slug": "land-use-tax-enrollment-before-buying-str",
+      "editorial_score": [23, 28, 14, 17, 10],
+      "total": 92,
+      "status": "Source-reviewed and repository-validated; awaiting content commit and production verification, not yet counted",
+      "publication_date": "2026-10-07"
+    },
+    {
       "slug": "preservation-easement-str-purchase-handoff",
       "editorial_score": [23, 28, 13, 17, 10],
       "total": 91,
@@ -40,6 +47,12 @@
     }
   ],
   "research_candidates": [
+    {
+      "candidate_intent": "Land-use tax enrollment, proposed site footprint and transition-liability cash before buying an acreage STR",
+      "status": "Distinct intent approved after complete five-neighbor review and Texas/Virginia primary-source checks; local validation passed, production verification pending",
+      "review_brief": "_gen/land-use-tax-acquisition-review.md",
+      "counted_as_published": false
+    },
     {
       "candidate_intent": "Acquisition handoff of recorded grant-assisted historic preservation maintenance, access and compliance obligations",
       "status": "Narrow preservation completed-work/operating-handoff guide published and live verified; editorial91/100, original condition/calendar/quote worksheets",
