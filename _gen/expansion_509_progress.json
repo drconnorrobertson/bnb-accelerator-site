@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/rabbu/",
+      "content_commit": "354fc836fc9e8d53b6cb69d334a7d1729a2de74b",
+      "verified_at": "2026-10-07T15:32:26.282506+00:00",
+      "evidence": "_gen/rabbu-versus-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One live-verified changed canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Core sitemap confirmed submitted15:32:39.562Zpending/zero reported errorswarnings",
+      "google_indexing_evidence": "Earlier actual URLunknown/no reportedcrawl retained; live eligibility separate from indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/awning/",
       "content_commit": "c07ffb4e69ca01df1588243fdea607c2aba35a2e",
       "verified_at": "2026-10-07T15:05:50.084191+00:00",
