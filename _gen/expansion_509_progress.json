@@ -55,6 +55,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Generic furnished-asset allocation or business-asset STR purchase checklist",
+      "status": "Rejected after complete six-article substantive overlap review; transfer/condition, lender cash, entity/asset scope and local liability have useful distinct existing answers. Existing furnishings-allocation note remains an unapproved purchase-specific refresh candidate requiring current primary evidence and original support; no new guide, score or fresh rule verification claimed",
+      "review_brief": "_gen/furnished-asset-acquisition-overlap-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Generic vacant-possession or occupied-closing cash checklist for an STR purchase",
       "status": "Rejected after complete tenant-occupied, seller rent-back, reservations, option-exercise and bankruptcy-estate bodies/FAQs review; useful distinct existing answers already cover possession, duties, evidence, funding and transaction variants; no new URL, passing score or fresh legal/provider verification claimed",
       "review_brief": "_gen/possession-acquisition-overlap-screen.md",
