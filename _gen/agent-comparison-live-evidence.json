@@ -50,6 +50,6 @@
     "matches": 0,
     "hasMore": false
   },
-  "actual_google_indexing": "Unknown; no matching stored Inspection. No technical cause or revised-body receipt established. Live serving checks and submission acceptance do not prove indexing, rankings, browser rendering or enquiries.",
+  "actual_google_indexing": "First actual Inspection23:00:33.620691UTC confirms PASS/Submitted and indexed/ALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE with September26T02:50:34Z crawl. Existing indexing, not new indexing from October7 revision or revised-body receipt. See agent-comparison-indexing-baseline-2026-10-07.json. Empty history at publication remains historically correct.",
   "counted_toward_509": false
 }
