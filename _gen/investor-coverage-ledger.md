@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: year-one operating-model ownership screen
+
+FullKleerCircleyear-oneresource/directbuyerblog/threevisibleFAQs read. Genericbusybuyer-first-year-operation acquisitionvariant rejected76/100 (distinct10/buyer28/evidence12/service18/original8) asalreadyowned; nohighincome/W2/provider-swappedvariant/new509credit. Distinctnamedcontractresource/directcomparisonformats preserved/nomerge/noindex/delete. Nextdevelopresource's specificduty/backup/cost/approvedexception evidence andoriginalavailability-gaptest,notrepeated300hours/12000costtemplate;verifycurrentprimaryscopebeforeproviderclaims andneverconflateavailablehourswithtaxqualification. Privateyear-one-operations-overlap-review.md preservesowner evidence. Publicchanges/submissions0;new8/blog44/comparison10/resource6/hubnavigationunchanged;ACTIVEfive-minute schedule preserved.
+
 ## October7: acquisition-provider manager-handoff ownership screen
 
 FirstactualnamedresourceInspection18:56:22UTC NEUTRAL/Discovered-currently-not-indexed/unspecifiedindexstate/no reportedcrawl;1success0failed0skipped/quota195used1805remaining. Evidenceturnkey-handoff-indexing-baseline-2026-10-07.json. Separate18:53exactliveeligibility/6inbound retained;nottechnicalcausediagnosis/decline/revisedcrawlreceipt. Allowdiscoverytime/norepeatedunchangedsubmissions/immediatereinspection;continueindependentbuyerquality. Publicchanges0/new509credit0;ACTIVEfive-minute schedule preserved.
