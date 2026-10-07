@@ -413,6 +413,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/normalize-str-utility-bills/",
+      "content_commit": "9547750fff03dac0e5ff26f5eca0c7ec321ee68a",
+      "verified_live_at": "2026-10-07T09:25:06.920060Z",
+      "validation": "1508words/7minutes/fourFAQs; allrequiredchecks/fullscopeddiff/similaritymax0.011;745othercards-noncardbytes/author/pub/homehashes/sharedpaths preserved; exactfourartifacts/130internal/5inbound/58independentlinks-assets/Googlebot-UA200/robotsallowed",
+      "decision_support": "Full EIA average-price versus actual-rate source; original monthly register;6600energy+1200omittedinternet+600incrementalamenity=8400;3000difference reduces16000to13000;quarter3150 vs average2100.300k funds/290k base+800helddeposit200activation=291k/9koutside;3150paidfrom40kreserve leaves36850, not duplicateannualexpense.",
+      "submission": "IndexNow three changed canonicals HTTP200 accepted; sitemap confirmed2026-10-07T09:25:22.735Z pending/zero reported errors and warnings; not indexing",
+      "counted_toward_509": false
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/wildfire-insurability-str/",
       "content_commit": "8461b293ab074810b9a0fbbf13572710a5ebdb56",
       "verified_live_at": "2026-10-07T08:56:04.836184Z",

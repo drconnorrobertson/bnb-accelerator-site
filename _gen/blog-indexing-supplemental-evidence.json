@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/normalize-str-utility-bills/",
+      "observed_at": "2026-10-07T09:25:06.920060Z",
+      "observation_time_basis": "Live checks completed by this time; actual Inspection before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/normalize-str-utility-bills/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 5,
+      "internal_targets_verified": 130,
+      "content_commit": "9547750fff03dac0e5ff26f5eca0c7ec321ee68a",
+      "indexnow_status": "Three live-verified changed canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T09:25:22.735Z pending/zero reported errors and warnings",
+      "caveat": "Prepublicationunknown/no crawl is not a diagnosed cause. One propagation retry passed exactfourartifacts/fourFAQs/130internal/58independentlinks-assets/protectedhomepage. No revisedindexing/search/conversiongain or authenticatedVercelREADY/log claim; existingrefresh not509credit."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/proposed-road-project-before-buying-str/",
       "observed_at": "2026-10-07T09:16:15.484728Z",
       "observation_time_basis": "Production verification completed by this time; actual Inspection after publication before sitemap submission09:16:49Z",
