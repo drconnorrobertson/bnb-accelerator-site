@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/flood-zone-str-underwriting/",
+      "observed_at": "2026-10-07T08:43:41.602539Z",
+      "observation_time_basis": "Live checks completed by this time; actual inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/flood-zone-str-underwriting/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 7,
+      "internal_targets_verified": 127,
+      "content_commit": "835da17a8d7a7cccf4b085a11b14b254d75735e3",
+      "indexnow_status": "Three changed canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T08:43:50.753Z; pending download; zero reported errors/warnings",
+      "caveat": "Actual prepublication unknown/no crawl is not technical/content cause. One propagation retry passed exact four artifacts/five retained FAQs/127 internal and58 independent links-assets/protected homepage. No revised indexing/performance/conversion gain or authenticated Vercel READY/log claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/commercial-umbrella-str/",
       "observed_at": "2026-10-07T08:32:55.833179Z",
       "observation_time_basis": "Live checks completed by this time; actual inspection obtained before publication",

@@ -323,6 +323,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/flood-zone-str-underwriting/",
+      "content_commit": "835da17a8d7a7cccf4b085a11b14b254d75735e3",
+      "verified_live_at": "2026-10-07T08:43:41.602539Z",
+      "validation": "Required build/tests/audit/full diff; 744 other cards and noncard bytes unchanged; source/built homepage hashes; similarity maximum0.029; live exactfourartifacts/fiveFAQ/127internal/58independenttargets/Googlebot-UA200/robotsallowed",
+      "decision_support": "NFIP primary-source boundaries; map-condition-use-coverage-access register; hypothetical8000-2400=5600 annual case,4500 lost contribution+4200 distinct extra bills => -3100 event-year cash; no proceeds assumed; five original purchase questions preserved",
+      "submission": "IndexNow3HTTP200; Confirmed2026-10-07T08:43:50.753Z; pending download; zero reported errors/warnings",
+      "counted_toward_509": false
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/commercial-umbrella-str/",
       "content_commit": "e4de2edccfa4985495bf1e78aeacece3648fe172",
       "verified_live_at": "2026-10-07T08:32:55.833179Z",
