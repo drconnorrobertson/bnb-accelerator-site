@@ -8,13 +8,13 @@
   "minimum_buyer_relevance": 27,
   "minimum_acquisition_service_fit": 17,
   "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
-  "verified_live_new_pages": 1,
+  "verified_live_new_pages": 2,
   "approved_candidates": [
     {
       "slug": "reverse-1031-buy-str-before-selling",
       "editorial_score": [24, 29, 14, 18, 10],
       "total": 95,
-      "status": "Approved distinct replacement-first acquisition intent; draft awaiting checks and live verification",
+      "status": "Published in 9df3bff2 and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
@@ -42,6 +42,23 @@
     }
   ],
   "published": [
+    {
+      "slug": "reverse-1031-buy-str-before-selling",
+      "url": "https://www.bnbaccelerator.com/blog/reverse-1031-buy-str-before-selling/",
+      "content_commit": "9df3bff2bbffe93070a5a8993792087265c6fcd1",
+      "verified_live_at": "2026-10-07T04:10:59Z",
+      "words": 1605,
+      "reading_minutes": 8,
+      "matched_faqs": 4,
+      "internal_targets_verified": 106,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.011,
+      "validation": "Build; buyer-intent; nonhome SEO/design; preclosing; precall; content audit; similarity; scoped diff; 739 prior archive cards preserved; source/built homepage hashes/assets/shared modules unchanged",
+      "indexnow": "HTTP 200 accepted for guide, changed investor hub and archive; not confirmed indexing",
+      "sitemap_submission": "Confirmed 2026-10-07T04:11:19.996Z; pending download",
+      "google_inspection": "Before publication: NEUTRAL / URL is unknown to Google; no reported crawl; obtained before 04:09:38UTC",
+      "confirmed_indexing": false
+    },
     {
       "slug": "verify-closing-wire-before-buying-str",
       "url": "https://www.bnbaccelerator.com/blog/verify-closing-wire-before-buying-str/",
@@ -71,6 +88,6 @@
       "counted_as_published": false
     }
   ],
-  "status": "1 of 509 additional new guides validated and live. Remaining 508 are a target, not established qualified gaps or completed pages.",
+  "status": "2 of 509 additional new guides validated and live. Remaining 507 are a target, not established qualified gaps or completed pages.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }
