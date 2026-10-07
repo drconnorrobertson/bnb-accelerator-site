@@ -425,6 +425,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/amenity-roi-ranking/",
+      "content_commit": "40a2758e58b43d3fc2b295b5704b45cd3faf2d81",
+      "verified_live_at": "2026-10-07T11:36:35.106033+00:00",
+      "counted_toward_509": false,
+      "validation": "1651words/8minutes/4matchedFAQs; all required checks/full scoped diff; exact4publicartifacts/60links-assets/9inbound/GooglebotUA200/canonical/robots/noindex/sitemap/homepage passed",
+      "submission": "IndexNow3URLsHTTP200/livekeyverified; GSCsitemap confirmed11:36:44.496Z pending/zero reportederrorswarnings; not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/appliances-roi-short-term-rental/",
       "content_commit": "bc2c07d9d48a332b855b7dd250839d8009ac1404",
       "verified_at": "2026-10-07T11:08:07.893551+00:00",
