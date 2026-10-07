@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rentals/",
+      "observed_at": "2026-10-07T05:49:52Z",
+      "observation_time_basis": "Evidence recorded after live checks and submission; actual URL Inspection obtained before revision publication",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-24T18:27:02Z",
+      "pageFetchState": "SUCCESSFUL",
+      "referringUrls": ["https://www.bnbaccelerator.com/blog/str-vs-midterm-rentals/"],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rentals/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 8,
+      "internal_targets_verified": 110,
+      "content_commit": "d6f31c3d",
+      "indexnow_status": "Three changed live-verified canonicals accepted HTTP200; not revised indexing evidence",
+      "sitemap_submission": "Confirmed 2026-10-07T05:49:51.672Z; pending download; zero reported errors/warnings",
+      "caveat": "Existing indexing confirmed from September24 crawl, not receipt of October7 revision. Initial old production version resolved after one30second propagation retry. Independent54 article links/assets passed; homepage exact match. No authenticated Vercel READY/log or improved queries/conversions claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/land-use-tax-enrollment-before-buying-str/",
       "observed_at": "2026-10-07T05:33:10Z",
       "observation_time_basis": "Live verification completed by this time; actual inspection separately obtained before publication",

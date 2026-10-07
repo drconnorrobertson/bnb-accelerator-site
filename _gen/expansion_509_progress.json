@@ -229,6 +229,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rentals/",
+      "content_commit": "d6f31c3d",
+      "verification_recorded_at": "2026-10-07T05:49:52Z",
+      "counted_toward_509": false,
+      "validation": "1405words/sevenminutes/four matchedFAQs; required checks/full scoped review;110 live internal targets/8 inbound pages; independent54 article targets; protected homepage/shared flow preserved",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningfully changed blog sitemap submitted05:49:51.672Z/pending. September24 prior crawl confirms existing indexing, not revised body receipt or outcome gain"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-revenue-guarantee-offers/",
       "content_commit": "cf0412605942859e91b13a801e1c5b74b990c1ef",
       "verified_live_at": "2026-10-07T05:21:19Z",
