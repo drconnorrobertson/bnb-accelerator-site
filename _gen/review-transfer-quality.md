@@ -1,0 +1,7 @@
+# Existing review-goodwill owner — October 7, 2026
+
+Full original228word note/noFAQ and substantive booked-calendar value body reviewed. Reservation closing/manager owners separately reviewed in prior completed batches; preserved as distinct decisions. Generic new inherited-review purchase variant fails new-intent gate76 (distinct10/buyer28/evidence12/fit18/original8), no509credit. Expand existing canonical instead with a five-benefit evidence worksheet, historical service-versus-property interpretation and original opening-cash stress, not duplicate calendar receipt arithmetic.
+
+Current Airbnb1431 primary guidance checkedOctober7; bounded account/reservation nontransfer claims. No review migration/ranking/retention or causal uplift invented. Original invented cash allocation270000 includes40000reserve; add24000premium294000 leaves6000of300000; new12000distinctbills306000 gives6000gap;withoutpremium282000 leaves18000. Not appraisal/profit/complete financing model; reserve countedonce and lostgross not invoice. Privacy/interest/document-based/professional limits explicit.
+
+OriginalSeptember23pub/titleH1authorCTAURL preserved; archive excerpt/search/readtime/three new FAQ schemas/modified and bloglastmod align. Homepage/assets/sharedmodules/scheduling unchanged. Fullscopeddiff, requiredchecks, similarity, independentmath and exactlive verification required before submissions; no new509credit or indexing/result promise.
