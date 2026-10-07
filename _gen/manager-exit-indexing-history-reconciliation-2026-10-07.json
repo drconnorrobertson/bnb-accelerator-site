@@ -1,0 +1,22 @@
+{
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/blog/str-management-agreement-termination/",
+  "evidence_type": "Stored connected Google URL Inspection history, not a fresh inspection",
+  "history_lookup": {"returned": 1, "hasMore": false, "latestPerUrl": true},
+  "inspection_requested_at": "2026-10-07T01:36:18.129819+00:00",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "crawledAs": null,
+  "fresh_inspection_performed": false,
+  "independent_eligibility": "_gen/manager-exit-correction-live-evidence.json:19:39:40.354594UTC HTTP200/exact build/selfcanonical/allowedrobots/noindexabsent/GooglebotUA200/55links-assets/7inbound/homeexact",
+  "inventory_reconciliation": "Preserve earlier actual Google observation timestamp and historical performance; update independently verified inbound count from four to seven and recommended action to distinguish later serving checks.",
+  "recommended_action": "Allow discovery of the meaningful revision; continue substantive buyer quality and use a later bounded measurement interval, not immediate reinspection or unchanged resubmission",
+  "limits": "Earlier unknown status is not a new technical defect, worsening trend, duplicate intent or confirmed Google receipt of the later revision. Current serving eligibility and accepted submissions do not establish current indexing. No search or conversion gain.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
