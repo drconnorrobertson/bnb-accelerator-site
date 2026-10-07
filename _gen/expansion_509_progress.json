@@ -528,6 +528,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/buying-airbnb-out-of-state/",
+      "content_commit": "210ccdf634aa601666c570ab9a566b0f0b8afcac",
+      "verified_live_at": "2026-10-07T17:36:34.858428+00:00",
+      "counted_toward_509": false,
+      "validation": "1543words/eightminutes/four matchedFAQs;all required checks/full four-public diff/independentmath/58live links-assets/10inbound;originalAugust11pub/title/H1/author/IDs/CTA/firstSTR/footer and745othercards/framing preserved;homepage/sharedflow exact",
+      "submission": "IndexNow3changedcanonicalsHTTP200;blogXMLconfirmed17:36:49.102Zpending/zero reportederrorswarnings. Actual earlier indexedSeptember26crawl retained;notrevisionindexing or searchgain",
+      "evidence": "_gen/remote-purchase-review-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/assembling-a-comparable-set/",
       "content_commit": "2b6506379a577e9de4325d095411639e7aa2871e",
       "verified_live_at": "2026-10-07T17:31:15.491001+00:00",
