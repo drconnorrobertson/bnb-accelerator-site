@@ -1,0 +1,46 @@
+{
+  "observed_at": "2026-10-07T17:15:18Z",
+  "resource_inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/guides/str-service-responsibility-matrix/",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "independent_live_eligibility": {
+    "evidence": "_gen/responsibility-review-live-evidence.json",
+    "verified_at": "2026-10-07T17:12:59.254054+00:00",
+    "http_status": 200,
+    "canonical": "https://www.bnbaccelerator.com/guides/str-service-responsibility-matrix/",
+    "robots_allowed": true,
+    "noindex": false,
+    "sitemap_entries": 1,
+    "inbound_pages": 24,
+    "server_article_text": true,
+    "topic_cluster": "Acquisition service selection and deliverable acceptance",
+    "impressions": "not measured for this resource in this batch",
+    "clicks": "not measured for this resource in this batch"
+  },
+  "analytics_connection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "tags": [],
+    "dataSource": "GSC",
+    "ga4PropertyId": null,
+    "permissionLevel": "siteOwner",
+    "readable": true,
+    "activated": true,
+    "connectedAt": "2026-10-06T00:57:08.483776+00:00"
+  },
+  "limits": [
+    "First actual Inspection in this work record shows discovered but not currently indexed; no reported crawl. Not a diagnosed technical exclusion or evidence of revision receipt.",
+    "Live serving/eligibility is separate from confirmed indexing. No unchanged submissions or repeat Inspection.",
+    "GA4 property is still not linked in GSC Wizard; this does not establish whether any analytics exists elsewhere. No qualified-enquiry/conversion figures claimed.",
+    "No public changes or new 509-page credit."
+  ],
+  "recommended_action": "Continue substantive acquisition content work independently; compare actual indexing after a settled interval and buyer query performance later. No immediate reinspection or unchanged sitemap submission."
+}
