@@ -419,6 +419,16 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/appliances-buying-short-term-rental/",
+      "content_commit": "35cf29cc1c52d7a81562d1fd2d78b49b0c6d5cfd",
+      "verified_live_at": "2026-10-07T10:12:35.046496+00:00",
+      "counted_toward_509": false,
+      "validation": "Requiredchecks/fullscopeddiff/745othercards-noncardbytes/title-H1-author-pub/source-built-homehashes/sharedguards/arithmetic/similaritymax0.011; exactfourartifacts/fourFAQs/56links-assets/3inbound/GooglebotUA200/robotsallow",
+      "decision_support": "Contract equipment identity and disposition register;250kfunds230kallocation includes4kequipment and40kretained;9kreplaces4k=>235k15koutside;stipulated3kacceptedclosingcredit=>232k18koutside;2kdeposit withinbid dueearly;separate8kdelay=>240k10koutside versus12kotherneed2kgap",
+      "submission": "Three live changed canonicals acceptedIndexNowHTTP200; sitemapconfirmed2026-10-07T10:12:47.607Z pending/zeroerrorswarnings; not indexing",
+      "live_evidence": "_gen/appliance-acquisition-live-evidence.json"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/dscr-vacancy-factor-str/",
       "content_commit": "61ceb58a988402357bb420cbf657ce27f2f33f7e",
       "verified_live_at": "2026-10-07T09:51:44.952020+00:00",

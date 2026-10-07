@@ -1,6 +1,31 @@
 {
   "inspection_results": [
     {
+      "siteUrl": "https://www.bnbaccelerator.com/",
+      "inspectionUrl": "https://www.bnbaccelerator.com/blog/appliances-buying-short-term-rental/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "referringUrls": [],
+      "url": "https://www.bnbaccelerator.com/blog/appliances-buying-short-term-rental/",
+      "observed_at": "2026-10-07T10:12:35.046496+00:00",
+      "observation_time_basis": "Actual Inspection before publication; productionverification completion time, not revised Google receipt",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/appliances-buying-short-term-rental/",
+      "live_noindex": false,
+      "live_text_present": true,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 56,
+      "content_commit": "35cf29cc1c52d7a81562d1fd2d78b49b0c6d5cfd",
+      "indexnow_status": "Three live changed canonicals acceptedIndexNowHTTP200; sitemapconfirmed2026-10-07T10:12:47.607Z pending/zeroerrorswarnings; not indexing",
+      "caveat": "One30secondpropagationretry exactfourartifacts/fourFAQs/56independentlinks-assets/protectedhomepage; no browser-rendering, actual Google crawl, indexing gain or authenticatedVercelREADY claim; existingrefresh excluded509"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/dscr-loans-for-airbnb/",
       "timing": "Actual API result before content commit and publication, not revised-body receipt",
       "verdict": "PASS",
