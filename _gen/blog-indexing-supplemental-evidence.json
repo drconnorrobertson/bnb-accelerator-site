@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/proposed-road-project-before-buying-str/",
+      "observed_at": "2026-10-07T09:16:15.484728Z",
+      "observation_time_basis": "Production verification completed by this time; actual Inspection after publication before sitemap submission09:16:49Z",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/proposed-road-project-before-buying-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 131,
+      "content_commit": "46b9d9468538fc54366457e2ae29587e6f30e3c7",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T09:16:49.131Z pending download/zero reported errors and warnings",
+      "caveat": "Unknown/no crawl is not a diagnosed cause. Exact five artifacts/fourFAQs/131internal/57 independent links-assets/protectedhomepage passed. No indexing/search/conversion gain or authenticated Vercel READY/log claim. Current URL-prefix property readable/activated/siteOwner with no linkedGA4; initial wrong domain-property query corrected, not an access blocker."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/wildfire-insurability-str/",
       "observed_at": "2026-10-07T08:56:04.836184Z",
       "observation_time_basis": "Live checks completed by this time; actual inspection obtained before publication",
@@ -269,7 +292,9 @@
       "lastCrawlTime": "2026-09-26T02:26:47Z",
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/fort-walton-beach-value-thesis/"],
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/fort-walton-beach-value-thesis/"
+      ],
       "live_http_status": 200,
       "live_canonical": "https://www.bnbaccelerator.com/blog/first-90-days-airbnb-launch/",
       "live_text_present": true,
@@ -365,7 +390,9 @@
       "lastCrawlTime": "2026-09-24T15:56:50Z",
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
-      "referringUrls": ["https://www.bnbaccelerator.com/markets/phoenix-mesa/"],
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/markets/phoenix-mesa/"
+      ],
       "live_http_status": 200,
       "live_canonical": "https://www.bnbaccelerator.com/blog/airbnb-cash-on-cash-return/",
       "live_text_present": true,
@@ -411,7 +438,9 @@
       "indexingState": "INDEXING_ALLOWED",
       "lastCrawlTime": "2026-09-24T18:27:02Z",
       "pageFetchState": "SUCCESSFUL",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/str-vs-midterm-rentals/"],
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/str-vs-midterm-rentals/"
+      ],
       "live_http_status": 200,
       "live_canonical": "https://www.bnbaccelerator.com/blog/airbnb-vs-long-term-rentals/",
       "live_text_present": true,
@@ -555,7 +584,9 @@
       "lastCrawlTime": "2026-09-26T02:22:52Z",
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/str-investing-mistakes/"],
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/str-investing-mistakes/"
+      ],
       "live_probe_at": "2026-10-07T04:34:57Z",
       "live_http_status": 200,
       "live_canonical": "https://www.bnbaccelerator.com/blog/depreciation-recapture-str/",
@@ -652,7 +683,9 @@
       "lastCrawlTime": "2026-09-25T00:53:09Z",
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/7-day-rule-explained/"],
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/7-day-rule-explained/"
+      ],
       "live_probe_at": "2026-10-07T03:27:36Z",
       "live_http_status": 200,
       "live_canonical": "https://www.bnbaccelerator.com/blog/str-personal-use-days/",
@@ -765,7 +798,9 @@
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
       "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "referringUrls": ["https://www.bnbaccelerator.com/topics/regulatory/"],
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/topics/regulatory/"
+      ],
       "live_probe_at": "2026-10-07T02:16:43Z",
       "live_http_status": 200,
       "live_canonical": "https://www.bnbaccelerator.com/blog/reading-an-hoa-declaration/",
@@ -829,7 +864,9 @@
       "indexingState": "INDEXING_ALLOWED",
       "lastCrawlTime": "2026-09-27T03:35:59Z",
       "pageFetchState": "SUCCESSFUL",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/keep-str-manager-after-buying-property/"],
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/keep-str-manager-after-buying-property/"
+      ],
       "live_probe_at": "2026-10-07T01:33:47Z",
       "live_http_status": 200,
       "live_canonical": "https://www.bnbaccelerator.com/blog/assign-str-management-contract-sale/",
@@ -1359,7 +1396,9 @@
       "lastCrawlTime": "2026-09-27T02:06:03Z",
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/second-home-loan-rental-intent/"]
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/second-home-loan-rental-intent/"
+      ]
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/new-listing-ramp-underwriting/",
@@ -1371,7 +1410,9 @@
       "lastCrawlTime": "2026-09-26T17:34:41Z",
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/str-maximum-offer-price-from-revenue/"]
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/str-maximum-offer-price-from-revenue/"
+      ]
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/future-booking-calendar-value/",
@@ -1405,7 +1446,9 @@
       "lastCrawlTime": "2026-09-26T17:05:14Z",
       "pageFetchState": "SUCCESSFUL",
       "crawledAs": "MOBILE",
-      "referringUrls": ["https://www.bnbaccelerator.com/blog/compare-two-str-properties-before-offer/"]
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/compare-two-str-properties-before-offer/"
+      ]
     }
   ],
   "note": "Actual URL Inspection API evidence. Indexing of the URL does not confirm receipt of the October 6 replacement body; unreturned performance is not zero."

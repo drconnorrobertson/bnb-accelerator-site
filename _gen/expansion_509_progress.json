@@ -7,60 +7,128 @@
   "minimum_candidate_score": 85,
   "minimum_buyer_relevance": 27,
   "minimum_acquisition_service_fit": 17,
-  "counts_exclude": ["existing-article refreshes", "hubs", "redirects", "private drafts", "prior releases", "duplicate intents"],
-  "verified_live_new_pages": 7,
+  "counts_exclude": [
+    "existing-article refreshes",
+    "hubs",
+    "redirects",
+    "private drafts",
+    "prior releases",
+    "duplicate intents"
+  ],
+  "verified_live_new_pages": 8,
   "approved_candidates": [
     {
+      "slug": "proposed-road-project-before-buying-str",
+      "editorial_score": [
+        24,
+        28,
+        14,
+        18,
+        10
+      ],
+      "total": 94,
+      "status": "Published in 46b9d9468538fc54366457e2ae29587e6f30e3c7 and verified live; counted once",
+      "publication_date": "2026-10-07"
+    },
+    {
       "slug": "wetlands-before-buying-str",
-      "editorial_score": [24, 29, 14, 18, 10],
+      "editorial_score": [
+        24,
+        29,
+        14,
+        18,
+        10
+      ],
       "total": 95,
       "status": "Published in c5b3396fd068b726d43e1fbf7e2b1327596c604a and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
       "slug": "communications-lease-rent-before-buying-str",
-      "editorial_score": [24, 28, 14, 18, 10],
+      "editorial_score": [
+        24,
+        28,
+        14,
+        18,
+        10
+      ],
       "total": 94,
       "status": "Published in 14e090c7e224366ab1955e6ca531c96f24b37a6d and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
       "slug": "land-use-tax-enrollment-before-buying-str",
-      "editorial_score": [23, 28, 14, 17, 10],
+      "editorial_score": [
+        23,
+        28,
+        14,
+        17,
+        10
+      ],
       "total": 92,
       "status": "Published in 8f80e0dec37970296472d1cc787e0f41f029d4e8 and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
       "slug": "preservation-easement-str-purchase-handoff",
-      "editorial_score": [23, 28, 13, 17, 10],
+      "editorial_score": [
+        23,
+        28,
+        13,
+        17,
+        10
+      ],
       "total": 91,
       "status": "Published in ccfab1a42e9046c49e4f328b52ddef8343976f4a and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
       "slug": "mineral-rights-before-buying-str",
-      "editorial_score": [24, 29, 14, 18, 10],
+      "editorial_score": [
+        24,
+        29,
+        14,
+        18,
+        10
+      ],
       "total": 95,
       "status": "Published in 0dffbddd0812a5dfea91e0ab74cd8f8682337f2b and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
       "slug": "reverse-1031-buy-str-before-selling",
-      "editorial_score": [24, 29, 14, 18, 10],
+      "editorial_score": [
+        24,
+        29,
+        14,
+        18,
+        10
+      ],
       "total": 95,
       "status": "Published in 9df3bff2 and verified live; counted once",
       "publication_date": "2026-10-07"
     },
     {
       "slug": "verify-closing-wire-before-buying-str",
-      "editorial_score": [24, 30, 14, 17, 9],
+      "editorial_score": [
+        24,
+        30,
+        14,
+        17,
+        9
+      ],
       "total": 94,
       "status": "Published in 28af76f8 and verified live; counted once",
       "publication_date": "2026-10-06"
     }
   ],
   "research_candidates": [
+    {
+      "candidate_intent": "Proposed public road-project stage/version versus future parcel footprint, access and independently funded acquisition alternatives",
+      "status": "Accepted94 after five complete substantive neighbor reviews and TxDOT sections1.3/2.7 primary reading; current title/survey/private-road and generic diligence retained. Texas stages illustrative, no compensation entitlement or measured search demand claimed. Published and verified live.",
+      "review_brief": "_gen/public-project-acquisition-overlap-screen.md",
+      "counted_as_published": true
+    },
     {
       "candidate_intent": "Aquatic-resource screening, field boundary and actual regulatory determination versus a planned acreage STR site-work footprint",
       "status": "Narrow intent accepted95/100 after complete nine-neighbor review and accessible USFWS/EPA/eCFR primary reading; generic site-permission/waterfront label swap rejected. Published in c5b3396fd068b726d43e1fbf7e2b1327596c604a and verified live. Unread district/RRS pages omitted as public authorities",
@@ -136,7 +204,13 @@
     {
       "slug": "verify-closing-wire-before-buying-str",
       "status": "Primary sources and five substantive neighboring guides reviewed; distinct intent approved and drafted",
-      "provisional_editorial_score": [24, 30, 14, 17, 9],
+      "provisional_editorial_score": [
+        24,
+        30,
+        14,
+        17,
+        9
+      ],
       "provisional_total": 94,
       "review_brief": "_gen/closing-wire-verification-review-brief.md",
       "counted_as_published": true
@@ -149,6 +223,22 @@
     }
   ],
   "published": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/proposed-road-project-before-buying-str/",
+      "content_commit": "46b9d9468538fc54366457e2ae29587e6f30e3c7",
+      "verified_live_at": "2026-10-07T09:16:15.484728Z",
+      "verification_time_basis": "Both production scripts and exact five-artifact checks completed by this time",
+      "words": 1812,
+      "reading_minutes": 9,
+      "matched_faqs": 4,
+      "internal_targets_verified": 131,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.016,
+      "validation": "Required build/tests/full content audit/full scoped diff and rendered article reviewed;745 prior archivecards byte-exact; exact five public artifacts;57 independent links/assets; Googlebot-UA200/robotsallowed/protected homepage hashes/shared modules unchanged",
+      "submission_status": "IndexNow three changed canonical URLs HTTP200 accepted; blog sitemap confirmed2026-10-07T09:16:49.131Z pending/zero reported errors and warnings; neither confirms indexing",
+      "indexing_evidence": "Actual postpublication NEUTRAL/URLunknown/no reported crawl/unspecified indexing, robots and fetch states; not confirmed indexing or a technical-cause diagnosis",
+      "counted_toward_509": true
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/wetlands-before-buying-str/",
       "content_commit": "c5b3396fd068b726d43e1fbf7e2b1327596c604a",
@@ -175,7 +265,7 @@
       "matched_faqs": 4,
       "internal_targets_verified": 117,
       "public_inbound_pages": 3,
-      "maximum_similarity": 0.010,
+      "maximum_similarity": 0.01,
       "validation": "Required build/tests/content audit and full scoped semantic diff; all743 prior archivecards preserved; homepage/assets/protectedsharedmodules unchanged; independent57 live articlelinks/assets passed",
       "submission_status": "IndexNow three changed canonicals HTTP200 accepted; changed blog sitemap submitted 2026-10-07T06:12:23.765Z/pending; neither establishes indexing",
       "indexing_evidence": "Actual prepublication NEUTRAL/URLunknown/no lastcrawl/unspecified states; not a technical exclusion diagnosis or postpublication indexing verdict",
@@ -372,7 +462,7 @@
       "content_commit": "0483c425c8beab124d983faa77d1247be36709d0",
       "verified_live_at": "2026-10-07T08:08:39Z",
       "validation": "1489words/7minutes/4matchedFAQs; required checks/full scoped diff;744othercards/non-cardbytes preserved; exact four public artifacts;120live internal targets/3inbound pages; independent55links/assets; originalSeptember22publication/H1/title/author and homepage/assets/sharedmodules preserved",
-      "decision_support": "Original40kincremental capital,30%variablecost/1200service/1500retainedworkcash:11kgross=>5k/12.5%,4kgross=>100/0.25%,zero=>\u22122700/\u22126.75%; thresholds3858/9572gross are required inputs not demand;350kbase+40kchange against380kfunds leaves10kgap",
+      "decision_support": "Original40kincremental capital,30%variablecost/1200service/1500retainedworkcash:11kgross=>5k/12.5%,4kgross=>100/0.25%,zero=>−2700/−6.75%; thresholds3858/9572gross are required inputs not demand;350kbase+40kchange against380kfunds leaves10kgap",
       "submission": "IndexNow3changedcanonicalsHTTP200; meaningful sitemap confirmed08:08:51.461Z/pending. Actualprepublication PASS/indexed from Oct6successfulMOBILEcrawl, not revised receipt or outcome gain",
       "counted_toward_509": false
     },
@@ -493,6 +583,6 @@
       "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
     }
   ],
-  "status": "7 of 509 additional new guides validated and live. Remaining 502 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
+  "status": "8 of 509 additional new guides validated and live. Remaining 501 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }
