@@ -1,0 +1,15 @@
+{
+  "inspectionUrl": "https://www.bnbaccelerator.com/blog/airbnb-occupancy-rates-explained/",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "observed_date": "2026-10-07",
+  "source": "Connected Google Search Console URL Inspection API, before content revision",
+  "verdict": "PASS",
+  "coverageState": "Submitted and indexed",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-25T20:37:04Z",
+  "pageFetchState": "SUCCESSFUL",
+  "crawledAs": "MOBILE",
+  "referringUrls": ["https://www.bnbaccelerator.com/blog/airbnb-revenue-projections/"],
+  "limits": "Prior URL indexing, not revised-content receipt, ranking or conversion gains."
+}
