@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-07T19:51:36Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/blog/str-sale-data-room/",
+  "evidence_type": "First stored actual Google URL Inspection for this owner; filtered connected history returned zero rows and hasMore false before inspection",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "referringUrls": [],
+  "quota_before": {"count": 197, "limit": 2000, "remaining": 1803},
+  "quota_after": {"count": 198, "limit": 2000, "remaining": 1802},
+  "independent_eligibility": "_gen/sale-data-room-live-evidence.json:19:49:33.822491UTC four exact artifacts/HTTP200/selfcanonical/allowedrobots/noindexabsent/GooglebotUA200/58linkedtargets/4inbound/homeexact",
+  "recommended_action": "Allow discovery of the revision and continue independent buyer-quality work; no immediate repeat inspection or unchanged submission",
+  "limits": "Actual unknown status with no reported crawl does not diagnose a technical barrier, duplicate intent or worsening trend. Separate live serving eligibility and accepted submissions do not prove Google indexing or revision receipt. Empty referringUrls differs from four independently verified inbound pages. No search or conversion gain.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
