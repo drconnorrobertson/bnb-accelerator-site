@@ -15,6 +15,9 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent
 SITE = "https://www.bnbaccelerator.com"
 ERRORS = []
+# Post-appointment preparation is public but intentionally excluded from search.
+# Keep this explicit: editorial pages must not silently bypass indexing checks.
+NONINDEXABLE_ROUTES = {"/scb-precall/"}
 
 
 def route(path):
@@ -40,7 +43,10 @@ for url, path in pages.items():
     descriptions[description.group(1)] += 1
     if canonical.group(1) != SITE + url:
         ERRORS.append(f"{url}: canonical points to {canonical.group(1)}")
-    if re.search(r'<meta name="robots"[^>]*noindex', source):
+    noindex = bool(re.search(r'<meta name="robots"[^>]*noindex', source))
+    if url in NONINDEXABLE_ROUTES and not noindex:
+        ERRORS.append(f"{url}: appointment preparation must remain noindex")
+    if noindex and url not in NONINDEXABLE_ROUTES:
         ERRORS.append(f"{url}: noindex is present")
     if len(re.findall(r"<h1(?:\s|>)", source)) != 1:
         ERRORS.append(f"{url}: expected one H1")
@@ -55,7 +61,7 @@ for url, path in pages.items():
         target = href.split("?", 1)[0].split("#", 1)[0]
         if not target or target == "/" or target.startswith("/assets/"):
             continue
-        if target.endswith((".xml", ".txt", ".html", ".svg")):
+        if target.endswith((".xml", ".txt", ".html", ".svg", ".css", ".js")):
             if not (ROOT / target.lstrip("/")).exists():
                 ERRORS.append(f"{url}: missing file link {target}")
             continue
@@ -95,7 +101,7 @@ try:
         listed = [item.text for item in sitemap.iter() if item.tag.endswith("loc")]
     if len(listed) != len(set(listed)):
         ERRORS.append("sitemap contains duplicate URLs")
-    wanted = {SITE + url for url in pages}
+    wanted = {SITE + url for url in pages if url not in NONINDEXABLE_ROUTES}
     if set(listed) != wanted:
         ERRORS.append(f"sitemap mismatch: missing {len(wanted - set(listed))}, extra {len(set(listed) - wanted)}")
     for url in listed:
@@ -125,7 +131,7 @@ while pending:
         continue
     reachable.add(current)
     pending.extend(link_graph.get(current, set()) - reachable)
-for url in pages.keys() - reachable:
+for url in pages.keys() - reachable - NONINDEXABLE_ROUTES:
     ERRORS.append(f"page unreachable from homepage links: {url}")
 
 if ERRORS:
