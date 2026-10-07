@@ -1,6 +1,26 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/roof-age-str-policy-binding/",
+      "observed_at": "2026-10-07T01:15:32Z",
+      "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T01:17:23Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/roof-age-str-policy-binding/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 5,
+      "caveat": "Static text and Googlebot-UA eligibility checks are not authenticated Google crawl or confirmed indexing."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/wind-deductible-str-reserve/",
       "observed_at": "2026-10-07T01:09:38Z",
       "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
