@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-07T18:36:22Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/guides/str-market-analysis-report/",
+  "evidence_type": "First actual Google URL Inspection observation for this resource; no matching observation in previously loaded 252-row history",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "request": {"count": 1, "succeeded": 1, "failed": 0, "skipped": 0},
+  "quota": {"count": 194, "limit": 2000, "remaining": 1806},
+  "independent_eligibility": "_gen/market-report-live-evidence.json: exact HTTP200/Googlebot-UA/self-canonical/robots allowed/noindex absent/core sitemap inclusion/52 live linked destinations/2 inbound public pages/protected homepage at18:33:46.784160UTC",
+  "recommendation": "Allow discovery time after meaningful update/submissions; continue independent buyer-quality and contextual discovery work. Do not immediately repeat Inspection or unchanged submissions.",
+  "limits": "Actual URL-unknown/no crawl is not a confirmed technical barrier, decline or evidence Google received the revised content. No indexing/search/conversion gain or specific exclusion cause established.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
