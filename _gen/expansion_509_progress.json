@@ -105,6 +105,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/best-done-for-you-airbnb-companies/",
+      "content_commit": "b5b27f92ca2bd22a7187f6c2ea3a4016c95d33f6",
+      "verified_at": "2026-10-07T22:39:02.559609+00:00",
+      "evidence": "_gen/best-done-for-you-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "Required checks/full scoped diff/current primary sources/six fair named options/original complete acquisition cash worksheet/five aligned FAQs/August10 publication/59 linked targets-assets/4 inbound/homepage and shared flow preserved",
+      "indexnow_status": "One changed verified canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "CoreXML confirmed22:39:16.845Z pending/zero reported errorswarnings",
+      "google_indexing_evidence": "Filtered stored Inspection history returned zero matching rows/hasMorefalse; actual indexing, crawl and exclusion unknown, not proof of exclusion"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/kleer-circle-vs-str-insights/",
       "content_commit": "9b36a99df03c90024b91ef9d4acceeecd88d22d6",
       "verified_at": "2026-10-07T21:34:18.475468+00:00",
