@@ -58,6 +58,6 @@
       "note": "No rows matched."
     }
   },
-  "indexing_evidence": "No matching stored Inspection observation; actual indexing/crawl/exclusion unknown. No cause or ranking gains inferred. Eligibility and submission acceptance are separate.",
+  "indexing_evidence": "First actual Inspection22:40:24.665097UTC: NEUTRAL/Discovered - currently not indexed/no reported crawl. Cause and revised body receipt unestablished; see best-done-for-you-indexing-baseline-2026-10-07.json. Empty stored history above is the pre-inspection publication baseline. Eligibility/submissions remain separate.",
   "counted_toward_509": false
 }
