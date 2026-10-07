@@ -1,0 +1,81 @@
+{
+  "observed_at": "2026-10-07T14:02:32.758Z",
+  "property": "https://www.bnbaccelerator.com/",
+  "owner_filter": "Ten exact canonical comparator owners: STR Insights buyer versus and alternatives; STR Search, Short Term Shop, Awning and Rabbu versus/alternatives",
+  "owner_performance": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-04",
+    "dimensions": [
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 0,
+    "rows": [],
+    "pagination": {
+      "limit": 100,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-04",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-05",
+      "settledThrough": "2026-10-04",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-07",
+        "dataState": "all"
+      }
+    }
+  },
+  "competitor_query_filter": "(?i)(str insights|str search|short term shop|short-term shop|awning|rabbu)",
+  "competitor_query_performance": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "startDate": "2026-09-07",
+    "endDate": "2026-10-04",
+    "dimensions": [
+      "query",
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 0,
+    "rows": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-04",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-05",
+      "settledThrough": "2026-10-04",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-07",
+        "dataState": "all"
+      }
+    }
+  },
+  "interpretation": "No rows returned for these filters in settled September7–October4 web data. This is not a confirmed indexed count, proof of exclusion, complete query inventory or evidence of October7 revision effects. Query spelling variants outside the explicit filter are not covered; anonymized/unreported queries are not shown. The period predates the two October7 alternatives expansions.",
+  "actual_indexing_reference": "_gen/competitor-owner-indexing-baseline-2026-10-07.json",
+  "live_eligibility_references": [
+    "_gen/str-insights-alternatives-live-evidence.json",
+    "_gen/str-search-alternatives-live-evidence.json"
+  ],
+  "recommended_action": "Continue substantive existing competitor-owner development, beginning The Short Term Shop; measure again when settled dates include enough post-publication exposure. Do not repeatedly query unchanged settled data every five minutes.",
+  "no_public_changes": true,
+  "no_indexing_resubmission": true,
+  "no_new_509_credit": true
+}
