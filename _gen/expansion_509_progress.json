@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/alternatives-to-rabbu/",
+      "content_commit": "a03d2e163760cd552c5e9f0353f2308c3166d3f1",
+      "verified_at": "2026-10-07T14:28:48.795942+00:00",
+      "evidence": "_gen/rabbu-alternatives-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One verified changed canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Changed core sitemap confirmed submitted14:29:00.840Z pending zero errors/warnings",
+      "google_indexing_evidence": "Earlier actual URL unknown/no reported crawl; serving eligibility is separate"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/alternatives-to-awning/",
       "content_commit": "e8cc7811d455025cfa820a18e42cb301f6ff0c50",
       "verified_at": "2026-10-07T14:23:19.828537+00:00",
