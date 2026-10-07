@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: market-report intent ownership and consistency screen
+
+Full market-report resource/market-tools blog/comparable-selection blog substantive bodies and visibleFAQs reviewed. Genericnewprovider-market-report review rejected74/100 (distinct8/buyer28/evidence12/service18/original8) as alreadyowned; no509credit/provider-swappedvariants. Marketreportresource8–12count instruction differsfromdevelopedblogs' no-universal-count guidance: actualeditorialconsistencyissue, nottechnicalexclusioncause. Next refreshthatresource's selection/evidence/decision workflow andFAQalignment, preserving tailoredreportavailability/freeoutline/timinglimits rather than duplicate intent. Private market-report-overlap-review.md recordsowner evidence. Publicchanges/submissions0;new8/blog44/comparison10/resource4unchanged;ACTIVEfive-minute schedule unchanged.
+
 ## October7: provider-incentive distinct-intent screen
 
 Full current agent-versus-acquisition-team substantive body/originalFAQ/preclosingquestions read. Genericnewprovider-referralconflict buyer guide rejected73/100: existingowner already answers compensation/offset/related-partybenefit/conflict disclosure/two-agreement authority. No provider-swappedvariant/new509credit/delete/noindex approved. Privateprovider-conflict-overlap-review.md preserves scorecomponents and owner evidence. Existing14:02competitorperformance baseline alreadycoverssettledSeptember7–October4; no unchangedquery/submissionrepeat andno zero-row exclusion inference. Next seek independentlydifferent buyerdecision across substantiveowners. No publicchange/home/sharedflowmutations;ACTIVEfive-minute schedule unchanged.
