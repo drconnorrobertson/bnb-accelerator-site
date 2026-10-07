@@ -1,0 +1,58 @@
+{
+  "content_commit": "27cabc2973c368ac060cafeceac2431788e61a44",
+  "verified_at": "2026-10-07T17:45:56.710220+00:00",
+  "url": "https://www.bnbaccelerator.com/compare/the-short-term-shop-vs-str-search/",
+  "http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/compare/the-short-term-shop-vs-str-search/",
+  "final_url": "https://www.bnbaccelerator.com/compare/the-short-term-shop-vs-str-search/",
+  "robots_allowed": true,
+  "noindex": false,
+  "googlebot_ua_http_200": true,
+  "server_article_text": true,
+  "exact_public_build_match": true,
+  "exact_changed_public_artifacts": 2,
+  "compare_hub_discovery": true,
+  "internal_links_assets_checked": 56,
+  "inbound_public_pages": 2,
+  "publication_date": "2026-10-06",
+  "modified_date": "2026-10-07",
+  "sitemap": "sitemap-core.xml",
+  "sitemap_entries": 1,
+  "sitemap_lastmod": "2026-10-07",
+  "protected_homepage_exact": true,
+  "limits": "Serving eligibility and submission acceptance do not establish actual Google crawl/indexing, browser rendering, rankings or qualified enquiries.",
+  "indexnow": {
+    "canonical_urls": 1,
+    "http_status": 200,
+    "key_verified": true,
+    "accepted_for_processing": true
+  },
+  "search_console_sitemap": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-core.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-07T17:46:17.557Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "indexing_evidence": {
+    "verdict": "unavailable",
+    "note": "No matching observation in complete stored Inspection history; no fresh Inspection for this release. Serving eligibility is not confirmed indexing, and absence of stored evidence is not exclusion."
+  },
+  "counted_toward_509": false
+}
