@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/alternatives-to-awning/",
+      "content_commit": "e8cc7811d455025cfa820a18e42cb301f6ff0c50",
+      "verified_at": "2026-10-07T14:23:19.828537+00:00",
+      "evidence": "_gen/awning-alternatives-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One verified changed canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Changed core sitemap confirmed submitted14:23:30.898Z pending zero errors/warnings",
+      "google_indexing_evidence": "Earlier actual URL unknown/no reported crawl; serving eligibility is separate"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/alternatives-to-the-short-term-shop/",
       "content_commit": "cc1cef8bfaca82518de44b01d5d29fbb89726e88",
       "verified_at": "2026-10-07T14:14:26.310370+00:00",
