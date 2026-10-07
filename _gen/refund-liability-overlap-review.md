@@ -1,0 +1,16 @@
+# Refund and missing-revenue purchase-intent review — October 7, 2026
+
+Complete current substantive bodies read for refunds/chargebacks, 1099 scope reconciliation, future reservations at closing and seller refusal to share revenue records. The first three have no FAQPage; the seller-refusal owner has nine visible/schema-aligned questions, all reviewed.
+
+Generic new blog about refund exposure, late seller records and responsibility for booked stays before purchasing an STR rejected at76/100: distinct10/25, imminent buyer28/30, evidence12/15, acquisition-service fit18/20, incremental original support8/10. Existing public questions establish relevance, not current measured demand or rankings. These complementary owners already supply the proposed acquisition decision; no provider/income swap or new509 credit.
+
+- Refunds owner: original-versus-net report basis, completed reversals counted once, later payout offsets, unresolved disputes as separate sensitivity, repair cost versus unsupported income addback, closing allocation and permitted funded responsibilities. Its original120000/6000/60000/2000 example differentiates54000 baseline and52000 adverse case; no refund presumed twice or buyer-account entitlement.
+- 1099 owner: account/listing/period definitions, corrected records, other-property allocation, unexplained additional-channel claims and professional review. Its240000account/160000other/80000subject allocation is not subject-property net income or profit.
+- Reservation owner: stay-level accepted lawful plan, platform restrictions, possession/service dates and funds timing. Its210000cash/200000allocation/8000earlyservice scenario separates later12000or7000receipts and a1500 contingency allocation from an incurred expense.
+- Seller-refusal owner: access versus proof, specific privacy-conscious source requests, contract deadline, supported independent offer rather than misconduct allegation, four original plus five preclosing questions. Its640000asking/575000independentceiling example is a65000unjustified gap under invented inputs, not a market valuation or automatic premium.
+
+No current primary-contract or platform-policy recertification this private overlap review; retain the owners' dated source disclosures. No merge, redirect, deletion, noindex, public rewrite, unchanged submission or repeat inspection. Preserve useful developed answers rather than rewriting merely because they were listed at short cleanup lengths historically.
+
+A read-only current-body screen across the98 completed cleanup entries found59 below400 approximate article words. This counts source article-container text, not Google indexing, quality failures or established new search intents. The earlier cleanup CSV remains an honest historic review, not current word counts. Remaining concise acquisition decisions include listing-review value, occupancy/permission limits and buyer operating-service acceptance; read the actual owners and adjacent developed answers before selecting the next substantive expansion. Avoid generic host operations or mechanical mass rewriting.
+
+Current main5549af5 before this review; new8of509,46substantiveblogrefreshes,10comparisonrefreshes,7resource refreshes unchanged. Homepage/shared flow and application/scheduling untouched. Five-minute ACTIVE schedule preserved.

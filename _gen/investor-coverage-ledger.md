@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: refund and missing-record intent ownership
+
+Full refunds/chargebacks,1099scope,future-reservation and seller-refusal bodies reviewed; seller-refusalninevisible/schemaFAQs also reviewed, otherthreehave noFAQPage. Generic newrefund-liability/late-records purchasevariant rejected76/100(distinct10/buyer28/evidence12/service18/original8), alreadyowned through distinct financial/reversal/timing/offer checks; notmeasuredquerydemand. Private refund-liability-overlap-review.md records substantive examples/limits; no currentprovider-contract recertification. Current-body diagnostic across98cleanupentries found59below400approxarticlewords, notquality/indexing defects/newapprovedgaps; preservehistoricalcleanupCSV. Next read concise listing-review-value or permission/operating-acceptance owners against developedneighbors before individualexpansion. No publicchanges/submissions/repeatInspection/new509credit;new8/blog46/comparison10/resource7 unchanged. ACTIVEfive-minute schedule preserved.
+
 ## October7: seller-file version and acceptance decision
 
 FirstactualownerInspection19:51:36UTC NEUTRAL/URLunknown/unspecifiedrobots-indexing-fetchstates/no reportedcrawl/referringURLsempty. Filteredstoredhistoryzero/hasMorefalse beforecheck. Inventoryone rowupdatedwithactualevidence andseparate19:49eligibility/fourinbound; historicalnotreturnedperformance retained. Evidencesale-data-room-indexing-baseline-2026-10-07.json. Nottechnicalcause/duplicateintent/worseningtrend/revisionreceipt/searchgain; no immediate reinspection or unchangedsubmission. Publicchanges0/new509credit0;continueindependentbuyerquality andallowdiscoverytime. ACTIVEfive-minute schedule preserved.
