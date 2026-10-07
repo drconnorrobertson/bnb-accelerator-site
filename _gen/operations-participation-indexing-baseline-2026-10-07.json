@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-10-07T16:06:07Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "quota_before": {
+    "used": 161,
+    "remaining": 1839,
+    "limit": 2000
+  },
+  "inspections": [
+    {
+      "siteUrl": "https://www.bnbaccelerator.com/",
+      "inspectionUrl": "https://www.bnbaccelerator.com/blog/cohosting-vs-self-managing/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-24T15:00:22Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://www.bnbaccelerator.com/blog/airbnb-revenue-projections/"
+      ]
+    },
+    {
+      "siteUrl": "https://www.bnbaccelerator.com/",
+      "inspectionUrl": "https://www.bnbaccelerator.com/blog/material-participation-str/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": []
+    }
+  ],
+  "serving_evidence": [
+    "_gen/cohosting-review-live-evidence.json",
+    "_gen/participation-review-live-evidence.json"
+  ],
+  "interpretation": "Cohosting confirms existing indexing from September24 crawl, not receipt of October7 revision. Participation unknown/no reportedcrawl is not a diagnosed technical barrier. Existing live eligibility/submission evidence is independent. No unchanged resubmission or public changes.",
+  "new_guides_509": 8
+}
