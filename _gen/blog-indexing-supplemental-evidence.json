@@ -1,6 +1,28 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-refunds-chargebacks-underwriting/",
+      "observed_at": "2026-10-07T02:40:33Z",
+      "observation_time_basis": "Inspection result obtained before this time; not a returned inspection request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T02:41:16Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/str-refunds-chargebacks-underwriting/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "content_commit": "f862669c",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing",
+      "caveat": "Unknown inspection state does not diagnose a technical barrier or content cause. Live eligibility and submission do not establish indexing or performance gains."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-1099-payout-reconciliation/",
       "observed_at": "2026-10-07T02:24:29Z",
       "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
