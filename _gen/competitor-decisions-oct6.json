@@ -1,0 +1,107 @@
+[
+  {
+    "path": "/compare/alternatives-to-arrived/",
+    "title": "Alternatives to Arrived: Compare Before Buying",
+    "sources": [
+      "https://help.arrived.com/en/articles/4496428-how-does-arrived-work",
+      "https://emberhome.com/faqs",
+      "https://www.pacaso.com/faq/buyer",
+      "https://www.roofstock.com/investor-services/acquisitions"
+    ]
+  },
+  {
+    "path": "/compare/alternatives-to-ember-flex/",
+    "title": "Alternatives to Ember Flex: Compare Before Buying",
+    "sources": [
+      "https://emberhome.com/faqs",
+      "https://help.arrived.com/en/articles/4496428-how-does-arrived-work",
+      "https://www.pacaso.com/faq/buyer",
+      "https://stayrnr.com/property-investment"
+    ]
+  },
+  {
+    "path": "/compare/alternatives-to-roofstock/",
+    "title": "Alternatives to Roofstock: Compare Before Buying",
+    "sources": [
+      "https://www.roofstock.com/investor-services/acquisitions",
+      "https://rabbu.com/about",
+      "https://strsearch.com/",
+      "https://bnb-turnkey.com/services"
+    ]
+  },
+  {
+    "path": "/compare/alternatives-to-stayrnr/",
+    "title": "Alternatives to StayRnR: Compare Before Buying",
+    "sources": [
+      "https://stayrnr.com/property-investment",
+      "https://bnb-turnkey.com/services",
+      "https://www.roofstock.com/investor-services/acquisitions",
+      "https://rabbu.com/about"
+    ]
+  },
+  {
+    "path": "/compare/alternatives-to-pacaso/",
+    "title": "Alternatives to Pacaso: Compare Before Buying",
+    "sources": [
+      "https://www.pacaso.com/faq/buyer",
+      "https://emberhome.com/faqs",
+      "https://help.arrived.com/en/articles/4496428-how-does-arrived-work",
+      "https://bnb-turnkey.com/services"
+    ]
+  },
+  {
+    "path": "/compare/bnb-accelerator-vs-pacaso/",
+    "title": "BNB Accelerator vs Pacaso",
+    "sources": [
+      "https://www.pacaso.com/faq/buyer"
+    ]
+  },
+  {
+    "path": "/compare/bnb-turnkey-vs-str-search/",
+    "title": "BNB Turnkey vs STR Search",
+    "sources": [
+      "https://bnb-turnkey.com/services",
+      "https://strsearch.com/"
+    ]
+  },
+  {
+    "path": "/compare/kleer-circle-vs-str-insights/",
+    "title": "Kleer Circle vs STR Insights",
+    "sources": [
+      "https://kleercircle.com/",
+      "https://www.strinsights.com/introduction"
+    ]
+  },
+  {
+    "path": "/compare/the-short-term-shop-vs-str-search/",
+    "title": "The Short Term Shop vs STR Search",
+    "sources": [
+      "https://theshorttermshop.com/",
+      "https://strsearch.com/"
+    ]
+  },
+  {
+    "path": "/compare/roofstock-vs-rabbu/",
+    "title": "Roofstock vs Rabbu",
+    "sources": [
+      "https://www.roofstock.com/investor-services/acquisitions",
+      "https://rabbu.com/about"
+    ]
+  },
+  {
+    "path": "/compare/arrived-vs-ember-flex/",
+    "title": "Arrived vs Ember Flex",
+    "sources": [
+      "https://help.arrived.com/en/articles/4496428-how-does-arrived-work",
+      "https://emberhome.com/faqs"
+    ]
+  },
+  {
+    "path": "/compare/stayrnr-vs-bnb-turnkey/",
+    "title": "StayRnR vs BNB Turnkey",
+    "sources": [
+      "https://stayrnr.com/property-investment",
+      "https://bnb-turnkey.com/services"
+    ]
+  }
+]
