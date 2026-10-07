@@ -1,0 +1,136 @@
+{
+  "observed_at": "2026-10-07T17:39:52Z",
+  "scope": "Five existing acquisition-service buyer comparisons missing recorded actual Inspection evidence; not content accuracy or overlap review",
+  "selection_history": {
+    "stored_inspection_rows_checked": 247,
+    "latest_rows_returned": 208,
+    "matching_prior_history_rows": 0,
+    "pagination_exhausted": true
+  },
+  "actual_google_inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 5,
+    "succeeded": 5,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 190,
+      "limit": 2000,
+      "remaining": 1810
+    },
+    "results": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-kleer-circle-str-buyer/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-roofstock-str-buyer/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-stayrnr-str-buyer/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-like-the-best/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null
+      }
+    ]
+  },
+  "independent_live_eligibility": {
+    "observed_at": "2026-10-07T17:39:00.501359+00:00",
+    "protected_homepage_exact": true,
+    "records": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/",
+        "canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 17
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-kleer-circle-str-buyer/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-kleer-circle-str-buyer/",
+        "canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-kleer-circle-str-buyer/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 11
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-roofstock-str-buyer/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-roofstock-str-buyer/",
+        "canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-roofstock-str-buyer/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 7
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-stayrnr-str-buyer/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-stayrnr-str-buyer/",
+        "canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-stayrnr-str-buyer/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 6
+      },
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-like-the-best/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-like-the-best/",
+        "canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-like-the-best/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "sitemap_included": true,
+        "inbound_public_pages": 3
+      }
+    ],
+    "limits": "Live HTTP/robots/text evidence is distinct from actual Google Inspection, browser rendering, content accuracy and search/conversion gains."
+  },
+  "public_changes": 0,
+  "submissions": 0,
+  "counts": {
+    "verified_live_new_pages": 8,
+    "existing_blog_refreshes": 44,
+    "comparison_refreshes": 9,
+    "resource_refreshes": 1
+  },
+  "next_action": "Read substantive existing canonical owners and current primary service materials before approving changes or distinct new intents. No technical cause inferred from unknown/discovered states; do not immediately repeat inspections or unchanged submissions."
+}
