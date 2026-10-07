@@ -79,6 +79,15 @@
   ],
   "rejected_or_existing_intents": [
     {
+      "candidate_intent": "Budget an approved association special assessment before buying an STR",
+      "decision": "Existing substantive HOA/installment and condo-project financing answers; do not create a duplicate generic assessment guide",
+      "existing_url": "https://www.bnbaccelerator.com/blog/reading-an-hoa-declaration/",
+      "reviewed_at": "2026-10-07T04:13:09Z",
+      "substantive_review": "Complete HOA, condo-financing and property-tax bodies plus two public resources reviewed. Existing worked installment allocation already separates buyer/seller amounts, due dates, reserves, recurring dues and uncertain credits. Fannie Mae buyer guidance confirms relevance, not a distinct gap.",
+      "research_brief": "_gen/assessment-acquisition-overlap-review.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Final walkthrough before closing an STR purchase",
       "decision": "Existing public resource; do not create or count a duplicate blog article",
       "existing_url": "https://www.bnbaccelerator.com/buy-a-short-term-rental/final-walkthrough-checklist/",
