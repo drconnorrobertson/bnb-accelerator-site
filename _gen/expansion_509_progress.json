@@ -105,6 +105,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-property-manager/",
+      "content_commit": "7022f873aec5ed150a3f454871749992f736935f",
+      "verified_at": "2026-10-07T23:14:14.264752+00:00",
+      "evidence": "_gen/manager-comparison-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "Required checks/full scoped diff/current BNB-Airbnb-Short Term Shop primary materials/original operator-acceptance sample and cash bridge/August11 publication/55 linked targets-assets/2 inbound/homepage and shared flow preserved",
+      "indexnow_status": "One changed verified canonical acceptedHTTP200; not confirmed indexing",
+      "sitemap_status": "CoreXML confirmed23:14:25.734Z pending/zero reported errorswarnings",
+      "google_indexing_evidence": "No matching stored Inspection observations in complete filtered history; actual indexing/crawl unknown, not evidence of exclusion or a diagnosed cause"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-real-estate-agent/",
       "content_commit": "8ab840605a5d701c64e134e8a6976d4dc769dffe",
       "verified_at": "2026-10-07T22:57:55.256034+00:00",

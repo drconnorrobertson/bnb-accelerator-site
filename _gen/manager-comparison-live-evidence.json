@@ -1,0 +1,64 @@
+{
+  "verified_at": "2026-10-07T23:14:14.264752+00:00",
+  "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-property-manager/",
+  "content_commit": "7022f873aec5ed150a3f454871749992f736935f",
+  "http_status": 200,
+  "final_self_canonical": true,
+  "robots_allowed": true,
+  "noindex": false,
+  "googlebot_ua_http_200": true,
+  "server_article_text": true,
+  "exact_public_build_match": true,
+  "exact_changed_public_artifacts": 2,
+  "compare_hub_discovery": true,
+  "internal_links_assets_checked": 55,
+  "inbound_public_pages": 2,
+  "publication_date": "2026-08-11",
+  "modified_date": "2026-10-07",
+  "sitemap": "sitemap-core.xml",
+  "sitemap_entries": 1,
+  "sitemap_lastmod": "2026-10-07",
+  "protected_homepage_exact": true,
+  "indexnow": {
+    "url_count": 1,
+    "http_status": 200,
+    "meaning": "Accepted for processing, not confirmed indexing"
+  },
+  "sitemap_submission": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-core.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-07T23:14:25.734Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "stored_inspection_history": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "actual_google_indexing": "Unknown: no matching stored inspections in complete filtered history. Absence of stored history is not proof of exclusion, crawl failure or nonindexing.",
+  "counted_toward_509": false,
+  "limits": "Serving eligibility and submission acceptance do not establish actual Google crawl/indexing, browser rendering, rankings or qualified enquiries."
+}
