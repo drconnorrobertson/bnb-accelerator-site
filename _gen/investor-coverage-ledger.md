@@ -4,6 +4,7 @@ Updated October 6, 2026. Domain: www.bnbaccelerator.com. Scope: affluent purchas
 Published route counts are not indexed counts. Before new work fetch current main, check the existing article body, and update this ledger with live URLs, source checks and decision support. An existing title is evidence of a candidate match, not proof that it fully answers the intent.
 
 ## Latest original decision guides
+Personal-use suitability guide `/blog/str-personal-use-days/` is in local validation with a proposed-use register, after-use cash example and four rewritten FAQs. No live-publication claim yet.
 Existing owner-block guide expansion is published and live-verified below: `/blog/normalize-owner-blocks-str/` separates seller personal use from the buyer's actual proposed date inventory. No new URL or confirmed indexing gain.
 Existing combined-channel revenue guide is published and live-verified below with a reservation map and duplicate-total example. No new URL or confirmed indexing gain.
 Latest existing-note expansion: `/blog/str-refunds-chargebacks-underwriting/` separates completed refunds, unresolved disputes and repair addbacks. Published and live-verified below; no new URL or confirmed indexing gain.
@@ -34,6 +35,14 @@ The latest three are linked from the high-income hub, searchable blog archive an
 
 ## Publication gate
 Read the relevant existing page before deciding a gap exists. Add an article only for a materially distinct purchase decision. Include original analysis, a worksheet, a comparison or a specific evidence checklist. Verify changing financial, legal and tax facts from primary sources. Clearly label hypothetical figures. Preserve honest authorship and dates. Do not generate city, occupation, tax-bill or capital-amount swaps for volume.
+
+## October 6 overnight: buyer personal-use suitability
+
+Date clarification from full diff: prior schema modification wasSeptember22 but prior sitemaplastmod wasOctober1; revised both meaningfully toOctober6. Conflicting legacy OGpublished_timeJune26 aligned with originalAugust11visible/archive/schema publication, not a newly invented publication date. Existingrules/cost/practical/honest/faq anchors and FAQgroup classes preserved. Build/shared/preclosing/precall/audit/diff checks passed,738page similarity maximum0.020, exactly one of738archivecards changed/non-cardbytesunchanged. Homepage protected checksums/assets/modules unchanged. Actual single inspection obtained by03:26:31UTC: PASS Submittedandindexed, robotsALLOWED/indexingallowed/fetchSUCCESSFUL/MOBILE, lastcrawl2026-09-25T00:53:09Z; referring7-day-rule guide. This confirms existing URL indexing, not Google's receipt of this revision. Live release still pending.
+
+Read the full existing personal-use-days body/four FAQs and substantive neighboring calendar, second-home comparison, rental-offset, already-expanded second-home-loan-intent and owner-block guides. Preserved this buyer-intended-use/adviser-suitability question instead of repeating the lender packet or released seller-inventory worksheet. Removed unsupported most-client/nearly-all-revenue claims, broad work-trip shortcut and implied certainty about deduction outcomes. IRS Topic415 and Publication527(2025)Chapter5 substantive relevant sections checked October6; current2025edition is not labeled a new2026publication. Qualified repair/maintenance versus improvement distinction, mixed-purpose evidence, distinct allocation/home-status/participation questions and actual adviser review retained. No night-count safe harbor, automatic work-hour certification or guaranteed tax result.
+
+New five-row proposed-use evidence register and original hypothetical200kbuyer-cash/18kannualafter-cost-and-debt cash beforeuse/tax:2800foregoneaccommodationreceipts less700avoidedvariablecost=2100modeledreduction;15900remaining,about8.0%cashratio versus9%, not predicted return or tax calculation. Date-specific demand evidence and separate personal/setup costs required.1204words/sixminutes, four new visible/schema answers aligned; original August11publication/H1/URL/author preserved, meaningful October6modification/visibledate/sitemaplastmod fromSeptember22. Archive card/search/excerpt and buyer-hub link aligned. Local validation and live evidence pending.
 
 ## October 6 overnight: owner-block buyer inventory
 
