@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-07T18:21:26Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/guides/reading-str-case-study-results/",
+  "evidence_type": "First actual Google URL Inspection observation for this resource owner; no matching observation in the previously loaded 252-row history",
+  "verdict": "NEUTRAL",
+  "coverageState": "Discovered - currently not indexed",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "request": {"count": 1, "succeeded": 1, "failed": 0, "skipped": 0},
+  "quota": {"count": 193, "limit": 2000, "remaining": 1807},
+  "independent_serving_evidence": "_gen/case-result-comparison-live-evidence.json: exact production HTML/sitemap, HTTP200/GooglebotUA, self-canonical, allowed robots/noindex absent, 42 inbound pages and protected homepage verified 18:20:12.711897UTC",
+  "limits": "Actual not-indexed coverage is not a diagnosed technical defect, declining performance or proof Google crawled the October7 revision. No reported crawl. No repeat submission or immediate reinspection required; allow discovery time while improving independent buyer usefulness.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
