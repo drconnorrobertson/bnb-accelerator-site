@@ -34,6 +34,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Acquisition handoff of recorded grant-assisted historic preservation maintenance, access and compliance obligations",
+      "status": "Unapproved/unscored: complete HOA, ground lease, historic-renovation and utility-easement answers reviewed; generic conservation/site-permission page would overlap. NPS HPF overview/model reviewed; narrower baseline and calendar handoff needs dedicated overlap and original-support qualification",
+      "review_brief": "_gen/conservation-preservation-acquisition-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Surface-use and ownership evidence before buying a rural STR with severed mineral rights",
       "status": "Published and live verified after five complete neighboring bodies/FAQs and Texas RRC/BLM primary review; rights-holder/site-use register and distinct cash stress test",
       "review_brief": "_gen/mineral-estate-acquisition-review.md",
