@@ -56,7 +56,7 @@
   "research_candidates": [
     {
       "candidate_intent": "Generic prior-use, Phase I or contaminated-site STR purchase guide",
-      "status": "Generic intent rejected; full title/preservation/mineral/mold follow-up and EPA control/notice evidence read. Narrow cleanup-remedy transfer tool remains unapproved and unscored pending distinct original-support and editorial gate; no new URL or publication credit",
+      "status": "Generic new intent rejected; narrower cleanup-control tool incorporated into the existing Phase I guide in 9ca5d3f632effe5590ee242bf8c0c9b170c62dbf and verified live. Existing refresh only, no new URL or 509 credit",
       "review_brief": "_gen/environmental-acquisition-overlap-screen.md",
       "counted_as_published": false
     },
@@ -275,6 +275,14 @@
     }
   ],
   "separately_counted_existing_refreshes": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/phase-i-environmental-site-assessment-str-purchase/",
+      "content_commit": "9ca5d3f632effe5590ee242bf8c0c9b170c62dbf",
+      "verified_live_at": "2026-10-07T07:07:04Z",
+      "counted_toward_509": false,
+      "validation": "1931words/9minutes/5FAQs; required checks/full scoped diff;120live internal targets/4inbound pages; independent57links/assets; 743otherarchivecards, originalSeptember24publication/H1/author and protectedhomepage/assets/modules preserved. Fresh current-main temporary checkout used because original Git objects/files were iCloud dataless",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed07:07:04.382Z/pending. Actual pre-refresh URL unknown to Google/no lastcrawl; not a technical-cause or revised indexing conclusion"
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/first-90-days-airbnb-launch/",
       "content_commit": "a7bcaab5a4d8610fae81718d2d5a857339507066",

@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/phase-i-environmental-site-assessment-str-purchase/",
+      "observed_at": "2026-10-07T07:07:04Z",
+      "observation_time_basis": "Live checks completed by this time; actual inspection obtained before revision publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/phase-i-environmental-site-assessment-str-purchase/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 4,
+      "internal_targets_verified": 120,
+      "content_commit": "9ca5d3f632effe5590ee242bf8c0c9b170c62dbf",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T07:07:04.382Z; pending download; zero reported errors/warnings",
+      "caveat": "Unknown-to-Google inspection state and no crawl do not establish a technical cause or revised indexing result. Exact production body/dates/fiveFAQs/archive/sitemap and protected homepage verified after one propagation retry; independent57links/assets passed. Fresh current-main temporary checkout used after iCloud offloaded original files/Git objects. No authenticated VercelREADY/log or search/enquiry gain claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/first-90-days-airbnb-launch/",
       "observed_at": "2026-10-07T06:41:51Z",
       "observation_time_basis": "Live checks completed by this time; actual inspection obtained before revision publication",
