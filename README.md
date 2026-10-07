@@ -1,5 +1,21 @@
 # BNB Accelerator Site
 
+## October 6 pre-closing keyword expansion
+
+50 existing blog URLs now contain 250 transaction-specific acquisition answers,
+mapped to 500 related long-tail query variants in `_gen/preclosing-keyword-map.json`.
+These are editorial targets, not measured search volumes or established rankings.
+The scope is buyer decisions before closing: financing, income evidence, permission,
+physical diligence, asset selection and offer protection. Related variants share
+one owner URL; no synonym landing pages were added.
+
+Edit `_gen/preclosing_keyword_profiles.txt`, then run
+`node _gen/apply_preclosing_keywords.mjs` to update the article sources, blog
+directory and sitemap modification dates. `build_public.mjs` reapplies the content
+after other transformations so generator rebuilds preserve the acquisition answers.
+Run `node test_preclosing_keywords.mjs` after the public build. Publication dates
+remain unchanged; only substantively edited articles carry the October 6 update.
+
 Static marketing site for **My BnB Accelerator, LLC**, done-for-you short-term rental acquisition for high-income earners.
 
 Plain HTML/CSS/JS. Two small Python scripts handle asset minification and

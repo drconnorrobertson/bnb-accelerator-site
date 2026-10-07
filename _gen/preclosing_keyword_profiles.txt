@@ -1,0 +1,301 @@
+# slug | stage | five buyer tasks, each followed by a transaction-specific answer
+dscr-loans-for-airbnb|Financing
+compare DSCR lender revenue methods=Ask each lender which rent evidence it accepts for this address. Separate its qualifying income from your own conservative revenue forecast; approval does not establish profitability.
+check DSCR loan prepayment costs=Obtain the penalty schedule and model an early sale or refinance. Compare total financing cost over your likely hold period rather than choosing the lowest initial payment.
+verify DSCR reserve liquidity=Confirm eligible accounts, documentation dates and whether closing expenses reduce qualifying balances. Keep required available reserves separate from cash you actually spend on acquisition.
+stress test DSCR debt payments=Use the quoted debt payment alongside lower guest revenue and actual operating expenses. Identify the monthly owner contribution needed if the lender's qualifying case is optimistic.
+confirm DSCR property eligibility=Send the lender the address, property type, intended rental use and association documents before paying nonrefundable costs. Request a written list of unresolved property conditions.
+how-to-finance-airbnb-investment-property|Financing
+compare STR mortgage lender fees=Compare dated quotes using the same loan amount, occupancy representation, lock period and points. A lower rate can require more cash than the buyer can safely allocate.
+document STR purchase funds=List the source of each dollar for deposit, down payment and fees. Ask the lender what tracing it needs before moving funds between accounts.
+choose STR loan occupancy classification=Describe actual personal use and rental plans to the lender. Ask which product permits that use; do not select a classification solely for a better advertised rate.
+budget STR rate lock extensions=Match the lock expiration to appraisal, title and underwriting deadlines. Obtain extension pricing and assign responsibility for delays in the financing comparison.
+compare STR loan cash requirements=Build a common cash schedule for competing quotes, including points, prepaids and retained reserves. Compare what remains available after settlement, not just the down payment.
+second-home-loan-rental-intent|Financing
+disclose vacation rental intent to a lender=Give the lender your intended rental frequency, personal use and management arrangements. Have it confirm product eligibility in writing before your financing contingency expires.
+review a second home mortgage rider=Read the proposed rider with the loan officer and appropriate counsel. Resolve any use restrictions before signing; an agent's description does not alter loan documents.
+compare second home and investment loan quotes=Use truthful use assumptions for both products. Compare fees, payment and available cash, and discard a cheaper quote if your intended rental activity does not qualify.
+check second home management restrictions=Explain any proposed manager control or guaranteed rental arrangement. Ask how it interacts with the lender's occupancy rules rather than assuming every vacation property qualifies.
+resolve second home loan use conflicts=If underwriting rejects your intended use, obtain an eligible replacement product and updated cash estimate. Revisit contract protection before relying on a changed closing date.
+str-condo-project-financing-eligibility|Financing
+verify condo project lender approval=Submit the project questionnaire, association records and rental rules early. Unit eligibility and project eligibility are separate; permission to rent does not establish lender acceptance.
+review condo litigation for financing=Ask the association for current litigation disclosures and provide them to the lender. Require an underwriting decision rather than guessing that the dispute is immaterial.
+check condo hotel loan restrictions=Describe front desk, pooled rental and mandatory management features accurately. Ask the lender which product accepts the actual project before committing to appraisal expenses.
+budget condo special assessments at purchase=Obtain assessment notices, payment schedules and contract allocation. Include amounts the buyer must pay in acquisition cash and recurring charges in the operating forecast.
+verify condo master insurance for underwriting=Give the lender and your insurance adviser current policy documents. Resolve coverage or deductible requirements with actual quotes before treating financing as cleared.
+appraisal-gap-furnished-str|Offer and closing
+separate furniture value from real estate appraisal=Obtain an itemized inventory and ask the lender how personal property is treated. A furnished asking price does not mean all of it supports mortgage collateral value.
+calculate furnished STR appraisal gap cash=Use the lender's approved loan after appraisal, not the originally expected proceeds. Recalculate price cash, closing charges and the reserve left if you cover the difference.
+cap appraisal gap exposure in an STR offer=Have your agent and counsel translate a maximum cash exposure into appropriate contract language. Confirm how the cap interacts with financing and appraisal protections.
+challenge STR appraisal comparable selection=Review the report with the lender and identify factual errors or relevant evidence through its approved reconsideration process. Seller revenue alone does not establish an appraisal error.
+renegotiate after a low STR appraisal=Compare a price revision, additional buyer cash and permitted cancellation under your actual contract. Do not assume a seller credit fixes collateral value or reduces the gap dollar for dollar.
+bank-statement-loan-str|Financing
+compare bank statement loan deposit calculations=Ask how the lender treats transfers, refunds and business expenses. Supply complete requested records; a deposit total is not automatically qualifying personal income.
+verify bank statement loan business ownership=Confirm required ownership evidence and business history for the proposed product. Resolve missing documentation before relying on a quoted approval amount.
+check bank statement mortgage expense factors=Request the calculation applied to your actual business and any permitted alternative documentation. Use the resulting approved income rather than choosing an assumed favorable factor.
+budget bank statement loan closing liquidity=Account for down payment, fees and reserves alongside business working capital. Ask the lender which accounts qualify without weakening funds needed to operate your business.
+compare bank statement loan underwriting timelines=Identify statement review, appraisal and title dependencies. Match the lender's remaining conditions to the financing deadline and obtain contract advice if the schedule slips.
+bridge-loan-buy-short-term-rental|Financing
+verify STR bridge loan exit assumptions=Obtain realistic permanent-financing requirements before borrowing short term. Model an exit with lower appraised value or revenue instead of assuming refinancing will be available.
+calculate bridge loan carrying cash=Include interest, fees, insurance, taxes and required reserves over the expected bridge period. Test a longer period with no guest receipts before committing to purchase.
+review bridge loan maturity extension terms=Request written extension rights, conditions and fees. A lender's informal expectation does not protect the buyer when the contractual maturity arrives.
+compare bridge loan draw conditions=Check whether repair funds require completed work, inspection or reimbursement. Budget the cash you must advance yourself instead of treating every approved dollar as immediately available.
+stress test bridge loan refinance failure=Price a lawful alternative exit and the cash needed to hold the property longer. Decline a structure whose repayment depends entirely on an unconfirmed future loan.
+adjustable-vs-fixed-mortgage-str-purchase|Financing
+compare STR adjustable rate reset terms=Read the index, margin, adjustment frequency and caps in the actual quote. Compare the highest permitted payment exposure with the fixed alternative before deciding.
+stress test an STR mortgage rate reset=Run higher permitted payments against your conservative income case. Identify the owner cash shortfall without assuming a refinance will remove the reset risk.
+compare fixed mortgage points for an STR=Calculate the extra upfront cost and the payment savings for your expected holding period. Keep enough purchase liquidity after points rather than maximizing rate reduction.
+review STR adjustable loan conversion options=Ask whether conversion is a contractual right and what conditions or costs apply. Do not treat a possible future product switch as guaranteed financing.
+match an STR mortgage to the holding period=Compare total costs under early sale, long hold and delayed refinancing cases. Include penalties and reset exposure rather than choosing from the first year's payment alone.
+seller-financing-balloon-str|Financing
+calculate seller financed STR balloon exposure=Build the amortization schedule and identify the principal due at maturity. Compare it with conservative available cash and a separately verified refinancing path.
+verify seller financing lien priority=Have closing counsel review existing liens, proposed security and recording arrangements. Resolve title and senior debt issues before depositing money against an informal financing promise.
+stress test seller financing refinance value=Use lower collateral value and realistic lender eligibility to estimate available takeout proceeds. Calculate the cash shortfall if they cannot repay the balloon.
+negotiate seller financing extension rights=Discuss specific extension triggers, notice, cost and remedies with counsel. A friendly seller relationship does not substitute for enforceable written terms.
+compare seller loan and bank loan cash needs=Compare deposit, interest, fees, required cash and balloon funding for the same purchase. Include legal and settlement work rather than presenting seller financing as free funding.
+str-property-wont-qualify-for-loan|Financing
+identify STR mortgage property rejection reasons=Get the lender's specific condition in writing: collateral, condition, project or use. Different problems require different evidence; changing income documentation may not solve a property defect.
+price repairs required for STR loan approval=Obtain an acceptable scope and quote, and ask who must complete the work by when. Recheck cash and contract responsibility before assuming repairs can wait.
+compare alternative lenders for a rejected STR=Send the same accurate property facts to any replacement lender. Compare full costs and eligibility; a faster verbal quote does not remove unresolved collateral issues.
+extend financing protection for an STR purchase=Ask counsel about the actual notice and extension requirements before the deadline. A pending application alone does not preserve cancellation or deposit rights.
+decide whether to cancel an unfinanceable STR=Compare verified funding options against your cash limit and supported rental use. Exercise only remedies available under the contract; do not assume earnest money is automatically refundable.
+reconcile-airbnb-payout-export|Revenue evidence
+verify seller Airbnb payout timing=Match stay activity, adjustments and deposit dates for the same reporting period. Explain prior-period receipts and unpaid amounts without counting either as extra current-period revenue.
+separate Airbnb cleaning fees from seller profit=Identify cleaning charges in guest receipts and actual cleaner invoices outside the platform. Include both sides in the model to avoid treating pass-through collections as margin.
+reconcile seller Airbnb refunds before purchase=Trace refunds and adjustments to the relevant stays and payout records. Flag amounts the seller cannot explain rather than deleting unfavorable transactions from the income case.
+match Airbnb reports to one property=Confirm listing identifiers, dates and currency on every export. Exclude the seller's other properties and unrelated deposits before using historical income to support your offer.
+verify Airbnb manager remittances before purchase=Bridge platform receipts through manager deductions to owner cash received. Check fees against the management agreement and avoid subtracting a cost twice if statements are already net.
+seller-proforma-vs-trailing-revenue|Revenue evidence
+compare STR pro forma to verified seller income=Separate realized stays, future bookings and estimates. Require an evidence bridge for every forecast increase; the seller's target revenue is not a completed transaction record.
+test STR pro forma occupancy assumptions=Compare proposed sold nights with available nights and actual comparable calendars. Explain blocked dates and seasonality before accepting an annual occupancy figure.
+verify STR pro forma expense omissions=Request invoices and buyer quotes for costs absent from the projection. Include management, utilities, insurance, taxes and replacement exposure before comparing the asking price with returns.
+adjust seller revenue for buyer listing changes=Model the buyer's own permission, listing and reservation arrangements. Do not assume the seller's reviews, ranking or calendar continue under a new owner.
+set an STR offer from downside revenue=Use a lower independently supported income case and actual financing costs. Identify the price at which cash requirements and your chosen return hurdle both work.
+str-seller-wont-share-revenue-records|Revenue evidence
+request redacted STR seller income evidence=Ask for property-specific reports retaining amounts and dates while removing guest identities and unrelated activity. Privacy concerns can be addressed without accepting unverifiable totals.
+value an STR without seller revenue proof=Underwrite from independent comparable demand and buyer costs. Separate building value from an operating-business premium that requires records the seller has not supplied.
+verify STR manager records when seller exports are missing=Request authorized property statements and supporting remittances for consistent dates. A manager summary still needs its deductions and scope explained before it supports the buyer model.
+limit STR offer reliance on unverified income=Mark the disputed revenue as unsupported and rerun the offer without it. Make any evidence request and deadline part of counsel-reviewed transaction protection.
+decide whether missing STR financials justify walking=Compare the independent case with your required cash and return. Decline an income premium when the investment works only with seller numbers you cannot substantiate.
+buy-str-with-declining-revenue|Revenue evidence
+separate STR revenue decline from blocked nights=Review monthly available nights, sold nights and rate together. An outage or owner block affects supply differently from weaker guest demand and needs a separate explanation.
+compare STR revenue decline with local competitors=Use a comparable set with similar capacity, amenities and lawful use. Distinguish property-specific weakness from broader market changes before budgeting an improvement.
+verify STR price discounts behind revenue decline=Compare realized nightly rates and fees for matching seasons. More occupied nights can still produce less owner cash when discounts and variable costs increase.
+price an STR with a lower revenue baseline=Use the recent verified case alongside a downside scenario. Do not make the offer depend on restoring a former peak without evidence and a costed plan.
+test an STR purchase without a revenue recovery=Run debt and expenses against sustained weaker income. Calculate the owner contribution and liquidity needed before deciding whether the asking price is supportable.
+airbnb-revenue-projections|Revenue evidence
+select comparable rentals for an STR purchase=Match location, lawful capacity, amenities and guest segment. Explain exclusions and avoid combining superior properties merely to raise the forecast for the asset you want.
+build monthly Airbnb purchase revenue estimates=Estimate rate and sold nights by month rather than annualizing peak weekends. Keep availability and seasonal demand visible so the first-year case reflects the intended opening date.
+separate Airbnb gross revenue from buyer cash flow=Identify platform, management and operating expenses before debt and reserves. Use consistent definitions when comparing seller statements, forecasts and financing calculations.
+test Airbnb projections against lower nightly rates=Reduce realized rates while holding realistic fixed costs. Recalculate variable expenses and cash after debt; revenue decline does not always translate dollar for dollar into cash decline.
+verify Airbnb forecast data dates=Record the data period, comparable selection and whether amounts are observed or estimated. An old market average is not a current address-specific purchase forecast.
+airbnb-cash-on-cash-return|Revenue evidence
+include all acquisition cash in STR return calculations=List price equity, cash-paid fees and required setup without double-counting deposits. State how retained reserves are treated so competing deals use the same denominator.
+compare STR cash returns before tax benefits=Calculate cash after operating costs and debt separately from any tax illustration. A possible deduction does not pay the mortgage or establish spendable annual income.
+adjust STR cash returns for replacement spending=Show near-term quoted replacements and a distinct ongoing allowance. A model that excludes worn equipment can overstate the return available to the owner.
+stress test STR cash returns for vacancy=Reduce sold nights by season and recalculate avoidable expenses. Compare the resulting cash with your actual purchase capital rather than changing the denominator to improve the ratio.
+compare STR cash returns with different leverage=Use each loan's payment, fees and required equity. A higher percentage on less equity may carry a larger cash shortfall and deserves a separate risk comparison.
+str-maximum-offer-price-from-revenue|Offer and closing
+calculate an STR offer ceiling from buyer costs=Start with supported income, quoted expenses and actual financing. Solve for a price that meets your chosen cash and return limits rather than using a universal revenue multiple.
+adjust an STR offer ceiling for tax reset=Ask the relevant assessor about buyer treatment and estimate the new recurring bill. Do not assume the seller's exemption or assessed value survives the transfer.
+adjust an STR offer ceiling for required repairs=Use incremental quoted work not already in setup, plus associated delay carry. Recalculate funding and cash performance; a repair allowance alone does not establish a viable price.
+compare STR asking price with downside cash flow=Run a weaker income case at the asking price and lower candidate prices. Identify whether price changes actually remove the funding gap and meet your chosen hurdle.
+separate STR offer affordability from lender approval=Compare loan eligibility with owner liquidity, reserve needs and investment goals. The approved maximum loan is not a recommendation to pay the maximum property price.
+compare-two-str-properties-before-offer|Market and deal selection
+compare STR properties using the same revenue period=Use matching reporting dates and consistent treatment of fees and availability. Different peak months can make one property's seller figures look stronger without a better annual case.
+compare STR purchase cash across two properties=Build the same equity, fees, repair, setup and retained-reserve buckets for each. A lower purchase price may require more total available cash.
+compare STR properties with different permit risks=Obtain buyer-specific use evidence for both addresses. Treat unresolved permission as a decision gate rather than assigning a favorable revenue figure to prohibited or unconfirmed use.
+compare STR properties with different guest capacity=Verify supported bedrooms and occupancy before selecting revenue comparables. Advertised bed count is insufficient evidence for either lawful capacity or achievable income.
+compare STR downside cash across two offers=Apply consistent low-season and repair scenarios to both assets. Compare the owner contribution and cash cushion remaining, not simply the seller's advertised annual return.
+how-to-choose-str-market|Market and deal selection
+compare STR markets by available purchase cash=Translate your total capital limit into equity, fees, repairs and retained cash for actual candidates. Median prices alone cannot establish which market fits your budget.
+compare STR markets by seasonal cash shortfall=Build monthly demand and fixed-cost assumptions for each market. Identify the largest cumulative owner cash draw rather than ranking destinations only by annual revenue.
+screen STR markets for buyer permit eligibility=Research controlling local rules and private restrictions before shopping. A market's popularity does not establish lawful rental use at a particular address.
+compare STR markets with insurance quote evidence=Obtain address-specific quotes for candidate property types. Deductibles, exclusions and binding requirements can change affordability even where headline revenue looks attractive.
+choose an STR market using a documented buy box=Write your cash limit, lawful-use criteria, property requirements and return hurdle first. Eliminate candidates that fail these conditions before comparing optional amenities or tourism appeal.
+short-term-rental-buy-box|Market and deal selection
+set an STR buy box cash ceiling=Define total deployable cash and the minimum cushion retained. Back into purchase limits using likely financing, settlement and repair costs rather than listing price alone.
+set STR buy box permission requirements=Require evidence supporting your intended rental use and ownership change. Separate mandatory conditions from preferences so an appealing property cannot bypass a legality gate.
+set STR buy box guest capacity criteria=Specify the supported capacity and property features your demand model needs. Confirm bedrooms, wastewater and parking rather than matching an advertised sleeps count.
+set STR buy box financing constraints=Record lender-acceptable property type, occupancy and documentation conditions. Screen these early to avoid spending diligence money on a candidate the selected product excludes.
+set STR buy box rejection triggers=Define evidence gaps, cash exposure and downside results that stop the deal. Use written triggers when reviewing an attractive seller package instead of moving the goalposts.
+str-regulations-before-you-buy|Permission and restrictions
+verify address specific STR zoning before purchase=Ask the controlling authority about the exact parcel and intended use. Save dated written information; nearby operating listings do not establish your property's eligibility.
+check STR permit ownership change requirements=Ask whether a sale requires a new application, transfer approval or fresh inspection. Treat seller permission and buyer permission as separate until the authority confirms otherwise.
+verify STR occupancy approval before an offer=Reconcile the advertised capacity with controlling approvals and professional findings. Build revenue from supported use rather than assuming added beds increase lawful guest capacity.
+check private rental restrictions before buying an STR=Review recorded covenants and applicable association documents with counsel. Government permission does not resolve restrictions imposed by private documents.
+resolve conflicting STR permission information=Identify which authority or document controls each restriction and obtain qualified clarification. Keep the purchase conditional where appropriate instead of accepting whichever informal answer is most favorable.
+permits-that-do-not-transfer|Permission and restrictions
+verify seller STR permit transfer evidence=Request the actual permit and a buyer-specific response from the authority. A seller's transferable label is a claim to verify, not completion evidence.
+check STR permit grandfathering on a property sale=Ask how the ownership change affects any existing exception and whether it attaches to the parcel, operator or entity. Have counsel review the documented answer.
+budget an STR purchase without permit continuity=Run the acquisition case with no guest receipts until buyer permission is established. Price application and delay exposure without inventing an approval date.
+check entity purchase effects on STR permits=Describe the proposed ownership and control change accurately to the authority and counsel. Buying an entity does not automatically preserve a permit or remove transfer requirements.
+condition an STR offer on permit evidence=Ask counsel to define the evidence, deadline and remedy in transaction terms. An informal expectation of approval is insufficient when rental eligibility drives the purchase thesis.
+reading-an-hoa-declaration|Permission and restrictions
+review HOA minimum rental terms before purchase=Read the declaration, amendments and applicable rules together. Compare the actual minimum term with your intended stays rather than relying on a listing agent summary.
+verify HOA rental amendment procedures=Ask counsel how changes are adopted and whether pending proposals could affect your purchase. Current permission and future amendment exposure are separate investment considerations.
+check HOA guest occupancy restrictions=Identify rules governing occupants, parking and common-area use. Verify whether the proposed guest pattern is permitted before underwriting the advertised capacity.
+request HOA enforcement records for an STR purchase=Obtain available violation and compliance information through authorized channels. Resolve property-specific disputes and associated cash exposure before treating the seller as in good standing.
+compare HOA fees with an STR acquisition model=Separate recurring dues, announced increases and assessments. Include required charges in buyer costs even if the seller's revenue presentation omits them.
+hoa-rental-cap-before-buying-str|Permission and restrictions
+verify HOA rental cap availability before an offer=Ask for the current cap, count and buyer eligibility in writing. A unit currently rented by the seller may not give the purchaser a rental slot.
+check HOA rental waitlist transfer rules=Request the waitlist procedure and how ownership changes affect priority. Do not price immediate rental revenue from an unconfirmed position in a queue.
+check HOA rental exemption expiration=Read the actual exemption terms and obtain counsel's interpretation. Confirm whether sale, ownership change or elapsed time ends the exception before committing to the asset.
+condition a condo STR offer on rental slot approval=Discuss specific evidence and deadlines with counsel. An association's verbal assurance does not establish an enforceable approval for your planned ownership and rental use.
+underwrite an STR condo without HOA rental approval=Evaluate a lawful fallback use and its income separately. If the purchase needs immediate short stays to work, unresolved cap eligibility is a material decision gate.
+buy-airbnb-without-str-permit|Permission and restrictions
+verify permit application eligibility before buying an Airbnb=Ask the authority about the exact address, buyer and proposed use. Confirm outstanding prerequisites; accepting an application is different from issuing permission.
+price an unpermitted Airbnb purchase without guest income=Use zero STR receipts until lawful use is established and calculate carrying cash. Do not use a seller's unauthorized operating record as approval evidence.
+check open STR violations before a purchase=Obtain available notices, conditions and required corrective work. Ask counsel and the authority how the buyer will be affected and what must be resolved.
+compare lawful fallback uses for an unpermitted STR=Build a separate model for an actually permitted alternative and verify applicable restrictions. A long-term rental assumption is not useful if that use is also barred.
+set a permit decision deadline for an Airbnb offer=Define required evidence and transaction remedies with counsel before protections expire. A planned application without a clear buyer exit can leave the investment thesis unsupported.
+permit-pending-due-diligence-extension|Offer and closing
+identify missing STR permit evidence before an extension=List the unresolved approval, responsible authority and exact document needed. Distinguish an incomplete application from a decision waiting on inspection or other prerequisites.
+budget STR diligence extension carrying exposure=Itemize additional inspection, financing and transaction costs over the proposed extension. Ask which party owes each charge and do not assume the extra time is free.
+preserve STR deposit protection during a permit extension=Have counsel review notice, signed amendment and revised deadlines. Seller discussion or an unanswered request does not itself extend contractual protection.
+match STR rate lock dates to a permit extension=Obtain lender confirmation of the lock expiration, extension charge and remaining conditions. Recalculate cash if a permit delay requires repricing financing.
+decide when to stop extending STR permit diligence=Use a named evidence deadline and a cash limit. If lawful use remains unsupported, compare available cancellation remedies rather than extending indefinitely on optimism.
+buy-property-with-adu-for-str|Permission and restrictions
+verify ADU rental permission before purchase=Ask about the main dwelling and accessory unit separately. Building approval does not establish permission for the intended short-stay use or simultaneous rental arrangement.
+verify ADU legal bedroom and occupancy records=Request available permits and completion records, then obtain qualified clarification of supported capacity. Do not treat a converted room or advertised bed as approved sleeping space.
+check ADU owner occupancy requirements=Ask the authority whether the buyer's planned residence and rental pattern meet applicable conditions. An investment buyer must verify its own eligibility rather than inherit the seller's situation.
+verify ADU utility capacity for an STR purchase=Have qualified specialists evaluate water, wastewater and electrical capacity for proposed use. Separate documented capacity from the seller's description of how many guests have stayed.
+compare ADU revenue with separate setup costs=Build demand and expense cases for each lawful unit, including incremental work and shared costs. Avoid counting the same parking, amenity or utility allowance twice.
+buy-tenant-occupied-property-for-str|Permission and restrictions
+review tenant leases before an STR purchase=Request all authorized leases, amendments and relevant notices for counsel's review. A seller's plan for vacancy does not establish the buyer can begin short stays.
+verify tenant deposit allocation at settlement=Have the closing team identify deposit amounts and required treatment under the transaction and applicable law. Reconcile the actual allocation rather than assuming seller cash is buyer income.
+condition an STR purchase on lawful vacant possession=Ask counsel to define possession evidence, deadlines and remedies. Do not assume a sale terminates occupancy rights or authorize guest bookings based on a promised move-out.
+budget an STR purchase with delayed vacancy=Model the lawful existing use and separate the timing and cost of any permitted change. Exclude short-stay revenue until possession and rental permission are established.
+compare occupied property value with STR conversion risk=Price the current legal use independently from the proposed conversion. If the investment needs unsupported vacancy timing, identify that dependency before committing purchase capital.
+converted-bedroom-count-before-buying-str|Permission and restrictions
+verify a converted garage bedroom before an STR offer=Request relevant approvals and a qualified review of intended sleeping use. An attractive finished room does not establish compliant bedroom status.
+check basement bedroom egress before buying an STR=Have a qualified professional and controlling authority assess the actual opening and layout. Do not infer compliance from a photograph or the seller's bed placement.
+recalculate STR revenue with fewer supported bedrooms=Choose comparables for the verified capacity and rebuild demand assumptions. A removed bedroom does not imply a universal proportional revenue reduction.
+price corrective bedroom work before STR closing=Obtain scope, approvals and a qualified quote for any feasible correction. Confirm whether work changes supported capacity; spending money does not automatically legalize a room.
+resolve STR listing bedroom count discrepancies=Record the advertised count, documented count and unresolved spaces. Bring the difference to the agent, lender and relevant professionals before relying on the seller's forecast.
+buy-str-sight-unseen|Market and deal selection
+verify remote STR inspection scope before purchase=Engage an independent inspector and specialists for excluded systems. Require reports and supporting observations; a video tour cannot replace a physical condition assessment.
+check seasonal STR access before a remote offer=Request maintenance records and qualified local observations of the actual route. Assess known seasonal constraints without sending someone into unsafe conditions to prove access.
+verify remote STR included inventory before closing=Request an itemized contract inventory and dated condition evidence. Assign a local representative to verify agreed items rather than accepting broad turnkey language.
+review remote STR neighborhood constraints=Research controlling use rules, access and relevant noise or infrastructure conditions. Ask an authorized local professional to check unresolved site facts before the diligence deadline.
+plan remote STR final verification before funding=Assign a trusted qualified representative, written scope and escalation deadline. Resolve discrepancies through the agent and closing team before releasing funds under the transaction terms.
+str-due-diligence-checklist|Physical diligence
+prioritize STR inspection findings for an offer decision=Separate safety, supported use, immediate cash, delay and recurring costs. A long repair list becomes actionable only when each material finding changes the acquisition model.
+assign STR specialist inspection deadlines=Identify exclusions in the general report and book relevant specialists early. Match their evidence and quotes to contract deadlines rather than waiting until protection expires.
+reconcile STR diligence costs with purchase capital=Add incremental repairs and delay carry only once, then show retained reserves separately. Confirm the remaining cash can support the corrected purchase plan.
+verify STR repairs promised by a seller=Request agreed scope and appropriate completion evidence through the relevant professional. An invoice or seller assurance alone may not resolve safety, permit or lender conditions.
+reprice an STR after supported capacity changes=Rebuild revenue using the verified use and independent demand evidence. Compare revised cash performance with your chosen hurdle before negotiating only the repair allowance.
+septic-system-inspection-short-term-rental|Physical diligence
+request septic records before buying an STR=Obtain available health-department drawings, approvals and maintenance history. Ask a qualified septic professional to assess condition and the intended use rather than relying on advertised beds.
+verify septic inspection scope for an STR buyer=Confirm what components and observations the service includes. A general building inspection or recent pumping receipt does not automatically document the system and drainfield condition.
+compare septic capacity with proposed STR occupancy=Have the specialist and controlling authority review the actual system and proposed load. Avoid equating a seller sleeps count with approved wastewater or guest capacity.
+budget septic corrective work before an STR offer=Request feasible scope, approvals and qualified pricing. Include timing and cash effects in the acquisition case instead of assigning a generic replacement allowance.
+condition an STR purchase on septic evidence=Define the required records, specialist findings and review deadline with counsel. If the intended use remains unsupported, a price reduction alone does not resolve the issue.
+private-well-inspection-short-term-rental|Physical diligence
+verify private well water testing before STR purchase=Ask a qualified professional and applicable authority which tests suit the source and intended use. Obtain dated results and address unresolved findings before relying on potable supply.
+check private well yield for an STR purchase=Request an appropriate capacity assessment for the proposed use. A brief tap demonstration does not establish sustained supply for the guest demand in your model.
+review private well equipment condition before an offer=Have the relevant specialist assess pump, pressure and treatment equipment. Obtain quotes for needed work and separate current condition from the seller's maintenance claims.
+verify private well location and access rights=Request available records and survey evidence, then have counsel review relevant rights. Resolve access or ownership issues before assuming the buyer can maintain the source.
+budget private well upgrades for an STR acquisition=Use qualified scope and quotes for required treatment or capacity work. Include approval and delay exposure before deciding whether the property fits your total cash limit.
+sewer-scope-before-buying-str|Physical diligence
+identify sewer scope findings before an STR offer=Request the inspection recording and written interpretation from a qualified provider. Distinguish a blockage from deterioration or damage before estimating the repair scope.
+verify sewer lateral ownership before purchase=Ask the utility and counsel where owner responsibility begins and ends. Do not assume a problem under public pavement is automatically the utility's cost.
+budget sewer excavation for an STR purchase=Request an appropriate repair quote including access, restoration and approvals. A pipe repair figure that excludes excavation or surface work can understate purchase cash.
+confirm sewer repairs before STR settlement=Agree on scope and relevant completion verification with the transaction team. Determine whether additional inspection or lender evidence is needed before accepting a seller's receipt.
+compare sewer repair credit with a lower STR price=Ask the lender and closing team how each adjustment affects permitted charges and available cash. Neither automatically gives the buyer unrestricted repair funds.
+structural-engineer-foundation-cracks-before-buying-str|Physical diligence
+refer STR foundation cracks to a structural engineer=Provide the general report and available history to a qualified engineer. Let the professional determine significance; crack appearance alone does not establish a safe or failed structure.
+verify foundation repair evidence before STR purchase=Request plans, approvals and relevant completion records for previous work. Ask the engineer what unresolved conditions require further investigation before the diligence deadline.
+budget foundation investigation before an STR offer=Price the needed assessment and any additional testing separately from corrective construction. An unknown scope deserves a decision gate rather than a confident generic repair estimate.
+assess STR foundation repair timing before closing=Obtain professional scope and realistic approval and contractor dependencies. Ask the lender and insurer how unresolved structural conditions affect funding and coverage.
+renegotiate an STR with structural uncertainty=Use the engineer's findings and feasible quote to update cash and supported use. If material uncertainty remains, seek appropriate contract protection instead of assuming a discount resolves it.
+roof-inspection-short-term-rental|Physical diligence
+verify STR roof condition before an offer=Request qualified findings on condition, observed leakage and remaining serviceability. The seller's installation date or a warranty claim does not replace an inspection.
+check roof coverage conditions before STR purchase=Give the actual roof details to your insurance adviser and lender. Resolve binding or collateral conditions with written requirements rather than assuming ordinary coverage applies.
+budget roof replacement in an STR acquisition=Obtain a qualified scope and quote that includes necessary related work. Keep near-term cash separate from ongoing reserves and avoid funding the same replacement twice.
+verify roof repair permits before buying an STR=Request applicable approval and completion records for prior work. Ask the appropriate authority or professional to clarify missing documentation before accepting seller assurances.
+compare seller roof repairs with a credit=Review contractor scope, completion verification and lender treatment of adjustments. Select the option that actually resolves condition and financing while fitting buyer liquidity.
+electrical-panel-inspection-before-buying-str|Physical diligence
+verify STR electrical panel condition before purchase=Have a qualified electrical professional review identified defects and applicable requirements. A seller's statement that everything works is insufficient to assess condition or planned demand.
+check electrical capacity for planned STR amenities=Give the specialist the actual proposed equipment and loads. Obtain a feasibility assessment before including a hot tub, charger or added appliance in the revenue thesis.
+request electrical work records for an STR purchase=Collect available permits, invoices and completion evidence. Ask the specialist or authority about undocumented changes rather than assuming visible modern equipment establishes compliant installation.
+budget electrical upgrades before an STR offer=Obtain scope, utility coordination and qualified pricing for required work. Include schedule effects when upgraded service is a prerequisite for the intended use.
+resolve electrical lender conditions before STR closing=Share the relevant findings with the lender and insurer. Confirm required correction and proof before settlement rather than assuming all defects can be repaired later.
+private-road-maintenance-agreement-before-buying-str|Physical diligence
+verify recorded STR private road access rights=Have title counsel review recorded easements and the parcel's access. Physical use of a road does not establish the legal rights your purchase requires.
+review private road maintenance cost allocation=Request the agreement, current assessments and available expense history. Identify the buyer's obligations and enforcement process before assigning a small annual road allowance.
+verify snow clearing arrangements for an STR purchase=Check documented responsibility, actual service coverage and known seasonal limitations. Budget realistic access costs without assuming a paved entrance guarantees year-round usability.
+check private road lender requirements before an offer=Send access and maintenance documents to the lender early. Obtain its remaining conditions before spending money on a loan that may not accept the arrangement.
+budget private road repairs in an STR acquisition=Request available condition evidence and qualified estimates for material work. Separate recurring maintenance from possible capital contributions and reflect both in the purchase model.
+boundary-survey-before-buying-str|Physical diligence
+verify STR boundary survey scope before purchase=Ask a qualified surveyor and counsel which survey suits the transaction. A map or tax parcel outline does not necessarily locate improvements and legal boundaries adequately.
+check STR fence encroachments before an offer=Have the surveyor identify relevant features and counsel assess consequences. Resolve documentation and feasible remedies before treating a fence line as the property boundary.
+compare STR amenities with surveyed property lines=Locate decks, parking and planned features against the survey and applicable restrictions. Do not model added amenities on land the buyer may not control.
+review survey exceptions in STR title documents=Ask title counsel to explain exceptions and available coverage for the actual survey. A completed survey does not automatically remove an exception or insure every boundary risk.
+budget survey related corrections before STR closing=Obtain qualified scope for material encroachment or access issues. Check timing and contract remedies before assuming the seller can cure them by settlement.
+flood-zone-str-underwriting|Physical diligence
+verify flood risk evidence for an STR offer=Review current official mapping and address-specific information with appropriate advisers. A seller's past experience or mapped designation alone does not establish all flood exposure.
+obtain flood insurance pricing before STR purchase=Request quotes for the actual address, use and coverage needed. Include premium and deductible exposure in the buyer model before deciding the asset is affordable.
+check flood history before buying an STR=Request available seller disclosures and relevant records through authorized channels. Have qualified professionals investigate material indications rather than relying on a renovated interior.
+budget flood related repair exposure in an STR offer=Use qualified condition findings and coverage terms to identify owner cash exposure. Keep uncertain restoration costs separate from ordinary annual maintenance allowances.
+compare flood exposed STRs using downside cash=Model plausible interruptions and uncovered cash requirements alongside conservative income. Choose a property only when the buyer can fund the risk it has actually assessed.
+str-insurance-quote-before-purchase-offer|Physical diligence
+disclose actual STR use for a purchase insurance quote=Describe intended stays, amenities, capacity and management accurately to a licensed adviser. Request coverage suited to that use rather than assuming the seller's policy transfers.
+verify STR insurance binding conditions before an offer=Ask what inspections, repairs or documents remain outstanding. A preliminary premium is different from confirmation that the requested coverage can become effective at settlement.
+compare STR deductibles before committing to purchase=List relevant deductibles and how they apply under quoted terms. Budget potential owner cash exposure separately from the annual premium and lender reserve requirements.
+review STR insurance exclusions before a purchase=Have the adviser explain material exclusions for the actual amenities and rental activity. A low premium is not a useful comparison when required risks are excluded.
+update an STR offer after an insurance quote changes=Revise recurring expenses, required repairs and available cash using the actual quote. Recheck the investment hurdle before accepting materially higher costs solely to preserve the closing date.
+title-commitment-before-buying-str|Offer and closing
+review STR title commitment exceptions before purchase=Have title counsel explain recorded exceptions and their effects on the intended use. A commitment is a proposed coverage document, not proof every property risk is insured.
+verify STR seller authority in title review=Ask the closing team to confirm the appropriate owner and authorized signers. Resolve estate, trust or entity documentation before assuming the person negotiating can convey title.
+check STR liens requiring settlement payoff=Request the closing team's documented payoff and release process. Do not accept a seller assurance that a recorded lien will disappear without the required settlement evidence.
+review title easements affecting STR amenities=Compare recorded rights with actual and planned features through counsel and the relevant professionals. Guest access or an intended pool may depend on restrictions beyond building condition.
+resolve STR title defects before contingency deadlines=Identify each unresolved item, responsible party and required evidence. Ask counsel about remedies and timing instead of assuming any title problem can be cured after funding.
+earnest-money-amount-str-offer|Offer and closing
+compare STR earnest money with liquidity limits=Calculate the deposit's cash timing alongside inspection and financing expenses. A stronger offer should not leave the buyer unable to fund the remaining diligence work.
+verify STR earnest money escrow instructions=Confirm the authorized holder and payment instructions through a trusted established channel. Have the transaction team explain receipts and deadlines before transferring money.
+review STR deposit refund conditions before an offer=Ask counsel to identify the actual protections, notice requirements and deadlines. Earnest money is not universally refundable simply because a buyer changes investment preferences.
+cap STR deposit exposure when waiving protection=List the evidence still unresolved and cash potentially at risk. Have counsel explain the proposed waiver before committing a larger deposit to an unsupported purchase case.
+separate STR earnest money from total cash to close=Show the deposit as already-paid price cash when the closing team applies it. Avoid adding it twice to equity or treating it as an extra expense.
+earnest-money-release-str|Offer and closing
+review early STR deposit release conditions=Request the exact written terms and counsel's explanation of consequences. Released cash may no longer have the same escrow protection the buyer expected.
+verify remaining STR contingencies before deposit release=List unresolved permit, financing, title and inspection evidence. Confirm which remedies still apply rather than assuming the original deposit safeguards survive an amendment.
+compare deposit release with an STR price concession=Calculate the financial benefit and cash exposed under the proposed terms. A small discount should be assessed against the buyer's actual ability to recover funds.
+document STR deposit release approval procedures=Confirm authorized instructions, signatures and the escrow holder's requirements through the closing team. Do not rely on a casual seller message to amend handling of funds.
+decide whether early STR deposit release fits the evidence=Use verified transaction progress and counsel-reviewed remedies to assess the risk. Decline or revise the request when material purchase conditions remain unresolved.
+escalation-clause-str-purchase-offer|Offer and closing
+set an STR escalation cap from acquisition cash=Calculate the highest price your financing, fees and reserves can support. Do not choose an escalation limit merely from how much competing buyers might bid.
+review competing offer evidence for STR escalation=Have the agent and counsel define what proof triggers the clause. Confirm acceptable evidence and process in the actual offer rather than assuming any seller claim qualifies.
+check appraisal protection in an STR escalation offer=Ask how the escalated price interacts with appraisal and financing terms. Calculate the cash gap at the cap before signing an offer that could exceed loan support.
+compare STR escalation increments with downside value=Test the resulting prices against conservative income and total cash. A winning bid does not establish the asset still meets your investment hurdle.
+resolve STR escalation ambiguity before submitting an offer=Have counsel review cap, increments, trigger and competing terms together. Clear transaction language matters more than a generic clause copied from another purchase.
+str-seller-credit-vs-price-reduction|Offer and closing
+compare STR seller credits with eligible closing charges=Ask the lender which charges and limits apply to the actual loan. A credit cannot automatically fund furniture, unrestricted repairs or the buyer's required equity.
+calculate STR cash savings from a price reduction=Requote the loan at the lower price and calculate equity and fees again. If loan proceeds also fall, buyer cash does not fall by the full price reduction.
+compare STR debt savings from a lower purchase price=Use the revised approved balance and quoted terms to calculate payments. Keep recurring debt savings separate from the immediate settlement cash effect.
+verify unused STR seller credit treatment=Have the lender and closing team confirm what happens if allowed charges are smaller than the credit. Do not assume an unused balance is paid to the buyer.
+choose an STR concession for the actual funding gap=Identify whether the constraint is eligible fees, repair cash, debt payment or value. Compare permitted adjustments that solve that specific problem rather than treating credits and price cuts as identical.
+seller-credit-str-furnishings|Offer and closing
+verify seller credit rules for STR furniture costs=Describe the proposed allocation to the lender and closing team. Confirm permitted treatment instead of assuming a settlement credit can directly purchase personal property.
+itemize furnishings included in an STR sale=Request an agreed inventory with condition and excluded items. Have the transaction team document it so a furnished description does not replace an enforceable list.
+budget missing furniture before an STR offer=Compare the included inventory with what the intended lawful use needs. Obtain realistic replacement and installation quotes rather than counting the seller's advertised retail values.
+separate STR furniture value from loan collateral=Ask the lender and appropriate professionals how personal property is handled. An agreed purchase package does not mean furnishings increase the financed real estate appraisal.
+compare furnishing allowance with an STR price revision=Recalculate actual price cash and permitted settlement charges for each option. Choose from available dollars after closing, not the headline amount of a concession.
+seller-new-str-bookings-during-escrow|Offer and closing
+review seller booking authority during STR escrow=Have counsel define permitted new reservations and obligations in the contract. The buyer should understand the commitments being made before ownership changes.
+identify STR reservations overlapping settlement=Obtain an authorized schedule without unnecessary guest identities. Flag stays that cross possession or buyer permission dates and assign responsibility for their resolution.
+verify STR booking deposits in a purchase agreement=Ask the closing team how prepaid amounts, refunds and associated obligations are allocated. A calendar reservation is not evidence of cash the buyer will receive.
+condition STR reservation assumptions on buyer permission=Confirm lawful operation and platform arrangements separately. Do not count seller bookings in the buyer forecast while use, listing or payout continuity is unresolved.
+price seller booking commitments into an STR offer=Identify promised stays, cancellation exposure and operational obligations with counsel. Accept an income premium only for evidence and arrangements the purchaser can actually rely on.
+inspection-contingency-length-str|Offer and closing
+schedule STR specialist reviews within a diligence window=Identify systems excluded from the general inspection and obtain availability early. Build the timetable from required evidence rather than selecting a customary number of days.
+match STR permit review to inspection deadlines=List government and association responses needed for the intended use. Ask counsel which contract protection covers those questions instead of assuming a physical inspection clause does.
+budget STR inspections before choosing contingency length=Price general and specialist work, including possible follow-up review. Keep sufficient cash and time to investigate a material finding rather than spending the entire window on the first report.
+request an STR inspection extension before expiry=Ask counsel about notice and signed amendment requirements while protection remains available. An inspector delay or seller conversation does not automatically move the contractual deadline.
+decide whether an STR inspection waiver is affordable=List unknown condition, use and cash exposure before assessing the waiver. Compare potential funding needs with actual liquidity and counsel-reviewed remedies rather than market pressure alone.
+str-buyer-agent-vs-acquisition-team|Market and deal selection
+compare STR buyer service deliverables before signing=Request a written scope for sourcing, underwriting, diligence coordination and offer support. Assign each critical buyer task rather than assuming every provider owns the complete acquisition process.
+verify STR acquisition service fee triggers=Read when fees become due, refundable or earned under the proposed agreement. Compare total purchase cash including service costs before treating the offer price as the entire entry budget.
+review STR provider conflicts before hiring=Ask about compensation, referrals and relationships relevant to recommended assets. Evaluate documented incentives with the scope rather than assuming a recommendation is independent.
+compare STR acquisition claims with documented evidence=Distinguish completed purchases, forecasts and measured operating results. Request sources for claims and avoid converting a transaction story into a promised future return.
+assign STR purchase decision authority before engagement=Write down who approves price, diligence findings and contract changes. Professional support should clarify accountability while the buyer understands the commitments it must make.
