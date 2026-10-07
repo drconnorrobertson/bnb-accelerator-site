@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-07T20:37:56.257429+00:00",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/blog/str-license-renewal-calendar/",
+  "evidence_type": "First stored actual Google URL Inspection; filtered connected history returned zero rows with hasMore false before inspection",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "referringUrls": [],
+  "quota_after": {"count": 200, "limit": 2000, "remaining": 1800},
+  "independent_eligibility": "_gen/renewal-calendar-live-evidence.json:20:35:27.546417 UTC four exact artifacts, self-canonical HTTP200, robots allowed, noindex absent, Googlebot-UA200,58linked targets,three inbound pages,exact protected homepage",
+  "recommended_action": "Allow discovery and crawl time; continue independent substantive buyer-quality work without immediate repeat inspection or unchanged submission",
+  "limits": "Unknown status with no reported crawl is not a technical exclusion diagnosis, duplicate-intent evidence or worsening trend. Live eligibility and accepted submissions do not establish Google revision receipt or indexing. Empty Google referringUrls is separate from independently verified inbound links. Historical not-returned metrics are not zero impressions. No search/conversion gain established.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}

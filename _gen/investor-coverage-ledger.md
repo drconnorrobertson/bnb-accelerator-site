@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: first-renewal actual indexing baseline
+
+Connected filtered history contained no calendar-owner inspection before this check. First actual Inspection20:37:56.257429 UTC returned NEUTRAL/URL unknown, unspecified robots/indexing/fetch states, no reported crawl and empty referringUrls. Quota200/2000 used,1800 remaining afterward. One inventory row now separates that Google observation from20:35 live eligibility and three independent inbound pages; historical not-returned performance retained as unknown. No technical barrier, duplicate intent, worsening trend, revision receipt or search gain established. Evidence:renewal-calendar-indexing-baseline-2026-10-07.json. No immediate repeat Inspection, unchanged submission or public change. Eight new guides and49 existing blog refreshes unchanged. Continue substantive complaint/enforcement purchase review under the active five-minute schedule.
+
 ## October 7: first-renewal calendar substantive expansion
 
 Content f14a59f171f56f6e5a23a27723f3f67c997d555a verified exact live20:35:27.546417 UTC after one propagation retry: four artifacts,58linked targets/assets,three inbound,Googlebot-UA200,self-canonical,allowed robots/noindex absent,three FAQs and exact homepage. Required checks/full scoped diff passed, similarity0.024. IndexNow accepted three changed canonicalsHTTP200;blog sitemap confirmed20:35:38.755Zpending/zero reported errorswarnings—not indexing or revision receipt. Evidence:renewal-calendar-live-evidence.json. Existing blog refreshes49;new guides8/509 unchanged. Next reconcile stored actual indexing if absent, then evaluate concise complaint/enforcement owner against permission and renewal neighbors. Active five-minute schedule unchanged.
