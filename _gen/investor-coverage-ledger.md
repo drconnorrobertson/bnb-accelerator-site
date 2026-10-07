@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: existing STR Insights service-tier owner expansion
+
+Fulltier/alternativesbody/schema reviewed; no independentlydistinct new providerblog approved. Currentprimary homepage/introduction bounded consulting/software-versus-advertisedacquisition/opening scope checked. Originalfourrowevidencegates/sixfieldpunchlist/backorderedbed-receipt-versus-installation/operatoracceptance example; inventedupgradecreditworksheet240000base+3000+5000+17000=265000or documentedcredit257000;additional18000task283000/275000against280000. Noactualproviderfee/creditright/clientresult/withholdingremedy orautomaticBNBscope. OriginalOctober1publication/title/H1/author/CTA preserved;Oct7mod/coreXMLlastmod. Requiredchecks/fulltwopublicdiff/math/homehashes pass;livepending. Resource-onlyrefresh,8new509/44blog/10comparison unchanged. ACTIVEfive-minute schedule preserved.
+
 ## October7: existing STR Search signing-owner expansion
 
 First actual signing-guide Inspection baseline observed17:54:58UTC:NEUTRAL/URLunknown/INDEXING_STATE_UNSPECIFIED/no reportedcrawl,1success/0failed/skipped;quota190→191/1809remaining. This is not a worsening trend, revisioncrawlreceipt, confirmedtechnicalbarrier orsubmissionfailure. Separate17:53liveeligibility/5inbound retained. Snapshotstr-search-signing-indexing-baseline-2026-10-07.json;allowdiscoverytime/no repeated unchanged submissions/immediateInspection. No publicchange/new509credit/searchconversiongain;continueindependent existingowner review. ACTIVEfive-minute schedule preserved.
