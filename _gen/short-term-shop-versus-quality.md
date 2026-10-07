@@ -1,0 +1,15 @@
+# Short Term Shop direct buyer comparison — October 7, 2026
+
+## Competitive brief and overlap review
+
+Complete direct-versus owner HTML/schema read; prior substantive refreshed alternatives owner and actual BNB Scope reviewed. Direct owner /compare/avery-carl-short-term-shop/ retained; no new blog/provider variant, no509score/credit. Alternatives already covers broad paths and buyer-broker fee cash; this refresh centers on representation versus coordination authority and deposit timing.
+
+Current primary March11buyingguide describes specialized representation, local-use/HOA diligence, vendor connections and postclosingtraining/systems. Relevant strengths: brokerage plus learning/vendor support, not showingsonly. No agentquality, awards/transactioncounts, advertisedreturns, operatingratios or customerclaims adopted. Tradeoff is buyer-specific actualscope and time; absence of details is not proof of exclusions. NAR currentconsumertext confirms negotiable compensation/services/duration and contract/lawdependent termination. Do not invent legal cancellation/escrow rights or automatic seller payment. BNB source describes broader published coordination/pairing but clients/lenders/counsel/CPAs/operators retain respective responsibilities; unseen signed scopes not certified.
+
+Opportunity: fair buyer-fit and named authority sample versus unsupported superiority. Threat: assuming brokerage lacks launch support or BNB executes everything. Recommendations: improve canonical owner not duplicate, map licensed representation and spend authority, identify inclusion/paymenttriggers, compare cleared cash before deadlines, crosslink actual alternatives. No testing, ratings, allegations, win-loss data or promised rankings. Document-based/commercial-interest/date disclosures explicit.
+
+## Original worksheet and safeguards
+
+Five-stage deadline-and-authority sheet: representation, propertyevidence, inspectionnotice/approval, launchtraining/introduction/execution, payments/faileddeal. Hypothetical320000cash/304000allocation from200000down16000closingservice36000furnish12000repair40000reserve. 20000creditedearnest leaves180000down and284000remaining against300000outsideescrow, same16000margin not doublecount. Separate abandoned-deal case20000refundpending gives300000available/4000gap;1000inspectionloss gives299000/5000gap;refundclears319000/15000margin. Refund entitlement/date expressly not established; differentcase not added to original; reserve countedonce. Not either providerpricing/clientresult/localescrowrule.
+
+OriginalAugust15publication/H1/title/author/head/header/footer/application/scheduling preserved,mod/coreXMLlastmodOct7. NoFAQexists. Exactlytwopublicdiff/fullreview,requiredchecks/audit/math/homehashes pass. Noarchive/searchchangeforcomparison-onlywork. EarlieractualInspection URLunknown/no reportedcrawl; settledSep7–Oct4ownerquery no returnedrows notindexedcount/exclusionproof. Exact live and selective submissions required next, no immediate repeatedInspection.
