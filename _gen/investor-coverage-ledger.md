@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: review-transfer indexing reconciliation
+
+Connected stored inspection history confirms the existing review-transfer canonical was submitted and indexed (PASS/allowed/successful mobile fetch): request October 6 at 21:07:14 UTC, last crawl September 26 at 17:34:57 UTC. Both precede the October 7 expansion; do not claim Google received the new body. No fresh inspection or unchanged submission was requested. Inventory preserves the original observation date and historical four impressions/zero clicks, updating only independently verified inbound pages from eight to ten and the buyer topic/action. Private review-transfer-indexing-reconciliation-2026-10-07.json separates actual stored indexing from current live eligibility and historical performance. No new public changes or 509 credit; eight new guides and 47 existing blog refreshes unchanged. Next: substantive permission/operating-acceptance overlap review. Active five-minute schedule preserved.
+
 ## October7: review-goodwill acquisition evidence
 
 Published content commit bdca46ed7e1180720c625f839cb70ad058344293. Exact article/archive/hub/sitemap verified at 20:06:27.875242 UTC after one propagation retry; 56 linked targets/assets, 10 inbound pages, Googlebot-UA HTTP 200, canonical/robots/noindex/three FAQs and exact homepage checks passed. IndexNow accepted three changed canonicals (HTTP 200); Search Console confirmed blog sitemap submission at 20:06:38.784Z, pending with zero reported errors/warnings. These are serving/eligibility and submission evidence, not confirmed indexing or search results. Register now records 47 existing blog refreshes; 8 new guides toward 509 remain unchanged. Next priority: inspect concise permission or operating-acceptance owners and actual query/indexing gaps before another expansion. Evidence: review-transfer-live-evidence.json.
