@@ -1,6 +1,28 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/parcel-jurisdiction-str/",
+      "observed_at": "2026-10-07T02:02:35Z",
+      "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_probe_at": "2026-10-07T02:06:18Z",
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/parcel-jurisdiction-str/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 2,
+      "content_commit": "dea3a830",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing",
+      "caveat": "Actual inspection unknown state is not a diagnosed technical barrier; static text and Googlebot-UA eligibility checks are not authenticated Google crawl or confirmed indexing."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-management-agreement-termination/",
       "observed_at": "2026-10-07T01:36:18Z",
       "observation_time_basis": "Result obtained by this time; not a returned inspection request timestamp",
