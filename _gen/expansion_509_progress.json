@@ -264,6 +264,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/rate-buydown-str-investment/",
+      "content_commit": "2813e52be80d091378c20450b25dac1ab49535b2",
+      "verified_live_at": "2026-10-07T06:28:50Z",
+      "counted_toward_509": false,
+      "validation": "1237words/6minutes/4matchedFAQs; required checks/fullscopeddiff;113live internal targets/4inbound pages; independent53links/assets; originalSeptember23publication and protectedhomepage/assets/modules preserved",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningful changed blog sitemap confirmed06:29:05.020Z/pending; pre-release discovered-not-indexed/no lastcrawl, no revised indexing proof"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-cash-on-cash-return/",
       "content_commit": "b61317f70ff8898906c56319a3fd898ae892b0cd",
       "verified_live_at": "2026-10-07T06:03:49Z",

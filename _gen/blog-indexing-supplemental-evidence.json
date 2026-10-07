@@ -1,6 +1,30 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/rate-buydown-str-investment/",
+      "observed_at": "2026-10-07T06:28:50Z",
+      "observation_time_basis": "Production checks completed by this time; actual inspection obtained before revision publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/rate-buydown-str-investment/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 4,
+      "internal_targets_verified": 113,
+      "content_commit": "2813e52be80d091378c20450b25dac1ab49535b2",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T06:29:05.020Z; pending download; zero reported errors/warnings",
+      "caveat": "Discovery-not-indexed does not establish a technical cause or revised indexing result. Exact production body/dates/schema and protected homepage verified; independent53 links/assets passed. Initial old version propagated; later date-check failure was reversed caller arguments, not a site defect. No authenticated VercelREADY/log or new search/enquiry gains claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/communications-lease-rent-before-buying-str/",
       "observed_at": "2026-10-07T06:12:13Z",
       "observation_time_basis": "Live checks completed by this time; actual URL Inspection obtained before publication",
