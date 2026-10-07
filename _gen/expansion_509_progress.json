@@ -141,6 +141,14 @@
   ],
   "rejected_or_existing_intents": [
     {
+      "candidate_intent": "Generic bankruptcy-estate STR seller authority and free-and-clear purchase review",
+      "decision": "Existing complete acquisition guide already covers the actual order/asset/title/operating package and worked reset offer ceiling; no duplicate page approved",
+      "existing_url": "https://www.bnbaccelerator.com/blog/buy-bankruptcy-estate-property-as-str/",
+      "substantive_review": "Complete owner body and fourFAQs read; relevant currentFlorida/Indiana localcourt source sections checked. Initial combined neighbor extraction truncated, so not a claim of complete four-page review.",
+      "research_brief": "_gen/bankruptcy-counterparty-overlap-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Partner emergency cash, signer release and blanket-loan collateral purchase planning",
       "decision": "Existing substantive partner/guarantee/co-borrower/package/blanket answers; no duplicate generic page approved",
       "existing_url": "https://www.bnbaccelerator.com/blog/blanket-loan-vs-individual-mortgages-str/",
