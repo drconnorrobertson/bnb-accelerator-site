@@ -415,20 +415,22 @@
     {
       "url": "https://www.bnbaccelerator.com/blog/dscr-vacancy-factor-str/",
       "content_commit": "61ceb58a988402357bb420cbf657ce27f2f33f7e",
-      "verified_live_at": null,
+      "verified_live_at": "2026-10-07T09:51:44.952020+00:00",
       "counted_toward_509": false,
       "validation": "Required checks/full scoped diff/source-built homepage guards passed; see _gen/dscr-income-quality-review.md",
-      "deployment_status": "Awaiting live verification: production still serves prior DSCR guide after propagation retry and longer wait; scoped Vercel Inspection403; no CLI available; GitHub statuses empty, not proof of failed deployment",
-      "submission": "Not requested; wait for exact current public artifacts. Prepublication Google Inspection indexed, not revised-body receipt"
+      "deployment_status": "Exact five changed public artifacts and protected homepage verified; scoped Vercel status unavailable, not required to assert matching live release",
+      "submission": "IndexNow existing local workflow accepted four verified changed canonicals HTTP200 at 2026-10-07T09:54UTC; live key verified, no force. Search Console sitemap confirmed2026-10-07T09:52:08.558Z pending download/zero errors and warnings. Neither confirms revised-content indexing.",
+      "live_evidence": "_gen/dscr-purchase-pending-deployment-evidence.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/dscr-loans-for-airbnb/",
       "content_commit": "61ceb58a988402357bb420cbf657ce27f2f33f7e",
-      "verified_live_at": null,
+      "verified_live_at": "2026-10-07T09:51:44.952020+00:00",
       "counted_toward_509": false,
       "validation": "Required checks/full scoped diff/source-built homepage guards passed; see _gen/dscr-income-quality-review.md",
-      "deployment_status": "Awaiting live verification: production still serves prior DSCR guide after propagation retry and longer wait; scoped Vercel Inspection403; no CLI available; GitHub statuses empty, not proof of failed deployment",
-      "submission": "Not requested; wait for exact current public artifacts. Prepublication Google Inspection indexed, not revised-body receipt"
+      "deployment_status": "Exact five changed public artifacts and protected homepage verified; scoped Vercel status unavailable, not required to assert matching live release",
+      "submission": "IndexNow existing local workflow accepted four verified changed canonicals HTTP200 at 2026-10-07T09:54UTC; live key verified, no force. Search Console sitemap confirmed2026-10-07T09:52:08.558Z pending download/zero errors and warnings. Neither confirms revised-content indexing.",
+      "live_evidence": "_gen/dscr-purchase-pending-deployment-evidence.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/normalize-str-utility-bills/",
