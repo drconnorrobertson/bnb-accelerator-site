@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: delegation owners stored indexing evidence
+
+Read connected filtered latest Inspection history for DIY and done-for-you canonical owners; both hasMorefalse and PASS/Submitted-and-indexed/ALLOWED/SUCCESSFUL/MOBILE. Exact original requested times October6T21:08:11.181062 and21:08:17.722022; crawls September23T12:18:29 and12:23:35 respectively. Inventory21:09 is earlier aggregate capture, not API timestamp. Private delegation-owner-stored-indexing-history-2026-10-07.json and liveevidence files distinguish earlier confirmed URL indexing from unconfirmed October7 body receipt. No fresh Inspection/quota use/recrawl request, repeated submission, public changes or searchgain claim. Counts52existingblog/8new509 unchanged; next independent substantive purchase-gap review. ACTIVEfive-minute schedule unchanged.
+
 ## October 7: self-coordinated versus team acquisition decision
 
 Content716a181a5dff9320b1dd82a4d45f81be558f53f1 exactlive21:57:09.383726UTC after one30-second propagation retry:fourartifacts/52linkedtargets-assets/7inbound/Googlebot200/selfcanonical/allowedrobots/noindexabsent/1481words/threealignedFAQs/oneOctober7sitemapentry/homeexact. All required checks/full scoped diff/homehashes/math passed;similarity0.003. IndexNowthreechangedcanonicalsHTTP200;GSCblogXMLconfirmed21:57:20.854Zpending/zero reportederrorswarnings—not revised indexing. Earlier actual indexedSeptember23T12:18:29Z andhistorical7impressions/0clicks retained without resetting Inspection timestamp;no immediate repeated Inspection. Evidence diy-decision-live-evidence.json/inventory/register;52separateexistingblogrefreshes/new8of509 unchanged. Next independently establish distinct purchase gaps across service-selection and remaining investor journey, preserving useful canonical owners. ACTIVEfive-minute schedule unchanged.

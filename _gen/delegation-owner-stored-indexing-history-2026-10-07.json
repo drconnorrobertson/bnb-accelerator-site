@@ -1,0 +1,38 @@
+{
+  "history_read_at": "2026-10-07T21:58:33.592Z heartbeat run",
+  "site_url": "https://www.bnbaccelerator.com/",
+  "method": "Connected GSC Wizard list_url_inspections filtered by each canonical route with latestPerUrl true and limit10; both pages hasMorefalse. Stored history read only, no new Inspection or recrawl request.",
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-diy/",
+      "inspection_id": "f6268ccd-e026-434c-865a-500c98b2ec17",
+      "inspection_requested_at": "2026-10-06T21:08:11.181062+00:00",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "last_crawl_time": "2026-09-23T12:18:29+00:00",
+      "page_fetch_state": "SUCCESSFUL",
+      "crawled_as": "MOBILE",
+      "refreshed_content_commit": "716a181a5dff9320b1dd82a4d45f81be558f53f1",
+      "refreshed_content_live_at": "2026-10-07T21:57:09.383726+00:00",
+      "refreshed_content_indexing_confirmed": false
+    },
+    {
+      "url": "https://www.bnbaccelerator.com/blog/done-for-you-airbnb-model/",
+      "inspection_id": "ec2a8a29-135f-4850-9a7e-6c43f98f1b82",
+      "inspection_requested_at": "2026-10-06T21:08:17.722022+00:00",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "last_crawl_time": "2026-09-23T12:23:35+00:00",
+      "page_fetch_state": "SUCCESSFUL",
+      "crawled_as": "MOBILE",
+      "refreshed_content_commit": "c2a45db1735045a05a6f58a24ec0f7ab7fe4ee29",
+      "refreshed_content_live_at": "2026-10-07T21:51:40.944199+00:00",
+      "refreshed_content_indexing_confirmed": false
+    }
+  ],
+  "limits": "Both prior URL indexing results are confirmed stored Google observations, not new indexing gains or receipt of October7 revised content. Inventory observed_at21:09 is the earlier aggregate capture time, not each API requested_at. Historical7impressions/0clicks per page not refreshed-outcome metrics. No new Google call, repeated submission, public change, new509 credit or search/conversion claim."
+}
