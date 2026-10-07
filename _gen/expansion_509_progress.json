@@ -79,6 +79,14 @@
   ],
   "rejected_or_existing_intents": [
     {
+      "candidate_intent": "Buy an STR advertised with an assumable low-rate mortgage while preserving launch liquidity",
+      "decision": "Existing substantive assumption/equity-gap guide; no duplicate generic low-rate assumption page",
+      "existing_url": "https://www.bnbaccelerator.com/blog/buy-str-with-assumable-mortgage/",
+      "substantive_review": "Complete assumption, subject-to and seller-financing bodies/FAQs read. Existing equity-gap example, consent/use review, timing, seller release and new-loan fallback already address the decision. CFPB key-terms definition checked without asserting program-specific eligibility.",
+      "research_brief": "_gen/assumption-acquisition-overlap-review.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Budget an approved association special assessment before buying an STR",
       "decision": "Existing substantive HOA/installment and condo-project financing answers; do not create a duplicate generic assessment guide",
       "existing_url": "https://www.bnbaccelerator.com/blog/reading-an-hoa-declaration/",
