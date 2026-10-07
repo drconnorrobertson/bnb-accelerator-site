@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-07T19:14:40Z",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "url": "https://www.bnbaccelerator.com/guides/kleer-circle-year-one-operations/",
+  "evidence_type": "First stored actual Google URL Inspection for this resource; filtered history returned zero rows with hasMore false before inspection",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL is unknown to Google",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "referringUrls": [],
+  "quota_before": {"count": 195, "limit": 2000, "remaining": 1805},
+  "quota_after": {"count": 196, "limit": 2000, "remaining": 1804},
+  "independent_eligibility": "_gen/kleer-year-one-live-evidence.json:19:12:51.645109UTC exact production resource/coreXML/selfcanonical/HTTP200/GooglebotUA/allowedrobots/noindexabsent/53live linkedtargets/5inbound/protected homepage",
+  "recommended_action": "Allow discovery time while continuing independent substantive buyer-quality work; no immediate reinspection or unchanged submission",
+  "limits": "Unknown URL/unspecified states/no reported crawl does not diagnose a technical cause, establish a decline or prove receipt of the October7 revision. No search or conversion gain established. Observed referringUrls empty is distinct from independently verified five inbound public pages.",
+  "new_public_changes": 0,
+  "new_submissions": 0,
+  "counted_toward_509": false
+}
