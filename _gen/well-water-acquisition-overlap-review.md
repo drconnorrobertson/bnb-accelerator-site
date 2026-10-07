@@ -1,0 +1,9 @@
+# Private/shared well acquisition intent screen — October 7, 2026
+
+Candidate: verify water quality, supply capacity and shared-source repair rights before committing purchase cash. Not approved as a new generic guide; no qualifying score or new public URL.
+
+Read complete substantive bodies and FAQs at `/blog/shared-well-agreement-before-buying-str/`, `/blog/private-well-buying-short-term-rental/` and `/blog/private-well-inspection-short-term-rental/`. The shared-source guide already distinguishes a dated laboratory sample from sustainable yield and simultaneous demand, maps recorded access/ownership/repair obligations, asks the actual lender and insurer, and contains a distinct worked four-home repair/outage example. The private-source pages already own quality/yield/equipment/location and transaction-cost questions. A new broad water-testing or shared-well purchase page would repeat those acquisition decisions.
+
+EPA's current primary page https://www.epa.gov/privatewells/protect-your-homes-water read October7; page last updatedFebruary26,2026. It recommends annual core testing, testing after certain changed conditions/repairs, certified laboratories and local health-authority consultation. These facts support professional site-specific diligence, not a federal approval of an STR or an automatic cure. No health threshold, treatment prescription, local rental approval or FHA investor eligibility invented.
+
+The two generic private-well pages retain extensive repeated operational prose and deserve substantive review separately; this screen is not a merger/noindex decision or a certification of their accuracy. A future narrower guide needs a distinct documented purchase question not already answered here; a contaminant/city/name swap is insufficient. No public mutation, indexing diagnosis, sitemap/IndexNow resubmission or509credit. Progress remains2verifiednewguides of509.

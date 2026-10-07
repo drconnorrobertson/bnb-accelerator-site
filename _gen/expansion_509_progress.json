@@ -79,6 +79,14 @@
   ],
   "rejected_or_existing_intents": [
     {
+      "candidate_intent": "Verify private/shared well water quality, yield and repair rights before buying an STR",
+      "decision": "Existing substantive shared-well acquisition answer and private-well buying/inspection coverage; no duplicate generic testing page approved",
+      "existing_url": "https://www.bnbaccelerator.com/blog/shared-well-agreement-before-buying-str/",
+      "substantive_review": "Complete three bodies/FAQs read; quality-versus-yield, recorded rights, repair authority and worked outage costs already covered. Current EPA primary testing guidance reviewed; generic private-well prose warrants separate review, not an automatic merge.",
+      "research_brief": "_gen/well-water-acquisition-overlap-review.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Buy an STR advertised with an assumable low-rate mortgage while preserving launch liquidity",
       "decision": "Existing substantive assumption/equity-gap guide; no duplicate generic low-rate assumption page",
       "existing_url": "https://www.bnbaccelerator.com/blog/buy-str-with-assumable-mortgage/",
