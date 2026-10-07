@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October7: seller-file version and acceptance decision
+
+Full concise seller-data-room body/noFAQ and existing evidencehub/register reviewed. Generic new seller-evidence variant rejected76/100(distinct10/buyer28/evidence12/service18/original8), notmeasuredquerydemand; existing canonical improved instead. Original sixfield acceptance index and invented8request/6received/5usable/3unsupported/foursuperseded example separatesreceipt/usability/verification/approval. Day8review/day10deadline/day12delivery doesnotextendrights. FTCprimary generaldata-security guidance checkedOctober7; privacy/adviser/interest/document-based/no-results limits retained. OriginalSeptember23pub/titleH1authorCTA preserved; threeFAQs/archive/search/mod/lastmodOctober7 aligned. Required checks/fullscopeddiff/homehashes/liveverification pending. New8of509/45blog/10comparison/7resource unchangeduntilverified;ACTIVEfive-minute schedule preserved.
+
 ## October7: manager-exit ownership and CTA accuracy
 
 ConnectedfilteredInspectionhistoryreturnedone/hasMorefalse:earlierOctober7T01:36:18UTC NEUTRAL/URLunknown/unspecified/no reportedcrawl. Existingactualbaselinealreadyrecorded; no freshInspectionorquota use. Inventoryone rowreconciledwithseparate19:39eligibility/seveninbound while retainingGoogle observationtime and historicalperformance. Evidencemanager-exit-indexing-history-reconciliation-2026-10-07.json. Notcurrenttechnicalcause/worseningtrend/revisionreceipt/searchgain; no unchangedsubmission/publicmutation/new509credit. Next concise seller-data-room owner reviewed at169word cleanup baseline; substantive currentbody remains a short indexing/redaction list, while proforma and furniture owners alreadydeveloped. Read evidence-room/register/reconciliation answers before approving expansion or a distinctnewintent; no topicgap certified from title/length alone. ACTIVEfive-minute schedule preserved.
