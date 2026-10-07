@@ -55,6 +55,12 @@
   ],
   "research_candidates": [
     {
+      "candidate_intent": "Generic vacant-possession or occupied-closing cash checklist for an STR purchase",
+      "status": "Rejected after complete tenant-occupied, seller rent-back, reservations, option-exercise and bankruptcy-estate bodies/FAQs review; useful distinct existing answers already cover possession, duties, evidence, funding and transaction variants; no new URL, passing score or fresh legal/provider verification claimed",
+      "review_brief": "_gen/possession-acquisition-overlap-screen.md",
+      "counted_as_published": false
+    },
+    {
       "candidate_intent": "Generic prior-use, Phase I or contaminated-site STR purchase guide",
       "status": "Generic new intent rejected; narrower cleanup-control tool incorporated into the existing Phase I guide in 9ca5d3f632effe5590ee242bf8c0c9b170c62dbf and verified live. Existing refresh only, no new URL or 509 credit",
       "review_brief": "_gen/environmental-acquisition-overlap-screen.md",
