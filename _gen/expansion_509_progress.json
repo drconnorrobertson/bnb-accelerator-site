@@ -18,6 +18,15 @@
   "verified_live_new_pages": 8,
   "separately_counted_resource_guide_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/guides/kleer-circle-year-one-operations/",
+      "content_commit": "391adbba2900c5489454242dea6e9f8f5eb4c32d",
+      "verified_live_at": "2026-10-07T19:12:51.645109+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/kleer-year-one-live-evidence.json",
+      "validation": "All required checks/full two-public-file diff/current primary materials/independent 12-week coverage arithmetic/original October1 publication and four questions/53 live targets-assets/5 inbound/protected homepage and shared flow",
+      "submission": "One canonical IndexNowHTTP200;coreXMLconfirmed19:13:09.705Zpending/zero reported errorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/guides/bnb-turnkey-management-handoff/",
       "content_commit": "70fd27a0edf84e35e32bfc1d87b0f05cd3268733",
       "verified_live_at": "2026-10-07T18:53:28.410073+00:00",
