@@ -425,6 +425,14 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/what-lenders-do-with-airdna/",
+      "content_commit": "45e80d4",
+      "verified_live_at": "2026-10-07T13:12:47.017510+00:00",
+      "counted_toward_509": false,
+      "validation": "1371words/sevenminutes/fourmatchedFAQs; allrequiredchecks/fullfourpublicdiff;56live links-assets/9inbound; originalpublication/anchors/author/protectedhome/sharedflow preserved; threeprimaryprovider sources and independent ratio-versus-cash math",
+      "submission": "IndexNow3URLsHTTP200/livekeyverified; GSCsitemapconfirmed13:12:55.457Zpending/zeroerrorswarnings,notindexing. Actual prior indexed September26crawl retained, not revised receipt."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/hot-tub-buying-short-term-rental/",
       "content_commit": "afaaffe",
       "verified_live_at": "2026-10-07T12:49:27.602495+00:00",
