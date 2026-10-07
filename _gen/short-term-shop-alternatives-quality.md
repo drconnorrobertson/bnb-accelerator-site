@@ -1,0 +1,9 @@
+# Short Term Shop alternatives owner refresh — October 7, 2026
+
+Existing canonical owner, not a new blog intent or 509 credit. Substantive overlap review included its direct-versus owner, buyer-agent versus acquisition-team article and service responsibility matrix. Develop this existing owner rather than duplicate generic agent comparisons.
+
+Primary materials reviewed October 7: https://theshorttermshop.com/how-to-buy-a-short-term-rental/ (March 11, 2026) and https://www.nar.realtor/the-facts/consumer-guide-to-negotiating-written-buyer-agreements . Fairly acknowledge advertised post-closing training and vendor connections; no unsupported absence-of-service claims or verified client outcomes. BNB published process is not evidence of an executed engagement's scope. Commercial-interest and document-based-not-firsthand disclosures retained and strengthened.
+
+Original decision support: same-property representation, candidate memo, fee register, buyer decision authority and launch handoff checks. Fictional arithmetic independently reviewed: 175+18+30+12+40=275 thousand; 14−10.5=3.5; 275+3.5+9=287.5; 275+3.5+12=290.5; absent other-party compensation, 298/301 thousand. Reserves counted once, broker compensation excluded from closing-cost assumption, alternative service fees never stacked. No provider prices, standard commissions or tax/return promises.
+
+Original September 27 publication, title/H1/author/canonical and shared design/application flow retained. Article dateModified and only this core-sitemap lastmod moved to October 7 for substantive change. No prior FAQ schema to reconcile. Only two public source paths changed. All repository build, buyer-intent, nonhome SEO/design, preclosing, precall and content audit checks passed; complete scoped diff reviewed. Source and built homepage hashes unchanged. Live and submission evidence recorded separately after deployment; eligibility is not confirmed indexing.
