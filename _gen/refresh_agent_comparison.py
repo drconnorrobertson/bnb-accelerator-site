@@ -1,0 +1,42 @@
+"""Expand only the existing agent comparison and its core-sitemap entry."""
+import html,json,re
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];p=R/'compare/bnb-accelerator-vs-real-estate-agent/index.html';t=p.read_text()
+marker='<section class="section-sm"><div class="wrap wrap-narrow"><h2>Read the scope before choosing</h2>'
+assert marker in t and 'Original compensation cash bridge' not in t
+addition='''<section class="section-sm"><div class="wrap wrap-narrow"><h2>Buyer fit: agent, coordinator, or both?</h2>
+<p>An STR-experienced agent may be sufficient when you have a supported buy box, can accept the analysis delivered and have assigned the remaining diligence and launch work. An acquisition coordinator may fit when you need broader market screening or a property-level decision process and cannot manage the handoffs yourself. Hiring both only makes sense when their written scopes close identifiable gaps without conflicting commitments.</p>
+<p>For a named agent-led alternative, <a href="https://theshorttermshop.com/" target="_blank" rel="noopener">The Short Term Shop</a> describes local agents helping investors buy and sell, with education. That describes positioning, not the scope of your specific agent. Compare its <a href="/compare/alternatives-to-the-short-term-shop/">existing alternatives guide</a>. BNB's <a href="/how-it-works/">published acquisition process</a> describes sourcing, underwriting, transaction coordination and vendor pairings, while reserving funding and final decisions to the buyer and licensed professional work to the appropriate advisers. Actual engagement terms control; neither page substitutes for a signed agreement.</p>
+</div></section>
+<section class="section-sm bg-alt"><div class="wrap"><h2>Original uncovered-work acceptance sheet</h2>
+<p>Give the agent and coordinator the same candidate address. Record the promised output, who produces it, which evidence lets you accept it, the deadline and any separate payment. Mark an introduction as an introduction—not completed execution. This example is a buyer's work-request template, not a statement of either provider's contract.</p>
+<div class="bc-table-scroll" role="region" aria-label="Uncovered acquisition work" tabindex="0"><table><thead><tr><th scope="col">Purchase gate</th><th scope="col">Requested evidence</th><th scope="col">Gap to assign before an offer</th></tr></thead><tbody>
+<tr><th scope="row">STR-use permission</th><td>Address-specific authority/association records and unresolved restrictions</td><td>Who obtains the records and which qualified adviser interprets them?</td></tr>
+<tr><th scope="row">Purchase ceiling</th><td>Revenue sources, expense stack, loan assumptions and a downside model</td><td>Who updates the offer ceiling after inspection or financing changes?</td></tr>
+<tr><th scope="row">Contract deadlines</th><td>Executed terms, evidence dates, responsible professional and notice process</td><td>Who tracks dates and who is authorized to deliver notices?</td></tr>
+<tr><th scope="row">Opening readiness</th><td>Itemized furnishing/setup scope, quotes, responsible vendors and acceptance dates</td><td>Who coordinates delivery and who approves incremental spending?</td></tr>
+</tbody></table></div><p>If the agent already delivers an acceptable output, do not buy it again merely because a second proposal uses a different name. If nobody owns a critical task, assign it before paying for an apparently complete package. A list of preferred vendors alone does not resolve readiness or additional costs.</p>
+</div></section>
+<section class="section-sm"><div class="wrap wrap-narrow"><h2>Separate brokerage compensation from acquisition-service fees</h2>
+<p><a href="https://www.nar.realtor/the-facts/consumer-guide-to-written-buyer-agreements" target="_blank" rel="noopener">NAR's written-buyer-agreement guide</a> explains that services, duration and compensation can be negotiated; compensation must be clearly defined. Seller or seller-agent payment may be negotiated, but it is not automatic. Changes and exit conditions depend on the agreement and applicable law. Ask the broker and local counsel to explain the actual terms rather than treating this consumer guide as a universal investment-property contract rule.</p>
+<p>Put each brokerage and separate service obligation on its own line: agreed amount or calculation, payer, earning trigger, due date, any written offset and no-purchase/termination treatment. Obtain confirmation of seller-funded compensation and lender/closing treatment before reducing buyer cash. A promised seller contribution, anticipated fee waiver or refund that has not cleared is not usable purchase money. See the <a href="/blog/str-buyer-agent-vs-acquisition-team/">detailed two-agreement test</a> for overlap, carryover and decision-rights review.</p>
+<h3>Original compensation cash bridge</h3>
+<p><strong>Hypothetical only—not actual agent or BNB fees, a loan quote or a client result:</strong> a buyer has $360,000 available. The same candidate requires $200,000 down payment, $20,000 ordinary closing costs, $35,000 furnishings, $10,000 repairs and $40,000 protected operating reserves: $305,000 before the separately listed service costs. Ordinary closing costs here exclude all compensation shown below.</p>
+<p>Assume agreed buyer-agent compensation is $18,000, of which a documented seller payment covers $12,000 under the accepted terms. Buyer-paid compensation is $6,000. The agent-only path additionally needs $12,000 of uncovered launch coordination: total allocation $323,000, leaving $37,000 unallocated. A combined path adds a separate $25,000 acquisition fee and $4,000 of uncovered launch work: $340,000 total, leaving $20,000. The $17,000 difference buys a specified different scope; it is not proof of superior outcomes or equivalent deliverables.</p>
+<p>If the assumed $12,000 seller payment is unavailable and the same $18,000 obligation remains, rerun both paths without it. Agent-only becomes $335,000 with $25,000 unallocated; combined becomes $352,000 with $8,000. An additional $10,000 repair would then leave $15,000 on agent-only and create a $2,000 shortfall on the combined path without using the protected reserve. Actual compensation, loan rules and invoices must be verified; no offset between the agent and acquisition fees is assumed.</p>
+<p>Choose the agent-only path when its verified scope meets your needs and you can manage the remaining work. Consider both when the added outputs justify their cost and the complete downside budget still works. Renegotiate duplicated work, unclear fees or decision authority; pause when a critical permission, lending or contractual answer is unresolved. Do not sign a second engagement to rescue an unsuitable property or assume a tax benefit funds the gap.</p>
+</div></section>
+'''
+t=t.replace(marker,addition+marker)
+t=t.replace('Updated October 1, 2026.','Source review and meaningful update: October 7, 2026. Originally published August 11, 2026. This is document-based analysis, not firsthand provider testing or an independent ranking. BNB is the interested acquisition-service publisher; no private engagement agreement was authenticated. Sources above describe published roles and consumer guidance, not guaranteed scope or results. Educational information only—not legal, tax, lending or personalized investment advice. Use independent qualified professionals.')
+desc='Compare an STR buyer agent with BNB acquisition support using written responsibilities, fee triggers and a worked compensation-and-launch cash worksheet.'
+t=re.sub(r'(<meta (?:name="(?:description|twitter:description)"|property="og:description") content=")[^"]*(")',lambda m:m[1]+desc+m[2],t)
+def schema(m):
+ d=json.loads(m[1]);ns=d.get('@graph',[d])
+ for n in ns:
+  if n.get('@type')=='Article':n.update(dateModified='2026-10-07',description=desc)
+ return '<script type="application/ld+json">\n'+json.dumps(d,indent=2)+'\n</script>'
+t=re.sub(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',schema,t,flags=re.S)
+p.write_text(t)
+s=R/'sitemap-core.xml';v=s.read_text();v,n=re.subn(r'(<loc>https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-real-estate-agent/</loc>\s*<lastmod>)[^<]+',r'\g<1>2026-10-07',v);assert n==1;s.write_text(v)
+print('Expanded existing comparison; original publication and outer flow preserved; no new FAQ schema or new509 page.')
