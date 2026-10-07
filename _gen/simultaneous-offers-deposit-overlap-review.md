@@ -1,0 +1,18 @@
+# Simultaneous offers and trapped-deposit coverage screen — October 7, 2026
+
+Current main c2718ab; clean and safely synchronized before review. Bounded SEO-audit content-gap method used under the user's scope; no homepage audit, competitor rankings, demand estimates or legal conclusions invented. Full substantive bodies and visible FAQs/purchase checks read for these four owners. The initially truncated early-release passage was recovered and read in full before deciding.
+
+| Existing owner | Substantive purchase decision already answered |
+| --- | --- |
+| /blog/buy-two-short-term-rentals-at-once/ | Combined lender review of both pending purchases, disclosure of interdependent files, simultaneous reserve treatment versus real closing cash, combined weekly cash timing, separate property stop rules, shared launch bottlenecks and simultaneous/sequential/neither branches. Includes a labeled $300,000 available / $230,000 launches / $70,000 remainder example with two-month $24,000 shared downside. |
+| /blog/earnest-money-amount-str-offer/ | Deposit size and staging versus proof dates, signed contract controls, cash-at-risk matrix, escrow verification and avoiding double counting a credited deposit. Labeled $5,000 plus $10,000 staged versus $15,000 immediate structures do not imply universal refund rights. |
+| /blog/earnest-money-release-str/ | Seller-controlled versus held money, surviving remedies, professional-review matrix, delayed/no refund and replacement-purchase funding. Labeled $300,000 less $30,000 held deposit and $4,000 diligence leaves $266,000 accessible; a $275,000 replacement requires $9,000 before any cleared refund. Held/released receipt scenarios are separately modeled; no legal refund guarantee. |
+| /blog/buy-str-portfolio-seller-package/ | Mandatory bundle composition versus individual asset ceilings, weakest-property rejection/removal, incremental costs and all-or-nothing/partial closing risks. Explicitly separates package buying from simultaneous purchase timing and points to that owner. |
+
+Candidate screened: **Buying two STRs with overlapping earnest-money commitments while the first deposit refund is pending.** Rejected as a new generic public guide: the combined financing/weekly-cash owner plus the early-release replacement-liquidity owner already supply the substantive decision. A new title combining the two would repeat existing answers rather than establish a materially distinct purchase-ready intent.
+
+Score: distinct intent9/25, imminent buyer29/30, evidence of real question13/15 (documented existing decision problems, not measured search demand), acquisition-service fit18/20, original decision support9/10 =78/100. Below85; no509 credit. This is not rejection of the buyer question, proof of Google duplicate intent or a conclusion that these pages need merging. Preserve all four useful owners, existing visibility and original dates. Do not mass-delete/noindex or create a provider/keyword variant.
+
+Specialized backup-offer mechanics or a jurisdiction-specific deposit-remedy procedure remain **unapproved and unscored**. They would require independent intent evidence, substantive owner/route overlap review, current primary legal sources and original decision support; this run has not established them as gaps or given legal advice.
+
+No public changes, generators, deployment or repeated indexing submissions. Register remains eight distinct live additions out of509; remaining501 is a target, not an inventory of qualified gaps. Next: other verified investor-journey gaps or warranted improvements to canonical acquisition-service owners. ACTIVEfive-minute schedule and homepage/shared-flow protections unchanged.
