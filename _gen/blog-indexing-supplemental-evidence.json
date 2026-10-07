@@ -1,6 +1,29 @@
 {
   "inspection_results": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/cost-seg-furnishings-allocation/",
+      "observed_at": "2026-10-07T07:25:50Z",
+      "observation_time_basis": "All live checks completed by this time; actual URL Inspection obtained before publication",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "live_http_status": 200,
+      "live_canonical": "https://www.bnbaccelerator.com/blog/cost-seg-furnishings-allocation/",
+      "live_text_present": true,
+      "live_noindex": false,
+      "robots_allows_googlebot": true,
+      "inbound_pages": 3,
+      "internal_targets_verified": 115,
+      "content_commit": "8d89c930dab920065a5176541713dd7d7642d4a2",
+      "indexnow_status": "Three changed live-verified canonicals HTTP200 accepted; not indexing",
+      "sitemap_submission": "Confirmed2026-10-07T07:25:50.349Z; pending download; zero reported errors/warnings",
+      "caveat": "Actual prepublication URL unknown/no crawl is not a technical-cause diagnosis or receipt of the revision. One propagation retry resolved old serving content. Exact five public artifacts, four aligned FAQs, original publication and protected homepage passed; independent55links/assets passed. No authenticated VercelREADY/log, fresh performance or conversion outcome claimed."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/phase-i-environmental-site-assessment-str-purchase/",
       "observed_at": "2026-10-07T07:07:04Z",
       "observation_time_basis": "Live checks completed by this time; actual inspection obtained before revision publication",

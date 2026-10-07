@@ -56,7 +56,7 @@
   "research_candidates": [
     {
       "candidate_intent": "Generic furnished-asset allocation or business-asset STR purchase checklist",
-      "status": "Rejected after complete six-article substantive overlap review; transfer/condition, lender cash, entity/asset scope and local liability have useful distinct existing answers. Existing furnishings-allocation note remains an unapproved purchase-specific refresh candidate requiring current primary evidence and original support; no new guide, score or fresh rule verification claimed",
+      "status": "Generic new intent rejected after complete six-article overlap review. Existing furnishings-allocation note expanded with current IRS source boundaries, original purchase-cost register and funded duplicate/missing-scope decision in 8d89c930dab920065a5176541713dd7d7642d4a2; verified live. Existing refresh only, no new URL or509credit",
       "review_brief": "_gen/furnished-asset-acquisition-overlap-screen.md",
       "counted_as_published": false
     },
@@ -287,6 +287,15 @@
     }
   ],
   "separately_counted_existing_refreshes": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/cost-seg-furnishings-allocation/",
+      "content_commit": "8d89c930dab920065a5176541713dd7d7642d4a2",
+      "verified_live_at": "2026-10-07T07:25:50Z",
+      "validation": "1329words/sevenminutes/four alignedFAQs; required checks/full scoped diff;743otherarchivecards preserved; exact five changed public artifacts;115live internal targets/3inbound pages; independent55links/assets; homepage/assets/sharedmodules unchanged",
+      "decision_support": "Five-row source register; original857k/854k raw cost reconciliation versus292k/289k cash requirement; distinct9k missing setup plus4k carry creates302kneed against300kfunds,2kgap; no claimed basis/deduction/refund or double-counted included value",
+      "submission": "IndexNow3changedcanonicalsHTTP200; meaningfully changed blog sitemap confirmed07:25:50.349Z/pending. Actual prepublication URLunknown/no lastcrawl is not a technical-cause or revised indexing finding",
+      "counted_toward_509": false
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/phase-i-environmental-site-assessment-str-purchase/",
       "content_commit": "9ca5d3f632effe5590ee242bf8c0c9b170c62dbf",
