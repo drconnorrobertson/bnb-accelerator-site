@@ -24,7 +24,7 @@ class Node:
         content = ''.join(c.html() if isinstance(c, Node) else escape(c) for c in self.children)
         allowed = {'class', 'href', 'src', 'alt', 'title', 'data-cols', 'loading', 'allow', 'allowfullscreen'}
         attrs = {k:v for k,v in self.attrs.items() if k in allowed}
-        if self.tag == 'a': attrs.update(target='_blank', rel='noopener noreferrer')
+        if self.tag == 'a': attrs.update(target='_self', rel='noopener noreferrer')
         if self.tag == 'iframe': attrs.update(loading='lazy', referrerpolicy='strict-origin')
         attr = ''.join(' '+k+(('="'+escape(v, quote=True)+'"') if v is not None else '') for k,v in attrs.items())
         if not self.tag: return content

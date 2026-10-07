@@ -17,13 +17,17 @@ for (const xml of ['sitemap-core.xml','sitemap-blog.xml','sitemap-investor-guide
 for (const anchor of ['checklist','process','deals','case-studies','questions']) {
   assert(source.includes(`id="${anchor}"`) && source.includes(`href="#${anchor}"`));
 }
-assert.equal((source.match(/<iframe\b/g) || []).length, 22, 'Keep all original resource videos');
+assert.equal((source.match(/<iframe\b/g) || []).length, 21, 'Keep valid source videos; label the malformed source ID');
 assert.equal((source.match(/class="bnb-img"/g) || []).length, 15, 'Keep original visual case studies');
 assert.equal((source.match(/data-youtube=/g) || []).length, 3, 'Keep introduction and both testimonial videos');
 const dealSection = source.slice(source.indexOf('id="deals"'),source.indexOf('id="case-studies"'));
 assert.equal((dealSection.match(/<li>/g) || []).length, 103);
 assert.match(source, /not a representative performance sample/);
 assert.match(source, /not a current offer/);
+assert.doesNotMatch(source, /target="_blank"/, 'Resources must not depend on popup/new-tab support');
+assert.equal((source.match(/class="embed-fallback"/g) || []).length, 21, 'Each valid embedded resource needs a direct video fallback');
+assert.doesNotMatch(source, /embed\/TD07X-8Rok/);
+assert.equal((dealSection.match(/Video not provided/g) || []).length, 3, 'Do not present missing source URLs as working links');
 for (const [,href] of source.matchAll(/href="([^"]*)"/g)) assert(!/^(?:javascript:|data:)/i.test(href));
 
 const events = {}, status = {}, search = {value:'Mesa',addEventListener:(type,fn)=>events[type]=fn};
