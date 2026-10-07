@@ -1,0 +1,60 @@
+"""Scoped existing flood acquisition note; preserve preclosing questions/schema."""
+import html,json,re,math
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+SLUG='flood-zone-str-underwriting'
+DESC='Before an STR offer, separate flood mapping, actual insurance terms, access and downtime; compare a labeled premium and interruption cash scenario.'
+BODY='''<p class="lead">Flood-zone risk should change an STR offer when address-specific evidence changes feasible use, insurance, required work, launch timing or the buyer's funded downside. A map designation alone is not a price adjustment or a promise of safety. For an affluent buyer planning a purchase within six months, separate the building's flood information from access, utilities, insured losses and interrupted bookings. A high income or large expected tax benefit does not replace that review.</p>
+<p><a href="/apply/">Compare the actual flood evidence and funded alternatives with BNB Accelerator</a>. The acquisition team can integrate findings within its agreement; qualified insurance, technical and legal professionals make their own determinations.</p>
+<h2>Use maps as evidence, not a complete property conclusion</h2>
+<p>The <a href="https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-risk">NFIP's flood-risk guidance</a> explains that flooding remains possible outside mapped high-risk areas. It considers location and building characteristics, not just a zone name. Its online ZIP-code display says results use census-tract data; it is not a surveyed elevation or a parcel-specific determination. Do not import national claim statistics as this property's probability or expected loss.</p>
+<p>Collect the effective map and panel date, relevant map-change records, available elevation documentation and the exact building footprint. Have the appropriate professionals and local authorities resolve what each record means for the actual site and proposed work. Preserve uncertainty if an elevation record is missing, old or inconsistent with today's structure. A seller's statement that flooding never occurred is not independent proof of condition, future risk or lawful improvements.</p>
+<p>Request available disclosures, past repair and permit records and claims information through authorized channels. Have qualified inspectors investigate material indications rather than concluding from fresh finishes. Include guest access, parking, electrical and mechanical systems and the actual route to the building. A dry living area does not prove an accessible, safe or rentable property during an event.</p>
+<h2>Keep insurance, lender and permission answers separate</h2>
+<p>The <a href="https://agents.floodsmart.gov/articles/protecting-businesses-flood-insurance">NFIP's November 2024 business-coverage guidance</a> separates building from contents coverage, with their own limits and deductibles, and identifies business interruption and loss of use as outside that coverage. It also describes limitations for certain outdoor and basement property. This is program guidance, not proof that an STR takes a particular policy form or that private coverage has the same wording.</p>
+<p>Disclose the intended rental use, ownership, location, layout, contents and amenities to a licensed insurance professional. Ask which actual NFIP or private proposal is suitable, what it covers and what remains unresolved. Do not select residential versus commercial treatment from an LLC name or average guest stay alone. Review the actual policy forms and endorsements, cause-of-loss definitions, valuation, limits, deductibles and exclusions.</p>
+<div class="table-wrap"><table><thead><tr><th>Question before the offer becomes firm</th><th>Separate evidence</th></tr></thead><tbody>
+<tr><td>What flood information applies?</td><td>Current official mapping, elevation/site records and qualified interpretation</td></tr>
+<tr><td>What could need correction?</td><td>Condition findings, permitted scope and qualified installed-cost estimates</td></tr>
+<tr><td>What losses are insured?</td><td>Actual suitable forms and adviser answers for building, contents and other exposure</td></tr>
+<tr><td>What happens to bookings and cash?</td><td>Access/utility/repair scenarios and dated owner-funded downside</td></tr>
+<tr><td>What does the lender or authority require?</td><td>Written lender acceptance and separate local permission/work determinations</td></tr>
+</tbody></table></div>
+<p>Lender acceptance is not confirmation that the owner is economically whole. Likewise, an insurance quote does not permit guest use or alterations. The <a href="/blog/floodplain-substantial-improvement-str-renovation/">substantial-improvement guide</a> covers the separate official renovation determination; do not repeat its structure-value worksheet with purchase price as a substitute. The <a href="/blog/coastal-corrosion-capex-str/">coastal condition note</a> addresses another distinct physical cost question.</p>
+<h2>Resolve the effective date rather than assuming closing fixes it</h2>
+<p>The <a href="https://www.floodsmart.gov/get-insured/buy-a-policy">NFIP buying guidance</a> describes a usual 30-day waiting period and exceptions, including certain mortgage-linked purchases. Ask the adviser to establish which rule applies, the required application/payment steps and the actual effective date. Do not declare every cash closing protected immediately or apply NFIP timing automatically to a private policy. Confirm ownership, possession, planned works and first guests against the reviewed coverage timetable.</p>
+<p>Use the <a href="/blog/str-insurance-quote-before-purchase-offer/">pre-offer quote register</a> for binding conditions and deadlines. Counsel determines whether the real purchase contract permits additional review, an extension, renegotiation or termination. A seller credit does not eliminate a waiting period, make a policy effective or provide a lawful repair plan.</p>
+<h2>Original operating downside: lost receipts are not another invoice</h2>
+<p>Invented arithmetic only, not a market forecast, premium quote, predicted flood, settlement or client outcome. Assume an otherwise supported annual operating-cash case is $8,000 after the original insurance allowance. A suitable proposal adds $2,400 of annual insurance cost, reducing that case to $5,600 before other changes. Use the actual proposal in a real decision; neither number is a typical premium or return.</p>
+<p>Now assume a hypothetical event prevents 16 planned nights at $375 of gross receipts per night. Those $6,000 of missing receipts avoid an assumed 25% variable expense, or $1,500. The lost cash contribution is therefore $4,500. Assume another $3,000 of distinct cleanup bills and $1,200 of genuinely additional net carrying costs, neither included in the existing expense case or the other work line. This exercise assumes no insurance proceeds received.</p>
+<div class="table-wrap"><table><thead><tr><th>Hypothetical adjustment</th><th>Annual cash reconciliation</th></tr></thead><tbody>
+<tr><td>Starting cash after revised insurance</td><td>$8,000 − $2,400 = $5,600</td></tr>
+<tr><td>Missing contribution, not gross counted twice</td><td>$6,000 − $1,500 = $4,500 reduction</td></tr>
+<tr><td>Distinct additional bills</td><td>$3,000 + $1,200 = $4,200</td></tr>
+<tr><td>Combined hypothetical annual case</td><td>$5,600 − $4,500 − $4,200 = −$3,100</td></tr>
+</tbody></table></div>
+<p>The $8,700 combined event deterioration is lost contribution plus distinct extra bills, not $6,000 added again as a repair invoice. Verify truly avoided costs and additional carry in the real ledger. This is a sensitivity, not an expected annual loss or a claim calculation. Do not add a deductible again if already reflected in a net owner-outflow estimate. Do not assume NFIP income reimbursement offsets the lost bookings.</p>
+<p>Annual arithmetic does not establish cash available when invoices fall due. Separately list the $4,200 of bills by date, missing operating receipts, available retained liquidity and all other obligations. Test no proceeds and delayed proceeds independently. A projected later settlement, refund or salary receipt is not money already accessible. Price correction and retained reserves must fit before accepting the exposure.</p>
+<h2>Turn the evidence into a purchase decision</h2>
+<p>Proceed when lawful use and feasible work are resolved, the actual coverage path and lender conditions fit, and the buyer accepts and can fund the supported residual downside. Reprice or compare another property when verified costs change the acquisition case. Preserve valid contract protection while decisive records are missing. Decline a deal that only works by ignoring access, assuming income coverage or spending unreceived funds.</p>
+<p><a href="/apply/">Bring the flood evidence register, actual proposal and dated cash case to an acquisition call</a>. Continue through the <a href="/blog/buy-str-high-income-large-tax-bill/">high-income buyer roadmap</a>. Keep seller, claims and financial documents in agreed secure channels. BNB Accelerator is not an insurance adviser, engineer, surveyor or law firm.</p>
+<p class="small">NFIP primary guidance reviewed October 7, 2026; the business article is dated November 2024, not a new 2026 contract. Educational only, not insurance, claims, legal, engineering, lending, tax or personalized investment advice. All example numbers are invented. No coverage, permission, payment, refund, demand or investment result is guaranteed.</p>'''
+if __name__=='__main__':
+ p=ROOT/'blog'/SLUG/'index.html';s=p.read_text();assert '"datePublished": "2026-09-23"' in s
+ section=re.search(r'<!-- preclosing-keywords:start -->.*?<!-- preclosing-keywords:end -->',s,re.S)[0]
+ author=re.search(r'<div class="author-box">.*?</div>\s*</div>',s,re.S)[0]
+ body=BODY+section+'\n'+author;words=len(html.unescape(re.sub('<[^>]+>',' ',body)).split());minutes=max(6,math.ceil(words/210))
+ s=re.sub(r'(<article class="article">).*?</article>',lambda m:m[1]+'\n'+body+'\n</article>',s,count=1,flags=re.S)
+ for name in ['description','og:description','twitter:description']:s=re.sub(r'(<meta (?:name|property)="'+name+r'" content=")[^"]*(")',lambda m:m[1]+html.escape(DESC,quote=True)+m[2],s)
+ def schema(m):
+  d=json.loads(m[2])
+  for n in d.get('@graph',[d]):
+   if n.get('@type') in ['Article','BlogPosting']:n.update(description=DESC,dateModified='2026-10-07',wordCount=words)
+  return m[1]+json.dumps(d,indent=2)+m[3]
+ s=re.sub(r'(<script[^>]*type="application/ld\+json"[^>]*>)(.*?)(</script>)',schema,s,flags=re.S)
+ s=s.replace('<span>Updated October 6, 2026</span>','<span>Updated October 7, 2026</span>',1);s=re.sub(r'<span>\d+ min read</span>',f'<span>{minutes} min read</span>',s,count=1);p.write_text(s)
+ p=ROOT/'blog/index.html';s=p.read_text();cards=re.findall(r'<article class="post-card".*?</article>',s,re.S);old=next(c for c in cards if '/blog/'+SLUG+'/' in c)
+ c=re.sub(r'<p>.*?</p>','<p>'+DESC+'</p>',old,count=1,flags=re.S);c=re.sub(r'data-search="[^"]*"','data-search="'+html.escape(('How Should Flood-Zone Risk Change an STR Offer? Insurance Hazard '+DESC).lower(),quote=True)+'"',c);c=re.sub(r'<span>\d+ min read</span>',f'<span>{minutes} min read</span>',c,count=1);p.write_text(s.replace(old,c,1))
+ p=ROOT/'blog/buy-str-high-income-large-tax-bill/index.html';s=p.read_text();assert 'data-flood-underwriting-review-link' not in s;s=s.replace('<div class="author-box">','<p data-flood-underwriting-review-link>Before using a flood-zone label as a price adjustment, compare the <a href="/blog/flood-zone-str-underwriting/">evidence register and premium/interruption cash scenario</a>. Insurance, permission, access and available funds are separate gates.</p>\n<div class="author-box">',1);p.write_text(s)
+ p=ROOT/'sitemap-blog.xml';s=p.read_text();s,n=re.subn(r'(<loc>https://www.bnbaccelerator.com/blog/'+SLUG+r'/</loc>\s*<lastmod>)[^<]+',r'\g<1>2026-10-07',s);assert n==1;p.write_text(s)
+ print(f'Existing refresh:{words}words/{minutes}minutes; five original FAQ/preclosing answers retained')
