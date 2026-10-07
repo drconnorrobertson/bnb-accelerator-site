@@ -18,6 +18,16 @@
   "verified_live_new_pages": 8,
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/str-search/",
+      "content_commit": "8a42d27c052e56c1a88ec5f68defc6c1a200b343",
+      "verified_at": "2026-10-07T14:49:40.649844+00:00",
+      "evidence": "_gen/str-search-versus-live-evidence.json",
+      "counted_toward_509": false,
+      "indexnow_status": "One verified changed canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "Changed core sitemap confirmed submitted14:49:56.634Z pending zero reported errors/warnings",
+      "google_indexing_evidence": "Earlier actual URLunknown/no reportedcrawl preserved; no repeated immediate Inspection; eligibility not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/alternatives-to-rabbu/",
       "content_commit": "a03d2e163760cd552c5e9f0353f2308c3166d3f1",
       "verified_at": "2026-10-07T14:28:48.795942+00:00",
