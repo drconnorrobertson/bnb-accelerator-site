@@ -614,6 +614,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-complaint-permit-revocation/",
+      "content_commit": "05799442d9d1424817ac044efc88d58128bf59dd",
+      "verified_live_at": "2026-10-07T21:06:02.462975+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/complaint-history-live-evidence.json",
+      "validation": "1278words/sixminutes/threealignedFAQs; requiredchecks/full scoped diff/primary Nashville/independent case-and-cash worksheet/similarity0.021;58live linkedtargets/fiveinbound; original publication/homepage/shared flow preserved",
+      "submission": "IndexNowthreechangedcanonicalsHTTP200;blog sitemap confirmed21:06:17.256Zpending/zero reportederrorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-license-renewal-calendar/",
       "content_commit": "f14a59f171f56f6e5a23a27723f3f67c997d555a",
       "verified_live_at": "2026-10-07T20:35:27.546417+00:00",
