@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: vendor-access first actual indexing baseline
+
+FirstactualInspectionOctober8T02:37:24.241538UTC ID0ab3a3e6-5f59-4e9f-9e24-928769ff9f56:NEUTRAL/URLunknown;robots/indexing/fetch unspecified,no reportedcrawl/useragent/referrals. Completefilteredhistoryzero before/oneafter/hasMorefalse. Not technicalcause, duplication, trend or revisedbodyreceipt. Independent02:35:14 liveeligibility remains separate; historicalnotreturnedperformance retained. Evidencevendor-access-indexing-baseline-2026-10-07.json; inventory/register updated. No publicchanges/repeatedsubmissions/new509credit;62existing/eightnew remain distinct. Allowcrawl time and continue substantivebuyerwork; ACTIVEfive-minute schedule unchanged.
+
 ## October 7: vendor-access purchase guide verified live
 
 Content64ac7ca610d96c803860161b15299e0fd943ff59 exactliveOctober8T02:35:14.130789UTC afterone30secondpropagationretry:fourartifacts/55links-assets/3inbound/1252words/fourFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/oneOct7XMLlastmod/originalSep23/homeexact. Requiredsevenchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.016/math pass. IndexNowthreechangedcanonicalsHTTP200;blogXML02:35:28.166Zconfirmedpending0reportederrorswarnings. ActualGoogleunknown fromcompleteemptyhistory, not exclusion or revisedbodyreceipt. Evidencevendor-access-purchase-live-evidence.json. Existing substantiveblogrefresh62/new8of509/sixcorrections/comparison15/resource7 separate. Next firstactualindexingbaseline and distinct service-selection buyer evidence; ACTIVEfive-minute schedule preserved.

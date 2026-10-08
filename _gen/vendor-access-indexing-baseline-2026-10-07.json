@@ -1,0 +1,53 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/vendor-smart-lock-access/",
+  "requested_at": "2026-10-08T02:37:24.241538+00:00",
+  "inspection_id": "0ab3a3e6-5f59-4e9f-9e24-928769ff9f56",
+  "content_commit": "64ac7ca610d96c803860161b15299e0fd943ff59",
+  "before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "actual": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/vendor-smart-lock-access/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "0ab3a3e6-5f59-4e9f-9e24-928769ff9f56",
+        "url": "https://www.bnbaccelerator.com/blog/vendor-smart-lock-access/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-08T02:37:24.241538+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "limits": "First actual Google inspection; NEUTRAL/URL unknown is not a diagnosed technical cause or proof of duplication. No reported crawl or receipt of revised body. Independent live eligibility remains separately recorded. No repeated sitemap/IndexNow submission or new509 credit."
+}

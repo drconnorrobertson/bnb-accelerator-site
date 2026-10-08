@@ -25,6 +25,8 @@
   }],
   "propagation_retry": "One30-second retry after initial exact-body mismatch; no defect inferred",
   "stored_inspection_history": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "technical_cause_established": false},
+  "indexing_baseline": "_gen/vendor-access-indexing-baseline-2026-10-07.json",
+  "actual_google_inspection": {"requested_at": "2026-10-08T02:37:24.241538+00:00", "inspection_id": "0ab3a3e6-5f59-4e9f-9e24-928769ff9f56", "verdict": "NEUTRAL", "coverage_state": "URL is unknown to Google", "last_crawl_time": null, "technical_cause_established": false},
   "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
   "blog_sitemap": {"lastSubmitted": "2026-10-08T02:35:28.166Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": 0, "reported_warnings": 0},
   "limits": "Serving/eligibility/submission checks are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status claim. Empty complete stored history is not exclusion evidence."
