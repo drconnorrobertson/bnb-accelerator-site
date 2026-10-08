@@ -51,7 +51,21 @@
       "note": "No rows matched."
     }
   },
-  "confirmed_indexing": "unknown; complete filtered stored history empty before publication; no actual Inspection yet",
+  "confirmed_indexing": "First actual Inspection: Discovered - currently not indexed; no reported Google crawl; not a diagnosed barrier or revised-body receipt",
   "performance": "Not queried this batch; preserve historical inventory values",
-  "deployment": "Exact production artifacts after one30second propagation retry; no authenticated Vercel dashboard claim"
+  "deployment": "Exact production artifacts after one30second propagation retry; no authenticated Vercel dashboard claim",
+  "actual_inspection": {
+    "observed_at": "2026-10-08T10:15:22.595689+00:00",
+    "id": "849113dc-bd69-4ff5-86d9-2ae24a3e7da6",
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/lost-rental-income-limit-str/",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  }
 }
