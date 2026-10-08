@@ -18,6 +18,18 @@
   "verified_live_new_pages": 8,
   "separately_recorded_accuracy_corrections": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+      "content_commit": "e680ff832799fe0477fa78eca93d81a939415a81",
+      "verified_live_at": "2026-10-08T04:14:14.016411+00:00",
+      "evidence": "_gen/tennessee-legacy-correction-live-evidence.json",
+      "actual_google_indexing": "Unknown: complete filtered stored URL Inspection history returned zero before correction; missing history is not exclusion evidence; no actual Google crawl or indexing claim",
+      "counted_toward_509": false,
+      "counted_as_substantive_expansion_batch": false,
+      "correction": "Remove unsupported cap/rate, stability, timing and mismatched wage-tax conclusions; bounded current MTAS advisory/Nashville sources, ownership-event register and hypothetical no-continuity cash branches; preserve original publication/URL/author/flow/three FAQ questions",
+      "validation": "Required checks plus RevPAR/fullfourpublicdiff/similarity0.013/745unrelatedcards/homehashes/math; four exact public artifacts/59 linked destinations-assets/4 inbound/Googlebot-UA200",
+      "submission": "Three changed canonicals IndexNow HTTP200; blogXML accepted/confirmed 2026-10-08T04:14:28.135Z pending/zero reported errors and warnings; not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/the-refund-loop-explained/",
       "content_commit": "599a53888c07901e0befaff648724308fc7e138f",
       "verified_live_at": "2026-10-08T02:08:31.551405+00:00",

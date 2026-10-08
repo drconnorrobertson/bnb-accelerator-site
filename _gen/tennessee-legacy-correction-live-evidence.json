@@ -1,0 +1,50 @@
+{
+  "content_commit": "e680ff832799fe0477fa78eca93d81a939415a81",
+  "verified_at": "2026-10-08T04:14:14.016411+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 59,
+  "deployment_propagation": "Initial exact-body mismatch; single 30-second propagation retry passed",
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+      "canonical": "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "publication_date": "2026-08-15",
+      "modified_date": "2026-10-08",
+      "words": 1264,
+      "matched_faqs": 3,
+      "sitemap_entries": 1,
+      "sitemap_lastmod": "2026-10-08",
+      "inbound_public_pages": 4,
+      "internal_targets": 59,
+      "googlebot_ua_http_200": true
+    }
+  ],
+  "indexnow": {
+    "changed_urls": [
+      "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+      "https://www.bnbaccelerator.com/blog/",
+      "https://www.bnbaccelerator.com/blog/buy-str-high-income-large-tax-bill/"
+    ],
+    "http_status": 200,
+    "meaning": "Accepted for processing, not confirmed indexing"
+  },
+  "google_sitemap": {
+    "url": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+    "accepted": true,
+    "confirmed": true,
+    "last_submitted": "2026-10-08T04:14:28.135Z",
+    "pending": true,
+    "reported_errors": 0,
+    "reported_warnings": 0,
+    "meaning": "Submission confirmation, not indexing"
+  },
+  "actual_google_indexing": "Unknown: complete filtered stored URL Inspection history returned zero before correction; missing history is not exclusion evidence; no actual Google crawl or indexing claim",
+  "limits": "Serving/eligibility checks are not actual Google crawl, browser rendering, indexing, search or conversion gains. No authenticated Vercel deployment status asserted. GA4 authenticated scope unavailable (no_scope), not zero conversions."
+}
