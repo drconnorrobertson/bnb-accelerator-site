@@ -733,6 +733,18 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-maintenance-response-sla/",
+      "content_commit": "f3be4ff1b1c0fd3380f8c86e8cbdc1f6b4b2b718",
+      "verified_live_at": "2026-10-08T05:02:53.231987+00:00",
+      "evidence": "_gen/maintenance-sla-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/maintenance-sla-indexing-baseline-2026-10-08.json",
+      "actual_google_indexing": "Prior actual04:47:35.994423UTC NEUTRAL/Discovered-currently-not-indexed/no reportedcrawl retained; not revised-body receipt, trend or diagnosed cause",
+      "counted_toward_509": false,
+      "improvement": "Original accepted-address response-clock register, unavailable-buyer authorization branch and hypothetical retainer/work/launch-cash comparison with bounded current Airbnb primary evidence",
+      "validation": "Required checks plus RevPAR/fullfourpublicdiff/745othercards/math/homehashes/similarity0.018;exactfourartifacts/56links/3inbound/fourmatchedFAQs/GooglebotUA200",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXML2026-10-08T05:03:07.791Zacceptedconfirmedpending/zero reportederrorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/primary-residence-str-rule/",
       "content_commit": "810edf77a3bf1f6a6011023ea89a86eb898982b6",
       "verified_live_at": "2026-10-08T04:34:47.088541+00:00",
