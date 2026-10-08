@@ -1,0 +1,54 @@
+{
+  "history_before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "history_after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "34ba3413-5c4a-4f3e-8015-2faf63d87e33",
+        "url": "https://www.bnbaccelerator.com/compare/best-str-financing-options/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-07T07:13:05+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-08T08:48:41.52471+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "actual_google_observation": {
+    "id": "34ba3413-5c4a-4f3e-8015-2faf63d87e33",
+    "url": "https://www.bnbaccelerator.com/compare/best-str-financing-options/",
+    "verdict": "PASS",
+    "coverage_state": "Submitted and indexed",
+    "robots_txt_state": "ALLOWED",
+    "indexing_state": "INDEXING_ALLOWED",
+    "last_crawl_time": "2026-10-07T07:13:05+00:00",
+    "page_fetch_state": "SUCCESSFUL",
+    "crawled_as": "MOBILE",
+    "requested_at": "2026-10-08T08:48:41.52471+00:00"
+  },
+  "referringUrls": [
+    "https://www.bnbaccelerator.com/blog/str-cash-out-refinance/"
+  ],
+  "retry": "Initial inspection aborted with internal error; one retry returned stored observation.",
+  "interpretation": "First actual Inspection2026-10-08T08:48:41.52471UTC PASS/Submitted and indexed/ALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE;lastGooglecrawl2026-10-07T07:13:05Z predates October8 refresh. Existing indexing confirmed, not revised-body receipt or new indexing gain. Completehistoryzero before/oneafter/hasMorefalse. Separate08:45serving eligibility/submissions preserved; no unchanged repeat submission."
+}
