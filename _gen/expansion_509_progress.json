@@ -707,6 +707,15 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-owner-statement-review/",
+      "content_commit": "d24ec1b2263d4637fbe9d502fecae5bd0fba1045",
+      "verified_live_at": "2026-10-08T01:32:25.303143+00:00",
+      "counted_toward_509": false,
+      "evidence": "_gen/owner-statement-purchase-live-evidence.json",
+      "validation": "1506words/sevenminutes/four original FAQ questions aligned; requiredsevenchecks/fullfourpublicdiff/current Airbnb3632-2666/original six-field acceptance and independentfee-reserve-buyer cash/similarity0.012;58live targets-assets/3inbound;September24publication/homepage/sharedflow preserved",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T01:32:51.713Zpending/zero reportederrorswarnings;actualGoogleunknown completeemptyhistorynotexclusion"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/sell-str-with-furniture/",
       "content_commit": "449255951f8a01ce51598f50348a839baa349087",
       "verified_live_at": "2026-10-08T01:16:17.145149+00:00",

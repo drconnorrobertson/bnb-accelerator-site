@@ -1,0 +1,30 @@
+{
+  "content_commit": "d24ec1b2263d4637fbe9d502fecae5bd0fba1045",
+  "verified_at": "2026-10-08T01:32:25.303143+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 58,
+  "records": [{
+    "url": "https://www.bnbaccelerator.com/blog/str-owner-statement-review/",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/str-owner-statement-review/",
+    "canonical": "https://www.bnbaccelerator.com/blog/str-owner-statement-review/",
+    "robots_allowed": true,
+    "noindex": false,
+    "exact_public_build_match": true,
+    "server_article_text": true,
+    "publication_date": "2026-09-24",
+    "modified_date": "2026-10-07",
+    "words": 1506,
+    "matched_faqs": 4,
+    "sitemap_entries": 1,
+    "sitemap_lastmod": "2026-10-07",
+    "inbound_public_pages": 3,
+    "internal_targets": 58,
+    "googlebot_ua_http_200": true
+  }],
+  "stored_inspection_history": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
+  "blog_sitemap": {"lastSubmitted": "2026-10-08T01:32:51.713Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": 0, "reported_warnings": 0},
+  "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. Empty stored history is not proof of exclusion; no fresh Inspection requested."
+}
