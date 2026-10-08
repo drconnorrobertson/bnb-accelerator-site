@@ -1,0 +1,15 @@
+# Marketplace research versus connected concierge: ownership screen
+
+October 7, 2026; synchronized main4c3a133. Candidate: a Rabbu-discovered STR buyer deciding whether a connected concierge or a separate acquisition engagement owns the transition from listing screen to offer and opening.
+
+Read complete substantive main content for `/compare/rabbu/`, `/compare/alternatives-to-rabbu/` and `/blog/str-market-research-tools/`, including four research-tool FAQs. Initial alternatives extraction captured only its first path card; recovered the entire main before deciding. No ownership conclusion relies on a card alone.
+
+The direct comparison already separates marketplace, calculator and connected consultant/contracting entity. Its five-part evidence-to-offer register includes receipt definitions, actual costs, licensed representation, payment/rejected-candidate exposure, permission/deadline ownership and offer/launch approval. Its original cash-ceiling sample distinguishes a price reduction's down-payment effect from the loan reduction.
+
+The alternatives canonical supplies fair named research and acquisition paths, actual tier/fee/exclusion/decision-right questions, a four-part candidate register and separate operating-downside versus closing-cash examples. The research-tools canonical owns evidence definitions, public-calendar uncertainty and paid analytics versus acquisition support rather than another provider variant. Preserve all three useful formats and their contextual links.
+
+Reject the generic new marketplace-concierge-transition page:80/100 (distinct12/25, imminent buyer29/30, question evidence12/15, service fit18/20, original support9/10). Existing substantive public answers already address this decision. The score is editorial, not measured search demand, a provider rating or Google duplication/exclusion evidence. A narrower provider-specific transaction question requires independent support and another ownership review; none is approved in this screen.
+
+Independently checked existing hypothetical math. Direct comparison:118,000fixed plus150,000down =268,000;18,000distinct repair increase gives136,000fixed/286,000total/16,000gap. At584,000price,146,000down plus136,000fixed gives282,000/12,000gap; cash ceiling(270,000−136,000)/25%=536,000 uses all270,000 without assigning extra reserve or forecast income. Alternatives:120,000−24,000−30,000−48,000=18,000;90,000−18,000−30,000−48,000=−6,000, difference24,000. Distinct entry allocation253,000 creates3,000gap against250,000. These are illustrative stipulations, not authenticated lender terms, provider fees or results.
+
+This is a bounded SEO-audit content-gap screen, not renewal of the historical current-provider source claims or contractual/legal certification. No public edits, merges, redirects, noindex, new509 credit, fresh Inspection or repeated unchanged submissions. Eight new guides/60existingblog expansions/five accuracy corrections remain separately counted. Continue substantive existing-owner quality or independently supported buyer gaps while preserving homepage, shared conversion flow and ACTIVE five-minute schedule.
