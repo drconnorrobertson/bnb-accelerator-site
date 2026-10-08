@@ -813,6 +813,17 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/security-camera-privacy-str/",
+      "content_commit": "53f82eae06ea32f1d6499c671b75f7265f70bdd1",
+      "verified_live_at": "2026-10-08T11:33:34.027146+00:00",
+      "evidence": "_gen/camera-privacy-live-evidence.json",
+      "counted_toward_509": false,
+      "improvement": "Current Airbnb/Vrbo distinctions, original six-field device/control acceptance register and closing-deadline scenario",
+      "validation": "Current build, buyer intent, nonhome SEO/design, content audit, preclosing keywords, pre-call, RevPAR, similarity max0.016 and full scoped diff passed; homepage/assets/shared modules unchanged",
+      "submission": "Three changed canonical URLs accepted HTTP200 after live key verification; not confirmed indexing; Blog XML accepted/confirmed 2026-10-08T11:33:50.861Z; pending, zero reported warnings/errors; queues download, not indexing",
+      "actual_google_indexing": "Unknown in retained inventory; no fresh inspection this release. Serving eligibility is not confirmed Google indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
       "content_commit": "ee5b3d9f12e55c859891350b05faf9a972338ff8",
       "verified_live_at": "2026-10-08T11:11:39.078227+00:00",

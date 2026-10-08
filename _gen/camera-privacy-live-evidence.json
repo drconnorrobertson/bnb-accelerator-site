@@ -1,0 +1,20 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/security-camera-privacy-str/",
+  "content_commit": "53f82eae06ea32f1d6499c671b75f7265f70bdd1",
+  "verified_at": "2026-10-08T11:33:34.027146+00:00",
+  "exact_artifacts": 4,
+  "live_links_assets": 55,
+  "inbound_pages": ["sitemap/index.html", "blog/index.html", "blog/buy-str-high-income-large-tax-bill/index.html", "blog/does-ada-apply-short-term-rental/index.html"],
+  "googlebot_http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/blog/security-camera-privacy-str/",
+  "robots_allowed": true,
+  "noindex": false,
+  "article_text_present": true,
+  "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
+  "validation": "Current build, buyer intent, nonhome SEO/design, content audit, preclosing keywords, pre-call, RevPAR, similarity max0.016 and full scoped diff passed; homepage/assets/shared modules unchanged",
+  "indexnow": "Three changed canonical URLs accepted HTTP200 after live key verification; not confirmed indexing",
+  "sitemap_submission": "Blog XML accepted/confirmed 2026-10-08T11:33:50.861Z; pending, zero reported warnings/errors; queues download, not indexing",
+  "confirmed_indexing": "Unknown in retained inventory; no fresh inspection this release. Serving eligibility is not confirmed Google indexing",
+  "deployment_evidence": "First immediate probe found previous artifact; single propagation wait then exact four production artifacts passed. No authenticated Vercel build-status or browser-rendering claim",
+  "counted_toward_509": false
+}
