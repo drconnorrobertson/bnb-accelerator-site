@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/str-density-cap-waitlist/",
+  "source_commit": "b432c8a",
+  "requested_at": "2026-10-08T03:34:29.235176+00:00",
+  "inspection_id": "0f32c57b-80a4-4b18-acca-c2240ade0317",
+  "before": {"returned": 0, "hasMore": false},
+  "actual": {
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {"returned": 1, "hasMore": false, "crawled_as": null},
+  "limits": "First actual Inspection baseline, not a diagnosed technical barrier, duplication, worsening trend or body receipt. No fresh live eligibility probe performed this run; historical source eligibility and unreturned performance remain separate. No public change, repeat submission or509 credit."
+}
