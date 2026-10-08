@@ -381,3 +381,40 @@ The public build verifies that every sitemap URL has a corresponding output file
 ## October 7 calculator discovery and RevPAR upgrade
 
 Run `python3 scripts/upgrade_tools.py` to regenerate the existing buyer-tools directory and RevPAR definition worksheet. `build_public.mjs` reapplies this source before copying the public site. One owner URL covers RevPAR definition, formula and calculator queries. The browser calculator validates consistent revenue and availability inputs; no forecasts or performance claims are added. Run `node scripts/test_revpar.cjs` and `python3 audit_content.py` before publication.
+
+## October 8 BNB review evidence library
+
+`python3 _gen/expand_review_evidence.py` creates eight review-evidence pages,
+links all 32 existing cases, and exports 25 acquisition records as a public CSV.
+The public build reapplies it after other generators. Marker-based blocks are
+idempotent. Financial fields remain company-recorded, with explicit component
+reconciliation and unresolved performance definitions; no original property
+pro formas or independently verified returns are asserted.
+Run `python3 scripts/check_review_evidence.py`, `python3 audit_content.py`,
+and the existing public-build checks before publication.
+
+## Native property pro formas
+
+Supply one property JSON record in `_gen/proformas/`, following its README
+and template. `scripts/build_proformas.py` renders only reviewed published
+records, a public directory and sitemap entries. It runs during the Vercel
+build. Both good and pass verdicts require stated reasons, sources, cash
+components, operating costs and a downside case. Draft data is never copied
+to public output. Test with `python3 scripts/test_proformas.py`.
+
+## 2026 source-only property collection
+
+`scripts/build_tracker_proformas.py` uses the sanitized capture of the explicitly
+supplied `2026` tab. It does not read other tabs or linked pro forma workbooks.
+Only whitelisted property fields and extracted numeric reviewer fields are
+retained in the committed capture. Staff/client/contact/raw-note fields are
+excluded. Do not replace this file with an unsanitized workbook export.
+
+The tracker collection renders address pages, three screening groups and
+paginated market directories. Duplicate address records share one URL; history
+retains the source rows and the leading snapshot uses date-added then row order.
+Screening classifications are not verified investment returns. Every generated
+page carries the source-specific disclaimer. `sitemap-proformas.xml` contains
+all owned routes and is referenced from the sitemap index. The public build
+runs the tracker renderer after the general model renderer. It checks namespaced
+sitemap entries too. Validate with `python3 scripts/test_tracker_proformas.py`.

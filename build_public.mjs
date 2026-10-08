@@ -4,6 +4,9 @@ import { dirname, extname, join, relative } from 'node:path';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 execFileSync('python3', ['scripts/upgrade_tools.py'], {stdio: 'inherit'});
+execFileSync('python3', ['_gen/expand_review_evidence.py'], {stdio: 'inherit'});
+execFileSync('python3', ['scripts/build_proformas.py'], {stdio: 'inherit'});
+execFileSync('python3', ['scripts/build_tracker_proformas.py'], {stdio: 'inherit'});
 import { normalizeResourceLinks, resourceRoutes } from './resource_links.mjs';
 import { normalizePerformanceDisclosures } from './performance_disclosures.mjs';
 import { addMetaPixel } from './meta_pixel.mjs';
@@ -14,7 +17,7 @@ import { expandPreclosingKeywords } from './preclosing_keywords.mjs';
 const root = process.cwd();
 const out = join(root, 'public');
 const publicExtensions = new Set(['.html', '.css', '.js', '.svg', '.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.eot', '.pdf', '.mp4', '.webm']);
-const publicRootFiles = new Set(['robots.txt', 'llms.txt', 'sitemap.xml', 'sitemap-core.xml', 'sitemap-investor-guides.xml', 'sitemap-blog.xml', 'sitemap-scenarios.xml', 'sitemap-markets.xml', 'sitemap-proof.xml', 'c745eff13e89424cb1ed10f69adea860.txt']);
+const publicRootFiles = new Set(['robots.txt', 'llms.txt', 'sitemap.xml', 'sitemap-core.xml', 'sitemap-investor-guides.xml', 'sitemap-blog.xml', 'sitemap-scenarios.xml', 'sitemap-markets.xml', 'sitemap-proof.xml', 'sitemap-proformas.xml', 'c745eff13e89424cb1ed10f69adea860.txt']);
 for (const route of resourceRoutes.values()) await access(join(root, route, 'index.html'));
 await rm(out, { recursive: true, force: true });
 let copied = 0;
@@ -25,7 +28,7 @@ async function walk(directory) {
   if (entry.isDirectory()) { await walk(source); continue; }
   if (!entry.isFile()) continue;
   const path = relative(root, source);
-  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path)) continue;
+  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/review-evidence/deal-entry-fields.csv') continue;
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {
@@ -47,7 +50,7 @@ const sitemapFiles = [...publicRootFiles].filter(name => name.startsWith('sitema
 let urls = 0;
 for (const file of sitemapFiles) {
  const xml = await readFile(join(out, file), 'utf8');
- for (const [, location] of xml.matchAll(/<loc>(.*?)<\/loc>/g)) {
+ for (const [, location] of xml.matchAll(/<(?:\w+:)?loc>(.*?)<\/(?:\w+:)?loc>/g)) {
   const path = new URL(location).pathname;
   await access(join(out, path, 'index.html'));
   urls++;
