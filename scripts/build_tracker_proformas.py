@@ -54,7 +54,7 @@ CSS='''<style>
 def tag(cat):return '<span class="pf-tag '+cat+'">'+e(LABELS[cat])+'</span>'
 def page(path,title,desc,body,article=False):
  schema={'@context':'https://schema.org','@type':'Article' if article else 'CollectionPage','headline':title,'name':title,'dateModified':DATE,'url':SITE+path}
- if article:schema.update(datePublished=DATE,author={'@type':'Organization','name':'BNB Accelerator'})
+ if article:schema.update(datePublished=DATE,author={'@id':SITE+'/#organization'},publisher={'@id':SITE+'/#organization'},mainEntityOfPage={'@id':SITE+path+'#webpage'})
  body='<main id="main-content"><div class="pf-wrap">'+body+'<aside class="pf-disclaimer" aria-label="Disclaimer"><h2>Disclaimer</h2><p>'+e(DISCLAIMER)+'</p></aside></div></main>'
  return tpl.page(title=title+' | BNB Accelerator',description=desc,path=path,body=body,body_class='blog',extra_schema='<script type="application/ld+json">'+json.dumps(schema)+'</script>').replace('</head>',CSS+'</head>')
 def hero(title,text):return '<header class="pf-hero"><p>BNB Accelerator · 2026 property screening</p><h1>'+e(title)+'</h1><p>'+e(text)+'</p></header>'
@@ -121,7 +121,7 @@ def property_page(d):
   body+='<section class="pf-panel"><h2>Other tracker entries for this address</h2><p>The lead snapshot uses the most recent date-added field, then the later source row when dates match. Date added is not necessarily the last underwriting update. Each source entry remains below.</p><div class="table-scroll"><table class="pf-table"><thead><tr><th>Source row</th><th>Date added</th><th>Status</th><th>Purchase-price field</th><th>Projected income</th></tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+e(h[k] or 'Not supplied')+'</td>' for k in ['row','date','status','price','income'])+'</tr>' for h in d['history'])+'</tbody></table></div></section>'
  if d['market']!='Market not separately specified':body+='<p><a href="/proformas/markets/'+slug(d['market'])+'/">More STR deal reviews in '+e(d['market'])+'</a></p>'
  body+='<p>Source: supplied deal-flow tracker, tab “2026”, row '+str(d['history'][0]['row'])+'. No other tabs or linked workbooks used.</p>'
- return path,page(path,d['address']+' STR Pro Forma',f'Review {d["address"]}: recorded purchase price, projected annual income, property details and BNB screening classification from the 2026 tracker.',body,True)
+ return path,page(path,d['address']+' STR Pro Forma',f'{d["address"]}: STR price, projected income and screening review by BNB Accelerator.',body,True)
 def directory(path,title,ds,description,extra=''):
  output=[];size=96
  for offset in range(0,max(1,len(ds)),size):
@@ -131,7 +131,7 @@ def directory(path,title,ds,description,extra=''):
   if n>1:body+='<a href="'+(path if n==2 else path+'page-'+str(n-1)+'/')+'">Previous page</a>'
   if offset+size<len(ds):body+='<a href="'+path+'page-'+str(n+1)+'/">Next page</a>'
   body+='</nav>'
-  output.append((p,page(p,heading,heading+'. '+description+f' Directory page {n}; browse property-specific records and screening decisions.',body)))
+  output.append((p,page(p,heading,heading+f'. Page {n}: property prices, income projections and screening decisions by BNB Accelerator.',body)))
  return output
 def build():
  ds,excluded=load();outputs=[];markets=defaultdict(list);counts=Counter(d['category'] for d in ds)
