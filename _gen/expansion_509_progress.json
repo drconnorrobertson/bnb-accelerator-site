@@ -733,6 +733,18 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/cleaning-fees-gross-revenue/",
+      "content_commit": "c4496e8cfdc156b63b048c917ce4bddfa1056446",
+      "verified_live_at": "2026-10-08T05:49:32.373196+00:00",
+      "evidence": "_gen/cleaning-fees-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/cleaning-fees-indexing-baseline-2026-10-08.json",
+      "actual_google_indexing": "Prior actual05:35:33.870614UTC NEUTRAL/discoveredcurrentlynotindexed/no reportedcrawl; not revised-body receipt or observed gain",
+      "counted_toward_509": false,
+      "improvement": "Original same-reservation acceptance register, equivalent gross/net reporting comparison, allocated fee exposure, buyer-cost/turn-mix sensitivities and incremental launch cash bridge; bounded current Airbnb primary sources",
+      "validation": "Required checks plus RevPAR/fullfourpublicdiff/745othercards/math/homehashes/similarity0.014;exactfourartifacts/57links/3inbound/fourmatchedFAQs/GooglebotUA200",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXML2026-10-08T05:49:47.873Zacceptedconfirmedpending/zero reportederrorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/cleaner-capacity-peak-season/",
       "content_commit": "d1f79f8f0aa92e85fc9c630cf6e3ef9233ab2350",
       "verified_live_at": "2026-10-08T05:28:44.157776+00:00",
