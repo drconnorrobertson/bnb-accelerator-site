@@ -35,6 +35,8 @@ print(f'PASS: {len(rows)} address pages, {len(paths)} reachable routes, source-o
 counts=[]
 for d in rows:
  page=(ROOT/'proformas'/d['slug']/'index.html').read_text()
+ assert 'STR pro forma snapshot</h1>' not in page
+ assert 'STR Pro Forma</h1>' in page
  for anchor in ['property-review','screening-analysis','income-explained','model-gaps','review-steps','property-faq']:
   assert page.count('id="'+anchor+'"')==1
   assert 'href="#'+anchor+'"' in page

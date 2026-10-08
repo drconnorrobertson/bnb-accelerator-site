@@ -109,7 +109,7 @@ def longform(d):
 
 def property_page(d):
  path='/proformas/'+d['slug']+'/'
- body='<nav class="pf-links"><a href="/proformas/">All property reviews</a><a href="/proformas/'+d['category']+'/">'+e(LABELS[d['category']])+'</a></nav>'+hero(d['address']+' STR pro forma snapshot',reason(d['status']))+tag(d['category'])
+ body='<nav class="pf-links"><a href="/proformas/">All property reviews</a><a href="/proformas/'+d['category']+'/">'+e(LABELS[d['category']])+'</a></nav>'+hero(d['address']+' STR Pro Forma',reason(d['status']))+tag(d['category'])
  body+='<nav class="pf-toc" aria-label="On this page"><strong>On this page</strong><a href="#property-review">Overview</a><a href="#screening-analysis">Deal assessment</a><a href="#income-explained">Income explained</a><a href="#model-gaps">Missing inputs</a><a href="#review-steps">Review steps</a><a href="#property-faq">Questions</a></nav>'
  body+='<div class="pf-grid">'+card('Purchase-price field',d['price'],'Recorded price, not a current asking-price verification')+card('Projected annual income',d['income'],'Source projection; not net profit or earned income')+card('Screening decision',{'good':'Advanced candidate','not-great':'Needs review / unavailable','terrible':'Rejected'}[d['category']],'Source decision as captured October 8, 2026')+'</div>'
  body+='<section class="pf-panel"><h2>Property at a glance</h2><dl class="pf-details">'+''.join('<div class="pf-detail"><dt>'+e(k)+'</dt><dd>'+e(v or 'Not supplied')+'</dd></div>' for k,v in [('Address',d['address']),('Bedrooms',d['beds']),('Bathrooms',d['baths']),('Square footage',d['size']),('Furnishing',d['furnished']),('Deal type',d['deal_type']),('Date added',d['date_added']),('Compliance review',d['compliance'])])+'</dl></section>'
