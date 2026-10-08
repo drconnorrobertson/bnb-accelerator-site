@@ -401,3 +401,20 @@ records, a public directory and sitemap entries. It runs during the Vercel
 build. Both good and pass verdicts require stated reasons, sources, cash
 components, operating costs and a downside case. Draft data is never copied
 to public output. Test with `python3 scripts/test_proformas.py`.
+
+## 2026 source-only property collection
+
+`scripts/build_tracker_proformas.py` uses the sanitized capture of the explicitly
+supplied `2026` tab. It does not read other tabs or linked pro forma workbooks.
+Only whitelisted property fields and extracted numeric reviewer fields are
+retained in the committed capture. Staff/client/contact/raw-note fields are
+excluded. Do not replace this file with an unsanitized workbook export.
+
+The tracker collection renders address pages, three screening groups and
+paginated market directories. Duplicate address records share one URL; history
+retains the source rows and the leading snapshot uses date-added then row order.
+Screening classifications are not verified investment returns. Every generated
+page carries the source-specific disclaimer. `sitemap-proformas.xml` contains
+all owned routes and is referenced from the sitemap index. The public build
+runs the tracker renderer after the general model renderer. It checks namespaced
+sitemap entries too. Validate with `python3 scripts/test_tracker_proformas.py`.

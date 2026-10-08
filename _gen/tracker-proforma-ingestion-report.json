@@ -1,0 +1,19 @@
+{
+  "source_tab": "2026",
+  "source_rows": 10356,
+  "unique_property_pages": 9776,
+  "excluded_rows": [
+    6528,
+    10008
+  ],
+  "duplicate_rows_preserved": 578,
+  "categories": {
+    "not-great": 790,
+    "terrible": 8835,
+    "good": 151
+  },
+  "market_directories": 773,
+  "public_routes": 10802,
+  "private_fields_published": false,
+  "linked_workbooks_read": false
+}
