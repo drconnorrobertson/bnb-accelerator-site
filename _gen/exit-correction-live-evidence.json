@@ -24,7 +24,8 @@
   "indexnow": {"url_count": 2, "http_status": 200, "meaning": "Accepted for processing, not confirmed indexing"},
   "sitemap_submission": {"url": "https://www.bnbaccelerator.com/sitemap-blog.xml", "confirmed_at": "2026-10-08T00:22:40.123Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": "0", "reported_warnings": "0", "meaning": "Queues download, not confirmed indexing"},
   "stored_inspection_history": {"inspections": [], "hasMore": false},
-  "actual_google_indexing": "Unknown; zero stored history is not an exclusion diagnosis. No fresh Inspection this publication run.",
+  "actual_google_indexing": "First actual Inspection2026-10-08T00:24:28.828147+00:00 PASS/Submitted and indexed/ALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE; October6T10:19:39Z crawl precedes correction. Existing indexed URL, not new indexing gain or corrected-body receipt.",
+  "indexing_baseline": "_gen/exit-indexing-baseline-2026-10-07.json",
   "counted_toward_509": false,
   "counted_as_substantive_expansion_batch": false,
   "limits": "Serving checks do not establish Google crawl, indexing, browser rendering, authenticated Vercel status or measured search/conversion gains."

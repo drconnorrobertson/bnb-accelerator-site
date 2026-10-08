@@ -26,7 +26,8 @@
       "counted_as_substantive_expansion_batch": false,
       "correction": "Remove unsupported universal tax-first, sale outcome, common-cause and refinancing assertions; current IRS basis/asset-specific exchange sources; preserve original publication/URL/author/flow and align FAQs/archive",
       "submission": "Two changed canonicals IndexNow HTTP200; blog XML confirmed 2026-10-08T00:22:40.123Z pending/zero reported errors and warnings; not confirmed indexing",
-      "actual_google_indexing": "Unknown; complete filtered stored Inspection history zero/hasMore false is not exclusion proof"
+      "actual_google_indexing": "First actual Inspection2026-10-08T00:24:28.828147+00:00 PASS/Submitted and indexed; October6T10:19:39Z crawl precedes correction, not new indexing gain or corrected-body receipt",
+      "indexing_baseline": "_gen/exit-indexing-baseline-2026-10-07.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/1031-exchange-short-term-rental/",

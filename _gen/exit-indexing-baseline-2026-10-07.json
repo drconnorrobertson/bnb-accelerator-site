@@ -1,0 +1,22 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/str-exit-strategy/",
+  "siteUrl": "https://www.bnbaccelerator.com/",
+  "inspection_id": "21e419de-cb83-4824-9c8f-cd5f3d1297d2",
+  "requested_at": "2026-10-08T00:24:28.828147+00:00",
+  "verdict": "PASS",
+  "coverage_state": "Submitted and indexed",
+  "robots_txt_state": "ALLOWED",
+  "indexing_state": "INDEXING_ALLOWED",
+  "last_google_crawl": "2026-10-06T10:19:39Z",
+  "page_fetch_state": "SUCCESSFUL",
+  "crawled_as": "MOBILE",
+  "referring_urls": ["https://www.bnbaccelerator.com/blog/str-bookkeeping-records/"],
+  "complete_filtered_history": {"before_count": 0, "after_count": 1, "hasMore": false},
+  "quota": {"count": 3, "limit": 2000, "remaining": 1997},
+  "content_commit": "28fe372d096d209ea8d6ee03b1cdc07ea6acc7e7",
+  "separate_live_evidence": "_gen/exit-correction-live-evidence.json",
+  "meaning": "Confirms existing URL indexing. October6 crawl precedes October7-local correction; not new indexing gained, corrected-body receipt or search/conversion improvement.",
+  "performance": "Historical September6–October3 metrics not returned remain unknown, not zero.",
+  "method": "Bounded SEO-audit indexing-evidence method; no homepage analysis or changes, repeated sitemap/IndexNow submission or recrawl request.",
+  "counts": "Eight qualifying new guides/57 existing expansions/four separate accuracy corrections unchanged."
+}
