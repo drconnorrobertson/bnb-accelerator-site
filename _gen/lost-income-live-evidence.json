@@ -1,0 +1,57 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/lost-rental-income-limit-str/",
+  "verified_at": "2026-10-08T10:12:52.414020+00:00",
+  "content_commit": "e6ac0cbd9eaea769a04ef4bd99af20eebe849276",
+  "exact_artifacts": 4,
+  "live_links_assets": 55,
+  "inbound_pages": [
+    "sitemap/index.html",
+    "blog/index.html",
+    "blog/buy-str-high-income-large-tax-bill/index.html"
+  ],
+  "googlebot_http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/blog/lost-rental-income-limit-str/",
+  "robots_allowed": true,
+  "noindex": false,
+  "article_text_present": true,
+  "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
+  "validation": "build; buyer intent; nonhome SEO/design; preclosing; precall; RevPAR; content audit; similarity0.014; full scoped diff; arithmetic; 745 unchanged cards; homepage hashes",
+  "indexnow": "Three changed canonical URLs accepted HTTP200; not confirmed indexing",
+  "sitemap": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-08T10:13:11.892Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "google_indexing_evidence": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "confirmed_indexing": "unknown; complete filtered stored history empty before publication; no actual Inspection yet",
+  "performance": "Not queried this batch; preserve historical inventory values",
+  "deployment": "Exact production artifacts after one30second propagation retry; no authenticated Vercel dashboard claim"
+}
