@@ -1,0 +1,20 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+  "content_commit": "e8c8d0c0ec77fab4d3e151d0d09d17c12569511b",
+  "verified_at": "2026-10-08T12:45:20.275109+00:00",
+  "exact_artifacts": 4,
+  "live_links_assets": 58,
+  "inbound_pages": 6,
+  "googlebot_http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+  "robots_allowed": true,
+  "noindex": false,
+  "article_text_present": true,
+  "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
+  "validation": "Required checks plus RevPAR/similarity0.011/fullfourpublicdiff/747unrelatedcards/four unchanged matchingFAQs/author-outerflow/arithmetic/homehashes;2132words/tenminutes/originalSeptember24publication preserved",
+  "submission": "Three changed canonicals IndexNowHTTP200/livekeyverified;blogXMLacceptedconfirmed2026-10-08T12:45:45.766Zpending/zero reported errors-warnings;not indexing",
+  "actual_google_indexing": "Retained actual Inspection2026-10-07T09:58:28.882023UTC d3262a13-e806-4163-b43b-d4fda0cd69c1 PASS/Submitted-and-indexed/robotsALLOWED/indexingALLOWED/fetchSUCCESSFUL/MOBILE;lastcrawl2026-10-05T05:00:05UTC precedes refresh. Complete storedhistoryone/hasMorefalse;no fresh Inspection or revised-body receipt/gain claimed",
+  "performance": "Not queried this batch; existing inventory values preserved",
+  "counted_toward_509": false,
+  "verified_live_new_pages_unchanged": 10
+}

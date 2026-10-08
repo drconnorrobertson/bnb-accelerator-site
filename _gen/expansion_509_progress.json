@@ -845,6 +845,17 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
+      "content_commit": "e8c8d0c0ec77fab4d3e151d0d09d17c12569511b",
+      "verified_live_at": "2026-10-08T12:45:20.275109+00:00",
+      "evidence": "_gen/foreclosure-funding-live-evidence.json",
+      "counted_toward_509": false,
+      "improvement": "Six-gate sale/funding register and original bid-deadline versus financed-listing cash comparison with credited-deposit/reserve/overrun safeguards",
+      "validation": "Required checks plus RevPAR/similarity0.011/fullfourpublicdiff/747unrelatedcards/four unchanged matchingFAQs/author-outerflow/arithmetic/homehashes;2132words/tenminutes/originalSeptember24publication preserved",
+      "submission": "Three changed canonicals IndexNowHTTP200/livekeyverified;blogXMLacceptedconfirmed2026-10-08T12:45:45.766Zpending/zero reported errors-warnings;not indexing",
+      "actual_google_indexing": "Retained actual Inspection2026-10-07T09:58:28.882023UTC d3262a13-e806-4163-b43b-d4fda0cd69c1 PASS/Submitted-and-indexed/robotsALLOWED/indexingALLOWED/fetchSUCCESSFUL/MOBILE;lastcrawl2026-10-05T05:00:05UTC precedes refresh. Complete storedhistoryone/hasMorefalse;no fresh Inspection or revised-body receipt/gain claimed"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-income-qualify-conventional-str-loan/",
       "content_commit": "6620eb24d0ce54f03db284431ee8524ba4d050d9",
       "verified_live_at": "2026-10-08T12:28:18.010002+00:00",
