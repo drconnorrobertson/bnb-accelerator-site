@@ -1,0 +1,103 @@
+{
+  "history_before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "4d5306f7-6cf7-4cc3-b67f-c41d522b47f4",
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T13:53:48.91642+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "history_after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "497ae8f4-3e77-4dd8-8f9c-17e6406ca3bf",
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-08T06:44:49.631639+00:00"
+      },
+      {
+        "id": "4d5306f7-6cf7-4cc3-b67f-c41d522b47f4",
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-07T13:53:48.91642+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "returned": 2,
+      "hasMore": false,
+      "note": "Showing all 2 rows."
+    }
+  },
+  "independent_serving_check": {
+    "verified_at": "2026-10-08T06:45:20.998741+00:00",
+    "protected_homepage_exact": true,
+    "independent_internal_links_assets_checked": 64,
+    "records": [
+      {
+        "url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+        "http_status": 200,
+        "final_url": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+        "canonical": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-insights-buyer/",
+        "robots_allowed": true,
+        "noindex": false,
+        "exact_public_build_match": true,
+        "server_article_text": true,
+        "publication_date": "2026-09-25",
+        "modified_date": "2026-10-07",
+        "words": 2052,
+        "matched_faqs": 3,
+        "sitemap_entries": 1,
+        "sitemap_lastmod": "2026-10-07",
+        "inbound_public_pages": 16,
+        "internal_targets": 64,
+        "googlebot_ua_http_200": true
+      }
+    ],
+    "limits": "Serving/eligibility checks are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion.",
+    "exact_public_artifacts_checked": 4
+  },
+  "public_changes_this_run": 0,
+  "limits": "Coverage wording changed from discovered-currently-not-indexed to URLunknown with no reported crawl in either inspection. Not proof of lost indexing, duplication, a technical cause, a trend or revised-body receipt. Four unchanged public artifacts were checked; no deployment or repeated submissions."
+}
