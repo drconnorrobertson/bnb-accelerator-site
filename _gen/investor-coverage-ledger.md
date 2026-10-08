@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: remodel occupancy approval purchase expansion
+
+Existingcertificate-of-occupancy-str-remodel expanded afterfull original/permitpending/newconstructionrenovation-owner review. Originalsix-field approvalregister/current-versus-proposed-use branch and delaycash worksheet; NYCprimaryCOguidance geographicallylimited/notSTRpermission.1430words/sevenminutes/fourFAQs;Sep23pub/H1/author preserved. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.020/math/homehashes pass. ActualGoogleunknown fromcompleteemptyhistory,notexclusion. Liveverificationpending; no509credit/countafteracceptance. Content-creation skill guided scopedbuyerusefulness; ACTIVEfive-minute schedule andhomepage/sharedflow preserved.
+
 ## October 7: three concise permission owners reviewed
 
 Full currentcertificate-of-occupancy-str-remodel/fire-inspection-closing/parking-occupancy-cap main content read:194/164/168articlewords; distinct remodel approval/fire corrective acceptance/capacity reconciliation questions preserved. Genericnew remodel/capacityvariant rejected75/100(8/29/12/18/8), editorialnotmeasuredsearchdemand. Fifty of historicalcleanupinventory owners nowbelow350words isroutingonly, not exclusion/duplication/thinnessdiagnosis. `_gen/permission-readiness-owner-review-2026-10-07.md`; nextCOowner needsprimarylocalrule research and adjacentfullbody review before scopedworksheet expansion. No publicchange/submission/new509credit/merge/noindex;8new/62existing/sixcorrections unchanged. ACTIVEfive-minute schedule preserved.
