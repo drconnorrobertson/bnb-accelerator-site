@@ -1,0 +1,21 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/str-maintenance-response-sla/",
+  "source_commit": "a3e9561",
+  "requested_at": "2026-10-08T04:47:35.994423+00:00",
+  "inspection_id": "34293a14-164a-41ae-a141-913c8de0bc7e",
+  "before": {"returned": 0, "hasMore": false},
+  "actual": {
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {"returned": 1, "hasMore": false},
+  "independent_live_eligibility": "Not newly probed this run; historical source eligibility retained separately",
+  "substantive_owner_review": "Full concise main read: acknowledgement, diagnosis, attendance, containment and resolution are distinct clocks; named severity paths, spending authorization and escalation are pre-purchase responsibilities. Preserve this distinct existing owner; deepen accepted vendor scope and acquisition cash comparison rather than a generic host-operations variant.",
+  "limits": "Discovery/current nonindexing does not establish cause, duplicate intent, a worsening trend or revised-body receipt. No reported crawl. Historical unreturned performance remains unknown. Existing buyer-agent/acquisition-team stored October7 inspection was read but not repeated. No public edit, repeated submission or509 credit."
+}
