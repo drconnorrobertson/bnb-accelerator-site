@@ -1,0 +1,11 @@
+# Existing indexed cleaner-capacity purchase expansion
+
+Full original main read; backup-cleaner/afterhours/maintenance substantive owners read during the immediately preceding unchanged-main batches. Capacity owner retains hardest simultaneous route/laundry/inspection intent; backup acceptance, remote messages and repair response remain distinct. No new keyword/provider variant or509credit. OriginalSeptember23/title/H1/author/URL and outer conversion flow preserved.
+
+Airbnb ground-rules2895 fully openedOctober8; bounded cleanliness/turnover/laundry description under200words, no universal duration, certification or response expectation claimed. Content-creation skill shaped buyer-first route/material and cash decision support. Original six-field accepted-capacity register and hypothetical sequential route:170work+30inspection+20travel=220of240; job2 prelinen195, linen195=>205placement/220inspection; linen235=>245placement/260inspection20late. Ten-minute placement already inside85. Two independent two-job routes coverfournot eight. No actual vendor performance or opening guarantee.
+
+Separate hypothetical cash320000−301000=19000;900+1800+600=3300=>304300/margin15700; two replacement320minus220 adds200=>304500/margin15500; distinct1800delay=>306300/margin13700. Reserve countedonce; not forecast/profit or refund-funded.
+
+Prior actual05:20InspectionPASS/submittedandindexed/reported02:13mobile successfulcrawl retained; not revised-body receipt or gain. Deployment and validation pending before existingrefresh69;8new/68existing/sevenaccuracy unchanged. ACTIVEfive-minute schedule and homepage protected.
+
+Validation completed: build, buyerintent/nonhomeSEO/design/preclosing/precall, RevPAR and content audit pass; similarity max0.022/745pairs is a routing signal not Google verdict. Full four-public-file diff and new helpers/review inspected, including final readability-spacing corrections;1330words/sevenminutes/four matchedFAQs/archive/hub/singleOct8XML aligned. Independently checked schedule/cash and745unchanged archivecards. Source/build homepage hashes equal protected baseline; shared modules/assets untouched. Publication originalSeptember23 preserved. Live acceptance remains pending; credit only afterward.
