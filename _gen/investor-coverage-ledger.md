@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: remodel approval guide verified live
+
+Content42f3c49c9108a2ae734adfdb2fd21655b03e2253 exactliveOctober8T02:50:55.581331UTC afterone30secondpropagationretry:fourartifacts/58links-assets/7inbound/1430words/fourFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/oneOct7XMLlastmod/originalSep23/homeexact. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.020/math pass. IndexNowthreeHTTP200;blogXML02:51:07.330Zconfirmedpending0reportederrorswarnings. ActualGoogleunknown fromcompleteemptyhistory,notexclusion or revisedbodyreceipt. Evidenceco-remodel-purchase-live-evidence.json. Existingblogrefresh63/new8of509/sixcorrections/comparison15/resource7 distinct. Next firstactualindexingbaseline and acquisition-service gaps; ACTIVEfive-minute schedule unchanged.
+
 ## October 7: remodel occupancy approval purchase expansion
 
 Existingcertificate-of-occupancy-str-remodel expanded afterfull original/permitpending/newconstructionrenovation-owner review. Originalsix-field approvalregister/current-versus-proposed-use branch and delaycash worksheet; NYCprimaryCOguidance geographicallylimited/notSTRpermission.1430words/sevenminutes/fourFAQs;Sep23pub/H1/author preserved. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.020/math/homehashes pass. ActualGoogleunknown fromcompleteemptyhistory,notexclusion. Liveverificationpending; no509credit/countafteracceptance. Content-creation skill guided scopedbuyerusefulness; ACTIVEfive-minute schedule andhomepage/sharedflow preserved.
