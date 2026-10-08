@@ -1,0 +1,17 @@
+# Exchange and sponsored-ownership continuation review
+
+Starting synchronized main `b057413`; clean worktree, safe fast-forward found no upstream changes. Read complete substantive bodies and all twelve visible FAQs for these existing owners, without truncated output:
+
+- `/blog/1031-exchange-short-term-rental/`: sell-first identification/receipt sequence, investment use, personal-use review, asset-specific recognized/deferred gain and basis, alternatives and adviser-funded current tax obligations. The October7 notice explicitly limits its source recertification to the depreciation/exchange correction. Do not treat the entire page as newly verified merely because one section was corrected.
+- `/blog/reverse-1031-buy-str-before-selling/`: pre-purchase accepted title/borrower/EAT arrangements, lender review, dated dependencies, authorized operations during holding, separate pre-sale funding and fallback. Original $360k available/$320k baseline with retained reserve; three-month $344k, five-month $360k and distinct $15k added work/$375k gap. Conditional $260k proceeds are not starting cash. All four FAQ answers keep structure, lender and operational conditions separate.
+- `/blog/str-vs-real-estate-syndications/`: direct title versus issuer interest, actual control/fee/call/redemption documents, fair delegated-operation fit, securities-risk and adviser tax limits. Original direct $300k/$260k allocation/$40k margin/$55k new work yields $15k gap; sponsored $100k capital+$20k distinct costs+$50k designated call buffer=$170k, replacing—not doubling—the buffer when $80k actual call produces $200k commitment. Four FAQs reject universal tax/return/liquidity conclusions.
+
+## Candidate decisions
+
+A generic “reverse exchange cash bridge before the old property sells” new page duplicates the reverse owner’s decisive search question, responsibility map and worked peak-funding branches. Rejected as a new509intent: editorial score66/100 (distinct5/25, imminent buyer28/30, evidence10/15, service18/20, incremental original5/10). Buyer/service minima alone do not overcome duplicate intent. This is editorial acceptance scoring, not measured search demand or a quality verdict on the current owner.
+
+A generic “syndication capital call versus direct STR repair funding” new comparison duplicates the sponsored owner’s actual obligation table and worked call/repair arithmetic. Rejected as a new509intent: editorial score68/100 (distinct6/25, buyer28/30, evidence10/15, service18/20, incremental original6/10). A new title or numbers would not create a materially distinct decision. Preserve the public owner and its existing visibility; no merge, deletion or noindex implied.
+
+An independently distinct exchange execution question may still qualify, but it must survive full overlap review of the DST owner and other relevant routes, current primary-source research and original purchase support. This review does not approve a partial-exchange, improvement-exchange or provider variant, authenticate an offering, recertify every legal/tax claim, or count two invented gaps toward the target.
+
+No public edit, generator, live probe, fresh inspection or submission in this review. Actual indexing/performance and 747article/748blogXML counts preserved. Nine validated new guides/509 and75 separately counted existing refreshes unchanged; homepage/shared design/application/scheduling protected. Continue substantive buyer-service and independently evidenced gap work on the active five-minute schedule.
