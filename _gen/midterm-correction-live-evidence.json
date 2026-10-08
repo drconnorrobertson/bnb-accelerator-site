@@ -23,8 +23,9 @@
     "internal_targets": 58,
     "googlebot_ua_http_200": true
   }],
-  "stored_inspection_history": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "stored_inspection_history_at_publication": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "first_actual_google_inspection": {"requested_at": "2026-10-08T01:02:56.642741+00:00", "id": "9f39427b-1550-45a1-aa1e-822293daf626", "verdict": "PASS", "coverage": "Submitted and indexed", "robots": "ALLOWED", "indexing": "INDEXING_ALLOWED", "fetch": "SUCCESSFUL", "crawled_as": "MOBILE", "last_crawl": "2026-09-24T15:31:17Z", "baseline": "_gen/midterm-indexing-baseline-2026-10-07.json"},
   "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
   "blog_sitemap": {"lastSubmitted": "2026-10-08T01:01:37.128Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": 0, "reported_warnings": 0},
-  "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. Empty stored history not proof of exclusion; no fresh Inspection requested."
+  "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. First actual Inspection confirms existing indexed canonical from September24 crawl, not October7 corrected-body receipt or new indexing gain."
 }

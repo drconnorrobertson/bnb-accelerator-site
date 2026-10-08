@@ -22,6 +22,8 @@
       "content_commit": "0cfe98929cc96038d3a732f933623c36f4b62d3f",
       "verified_live_at": "2026-10-08T01:01:24.156522+00:00",
       "evidence": "_gen/midterm-correction-live-evidence.json",
+      "indexing_baseline": "_gen/midterm-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "First actual Inspection2026-10-08T01:02:56.642741UTC PASS/Submitted and indexed;September24T15:31:17Zcrawl predates correction,not new indexing gain or corrected-body receipt",
       "counted_toward_509": false,
       "counted_as_substantive_expansion_batch": false,
       "correction": "Replace unsupported universal operating/revenue/regulatory winners, categorical tax-offset and service promises with current IRS925 qualification and original hypothetical owner-cash sensitivity worksheet; preserve publication/URL/author/flow/fourFAQ questions",
