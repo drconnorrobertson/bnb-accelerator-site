@@ -1,5 +1,7 @@
 # Existing density-cap and waitlist purchase owner
 
+Completedba0fdec362f29485736577cc1f7a4a1492716be9 exactlive03:49:53.595867UTC afterone30secondretry:fourartifacts/55links-assets/3inbound/1441words/fourFAQs/homeexact. IndexNowthreeHTTP200;blogXML03:50:06.511Zacceptedconfirmedpending/zero reportederrorswarnings. Prioractual03:34URLunknown separate. Existingexpansion66/eightnewof509unchanged; see density-waitlist-purchase-live-evidence.json.
+
 Full166-word existing owner, primary-residence owner and substantive permits-that-do-not-transfer main/eightFAQs reviewed. Preserve distinct queue-access/issuance uncertainty owner rather than another provider/city/keyword page; no509credit. OriginalSeptember23publication/H1/author/breadcrumb retained.1441words/sevenminutes/four new aligned visible/schemaFAQs; archive search/excerpt, contextual hub link and single truthfulOctober7XMLlastmod aligned.
 
 Primary Truckee /358standings, /359eligibility and /357process pages opened October7. Geographic bounds explicit:365day post-sale application wait/excludedtypes/codecase eligibility,1255cap reached and datedSeptember8published19.6monthtrend are source descriptions, not current individualized availability or promised opening. Derived substantive text under200words per source/no direct quotes. No national transfer/fee/queue rights inferred. Placer program/FAQ webfetch403 was an access limitation, not site defect; older proposed ordinance PDFs/search commentary not used. Interested publisher/document-based/professional/privacy/results disclosures explicit.

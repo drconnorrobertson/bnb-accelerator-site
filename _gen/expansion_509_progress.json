@@ -720,6 +720,18 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/str-density-cap-waitlist/",
+      "content_commit": "ba0fdec362f29485736577cc1f7a4a1492716be9",
+      "verified_live_at": "2026-10-08T03:49:53.595867+00:00",
+      "evidence": "_gen/density-waitlist-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/density-waitlist-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "Prior03:34:29UTC NEUTRAL/URL unknown/no reportedcrawl; not revisedbody receipt or diagnosedcause",
+      "counted_toward_509": false,
+      "improvement": "Six-gate queue-evidence register, source-bounded eligibility versus issuance distinction and original6/12month noSTRcash/lawfulfallback comparison",
+      "validation": "Requiredsevenchecks plus RevPAR/fullfourpublicdiff/745othercards/math/homehashes/similarity0.015;exactfourartifacts/55links/3inbound/fourFAQs/GooglebotUA200",
+      "submission": "IndexNowthreechangedHTTP200;blogXML03:50:06.511Zacceptedconfirmedpending/zero reportederrorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
       "content_commit": "2171794249cf77a48f690362a5b8b179c6a6e4af",
       "verified_live_at": "2026-10-08T03:32:04.826167+00:00",
