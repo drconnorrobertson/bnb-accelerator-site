@@ -1,0 +1,19 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/nonconforming-str-use-sale/",
+  "source_commit": "76357bf",
+  "requested_at": "2026-10-08T03:51:53.170261+00:00",
+  "inspection_id": "306665fd-2728-43a6-bcdc-efad5383f9fb",
+  "before": {"returned": 0, "hasMore": false},
+  "actual": {
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {"returned": 1, "hasMore": false},
+  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplication, worsening trend or revisedbody receipt. No fresh live eligibility check claimed. Historical source eligibility and unreturned performance remain separate. No public change, repeat submission or509credit."
+}
