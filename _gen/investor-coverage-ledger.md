@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: fire-inspection acceptance acquisition expansion
+
+Existing str-fire-inspection-closing expanded after substantive original/parking/CO-owner review. Original six-field findings-to-acceptance register and correction-delay cash bridge; current City of Sevierville primary process geographically limited, no national checklist or transfer/fee/timing assumption.1450words/sevenminutes/four matchedFAQs; originalSep23/H1/author/related research links retained. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/similarity0.026/math/homehashes pass. Empty complete storedInspectionhistory means actual indexing unknown, not exclusion. Evidence fire-acceptance-purchase-quality-review.md; live verification pending before64th existingrefresh credit. Eight new509 additions unchanged; content-creation skill shaped buyer decision support. ACTIVE five-minute schedule preserved.
+
 ## October 7: calendar premium and purchase liquidity overlap review
 
 Complete main bodies/available FAQs and purchase checks reviewed for reservation-closing, seller-new-bookings and future-calendar-value owners. Generic calendar-versus-clean-launch price/liquidity candidate rejected76/100(8/29/12/18/9); preserve distinct duties/timing, escrow-change control and incremental valuation owners. Original existing worksheet arithmetic independently reconciled; incomplete seller payout categories not converted into invented net cash. Evidence calendar-liquidity-premium-overlap-review.md. Bounded overlap method, not renewed platform policy certification, measured demand or Google duplication/exclusion diagnosis. No public edits, repeated submissions or509 credit; eight new/63 existing remain separate. Continue substantive permission-owner work; ACTIVE five-minute schedule unchanged.
