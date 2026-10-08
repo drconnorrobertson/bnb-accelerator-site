@@ -1,0 +1,30 @@
+{
+  "content_commit": "449255951f8a01ce51598f50348a839baa349087",
+  "verified_at": "2026-10-08T01:16:17.145149+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 54,
+  "records": [{
+    "url": "https://www.bnbaccelerator.com/blog/sell-str-with-furniture/",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/sell-str-with-furniture/",
+    "canonical": "https://www.bnbaccelerator.com/blog/sell-str-with-furniture/",
+    "robots_allowed": true,
+    "noindex": false,
+    "exact_public_build_match": true,
+    "server_article_text": true,
+    "publication_date": "2026-09-23",
+    "modified_date": "2026-10-07",
+    "words": 1271,
+    "matched_faqs": 4,
+    "sitemap_entries": 1,
+    "sitemap_lastmod": "2026-10-07",
+    "inbound_public_pages": 4,
+    "internal_targets": 54,
+    "googlebot_ua_http_200": true
+  }],
+  "stored_inspection_history": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
+  "blog_sitemap": {"lastSubmitted": "2026-10-08T01:16:32.849Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": 0, "reported_warnings": 0},
+  "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. Empty stored history not proof of exclusion; no fresh Inspection requested."
+}
