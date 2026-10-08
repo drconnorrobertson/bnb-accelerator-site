@@ -1,0 +1,59 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/sell-str-with-furniture/",
+  "requested_at": "2026-10-08T01:20:18.043167+00:00",
+  "inspection_id": "e0817cf5-fd9e-49dc-9d09-1ca74cccd115",
+  "content_commit": "449255951f8a01ce51598f50348a839baa349087",
+  "before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "actual": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/sell-str-with-furniture/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "e0817cf5-fd9e-49dc-9d09-1ca74cccd115",
+        "url": "https://www.bnbaccelerator.com/blog/sell-str-with-furniture/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-08T01:20:18.043167+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "quota": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 6,
+    "limit": 2000,
+    "remaining": 1994
+  },
+  "interpretation": "First actual inspection reports URL unknown to Google with unspecified robots/indexing/fetch and no reported crawl. This does not establish a technical barrier, duplicate intent, worsening trend or revised-body receipt. Independent live eligibility retained. No public changes, recrawl request, repeated submissions or 509 credit."
+}

@@ -23,8 +23,10 @@
     "internal_targets": 54,
     "googlebot_ua_http_200": true
   }],
-  "stored_inspection_history": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "stored_inspection_history_at_publication": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "indexing_baseline": "_gen/furnished-sale-indexing-baseline-2026-10-07.json",
+  "actual_google_inspection": {"requested_at": "2026-10-08T01:20:18.043167+00:00", "inspection_id": "e0817cf5-fd9e-49dc-9d09-1ca74cccd115", "verdict": "NEUTRAL", "coverage_state": "URL is unknown to Google", "last_crawl_time": null, "technical_cause_established": false},
   "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
   "blog_sitemap": {"lastSubmitted": "2026-10-08T01:16:32.849Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": 0, "reported_warnings": 0},
-  "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. Empty stored history not proof of exclusion; no fresh Inspection requested."
+  "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. First actual Inspection reports URL unknown with no crawl; no technical cause or revised-body receipt established."
 }

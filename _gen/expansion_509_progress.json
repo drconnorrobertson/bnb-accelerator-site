@@ -712,6 +712,8 @@
       "verified_live_at": "2026-10-08T01:16:17.145149+00:00",
       "counted_toward_509": false,
       "evidence": "_gen/furnished-sale-live-evidence.json",
+      "indexing_baseline": "_gen/furnished-sale-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "First actual Inspection2026-10-08T01:20:18.043167UTC NEUTRAL/URL unknown to Google/unspecified robots-indexing-fetch/no reported crawl; not a technical cause or revised-body receipt",
       "validation": "1271words/sixminutes/fournewalignedFAQ;requiredsevenchecks/fullfourpublicdiff/current IRS551/original two-sided transaction register/seller-buyer-delay independentcash/similarity0.013;54live targets-assets/4inbound;September23publication/homepage/sharedflow preserved",
       "submission": "IndexNowthreechangedcanonicalsHTTP200;blogXMLconfirmed2026-10-08T01:16:32.849Zpending/zero reportederrorswarnings;actualGoogleunknown completeemptyhistorynotexclusion"
     },
