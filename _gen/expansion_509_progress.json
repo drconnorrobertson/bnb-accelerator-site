@@ -845,6 +845,17 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/how-to-finance-airbnb-investment-property/",
+      "content_commit": "d6ae61835b2cb0eb45f99c4c3b1653b530788d78",
+      "verified_live_at": "2026-10-08T13:15:07.234286+00:00",
+      "evidence": "_gen/broad-financing-live-evidence.json",
+      "counted_toward_509": false,
+      "improvement": "Correct unsupported loan eligibility, pricing, portfolio and refinance claims; original actual-proposal/credited-deposit cash worksheet",
+      "validation": "All required checks plus RevPAR/full scoped diff/similarity0.029/747 unchanged archive cards/author and outer flow/home hashes/arithmetic. Eight matching FAQ answers; original August10 publication retained. Authored regex1859words, legacy source schema1810/public schema1881 including navigation; nine-minute display.",
+      "submission": "Three changed canonical URLs accepted by IndexNow HTTP200. New blog sitemap resubmission returned GSC connector internal error twice, including one retry; not claimed accepted. All seven sitemaps were accepted at13:01UTC before this content release under the user's separate all-public request. No third unchanged retry this turn.",
+      "actual_google_indexing": "Retained actual Inspection2026-10-06T21:06:07.025207UTC id8727c8fb-f216-43b3-aff6-36f0f6710eca PASS/Submitted and indexed/robotsALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE; lastcrawl2026-09-23T12:53:52UTC predates refresh. Complete filtered two-row history/hasMorefalse, no new Inspection or revised-body receipt/gain/performance claim."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/buy-foreclosure-as-short-term-rental/",
       "content_commit": "e8c8d0c0ec77fab4d3e151d0d09d17c12569511b",
       "verified_live_at": "2026-10-08T12:45:20.275109+00:00",
