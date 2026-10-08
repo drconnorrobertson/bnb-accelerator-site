@@ -15,5 +15,15 @@
     "referringUrls": []
   },
   "after": {"returned": 1, "hasMore": false},
-  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplication, worsening trend or revisedbody receipt. No fresh live eligibility check claimed. Historical source eligibility and unreturned performance remain separate. No public change, repeat submission or509credit."
+  "independent_live_eligibility": {
+    "observed_at": "2026-10-08T03:56:44.050Z",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/nonconforming-str-use-sale/",
+    "canonical": "https://www.bnbaccelerator.com/blog/nonconforming-str-use-sale/",
+    "noindex": false, "googlebot_ua": true,
+    "exact_public_build": true, "server_article_text": true,
+    "sitemap_entries": 1, "robots_allows_googlebot": true,
+    "robots_evidence": "User-agent:* Allow:/; no Googlebot-specific restriction"
+  },
+  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplication, worsening trend or revisedbody receipt. Independent03:56Googlebot-UA200/exactbuild eligibility is not actual Google crawl or browser rendering; unreturned performance remains unknown. No public change, repeat submission or509credit."
 }
