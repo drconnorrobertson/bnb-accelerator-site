@@ -1,0 +1,30 @@
+{
+  "reason": "Explicit user request to submit all current public pages to IndexNow and Google Search Console",
+  "content_main": "08cc2c7",
+  "verified_live_sitemap_urls": 2489,
+  "verification": "Sitemap index and all six child sitemaps returned HTTP200 and exact local/live byte parity; each child contained unique URLs on the canonical www HTTPS host. This was sitemap verification, not a new individual HTTP/rendering or indexing audit of every URL.",
+  "indexnow": {
+    "urls_submitted": 2489,
+    "live_key_verified": true,
+    "response_status": 200,
+    "status": "accepted for processing; not confirmed indexing"
+  },
+  "google_search_console": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 7,
+    "submitted": 7,
+    "failed": 0,
+    "submission_start_utc": "2026-10-08T13:01:42.912Z",
+    "submission_end_utc": "2026-10-08T13:01:43.539Z",
+    "sitemaps": ["sitemap.xml", "sitemap-core.xml", "sitemap-investor-guides.xml", "sitemap-blog.xml", "sitemap-scenarios.xml", "sitemap-markets.xml", "sitemap-proof.xml"],
+    "all_accepted": true,
+    "all_confirmed_submitted": true,
+    "all_pending_download": true,
+    "reported_errors_each": 0,
+    "reported_warnings_each": 0,
+    "status": "Sitemap submissions accepted; downloads pending. Fresh zero error/warning reports do not confirm parsing or indexing. No individual recrawl request or new URL Inspection performed."
+  },
+  "public_changes": false,
+  "new_509_credit": 0,
+  "next": "Check download/parse state on a later scheduled run without repeatedly submitting unchanged sitemaps. Preserve existing actual URL Inspection and performance evidence."
+}
