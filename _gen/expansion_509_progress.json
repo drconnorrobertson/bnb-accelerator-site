@@ -733,6 +733,18 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/cleaner-capacity-peak-season/",
+      "content_commit": "d1f79f8f0aa92e85fc9c630cf6e3ef9233ab2350",
+      "verified_live_at": "2026-10-08T05:28:44.157776+00:00",
+      "evidence": "_gen/cleaner-capacity-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/cleaner-capacity-indexing-baseline-2026-10-08.json",
+      "actual_google_indexing": "Prior actual05:20:01.415762UTC PASS/submittedandindexed/reported02:13:34mobile successfulcrawl; not revised-body receipt or observed gain",
+      "counted_toward_509": false,
+      "improvement": "Original six-field accepted peak-day register, sequential crew/linen bottleneck and incremental readiness cash worksheet; bounded current Airbnb primary source",
+      "validation": "Required checks plus RevPAR/fullfourpublicdiff/745othercards/math/homehashes/similarity0.022;exactfourartifacts/56links/3inbound/fourmatchedFAQs/GooglebotUA200",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXML2026-10-08T05:28:56.691Zacceptedconfirmedpending/zero reportederrorswarnings;not confirmed revised indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-maintenance-response-sla/",
       "content_commit": "f3be4ff1b1c0fd3380f8c86e8cbdc1f6b4b2b718",
       "verified_live_at": "2026-10-08T05:02:53.231987+00:00",
