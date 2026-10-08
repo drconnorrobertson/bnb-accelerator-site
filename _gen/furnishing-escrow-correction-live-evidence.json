@@ -1,0 +1,61 @@
+{
+  "verified_at": "2026-10-08T06:56:05.072046+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 60,
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/furnishing-during-escrow/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/furnishing-during-escrow/",
+      "canonical": "https://www.bnbaccelerator.com/blog/furnishing-during-escrow/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "publication_date": "2026-08-15",
+      "modified_date": "2026-10-08",
+      "words": 1303,
+      "matched_faqs": 3,
+      "sitemap_entries": 1,
+      "sitemap_lastmod": "2026-10-08",
+      "inbound_public_pages": 5,
+      "internal_targets": 60,
+      "googlebot_ua_http_200": true
+    }
+  ],
+  "limits": "Serving/eligibility checks are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion.",
+  "content_commit": "dddf5ee274e9eeb6cd59c3170972bcf65dc37d4f",
+  "indexnow": {
+    "http_status": 200,
+    "accepted": true,
+    "changed_canonical_count": 3,
+    "confirmed_indexing": false
+  },
+  "search_console_sitemap": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-08T06:56:17.779Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "google_indexing": "Not queried this run; inventory indexing evidence remains unknown. Exact public serving eligibility is not actual Google crawl or revised-body receipt.",
+  "counted_toward_509": false,
+  "counted_as_substantive_expansion_batch": false
+}
