@@ -1,0 +1,47 @@
+{
+  "purpose": "Bounded competitor-query baseline; not an indexing or demand assessment",
+  "queryFilter": "(?i)(str insights|str search|short term shop|awning|rabbu)",
+  "result": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-05",
+    "dimensions": [
+      "query",
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 0,
+    "rows": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-05",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-06",
+      "settledThrough": "2026-10-05",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-29",
+        "endDate": "2026-10-08",
+        "dataState": "all"
+      }
+    }
+  },
+  "interpretation": "No reported query-page rows matched this filter in the settled window. This does not establish zero demand, exclusion, absence of indexing, or failure of the refreshed content. Query data may omit privacy-filtered queries; the window ends before many recent refreshes. No new provider variant is justified by this result alone.",
+  "action": "Continue substantive overlap review of existing canonical service owners. Do not resubmit unchanged sitemaps or infer 509 qualified gaps.",
+  "countsUnchanged": {
+    "verifiedNewGuides": 8,
+    "target": 509,
+    "existingBlogRefreshes": 72,
+    "comparisonRefreshes": 18,
+    "resourceRefreshes": 7
+  },
+  "publicChanges": false
+}
