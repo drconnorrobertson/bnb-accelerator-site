@@ -1,0 +1,38 @@
+{
+  "content_commit": "2171794249cf77a48f690362a5b8b179c6a6e4af",
+  "verified_at": "2026-10-08T03:32:04.826167+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 57,
+  "records": [{
+    "url": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+    "canonical": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+    "robots_allowed": true,
+    "noindex": false,
+    "exact_public_build_match": true,
+    "server_article_text": true,
+    "publication_date": "2026-09-23",
+    "modified_date": "2026-10-07",
+    "words": 1483,
+    "matched_faqs": 4,
+    "sitemap_entries": 1,
+    "sitemap_lastmod": "2026-10-07",
+    "inbound_public_pages": 6,
+    "internal_targets": 57,
+    "googlebot_ua_http_200": true
+  }],
+  "propagation_retry": "One30-second retry after initial exact-body mismatch; no defect inferred",
+  "prior_actual_indexing_baseline": "_gen/parking-capacity-indexing-baseline-2026-10-07.json",
+  "actual_google_indexing": "2026-10-08T03:21:02.247903UTC NEUTRAL/URL unknown/unspecified robots-indexing-fetch/no reportedcrawl; before this publication, not a diagnosed barrier or revisedbody receipt",
+  "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
+  "blog_sitemap": {
+    "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+    "accepted": true, "confirmed": true,
+    "lastSubmitted": "2026-10-08T03:32:18.278Z",
+    "isPending": true, "isSitemapsIndex": false,
+    "type": "sitemap", "warnings": "0", "errors": "0"
+  },
+  "limits": "Independent serving eligibility, not Google crawl/browser rendering/indexing/performance gains. Prior actual URLunknown result does not establish a technical cause. No authenticated Vercel status assertion. Existing refresh, not509addition."
+}

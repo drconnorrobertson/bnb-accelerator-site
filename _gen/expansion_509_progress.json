@@ -720,6 +720,18 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+      "content_commit": "2171794249cf77a48f690362a5b8b179c6a6e4af",
+      "verified_live_at": "2026-10-08T03:32:04.826167+00:00",
+      "evidence": "_gen/parking-capacity-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/parking-capacity-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "Prior actual03:21:02UTC NEUTRAL/URL unknown/unspecified robots-indexing-fetch/no reportedcrawl; not technical cause or revisedbody receipt",
+      "counted_toward_509": false,
+      "improvement": "Six-constraint capacity evidence worksheet with units and reviewer interpretation, original lower-capacity A/B purchase cash comparison and incremental parking branch; bounded Washoe primary inspection example",
+      "validation": "Seven required checks plus RevPAR/fullfourpublicdiff/745othercards/similarity0.018/math/homehashes; exactfourartifacts/57links/6inbound/GooglebotUA200/fourFAQs",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T03:32:18.278Zpending/zero reportederrorswarnings; not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-fire-inspection-closing/",
       "content_commit": "507047d69f0b47216db6ef88295a434b6850e7be",
       "verified_live_at": "2026-10-08T03:08:44.613299+00:00",

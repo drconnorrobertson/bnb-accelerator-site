@@ -1,5 +1,7 @@
 # Existing parking and guest-capacity acquisition owner
 
+Completed: content2171794249cf77a48f690362a5b8b179c6a6e4af exactlive2026-10-08T03:32:04.826167UTC afterone30-second retry;fourartifacts/57links-assets/6inbound/fourFAQs/homeexact. IndexNowthreeHTTP200;blogXML03:32:18.278Zacceptedconfirmedpending/zero reportederrorswarnings. Prior actual03:21URLunknown remains separate, not revisedbody receipt. This is65th existing expansion; eightnewof509 unchanged. See parking-capacity-purchase-live-evidence.json.
+
 October7 review: full existing capacity note and substantive parking-buying/parking-inspection bodies and FAQs read. Preserve the distinct capacity-reconciliation owner; adjacent repeated template material is a future review signal, not grounds for merger, deletion or noindex. No new509 guide. Original September23 publication, H1, author, breadcrumb and conversion flow retained; 1483-word guide, seven-minute archive estimate and four new matching visible/schema FAQs.
 
 Current primary Washoe County STR inspection checklist opened October7, marked Updated12/12/25. Its Tahoe-only off-street parking/Accela item, floor-plan room-use check and maximum-occupancy placard are geographically bounded examples, not a national formula or permission to convert parking spaces, bedrooms or septic design flow into guests. No old2021 PDF, proposed ordinance, fee, transfer entitlement or timing promise used. Less than200 derived words, no direct quotation. Commercial-interest/document-based/professional/privacy/results disclosures retained.
