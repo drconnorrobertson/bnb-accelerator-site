@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: capacity-owner first actual indexing baseline
+
+First actual InspectionOctober8T03:21:02.247903UTC ID248af973-af5b-4f5f-8ab7-6c7c86e098bb:NEUTRAL/URLunknown;robots/indexing/fetch unspecified,no reportedcrawl/useragent/referrals. Completefilteredhistoryzero before/one after/hasMorefalse. Independent03:21:17.227UTC Googlebot-UA probe200/exactcurrentbuild/selfcanonical/noindexabsent/robotsallowed/serverarticletext; this is servingeligibility notactualGooglecrawl/browserrender. No technicalcause, duplicateintent, worseningtrend or revisedbodyreceipt inferred. Evidence parking-capacity-indexing-baseline-2026-10-07.json and inventory updated; historicalnotreturnedmetrics preserved. No publicchange/repeatedsubmission/509credit;64existing/eightnew unchanged. Next sourced substantive existing capacity-owner expansion; ACTIVEfive-minute schedule preserved.
+
 ## October 7: stored indexing evidence coverage and GA4 availability
 
 747inventoryrows record72PASS/99URLunknown/53discovered/523without actual verdict at heterogeneous times; notfreshsitewideindexedcount, trend or revisedbodyreceipt. CurrentGA4eventreport returnsnotConfigured:true/no_scope for connected account; not proof site lacks tracking or zero enquiries, no conversion claims. Evidence indexing-evidence-coverage-2026-10-07-late.md. No publicchanges/repeatedsubmissions/new509credit;64existing/eightnew unchanged. Continue independent substantive capacity diligence; ACTIVEfive-minute schedule preserved.

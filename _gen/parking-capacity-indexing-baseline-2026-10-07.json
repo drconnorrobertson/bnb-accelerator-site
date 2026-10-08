@@ -1,0 +1,58 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+  "requested_at": "2026-10-08T03:21:02.247903+00:00",
+  "inspection_id": "248af973-af5b-4f5f-8ab7-6c7c86e098bb",
+  "source_commit": "3fc5a0b",
+  "before": {
+    "returned": 0,
+    "hasMore": false
+  },
+  "actual": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "248af973-af5b-4f5f-8ab7-6c7c86e098bb",
+        "url": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-08T03:21:02.247903+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "independent_live_eligibility": {
+    "observed_at": "2026-10-08T03:21:17.227Z",
+    "http_status": 200,
+    "googlebot_ua": true,
+    "final_url": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+    "canonical": "https://www.bnbaccelerator.com/blog/parking-occupancy-str-cap/",
+    "noindex": false,
+    "robots_allows_googlebot": true,
+    "robots_evidence": "User-agent:* Allow:/; no Googlebot-specific restriction",
+    "exact_current_public_build": true,
+    "server_article_text": true
+  },
+  "limits": "First actual Google inspection, not a diagnosed barrier/duplication/trend. Independent UA probe is not actual Google crawl or browser rendering. No reported Google crawl or revised-body receipt. No public change or repeated submissions/new509 credit."
+}
