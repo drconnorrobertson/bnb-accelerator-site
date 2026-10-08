@@ -631,9 +631,10 @@
       "maximum_similarity": 0.017,
       "validation": "All required repository checks plus RevPAR/full scoped diff/747prior archive cards preserved/independent cash arithmetic/similarity0.017/home source and build unchanged; four authored FAQ/schema answers aligned; shared71word navigation excluded from authored wordCount only, all links verified",
       "submission_status": "IndexNow three changed canonicals HTTP200, key verified; blogXMLacceptedconfirmed2026-10-08T12:04:05.249Z pending/zero reportederrorswarnings. Not confirmed indexing.",
-      "google_indexing_evidence": "unknown; live serving eligibility and accepted submission are not Google indexing evidence; actual Inspection baseline not yet collected",
+      "google_indexing_evidence": "First actual Inspection NEUTRAL/URL unknown to Google; no reported crawl; unspecified robots/indexing/fetch; not diagnosed barrier, duplication, trend or revised-body receipt; 2026-10-08T12:05:35.46871+00:00",
       "evidence": "_gen/improvement-exchange-live-evidence.json",
-      "counted_toward_509": true
+      "counted_toward_509": true,
+      "indexing_baseline": "_gen/improvement-exchange-indexing-baseline-2026-10-08.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/dst-vs-direct-str-1031-replacement/",
