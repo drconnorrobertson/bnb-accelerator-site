@@ -1,0 +1,21 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/primary-residence-str-rule/",
+  "source_commit": "75c4832",
+  "requested_at": "2026-10-08T04:21:27.525196+00:00",
+  "inspection_id": "6caae2b3-8db0-409d-82ff-a23fb4b224e0",
+  "before": {"returned": 0, "hasMore": false},
+  "actual": {
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {"returned": 1, "hasMore": false},
+  "independent_live_eligibility": "Not newly probed in this run; historical source eligibility retained separately in the URL inventory",
+  "substantive_owner_review": "Full existing main read: actual residency versus nominal address/entity, definition/proof/allowed nights/absence/entity/renewal checks and genuine lawful alternative use. Preserve this distinct existing owner; candidate expansion needs current geographically bounded primary material and original buyer decision support. No new generic residency variant approved.",
+  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplication, trend or revised-body receipt. No reported crawl. Unreturned historical performance remains unknown. No public edit, repeat submission or509 credit."
+}
