@@ -1,0 +1,29 @@
+{
+  "url": "https://www.bnbaccelerator.com/compare/the-short-term-shop-vs-str-search/",
+  "source_commit": "f302281",
+  "requested_at": "2026-10-08T04:37:22.214466+00:00",
+  "inspection_id": "153649b2-9d20-4211-aca6-9bc7aefa4e81",
+  "before": {"returned": 0, "hasMore": false},
+  "actual": {
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {"returned": 1, "hasMore": false},
+  "source_eligibility": {
+    "canonical": "https://www.bnbaccelerator.com/compare/the-short-term-shop-vs-str-search/",
+    "noindex": false,
+    "sitemap": "sitemap-core.xml",
+    "sitemap_included": true,
+    "inbound_public_pages": 3,
+    "datePublished": "2026-10-06",
+    "dateModified": "2026-10-07"
+  },
+  "independent_live_eligibility": "Not newly probed this run; source eligibility is separate from live or actual Google crawl",
+  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplicate intent, a worsening trend or revised-body receipt. No reported crawl or referring URLs. Performance not queried this run. Existing canonical comparison preserved; no public edit, repeat submission, new provider variant or509 credit."
+}
