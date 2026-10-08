@@ -700,6 +700,8 @@
       "verified_live_at": "2026-10-08T00:51:05.535219+00:00",
       "counted_toward_509": false,
       "evidence": "_gen/long-term-fallback-live-evidence.json",
+      "indexing_baseline": "_gen/long-term-fallback-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "First actual Inspection2026-10-08T00:53:02.57476UTC NEUTRAL/URLunknown/unspecified robots-indexing-fetch/no reported crawl; not a technical cause or revised-body receipt",
       "validation": "1343words/sevenminutes/four new alignedFAQ; requiredsevenchecks/fullfourpublicdiff/current IRS527 source/original five-field acceptance register and independent stabilized-conversion-dated cash math/similarity0.012;54live targets-assets/5inbound;September23publication/homepage/sharedflow preserved",
       "submission": "IndexNowthreechangedcanonicalsHTTP200;blogXMLconfirmed2026-10-08T00:51:19.331Zpending/zero reportederrorswarnings;actualGoogleunknown from complete zero-row storedhistory/hasMorefalse,notexclusion or revisedbodyreceipt"
     },
