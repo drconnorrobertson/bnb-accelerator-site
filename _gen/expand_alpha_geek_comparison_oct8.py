@@ -1,0 +1,40 @@
+"""Enhance the existing direct comparison; preserve homepage and shared flow."""
+import json,re
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];p=R/'compare/alpha-geek-capital/index.html';t=p.read_text()
+t=t.replace('Alpha Geek Capital describes fund and single-asset offerings; its related education offerings address active investors. Confirm which opportunity you are evaluating before comparing services.','Alpha Geek Capital’s current public FAQ describes diversified funds and single-asset STR or boutique-hotel offerings, with investors owning interests in the property-owning LLC. BNB Accelerator’s acquisition service concerns a client-approved property purchase. Start with the exact investment or service agreement, not a shared Airbnb-investing label.')
+t=t.replace('STR fund and education provider','STR and boutique-hotel investment offerings')
+addition='''<section class="section-sm bg-alt"><div class="wrap wrap-narrow"><h2 id="offering-decision-file">Work sample: a five-field ownership decision file</h2>
+<p>Do not ask an offering sponsor to produce the same acquisition-service deliverables as a buyer's search team. Ask each for a redacted sample appropriate to its model, then fill in these fields for the actual opportunity. A public FAQ is evidence of positioning, not a substitute for signed terms.</p>
+<ol><li><strong>What you acquire:</strong> identify the property and deed-holding entity for a direct purchase; for an offering, identify the issuer, interest class, assets and use of proceeds. Confirm whether you select the address or subscribe to the sponsor's strategy.</li>
+<li><strong>Decision rights:</strong> name who approves offers, borrowing, budgets, operators, refinancing and sale. For an offering, obtain the actual voting and removal provisions, not an assumption that an equity interest gives unilateral control.</li>
+<li><strong>Cash and fee triggers:</strong> obtain the subscription or engagement payment schedule, charges inside the vehicle or service, vendor exclusions and obligations after the initial payment. Ask what happens if the deal never closes.</li>
+<li><strong>Evidence and reporting:</strong> request a property memo and seller-record reconciliation for a purchase; for an offering, ask for financial information, debt terms, reporting samples and the documents governing distributions. Neither modeled returns nor a target payout is money available to fund the commitment.</li>
+<li><strong>Exit and additional funding:</strong> identify transfer restrictions, redemption terms if any, sale authority, capital-call provisions and consequences of not contributing. Ask your independent advisers to interpret these documents before reserving capital.</li></ol>
+<p><a href="https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/private" target="_blank" rel="noopener">The SEC's August 17, 2022 private-placement investor bulletin</a>, reviewed October 8, 2026, explains liquidity and disclosure risks and that a Form D filing is not SEC approval. This is general investor education, not a determination of Alpha Geek Capital's offering exemption, compliance or investment suitability. We have not reviewed a current private offering agreement here.</p>
+</div></section>
+<section class="section-sm"><div class="wrap wrap-narrow"><h2 id="capital-comparison">Original worksheet: initial cash is not the entire commitment</h2>
+<p><strong>Fictional comparison only—not provider quotes, an available offering or a forecast:</strong> an investor has $350,000 deployable after separately protecting household needs. A hypothetical direct-property budget uses $190,000 price equity, $18,000 closing costs, $38,000 furnishing, $12,000 repairs, $22,000 service fee and $45,000 retained property reserve. The allocation is $325,000, leaving $25,000 unallocated. The reserve is already included; do not spend it a second time.</p>
+<p>An unrelated fictional offering requires $200,000 initially. Suppose its reviewed terms also permit a $30,000 additional contribution and the investor elects to retain $25,000 as a personal liquidity buffer for this investment. The planned allocation becomes $255,000, leaving $95,000 unallocated. The $30,000 is a hypothetical obligation-planning line, not a statement about Alpha Geek Capital's terms. Whether an actual call is optional, mandatory or subject to dilution must come from the actual agreement.</p>
+<p>The direct purchase's hypothetical payments total $280,000 before the retained $45,000 reserve, versus the offering's $200,000 initial subscription: an $80,000 payment difference. The difference in planned allocations is $70,000 after accounting for the distinct hypothetical future obligations and buffers. Do not declare the offering cheaper per property or higher-returning: exposure, leverage, control and liquidity differ. Obtain fees charged within the investment vehicle as well as fees paid outside it; a charge deducted from distributions still affects economics even when it is not a separate closing payment.</p>
+<p>Now test an additional, separately quoted $18,000 repair and $9,000 opening delay on the direct purchase. Allocation rises to $352,000, a $2,000 shortfall without raiding the $45,000 reserve. Revise the price, scope or capital plan before committing. In the fictional offering, a second distinct $40,000 contribution would increase planned allocation to $295,000 and reduce unallocated capital to $55,000. Neither example establishes comparable risk or expected results. Do not count a distribution, tax saving, refinance or sale that has not occurred as liquid funding.</p>
+<p>For a buyer who needs address-level control and is ready for a transaction in the next six months, compare BNB's <a href="/pricing/">written scope and fee questions</a> with the work you intend to perform. For managed investment exposure, the <a href="/compare/alternatives-to-alpha-geek-capital/">Alpha Geek Capital alternatives owner</a> links different paths including <a href="/compare/techvestor/">Techvestor</a> and <a href="/compare/elk-ridge-investments/">Elk Ridge Investments</a>. These are research alternatives, not endorsements or equivalent offerings. For self-directed acquisition, use <a href="/blog/bnb-accelerator-vs-diy/">the DIY comparison</a>. The correct choice may be to keep capital uncommitted until the documents answer your questions.</p>
+<p>This worksheet is educational, not legal, tax, securities or individualized investment advice. Have independent licensed advisers review eligibility, ownership, loss limitations and the actual documents. No refund, deduction, distribution, return or search placement is promised.</p>
+</div></section>'''
+marker='<section class="section-sm"><div class="wrap wrap-narrow"><h2>Which option fits your first purchase?</h2>'
+assert t.count(marker)==1;t=t.replace(marker,addition+marker)
+t=t.replace('reviewed 2026-10-01.','reviewed 2026-10-08.').replace('This is a public-offer comparison, not a customer review, independent ranking or endorsement.','This is document-based analysis of public materials, not firsthand testing, a customer review, independent ranking or endorsement.')
+def update(m):
+ d=json.loads(m[1])
+ for n in d.get('@graph',[d]):
+  if n.get('@type')=='Article':
+   assert n['datePublished']=='2026-08-15';n['dateModified']='2026-10-08'
+ return '<script type="application/ld+json">'+json.dumps(d,indent=2)+'</script>'
+t=re.sub(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',update,t,flags=re.S);p.write_text(t)
+sm=R/'sitemap-core.xml';s=sm.read_text();url='https://www.bnbaccelerator.com/compare/alpha-geek-capital/'
+s,n=re.subn(r'(<(?:ns0:)?loc>'+re.escape(url)+r'</(?:ns0:)?loc>\s*<(?:ns0:)?lastmod>)[^<]+',r'\g<1>2026-10-08',s);assert n==1;sm.write_text(s)
+assert sum([190000,18000,38000,12000,22000,45000])==325000
+assert 200000+30000+25000==255000 and 325000-255000==70000
+assert 325000+18000+9000==352000 and 352000-350000==2000
+assert 255000+40000==295000 and 350000-295000==55000
+print('PASS scoped owner/lastmod/original publication/arithmetic')
