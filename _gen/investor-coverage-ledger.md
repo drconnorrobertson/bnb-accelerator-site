@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: fire-inspection acceptance guide verified live
+
+Content507047d69f0b47216db6ef88295a434b6850e7be exactliveOctober8T03:08:44.613299UTC afterone30secondpropagationretry:fourartifacts/59links-assets/5inbound/1450words/fourFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/singleOct7XMLlastmod/originalSep23/homeexact. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.026/math pass. IndexNowthreeHTTP200 after local argument correction (no request on failed invocation);blogXML03:08:58.684Zconfirmedpending0reportederrorswarnings. ActualGoogleunknown fromcompleteemptyhistory,not exclusion or revisedbodyreceipt. Evidence fire-acceptance-purchase-live-evidence.json; existingblogrefresh64/new8of509/sixcorrections/comparison15/resource7 distinct. Content-creation skill shaped buyer-first acceptance evidence. Next firstactual indexing baseline and substantive capacity/permission gaps; ACTIVE five-minute schedule unchanged.
+
 ## October 7: fire-inspection acceptance acquisition expansion
 
 Existing str-fire-inspection-closing expanded after substantive original/parking/CO-owner review. Original six-field findings-to-acceptance register and correction-delay cash bridge; current City of Sevierville primary process geographically limited, no national checklist or transfer/fee/timing assumption.1450words/sevenminutes/four matchedFAQs; originalSep23/H1/author/related research links retained. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/similarity0.026/math/homehashes pass. Empty complete storedInspectionhistory means actual indexing unknown, not exclusion. Evidence fire-acceptance-purchase-quality-review.md; live verification pending before64th existingrefresh credit. Eight new509 additions unchanged; content-creation skill shaped buyer decision support. ACTIVE five-minute schedule preserved.

@@ -1,0 +1,58 @@
+{
+  "content_commit": "507047d69f0b47216db6ef88295a434b6850e7be",
+  "verified_at": "2026-10-08T03:08:44.613299+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 59,
+  "records": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/str-fire-inspection-closing/",
+      "http_status": 200,
+      "final_url": "https://www.bnbaccelerator.com/blog/str-fire-inspection-closing/",
+      "canonical": "https://www.bnbaccelerator.com/blog/str-fire-inspection-closing/",
+      "robots_allowed": true,
+      "noindex": false,
+      "exact_public_build_match": true,
+      "server_article_text": true,
+      "publication_date": "2026-09-23",
+      "modified_date": "2026-10-07",
+      "words": 1450,
+      "matched_faqs": 4,
+      "sitemap_entries": 1,
+      "sitemap_lastmod": "2026-10-07",
+      "inbound_public_pages": 5,
+      "internal_targets": 59,
+      "googlebot_ua_http_200": true
+    }
+  ],
+  "propagation_retry": "One30-second retry after initial exact-body mismatch; no defect inferred",
+  "stored_inspection_history": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "indexnow": {
+    "changed_urls": 3,
+    "http_status": 200,
+    "accepted_for_processing": true,
+    "note": "Initial local CLI argument error sent no request; corrected --url invocation succeeded"
+  },
+  "blog_sitemap": {
+    "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+    "accepted": true,
+    "confirmed": true,
+    "lastSubmitted": "2026-10-08T03:08:58.684Z",
+    "isPending": true,
+    "isSitemapsIndex": false,
+    "type": "sitemap",
+    "warnings": "0",
+    "errors": "0"
+  },
+  "limits": "Independent serving eligibility, not Google crawl/browser rendering/indexing/performance gains. Empty stored history is unknown actual indexing, not exclusion. No authenticated Vercel status assertion."
+}
