@@ -18,6 +18,17 @@
   "verified_live_new_pages": 8,
   "separately_recorded_accuracy_corrections": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/the-refund-loop-explained/",
+      "content_commit": "599a53888c07901e0befaff648724308fc7e138f",
+      "verified_live_at": "2026-10-08T02:08:31.551405+00:00",
+      "evidence": "_gen/refund-loop-correction-live-evidence.json",
+      "counted_toward_509": false,
+      "counted_as_substantive_expansion_batch": false,
+      "correction": "Replace automatic tax-offset/refund/grouping-threshold and unsupported client-funding causality with current IRS925/551/544 and original cleared-capital/deposit-credit/no-refund acquisition worksheet; preserve original August15 publication/title/author/Keepreading/threeFAQquestions, align conditional H1/breadcrumb/archive",
+      "validation": "1451words/sevenminutes; requiredsevenchecks plus RevPAR/fullfourpublicdiff/similarity0.012/745unrelatedarchivecards/homehashes/math;58live links-assets/6inbound/GooglebotUA200/exactfourpublicartifacts",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T02:08:42.795Zpending/zero reportederrorswarnings;actualGoogleunknown completeemptyhistorynotexclusion"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-vs-midterm-rentals/",
       "content_commit": "0cfe98929cc96038d3a732f933623c36f4b62d3f",
       "verified_live_at": "2026-10-08T01:01:24.156522+00:00",

@@ -1,0 +1,30 @@
+{
+  "content_commit": "599a53888c07901e0befaff648724308fc7e138f",
+  "verified_at": "2026-10-08T02:08:31.551405+00:00",
+  "exact_changed_public_artifacts": 4,
+  "protected_homepage_exact": true,
+  "independent_internal_links_assets_checked": 58,
+  "records": [{
+    "url": "https://www.bnbaccelerator.com/blog/the-refund-loop-explained/",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/the-refund-loop-explained/",
+    "canonical": "https://www.bnbaccelerator.com/blog/the-refund-loop-explained/",
+    "robots_allowed": true,
+    "noindex": false,
+    "exact_public_build_match": true,
+    "server_article_text": true,
+    "publication_date": "2026-08-15",
+    "modified_date": "2026-10-07",
+    "words": 1451,
+    "matched_faqs": 3,
+    "sitemap_entries": 1,
+    "sitemap_lastmod": "2026-10-07",
+    "inbound_public_pages": 6,
+    "internal_targets": 58,
+    "googlebot_ua_http_200": true
+  }],
+  "stored_inspection_history_at_publication": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
+  "blog_sitemap": {"lastSubmitted": "2026-10-08T02:08:42.795Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": 0, "reported_warnings": 0},
+  "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. Empty complete storedInspection history does not diagnose exclusion or establish revised-body receipt."
+}
