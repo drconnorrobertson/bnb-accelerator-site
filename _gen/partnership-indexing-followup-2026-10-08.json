@@ -1,0 +1,22 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/str-partnership-structure/",
+  "observed_at": "2026-10-08T06:07:14.387853+00:00",
+  "inspection_id": "4447768f-78eb-40be-9482-c41ac5d3b3e1",
+  "verdict": "NEUTRAL",
+  "coverage_state": "URL is unknown to Google",
+  "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+  "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "last_crawl_time": null,
+  "crawled_as": null,
+  "referring_urls": [],
+  "prior": {
+    "inspection_id": "566bbc10-70ba-4b61-9cff-1dd14d4cdd81",
+    "observed_at": "2026-10-06T23:49:23.3717+00:00",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "last_crawl_time": null
+  },
+  "complete_filtered_history": {"before_count": 1, "after_count": 2, "has_more": false},
+  "limits": "No observed indexing/crawl change after more than thirty hours. Not a technical barrier, duplication, rendering, demand or performance diagnosis. Historical live eligibility retained separately, not freshly probed. No unchanged submissions or public edits."
+}
