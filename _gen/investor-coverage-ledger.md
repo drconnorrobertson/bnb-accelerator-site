@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: backup-cleaner first actual indexing baseline
+
+First actual Google InspectionOctober8T01:59:05.114085UTC ID5c0c8b32-4ba1-4dc7-8b2f-accbefd8c89b:NEUTRAL/Discovered - currently not indexed;robots/indexing/fetch/useragent unspecified and no reportedcrawl/referrals. Complete storedhistory zero before/one after/hasMorefalse. Discovery/current nonindexing evidence, not a technical cause, duplication, worsening trend or receipt of revisedbody. Independent01:56:42 liveeligibility unchanged; historicalnotreturnedimpressions/clicks retained. Evidencebackup-cleaner-indexing-baseline-2026-10-07.json; inventory/register linked. No publicchanges/repeatedsubmissions/509credit; eightnew/61existing remain distinct. Allow crawl time and continue independent buyer-quality work; ACTIVEfive-minute schedule unchanged.
+
 ## October 7: backup-cleaner live purchase worksheet
 
 Content382bad7054fb7d7963dbcab209c55f90a1f4ebf2 preserved concurrent8134cb2 calculator changes via safe rebase and reran all seven checks plus RevPAR test; source/build homepage hashes unchanged. Exact liveOctober8T01:56:42.252880UTC after one30second propagation retry:fourartifacts/55links-assets/3inbound/1525words/fourFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/oneOctober7XMLlastmod/originalSeptember23pub/homeexact. IndexNowthreechangedcanonicalsHTTP200;blogXMLconfirmed01:56:57.263Zpending/zero reportederrorswarnings. CompleteemptyfilteredstoredInspection history actualGoogleunknown, not exclusion or revisedbodyreceipt; historicalnotreturnedmetrics preserved. Evidencebackup-cleaner-purchase-live-evidence.json. Existing substantiveblogrefresh61/new8of509/fiveaccuracycorrections/comparison15/resource7 distinct. Next acquisition-specific evidence gaps and measured indexing baseline; no provider/keyword swaps. ACTIVEfive-minute schedule unchanged.

@@ -25,6 +25,8 @@
     "googlebot_ua_http_200": true
   }],
   "stored_inspection_history_at_publication": {"returned": 0, "hasMore": false, "actual_indexing": "unknown", "exclusion_reason": "not established"},
+  "indexing_baseline": "_gen/backup-cleaner-indexing-baseline-2026-10-07.json",
+  "actual_google_inspection": {"requested_at": "2026-10-08T01:59:05.114085+00:00", "inspection_id": "5c0c8b32-4ba1-4dc7-8b2f-accbefd8c89b", "verdict": "NEUTRAL", "coverage_state": "Discovered - currently not indexed", "last_crawl_time": null, "technical_cause_established": false},
   "indexnow": {"changed_urls": 3, "http_status": 200, "accepted_for_processing": true},
   "blog_sitemap": {"lastSubmitted": "2026-10-08T01:56:57.263Z", "accepted": true, "confirmed": true, "pending": true, "reported_errors": 0, "reported_warnings": 0},
   "limits": "Serving/eligibility and submissions are not Google crawl, browser rendering, indexing or search/conversion gains; no authenticated Vercel status assertion. No actual Google inspection reported in complete stored history, not exclusion proof."

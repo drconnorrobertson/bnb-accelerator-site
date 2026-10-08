@@ -712,7 +712,8 @@
       "verified_live_at": "2026-10-08T01:56:42.252880+00:00",
       "counted_toward_509": false,
       "evidence": "_gen/backup-cleaner-purchase-live-evidence.json",
-      "actual_google_indexing": "Unknown; complete filtered storedInspection history zero rows/hasMorefalse, not exclusion or revised-body receipt",
+      "indexing_baseline": "_gen/backup-cleaner-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "First actual Inspection2026-10-08T01:59:05.114085UTC NEUTRAL/Discovered - currently not indexed/unspecified robots-indexing-fetch/no reportedcrawl; discovery not technical cause or revised-body receipt",
       "validation": "1525words/sevenminutes/four alignedFAQs; requiredsevenchecks and concurrent RevPARcheck; fullfourpublicdiff/current Airbnb2895/original accepted-capacity register and trial/quote/incremental launch cash/similarity0.014;55live targets-assets/3inbound;September23publication/homepage/sharedflow preserved; concurrent8134cb2 retained and allchecks rerun",
       "submission": "Three changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T01:56:57.263Zpending/zero reportederrorswarnings;not indexing"
     },
