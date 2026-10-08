@@ -181,6 +181,18 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/best-str-financing-options/",
+      "content_commit": "3de5e3c",
+      "hub_commit": "5333296",
+      "verified_at": "2026-10-08T08:45:12.558658+00:00",
+      "evidence": "_gen/financing-comparison-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "Required build/buyer-pathways/nonhome SEO/design/preclosing/precall/RevPAR/content audit; six matched FAQs, full scoped diff, literal-cash and independent amortization checks; homepage hashes unchanged",
+      "indexnow_status": "HTTP 200 accepted for two changed canonical URLs; not confirmed indexing",
+      "sitemap_status": "CoreXMLacceptedconfirmed2026-10-08T08:45:36.519Zpending/zero reportederrorswarnings;not indexing",
+      "google_indexing_evidence": "Actual Google crawl/indexing not inspected in this batch. Prior settled impressions do not establish receipt or indexing of the October8 refresh."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-pacaso/",
       "content_commit": "629173676beea45b068182ad86b0c5658497c858",
       "verified_at": "2026-10-08T07:37:28.364032+00:00",
