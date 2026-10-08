@@ -17,7 +17,8 @@
   "deployment": "Exact guide/core XML/protected homepage after one 30-second propagation retry; no authenticated Vercel status or browser-rendering claim",
   "indexnow": {"changed_canonicals": 1, "http_status": 200, "meaning": "Accepted for processing, not indexing"},
   "search_console_sitemap": {"url": "https://www.bnbaccelerator.com/sitemap-core.xml", "accepted": true, "confirmed": true, "lastSubmitted": "2026-10-07T18:33:58.982Z", "isPending": true, "reported_errors": "0", "reported_warnings": "0"},
-  "google_indexing_evidence": "No matching observation in previously loaded 252-row Inspection history; not fresh Inspection or proof of exclusion. Revision crawl/indexing not confirmed.",
+  "google_indexing_evidence": "Stored first actual Inspection requested October7T18:36:21.895629UTC, ID80b4f161-bd02-4b2b-92c2-bd9abe4421b5: NEUTRAL/URLunknown/unspecified robots-indexing-fetch/no reported crawl/null agent. Complete filtered history one/hasMorefalse. Not a new Inspection, diagnosed technical cause or revision receipt.",
+  "indexing_baseline": "_gen/market-report-indexing-baseline-2026-10-07.json",
   "limits": "Serving and submission are distinct from actual indexing, browser rendering, search performance and qualified enquiries.",
   "counted_toward_509": false
 }

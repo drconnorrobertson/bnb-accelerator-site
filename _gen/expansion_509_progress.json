@@ -87,6 +87,8 @@
       "verified_live_at": "2026-10-07T18:33:46.784160+00:00",
       "counted_toward_509": false,
       "evidence": "_gen/market-report-live-evidence.json",
+      "indexing_baseline": "_gen/market-report-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "Stored first Inspection October7T18:36:21.895629UTC NEUTRAL/URLunknown/unspecified robots-indexing-fetch/no reported crawl; not a new request or technical-cause diagnosis",
       "validation": "All required checks/full two-public-file diff/independent arithmetic/original August15 publication/three aligned FAQs/52 live targets-assets/2 inbound/protected homepage and shared flow",
       "submission": "One canonical IndexNowHTTP200;coreXMLconfirmed18:33:58.982Zpending/zero reported errorswarnings;not confirmed indexing"
     },
