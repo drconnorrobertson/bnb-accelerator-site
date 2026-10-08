@@ -5,7 +5,7 @@ R=Path(__file__).resolve().parents[1]
 e=json.loads((R/'_gen/dock-watercraft-live-evidence.json').read_text())
 p=R/'_gen/expansion_509_progress.json';d=json.loads(p.read_text());a=d['separately_counted_existing_refreshes']
 assert len(a)==71 and not any(x['url']==e['url'] for x in a)
-a.insert(0,{'url':e['url'],'content_commit':e['content_commit'],'verified_live_at':e['verified_at'],'evidence':'_gen/dock-watercraft-live-evidence.json','counted_toward_509':False,'improvement':'Original coastal exposure/installed scope register and labeled A/B acquisition cash, delay and approved-price-reduction branches; bounded current Carrier source','validation':e['validation'],'submission':e['indexnow']+'; blogXMLacceptedconfirmed09:45:56.505UTC pending/zero reportederrorswarnings','actual_google_indexing':e['google_indexing_evidence']})
+a.insert(0,{'url':e['url'],'content_commit':e['content_commit'],'verified_live_at':e['verified_at'],'evidence':'_gen/dock-watercraft-live-evidence.json','counted_toward_509':False,'improvement':'Original guest-activity and coverage-acceptance register with labeled craft/no-craft acquisition capital and electrical/delay stress; current Airbnb and Proper primary sources','validation':e['validation'],'submission':e['indexnow']+'; blogXMLacceptedconfirmed09:45:56.505UTC pending/zero reportederrorswarnings','actual_google_indexing':e['google_indexing_evidence']})
 assert d['verified_live_new_pages']==8 and len(a)==72
 p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
 p=R/'_gen/blog-indexing-inventory.csv';raw=p.read_bytes();fields=next(csv.reader(io.StringIO(raw.decode())))
