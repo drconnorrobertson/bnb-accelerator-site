@@ -26,7 +26,8 @@
       "counted_as_substantive_expansion_batch": false,
       "correction": "Qualify prior-depreciation exchange deferral using current IRS544 asset-specific recapture guidance; remove unsupported empirical assertions; preserve original publication/URL/author/flow, align FAQ and archive",
       "submission": "Two changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T00:02:04.470Z pending/zero reported errorswarnings;not confirmed indexing",
-      "actual_google_indexing": "Unknown; complete filtered stored Inspection history empty/hasMorefalse, not exclusion proof"
+      "actual_google_indexing": "First actual Inspection2026-10-08T00:04:33.989296+00:00 PASS/Submitted and indexed;September23T12:37:04Z crawl predates corrected body, not new indexing gain",
+      "indexing_baseline": "_gen/exchange-indexing-baseline-2026-10-07.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-neighbors-and-noise/",

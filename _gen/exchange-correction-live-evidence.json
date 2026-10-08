@@ -52,7 +52,8 @@
     "inspections": [],
     "hasMore": false
   },
-  "actual_google_indexing": "Unknown; no stored actual Inspection. Empty history is not evidence of exclusion.",
+  "actual_google_indexing": "First actual Inspection2026-10-08T00:04:33.989296+00:00 PASS/Submitted and indexed/ALLOWED/INDEXING_ALLOWED/SUCCESSFUL/MOBILE;September23T12:37:04Z crawl predates October7 correction. Confirmed existing URL indexing, not new gain or corrected-body receipt.",
+  "indexing_baseline": "_gen/exchange-indexing-baseline-2026-10-07.json",
   "counted_toward_509": false,
   "counted_as_substantive_expansion_batch": false,
   "limits": "Serving eligibility is not Google indexing, revised crawl, browser rendering, authenticated Vercel status or measured search/conversion gains."

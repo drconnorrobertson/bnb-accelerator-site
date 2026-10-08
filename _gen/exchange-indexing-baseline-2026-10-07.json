@@ -1,0 +1,63 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/1031-exchange-short-term-rental/",
+  "requested_at": "2026-10-08T00:04:33.989296+00:00",
+  "inspection_id": "13802f86-16df-4136-b131-bcd03f29e75e",
+  "content_commit": "7b2d1b92e0a21173f9a19c0e875c0a5f79900eab",
+  "before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "actual": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/1031-exchange-short-term-rental/",
+    "verdict": "PASS",
+    "coverageState": "Submitted and indexed",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-23T12:37:04Z",
+    "pageFetchState": "SUCCESSFUL",
+    "crawledAs": "MOBILE",
+    "referringUrls": [
+      "https://www.bnbaccelerator.com/blog/str-exit-strategy/"
+    ]
+  },
+  "after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "13802f86-16df-4136-b131-bcd03f29e75e",
+        "url": "https://www.bnbaccelerator.com/blog/1031-exchange-short-term-rental/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-09-23T12:37:04+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-08T00:04:33.989296+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "quota": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 1,
+    "limit": 2000,
+    "remaining": 1999
+  },
+  "interpretation": "Confirmed existing indexed canonical. September23 crawl predates October7 accuracy correction; not a new indexing gain, receipt of corrected body or measured query/conversion change.",
+  "scope": "Bounded SEO-audit indexing-evidence review. No public changes, repeated submissions, recrawl request or 509 credit."
+}
