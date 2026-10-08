@@ -779,6 +779,17 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/coastal-corrosion-capex-str/",
+      "content_commit": "0829d42",
+      "verified_live_at": "2026-10-08T09:21:45.376827+00:00",
+      "evidence": "_gen/coastal-capex-live-evidence.json",
+      "counted_toward_509": false,
+      "improvement": "Original coastal exposure/installed scope register and labeled A/B acquisition cash, delay and approved-price-reduction branches; bounded current Carrier source",
+      "validation": "Required eight checks/full scoped diff/similarity0.014/745 unrelated archive cards/math/homehashes;1387bodywords/sevenminutes/September23pub preserved/no original FAQ",
+      "submission": "Three changed canonical URLs HTTP200 accepted; not confirmed indexing; blogXMLacceptedconfirmed09:22:35.827UTC pending/zero reportederrorswarnings",
+      "actual_google_indexing": "Complete filtered stored Inspection history empty before release/hasMorefalse; actual indexing/crawl/exclusion unknown. No exactpage performance rows Sept8–Oct5/API/hasMorefalse; not exclusion or zero-demand proof."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/cleaning-fees-gross-revenue/",
       "content_commit": "c4496e8cfdc156b63b048c917ce4bddfa1056446",
       "verified_live_at": "2026-10-08T05:49:32.373196+00:00",

@@ -1,0 +1,46 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/coastal-corrosion-capex-str/",
+  "content_commit": "0829d42",
+  "verified_at": "2026-10-08T09:21:45.376827+00:00",
+  "exact_artifacts": 4,
+  "live_links_assets": 57,
+  "inbound_pages": [
+    "sitemap/index.html",
+    "blog/index.html",
+    "blog/buy-str-high-income-large-tax-bill/index.html",
+    "blog/flood-zone-str-underwriting/index.html"
+  ],
+  "googlebot_http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/blog/coastal-corrosion-capex-str/",
+  "robots_allowed": true,
+  "noindex": false,
+  "article_text_present": true,
+  "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
+  "validation": "Required eight checks/full scoped diff/similarity0.014/745 unrelated archive cards/math/homehashes;1387bodywords/sevenminutes/September23pub preserved/no original FAQ",
+  "indexnow": "Three changed canonical URLs HTTP200 accepted; not confirmed indexing",
+  "sitemap_submission": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-08T09:22:35.827Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "google_indexing_evidence": "Complete filtered stored Inspection history empty before release/hasMorefalse; actual indexing/crawl/exclusion unknown. No exactpage performance rows Sept8–Oct5/API/hasMorefalse; not exclusion or zero-demand proof.",
+  "counted_toward_509": false
+}
