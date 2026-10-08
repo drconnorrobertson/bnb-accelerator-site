@@ -813,6 +813,17 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
+      "content_commit": "ee5b3d9f12e55c859891350b05faf9a972338ff8",
+      "verified_live_at": "2026-10-08T11:11:39.078227+00:00",
+      "evidence": "_gen/pool-slide-live-evidence.json",
+      "counted_toward_509": false,
+      "improvement": "Equipment-specific acceptance register, bounded CPSC/Proper primary references, corrected coverage implication and original funded keep/remove/delay branches",
+      "validation": "build_public; blog_buyer_intent; nonhome_seo; nonhome_design; audit_content; preclosing; precall; RevPAR PASS; similarity 747 pages/746 pairs/max0.017; full scoped diff and protected hashes reviewed",
+      "submission": "HTTP200 accepted for three changed canonical pages; key verified; not confirmed indexing; blog XML11:11:58.724UTC accepted confirmed pending/zero reported errors warnings",
+      "actual_google_indexing": "Unknown; complete filtered stored inspection history has zero rows/hasMorefalse. Live eligibility and accepted submissions do not establish indexing or exclusion."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/lost-rental-income-limit-str/",
       "content_commit": "e6ac0cbd9eaea769a04ef4bd99af20eebe849276",
       "verified_live_at": "2026-10-08T10:12:52.414020+00:00",

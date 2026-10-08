@@ -1,0 +1,32 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
+  "content_commit": "ee5b3d9f12e55c859891350b05faf9a972338ff8",
+  "verified_at": "2026-10-08T11:11:39.078227+00:00",
+  "exact_artifacts": 4,
+  "live_links_assets": 55,
+  "inbound_pages": ["sitemap/index.html", "blog/index.html", "blog/buy-str-high-income-large-tax-bill/index.html"],
+  "googlebot_http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
+  "robots_allowed": true,
+  "noindex": false,
+  "article_text_present": true,
+  "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
+  "confirmed_indexing": "Unknown; complete filtered stored inspection history has zero rows/hasMorefalse. Live eligibility and accepted submissions do not establish indexing or exclusion.",
+  "validation": "build_public; blog_buyer_intent; nonhome_seo; nonhome_design; audit_content; preclosing; precall; RevPAR PASS; similarity 747 pages/746 pairs/max0.017; full scoped diff and protected hashes reviewed",
+  "word_count": 1400,
+  "reading_minutes": 7,
+  "original_publication": "2026-09-23",
+  "meaningful_modified": "2026-10-08",
+  "deployment_note": "Initial immediately-post-push probe saw the previous artifact; one delayed recheck matched all four exact production artifacts. No authenticated Vercel READY or browser-rendering assertion.",
+  "indexnow": "HTTP200 accepted for three changed canonical pages; key verified; not confirmed indexing",
+  "google_sitemap_submission": {
+    "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+    "accepted": true,
+    "confirmed": true,
+    "lastSubmitted": "2026-10-08T11:11:58.724Z",
+    "isPending": true,
+    "errors": "0",
+    "warnings": "0"
+  },
+  "performance": "Not queried in this batch; preserve historical inventory evidence and do not infer zero demand or enquiries"
+}
