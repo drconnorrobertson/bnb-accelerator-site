@@ -1,0 +1,46 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/dock-watercraft-str-liability/",
+  "content_commit": "98332290b399cc6268b7f0c44a8692cc689757e7",
+  "verified_at": "2026-10-08T09:45:36.752484+00:00",
+  "exact_artifacts": 4,
+  "live_links_assets": 55,
+  "inbound_pages": [
+    "sitemap/index.html",
+    "blog/index.html",
+    "blog/buy-str-high-income-large-tax-bill/index.html",
+    "blog/dock-permit-inspection-before-buying-waterfront-str/index.html"
+  ],
+  "googlebot_http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/blog/dock-watercraft-str-liability/",
+  "robots_allowed": true,
+  "noindex": false,
+  "article_text_present": true,
+  "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
+  "validation": "Required checks plus RevPAR/fullfourpublicdiff/745 unrelated cards/math/homehashes/similarity0.015;1320bodywords/sixminutes/September23publication/title/H1/author retained/no original FAQ",
+  "indexnow": "Three changed canonicals HTTP200 accepted; not indexing",
+  "sitemap_submission": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-08T09:45:56.505Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "google_indexing_evidence": "Complete filtered stored Inspection history zero/hasMorefalse before publication; actual Google indexing/crawl unknown. Historical no-returned performance not exclusion; not queried this batch.",
+  "counted_toward_509": false
+}
