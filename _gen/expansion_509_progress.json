@@ -15,7 +15,7 @@
     "prior releases",
     "duplicate intents"
   ],
-  "verified_live_new_pages": 8,
+  "verified_live_new_pages": 9,
   "separately_recorded_accuracy_corrections": [
     {
       "url": "https://www.bnbaccelerator.com/blog/furnishing-during-escrow/",
@@ -474,6 +474,21 @@
       "total": 94,
       "status": "Published in 28af76f8 and verified live; counted once",
       "publication_date": "2026-10-06"
+    },
+    {
+      "slug": "dst-vs-direct-str-1031-replacement",
+      "score": {
+        "distinct_intent": 23,
+        "imminent_buyer_relevance": 28,
+        "real_question_evidence": 12,
+        "acquisition_service_fit": 18,
+        "original_decision_support": 10
+      },
+      "total": 91,
+      "score_basis": "Editorial, not measured search demand; six substantive neighbors and primary rulemaking/IRS/SEC review",
+      "review_brief": "_gen/dst-replacement-quality-review.md",
+      "status": "Distinct replacement acceptance and separately funded readiness guide validated and live",
+      "counted_as_published": true
     }
   ],
   "research_candidates": [
@@ -589,6 +604,24 @@
     }
   ],
   "published": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/dst-vs-direct-str-1031-replacement/",
+      "content_commit": "c2e0b5696fa54d371b510f790de5ea82b4d9e52c",
+      "verified_live_at": "2026-10-08T10:42:34.167543+00:00",
+      "words": 1554,
+      "schema_alignment_commit": "b34600e41d14651053879ca4bfc592df79d85981",
+      "schema_alignment_verified_at": "2026-10-08T10:44:44.621241+00:00",
+      "reading_minutes": 8,
+      "matched_faqs": 4,
+      "internal_targets_verified": 56,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.011,
+      "validation": "Required build/buyer/sharedSEO/sharedDesign/preclosing/precall/RevPAR/audit; 746 prior cards byte-identical; full semantic scoped diff and article/FAQ review; similarity max0.011; no homepage/assets/modules changed",
+      "submission_status": "Four changed canonical URLs accepted HTTP200 after exact live verification; blogXMLacceptedconfirmed10:42:57.505UTC pending/zero reportederrorswarnings",
+      "google_indexing_evidence": "unknown; complete stored Inspection history empty/hasMorefalse before release; serving eligibility and submissions not indexing",
+      "evidence": "_gen/dst-replacement-live-evidence.json",
+      "counted_toward_509": true
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/proposed-road-project-before-buying-str/",
       "content_commit": "46b9d9468538fc54366457e2ae29587e6f30e3c7",
@@ -1468,6 +1501,6 @@
       "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
     }
   ],
-  "status": "8 of 509 additional new guides validated and live. Remaining 501 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
+  "status": "9 of 509 additional new guides validated and live. Remaining 500 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }

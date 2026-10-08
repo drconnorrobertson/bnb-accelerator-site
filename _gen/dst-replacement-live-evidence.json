@@ -1,0 +1,50 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/dst-vs-direct-str-1031-replacement/",
+  "content_commit": "c2e0b5696fa54d371b510f790de5ea82b4d9e52c",
+  "verified_at": "2026-10-08T10:42:34.167543+00:00",
+  "exact_artifacts": 5,
+  "live_links_assets": 56,
+  "inbound_pages": [
+    "sitemap/index.html",
+    "blog/index.html",
+    "blog/buy-str-high-income-large-tax-bill/index.html"
+  ],
+  "googlebot_http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/blog/dst-vs-direct-str-1031-replacement/",
+  "robots_allowed": true,
+  "noindex": false,
+  "article_text_present": true,
+  "matched_faqs": 4,
+  "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
+  "confirmed_indexing": "unknown; complete stored Inspection history empty/hasMorefalse before release; serving eligibility and submissions not indexing",
+  "validation": "Required build/buyer/sharedSEO/sharedDesign/preclosing/precall/RevPAR/audit; 746 prior cards byte-identical; full semantic scoped diff and article/FAQ review; similarity max0.011; no homepage/assets/modules changed",
+  "indexnow": "Four changed canonical URLs accepted HTTP200 after exact live verification",
+  "sitemap_submission": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-blog.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-08T10:42:57.505Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "words": 1554,
+  "reading_minutes": 8,
+  "schema_alignment_commit": "b34600e41d14651053879ca4bfc592df79d85981",
+  "schema_alignment_verified_at": "2026-10-08T10:44:44.621241+00:00",
+  "schema_alignment_evidence": "Five exact public artifacts/56 links-assets/three inbound/Googlebot200/homehash unchanged; schema wordCount1554 matches final two-word-longer corrected link label; no repeated submissions"
+}
