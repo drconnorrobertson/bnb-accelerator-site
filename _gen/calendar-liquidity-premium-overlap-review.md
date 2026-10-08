@@ -1,0 +1,13 @@
+# Calendar liquidity versus acquisition premium: owner review
+
+Reviewed October 7, 2026 from synchronized main bc2882b. Complete substantive main bodies read for future-reservations-at-closing, seller-new-str-bookings-during-escrow and future-booking-calendar-value. An initially shortened reservations output was recovered in full before deciding. Four visible FAQs and five purchase checks in the seller-booking owner were included.
+
+Proposed generic new intent: compare an operating STR's booked calendar with a clean launch on price premium and immediately available buyer cash. Reject as a new509 guide: editorial score76/100 (distinct8, imminent buyer29, evidence of question12, acquisition fit18, decision support9). This is not measured query demand or a Google duplication diagnosis.
+
+The existing reservation-closing owner already separates guest duties, lawful/channel treatment, recipient rights, later receipts and early service funding. Its labeled210000available minus200000allocated leaves10000;8000services leaves2000;1500contingent ring-fence leaves500 freely available. Later12000receipts minus8000services gives4000 contribution, while7000receipts gives1000 shortfall. Reserve and subsequent actual refund must not both become the same expense.
+
+The calendar-value owner separately prices incremental benefit:12000supported receipts minus6000costs gives6000; against4000fresh-launch contribution the advantage is2000. Paying8000premium gives negative6000 relative advantage. A further2000net downside gives4000contribution and negative8000 relative advantage after premium. It explicitly keeps identical fixed costs constant only for this isolated comparison, requires full underwriting separately, and prevents pricing the same bookings again through an income uplift.
+
+The seller-booking owner controls changes during escrow rather than pricing the opening ledger. Its4000new guest charge,2500collected and600service example intentionally leaves channel/tax/payment allocation unresolved; no invented net buyer receipt can be calculated from those incomplete categories. Contract rules and platform procedures are distinct and geographically bounded.
+
+Preserve all three complementary owners and their links. No merge, noindex or new provider/keyword variation justified. This review does not recertify October6 primary-source policy summaries, unseen private contracts, actual platform approvals or property income. A future specialized intent requires separate substantive overlap review and current primary evidence. No public changes, submissions, indexing gain or509 credit. Next priority remains substantive concise permission-owner expansion with local primary evidence, not another generic calendar-cash guide.

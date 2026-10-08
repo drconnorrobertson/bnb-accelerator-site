@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: calendar premium and purchase liquidity overlap review
+
+Complete main bodies/available FAQs and purchase checks reviewed for reservation-closing, seller-new-bookings and future-calendar-value owners. Generic calendar-versus-clean-launch price/liquidity candidate rejected76/100(8/29/12/18/9); preserve distinct duties/timing, escrow-change control and incremental valuation owners. Original existing worksheet arithmetic independently reconciled; incomplete seller payout categories not converted into invented net cash. Evidence calendar-liquidity-premium-overlap-review.md. Bounded overlap method, not renewed platform policy certification, measured demand or Google duplication/exclusion diagnosis. No public edits, repeated submissions or509 credit; eight new/63 existing remain separate. Continue substantive permission-owner work; ACTIVE five-minute schedule unchanged.
+
 ## October 7: remodel approval first actual indexing baseline
 
 First actual Inspection October8T02:54:58.230843UTC, ID55542cf0-0515-4f69-b822-cc30d306dd09: NEUTRAL/Discovered - currently not indexed; robots/indexing/fetch/user-agent unspecified, no reported crawl or referrals. Complete filtered history zero before/one after/hasMorefalse. Discovery/current nonindexing is not a diagnosed barrier, duplication, trend or revised-body receipt. Independent02:50:55 live eligibility remains separate; historical not-returned performance preserved. Evidence co-remodel-indexing-baseline-2026-10-07.json and inventory updated. Bounded indexing-evidence method; no public changes, repeated submissions or509 credit. Existing63/new8 unchanged; allow crawl time and continue substantive buyer work. ACTIVE five-minute schedule preserved.
