@@ -21,6 +21,8 @@ for block in re.findall(r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</sc
 a=next(n for n in nodes if n.get('@type') in ['Article','BlogPosting'])
 assert a['datePublished']==a['dateModified']=='2026-10-08'
 article=re.search(r'<article class="article">(.*?)</article>',s,re.S)[1]
+# Count authored article, not the shared generated purchase-navigation widget.
+article=re.sub(r'<aside class="buyer-next-step".*?</aside>','',article,flags=re.S)
 words=len(html.unescape(re.sub('<[^>]+>',' ',article)).split())
 assert a['wordCount']==words
 faq=next(n for n in nodes if n.get('@type')=='FAQPage');assert len(faq['mainEntity'])==4

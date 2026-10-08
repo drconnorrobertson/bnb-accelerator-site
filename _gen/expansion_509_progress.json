@@ -15,7 +15,7 @@
     "prior releases",
     "duplicate intents"
   ],
-  "verified_live_new_pages": 9,
+  "verified_live_new_pages": 10,
   "separately_recorded_accuracy_corrections": [
     {
       "url": "https://www.bnbaccelerator.com/blog/furnishing-during-escrow/",
@@ -489,6 +489,21 @@
       "review_brief": "_gen/dst-replacement-quality-review.md",
       "status": "Distinct replacement acceptance and separately funded readiness guide validated and live",
       "counted_as_published": true
+    },
+    {
+      "slug": "improvement-1031-vs-completed-str-purchase",
+      "score": {
+        "distinct_intent": 23,
+        "imminent_buyer_relevance": 28,
+        "real_question_evidence": 12,
+        "acquisition_service_fit": 18,
+        "original_decision_support": 10
+      },
+      "total": 91,
+      "score_basis": "Editorial, not measured demand; substantive neighbor and primary produced-property/ownership review",
+      "review_brief": "_gen/improvement-exchange-quality-review.md",
+      "status": "Receipt evidence, three dates and separately funded work guide validated and live",
+      "counted_as_published": true
     }
   ],
   "research_candidates": [
@@ -604,6 +619,22 @@
     }
   ],
   "published": [
+    {
+      "url": "https://www.bnbaccelerator.com/blog/improvement-1031-vs-completed-str-purchase/",
+      "content_commit": "b3881092742b82342fd22055a89cbd87d17e2d62",
+      "verified_live_at": "2026-10-08T12:03:41.839655+00:00",
+      "words": 1632,
+      "reading_minutes": 8,
+      "matched_faqs": 4,
+      "internal_targets_verified": 58,
+      "public_inbound_pages": 3,
+      "maximum_similarity": 0.017,
+      "validation": "All required repository checks plus RevPAR/full scoped diff/747prior archive cards preserved/independent cash arithmetic/similarity0.017/home source and build unchanged; four authored FAQ/schema answers aligned; shared71word navigation excluded from authored wordCount only, all links verified",
+      "submission_status": "IndexNow three changed canonicals HTTP200, key verified; blogXMLacceptedconfirmed2026-10-08T12:04:05.249Z pending/zero reportederrorswarnings. Not confirmed indexing.",
+      "google_indexing_evidence": "unknown; live serving eligibility and accepted submission are not Google indexing evidence; actual Inspection baseline not yet collected",
+      "evidence": "_gen/improvement-exchange-live-evidence.json",
+      "counted_toward_509": true
+    },
     {
       "url": "https://www.bnbaccelerator.com/blog/dst-vs-direct-str-1031-replacement/",
       "content_commit": "c2e0b5696fa54d371b510f790de5ea82b4d9e52c",
@@ -1524,6 +1555,6 @@
       "submission": "IndexNow3URLsHTTP200; blog sitemap pending after04:22:25.714Z submission; no confirmed indexing"
     }
   ],
-  "status": "9 of 509 additional new guides validated and live. Remaining 500 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
+  "status": "10 of 509 additional new guides validated and live. Remaining499 are a target, not established qualified gaps or completed pages. Existing refreshes are counted separately.",
   "progress_rule": "Count only a distinct approved new article with successful repository checks, reviewed scoped diff, content commit and verified canonical public production destination. Record indexing separately from submission acceptance."
 }
