@@ -733,6 +733,18 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/primary-residence-str-rule/",
+      "content_commit": "810edf77a3bf1f6a6011023ea89a86eb898982b6",
+      "verified_live_at": "2026-10-08T04:34:47.088541+00:00",
+      "evidence": "_gen/primary-residence-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/primary-residence-indexing-baseline-2026-10-08.json",
+      "actual_google_indexing": "Prior actual04:21:27.525196UTC NEUTRAL/Discovered-currently-not-indexed/no reportedcrawl; not revised-body receipt, trend or diagnosed cause",
+      "counted_toward_509": false,
+      "improvement": "Five-field actual-residency evidence register, calendar-versus-entitlement worksheet and original residence-based/investment purchase-cash comparison with bounded current Nashville primary material",
+      "validation": "Required checks plus RevPAR/fullfourpublicdiff/745othercards/math/homehashes/similarity0.013;exactfourartifacts/56links/4inbound/fourmatchedFAQs/GooglebotUA200",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXML2026-10-08T04:35:02.393Zacceptedconfirmedpending/zero reportederrorswarnings;not confirmed indexing"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/str-density-cap-waitlist/",
       "content_commit": "ba0fdec362f29485736577cc1f7a4a1492716be9",
       "verified_live_at": "2026-10-08T03:49:53.595867+00:00",
