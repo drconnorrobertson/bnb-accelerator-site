@@ -724,6 +724,8 @@
       "content_commit": "507047d69f0b47216db6ef88295a434b6850e7be",
       "verified_live_at": "2026-10-08T03:08:44.613299+00:00",
       "evidence": "_gen/fire-acceptance-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/fire-acceptance-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "First actual Inspection2026-10-08T03:10:54.970144UTC NEUTRAL/URL unknown/unspecified robots-indexing-fetch/no reportedcrawl; not technical cause or revisedbody receipt",
       "counted_toward_509": false,
       "improvement": "Six-field corrective-findings acceptance register, supported-capacity decision and original correction-delay cash bridge; geographically limited City of Sevierville primary process",
       "validation": "Seven required checks plus RevPAR/fullfourpublicdiff/745othercards/similarity0.026/math/homehashes; exactfourartifacts/59links/5inbound/GooglebotUA200/fourFAQs",

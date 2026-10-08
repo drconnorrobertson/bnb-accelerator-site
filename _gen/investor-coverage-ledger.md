@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: fire-acceptance first actual indexing baseline
+
+First actual InspectionOctober8T03:10:54.970144UTC IDd53520bd-6ac4-4963-a9f9-bf370f2def12:NEUTRAL/URLunknown;robots/indexing/fetch unspecified,no reportedcrawl/useragent/referrals. Complete filtered history zero before/one after/hasMorefalse. Not a technicalcause, duplication, worseningtrend or revisedbodyreceipt. Independent03:08:44liveeligibility remains separate; historicalnotreturnedperformance retained. Evidence fire-acceptance-indexing-baseline-2026-10-07.json; inventory/register updated. No publicchanges/repeatedsubmissions/new509credit;64existing/eightnew remain distinct. Allowcrawl time and continue substantivebuyerwork; ACTIVE five-minute schedule unchanged.
+
 ## October 7: fire-inspection acceptance guide verified live
 
 Content507047d69f0b47216db6ef88295a434b6850e7be exactliveOctober8T03:08:44.613299UTC afterone30secondpropagationretry:fourartifacts/59links-assets/5inbound/1450words/fourFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/singleOct7XMLlastmod/originalSep23/homeexact. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.026/math pass. IndexNowthreeHTTP200 after local argument correction (no request on failed invocation);blogXML03:08:58.684Zconfirmedpending0reportederrorswarnings. ActualGoogleunknown fromcompleteemptyhistory,not exclusion or revisedbodyreceipt. Evidence fire-acceptance-purchase-live-evidence.json; existingblogrefresh64/new8of509/sixcorrections/comparison15/resource7 distinct. Content-creation skill shaped buyer-first acceptance evidence. Next firstactual indexing baseline and substantive capacity/permission gaps; ACTIVE five-minute schedule unchanged.
