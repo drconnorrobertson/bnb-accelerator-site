@@ -20,6 +20,8 @@ SECTIONS = [
     ("__main__", "Main pages", None),
     ("/faq/", "Client FAQ library",
      "Detailed answers on buying, closing, launching and operating a short-term rental."),
+    ("/proformas/", "Property pro formas and deal decisions",
+     "Address-level assumptions, cash required and downside cases."),
     ("/reviews/", "BNB Accelerator reviews and evidence",
      "Public review sources, the complete case library and acquisition/pro forma evidence."),
     ("/case-studies/", "Client case studies",

@@ -392,3 +392,12 @@ reconciliation and unresolved performance definitions; no original property
 pro formas or independently verified returns are asserted.
 Run `python3 scripts/check_review_evidence.py`, `python3 audit_content.py`,
 and the existing public-build checks before publication.
+
+## Native property pro formas
+
+Supply one property JSON record in `_gen/proformas/`, following its README
+and template. `scripts/build_proformas.py` renders only reviewed published
+records, a public directory and sitemap entries. It runs during the Vercel
+build. Both good and pass verdicts require stated reasons, sources, cash
+components, operating costs and a downside case. Draft data is never copied
+to public output. Test with `python3 scripts/test_proformas.py`.

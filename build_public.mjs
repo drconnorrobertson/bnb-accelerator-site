@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 execFileSync('python3', ['scripts/upgrade_tools.py'], {stdio: 'inherit'});
 execFileSync('python3', ['_gen/expand_review_evidence.py'], {stdio: 'inherit'});
+execFileSync('python3', ['scripts/build_proformas.py'], {stdio: 'inherit'});
 import { normalizeResourceLinks, resourceRoutes } from './resource_links.mjs';
 import { normalizePerformanceDisclosures } from './performance_disclosures.mjs';
 import { addMetaPixel } from './meta_pixel.mjs';
