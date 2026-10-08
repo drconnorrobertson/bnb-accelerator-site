@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: vendor-access purchase handoff expansion
+
+Existing vendor-smart-lock-access owner expanded after full concise-note and smart-lock buying/inspection overlap review. Six-field account/permissions/backup/acceptance register, authorized model-specific tests and original keep/replace cash worksheet; currentSchlage primary evidence datedOct7 with privacy/safety/professional/commercial-interest/document-review disclosures.1252words/sixminutes/fourFAQs; originalSep23/H1/author preserved. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.016/math/homehashes pass. ActualGoogleunknown fromcompleteemptystoredhistory, not exclusion. Liveverificationpending; no509credit and existing count changes only after acceptance. ACTIVEfive-minute schedule retained; protecthomepage/sharedflow/assets.
+
 ## October 7: property-match remedy and restart ownership screen
 
 Full main content reviewed for STR Search direct/alternatives/property-match signing owners. Generic new matching-guarantee/refund-after-failed-inspection blog candidate rejected77/100(distinct8/buyer29/question13/service18/decision9): actual milestone/acceptance/refund/replacement/search-clock and payment-exposure questions already answered, with distinct original cash worksheets. Independently rechecked296600/3400margin/1600unrelatedgap/302600restart;287000/13000margin/312000gap12000;348000/345000 and repairgaps4000/1000. `_gen/property-match-remedy-overlap-review.md`; boundedSEO-audit overlap method, not renewedproviderfacts, actualcontractremedies, measuredkeyworddemand, ranking or Googleduplicate/exclusion diagnosis. No publicchanges/freshInspection/repeatedsubmissions/new509credit/merge/noindex; eightnew/61existing/sixcorrections unchanged. Preserve owners and continue distinct supported purchase questions; ACTIVEfive-minute schedule unchanged.

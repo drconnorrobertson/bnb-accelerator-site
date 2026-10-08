@@ -1,0 +1,13 @@
+# Vendor access acquisition handoff review — October 7, 2026
+
+Existing `/blog/vendor-smart-lock-access/` refreshed, not a new509 intent. Full original153-word note and substantive smart-lock buying/inspection owners read. Preserve equipment-condition owners; this expansion isolates included hardware, buyer account authority, named vendor permissions, connected systems, physical backup and accepted handoff. No merger/deletion/noindex or inferred Google exclusion.
+
+Original six-field acceptance register, authorized transition/test sequence and keep-versus-replace cash worksheet. Seller credentials/account licenses not presumed transferable; test/revocation/physical-key evidence remains model-specific and professionally reviewed. No reset instructions, secret credentials, security certification or firsthand testing invented. Privacy, hypothetical results, commercial-interest and professional limits explicit.
+
+Primary Schlage Encode product page and manufacturer factory-reset guidance opened October7 local time; published reset guidance shows August12,2026 update. Only custom codes/history and programmed-code deletion/new-homeowner preparation summarized, under200 derived words per source, no direct quotations. Features do not prove installed configuration; no product pricing, superiority, universal transfer or platform integration promise.
+
+Independent arithmetic:350+180+120=650;1200+250+150=1600; existing500 allowance replaced once:250150/251100 allocation with260000 capital gives9850/8900margin; distinct900 delay gives251050/252000 and8950/8000; extra8500 repair yields450/-500. Protected35000 reserve already included in250000; no speculative receipts or reimbursement.
+
+1252 words/sixminutes/four new visible-schema-aligned FAQs; originalSeptember23 publication/H1/breadcrumb/author preserved, no originalFAQ orKeepreading block removed. Archive excerpt/search/time updated; one high-income hub link and article lastmodOct7. Seven required checks plus RevPAR pass; similarity0.016/745pairs is not Google duplicate diagnosis. Fullfour-public-file diff/newhelpers reviewed;745 unrelated archivecards exact; source/built home hashes58db91a9.../5a3fe67b...unchanged. Shared design/application/scheduling/modules/assets unchanged. Build counts746articles/2488HTML/2487parsedURLs/277redirects unchanged.
+
+Complete filtered stored GoogleInspection history zero/hasMorefalse; actual indexing/crawl unknown, not exclusion or body receipt. No new509 credit. Live verification and changed-only submission pending; count existing refresh only after exact production acceptance. Content-creation skill used to replace a brief operation note with a distinct purchase acceptance worksheet and bounded primary evidence.
