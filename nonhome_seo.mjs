@@ -19,7 +19,7 @@ function catalog(dir, prefix = '') {
 }
 catalog(process.cwd());
 const overrides = {
- '/answers/what-is-revpar/': ['What Is RevPAR? STR Formula and Calculation Example', 'Calculate revenue per available night using ADR and occupancy. Compare two short-term rentals and learn what RevPAR leaves out of an investment decision.'],
+ '/answers/what-is-revpar/': ['RevPAR Definition, Formula & STR Calculator | BNB Accelerator', 'RevPAR is room revenue per available night. Calculate it from revenue and availability, compare ADR and occupancy, and see why it does not measure profit.'],
  '/blog/airbnb-dynamic-pricing-tools/': ['Airbnb Dynamic Pricing: PriceLabs, Beyond and Wheelhouse', 'Compare PriceLabs, Beyond and Wheelhouse for Airbnb dynamic pricing. Learn how base rates, minimum stays and booking pace affect your pricing setup.'],
  '/blog/airbnb-occupancy-rates-explained/': ['Airbnb Occupancy Rates: Calculation and Revenue Tradeoffs', 'Learn how to calculate Airbnb occupancy, account for blocked nights and compare occupancy with ADR and RevPAR before underwriting a rental property.'],
  '/blog/airbnb-revenue-projections/': ['Airbnb Revenue Projections: Methods and Comparable Data', 'Build Airbnb revenue projections from seller records and comparable rentals. Evaluate seasonality, occupancy and expenses before making an offer.'],
