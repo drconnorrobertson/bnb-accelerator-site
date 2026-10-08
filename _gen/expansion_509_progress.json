@@ -712,6 +712,8 @@
       "verified_live_at": "2026-10-08T01:32:25.303143+00:00",
       "counted_toward_509": false,
       "evidence": "_gen/owner-statement-purchase-live-evidence.json",
+      "indexing_baseline": "_gen/owner-statement-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "First actual Inspection2026-10-08T01:34:33.71325UTC NEUTRAL/URL unknown to Google/unspecified robots-indexing-fetch/no reported crawl; not a technical cause or revised-body receipt",
       "validation": "1506words/sevenminutes/four original FAQ questions aligned; requiredsevenchecks/fullfourpublicdiff/current Airbnb3632-2666/original six-field acceptance and independentfee-reserve-buyer cash/similarity0.012;58live targets-assets/3inbound;September24publication/homepage/sharedflow preserved",
       "submission": "Three changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T01:32:51.713Zpending/zero reportederrorswarnings;actualGoogleunknown completeemptyhistorynotexclusion"
     },

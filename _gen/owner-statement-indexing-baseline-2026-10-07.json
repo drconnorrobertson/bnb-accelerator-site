@@ -1,0 +1,59 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/str-owner-statement-review/",
+  "requested_at": "2026-10-08T01:34:33.71325+00:00",
+  "inspection_id": "f9e07b03-a37e-423a-b5c6-386df7c35c13",
+  "content_commit": "d24ec1b2263d4637fbe9d502fecae5bd0fba1045",
+  "before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "actual": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/str-owner-statement-review/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "f9e07b03-a37e-423a-b5c6-386df7c35c13",
+        "url": "https://www.bnbaccelerator.com/blog/str-owner-statement-review/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-08T01:34:33.71325+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "quota": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "count": 7,
+    "limit": 2000,
+    "remaining": 1993
+  },
+  "interpretation": "First actual inspection reports URL unknown to Google with unspecified robots/indexing/fetch and no reported crawl. No technical cause, duplicate intent, worsening trend, revised-body receipt or search gain is established. Independent live eligibility retained. No public changes, recrawl request, repeated submissions or 509 credit."
+}
