@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: stored indexing evidence coverage and GA4 availability
+
+747inventoryrows record72PASS/99URLunknown/53discovered/523without actual verdict at heterogeneous times; notfreshsitewideindexedcount, trend or revisedbodyreceipt. CurrentGA4eventreport returnsnotConfigured:true/no_scope for connected account; not proof site lacks tracking or zero enquiries, no conversion claims. Evidence indexing-evidence-coverage-2026-10-07-late.md. No publicchanges/repeatedsubmissions/new509credit;64existing/eightnew unchanged. Continue independent substantive capacity diligence; ACTIVEfive-minute schedule preserved.
+
 ## October 7: fire-acceptance first actual indexing baseline
 
 First actual InspectionOctober8T03:10:54.970144UTC IDd53520bd-6ac4-4963-a9f9-bf370f2def12:NEUTRAL/URLunknown;robots/indexing/fetch unspecified,no reportedcrawl/useragent/referrals. Complete filtered history zero before/one after/hasMorefalse. Not a technicalcause, duplication, worseningtrend or revisedbodyreceipt. Independent03:08:44liveeligibility remains separate; historicalnotreturnedperformance retained. Evidence fire-acceptance-indexing-baseline-2026-10-07.json; inventory/register updated. No publicchanges/repeatedsubmissions/new509credit;64existing/eightnew remain distinct. Allowcrawl time and continue substantivebuyerwork; ACTIVE five-minute schedule unchanged.
