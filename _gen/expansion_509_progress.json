@@ -720,6 +720,16 @@
   ],
   "separately_counted_existing_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/vendor-smart-lock-access/",
+      "content_commit": "64ac7ca610d96c803860161b15299e0fd943ff59",
+      "verified_live_at": "2026-10-08T02:35:14.130789+00:00",
+      "evidence": "_gen/vendor-access-purchase-live-evidence.json",
+      "counted_toward_509": false,
+      "improvement": "Six-field buyer account/vendor permission/physical backup acceptance register, authorized tests and original keep-versus-replace launch-cash worksheet; current Schlage primary evidence",
+      "validation": "Seven required checks plus RevPAR/full scoped diff/745othercards/similarity0.016/math/homehashes; exactfourpublicartifacts/55links/3inbound/GooglebotUA200/fourFAQs",
+      "submission": "Three changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T02:35:28.166Zpending/zero reportederrorswarnings; actualGoogleunknown from completeemptyhistory,notexclusion"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/backup-cleaner-str/",
       "content_commit": "382bad7054fb7d7963dbcab209c55f90a1f4ebf2",
       "verified_live_at": "2026-10-08T01:56:42.252880+00:00",

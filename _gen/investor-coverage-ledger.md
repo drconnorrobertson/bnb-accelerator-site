@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: vendor-access purchase guide verified live
+
+Content64ac7ca610d96c803860161b15299e0fd943ff59 exactliveOctober8T02:35:14.130789UTC afterone30secondpropagationretry:fourartifacts/55links-assets/3inbound/1252words/fourFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/oneOct7XMLlastmod/originalSep23/homeexact. Requiredsevenchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.016/math pass. IndexNowthreechangedcanonicalsHTTP200;blogXML02:35:28.166Zconfirmedpending0reportederrorswarnings. ActualGoogleunknown fromcompleteemptyhistory, not exclusion or revisedbodyreceipt. Evidencevendor-access-purchase-live-evidence.json. Existing substantiveblogrefresh62/new8of509/sixcorrections/comparison15/resource7 separate. Next firstactualindexingbaseline and distinct service-selection buyer evidence; ACTIVEfive-minute schedule preserved.
+
 ## October 7: vendor-access purchase handoff expansion
 
 Existing vendor-smart-lock-access owner expanded after full concise-note and smart-lock buying/inspection overlap review. Six-field account/permissions/backup/acceptance register, authorized model-specific tests and original keep/replace cash worksheet; currentSchlage primary evidence datedOct7 with privacy/safety/professional/commercial-interest/document-review disclosures.1252words/sixminutes/fourFAQs; originalSep23/H1/author preserved. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.016/math/homehashes pass. ActualGoogleunknown fromcompleteemptystoredhistory, not exclusion. Liveverificationpending; no509credit and existing count changes only after acceptance. ACTIVEfive-minute schedule retained; protecthomepage/sharedflow/assets.
