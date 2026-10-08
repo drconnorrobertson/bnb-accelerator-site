@@ -1,0 +1,13 @@
+# Existing Pacaso comparison: October 8, 2026
+
+Canonical owner: https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-pacaso/
+
+Read the complete direct comparison and Pacaso alternatives bodies before writing. Refresh the direct owner; no new blog, provider variant or 509 credit. The five prioritized acquisition-service families already have expanded canonical owners; this is a separate adjacent ownership-model comparison.
+
+Primary evidence: Pacaso buyer FAQ at https://www.pacaso.com/faq/buyer (direct web retrieval returned 403; one search-accessible primary-text alternative succeeded). It describes an LLC interest, public vacation-rental restrictions and differentiated listings. Only those bounded points are relied upon; no current price, resale timing, specific deposit rights or service quality claimed. BNB process at https://www.bnbaccelerator.com/how-it-works/ reviewed directly for coordination, buyer funding/approval and professional exclusions. Neither unseen signed agreement authenticated. Provider facts summarized within source limits; current source-review date is not original publication.
+
+Original ownership/use acceptance sheet records interest, exclusions, fee triggers, decision rights and failed-purchase obligations. Different personal-use and STR cases are not equivalent assets or return rankings. Independent arithmetic: 210000/90000 margin; 265000/35000 margin; new 12000 =>277000/23000; distinct new 30000 =>307000/7000 gap. Credited 15000 payment leaves285000cash and250000remaining/same35000margin. Abandoned-purchase pending refund instead leaves20000margin for a fresh265000plan. Reserves counted once; no bookings/refund/appreciation fund closing. No prices, outcomes, deduction, refund rights or ranking guaranteed.
+
+Skill: content-creation shaped purchase-first answer, scannable original worksheet, hypothetical branches and contextual application destination. Commercial/document-based/not-firsthand disclosures preserved and strengthened. Fair named alternatives link actual existing specialist owners without asserting identical scopes.
+
+Original October6 publication, URL/title/H1/author/header/footer/application and four FAQ objects/visible answers retained; meaningful dateModified/core XMLlastmodOctober8. Fixed an empty comparison cross-link paragraph. Required build and seven repository checks passed; independent cash math/home hashes/full two-public-file diff and git diff --check passed. Blog-only similarity script does not cover this comparison route; semantic ownership review above was performed. Exact production verification and submissions remain pending at content commit; no confirmed indexing asserted.
