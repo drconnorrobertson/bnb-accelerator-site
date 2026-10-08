@@ -41,6 +41,6 @@
       "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
     ]
   },
-  "google_indexing_evidence": "Complete filtered stored Inspection history empty before release/hasMorefalse; actual indexing/crawl/exclusion unknown. No exactpage performance rows Sept8–Oct5/API/hasMorefalse; not exclusion or zero-demand proof.",
+  "google_indexing_evidence": "First actual Inspection2026-10-08T09:25:34.070758UTC NEUTRAL/Discovered-currently-not-indexed/unspecified robots-indexing-fetch-agent/no reportedcrawl;completehistoryzero before/oneafter/hasMorefalse. Discovery baseline not cause, trend, revised-body receipt or gain. _gen/coastal-capex-indexing-baseline-2026-10-08.json Separate09:21serving eligibility/09:22submissions retained; allow crawl time without unchanged submissions.",
   "counted_toward_509": false
 }
