@@ -16,7 +16,7 @@
   "article_text_present": true,
   "matched_faqs": 4,
   "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
-  "confirmed_indexing": "unknown; complete stored Inspection history empty/hasMorefalse before release; serving eligibility and submissions not indexing",
+  "confirmed_indexing": "First actual Inspection NEUTRAL/URL is unknown to Google; no reported crawl; unspecified robots/indexing/fetch; not a diagnosed barrier, trend or content receipt",
   "validation": "Required build/buyer/sharedSEO/sharedDesign/preclosing/precall/RevPAR/audit; 746 prior cards byte-identical; full semantic scoped diff and article/FAQ review; similarity max0.011; no homepage/assets/modules changed",
   "indexnow": "Four changed canonical URLs accepted HTTP200 after exact live verification",
   "sitemap_submission": {
@@ -46,5 +46,18 @@
   "reading_minutes": 8,
   "schema_alignment_commit": "b34600e41d14651053879ca4bfc592df79d85981",
   "schema_alignment_verified_at": "2026-10-08T10:44:44.621241+00:00",
-  "schema_alignment_evidence": "Five exact public artifacts/56 links-assets/three inbound/Googlebot200/homehash unchanged; schema wordCount1554 matches final two-word-longer corrected link label; no repeated submissions"
+  "schema_alignment_evidence": "Five exact public artifacts/56 links-assets/three inbound/Googlebot200/homehash unchanged; schema wordCount1554 matches final two-word-longer corrected link label; no repeated submissions",
+  "actual_inspection": {
+    "observed_at": "2026-10-08T10:46:27.276843+00:00",
+    "id": "2f1e6de6-7a8f-49ed-bc28-55a7942c1527",
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/dst-vs-direct-str-1031-replacement/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": []
+  }
 }

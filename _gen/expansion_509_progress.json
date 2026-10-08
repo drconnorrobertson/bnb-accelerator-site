@@ -618,9 +618,10 @@
       "maximum_similarity": 0.011,
       "validation": "Required build/buyer/sharedSEO/sharedDesign/preclosing/precall/RevPAR/audit; 746 prior cards byte-identical; full semantic scoped diff and article/FAQ review; similarity max0.011; no homepage/assets/modules changed",
       "submission_status": "Four changed canonical URLs accepted HTTP200 after exact live verification; blogXMLacceptedconfirmed10:42:57.505UTC pending/zero reportederrorswarnings",
-      "google_indexing_evidence": "unknown; complete stored Inspection history empty/hasMorefalse before release; serving eligibility and submissions not indexing",
+      "google_indexing_evidence": "First actual Inspection NEUTRAL/URL is unknown to Google; no reported crawl; unspecified robots/indexing/fetch; not a diagnosed barrier, trend or content receipt; 2026-10-08T10:46:27.276843+00:00",
       "evidence": "_gen/dst-replacement-live-evidence.json",
-      "counted_toward_509": true
+      "counted_toward_509": true,
+      "indexing_baseline": "_gen/dst-replacement-indexing-baseline-2026-10-08.json"
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/proposed-road-project-before-buying-str/",
