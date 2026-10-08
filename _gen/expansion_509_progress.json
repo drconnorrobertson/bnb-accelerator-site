@@ -181,6 +181,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-pacaso/",
+      "content_commit": "629173676beea45b068182ad86b0c5658497c858",
+      "verified_at": "2026-10-08T07:37:28.364032+00:00",
+      "evidence": "_gen/pacaso-purchase-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "Required repository checks, independent arithmetic, original four schema/visible FAQs, full scoped diff and homepage hashes passed;two exact live artifacts/54 linked destinations-assets/5 inbound/Googlebot-UA200",
+      "indexnow_status": "Connector unconfigured; existing repository workflow verified live key and accepted one changed canonical HTTP200 after live verification; not confirmed indexing",
+      "sitemap_status": "CoreXMLacceptedconfirmed2026-10-08T07:37:44.054Zpending/zero reportederrorswarnings;not indexing",
+      "google_indexing_evidence": "Complete filtered stored history empty before publishing; no actual indexing conclusion or exclusion diagnosis"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/roofstock-vs-rabbu/",
       "content_commit": "fbe62ab058c6f5590b677b28530ac37927f50a71",
       "verified_at": "2026-10-08T06:31:54.357330+00:00",
