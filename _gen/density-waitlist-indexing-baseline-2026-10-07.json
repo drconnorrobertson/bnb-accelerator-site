@@ -14,5 +14,18 @@
     "referringUrls": []
   },
   "after": {"returned": 1, "hasMore": false, "crawled_as": null},
-  "limits": "First actual Inspection baseline, not a diagnosed technical barrier, duplication, worsening trend or body receipt. No fresh live eligibility probe performed this run; historical source eligibility and unreturned performance remain separate. No public change, repeat submission or509 credit."
+  "independent_live_eligibility": {
+    "observed_at": "2026-10-08T03:39:49.991Z",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/str-density-cap-waitlist/",
+    "canonical": "https://www.bnbaccelerator.com/blog/str-density-cap-waitlist/",
+    "noindex": false,
+    "googlebot_ua": true,
+    "exact_public_build": true,
+    "server_article_text": true,
+    "sitemap_entries": 1,
+    "robots_allows_googlebot": true,
+    "robots_evidence": "User-agent:* Allow:/; no Googlebot-specific restriction"
+  },
+  "limits": "First actual Inspection baseline, not a diagnosed technical barrier, duplication, worsening trend or body receipt. Independent03:39UA serving probe is not actual Google crawl or browser rendering; unreturned historical performance remains unknown. No public change, repeat submission or509 credit."
 }
