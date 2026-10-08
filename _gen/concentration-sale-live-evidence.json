@@ -51,7 +51,8 @@
     "inspections": [],
     "hasMore": false
   },
-  "actual_google_indexing": "Unknown; complete filtered stored actual Inspection history empty/hasMorefalse, not exclusion proof.",
+  "actual_google_indexing": "First actual Inspection2026-10-08T00:14:27.932777+00:00 NEUTRAL/URL is unknown to Google; no reportedcrawl and unspecifiedrobots/indexing/fetch. Not a technical-cause, duplicate-intent, worseningtrend or revised-content-receipt finding.",
+  "indexing_baseline": "_gen/concentration-sale-indexing-baseline-2026-10-07.json",
   "counted_toward_509": false,
   "limits": "Serving eligibility is not Google indexing, browser rendering, authenticated Vercel status or measured query/conversion gains."
 }
