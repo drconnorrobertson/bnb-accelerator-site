@@ -18,6 +18,17 @@
   "verified_live_new_pages": 8,
   "separately_recorded_accuracy_corrections": [
     {
+      "url": "https://www.bnbaccelerator.com/blog/1031-exchange-short-term-rental/",
+      "content_commit": "7b2d1b92e0a21173f9a19c0e875c0a5f79900eab",
+      "verified_live_at": "2026-10-08T00:01:52.559490+00:00",
+      "evidence": "_gen/exchange-correction-live-evidence.json",
+      "counted_toward_509": false,
+      "counted_as_substantive_expansion_batch": false,
+      "correction": "Qualify prior-depreciation exchange deferral using current IRS544 asset-specific recapture guidance; remove unsupported empirical assertions; preserve original publication/URL/author/flow, align FAQ and archive",
+      "submission": "Two changed canonicals IndexNowHTTP200;blogXMLconfirmed2026-10-08T00:02:04.470Z pending/zero reported errorswarnings;not confirmed indexing",
+      "actual_google_indexing": "Unknown; complete filtered stored Inspection history empty/hasMorefalse, not exclusion proof"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/blog/airbnb-neighbors-and-noise/",
       "content_commit": "545776cb25cf1dec8e05eff83b6d321a20e1eecc",
       "verified_live_at": "2026-10-07T20:56:24.834592+00:00",
