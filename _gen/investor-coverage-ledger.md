@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: remodel approval first actual indexing baseline
+
+First actual Inspection October8T02:54:58.230843UTC, ID55542cf0-0515-4f69-b822-cc30d306dd09: NEUTRAL/Discovered - currently not indexed; robots/indexing/fetch/user-agent unspecified, no reported crawl or referrals. Complete filtered history zero before/one after/hasMorefalse. Discovery/current nonindexing is not a diagnosed barrier, duplication, trend or revised-body receipt. Independent02:50:55 live eligibility remains separate; historical not-returned performance preserved. Evidence co-remodel-indexing-baseline-2026-10-07.json and inventory updated. Bounded indexing-evidence method; no public changes, repeated submissions or509 credit. Existing63/new8 unchanged; allow crawl time and continue substantive buyer work. ACTIVE five-minute schedule preserved.
+
 ## October 7: remodel approval guide verified live
 
 Content42f3c49c9108a2ae734adfdb2fd21655b03e2253 exactliveOctober8T02:50:55.581331UTC afterone30secondpropagationretry:fourartifacts/58links-assets/7inbound/1430words/fourFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/oneOct7XMLlastmod/originalSep23/homeexact. Sevenrequiredchecks+RevPAR/fullfourpublicdiff/745othercards/similarity0.020/math pass. IndexNowthreeHTTP200;blogXML02:51:07.330Zconfirmedpending0reportederrorswarnings. ActualGoogleunknown fromcompleteemptyhistory,notexclusion or revisedbodyreceipt. Evidenceco-remodel-purchase-live-evidence.json. Existingblogrefresh63/new8of509/sixcorrections/comparison15/resource7 distinct. Next firstactualindexingbaseline and acquisition-service gaps; ACTIVEfive-minute schedule unchanged.
