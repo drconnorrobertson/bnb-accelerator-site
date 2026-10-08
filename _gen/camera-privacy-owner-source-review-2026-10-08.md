@@ -1,0 +1,22 @@
+# Exterior-camera acquisition privacy review
+
+October 8, 2026; synchronized starting main `7643687`. Complete main bodies of the concise `/blog/security-camera-privacy-str/` and broader `/blog/security-cameras-buying-short-term-rental/` and `/blog/security-cameras-insurance-short-term-rental/` read, including six visible FAQs across the broader owners. The broader pages supply generic lifecycle/scope questions, not a source-specific channel and access handoff test. Develop the existing concise privacy owner; no new provider/device keyword variant or qualified 509 intent is established.
+
+## Current primary evidence
+
+- Airbnb [device restrictions, article3061](https://www.airbnb.com/help/article/3061): full substantive policy read October8. Defines recording/transmitting video, images or audio; prohibits hidden and indoor-monitoring cameras even off/disconnected, with a narrow Japan licensed-entryway exception. Permits disclosed exterior devices subject to restrictions and applicable law. Examples of prohibited private exterior views include enclosed showers and saunas; a disclosed pool camera is an allowed-location example, not automatic legal approval. Decibel monitoring is not audio recording; bedrooms/bathrooms/sleeping areas are excluded. These are Airbnb rules, not universal law or all-channel permission.
+- Airbnb [device disclosure, article2914](https://www.airbnb.com/help/article/2914): full substantive page read October8. Requires location disclosure and device description including on/off status through listing safety information. Disclosure does not cure an otherwise prohibited view. Reconcile buyer-controlled locations/settings with the new actual disclosure rather than copying the seller's text.
+
+Vrbo's current safety-essentials page was fully read and links to a surveillance-policy owner. That policy URL redirected to an error page on two attempts. Do not claim the underlying Vrbo surveillance conditions were reviewed or that Airbnb's rules apply to Vrbo. Obtain the current channel answer before adopting a channel-specific comparison. This fetch limitation is not a BNB defect.
+
+Ring transfer/moving search excerpts surfaced vendor-device ownership procedures, but two transfer-page fetches timed out and the moving-page fetch timed out. Excerpts alone are not a complete authenticated vendor procedure. Do not promise an automatic transfer period, universal reset method or buyer entitlement to prior footage. Vendor-specific details remain excluded until full relevant primary guidance is reviewed.
+
+## Proposed existing-owner decision support
+
+Use an original device-and-access acceptance register, with each device's room/view, recording/transmission capabilities, actual audio settings, lawful purpose, channel answer/disclosure, account/controller identity, sharing/integrations, prior-record handling and accepted buyer/operator test. Record evidence, answer owner and deadline. Seller credentials or a deed do not themselves establish permitted access or rights to guest recordings. Do not collect or publicly share guest footage as an acquisition work sample.
+
+Differentiate channel compliance, local audio/privacy law, vendor-supported ownership and insurance advice; each answers a different question. Avoid implying insurance cures prohibited recording, or that all outdoor-pool recording is forbidden. No jurisdiction's retention period, consent standard or audio law has been researched here, so require actual local professional review instead of publishing a universal rule.
+
+Consider a purchase acceptance scenario rather than a claimed device ROI: diligence decision day10, vendor/controller release promised day12 and possession day15; a seller promise cannot fill the earlier evidence deadline. Buyer needs a counsel-reviewed permitted course, an accepted replacement/no-camera plan where appropriate and named opening responsibility. No unilateral extension, automatic deposit refund, all-device transfer or lawfully required camera absence is presumed. Before public writing, finish vendor-source research if vendor-specific details are necessary; otherwise keep the worksheet provider-neutral and qualified.
+
+No public edits, recrawl request, live probe, Google inspection or repeated submission this review. Historical indexing and performance unchanged; nine verified new guides/74 existing refreshes remain unchanged. Homepage/shared flow and active five-minute schedule preserved.
