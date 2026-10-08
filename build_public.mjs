@@ -2,6 +2,8 @@
 import { readdir, mkdir, copyFile, rm, readFile, writeFile, access } from 'node:fs/promises';
 import { dirname, extname, join, relative } from 'node:path';
 import assert from 'node:assert/strict';
+import { execFileSync } from 'node:child_process';
+execFileSync('python3', ['scripts/upgrade_tools.py'], {stdio: 'inherit'});
 import { normalizeResourceLinks, resourceRoutes } from './resource_links.mjs';
 import { normalizePerformanceDisclosures } from './performance_disclosures.mjs';
 import { addMetaPixel } from './meta_pixel.mjs';

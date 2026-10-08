@@ -377,3 +377,7 @@ The public build verifies that every sitemap URL has a corresponding output file
 ## Resource link migration
 
 `resource_links.mjs` maps the five legacy GitHub Pages resource links onto matching public routes. `build_public.mjs` applies the mapping to every deployed HTML page and checks that every mapped route exists before copying output. Navigation to the market and design hubs uses labels matching their destination.
+
+## October 7 calculator discovery and RevPAR upgrade
+
+Run `python3 scripts/upgrade_tools.py` to regenerate the existing buyer-tools directory and RevPAR definition worksheet. `build_public.mjs` reapplies this source before copying the public site. One owner URL covers RevPAR definition, formula and calculator queries. The browser calculator validates consistent revenue and availability inputs; no forecasts or performance claims are added. Run `node scripts/test_revpar.cjs` and `python3 audit_content.py` before publication.
