@@ -1,0 +1,55 @@
+{
+  "verified_at": "2026-10-08T06:31:54.357330+00:00",
+  "url": "https://www.bnbaccelerator.com/compare/roofstock-vs-rabbu/",
+  "http_status": 200,
+  "canonical": "https://www.bnbaccelerator.com/compare/roofstock-vs-rabbu/",
+  "final_url": "https://www.bnbaccelerator.com/compare/roofstock-vs-rabbu/",
+  "robots_allowed": true,
+  "noindex": false,
+  "googlebot_ua_http_200": true,
+  "server_article_text": true,
+  "exact_public_build_match": true,
+  "exact_changed_public_artifacts": 2,
+  "compare_hub_discovery": true,
+  "internal_links_assets_checked": 56,
+  "inbound_public_pages": 3,
+  "publication_date": "2026-10-06",
+  "modified_date": "2026-10-08",
+  "sitemap": "sitemap-core.xml",
+  "sitemap_entries": 1,
+  "sitemap_lastmod": "2026-10-08",
+  "protected_homepage_exact": true,
+  "limits": "Serving eligibility and submission acceptance do not establish actual Google crawl/indexing, browser rendering, rankings or qualified enquiries.",
+  "content_commit": "fbe62ab058c6f5590b677b28530ac37927f50a71",
+  "indexnow": {
+    "accepted": true,
+    "http_status": 200,
+    "url_count": 1,
+    "confirmed_indexing": false
+  },
+  "search_console_sitemap": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "attempted": 1,
+    "submitted": 1,
+    "failed": 0,
+    "results": [
+      {
+        "sitemapUrl": "https://www.bnbaccelerator.com/sitemap-core.xml",
+        "accepted": true,
+        "confirmed": true,
+        "lastSubmitted": "2026-10-08T06:32:11.276Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "warnings": "0",
+        "errors": "0"
+      }
+    ],
+    "message": "Submitted 1 of 1 sitemap(s) to Search Console for https://www.bnbaccelerator.com/. Submitting queues a download; it does not index the URLs.",
+    "actions": [
+      "Re-check list_sitemaps in a few hours: warnings, errors and indexed counts appear only after Google has downloaded the sitemap."
+    ]
+  },
+  "google_indexing_evidence": "Complete filtered stored history contained zero rows before publication; actual indexing/crawl/exclusion unknown. This serving check is not an actual Google crawl, browser rendering or confirmed indexing.",
+  "counted_toward_509": false
+}

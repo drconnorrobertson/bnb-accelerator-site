@@ -169,6 +169,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/roofstock-vs-rabbu/",
+      "content_commit": "fbe62ab058c6f5590b677b28530ac37927f50a71",
+      "verified_at": "2026-10-08T06:31:54.357330+00:00",
+      "evidence": "_gen/roofstock-rabbu-live-evidence.json",
+      "counted_toward_509": false,
+      "validation": "Required checks/full two-public diff/current Roofstock-Rabbu primary materials/five-gate two-use sample and independently checked cash branches/original October6 publication/four FAQs/56 linked targets-assets/3 inbound/protected homepage and shared flow preserved",
+      "indexnow_status": "One changed verified canonical accepted HTTP200; not confirmed indexing",
+      "sitemap_status": "CoreXML accepted and confirmed2026-10-08T06:32:11.276Z pending/zero reported errorswarnings",
+      "google_indexing_evidence": "Complete filtered stored history zero rows before publication; indexing/crawl/exclusion unknown, not proof of exclusion or revised-body receipt"
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-property-manager/",
       "content_commit": "7022f873aec5ed150a3f454871749992f736935f",
       "verified_at": "2026-10-07T23:14:14.264752+00:00",
