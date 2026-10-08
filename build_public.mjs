@@ -4,6 +4,7 @@ import { dirname, extname, join, relative } from 'node:path';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 execFileSync('python3', ['scripts/upgrade_tools.py'], {stdio: 'inherit'});
+execFileSync('python3', ['_gen/expand_review_evidence.py'], {stdio: 'inherit'});
 import { normalizeResourceLinks, resourceRoutes } from './resource_links.mjs';
 import { normalizePerformanceDisclosures } from './performance_disclosures.mjs';
 import { addMetaPixel } from './meta_pixel.mjs';
@@ -25,7 +26,7 @@ async function walk(directory) {
   if (entry.isDirectory()) { await walk(source); continue; }
   if (!entry.isFile()) continue;
   const path = relative(root, source);
-  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path)) continue;
+  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/review-evidence/deal-entry-fields.csv') continue;
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {

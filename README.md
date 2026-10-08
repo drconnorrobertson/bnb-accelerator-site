@@ -381,3 +381,14 @@ The public build verifies that every sitemap URL has a corresponding output file
 ## October 7 calculator discovery and RevPAR upgrade
 
 Run `python3 scripts/upgrade_tools.py` to regenerate the existing buyer-tools directory and RevPAR definition worksheet. `build_public.mjs` reapplies this source before copying the public site. One owner URL covers RevPAR definition, formula and calculator queries. The browser calculator validates consistent revenue and availability inputs; no forecasts or performance claims are added. Run `node scripts/test_revpar.cjs` and `python3 audit_content.py` before publication.
+
+## October 8 BNB review evidence library
+
+`python3 _gen/expand_review_evidence.py` creates eight review-evidence pages,
+links all 32 existing cases, and exports 25 acquisition records as a public CSV.
+The public build reapplies it after other generators. Marker-based blocks are
+idempotent. Financial fields remain company-recorded, with explicit component
+reconciliation and unresolved performance definitions; no original property
+pro formas or independently verified returns are asserted.
+Run `python3 scripts/check_review_evidence.py`, `python3 audit_content.py`,
+and the existing public-build checks before publication.
