@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: property-match remedy and restart ownership screen
+
+Full main content reviewed for STR Search direct/alternatives/property-match signing owners. Generic new matching-guarantee/refund-after-failed-inspection blog candidate rejected77/100(distinct8/buyer29/question13/service18/decision9): actual milestone/acceptance/refund/replacement/search-clock and payment-exposure questions already answered, with distinct original cash worksheets. Independently rechecked296600/3400margin/1600unrelatedgap/302600restart;287000/13000margin/312000gap12000;348000/345000 and repairgaps4000/1000. `_gen/property-match-remedy-overlap-review.md`; boundedSEO-audit overlap method, not renewedproviderfacts, actualcontractremedies, measuredkeyworddemand, ranking or Googleduplicate/exclusion diagnosis. No publicchanges/freshInspection/repeatedsubmissions/new509credit/merge/noindex; eightnew/61existing/sixcorrections unchanged. Preserve owners and continue distinct supported purchase questions; ACTIVEfive-minute schedule unchanged.
+
 ## October 7: refund-loop first actual indexing baseline
 
 First actual InspectionOctober8T02:10:33.589729UTC ID4a897a15-0128-48f5-a1b7-76925f4cf53d:NEUTRAL/URLunknown;robots/indexing/fetch unspecified,no reportedcrawl/useragent/referrals. Completefilteredhistory zero before/one after/hasMorefalse. Not technicalcause, duplication, worseningtrend or correctedbodyreceipt. Independent02:08:31liveeligibility remains separate; historicalnotreturnedperformance retained. Evidencerefund-loop-indexing-baseline-2026-10-07.json; inventory/register updated. No publicchanges/repeatedsubmissions/509credit; eightnew/61existing/sixaccuracycorrections unchanged. Allowcrawl time and continue buyerquality work; ACTIVEfive-minute schedule preserved.
