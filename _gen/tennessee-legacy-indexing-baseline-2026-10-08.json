@@ -1,0 +1,33 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+  "source_commit": "e445b17",
+  "content_commit": "e680ff832799fe0477fa78eca93d81a939415a81",
+  "requested_at": "2026-10-08T04:16:25.98416+00:00",
+  "inspection_id": "4e446163-0242-4a1d-8a8c-84c2aa120398",
+  "before": {"returned": 0, "hasMore": false},
+  "actual": {
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": ["https://www.bnbaccelerator.com/topics/regulatory/"]
+  },
+  "after": {"returned": 1, "hasMore": false},
+  "independent_live_eligibility": {
+    "observed_at": "2026-10-08T04:14:14.016411+00:00",
+    "evidence": "_gen/tennessee-legacy-correction-live-evidence.json",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+    "canonical": "https://www.bnbaccelerator.com/blog/tennessee-grandfathering-explained/",
+    "noindex": false,
+    "googlebot_ua_http_200": true,
+    "exact_public_build": true,
+    "server_article_text": true,
+    "sitemap_entries": 1,
+    "robots_allows_googlebot": true
+  },
+  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplication, a worsening trend or corrected-body receipt. No reported crawl; referring hub is discovery evidence, not a crawl or performance gain. Prior independent serving evidence is not actual Google crawl or browser rendering. Historical unreturned performance remains unknown. No public edit, repeat submission or new509 credit."
+}
