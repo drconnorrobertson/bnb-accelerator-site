@@ -15,7 +15,19 @@
     "referringUrls": []
   },
   "after": {"returned": 1, "hasMore": false},
-  "independent_live_eligibility": "Not newly probed in this run; historical source eligibility retained separately in the URL inventory",
+  "independent_live_eligibility": {
+    "observed_at": "2026-10-08T04:26:19.098929+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bnbaccelerator.com/blog/primary-residence-str-rule/",
+    "canonical": "https://www.bnbaccelerator.com/blog/primary-residence-str-rule/",
+    "noindex": false,
+    "googlebot_ua_http_200": true,
+    "exact_public_build": true,
+    "server_article_text": true,
+    "sitemap_entries": 1,
+    "robots_allows_googlebot": true,
+    "robots_evidence": "User-agent:* Allow:/; no Googlebot-specific restriction"
+  },
   "substantive_owner_review": "Full existing main read: actual residency versus nominal address/entity, definition/proof/allowed nights/absence/entity/renewal checks and genuine lawful alternative use. Preserve this distinct existing owner; candidate expansion needs current geographically bounded primary material and original buyer decision support. No new generic residency variant approved.",
-  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplication, trend or revised-body receipt. No reported crawl. Unreturned historical performance remains unknown. No public edit, repeat submission or509 credit."
+  "limits": "First actual Inspection establishes discovery/current nonindexing, not its cause, duplication, trend or revised-body receipt. No reported crawl. Independent04:26 serving eligibility is not actual Google crawl or browser rendering. Unreturned historical performance remains unknown. No public edit, repeat submission or509 credit."
 }
