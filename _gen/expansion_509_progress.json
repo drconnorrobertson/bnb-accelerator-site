@@ -181,6 +181,17 @@
   ],
   "separately_counted_comparison_refreshes": [
     {
+      "url": "https://www.bnbaccelerator.com/compare/alpha-geek-capital/",
+      "content_commit": "d072143015b81a78214fb726d2a2053ec95ef4e8",
+      "verified_live_at": "2026-10-08T13:39:54.479612+00:00",
+      "evidence": "_gen/alpha-geek-comparison-live-evidence-2026-10-08.json",
+      "counted_toward_509": false,
+      "improvement": "Current source-checked offering-versus-individual-purchase comparison; original five-field ownership work sample and funding/exit obligation worksheet",
+      "validation": "Required build,buyer-intent,nonhomeSEO/design,audit_content,preclosing,precall,RevPAR/fulltwo-publicdiff/independent arithmetic/homehashes pass; no FAQ schema replaced; original Aug15publication preserved.",
+      "submission": "One changed canonical IndexNow HTTP200; core XML accepted/confirmed 2026-10-08T13:40:26.541Z pending/zero reported errors-warnings after one catalog-refresh retry. Acceptance not indexing.",
+      "google_indexing_evidence": "Stored history filtered exact /compare/alpha-geek-capital/: zero rows, hasMorefalse on October8 before live verification. No actual inspection/crawl/indexing/exclusion evidence available from that history; not exclusion or revised-body receipt."
+    },
+    {
       "url": "https://www.bnbaccelerator.com/compare/best-done-for-you-airbnb-companies/",
       "content_commit": "a660124b5250b21776db77903deeeee4b65fc5a1",
       "verified_live_at": "2026-10-08T13:26:44.823835+00:00",
