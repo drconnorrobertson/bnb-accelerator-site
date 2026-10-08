@@ -22,6 +22,8 @@
       "content_commit": "599a53888c07901e0befaff648724308fc7e138f",
       "verified_live_at": "2026-10-08T02:08:31.551405+00:00",
       "evidence": "_gen/refund-loop-correction-live-evidence.json",
+      "indexing_baseline": "_gen/refund-loop-indexing-baseline-2026-10-07.json",
+      "actual_google_indexing": "First actual Inspection2026-10-08T02:10:33.589729UTC NEUTRAL/URL unknown/unspecified robots-indexing-fetch/no reportedcrawl; no technicalcause or corrected-body receipt established",
       "counted_toward_509": false,
       "counted_as_substantive_expansion_batch": false,
       "correction": "Replace automatic tax-offset/refund/grouping-threshold and unsupported client-funding causality with current IRS925/551/544 and original cleared-capital/deposit-credit/no-refund acquisition worksheet; preserve original August15 publication/title/author/Keepreading/threeFAQquestions, align conditional H1/breadcrumb/archive",

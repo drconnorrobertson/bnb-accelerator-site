@@ -1,5 +1,9 @@
 # Investor acquisition coverage ledger
 
+## October 7: refund-loop first actual indexing baseline
+
+First actual InspectionOctober8T02:10:33.589729UTC ID4a897a15-0128-48f5-a1b7-76925f4cf53d:NEUTRAL/URLunknown;robots/indexing/fetch unspecified,no reportedcrawl/useragent/referrals. Completefilteredhistory zero before/one after/hasMorefalse. Not technicalcause, duplication, worseningtrend or correctedbodyreceipt. Independent02:08:31liveeligibility remains separate; historicalnotreturnedperformance retained. Evidencerefund-loop-indexing-baseline-2026-10-07.json; inventory/register updated. No publicchanges/repeatedsubmissions/509credit; eightnew/61existing/sixaccuracycorrections unchanged. Allowcrawl time and continue buyerquality work; ACTIVEfive-minute schedule preserved.
+
 ## October 7: refund-loop corrected purchase guidance live
 
 Content599a53888c07901e0befaff648724308fc7e138f exactliveOctober8T02:08:31.551405UTC afterone30second propagationretry:fourartifacts/58links-assets/6inbound/1451words/threealignedoriginalFAQs/GooglebotUA200/selfcanonical/robotsallowed/noindexabsent/oneOctober7XMLlastmod/originalAugust15publication/title/author/Keepreading/homeexact. Requiredchecks+RevPAR/fullscopeddiff/745unrelatedarchivecards/similarity0.012/math pass. IndexNowthreechangedcanonicalsHTTP200;blogXMLconfirmed02:08:42.795Zpending/zero reportederrorswarnings. ActualGoogleindexing/crawlunknown fromcompleteemptystoredInspection; not exclusion or revisedbodyreceipt. Evidencerefund-loop-correction-live-evidence.json. Sixseparateaccuracycorrections;61existingexpansions/new8of509 remain unchanged. Next actualindexingbaseline and acquisition-service gap review, no inventedprovider variants. ACTIVEfive-minute schedule preserved.
