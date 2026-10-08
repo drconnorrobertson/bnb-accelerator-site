@@ -4,14 +4,18 @@
   "verified_at": "2026-10-08T11:11:39.078227+00:00",
   "exact_artifacts": 4,
   "live_links_assets": 55,
-  "inbound_pages": ["sitemap/index.html", "blog/index.html", "blog/buy-str-high-income-large-tax-bill/index.html"],
+  "inbound_pages": [
+    "sitemap/index.html",
+    "blog/index.html",
+    "blog/buy-str-high-income-large-tax-bill/index.html"
+  ],
   "googlebot_http_status": 200,
   "canonical": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
   "robots_allowed": true,
   "noindex": false,
   "article_text_present": true,
   "homepage_sha256": "5a3fe67b5045fb0cfe7a6620b27e34e9149ed53cb4c6359f2aeb3ad770ce6484",
-  "confirmed_indexing": "Unknown; complete filtered stored inspection history has zero rows/hasMorefalse. Live eligibility and accepted submissions do not establish indexing or exclusion.",
+  "confirmed_indexing": "First actual Inspection 2026-10-08T11:13:55.121093+00:00 NEUTRAL/Discovered-currently-not-indexed; unspecified robots/indexing/fetch/agent, no reported crawl. Not cause, duplication, trend, revisedbodyreceipt or gain.",
   "validation": "build_public; blog_buyer_intent; nonhome_seo; nonhome_design; audit_content; preclosing; precall; RevPAR PASS; similarity 747 pages/746 pairs/max0.017; full scoped diff and protected hashes reviewed",
   "word_count": 1400,
   "reading_minutes": 7,
@@ -28,5 +32,18 @@
     "errors": "0",
     "warnings": "0"
   },
-  "performance": "Not queried in this batch; preserve historical inventory evidence and do not infer zero demand or enquiries"
+  "performance": "Not queried in this batch; preserve historical inventory evidence and do not infer zero demand or enquiries",
+  "actual_google_inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "inspection_evidence": "_gen/pool-slide-indexing-baseline-2026-10-08.json"
 }

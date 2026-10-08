@@ -1,0 +1,51 @@
+{
+  "url": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
+  "before": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [],
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    }
+  },
+  "inspection": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspectionUrl": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
+    "verdict": "NEUTRAL",
+    "coverageState": "Discovered - currently not indexed",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "referringUrls": []
+  },
+  "after": {
+    "siteUrl": "https://www.bnbaccelerator.com/",
+    "inspections": [
+      {
+        "id": "5b46aa03-c3dd-451c-8812-84e713121ad3",
+        "url": "https://www.bnbaccelerator.com/blog/pool-slide-liability-str/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-08T11:13:55.121093+00:00"
+      }
+    ],
+    "pagination": {
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "hasMore": false,
+      "note": "Showing all 1 rows."
+    }
+  },
+  "interpretation": "First actual Inspection confirms discovery/current nonindexing, not a technical cause, duplication, trend or receipt of the revised body. No reported crawl; prior independent serving eligibility and accepted submissions remain separate. No fresh live probe or repeated submission."
+}

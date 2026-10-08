@@ -821,7 +821,7 @@
       "improvement": "Equipment-specific acceptance register, bounded CPSC/Proper primary references, corrected coverage implication and original funded keep/remove/delay branches",
       "validation": "build_public; blog_buyer_intent; nonhome_seo; nonhome_design; audit_content; preclosing; precall; RevPAR PASS; similarity 747 pages/746 pairs/max0.017; full scoped diff and protected hashes reviewed",
       "submission": "HTTP200 accepted for three changed canonical pages; key verified; not confirmed indexing; blog XML11:11:58.724UTC accepted confirmed pending/zero reported errors warnings",
-      "actual_google_indexing": "Unknown; complete filtered stored inspection history has zero rows/hasMorefalse. Live eligibility and accepted submissions do not establish indexing or exclusion."
+      "actual_google_indexing": "First actual Inspection 2026-10-08T11:13:55.121093+00:00 NEUTRAL/Discovered-currently-not-indexed; unspecified robots/indexing/fetch/agent, no reported crawl. Not cause, duplication, trend, revisedbodyreceipt or gain."
     },
     {
       "url": "https://www.bnbaccelerator.com/blog/lost-rental-income-limit-str/",
