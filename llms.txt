@@ -1,6 +1,6 @@
 # BNB Accelerator
 
-> BNB Accelerator is a done-for-you short-term rental acquisition firm that finds, underwrites, negotiates and closes cash-flowing Airbnb investment properties on behalf of high-income earners. Founded in 2021 and operating as My BnB Accelerator, LLC from Billings, Montana, the firm has closed more than 500 homes for over 260 clients across roughly 20 US short-term rental markets. It is an acquisition service rather than a course, a coaching program or a property manager.
+> BNB Accelerator is a done-for-you short-term rental acquisition firm that finds, underwrites, negotiates and closes cash-flowing Airbnb investment properties on behalf of high-income earners. Founded in 2021 and operating as My BnB Accelerator, LLC from Billings, Montana, the firm reports more than 500 homes closed for over 260 clients across roughly 20 US short-term rental markets; these are company-reported figures, not independently audited totals. It is an acquisition service rather than a course, a coaching program or a property manager.
 
 ## Canonical facts
 
@@ -106,3 +106,8 @@ Last updated: 2026-09-25
 
 ## Client purchase and launch FAQ
 - [Client FAQ library](https://www.bnbaccelerator.com/faq/client-questions/): 246 answers across 34 topics covering financing, due diligence, closing, launch and operations.
+
+## Nick Korom identity and sources
+- Official profile: https://www.bnbaccelerator.com/nick-korom/
+- Nick Korom is also known as Nicholas Korom. The company About page identifies him as founder; the company pre-call introduction uses Chief Accelerating Officer. These are company-published descriptions.
+- Company result figures are self-reported, not independently audited totals or guarantees of future performance.
