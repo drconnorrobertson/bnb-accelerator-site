@@ -15,6 +15,12 @@ import { normalizeNonhomeDesign } from './nonhome_design.mjs';
 import { optimizeBlogBuyerIntent } from './blog_buyer_intent.mjs';
 import { expandPreclosingKeywords } from './preclosing_keywords.mjs';
 const root = process.cwd();
+// Keep the investor library discoverable after generators rebuild the core sitemap.
+const libraryUrl = 'https://www.bnbaccelerator.com/resources/str-investor-library/';
+const coreMapPath = join(root, 'sitemap-core.xml');
+const coreMap = await readFile(coreMapPath, 'utf8');
+if (!coreMap.includes(libraryUrl)) await writeFile(coreMapPath, coreMap.replace('</urlset>', `<url><loc>${libraryUrl}</loc><lastmod>2026-10-09</lastmod></url></urlset>`));
+
 const out = join(root, 'public');
 const publicExtensions = new Set(['.html', '.css', '.js', '.svg', '.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.eot', '.pdf', '.mp4', '.webm']);
 const publicRootFiles = new Set(['robots.txt', 'llms.txt', 'sitemap.xml', 'sitemap-core.xml', 'sitemap-investor-guides.xml', 'sitemap-blog.xml', 'sitemap-scenarios.xml', 'sitemap-markets.xml', 'sitemap-proof.xml', 'sitemap-proformas.xml', 'c745eff13e89424cb1ed10f69adea860.txt']);
