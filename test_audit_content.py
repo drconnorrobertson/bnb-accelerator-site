@@ -39,6 +39,21 @@ class AuditTests(unittest.TestCase):
                 self.assertEqual(result.returncode, 1)
                 self.assertIn('page unreachable', result.stdout)
 
+    def test_multislash_authority_cannot_establish_reachability(self):
+        result = self.audit('///target/')
+        self.assertEqual(result.returncode, 1)
+        self.assertIn('malformed authority link ///target/', result.stdout)
+        self.assertIn('page unreachable from homepage links: /target/', result.stdout)
+
+    def test_path_parameters_are_not_discarded(self):
+        for href in ['/target;missing', '/target/;missing', SITE + '/target;missing', '//www.bnbaccelerator.com/target/;missing']:
+            with self.subTest(href=href):
+                result = self.audit(href)
+                self.assertEqual(result.returncode, 1)
+                self.assertIn('missing route link', result.stdout)
+                self.assertIn(';missing/', result.stdout)
+                self.assertIn('page unreachable from homepage links: /target/', result.stdout)
+
     def test_missing_absolute_route_still_fails(self):
         result = self.audit(SITE + '/target/', False, False)
         self.assertIn('missing route link /target/', result.stdout)

@@ -10,7 +10,7 @@ from xml.etree import ElementTree as ET
 import json
 import re
 import sys
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlsplit
 
 SOURCE_ROOT = Path(__file__).resolve().parent
 # Optional output root lets the same checks validate the deployed build.
@@ -58,7 +58,13 @@ for url, path in pages.items():
         except json.JSONDecodeError as exc:
             ERRORS.append(f"{url}: invalid JSON-LD: {exc}")
     for href in re.findall(r'href=["\']([^"\']+)', source):
-        parsed = urlparse(href)
+        # Browsers interpret extra leading slashes as an authority, while
+        # urllib can parse them as a local path. Reject this ambiguous spelling.
+        if href.startswith("///"):
+            ERRORS.append(f"{url}: malformed authority link {href}")
+            continue
+        # Keep semicolons in the path: /target;missing is not /target/.
+        parsed = urlsplit(href)
         if parsed.netloc:
             if (parsed.scheme or "https", parsed.netloc) != (urlparse(SITE).scheme, urlparse(SITE).netloc):
                 continue
