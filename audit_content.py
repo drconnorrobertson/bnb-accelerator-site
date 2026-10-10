@@ -5,19 +5,40 @@ Run after generating pages and before publishing: python3 audit_content.py
 This checks eligibility and site wiring. Search engines still decide what to index.
 """
 from collections import Counter
+from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree as ET
 import json
 import re
 import sys
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlsplit
 
-ROOT = Path(__file__).resolve().parent
+SOURCE_ROOT = Path(__file__).resolve().parent
+# Optional output root lets the same checks validate the deployed build.
+ROOT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else SOURCE_ROOT
 SITE = "https://www.bnbaccelerator.com"
 ERRORS = []
 # Post-appointment preparation is public but intentionally excluded from search.
 # Keep this explicit: editorial pages must not silently bypass indexing checks.
 NONINDEXABLE_ROUTES = {"/scb-precall/"}
+
+
+class LinkParser(HTMLParser):
+    """Read actual href attributes, excluding href-like text in metadata."""
+    def __init__(self):
+        super().__init__()
+        self.hrefs = []
+
+    def handle_starttag(self, tag, attrs):
+        hrefs = [value for name, value in attrs if name == "href" and value is not None]
+        # Python drops some numeric references during attribute decoding.
+        # Check the raw tag first so they cannot alias an existing route.
+        if hrefs and any(unescape(match.group(0)) == "" for match in
+                         re.finditer(r"&#(?:x[0-9a-f]+|[0-9]+);?", self.get_starttag_text(), re.I)):
+            self.hrefs.append("\x7f")  # Rejected by the existing control guard.
+            return
+        self.hrefs.extend(hrefs)
 
 
 def route(path):
@@ -55,10 +76,27 @@ for url, path in pages.items():
             json.loads(block)
         except json.JSONDecodeError as exc:
             ERRORS.append(f"{url}: invalid JSON-LD: {exc}")
-    for href in re.findall(r'href=["\']([^"\']+)', source):
-        if not href.startswith("/") or href.startswith("//"):
+    links = LinkParser()
+    links.feed(source)
+    for href in links.hrefs:
+        # URL parsers strip controls, which can hide an external authority.
+        # Reject the raw spelling before any parser normalization occurs.
+        if any(ord(character) < 32 or ord(character) == 127 for character in href):
+            ERRORS.append(f"{url}: control character in link {href!r}")
             continue
-        target = href.split("?", 1)[0].split("#", 1)[0]
+        # Browsers interpret extra leading slashes as an authority, while
+        # urllib can parse them as a local path. Reject this ambiguous spelling.
+        if href.startswith("///"):
+            ERRORS.append(f"{url}: malformed authority link {href}")
+            continue
+        # Keep semicolons in the path: /target;missing is not /target/.
+        parsed = urlsplit(href)
+        if parsed.netloc:
+            if (parsed.scheme or "https", parsed.netloc) != (urlparse(SITE).scheme, urlparse(SITE).netloc):
+                continue
+        elif parsed.scheme or not href.startswith("/"):
+            continue
+        target = parsed.path
         if not target or target == "/" or target.startswith("/assets/"):
             continue
         if target.endswith((".xml", ".txt", ".html", ".svg", ".css", ".js")):
@@ -110,7 +148,7 @@ try:
 except (OSError, ET.ParseError) as exc:
     ERRORS.append(f"invalid sitemap: {exc}")
 
-config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
+config = json.loads((SOURCE_ROOT / "vercel.json").read_text(encoding="utf-8"))
 sources = [entry["source"] for entry in config.get("redirects", [])]
 if len(sources) != len(set(sources)):
     ERRORS.append("duplicate redirect sources")
