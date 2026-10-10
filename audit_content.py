@@ -12,7 +12,9 @@ import re
 import sys
 from urllib.parse import urlparse
 
-ROOT = Path(__file__).resolve().parent
+SOURCE_ROOT = Path(__file__).resolve().parent
+# Optional output root lets the same checks validate the deployed build.
+ROOT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else SOURCE_ROOT
 SITE = "https://www.bnbaccelerator.com"
 ERRORS = []
 # Post-appointment preparation is public but intentionally excluded from search.
@@ -56,9 +58,13 @@ for url, path in pages.items():
         except json.JSONDecodeError as exc:
             ERRORS.append(f"{url}: invalid JSON-LD: {exc}")
     for href in re.findall(r'href=["\']([^"\']+)', source):
-        if not href.startswith("/") or href.startswith("//"):
+        parsed = urlparse(href)
+        if parsed.netloc:
+            if (parsed.scheme or "https", parsed.netloc) != (urlparse(SITE).scheme, urlparse(SITE).netloc):
+                continue
+        elif parsed.scheme or not href.startswith("/"):
             continue
-        target = href.split("?", 1)[0].split("#", 1)[0]
+        target = parsed.path
         if not target or target == "/" or target.startswith("/assets/"):
             continue
         if target.endswith((".xml", ".txt", ".html", ".svg", ".css", ".js")):
@@ -110,7 +116,7 @@ try:
 except (OSError, ET.ParseError) as exc:
     ERRORS.append(f"invalid sitemap: {exc}")
 
-config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
+config = json.loads((SOURCE_ROOT / "vercel.json").read_text(encoding="utf-8"))
 sources = [entry["source"] for entry in config.get("redirects", [])]
 if len(sources) != len(set(sources)):
     ERRORS.append("duplicate redirect sources")
