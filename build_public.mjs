@@ -19,7 +19,13 @@ const root = process.cwd();
 const libraryUrl = 'https://www.bnbaccelerator.com/resources/str-investor-library/';
 const coreMapPath = join(root, 'sitemap-core.xml');
 const coreMap = await readFile(coreMapPath, 'utf8');
-if (!coreMap.includes(libraryUrl)) await writeFile(coreMapPath, coreMap.replace('</urlset>', `<url><loc>${libraryUrl}</loc><lastmod>2026-10-09</lastmod></url></urlset>`));
+if (!coreMap.includes(libraryUrl)) {
+ const closingTag = coreMap.match(/<\/((?:\w+:)?)urlset>/);
+ assert.ok(closingTag, 'Core sitemap must have a urlset element');
+ const prefix = closingTag[1];
+ await writeFile(coreMapPath, coreMap.replace(closingTag[0], `<${prefix}url><${prefix}loc>${libraryUrl}</${prefix}loc><${prefix}lastmod>2026-10-09</${prefix}lastmod></${prefix}url>${closingTag[0]}`));
+}
+assert.ok((await readFile(coreMapPath, 'utf8')).includes(libraryUrl), 'Investor library missing from sitemap');
 
 const out = join(root, 'public');
 const publicExtensions = new Set(['.html', '.css', '.js', '.svg', '.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.eot', '.pdf', '.mp4', '.webm']);
