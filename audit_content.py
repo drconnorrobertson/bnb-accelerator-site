@@ -5,6 +5,7 @@ Run after generating pages and before publishing: python3 audit_content.py
 This checks eligibility and site wiring. Search engines still decide what to index.
 """
 from collections import Counter
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -30,7 +31,14 @@ class LinkParser(HTMLParser):
         self.hrefs = []
 
     def handle_starttag(self, tag, attrs):
-        self.hrefs.extend(value for name, value in attrs if name == "href" and value is not None)
+        hrefs = [value for name, value in attrs if name == "href" and value is not None]
+        # Python drops some numeric references during attribute decoding.
+        # Check the raw tag first so they cannot alias an existing route.
+        if hrefs and any(unescape(match.group(0)) == "" for match in
+                         re.finditer(r"&#(?:x[0-9a-f]+|[0-9]+);?", self.get_starttag_text(), re.I)):
+            self.hrefs.append("\x7f")  # Rejected by the existing control guard.
+            return
+        self.hrefs.extend(hrefs)
 
 
 def route(path):
