@@ -5,6 +5,7 @@ Run after generating pages and before publishing: python3 audit_content.py
 This checks eligibility and site wiring. Search engines still decide what to index.
 """
 from collections import Counter
+from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree as ET
 import json
@@ -20,6 +21,16 @@ ERRORS = []
 # Post-appointment preparation is public but intentionally excluded from search.
 # Keep this explicit: editorial pages must not silently bypass indexing checks.
 NONINDEXABLE_ROUTES = {"/scb-precall/"}
+
+
+class LinkParser(HTMLParser):
+    """Read actual href attributes, excluding href-like text in metadata."""
+    def __init__(self):
+        super().__init__()
+        self.hrefs = []
+
+    def handle_starttag(self, tag, attrs):
+        self.hrefs.extend(value for name, value in attrs if name == "href" and value is not None)
 
 
 def route(path):
@@ -57,7 +68,14 @@ for url, path in pages.items():
             json.loads(block)
         except json.JSONDecodeError as exc:
             ERRORS.append(f"{url}: invalid JSON-LD: {exc}")
-    for href in re.findall(r'href=["\']([^"\']+)', source):
+    links = LinkParser()
+    links.feed(source)
+    for href in links.hrefs:
+        # URL parsers strip controls, which can hide an external authority.
+        # Reject the raw spelling before any parser normalization occurs.
+        if any(ord(character) < 32 or ord(character) == 127 for character in href):
+            ERRORS.append(f"{url}: control character in link {href!r}")
+            continue
         # Browsers interpret extra leading slashes as an authority, while
         # urllib can parse them as a local path. Reject this ambiguous spelling.
         if href.startswith("///"):

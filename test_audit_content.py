@@ -9,7 +9,7 @@ AUDIT = Path(__file__).with_name('audit_content.py')
 SITE = 'https://www.bnbaccelerator.com'
 
 class AuditTests(unittest.TestCase):
-    def audit(self, href, include_target=True, sitemap_target=True):
+    def audit(self, href, include_target=True, sitemap_target=True, metadata_suffix=""):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / 'audit_content.py').write_text(AUDIT.read_text())
@@ -18,7 +18,7 @@ class AuditTests(unittest.TestCase):
             def page(route, link=''):
                 path = root / route.strip('/') / 'index.html'
                 path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_text(f'<title>{route}</title><meta name="description" content="Description {route}"><link rel="canonical" href="{SITE}{route}"><h1>{route}</h1>{link}')
+                path.write_text(f'<title>{route}</title><meta name="description" content="Description {route}{metadata_suffix}">\n<link rel="canonical" href="{SITE}{route}"><h1>{route}</h1>{link}')
             page('/', f'<a href="{href}">Target</a>')
             if include_target:
                 page('/target/')
@@ -44,6 +44,19 @@ class AuditTests(unittest.TestCase):
         self.assertEqual(result.returncode, 1)
         self.assertIn('malformed authority link ///target/', result.stdout)
         self.assertIn('page unreachable from homepage links: /target/', result.stdout)
+
+    def test_control_characters_cannot_hide_external_authority(self):
+        for control in ['\t', '\n', '\r']:
+            for href in ['//' + control + '/target/', '/' + control + '//target/']:
+                with self.subTest(href=href):
+                    result = self.audit(href)
+                    self.assertEqual(result.returncode, 1)
+                    self.assertIn('control character in link', result.stdout)
+                    self.assertIn('page unreachable from homepage links: /target/', result.stdout)
+
+    def test_href_text_inside_metadata_is_not_a_link(self):
+        result = self.audit('/target/', metadata_suffix=' &lt;a href=')
+        self.assertEqual(result.returncode, 0, result.stdout)
 
     def test_path_parameters_are_not_discarded(self):
         for href in ['/target;missing', '/target/;missing', SITE + '/target;missing', '//www.bnbaccelerator.com/target/;missing']:

@@ -69,11 +69,11 @@ NAV_ITEMS = [
 ]
 
 BOOK_SITES = [
-    ("https://drconnorrobertson.github.io/bnb-your-first-str/", "Your First STR"),
-    ("https://drconnorrobertson.github.io/bnb-case-study/", "BNB Case Study"),
-    ("https://drconnorrobertson.github.io/bnb-top-places-str-2026/", "Top STR Places 2026"),
-    ("https://drconnorrobertson.github.io/bnb-value-add-str-guide/", "Value Add STR Guide"),
-    ("https://drconnorrobertson.github.io/bnb-acquisition-system/", "The Acquisition System"),
+    ("/buy-a-short-term-rental/", "Your First STR"),
+    ("/case-studies/", "BNB Case Study"),
+    ("/markets/", "Top STR Places 2026"),
+    ("/design/", "Value Add STR Guide"),
+    ("/how-it-works/", "The Acquisition System"),
 ]
 
 DISCLAIMER = (
