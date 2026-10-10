@@ -29,7 +29,7 @@ assert.ok((await readFile(coreMapPath, 'utf8')).includes(libraryUrl), 'Investor 
 
 const out = join(root, 'public');
 const publicExtensions = new Set(['.html', '.css', '.js', '.svg', '.jpg', '.jpeg', '.png', '.webp', '.gif', '.avif', '.ico', '.woff', '.woff2', '.ttf', '.eot', '.pdf', '.mp4', '.webm']);
-const publicRootFiles = new Set(['robots.txt', 'llms.txt', 'sitemap.xml', 'sitemap-core.xml', 'sitemap-investor-guides.xml', 'sitemap-blog.xml', 'sitemap-scenarios.xml', 'sitemap-markets.xml', 'sitemap-proof.xml', 'sitemap-proformas.xml', 'c745eff13e89424cb1ed10f69adea860.txt']);
+const publicRootFiles = new Set(['robots.txt', 'llms.txt', 'sitemap.xml', 'sitemap-core.xml', 'sitemap-investor-guides.xml', 'sitemap-field-guides.xml', 'sitemap-blog.xml', 'sitemap-scenarios.xml', 'sitemap-markets.xml', 'sitemap-proof.xml', 'sitemap-proformas.xml', 'c745eff13e89424cb1ed10f69adea860.txt']);
 for (const route of resourceRoutes.values()) await access(join(root, route, 'index.html'));
 await rm(out, { recursive: true, force: true });
 let copied = 0;

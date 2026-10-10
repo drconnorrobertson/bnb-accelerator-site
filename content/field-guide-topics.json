@@ -1,0 +1,56 @@
+[
+  [
+    "purchase-to-launch-responsibility-matrix",
+    "Build a purchase-to-launch responsibility matrix",
+    "A property can be acquired successfully while the opening stalls because nobody owns the next decision. A responsibility matrix names the person who prepares a decision, the owner who approves it and the team that must receive the result. Start before closing and revise it when scope changes.",
+    "Signed service scopes;Owner approval limits;Vendor contact roster;Target handover milestones",
+    "Assign one accountable owner to each milestone;Separate preparation from final approval;Name the recipient of each completed handoff;Record backup coverage for unavailable decision-makers",
+    "Do not list \u201cthe team\u201d as the only responsible party. A shared chat is a communication channel, not an assignment of accountability.",
+    "A hypothetical project has a designer ordering furniture and a manager arranging photography. The matrix assigns the designer to confirm installed inventory, the owner to approve substitutions and the manager to confirm photo readiness. A delayed bed remains visible until all three handoffs are documented."
+  ],
+  [
+    "acquisition-assumption-register",
+    "Maintain an acquisition assumption register",
+    "Every purchase model contains facts, estimates and open questions. An assumption register separates them so a confident spreadsheet does not hide uncertain inputs. Give material assumptions an evidence source and an expiry or recheck date. The register complements the financial model rather than replacing professional diligence.",
+    "Current purchase model;Seller document list;Written operating quotes;Open diligence questions",
+    "Label each input as observed, quoted or assumed;Record source and document date;Identify which decision depends on the input;Update the model when evidence changes",
+    "Do not replace an assumption with a new number without retaining its history. Otherwise an apparent improvement in the model can be difficult to explain.",
+    "An illustrative operating model uses a placeholder utility allowance. A complete year of bills later arrives and shows higher seasonal costs. The register preserves the original allowance, links the bills and identifies who must update the budget before the owner reviews it."
+  ],
+  [
+    "vendor-scope-boundary-review",
+    "Review boundaries between acquisition and launch vendors",
+    "Overlapping service descriptions can leave gaps in installation, access coordination or management onboarding. Compare written scopes by deliverable. Identify who supplies the result, who approves it and which costs sit outside each agreement. Resolve ambiguity directly with the provider before relying on the service in a schedule.",
+    "Acquisition service agreement;Design proposal;Management proposal;Excluded-work lists",
+    "List deliverables across all proposals;Mark duplicate and unassigned responsibilities;Request written clarification for unclear boundaries;Update the owner project budget for exclusions",
+    "A provider introduction does not itself mean the introducing firm delivers or guarantees that provider\u2019s work. Keep responsibilities consistent with the executed agreements.",
+    "In a hypothetical project, furniture procurement is included but local assembly is excluded. The scope review identifies the gap, obtains an assembly quote and assigns access coordination before the installation date is promised."
+  ],
+  [
+    "owner-approval-decision-packet",
+    "Prepare an owner approval packet for a property decision",
+    "An approval request should contain enough evidence for the owner to understand the choice and its consequences. Keep the request focused on one decision, show the available options and specify the time constraint. Silence should remain an unresolved decision unless an agreement expressly establishes another process.",
+    "Decision description;Current approved budget;Alternative quotes;Schedule dependencies",
+    "State the requested approval in one sentence;Show cost and timing differences between options;Attach the source evidence;Record the owner response and affected plan version",
+    "Avoid describing an option as free when it consumes contingency or removes part of the approved scope. Show the actual budget movement.",
+    "A hypothetical furniture substitution costs more but arrives earlier. The packet presents both delivered costs, revised room dimensions and the effect on photography. The owner can approve an informed tradeoff without reconstructing a message thread."
+  ],
+  [
+    "project-contingency-draw-log",
+    "Track project contingency draws through opening",
+    "A contingency is useful only when the owner can see what has consumed it and what remains. Treat each draw as a decision with a reason, amount and approval. Keep known work in the base budget; contingency should not conceal tasks that were omitted from the original estimate.",
+    "Approved contingency amount;Known excluded work;Change requests;Payment and invoice records",
+    "Assign a reference to each proposed draw;State the trigger and alternative options;Record approval before the payment commitment;Reconcile the remaining allowance to actual spending",
+    "Do not count the same reserve both as available project contingency and untouched operating liquidity. Show transfers explicitly in the cash plan.",
+    "An illustrative project allocates $8,000 of contingency. A documented $1,200 access-related delivery charge reduces the uncommitted allowance to $6,800. The owner records whether the charge has merely been approved or has actually been paid."
+  ],
+  [
+    "first-month-owner-handoff-agenda",
+    "Run a first-month owner handoff review",
+    "The first month should test whether the promised operating handoff actually occurred. Review records, unresolved issues and the reporting cadence rather than treating the first booking as proof that every launch task is complete. Separate delivery questions from investment performance so operational fixes remain actionable.",
+    "Final installed inventory;Open launch issue log;Management reporting sample;Vendor warranty records",
+    "Confirm access to owner reports;Review unresolved deliveries and claims;Assign ongoing maintenance and replacement ownership;Agree the next reporting date and issue escalation route",
+    "A strong first payout does not resolve a missing inventory, unclear warranty contact or unassigned refund claim. Keep each item open until its own evidence is complete.",
+    "A hypothetical owner receives the first monthly statement but cannot identify several maintenance charges. The review assigns the manager to provide invoice references and establishes an approval rule for future nonroutine work."
+  ]
+]
