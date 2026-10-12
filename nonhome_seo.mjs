@@ -61,7 +61,7 @@ export function normalizeNonhomeSeo(html, path) {
   const crumbs = [{ '@type': 'ListItem', position: 1, name: 'Home', item: origin + '/' }];
   parts.forEach((_, i) => {
    const ancestor = '/' + parts.slice(0, i + 1).join('/') + '/';
-   if (pages.has(ancestor)) crumbs.push({ '@type': 'ListItem', position: crumbs.length + 1, name: pages.get(ancestor).h1, item: origin + ancestor });
+   if (pages.has(ancestor)) crumbs.push({ '@type': 'ListItem', position: crumbs.length + 1, name: ancestor === route ? plain(html.match(/<h1\b[^>]*>(.*?)<\/h1>/is)?.[1] || pages.get(ancestor).h1) : pages.get(ancestor).h1, item: origin + ancestor });
   });
   graph.push({ '@type': 'BreadcrumbList', '@id': origin + route + '#breadcrumb', itemListElement: crumbs });
  }

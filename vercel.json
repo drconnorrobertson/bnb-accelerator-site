@@ -1496,6 +1496,6 @@
       ]
     }
   ],
-  "buildCommand": "node build_public.mjs && node scripts/brand-check.mjs public",
+  "buildCommand": "node build_public.mjs && node scripts/instrument-conversions.mjs public preserve-home && node scripts/brand-check.mjs public",
   "outputDirectory": "public"
 }

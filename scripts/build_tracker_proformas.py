@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Publish whitelisted 2026-tab property snapshots; no linked workbook reads."""
 from pathlib import Path
+from datetime import date
 from collections import defaultdict,Counter
 import hashlib,html,json,re,sys,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'_gen'))
@@ -11,6 +12,12 @@ DISCLAIMER='Disclaimer: These pages reproduce selected property fields from the 
 def e(x):return html.escape(str(x),quote=True)
 def slug(x):return re.sub('[^a-z0-9]+','-',str(x).lower()).strip('-')
 def value(v,i):return str(v[i]).strip() if i<len(v) and v[i] is not None else ''
+def display_address(address,price):
+ # Correct a duplicated price field without changing source keys or published URLs.
+ prefix=re.match(r'^(\$[\d,]+(?:\.\d{2})?)\s+(\d+\s+.+)$',address)
+ if prefix and prefix.group(1).replace(',','')==price.replace(',',''):
+  return prefix.group(2)
+ return address
 def group(status):
  s=status.lower().strip()
  if s in ['z_kill - income','z_kill - compliance']:return 'terrible'
@@ -46,7 +53,7 @@ def load():
   if s in used:s+='-'+hashlib.sha256(key.encode()).hexdigest()[:8]
   used.add(s)
   # No staff names, paired clients, phones, raw notes, emails, or private workbook links.
-  out.append({'slug':s,'address':address,'market':market(address),'category':group(value(v,2)),'status':value(v,2),'reviewed_coc':r.get('reviewed_coc_field'),'reviewer_income':r.get('reviewer_income_assumption'),'date_added':value(v,1),'price':value(v,10),'income':value(v,9),'yield':value(v,8),'deal_type':value(v,11),'beds':value(v,13),'baths':value(v,14),'size':value(v,15),'furnished':value(v,16),'compliance':value(v,7),'history':[{'row':h['row'],'date':value(h['values'],1),'status':value(h['values'],2),'price':value(h['values'],10),'income':value(h['values'],9)} for h in history]})
+  out.append({'slug':s,'address':display_address(address,value(v,10)),'market':market(address),'category':group(value(v,2)),'status':value(v,2),'reviewed_coc':r.get('reviewed_coc_field'),'reviewer_income':r.get('reviewer_income_assumption'),'date_added':value(v,1),'price':value(v,10),'income':value(v,9),'yield':value(v,8),'deal_type':value(v,11),'beds':value(v,13),'baths':value(v,14),'size':value(v,15),'furnished':value(v,16),'compliance':value(v,7),'history':[{'row':h['row'],'date':value(h['values'],1),'status':value(h['values'],2),'price':value(h['values'],10),'income':value(h['values'],9)} for h in history]})
  return sorted(out,key=lambda d:d['address'].casefold()),excluded
 CSS='''<style>
 .pf-wrap{max-width:1120px;margin:auto;padding:32px 20px}.pf-hero{background:#142b39;color:#fff;border-radius:24px;padding:36px;margin:24px 0}.pf-hero h1{font-size:clamp(28px,4vw,48px);line-height:1.12;color:#fff}.pf-hero p{color:#d8e8ed}.pf-tag{display:inline-block;padding:6px 12px;border-radius:20px;background:#dcefe6;color:#165d45;font-size:14px;font-weight:700}.pf-tag.not-great{background:#fff0c9;color:#704d00}.pf-tag.terrible{background:#fce0dd;color:#842d2d}.pf-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0}.pf-card{padding:24px;border:1px solid #dde5e9;border-radius:16px;background:#fff;color:#142b39}.pf-card strong{display:block;font-size:clamp(22px,3vw,34px);margin:8px 0}.pf-card small{display:block;color:#526570}.pf-panel{padding:28px;border:1px solid #dde5e9;border-radius:20px;margin:24px 0;background:#fff}.pf-panel h2{font-size:25px;margin-top:0}.pf-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.pf-detail{border-bottom:1px solid #e6ebee;padding:12px 0}.pf-detail dt{font-size:14px;color:#526570}.pf-detail dd{margin:4px 0;font-weight:600}.pf-links{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.pf-links a{padding:10px 16px;border:1px solid #d5dfe3;border-radius:22px}.pf-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.pf-items a{text-decoration:none}.pf-item{padding:20px;border:1px solid #d5dfe3;border-radius:16px}.pf-item h3{font-size:20px;margin:12px 0}.pf-disclaimer{border-top:2px solid #d9e2e7;margin-top:40px;padding-top:24px;color:#526570;font-size:14px}.pf-table{width:100%;border-collapse:collapse}.pf-table th,.pf-table td{padding:12px;text-align:left;border-bottom:1px solid #e4e9ec}.pf-wrap *{overflow-wrap:anywhere}.pf-reading{font-size:17px;line-height:1.8}.pf-reading p{max-width:78ch;margin:16px 0}.pf-reading h2{line-height:1.3}.pf-panel[id]{scroll-margin-top:100px}.pf-toc{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:24px 0;padding:20px;border:1px solid #dde5e9;border-radius:16px;background:#f4f8fa}.pf-toc a{font-size:15px;text-underline-offset:4px}.pf-toc strong{width:100%;color:#142b39}.table-scroll{overflow-x:auto}.pf-table{min-width:600px}@media(max-width:640px){.pf-grid,.pf-items,.pf-details{grid-template-columns:1fr}.pf-hero{padding:24px}.pf-panel{padding:20px}.pf-wrap{padding:20px 14px}}
@@ -107,7 +114,36 @@ def longform(d):
  '<strong>Where do the numbers come from?</strong> Only the supplied 2026 tracker tab. Other tabs and linked pro forma workbooks were not used. The source row appears at the bottom so this snapshot can be reconciled with its recorded entry.'])
  return out
 
-def property_page(d):
+def collision_metadata(records):
+ # Distinguish separate raw-address groups only when their display metadata collides.
+ groups=defaultdict(list)
+ for d in records:groups[d['address']].append(d)
+ result={}
+ for address,entries in groups.items():
+  if len(entries)<2:continue
+  qualifiers=[]
+  for d in entries:
+   supplied=d.get('date_added','')
+   try:
+    if not isinstance(supplied,str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}',supplied):raise ValueError('Ambiguous date added')
+    added=date.fromisoformat(supplied)
+    qualifier=f'Tracker entry added {added:%B} {added.day}, {added.year}'
+   except ValueError:qualifier=None
+   qualifiers.append(qualifier)
+  counts=Counter(qualifiers)
+  for d,qualifier in zip(entries,qualifiers):
+   if qualifier is None or counts[qualifier]>1:
+    row=d['history'][0]['row']
+    if type(row) is not int or row<1:raise ValueError('Collision requires a valid source row')
+    qualifier=f'Tracker source row {row}'
+   result[d['slug']]=(address+' STR Pro Forma — '+qualifier,
+    f'{address}: STR price, projected income and screening review by BNB Accelerator. {qualifier}.')
+  if len({result[d['slug']][0] for d in entries})!=len(entries):
+   raise ValueError('Source identifiers do not distinguish colliding metadata')
+ return result
+
+
+def property_page(d,metadata=None):
  path='/proformas/'+d['slug']+'/'
  body='<nav class="pf-links"><a href="/proformas/">All property reviews</a><a href="/proformas/'+d['category']+'/">'+e(LABELS[d['category']])+'</a></nav>'+hero(d['address']+' STR Pro Forma',reason(d['status']))+tag(d['category'])
  body+='<nav class="pf-toc" aria-label="On this page"><strong>On this page</strong><a href="#property-review">Overview</a><a href="#screening-analysis">Deal assessment</a><a href="#income-explained">Income explained</a><a href="#model-gaps">Missing inputs</a><a href="#review-steps">Review steps</a><a href="#property-faq">Questions</a></nav>'
@@ -121,7 +157,8 @@ def property_page(d):
   body+='<section class="pf-panel"><h2>Other tracker entries for this address</h2><p>The lead snapshot uses the most recent date-added field, then the later source row when dates match. Date added is not necessarily the last underwriting update. Each source entry remains below.</p><div class="table-scroll"><table class="pf-table"><thead><tr><th>Source row</th><th>Date added</th><th>Status</th><th>Purchase-price field</th><th>Projected income</th></tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+e(h[k] or 'Not supplied')+'</td>' for k in ['row','date','status','price','income'])+'</tr>' for h in d['history'])+'</tbody></table></div></section>'
  if d['market']!='Market not separately specified':body+='<p><a href="/proformas/markets/'+slug(d['market'])+'/">More STR deal reviews in '+e(d['market'])+'</a></p>'
  body+='<p>Source: supplied deal-flow tracker, tab “2026”, row '+str(d['history'][0]['row'])+'. No other tabs or linked workbooks used.</p>'
- return path,page(path,d['address']+' STR Pro Forma',f'{d["address"]}: STR price, projected income and screening review by BNB Accelerator.',body,True)
+ title,description=metadata or (d['address']+' STR Pro Forma',f'{d["address"]}: STR price, projected income and screening review by BNB Accelerator.')
+ return path,page(path,title,description,body,True)
 def directory(path,title,ds,description,extra=''):
  output=[];size=96
  for offset in range(0,max(1,len(ds)),size):
@@ -135,8 +172,9 @@ def directory(path,title,ds,description,extra=''):
  return output
 def build():
  ds,excluded=load();outputs=[];markets=defaultdict(list);counts=Counter(d['category'] for d in ds)
+ metadata=collision_metadata(ds)
  for d in ds:
-  outputs.append(property_page(d))
+  outputs.append(property_page(d,metadata.get(d['slug'])))
   if d['market']!='Market not separately specified':
    key=next((m for m in markets if slug(m)==slug(d['market'])),d['market']);markets[key].append(d)
  nav='<nav class="pf-links">'+''.join('<a href="/proformas/'+c+'/">'+e(LABELS[c])+': '+str(counts[c])+'</a>' for c in LABELS)+'<a href="/proformas/markets/">Browse markets</a></nav>'
