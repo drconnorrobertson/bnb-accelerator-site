@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Publish whitelisted 2026-tab property snapshots; no linked workbook reads."""
 from pathlib import Path
+from datetime import date
 from collections import defaultdict,Counter
 import hashlib,html,json,re,sys,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'_gen'))
@@ -113,7 +114,36 @@ def longform(d):
  '<strong>Where do the numbers come from?</strong> Only the supplied 2026 tracker tab. Other tabs and linked pro forma workbooks were not used. The source row appears at the bottom so this snapshot can be reconciled with its recorded entry.'])
  return out
 
-def property_page(d):
+def collision_metadata(records):
+ # Distinguish separate raw-address groups only when their display metadata collides.
+ groups=defaultdict(list)
+ for d in records:groups[d['address']].append(d)
+ result={}
+ for address,entries in groups.items():
+  if len(entries)<2:continue
+  qualifiers=[]
+  for d in entries:
+   supplied=d.get('date_added','')
+   try:
+    if not isinstance(supplied,str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}',supplied):raise ValueError('Ambiguous date added')
+    added=date.fromisoformat(supplied)
+    qualifier=f'Tracker entry added {added:%B} {added.day}, {added.year}'
+   except ValueError:qualifier=None
+   qualifiers.append(qualifier)
+  counts=Counter(qualifiers)
+  for d,qualifier in zip(entries,qualifiers):
+   if qualifier is None or counts[qualifier]>1:
+    row=d['history'][0]['row']
+    if type(row) is not int or row<1:raise ValueError('Collision requires a valid source row')
+    qualifier=f'Tracker source row {row}'
+   result[d['slug']]=(address+' STR Pro Forma — '+qualifier,
+    f'{address}: STR price, projected income and screening review by BNB Accelerator. {qualifier}.')
+  if len({result[d['slug']][0] for d in entries})!=len(entries):
+   raise ValueError('Source identifiers do not distinguish colliding metadata')
+ return result
+
+
+def property_page(d,metadata=None):
  path='/proformas/'+d['slug']+'/'
  body='<nav class="pf-links"><a href="/proformas/">All property reviews</a><a href="/proformas/'+d['category']+'/">'+e(LABELS[d['category']])+'</a></nav>'+hero(d['address']+' STR Pro Forma',reason(d['status']))+tag(d['category'])
  body+='<nav class="pf-toc" aria-label="On this page"><strong>On this page</strong><a href="#property-review">Overview</a><a href="#screening-analysis">Deal assessment</a><a href="#income-explained">Income explained</a><a href="#model-gaps">Missing inputs</a><a href="#review-steps">Review steps</a><a href="#property-faq">Questions</a></nav>'
@@ -127,7 +157,8 @@ def property_page(d):
   body+='<section class="pf-panel"><h2>Other tracker entries for this address</h2><p>The lead snapshot uses the most recent date-added field, then the later source row when dates match. Date added is not necessarily the last underwriting update. Each source entry remains below.</p><div class="table-scroll"><table class="pf-table"><thead><tr><th>Source row</th><th>Date added</th><th>Status</th><th>Purchase-price field</th><th>Projected income</th></tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+e(h[k] or 'Not supplied')+'</td>' for k in ['row','date','status','price','income'])+'</tr>' for h in d['history'])+'</tbody></table></div></section>'
  if d['market']!='Market not separately specified':body+='<p><a href="/proformas/markets/'+slug(d['market'])+'/">More STR deal reviews in '+e(d['market'])+'</a></p>'
  body+='<p>Source: supplied deal-flow tracker, tab “2026”, row '+str(d['history'][0]['row'])+'. No other tabs or linked workbooks used.</p>'
- return path,page(path,d['address']+' STR Pro Forma',f'{d["address"]}: STR price, projected income and screening review by BNB Accelerator.',body,True)
+ title,description=metadata or (d['address']+' STR Pro Forma',f'{d["address"]}: STR price, projected income and screening review by BNB Accelerator.')
+ return path,page(path,title,description,body,True)
 def directory(path,title,ds,description,extra=''):
  output=[];size=96
  for offset in range(0,max(1,len(ds)),size):
@@ -141,8 +172,9 @@ def directory(path,title,ds,description,extra=''):
  return output
 def build():
  ds,excluded=load();outputs=[];markets=defaultdict(list);counts=Counter(d['category'] for d in ds)
+ metadata=collision_metadata(ds)
  for d in ds:
-  outputs.append(property_page(d))
+  outputs.append(property_page(d,metadata.get(d['slug'])))
   if d['market']!='Market not separately specified':
    key=next((m for m in markets if slug(m)==slug(d['market'])),d['market']);markets[key].append(d)
  nav='<nav class="pf-links">'+''.join('<a href="/proformas/'+c+'/">'+e(LABELS[c])+': '+str(counts[c])+'</a>' for c in LABELS)+'<a href="/proformas/markets/">Browse markets</a></nav>'
