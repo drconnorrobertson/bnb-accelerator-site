@@ -5,8 +5,9 @@ export function normalizePerformanceDisclosures(html, path) {
     'Published examples may include recorded tracker figures, client reports, forecasts and tax illustrations. They are not independently verified typical returns; check the source, period, expenses and investment denominator on each example.'
   ).replaceAll(
     '<strong>4.5/5</strong> on Trustpilot',
-    '<a href="/reviews/">Review sources and dates</a>'
+    '<a href="/reviews/client-experience-and-review-sources/">Review sources and dates</a>'
   );
+  output = output.replaceAll('href="/reviews/"', 'href="/reviews/client-experience-and-review-sources/"');
   if (/^case-studies\/.+\/index\.html$/.test(path)) {
     output = output.replace(
       /\$[\d,]+ a year in cash flow on \$[\d,]+ of cash invested, a [\d.]+% cash-on-cash return\./g,
