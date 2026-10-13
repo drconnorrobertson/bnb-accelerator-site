@@ -1,0 +1,37 @@
+{
+  "index.html": {
+    "title": "BNB Accelerator | Done-for-You Airbnb Investing",
+    "description": "Explore BNB Accelerator’s process for finding and buying short-term rentals, coordinating setup and reviewing investment projections. See pricing and apply.",
+    "heading": "Compare the support before you choose an STR acquisition team",
+    "body": "<p>Review <a href=\"/how-it-works/\">how BNB Accelerator works</a>, <a href=\"/pricing/\">acquisition pricing and scope</a>, and <a href=\"/testimonials/\">BNB Accelerator reviews and client stories</a>. You approve the property purchase and work with independent financing, legal, tax and operating professionals.</p><p><a class=\"btn btn-primary\" href=\"/apply/\">Discuss My STR Acquisition Plan</a></p>"
+  },
+  "testimonials/index.html": {
+    "title": "BNB Accelerator Reviews & Client Stories",
+    "description": "Read BNB Accelerator client stories, source-linked public reviews and the questions to ask about acquisition costs, service scope and reported results.",
+    "h1": "BNB Accelerator Reviews and Client Stories"
+  },
+  "pricing/index.html": {
+    "heading": "Review the process and evidence alongside the fee",
+    "body": "<p>Compare the written scope with <a href=\"/how-it-works/\">the acquisition process</a> and <a href=\"/testimonials/\">BNB Accelerator reviews</a>. Confirm the work included, independent-provider costs, your responsibilities and cancellation terms before engaging the team.</p>"
+  },
+  "how-it-works/index.html": {
+    "heading": "Make an informed decision about acquisition support",
+    "body": "<p>Review <a href=\"/pricing/\">pricing and service scope</a>, read <a href=\"/testimonials/\">BNB Accelerator reviews and client stories</a>, and bring your purchase budget and open questions to the application discussion. A company-reported case study is not a forecast for your property.</p>"
+  },
+  "blog/airbnb-revenue-projections/index.html": {
+    "title": "Airbnb Revenue Projections: Analyze Before Buying",
+    "description": "Compare seller history, comparable rentals and monthly assumptions. Stress-test Airbnb revenue projections against operating costs and debt before buying.",
+    "heading": "Use your projections to prepare an acquisition discussion",
+    "body": "<p>Bring the listing, seller revenue records, comparable-property sources, monthly assumptions and expense quotes. Keep the downside case visible when discussing the purchase price. Review <a href=\"/revenue-projections/\">the revenue evidence checklist</a> and <a href=\"/pricing/\">BNB Accelerator’s acquisition scope and fees</a>.</p><p><a class=\"btn btn-primary\" href=\"/apply/\">Discuss My STR Acquisition Plan</a></p>"
+  },
+  "blog/switching-property-managers/index.html": {
+    "title": "Switch Airbnb Property Managers: Bookings & Handoff",
+    "description": "Plan an Airbnb property-manager change around the contract, future reservations, listing control, guest communication and operating handoff.",
+    "heading": "Changing managers or buying a property with bookings?",
+    "body": "<p>Replacing a manager for a property you already own is a different decision from taking ownership of a seller’s rental. If you are buying, review <a href=\"/blog/future-reservations-at-closing/\">future reservations at closing</a> and document the responsibilities of the seller, manager and buyer. BNB Accelerator’s <a href=\"/how-it-works/\">service is acquisition support</a>; confirm any post-closing coordination in writing rather than assuming ongoing property management is included.</p>"
+  },
+  "blog/future-reservations-at-closing/index.html": {
+    "heading": "Already own the property and changing managers?",
+    "body": "<p>Use the <a href=\"/blog/switching-property-managers/\">property-manager transition guide</a> for contract notice, listing control and operating handoff. A manager change and a property purchase have different parties and responsibilities; confirm what happens to existing reservations with the professionals and platform involved.</p>"
+  }
+}

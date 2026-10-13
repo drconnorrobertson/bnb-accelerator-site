@@ -1,3 +1,4 @@
+import { optimizeSearchIntent } from './scripts/search-intent.mjs';
 // Deploy only public site output. Generator inputs and editorial records stay in Git.
 import { readdir, mkdir, copyFile, rm, readFile, writeFile, access } from 'node:fs/promises';
 import { dirname, extname, join, relative } from 'node:path';
@@ -44,7 +45,7 @@ async function walk(directory) {
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {
-    await writeFile(target, expandPreclosingKeywords(addMetaPixel(normalizePerformanceDisclosures(normalizeResourceLinks(normalizeNonhomeDesign(optimizeBlogBuyerIntent(normalizeNonhomeSeo(await readFile(source, 'utf8'), path), path), path)), path)), path));
+    await writeFile(target, optimizeSearchIntent(expandPreclosingKeywords(addMetaPixel(normalizePerformanceDisclosures(normalizeResourceLinks(normalizeNonhomeDesign(optimizeBlogBuyerIntent(normalizeNonhomeSeo(await readFile(source, 'utf8'), path), path), path)), path)), path), path));
   } else {
     await copyFile(source, target);
   }
