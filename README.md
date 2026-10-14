@@ -1,5 +1,17 @@
 # BNB Accelerator Site
 
+## Profile structured data dates
+
+`nick-korom/index.html` is the checked-in source for the Nick Korom profile;
+`build_public.mjs` transforms and copies it into public output. No profile
+generator owns this page. Google's [ProfilePage documentation](https://developers.google.com/search/docs/appearance/structured-data/profile-page)
+recommends ISO 8601 `DateTime` values for `dateModified`, reflecting human edits.
+The profile timestamp `2026-10-09T11:35:47Z` comes from its content creation
+commit `fa3c3e91e4d3e32aaaeb3e5a82746a190292b0e9` (author and commit times agree);
+the displayed October 9 update date is unchanged. Do not advance it on builds
+or technical-only changes. Run `python3 test_profile_dates.py` and, after the
+public build, `python3 test_profile_dates.py public` to check the schema dates.
+
 ## October 6 pre-closing keyword expansion
 
 50 existing blog URLs now contain 250 transaction-specific acquisition answers,
