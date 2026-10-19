@@ -80,3 +80,12 @@ body.bnb-theme .cta-band .btn-ghost-light{color:#3453bc;border-color:#3453bc}
 body.bnb-theme .article .buyer-next-step h2{font-size:1.5rem;margin-top:0;line-height:1.3}.bnb-theme .buyer-next-step ul{margin:18px 0 24px}.bnb-theme .buyer-next-step p{font-size:1rem}
 .bnb-theme .buyer-review{max-width:850px;margin:36px auto 0;text-align:center}
 @media(max-width:620px){.bnb-theme .buyer-next-step{padding:22px 18px}.bnb-theme .buyer-next-step .btn{width:100%}}
+
+/* Keep primary actions readable over the shared blue theme, including comparisons. */
+body.bnb-theme .hero .btn.btn-accent,
+body.bnb-theme .hero .btn.btn-primary,
+body.bnb-theme .cta-band .btn.btn-accent,
+body.bnb-theme .cta-band .btn.btn-primary { color: #fff; }
+.bnb-theme .bnb-close { width: 44px; height: 44px; }
+.bnb-theme .btn:focus-visible,
+.bnb-theme .bnb-close:focus-visible { outline: 3px solid #101828; outline-offset: 4px; }
