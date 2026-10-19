@@ -167,6 +167,11 @@ def directory(path,title,ds,description,extra=''):
   body=hero(heading,description)+extra+'<div class="pf-items">'+''.join('<article class="pf-item">'+tag(d['category'])+'<h3><a href="/proformas/'+d['slug']+'/">'+e(d['address'])+'</a></h3><p>Price field: '+e(d['price'] or 'Not supplied')+'<br>Projected annual income: '+e(d['income'] or 'Not supplied')+'</p></article>' for d in ds[offset:offset+size])+'</div><nav class="pf-links" aria-label="Directory pages">'
   if n>1:body+='<a href="'+(path if n==2 else path+'page-'+str(n-1)+'/')+'">Previous page</a>'
   if offset+size<len(ds):body+='<a href="'+path+'page-'+str(n+1)+'/">Next page</a>'
+  total=max(1,(len(ds)+size-1)//size)
+  body+='<span>Page '+str(n)+' of '+str(total)+'</span>'
+  for number in range(1,total+1):
+   href=path if number==1 else path+'page-'+str(number)+'/'
+   body+=('<span aria-current="page">'+str(number)+'</span>' if number==n else '<a href="'+href+'" aria-label="Directory page '+str(number)+'">'+str(number)+'</a>')
   body+='</nav>'
   output.append((p,page(p,heading,heading+f'. Page {n}: property prices, income projections and screening decisions by BNB Accelerator.',body)))
  return output

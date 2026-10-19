@@ -20,6 +20,12 @@ for path in paths:
  for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s,re.S):json.loads(b)
  graph[path]={x for x in re.findall(r'href="(/proformas/[^"]*)"',s)}
  for link in graph[path]:assert (ROOT/link.strip('/')/'index.html').exists(),link
+depth={'/proformas/':0};todo=deque(['/proformas/'])
+while todo:
+ p=todo.popleft()
+ for link in graph.get(p,set()):
+  if link in graph and link not in depth:depth[link]=depth[p]+1;todo.append(link)
+assert max(depth.values())<=3, 'directory pagination must keep every property within three hops of the library'
 seen=set();queue=deque(['/proformas/'])
 while queue:
  p=queue.popleft()

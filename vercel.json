@@ -4,6 +4,46 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/pet-fence-repair-replace-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pet-fence-operations-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pet-fence-maintenance-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pet-fence-insurance-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pet-fence-inspection-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pet-fence-design-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pet-fence-buying-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pet-fence-budget-short-term-rental/",
+      "destination": "/blog/pet-fence-roi-short-term-rental/",
+      "permanent": true
+    },
+    {
       "source": "/blog/str-market-update-q4-2026/",
       "destination": "/topics/market-analysis/",
       "permanent": true
@@ -1496,6 +1536,6 @@
       ]
     }
   ],
-  "buildCommand": "node build_public.mjs && node scripts/instrument-conversions.mjs public preserve-home && node scripts/brand-check.mjs public",
+  "buildCommand": "node build_public.mjs && node scripts/instrument-conversions.mjs public preserve-home && node scripts/repair-index-discovery.mjs public && node scripts/brand-check.mjs public",
   "outputDirectory": "public"
 }
