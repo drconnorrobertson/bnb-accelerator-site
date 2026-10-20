@@ -38,6 +38,7 @@ export function normalizeNonhomeSeo(html, path) {
   const state = pages.get(route).h1.replace(/ Short-Term Rental Regulations.*$/i, '');
   description = `Review ${state} short-term rental regulations: local permits, zoning, tax obligations and the property-specific checks to complete before buying an Airbnb.`;
  }
+ if (route === '/regulations/pennsylvania/') description = 'Check Pennsylvania short-term rental permits, local ordinances, HOA restrictions and hotel taxes using official sources before buying or hosting.';
  if (route.startsWith('/scenarios/') && route.split('/').filter(Boolean).length === 4) {
   const h1 = pages.get(route).h1;
   const [subject] = h1.split(':');
