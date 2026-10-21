@@ -1,5 +1,6 @@
 """Exercise the audit against tiny independent sites, including negative checks."""
 import subprocess
+import json
 import sys
 import tempfile
 import unittest
@@ -9,11 +10,11 @@ AUDIT = Path(__file__).with_name('audit_content.py')
 SITE = 'https://www.bnbaccelerator.com'
 
 class AuditTests(unittest.TestCase):
-    def audit(self, href, include_target=True, sitemap_target=True, metadata_suffix="", link_markup=None):
+    def audit(self, href, include_target=True, sitemap_target=True, metadata_suffix="", link_markup=None, redirects=None, alias_file=False, sitemap_alias=False):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / 'audit_content.py').write_text(AUDIT.read_text())
-            (root / 'vercel.json').write_text('{"redirects": []}')
+            (root / 'vercel.json').write_text(json.dumps({'redirects': redirects or []}))
             (root / 'robots.txt').write_text('User-agent: *\nAllow: /\n')
             def page(route, link=''):
                 path = root / route.strip('/') / 'index.html'
@@ -22,7 +23,9 @@ class AuditTests(unittest.TestCase):
             page('/', link_markup if link_markup is not None else f'<a href="{href}">Target</a>')
             if include_target:
                 page('/target/')
-            urls = [SITE + '/'] + ([SITE + '/target/'] if sitemap_target else [])
+            if alias_file:
+                page('/alias/', '<a href="/target/">Hidden link</a>')
+            urls = ([SITE + '/alias/'] if sitemap_alias else []) + [SITE + '/'] + ([SITE + '/target/'] if sitemap_target else [])
             (root / 'sitemap.xml').write_text('<urlset>' + ''.join(f'<url><loc>{url}</loc></url>' for url in urls) + '</urlset>')
             return subprocess.run([sys.executable, str(root / 'audit_content.py')], text=True, capture_output=True)
 
@@ -117,6 +120,56 @@ class AuditTests(unittest.TestCase):
         result = self.audit(SITE + '/target/', True, False)
         self.assertIn('sitemap mismatch: missing 1, extra 0', result.stdout)
         self.assertEqual(result.returncode, 1)
+
+class RedirectAuditTests(unittest.TestCase):
+    audit = AuditTests.audit
+    def test_retained_alias_is_not_an_indexable_page(self):
+        result = self.audit('/alias/', redirects=[{'source': '/alias/', 'destination': '/target/'}], alias_file=True)
+        self.assertEqual(result.returncode, 0, result.stdout)
+
+    def test_redirect_without_html_establishes_owner_reachability(self):
+        result = self.audit('/alias/', redirects=[{'source': '/alias/', 'destination': '/target/'}])
+        self.assertEqual(result.returncode, 0, result.stdout)
+
+    def test_redirect_in_sitemap_still_fails(self):
+        result = self.audit('/alias/', redirects=[{'source': '/alias/', 'destination': '/target/'}], alias_file=True, sitemap_alias=True)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn('sitemap contains redirect source', result.stdout)
+
+    def test_missing_redirect_owner_still_fails(self):
+        result = self.audit('/alias/', include_target=False, sitemap_target=False, redirects=[{'source': '/alias/', 'destination': '/target/'}], alias_file=True)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn('redirect target missing: /target/', result.stdout)
+
+    def test_hidden_alias_links_cannot_make_owner_reachable(self):
+        result = self.audit('/', redirects=[{'source': '/alias/', 'destination': '/target/'}], alias_file=True)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn('page unreachable from homepage links: /target/', result.stdout)
+
+    def test_redirect_cycle_still_fails(self):
+        result = self.audit('/alias/', redirects=[{'source': '/alias/', 'destination': '/target/'}, {'source': '/target/', 'destination': '/alias/'}], alias_file=True, sitemap_target=False)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn('redirect target missing', result.stdout)
+
+class RedirectSitemapGeneratorTests(unittest.TestCase):
+    def test_rebuild_omits_redirect_files_and_preserves_owner_date(self):
+        import importlib.util
+        from unittest.mock import patch
+        from xml.etree import ElementTree as ET
+        spec = importlib.util.spec_from_file_location('redirect_test_sitewide', AUDIT.parent / '_gen/sitewide.py')
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'vercel.json').write_text(json.dumps({'redirects': [{'source': '/blog/alias/', 'destination': '/blog/owner/'}]}))
+            with patch.object(module, 'ROOT', directory), patch.object(module, 'page_urls', return_value=[('/', 'home'), ('/blog/alias/', 'retained-file'), ('/blog/owner/', 'owner')]), patch.object(module, 'lastmod_for', return_value='2026-10-19'):
+                entries = module.build_sitemap()
+            self.assertEqual({entry[0] for entry in entries}, {'/', '/blog/owner/'})
+            rows = ET.parse(root / 'sitemap-blog.xml').getroot()
+            values = [{node.tag.rsplit('}', 1)[-1]: node.text for node in row} for row in rows]
+            self.assertEqual(len(values), 1)
+            self.assertEqual(values[0]['loc'], SITE + '/blog/owner/')
+            self.assertEqual(values[0]['lastmod'], '2026-10-19')
 
 if __name__ == '__main__':
     unittest.main()

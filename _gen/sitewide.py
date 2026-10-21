@@ -6,6 +6,7 @@ page rather than maintained by hand in hundreds of files.
 """
 import datetime
 import glob
+import json
 import os
 import re
 import sys
@@ -286,8 +287,12 @@ def render_urlset(entries):
 
 
 def build_sitemap():
+    with open(os.path.join(ROOT, "vercel.json"), encoding="utf-8") as config_file:
+        redirect_sources = {entry["source"] for entry in json.load(config_file).get("redirects", [])}
     entries = []
     for path, f in page_urls():
+        if path in redirect_sources:
+            continue
         prio, freq = classify(path)
         entries.append((path, lastmod_for(path, f), freq, prio))
 
