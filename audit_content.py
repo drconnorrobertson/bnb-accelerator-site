@@ -46,7 +46,11 @@ def route(path):
     return "/" if relative == Path("index.html") else "/" + relative.parent.as_posix() + "/"
 
 
-pages = {route(path): path for path in ROOT.rglob("index.html") if ".git" not in path.parts and "public" not in path.relative_to(ROOT).parts}
+config = json.loads((SOURCE_ROOT / "vercel.json").read_text(encoding="utf-8"))
+redirects = {entry["source"]: entry["destination"] for entry in config.get("redirects", [])}
+# Vercel handles configured redirects before retained HTML files. Audit the
+# routes actually served as pages, while validating every redirect below.
+pages = {route(path): path for path in ROOT.rglob("index.html") if ".git" not in path.parts and "public" not in path.relative_to(ROOT).parts and route(path) not in redirects}
 titles = Counter()
 descriptions = Counter()
 link_graph = {}
@@ -104,6 +108,7 @@ for url, path in pages.items():
                 ERRORS.append(f"{url}: missing file link {target}")
             continue
         target = target.rstrip("/") + "/"
+        target = redirects.get(target, target)
         link_graph[url].add(target)
         if target not in pages:
             ERRORS.append(f"{url}: missing route link {target}")
@@ -140,6 +145,9 @@ try:
     if len(listed) != len(set(listed)):
         ERRORS.append("sitemap contains duplicate URLs")
     wanted = {SITE + url for url in pages if url not in NONINDEXABLE_ROUTES}
+    for url in listed:
+        if urlparse(url).path in redirects:
+            ERRORS.append(f"sitemap contains redirect source: {url}")
     if set(listed) != wanted:
         ERRORS.append(f"sitemap mismatch: missing {len(wanted - set(listed))}, extra {len(set(listed) - wanted)}")
     for url in listed:
@@ -148,13 +156,10 @@ try:
 except (OSError, ET.ParseError) as exc:
     ERRORS.append(f"invalid sitemap: {exc}")
 
-config = json.loads((SOURCE_ROOT / "vercel.json").read_text(encoding="utf-8"))
 sources = [entry["source"] for entry in config.get("redirects", [])]
 if len(sources) != len(set(sources)):
     ERRORS.append("duplicate redirect sources")
 for entry in config.get("redirects", []):
-    if entry["source"] in pages:
-        ERRORS.append(f"redirect shadows an indexable page: {entry['source']}")
     if config.get("trailingSlash") and not entry["source"].endswith("/"):
         ERRORS.append(f"redirect source lacks trailing slash: {entry['source']}")
     if entry["destination"] not in pages:
