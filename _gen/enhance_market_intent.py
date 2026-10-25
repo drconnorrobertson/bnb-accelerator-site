@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = json.loads((ROOT / '_gen/market_data.json').read_text())
 from gen_local_markets import MARKETS  # noqa: E402
 from gen_city_buying_guides import ROWS as BUYER_GUIDES
+from buyer_intent import PAGES as REVIEWED_PAGES
 
 LOCAL = {m['slug']: m for m in MARKETS}
 GUIDE_SLUGS = {row[0] for row in BUYER_GUIDES}
@@ -57,6 +58,8 @@ def block(slug, name, demand, risk):
 
 count = 0
 for file in sorted((ROOT / 'markets').glob('*/index.html')):
+    if '/markets/' + file.parent.name + '/' in REVIEWED_PAGES:
+        continue  # The reviewed local owner already has distinct analysis and service boundaries.
     slug = file.parent.name
     source = file.read_text()
     if slug in LOCAL:

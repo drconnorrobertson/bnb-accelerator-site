@@ -1,0 +1,12 @@
+{
+  "public_html_files": 2413,
+  "eligible_canonical_routes": 2412,
+  "true_orphans": 0,
+  "homepage_unreachable": 0,
+  "sitemap_only": 0,
+  "excluded_html": 1,
+  "zero_contextual_sources": 1213,
+  "redirect_rules": 277,
+  "sitemap_routes": 2412,
+  "methodology": "Distinct eligible source URLs; self, fragment-only and nofollow anchors excluded. Contextual means main-content paragraph/table anchors outside structural navigation, recognized indexes, related callouts and author blocks. This is a heuristic, not a relevance or content-quality certification."
+}
