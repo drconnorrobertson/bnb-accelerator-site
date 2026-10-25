@@ -4,7 +4,9 @@ import { readdir, mkdir, copyFile, rm, readFile, writeFile, access } from 'node:
 import { dirname, extname, join, relative } from 'node:path';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
+execFileSync('python3', ['test_profile_dates.py'], {stdio: 'inherit'});
 execFileSync('python3', ['scripts/upgrade_tools.py'], {stdio: 'inherit'});
+execFileSync('python3', ['_gen/refresh_buyer_intent.py'], {stdio: 'inherit'});
 execFileSync('python3', ['_gen/expand_review_evidence.py'], {stdio: 'inherit'});
 execFileSync('python3', ['scripts/build_proformas.py'], {stdio: 'inherit'});
 execFileSync('python3', ['scripts/build_tracker_proformas.py'], {stdio: 'inherit'});
@@ -36,7 +38,7 @@ await rm(out, { recursive: true, force: true });
 let copied = 0;
 async function walk(directory) {
  for (const entry of await readdir(directory, { withFileTypes: true })) {
-  if (entry.name.startsWith('.') || entry.name.startsWith('_') || ['public', 'node_modules'].includes(entry.name)) continue;
+  if (entry.name.startsWith('.') || entry.name.startsWith('_') || ['public', 'node_modules', 'docs'].includes(entry.name)) continue;
   const source = join(directory, entry.name);
   if (entry.isDirectory()) { await walk(source); continue; }
   if (!entry.isFile()) continue;
@@ -70,3 +72,4 @@ for (const file of sitemapFiles) {
  }
 }
 console.log(`Public build: ${copied} files; all ${urls} sitemap routes present; internal records excluded.`);
+execFileSync('python3', ['test_profile_dates.py', 'public'], {stdio: 'inherit'});

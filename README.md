@@ -1,5 +1,17 @@
 # BNB Accelerator Site
 
+## Profile structured data dates
+
+`nick-korom/index.html` is the checked-in source for the Nick Korom profile;
+`build_public.mjs` transforms and copies it into public output. No profile
+generator owns this page. Google's [ProfilePage documentation](https://developers.google.com/search/docs/appearance/structured-data/profile-page)
+recommends ISO 8601 `DateTime` values for `dateModified`, reflecting human edits.
+The profile timestamp `2026-10-09T11:35:47Z` comes from its content creation
+commit `fa3c3e91e4d3e32aaaeb3e5a82746a190292b0e9` (author and commit times agree);
+the displayed October 9 update date is unchanged. Do not advance it on builds
+or technical-only changes. Run `python3 test_profile_dates.py` and, after the
+public build, `python3 test_profile_dates.py public` to check the schema dates.
+
 ## October 6 pre-closing keyword expansion
 
 50 existing blog URLs now contain 250 transaction-specific acquisition answers,
@@ -15,6 +27,13 @@ directory and sitemap modification dates. `build_public.mjs` reapplies the conte
 after other transformations so generator rebuilds preserve the acquisition answers.
 Run `node test_preclosing_keywords.mjs` after the public build. Publication dates
 remain unchanged; only substantively edited articles carry the October 6 update.
+For the complete canonical orphan inventory and the contextual-link mapping
+prepared before the next buyer-intent edits, see
+[`docs/internal-linking-plan.md`](docs/internal-linking-plan.md). After building
+the public output, run `python3 _gen/audit_internal_inbound.py --output
+docs/orphan-audit-after` to compare the actual eligible inbound and reachability
+counts. The original `docs/orphan-audit-before` files are the preserved baseline.
+
 
 Static marketing site for **My BnB Accelerator, LLC**, done-for-you short-term rental acquisition for high-income earners.
 
@@ -130,6 +149,17 @@ re-exporting those graphics from the design source with initials, or pulling the
 gallery.
 
 ## Generators
+
+The second reviewed buyer-intent cohort uses `_gen/buyer_intent.py` and
+`_gen/buyer_intent_inputs.py` for eight exact existing URLs. The shared page
+renderer gives these reviewed payloads precedence over older investor, blog
+and local sources; the late market enhancer skips reviewed market routes.
+Refresh only this cohort with `python3 _gen/refresh_buyer_intent.py`, then run
+`python3 _gen/test_buyer_intent.py` alongside the existing checks below. See
+[the second batch's numerical, public-source and link evidence](docs/buyer-intent-batch-two-review.md).
+The scoped refresh preserves the current shell and original publication dates;
+it adds no routes. The internal-link audit defaults to the after directory so
+the delivered before inventory remains intact.
 
 The reviewed buyer cohort uses `_gen/buyer_evidence.py` through the blog and
 pillar renderers. `_gen/case_evidence.py` applies the public-evidence limits to
