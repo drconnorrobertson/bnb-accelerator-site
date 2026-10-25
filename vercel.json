@@ -1536,6 +1536,6 @@
       ]
     }
   ],
-  "buildCommand": "node build_public.mjs && node scripts/instrument-conversions.mjs public preserve-home && node scripts/repair-index-discovery.mjs public && python3 scripts/curate-indexing.py public && node scripts/brand-check.mjs public",
+  "buildCommand": "node scripts/build-release.mjs",
   "outputDirectory": "public"
 }
