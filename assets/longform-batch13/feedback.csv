@@ -1,0 +1,4 @@
+example,task_or_topic,known_observation,question_or_limitation,responsibility_or_scope
+F-201,Entrance location,Guest asks which of two doors is the entrance,Selected fictional observation; not guest prevalence,Does the current message distinguish the correct entrance?
+F-202,Parking instructions,Guest asks whether parking is behind the building,Selected fictional observation; not guest prevalence,Is the actual parking location described accurately?
+F-203,Entrance location,Guest asks about a landmark in the entrance message,Selected fictional observation; not guest prevalence,Is the landmark accurate and useful in context?

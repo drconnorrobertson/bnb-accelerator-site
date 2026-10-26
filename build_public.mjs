@@ -43,7 +43,7 @@ async function walk(directory) {
   if (entry.isDirectory()) { await walk(source); continue; }
   if (!entry.isFile()) continue;
   const path = relative(root, source);
-  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/review-evidence/deal-entry-fields.csv' && path !== 'assets/longform-batch06/connectivity.csv') continue;
+  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/review-evidence/deal-entry-fields.csv' && path !== 'assets/longform-batch06/connectivity.csv' && path !== 'assets/longform-batch13/feedback.csv') continue;
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {
