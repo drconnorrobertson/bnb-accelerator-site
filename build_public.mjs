@@ -43,7 +43,7 @@ async function walk(directory) {
   if (entry.isDirectory()) { await walk(source); continue; }
   if (!entry.isFile()) continue;
   const path = relative(root, source);
-  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/review-evidence/deal-entry-fields.csv') continue;
+  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/review-evidence/deal-entry-fields.csv' && path !== 'assets/longform-batch06/connectivity.csv') continue;
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {
@@ -55,7 +55,7 @@ async function walk(directory) {
  }
 }
 await walk(root);
-for (const required of ['index.html', '404.html', 'apply/index.html', 'assets/main.js', 'assets/style.min.css', ...publicRootFiles]) await access(join(out, required));
+for (const required of ['index.html', '404.html', 'apply/index.html', 'assets/main.js', 'assets/style.min.css', 'assets/longform-batch06/connectivity.csv', ...publicRootFiles]) await access(join(out, required));
 for (const forbidden of ['_gen/client_faq_source.json', '_gen/deals.json', 'README.md', 'build_public.mjs', 'vercel.json']) {
  let exists = true;
  try { await access(join(out, forbidden)); } catch { exists = false; }
