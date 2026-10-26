@@ -1,0 +1,13 @@
+group_id,score_1_count,score_2_count,score_3_count,score_4_count,score_5_count
+A,0,0,1,0,3
+B,0,0,0,9,27
+C,0,0,0,4,6
+D,0,0,0,10,20
+H-period1,0,0,0,0,10
+L-period1,0,0,0,30,0
+H-period2,0,0,0,0,30
+L-period2,0,0,0,10,0
+Uniform,0,0,0,4,0
+Split,0,0,2,0,2
+G,0,0,0,2,2
+J,0,0,0,1,3
