@@ -8,6 +8,7 @@ const steps = [
   ['python3', ['scripts/curate-indexing.py', 'public']],
   [process.execPath, ['scripts/contextual-crosslinks.cjs', 'public']],
   [process.execPath, ['scripts/brand-check.mjs', 'public']],
+  ['python3', ['scripts/check-production-seo.py', 'public']],
 ];
 for (const [command, args] of steps) {
   execFileSync(command, args, { cwd, stdio: 'inherit' });

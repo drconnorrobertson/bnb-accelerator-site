@@ -37,7 +37,9 @@ export function expandPreclosingKeywords(source, path) {
   if (!profile) {
     const groups = [...new Set(profiles.map(p => p.stage))].map(stage => `<h3>${esc(stage)}</h3><ul>${profiles.filter(p => p.stage === stage).map(p => `<li><a href="/blog/${p.slug}/#preclosing-purchase-checks">${esc(p.tasks[0].task[0].toUpperCase() + p.tasks[0].task.slice(1))}</a></li>`).join('')}</ul>`).join('\n');
     const directory = `<!-- preclosing-keywords:start -->\n<section aria-labelledby="preclosing-guide-directory"><div class="wrap wrap-narrow"><h2 id="preclosing-guide-directory">Evaluate an asset before you close</h2><p>Find acquisition checks for the property you are considering: financing, verified income, rental permission, physical condition and offer protection. Use the linked questions to decide what evidence you still need before committing purchase capital.</p>${groups}</div></section>\n<!-- preclosing-keywords:end -->\n`;
-    return html.replace('</main>', directory + '</main>');
+    // Preserve the directory's placement when later editorial sections follow it.
+    const existing = /<!-- preclosing-keywords:start -->[\s\S]*?<!-- preclosing-keywords:end -->\s*/;
+    return existing.test(source) ? source.replace(existing, () => directory) : html.replace('</main>', directory + '</main>');
   }
   const siblings = profiles.filter(p => p.stage === profile.stage && p.slug !== profile.slug);
   const index = profiles.filter(p => p.stage === profile.stage).findIndex(p => p.slug === profile.slug);
