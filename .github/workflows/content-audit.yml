@@ -14,6 +14,7 @@ jobs:
       - run: python3 audit_content.py
       - run: node --check assets/main.js
       - run: node build_public.mjs
+      - run: python3 scripts/check-comparison-intent.py public
       - run: node test_nonhome_seo.mjs
       - run: node test_nonhome_design.mjs
       - run: node test_blog_buyer_intent.mjs

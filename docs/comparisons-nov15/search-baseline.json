@@ -1,0 +1,509 @@
+{
+  "observed_at": "2026-11-15",
+  "source": "Google Search Console browser CSV export",
+  "search_type": "Web (text-based)",
+  "selected_period": "Last 3 months",
+  "chart_first_date": "2026-09-18",
+  "chart_last_date": "2026-11-13",
+  "source_commit": "f0ad654c565bb872ae3f21070cedea9bb7d04ace",
+  "limits": "Export has at most 1000 page and query rows. Missing rows are not proof of zero impressions. Positions are period averages. Query totals omit anonymized searches; unusual prompt-shaped queries are not a basis for demand claims. No projection of ranking or traffic gains.",
+  "pages": [
+    {
+      "Top pages": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-kleer-circle-str-buyer/",
+      "Clicks": "3",
+      "Impressions": "49",
+      "CTR": "6.12%",
+      "Position": "8.88"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives/",
+      "Clicks": "1",
+      "Impressions": "34",
+      "CTR": "2.94%",
+      "Position": "12.82"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-bnb-mastery/",
+      "Clicks": "1",
+      "Impressions": "33",
+      "CTR": "3.03%",
+      "Position": "2.61"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/elk-ridge-investments/",
+      "Clicks": "1",
+      "Impressions": "9",
+      "CTR": "11.11%",
+      "Position": "19.22"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-the-short-term-shop/",
+      "Clicks": "0",
+      "Impressions": "137",
+      "CTR": "0%",
+      "Position": "1.26"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-rent-to-retirement/",
+      "Clicks": "0",
+      "Impressions": "53",
+      "CTR": "0%",
+      "Position": "10.45"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-airdna/",
+      "Clicks": "0",
+      "Impressions": "40",
+      "CTR": "0%",
+      "Position": "71.78"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-str-insights/",
+      "Clicks": "0",
+      "Impressions": "24",
+      "CTR": "0%",
+      "Position": "34.75"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/",
+      "Clicks": "0",
+      "Impressions": "23",
+      "CTR": "0%",
+      "Position": "17.65"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-techvestor/",
+      "Clicks": "0",
+      "Impressions": "20",
+      "CTR": "0%",
+      "Position": "4.65"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-kleer-circle/",
+      "Clicks": "0",
+      "Impressions": "13",
+      "CTR": "0%",
+      "Position": "8.77"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-str-like-the-best/",
+      "Clicks": "0",
+      "Impressions": "13",
+      "CTR": "0%",
+      "Position": "23.62"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-str-search/",
+      "Clicks": "0",
+      "Impressions": "12",
+      "CTR": "0%",
+      "Position": "28.42"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-elk-ridge-investments/",
+      "Clicks": "0",
+      "Impressions": "10",
+      "CTR": "0%",
+      "Position": "5.8"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-michael-elefante/",
+      "Clicks": "0",
+      "Impressions": "10",
+      "CTR": "0%",
+      "Position": "35.5"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/",
+      "Clicks": "0",
+      "Impressions": "8",
+      "CTR": "0%",
+      "Position": "31.88"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-bnb-turnkey/",
+      "Clicks": "0",
+      "Impressions": "7",
+      "CTR": "0%",
+      "Position": "26.71"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-rabbu/",
+      "Clicks": "0",
+      "Impressions": "6",
+      "CTR": "0%",
+      "Position": "43.17"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/michael-elefante/",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "18.4"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/airdna/",
+      "Clicks": "0",
+      "Impressions": "5",
+      "CTR": "0%",
+      "Position": "61.6"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/rabbu/",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "7.25"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-alpha-geek-capital/",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "9.75"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/str-profit-academy/",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "35.75"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-str-profit-academy/",
+      "Clicks": "0",
+      "Impressions": "3",
+      "CTR": "0%",
+      "Position": "6"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/bnb-accelerator-vs-robuilt/",
+      "Clicks": "0",
+      "Impressions": "3",
+      "CTR": "0%",
+      "Position": "6"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alpha-geek-capital/",
+      "Clicks": "0",
+      "Impressions": "3",
+      "CTR": "0%",
+      "Position": "6.67"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-str-university/",
+      "Clicks": "0",
+      "Impressions": "3",
+      "CTR": "0%",
+      "Position": "16.67"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-roofstock/",
+      "Clicks": "0",
+      "Impressions": "3",
+      "CTR": "0%",
+      "Position": "66"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/avery-carl-short-term-shop/",
+      "Clicks": "0",
+      "Impressions": "2",
+      "CTR": "0%",
+      "Position": "1"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/alternatives-to-stayrnr/",
+      "Clicks": "0",
+      "Impressions": "2",
+      "CTR": "0%",
+      "Position": "4"
+    },
+    {
+      "Top pages": "https://www.bnbaccelerator.com/compare/rent-to-retirement/",
+      "Clicks": "0",
+      "Impressions": "2",
+      "CTR": "0%",
+      "Position": "4"
+    }
+  ],
+  "queries": [
+    {
+      "Top queries": "kleer circle",
+      "Clicks": "1",
+      "Impressions": "11",
+      "CTR": "9.09%",
+      "Position": "16"
+    },
+    {
+      "Top queries": "elk ridge investments reviews",
+      "Clicks": "1",
+      "Impressions": "3",
+      "CTR": "33.33%",
+      "Position": "31"
+    },
+    {
+      "Top queries": "the short term shop alternatives",
+      "Clicks": "0",
+      "Impressions": "122",
+      "CTR": "0%",
+      "Position": "1.25"
+    },
+    {
+      "Top queries": "rent to retirement alternatives",
+      "Clicks": "0",
+      "Impressions": "43",
+      "CTR": "0%",
+      "Position": "5.3"
+    },
+    {
+      "Top queries": "bnb mastery alternatives",
+      "Clicks": "0",
+      "Impressions": "27",
+      "CTR": "0%",
+      "Position": "1.89"
+    },
+    {
+      "Top queries": "str insights alternative",
+      "Clicks": "0",
+      "Impressions": "19",
+      "CTR": "0%",
+      "Position": "36.21"
+    },
+    {
+      "Top queries": "techvestor alternatives",
+      "Clicks": "0",
+      "Impressions": "16",
+      "CTR": "0%",
+      "Position": "1.94"
+    },
+    {
+      "Top queries": "airdna alternatives",
+      "Clicks": "0",
+      "Impressions": "12",
+      "CTR": "0%",
+      "Position": "78.83"
+    },
+    {
+      "Top queries": "kleer circle reviews",
+      "Clicks": "0",
+      "Impressions": "9",
+      "CTR": "0%",
+      "Position": "8"
+    },
+    {
+      "Top queries": "elk ridge investments",
+      "Clicks": "0",
+      "Impressions": "6",
+      "CTR": "0%",
+      "Position": "48"
+    },
+    {
+      "Top queries": "a street partners alternatives",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "5.25"
+    },
+    {
+      "Top queries": "rabbu alternative",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "54.25"
+    },
+    {
+      "Top queries": "alternatives to airdna",
+      "Clicks": "0",
+      "Impressions": "4",
+      "CTR": "0%",
+      "Position": "69.25"
+    },
+    {
+      "Top queries": "alternative to str report",
+      "Clicks": "0",
+      "Impressions": "2",
+      "CTR": "0%",
+      "Position": "24"
+    },
+    {
+      "Top queries": "best airdna alternatives",
+      "Clicks": "0",
+      "Impressions": "2",
+      "CTR": "0%",
+      "Position": "65"
+    },
+    {
+      "Top queries": "airdna alternative",
+      "Clicks": "0",
+      "Impressions": "2",
+      "CTR": "0%",
+      "Position": "78.5"
+    },
+    {
+      "Top queries": "bnb mastery \u00b7 james svetec alternatives",
+      "Clicks": "0",
+      "Impressions": "1",
+      "CTR": "0%",
+      "Position": "1"
+    },
+    {
+      "Top queries": "ae tax advisors alternatives",
+      "Clicks": "0",
+      "Impressions": "1",
+      "CTR": "0%",
+      "Position": "8"
+    }
+  ],
+  "publication_dates": {
+    "/compare/alternatives-to-the-short-term-shop/": [
+      "2026-09-27"
+    ],
+    "/compare/avery-carl-short-term-shop/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-bnb-mastery/": [
+      "2026-09-27"
+    ],
+    "/compare/bnb-accelerator-vs-bnb-mastery/": [
+      "2026-08-10"
+    ],
+    "/compare/alternatives-to-techvestor/": [
+      "2026-09-27"
+    ],
+    "/compare/techvestor/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-rent-to-retirement/": [
+      "2026-09-27"
+    ],
+    "/compare/rent-to-retirement/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-kleer-circle/": [
+      "2026-10-01"
+    ],
+    "/blog/bnb-accelerator-vs-kleer-circle-str-buyer/": [
+      "2026-09-25"
+    ],
+    "/compare/alternatives-to-elk-ridge-investments/": [
+      "2026-10-01"
+    ],
+    "/compare/elk-ridge-investments/": [
+      "2026-10-01"
+    ],
+    "/compare/alternatives-to-str-search/": [
+      "2026-10-01"
+    ],
+    "/compare/str-search/": [
+      "2026-10-01"
+    ],
+    "/compare/alternatives-to-str-insights/": [
+      "2026-10-01"
+    ],
+    "/blog/bnb-accelerator-vs-str-insights-buyer/": [
+      "2026-09-25"
+    ],
+    "/compare/alternatives-to-bnb-turnkey/": [
+      "2026-10-01"
+    ],
+    "/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/": [
+      "2026-09-25"
+    ],
+    "/compare/alternatives-to-awning/": [
+      "2026-09-27"
+    ],
+    "/compare/awning/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-rabbu/": [
+      "2026-09-27"
+    ],
+    "/compare/rabbu/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-airdna/": [
+      "2026-09-27"
+    ],
+    "/compare/airdna/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-alpha-geek-capital/": [
+      "2026-09-27"
+    ],
+    "/compare/alpha-geek-capital/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-robuilt/": [
+      "2026-09-27"
+    ],
+    "/compare/bnb-accelerator-vs-robuilt/": [
+      "2026-08-10"
+    ],
+    "/compare/alternatives-to-michael-elefante/": [
+      "2026-10-01"
+    ],
+    "/compare/michael-elefante/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-real-estate-robinsons/": [
+      "2026-10-01"
+    ],
+    "/compare/real-estate-robinsons/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-str-university/": [
+      "2026-10-01"
+    ],
+    "/compare/str-university/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-str-profit-academy/": [
+      "2026-10-01"
+    ],
+    "/compare/str-profit-academy/": [
+      "2026-08-15"
+    ],
+    "/compare/alternatives-to-str-like-the-best/": [
+      "2026-10-18"
+    ],
+    "/blog/bnb-accelerator-vs-str-like-the-best/": [
+      "2026-10-06"
+    ],
+    "/compare/alternatives-to-arrived/": [
+      "2026-10-06"
+    ],
+    "/blog/bnb-accelerator-vs-arrived-str-purchase/": [
+      "2026-10-06"
+    ],
+    "/compare/alternatives-to-ember-flex/": [
+      "2026-10-06"
+    ],
+    "/blog/bnb-accelerator-vs-ember-flex-str-purchase/": [
+      "2026-10-06"
+    ],
+    "/compare/alternatives-to-pacaso/": [
+      "2026-10-06"
+    ],
+    "/compare/bnb-accelerator-vs-pacaso/": [
+      "2026-10-06"
+    ],
+    "/compare/alternatives-to-roofstock/": [
+      "2026-10-06"
+    ],
+    "/blog/bnb-accelerator-vs-roofstock-str-buyer/": [
+      "2026-10-06"
+    ],
+    "/compare/alternatives-to-stayrnr/": [
+      "2026-10-06"
+    ],
+    "/blog/bnb-accelerator-vs-stayrnr-str-buyer/": [
+      "2026-10-06"
+    ],
+    "/compare/": [
+      "2026-10-01"
+    ],
+    "/compare/alternatives/": [
+      "2026-10-01"
+    ]
+  }
+}
