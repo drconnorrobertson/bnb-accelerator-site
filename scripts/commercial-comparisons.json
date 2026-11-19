@@ -1,0 +1,129 @@
+{
+  "brand": "BNB Accelerator",
+  "origin": "https://www.bnbaccelerator.com",
+  "providers": [
+    {
+      "slug": "the-short-term-shop",
+      "name": "The Short Term Shop",
+      "direct": "/compare/avery-carl-short-term-shop/",
+      "url": "https://theshorttermshop.com/how-to-buy-a-short-term-rental/",
+      "fact": "The Short Term Shop provides STR-focused brokerage, buying guidance and operating education.",
+      "heading": "Choose BNB Accelerator when you want coordinated acquisition and launch work",
+      "reason": "Our value is bringing the search, underwriting, negotiation and vendor handoff into a coordinated engagement. If you want that execution support, compare the complete responsibility map with a specialist brokerage proposal.",
+      "points": [
+        "A defined buy box guides property sourcing and underwriting.",
+        "Purchase coordination connects offer, diligence and closing decisions.",
+        "Launch planning connects the acquisition with independent furnishing and operating providers."
+      ],
+      "alternative": "/compare/alternatives-to-the-short-term-shop/"
+    },
+    {
+      "slug": "str-search",
+      "name": "STR Search",
+      "direct": "/compare/str-search/",
+      "url": "https://strsearch.com/",
+      "fact": "STR Search markets property matching, financial analysis and educational resources.",
+      "heading": "Why choose BNB Accelerator for a purchase-to-launch engagement?",
+      "reason": "A matched property is the start of a transaction. BNB Accelerator is a fit when you want sourcing and underwriting connected to negotiation, closing coordination and launch-provider introductions. Ask both firms where the signed scope begins and ends.",
+      "points": [
+        "Connect the target property with a complete acquisition checklist.",
+        "Assign inspection, financing and closing tasks rather than stopping at a match.",
+        "Plan the furnishing and operating handoff before closing."
+      ],
+      "alternative": "/compare/alternatives-to-str-search/"
+    },
+    {
+      "slug": "str-insights",
+      "name": "STR Insights",
+      "direct": "/blog/bnb-accelerator-vs-str-insights-buyer/",
+      "url": "https://www.strinsights.com/introduction",
+      "fact": "STR Insights advertises property finding, analysis, acquisition and setup support.",
+      "heading": "Put BNB Accelerator first when you want a clear owner-controlled acquisition process",
+      "reason": "These services have overlapping scope, so compare the actual people, deliverables and contract. BNB Accelerator’s process is built around a property you approve, with underwriting, negotiation and introductions to independent local providers.",
+      "points": [
+        "Approve the specific purchase and financing commitments.",
+        "Request a deal memo and a clear diligence responsibility map.",
+        "Choose the providers you separately contract with for ongoing operations."
+      ],
+      "alternative": "/compare/alternatives-to-str-insights/"
+    },
+    {
+      "slug": "bnb-mastery",
+      "name": "BNB Mastery",
+      "direct": "/compare/bnb-accelerator-vs-bnb-mastery/",
+      "url": "https://bnbmastery.com/",
+      "fact": "BNB Mastery offers Airbnb courses, co-hosting education and community support.",
+      "heading": "Choose BNB Accelerator when your goal is to buy, not complete a course",
+      "reason": "If you have purchase capital and want help executing an acquisition, our service model matches that goal. BNB Mastery fits a learning objective; BNB Accelerator connects research and transaction coordination to a property you own.",
+      "points": [
+        "Use a sourcing and underwriting engagement rather than a course curriculum.",
+        "Coordinate a real purchase timeline with the transaction participants.",
+        "Retain the property decision and arrange your own operating relationships."
+      ],
+      "alternative": "/compare/alternatives-to-bnb-mastery/"
+    },
+    {
+      "slug": "techvestor",
+      "name": "Techvestor",
+      "direct": "/compare/techvestor/",
+      "url": "https://www.techvestor.com/",
+      "fact": "Techvestor markets passive investment in a portfolio of short-term rentals.",
+      "heading": "Choose BNB Accelerator when direct property ownership is the objective",
+      "reason": "For buyers who want to select and approve a particular property, BNB Accelerator offers a different path from a portfolio investment. You retain asset-level decisions, while hiring help with the acquisition process. Direct ownership also means direct responsibility and risk.",
+      "points": [
+        "Evaluate a specific property against your own buy box.",
+        "Make your own financing and purchase decisions.",
+        "Choose independent service providers and review their contracts."
+      ],
+      "alternative": "/compare/alternatives-to-techvestor/"
+    },
+    {
+      "slug": "rent-to-retirement",
+      "name": "Rent to Retirement",
+      "direct": "/compare/rent-to-retirement/",
+      "url": "https://www.renttoretirement.com/turnkey-properties",
+      "fact": "Rent to Retirement publishes an inventory of turnkey rental properties.",
+      "heading": "Choose BNB Accelerator for an STR-focused search built around your criteria",
+      "reason": "If your objective is a short-term rental rather than a particular turnkey listing, start with your budget, market criteria and intended operating model. BNB Accelerator connects that brief with sourcing, underwriting and purchase coordination.",
+      "points": [
+        "Define the search before committing to available inventory.",
+        "Evaluate the specific STR rules and operating assumptions.",
+        "Coordinate the purchase with furnishing and launch providers."
+      ],
+      "alternative": "/compare/alternatives-to-rent-to-retirement/"
+    },
+    {
+      "slug": "airdna",
+      "name": "AirDNA",
+      "direct": "/compare/airdna/",
+      "url": "https://www.airdna.co/",
+      "fact": "AirDNA offers STR market research, revenue estimates and pricing tools.",
+      "heading": "Choose BNB Accelerator when you want execution support beyond a data tool",
+      "reason": "Research software can inform a purchase; it does not replace every transaction participant. Our service is a fit when you want a team to connect underwriting with property sourcing, negotiation and closing coordination. Data tools can still be used alongside the engagement.",
+      "points": [
+        "Interpret property assumptions within a complete deal review.",
+        "Coordinate the people needed to move from analysis to closing.",
+        "Plan the post-closing handoff before the purchase is complete."
+      ],
+      "alternative": "/compare/alternatives-to-airdna/"
+    },
+    {
+      "slug": "rabbu",
+      "name": "Rabbu",
+      "direct": "/compare/rabbu/",
+      "url": "https://rabbu.com/",
+      "fact": "Rabbu combines an Airbnb marketplace with agent, lending and concierge connections.",
+      "heading": "Why compare BNB Accelerator’s coordinated scope with Rabbu’s service options?",
+      "reason": "Rabbu has services beyond data, so the comparison should be with the actual package you are offered. Choose BNB Accelerator when you want an acquisition brief that ties sourcing, underwriting, negotiation and launch coordination together under a defined scope.",
+      "points": [
+        "Start with the owner’s buy box and available capital.",
+        "Request a documented transaction and diligence handoff.",
+        "Agree how independent launch providers will be introduced and selected."
+      ],
+      "alternative": "/compare/alternatives-to-rabbu/"
+    }
+  ],
+  "services": "/how-it-works/",
+  "cta": "/apply/",
+  "cta_text": "Discuss your acquisition with BNB Accelerator"
+}
