@@ -754,5 +754,749 @@
         "label": "CFPB mortgage-closing checklist"
       }
     ]
+  },
+  {
+    "slug": "cohost-permission-review",
+    "title": "Review Airbnb Co-Host Permissions Against the Work Agreement",
+    "description": "Match platform access to actual responsibilities before a co-host starts managing a rental.",
+    "intro": "Airbnb separates co-host permission levels and explains that platform access does not define the work a co-host has agreed to perform. An owner should review both the account settings and the operating agreement. A person may have the technical ability to change a listing without being authorized by the owner to make every business decision.",
+    "sections": [
+      {
+        "title": "List the work that needs access",
+        "text": "Identify the tasks the co-host will actually perform, such as answering messages, reviewing availability or managing reservations. Separate viewing information from changing it. Use concrete duties rather than a broad title like manager. This makes it easier to identify when the selected platform access is wider or narrower than the intended assignment."
+      },
+      {
+        "title": "Read the current permission descriptions",
+        "text": "Use Airbnb\u2019s official co-host guidance to compare available levels. The current descriptions distinguish full access, calendar and messaging access, and calendar access. Review the actual settings for the listing rather than assuming a longstanding co-host has the level you now intend. Save an internal record of the reviewed role without exposing account secrets."
+      },
+      {
+        "title": "Keep business authority explicit",
+        "text": "Document who may approve price changes, refunds, cancellations and other material decisions. A platform permission is not the same as a spending or contractual authorization. Give the co-host an escalation path for situations outside the agreement. If the platform cannot express every business limit, the operating instructions need to make those limits understandable."
+      },
+      {
+        "title": "Review payout responsibilities separately",
+        "text": "Airbnb identifies actions reserved to the listing owner, including setting or editing co-host payouts. Do not assume changing access automatically changes compensation or financial arrangements. Review those settings and the agreement separately. Record who will resolve a mismatch rather than asking staff to infer payment terms from what appears in their account."
+      },
+      {
+        "title": "Test the necessary workflow",
+        "text": "Have the authorized co-host confirm that they can perform the agreed tasks in the appropriate listing. Use a harmless review of existing information rather than creating a fake booking or changing a live reservation for testing. Record any access gap and resolve it through the owner\u2019s settings and the platform\u2019s authorized process."
+      },
+      {
+        "title": "Plan for departure and replacement",
+        "text": "When a role ends, review access, pending guest conversations and outstanding decisions together. Removing a co-host does not by itself explain who takes over a reservation issue. For example, assign an owner for a pending arrival question before the outgoing person\u2019s access ends. Keep the transition date and remaining tasks in the property\u2019s operating record. A permission review should also identify who can add another team member. When a new person appears in the account, confirm the role and business authorization rather than assuming the existing agreement covered that addition."
+      }
+    ],
+    "checklist": [
+      "Task-by-task access needs",
+      "Current permission setting",
+      "Separate business decision limits",
+      "Payout arrangements reviewed independently",
+      "Departure and pending-work plan"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1534",
+        "label": "Airbnb: What co-hosts can do"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/1632",
+        "label": "Airbnb: changing or removing co-host access"
+      }
+    ]
+  },
+  {
+    "slug": "calendar-sync-verification",
+    "title": "Verify Imported and Exported Rental Calendars",
+    "description": "Check the direction and timing of calendar synchronization before relying on it for availability.",
+    "intro": "Connecting two calendars does not establish that every kind of blocked date moves in both directions. Airbnb\u2019s calendar guidance explains imports, exports and refresh behavior. An owner should document the actual connections and check how they affect availability. Calendar synchronization is an operating tool, not a guarantee that conflicting reservations cannot occur.",
+    "sections": [
+      {
+        "title": "Draw the connection direction",
+        "text": "List each booking channel and calendar source. Record which system exports information and which imports it. A diagram with arrows is more useful than a single note saying calendars are linked. Keep calendar URLs restricted because they may reveal booking-related information, and avoid publishing them in a shared owner report or public troubleshooting screenshot."
+      },
+      {
+        "title": "Identify what the connection carries",
+        "text": "Review the current official instructions for each service. Airbnb notes that some dates blocked on another calendar may not block Airbnb in the same way. Distinguish booked nights from preparation time, advance notice and owner holds. Do not assume the systems share prices, guest details or all operating rules simply because availability is connected."
+      },
+      {
+        "title": "Understand refresh timing",
+        "text": "Airbnb describes periodic imports and a manual refresh option, with limits on repeated requests. Record the latest update shown for each connection when investigating a problem. Do not interpret an old timestamp as proof that the source calendar itself is wrong. The issue could be the connection, the imported information or a timing difference between systems."
+      },
+      {
+        "title": "Use a controlled availability check",
+        "text": "With the owner\u2019s authorization, choose a non-booked future date and an appropriate reversible hold to examine the intended behavior. Follow each platform\u2019s rules and avoid creating fictitious reservations. Record the starting state, change and observed result in each system. Restore the correct availability after the check so the test does not become an unexplained long-term block."
+      },
+      {
+        "title": "Define who handles discrepancies",
+        "text": "Assign one person to investigate conflicting availability and identify the source of truth for the operating team. If a real booking conflict occurs, use the relevant platform\u2019s support process rather than assuming deletion of a calendar entry resolves the reservation. Keep reservation obligations distinct from the visual state of a calendar."
+      },
+      {
+        "title": "Review after replacing software",
+        "text": "A change of manager or channel software can leave obsolete imports active. Record each connection removed or added and check the resulting availability. For example, an old management calendar and a new one may both feed the same listing. Trace the source of a block before clearing it, and retain the final connection map for the next operator. Keep a record of dates intentionally held for the owner or maintenance. If a block disappears, that record helps distinguish a synchronization problem from an authorized release of availability before the team makes another change."
+      }
+    ],
+    "checklist": [
+      "Import/export direction map",
+      "Types of dates carried",
+      "Latest refresh observations",
+      "Authorized reversible test record",
+      "Discrepancy and software-change owner"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/99",
+        "label": "Airbnb: connecting calendars with other websites"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/2683",
+        "label": "Airbnb: connected software and availability troubleshooting"
+      }
+    ]
+  },
+  {
+    "slug": "scheduled-message-exception-review",
+    "title": "Review Scheduled Quick Replies for Reservation Exceptions",
+    "description": "Check message triggers, current reservations and guest-specific changes before trusting automation.",
+    "intro": "Airbnb scheduled quick replies can send messages based on reservation events. Its guidance explains that new schedules can apply to current and upcoming reservations and use listing details. Before changing automation, review which guests may receive it and whether the message remains accurate for their stay. Automation does not remove the need to handle exceptions.",
+    "sections": [
+      {
+        "title": "Inventory the active templates",
+        "text": "List each message, its purpose and the event that triggers it. Distinguish a saved reply sent manually from one scheduled automatically. Identify who maintains the text and which listings use it. A template name alone may not reveal that an older version still contains a previous check-in method or contact instruction."
+      },
+      {
+        "title": "Check the underlying listing details",
+        "text": "Airbnb explains that personalized details draw from listing and reservation information. Review those fields before blaming the template for an incorrect message. Missing or outdated details can produce an incomplete result. Do not put permanent access credentials in a broadly reused template when the property uses reservation-specific codes."
+      },
+      {
+        "title": "Review timing in the listing\u2019s context",
+        "text": "The official guidance describes scheduled replies using the listing\u2019s time zone. Check the selected time against the intended guest moment rather than the operator\u2019s own location. Examine late bookings and changed arrival dates, because an ordinary schedule may not describe how an exception will be handled."
+      },
+      {
+        "title": "Inspect current reservation timelines",
+        "text": "Before enabling or editing a schedule, review its effect on current and upcoming reservations through the platform\u2019s available timeline. Do not assume a change affects only future bookings. Assign someone to handle a message that needs to be skipped, edited or sent manually, and keep the guest\u2019s actual needs separate from the default template."
+      },
+      {
+        "title": "Prevent conflicting team messages",
+        "text": "Decide who may edit templates and who responds when an automated message is wrong. Co-hosts may have access to upcoming replies through the platform\u2019s permissions. Record a meaningful change and notify the team. Otherwise one person may give updated arrival instructions while an older scheduled message sends a conflicting version later."
+      },
+      {
+        "title": "Use a last-minute booking example",
+        "text": "Suppose a guest books shortly before arrival after a standard pre-arrival message time has passed. Check the actual message timeline and platform behavior rather than guessing that the message was delivered. Send accurate information through the appropriate channel if needed, then record the exception so the team does not send another inconsistent set of instructions. Give each material template revision a short internal description, such as a new parking instruction. That makes it easier to identify affected stays and distinguish a content correction from a change to the sending schedule."
+      }
+    ],
+    "checklist": [
+      "Template and trigger inventory",
+      "Current listing details",
+      "Listing-time-zone check",
+      "Reservation timeline review",
+      "Named manual exception owner"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/2897",
+        "label": "Airbnb: scheduled quick replies and exceptions"
+      }
+    ]
+  },
+  {
+    "slug": "instant-book-readiness",
+    "title": "Check Operations Before Enabling Instant Book",
+    "description": "Review availability, requirements and response responsibilities before accepting automatic bookings.",
+    "intro": "Airbnb Instant Book lets eligible guests reserve available dates without waiting for individual host approval. That changes the owner\u2019s operating process. Before enabling it, confirm that the calendar, listing and team can support a booking that becomes confirmed automatically. The setting is not evidence of safety, guaranteed demand or improved investment performance.",
+    "sections": [
+      {
+        "title": "Confirm the listing is operationally current",
+        "text": "Review capacity, amenities, house rules and arrival arrangements. A manual booking conversation may previously have caught an outdated detail; automatic confirmation can expose that gap sooner. Resolve known inaccuracies before enabling the setting. Do not rely on a future message to correct a material listing claim after a guest has booked."
+      },
+      {
+        "title": "Read the current booking controls",
+        "text": "Use Airbnb\u2019s official instructions to understand the settings currently available. Check requirements, notice periods and the check-in window against the actual operation. Avoid copying another host\u2019s configuration without considering staffing and access. Record the chosen settings and the reason they fit this property rather than treating a default as a deliberate decision."
+      },
+      {
+        "title": "Review the calendar connections",
+        "text": "Instant Book applies to available dates, so verify imported calendars and owner blocks. Airbnb acknowledges that connected-calendar conflicts can occur. Determine who notices and escalates a discrepancy. Do not assume automatic confirmation means synchronization is instantaneous or that a calendar integration eliminates the possibility of overlapping reservations."
+      },
+      {
+        "title": "Plan for short-notice arrivals",
+        "text": "Ask whether the team can prepare the property and deliver accurate access information within the permitted booking window. Keep the turnaround and guest-support responsibilities explicit. If readiness depends on contacting a person who may be unavailable, resolve that dependency before offering the dates. A theoretical opening in the calendar is not the same as an operationally ready stay."
+      },
+      {
+        "title": "Understand extensions and changes",
+        "text": "The current Instant Book guidance describes circumstances in which extra nights may receive instant confirmation. Review notifications and the process for handling a change that affects staffing or later commitments. Keep a clear distinction between a guest\u2019s informal request, an alteration awaiting action and a change the platform has actually confirmed."
+      },
+      {
+        "title": "Use a readiness review example",
+        "text": "Suppose an owner opens a weekend but a scheduled service visit makes the property unavailable for part of it. Confirm the correct calendar state before turning on automatic booking. Record the resolved conflict and who will monitor future changes. The aim is a consistent operating setup, not enabling a setting merely because it is promoted as convenient. Review the setup again after staffing or access changes. A setting that worked with an onsite host may need different support when the owner becomes remote or a co-host leaves the operation."
+      }
+    ],
+    "checklist": [
+      "Accurate listing and arrival details",
+      "Current booking controls",
+      "Verified calendar availability",
+      "Short-notice support plan",
+      "Confirmed-change monitoring"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1510",
+        "label": "Airbnb: How Instant Book works"
+      }
+    ]
+  },
+  {
+    "slug": "reservation-alteration-review",
+    "title": "Review a Guest Trip-Change Request Before Accepting",
+    "description": "Compare dates, guest count, price and operating consequences in a proposed reservation change.",
+    "intro": "A message asking for different dates is not the same as an accepted reservation alteration. Airbnb provides a trip-change process that updates the booking when the proposed change is accepted. An operator should review the actual request and its consequences before responding. Keep the platform\u2019s reservation record separate from informal promises in a conversation.",
+    "sections": [
+      {
+        "title": "Identify the exact requested change",
+        "text": "Record which dates, guest details or other reservation terms the guest wants to change. Review the formal request rather than relying on a brief message summary. If the request and conversation differ, clarify that discrepancy through the appropriate channel. Do not assume a proposed extension includes every night or price discussed informally."
+      },
+      {
+        "title": "Check the current reservation alongside the proposal",
+        "text": "Compare the existing and proposed dates, number of guests and displayed financial effect. Look for impacts on later reservations, preparation time and any committed service. An alteration that appears small can change the operating schedule. Keep a copy of the relevant decision information without unnecessarily duplicating sensitive guest records."
+      },
+      {
+        "title": "Use the authorized platform process",
+        "text": "Airbnb\u2019s guidance explains how a host responds to a guest\u2019s trip-change request. Follow the current process and confirm the final reservation status. Do not cancel and recreate a booking merely to approximate a change unless the platform\u2019s appropriate support process directs it. Distinguish acceptance from a message saying the idea sounds workable."
+      },
+      {
+        "title": "Assign the business decision",
+        "text": "Determine who is authorized to accept a change that affects price, dates or workload. A co-host\u2019s technical permissions may be broader than the owner\u2019s agreed approval limits. Escalate material changes using the actual request details. Avoid leaving the guest with conflicting responses from several members of the operating team."
+      },
+      {
+        "title": "Update the downstream work",
+        "text": "After a change is confirmed, notify the people whose tasks depend on the original reservation. Check scheduled messages, cleaning, access timing and any separate approved service. Do not assume every external system updates immediately. Record outstanding adjustments and who will confirm them so a platform change does not become a missed operational handoff."
+      },
+      {
+        "title": "Use an extension example",
+        "text": "Suppose a guest asks for an extra night that overlaps a planned maintenance visit. The operator should resolve availability and authority before accepting. Once the confirmed record changes, reschedule the affected work and check the arrival or departure instructions. If the request is declined, ensure the team continues using the original reservation rather than the discussed alternative. Keep pending requests visible until they are accepted, declined or otherwise resolved. A proposed date should not quietly replace the confirmed date in the cleaner\u2019s calendar while the platform still shows the original booking."
+      }
+    ],
+    "checklist": [
+      "Formal request and current reservation",
+      "Date, guest and financial comparison",
+      "Approval authority",
+      "Confirmed platform status",
+      "Downstream task updates"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1504",
+        "label": "Airbnb: responding to a guest trip-change request"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/1501",
+        "label": "Airbnb: changes close to check-in or during a stay"
+      }
+    ]
+  },
+  {
+    "slug": "booking-for-another-guest-handoff",
+    "title": "Handle a Reservation Booked for Another Guest",
+    "description": "Identify the booker, staying guest and permitted communication roles from the current reservation.",
+    "intro": "Airbnb\u2019s current guidance permits authorized bookings for another person and distinguishes the booker from the staying guest. An operator should use the actual reservation information and current policy rather than assuming every such booking is prohibited. Clear roles matter for arrival communication, changes and support. Do not infer that the payer and the person arriving must always be the same individual.",
+    "sections": [
+      {
+        "title": "Read the reservation roles",
+        "text": "Identify the named staying guest and the person who made the booking using information available through the platform. Keep those roles distinct in the operating notes. A familiar message sender may be arranging the stay rather than occupying the property. If the roles are unclear, ask through the reservation thread or the platform\u2019s support process."
+      },
+      {
+        "title": "Use the current authorization model",
+        "text": "Airbnb describes booking permissions that allow a guest to authorize another person to book for them. Its Airbnb for Work process also supports designated travel arrangements. Consult the relevant current guidance for the reservation rather than applying an outdated blanket rule. Do not attempt to verify authorization by collecting unnecessary private identity documents."
+      },
+      {
+        "title": "Clarify who needs arrival information",
+        "text": "Make sure the staying guest can access the appropriate trip and arrival details through the permitted communication arrangements. Avoid posting door codes publicly or sending them to an unverified new contact. If someone asks to add a participant, use the platform\u2019s authorized invitation or support process and the property\u2019s documented access controls."
+      },
+      {
+        "title": "Respect different reservation permissions",
+        "text": "The official guidance describes different actions available to the booker and guest. Before processing a requested alteration, review who is entitled to make that request under the applicable workflow. Do not treat every participant\u2019s message as authority to change the reservation. Keep disputed or unclear instructions pending while obtaining the proper clarification."
+      },
+      {
+        "title": "Keep guest treatment consistent",
+        "text": "A booking arranged by another person does not justify assumptions about the guest\u2019s reliability or purpose. Apply accurate, consistent house rules and current platform policies. Where a question involves local legal requirements, obtain qualified advice separately. The platform\u2019s booking features should not be presented as a determination of those requirements."
+      },
+      {
+        "title": "Use a family-booking example",
+        "text": "Suppose a relative books an authorized stay for a traveler and participates in the thread. The operator can record the booker and staying guest separately, check that the traveler receives arrival information and direct change requests through the correct workflow. That is more useful than either ignoring the distinction or rejecting the arrangement based on an obsolete rule. A contact handoff should explain who is receiving each message, not merely list several names. If the staying guest changes, resolve that through the platform\u2019s current process before treating an informal introduction as a confirmed reservation update."
+      }
+    ],
+    "checklist": [
+      "Named booker and staying guest",
+      "Applicable authorization workflow",
+      "Secure arrival communication",
+      "Correct change-request authority",
+      "Consistent house-rule application"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/4134",
+        "label": "Airbnb: making a reservation for someone else"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/1277",
+        "label": "Airbnb for Work: booking employee travel"
+      }
+    ]
+  },
+  {
+    "slug": "monthly-stay-payout-record",
+    "title": "Reconcile Monthly-Stay Payout Timing",
+    "description": "Separate a reservation\u2019s total value from scheduled, released and received payments.",
+    "intro": "A long reservation does not mean the entire booking amount reaches the owner at the start. Airbnb explains that monthly-stay payments are collected and released in installments, with timing conditions and possible review. An owner should track the actual payout record rather than treating the reservation total as cash already available.",
+    "sections": [
+      {
+        "title": "Record the reservation and payment periods",
+        "text": "Identify the reservation dates and the periods covered by expected installments. Keep the total booking value separate from the payment schedule. If the stay changes, revisit both records. A calendar showing occupied nights does not establish which amounts have been collected, released or received in the owner\u2019s bank account."
+      },
+      {
+        "title": "Review the current timing guidance",
+        "text": "Read Airbnb\u2019s current monthly-stay payout information and the account\u2019s actual payout status. The guidance describes circumstances that affect the initial payment and processing. Avoid replacing those details with a universal assumption about the day money arrives. Ask the platform about an unclear status rather than interpreting a delay as either guaranteed payment or permanent loss."
+      },
+      {
+        "title": "Distinguish three cash statuses",
+        "text": "Use separate labels for expected, released and received amounts. A payout shown as released can still depend on the payment method\u2019s processing time. Reconcile receipt with the relevant bank record through the owner\u2019s bookkeeping process. Keep fees, adjustments and co-host arrangements visible rather than forcing the numbers to match a headline reservation total."
+      },
+      {
+        "title": "Track alterations and interrupted stays",
+        "text": "A date change, refund or other reservation adjustment can affect the original schedule. Review the updated platform record and retain the explanation for a difference. Do not continue using an old spreadsheet schedule after the booking changes. Assign someone to tell the owner which expected receipts require further clarification."
+      },
+      {
+        "title": "Keep operating commitments separate",
+        "text": "Plan cleaning, utilities and other operating obligations with an accurate understanding of available funds. This guide is not a financing recommendation or income guarantee. If a cash shortfall is possible, discuss it with the appropriate financial adviser and owner. Do not promise vendors a payment date based solely on a projected installment."
+      },
+      {
+        "title": "Use a two-period example",
+        "text": "Suppose a reservation spans more than one payout period. The owner\u2019s record should show the amount expected for each period and later mark its actual status. If the second amount changes, link the adjustment to the platform record. This makes the timing understandable without mistaking a multi-month reservation for an upfront cash receipt. Include the currency and payment method in the reconciliation where they affect the comparison. A mismatch should be explained from the records, not corrected by overwriting the platform amount with the bank deposit."
+      }
+    ],
+    "checklist": [
+      "Reservation and installment periods",
+      "Current platform payout status",
+      "Expected/released/received separated",
+      "Adjustments linked to evidence",
+      "Owner cash questions assigned"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/285",
+        "label": "Airbnb: payouts for monthly stays"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/459",
+        "label": "Airbnb: understanding payout differences"
+      }
+    ]
+  },
+  {
+    "slug": "unlisting-future-reservations",
+    "title": "Plan Unlisting Without Overlooking Future Reservations",
+    "description": "Separate listing visibility, blocked dates and existing booking obligations.",
+    "intro": "Airbnb distinguishes unlisting a property from removing it permanently and from handling existing reservations. An owner pausing operations should review those functions separately. A listing becoming unavailable to new searches does not by itself resolve every future booking or external calendar. Prepare a closure or pause plan using the actual reservation record.",
+    "sections": [
+      {
+        "title": "Choose the intended operating change",
+        "text": "State whether the owner wants a temporary pause, a future stop date or a permanent withdrawal. Identify the dates affected and why. A vague instruction to take the property offline can produce the wrong action if the operator assumes it means canceling existing guests. Confirm the decision before changing a live listing."
+      },
+      {
+        "title": "Review the existing booking list",
+        "text": "List confirmed reservations, pending requests and relevant changes through authorized records. Assign someone to review obligations and platform requirements before acting. Do not assume that unlisting automatically cancels bookings. Keep guest communication and any cancellation decision separate from the technical visibility setting."
+      },
+      {
+        "title": "Use the current unlisting instructions",
+        "text": "Airbnb\u2019s guidance explains the relationship between unlisting, removal and upcoming reservations. It also warns that choosing future unlisting dates does not necessarily block those dates immediately. Review the current process and check the calendar state. Do not rely on the intended stop date without verifying what guests can currently book."
+      },
+      {
+        "title": "Check other channels and systems",
+        "text": "If the property appears on additional booking sites or a direct website, review those separately. A change in one platform may not remove availability everywhere. Identify calendar connections and any software responsible for distribution. Keep a channel-by-channel status record so the owner can see which changes are confirmed and which are still pending."
+      },
+      {
+        "title": "Communicate the operational handoff",
+        "text": "Tell the relevant cleaners, service providers and guest-support team which existing stays remain active. Confirm who handles messages during the pause and who reviews a reopening decision. Disabling a listing should not leave booked guests without an assigned contact. Preserve necessary records through the appropriate retention process."
+      },
+      {
+        "title": "Use a renovation-pause example",
+        "text": "Suppose the owner plans to stop new stays after a certain date but already has later reservations. First review those bookings and the applicable options with the platform and advisers. Then implement the approved visibility and calendar changes. Do not treat a successful unlisting click as evidence that every guest and service commitment has been resolved. Keep a reopening decision separate from the original pause. Before making dates available again, review whether access, staffing and listing information remain current instead of simply reversing a visibility setting from an earlier operating arrangement."
+      }
+    ],
+    "checklist": [
+      "Defined pause or removal decision",
+      "Existing reservation review",
+      "Verified calendar and visibility state",
+      "Other-channel changes",
+      "Guest-support responsibility during pause"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/476",
+        "label": "Airbnb: unlisting or removing a listing"
+      }
+    ]
+  },
+  {
+    "slug": "identity-verification-limits",
+    "title": "Understand Airbnb Identity Verification Limits",
+    "description": "Use verification status accurately without treating it as a guarantee or collecting unnecessary documents.",
+    "intro": "Airbnb describes identity verification as a process intended to support trust, while stating that it does not guarantee a person is who they say they are. A host should understand what the platform reports and avoid overstating it. Verification status is one part of the reservation workflow, not an independent promise of guest behavior or a reason to create unnecessary identity files.",
+    "sections": [
+      {
+        "title": "Read what the status actually means",
+        "text": "Use Airbnb\u2019s current identity-verification guidance rather than an informal description from another host. Distinguish a platform status from information independently confirmed by the operator. Do not describe a verified account as a background-clearance certificate or a guarantee that no problem will occur. Keep the limitation visible in staff training."
+      },
+      {
+        "title": "Check the reservation through authorized tools",
+        "text": "Review the booking in the platform and use its support route for unclear status or suspicious activity. Avoid opening unfamiliar links supplied by someone claiming to complete verification. Staff should know where the actual reservation record is located and whom to contact when the account information appears inconsistent."
+      },
+      {
+        "title": "Avoid unnecessary collection",
+        "text": "Do not gather identity documents simply because a platform status feels incomplete. Consider applicable platform rules and local requirements with qualified advice before requesting additional information. Where information is legitimately required, use an approved collection and retention process. A shared folder of guest identity images can create risks without resolving the underlying question."
+      },
+      {
+        "title": "Keep guest treatment consistent",
+        "text": "Use clear, non-discriminatory procedures for reservation concerns. A person\u2019s name, accent or background is not evidence that a verified account is false. Escalate specific inconsistencies or conduct through appropriate channels. Train staff to describe the observed issue neutrally rather than using assumptions about a guest to justify extra demands."
+      },
+      {
+        "title": "Maintain an exception route",
+        "text": "Identify who can contact platform support and make decisions when a genuine concern arises near arrival. Record the relevant facts and response without copying more personal data than needed. Do not ask an onsite vendor to invent a verification procedure at the door. The operating team needs an established process that respects both safety concerns and applicable rules."
+      },
+      {
+        "title": "Use a status-mismatch example",
+        "text": "Suppose a message claims that a reservation is confirmed but the platform shows a pending step. Staff should rely on the actual record and seek clarification through support. They should not treat a forwarded screenshot as equivalent evidence or accuse the guest based on the mismatch alone. Document the resolution and the information the team can properly use. Use neutral internal labels such as awaiting platform clarification. Avoid speculative fraud labels in shared notes when the available evidence establishes only that a verification step or reservation status remains unresolved."
+      }
+    ],
+    "checklist": [
+      "Current platform definition",
+      "Actual reservation status",
+      "Approved information-collection process",
+      "Consistent exception handling",
+      "Minimal factual resolution record"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1237",
+        "label": "Airbnb: verifying identity and process limitations"
+      }
+    ]
+  },
+  {
+    "slug": "review-pressure-response",
+    "title": "Preserve and Escalate Review-Pressure Evidence",
+    "description": "Separate a service complaint from attempts to trade or threaten reviews for compensation.",
+    "intro": "Airbnb\u2019s Reviews Policy prohibits pressure and manipulation involving reviews, including certain threats and exchanges for things of value. A host should address a genuine service issue on its merits while keeping review-related conduct separate. This guide helps organize evidence and a neutral escalation; it does not determine that a policy violation occurred or promise review removal.",
+    "sections": [
+      {
+        "title": "Separate the complaint from the review statement",
+        "text": "Record what happened during the stay and what the guest requested. Then identify the exact review-related communication, if any. A negative opinion is not automatically an improper threat. Avoid collapsing a legitimate maintenance concern and a disputed review statement into one accusation. The platform needs the relevant context to assess the issue."
+      },
+      {
+        "title": "Read the current policy categories",
+        "text": "Use Airbnb\u2019s official Reviews Policy to understand the types of conduct it addresses. Do not rely on a forum claim that a particular phrase always guarantees removal. Policy decisions depend on the actual record. Identify the provision that may be relevant and explain the connection factually, without editing messages to make them appear more decisive."
+      },
+      {
+        "title": "Preserve the original communication",
+        "text": "Keep messages in the platform where possible and note the reservation and timing. If supporting material exists elsewhere, provide it only through the appropriate process. Do not publish guest details in a public complaint or ask other people to retaliate. A clear chronological record is more useful than an emotional account assembled from partial screenshots."
+      },
+      {
+        "title": "Respond without bargaining over the review",
+        "text": "Handle refunds or service remedies through the proper channels and applicable policy. Do not offer compensation conditioned on a positive review or threaten consequences for a negative one. If a response is needed, keep it focused on the actual issue and next step. Staff should know who may approve compensation and who escalates review concerns."
+      },
+      {
+        "title": "Use the reporting process accurately",
+        "text": "Submit the relevant evidence through Airbnb\u2019s current review-dispute or support route. Distinguish a requested review from the platform\u2019s eventual decision. Keep any case reference and explanation, and avoid repeatedly changing the story to seek a preferred result. A review that remains visible is not evidence that the underlying complaint has been independently verified."
+      },
+      {
+        "title": "Learn from the operating issue separately",
+        "text": "Suppose a guest reports a real appliance failure and also makes a questionable review demand. The owner should still examine the appliance response and any appropriate remedy. Track that improvement separately from the policy dispute. This keeps the business from ignoring a valid service lesson merely because the review interaction was difficult. Limit access to dispute records to the people handling the issue. Team members who only need to correct the operating problem generally do not need a copied archive of the guest\u2019s full conversation."
+      }
+    ],
+    "checklist": [
+      "Service issue and review conduct separated",
+      "Current policy provision",
+      "Original messages and chronology",
+      "No review-for-compensation bargain",
+      "Reporting outcome and operational follow-up"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/2673",
+        "label": "Airbnb: authentic and trustworthy reviews policy"
+      }
+    ]
+  },
+  {
+    "slug": "disruptive-event-reservation-file",
+    "title": "Prepare a Reservation File for a Major Disruptive Event",
+    "description": "Organize location, timing and official information before asking the platform about affected stays.",
+    "intro": "Airbnb\u2019s Major Disruptive Events Policy addresses certain large-scale events affecting reservations. The platform assesses whether the policy applies. An operator should preserve accurate facts and use current official information rather than promising a refund or fee waiver from a news headline. Immediate safety instructions should come from the relevant public authorities.",
+    "sections": [
+      {
+        "title": "Identify the affected reservation facts",
+        "text": "Record the listing location, stay dates and the specific event being discussed. Separate an event at the destination from an unrelated disruption elsewhere. Use the actual reservation rather than a general description of regional bookings. Keep guest information limited to what the support request needs and avoid posting reservation details publicly."
+      },
+      {
+        "title": "Collect authoritative event information",
+        "text": "Save relevant official notices with their issue dates and geographic scope. A social post or news summary may omit important boundaries or updates. Follow the appropriate authority for current safety directions. This article does not assess whether travel or occupancy is safe and should not replace an evacuation order or other official instruction."
+      },
+      {
+        "title": "Read the current platform policy",
+        "text": "Review Airbnb\u2019s Major Disruptive Events Policy and its stated scope before making representations to guests. Different cancellation or refund processes may apply to different circumstances. Do not infer that every weather event qualifies or that a policy used for an earlier incident automatically applies to the current one."
+      },
+      {
+        "title": "Contact support with a concise record",
+        "text": "Explain the reservation, event and unresolved question, and provide relevant official evidence through the approved channel. Ask what process applies rather than declaring the outcome yourself. Preserve the response and case reference. A support enquiry is not the same as an approved cancellation or confirmed adjustment."
+      },
+      {
+        "title": "Coordinate guest and vendor communications",
+        "text": "Give guests accurate status updates without promising a result that has not been confirmed. Keep the operating team informed about affected arrivals and service work. Avoid sending a normal arrival message when the stay is under active review. Assign one person to consolidate updates so multiple staff members do not provide conflicting statements."
+      },
+      {
+        "title": "Reconcile the outcome after a decision",
+        "text": "When the platform confirms an action, check the reservation, payout and downstream tasks against that decision. Record any remaining discrepancy for follow-up. For example, a canceled arrival may still have a scheduled cleaner or automated message. Resolve those practical items while keeping the official policy decision distinct from the owner\u2019s internal operating changes. Give every update an observation time so the team can distinguish a superseded notice from the current instruction. When official boundaries change, revisit affected reservations instead of extending an earlier conclusion to a larger area."
+      }
+    ],
+    "checklist": [
+      "Reservation location and dates",
+      "Dated official notices",
+      "Current policy scope",
+      "Support decision and reference",
+      "Guest, payout and vendor updates"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1320",
+        "label": "Airbnb Major Disruptive Events Policy"
+      }
+    ]
+  },
+  {
+    "slug": "service-animal-request-workflow",
+    "title": "Handle Service-Animal Questions Under Current Policy",
+    "description": "Prepare a respectful escalation process that distinguishes platform policy from legal advice.",
+    "intro": "Airbnb publishes a policy for Service Animals and Emotional Support Animals, including limits on host questions and different treatment from pets. Local legal requirements can also matter. Staff should follow the current policy and obtain qualified advice where necessary, rather than applying an ordinary pet rule or requesting medical information as a default.",
+    "sections": [
+      {
+        "title": "Start with the correct policy",
+        "text": "Read the official animal policy for the actual type of booking and jurisdiction. Do not assume the property\u2019s no-pets rule settles a service-animal question. The policy distinguishes categories and describes circumstances that require platform review. Keep a current source link in the operating procedure instead of relying on a copied checklist from a prior year."
+      },
+      {
+        "title": "Limit questions appropriately",
+        "text": "Airbnb identifies the questions hosts may ask and states that hosts cannot request a description of the disability, medical documentation or a demonstration of the animal\u2019s task. Train staff to use the current permitted process. Do not improvise an intrusive questionnaire or ask a cleaner or onsite vendor to make a medical judgment."
+      },
+      {
+        "title": "Keep charges and conditions under review",
+        "text": "Do not automatically apply a pet fee, extra cleaning charge or restrictive pet condition to an animal covered by the policy. Consult the current rules and seek support for a genuine uncertainty. Keep the ordinary pet workflow separate so an automated charge does not contradict the required treatment."
+      },
+      {
+        "title": "Escalate concerns through the proper channel",
+        "text": "If there is a specific issue, describe observable facts and contact the platform or appropriate adviser. Do not assume that the operator can grant itself an exemption. Airbnb describes a process for limited exemptions. Any local legal question should be reviewed separately; a platform response is not a legal opinion covering every jurisdiction."
+      },
+      {
+        "title": "Communicate consistently with the team",
+        "text": "Give only the information staff need to carry out the approved arrangement. Protect the guest\u2019s privacy and avoid spreading medical or disability details. Ensure automated pet messages do not create a conflicting demand. Assign one responsible contact so the guest does not receive different instructions from multiple people."
+      },
+      {
+        "title": "Use an ordinary booking example",
+        "text": "Suppose a guest mentions a service animal after receiving a standard no-pets message. The operator should review the relevant policy, correct any conflicting automated instruction and use only permitted questions if needed. Record the practical arrangement without demanding a diagnosis. This supports a respectful response while leaving genuine legal or policy uncertainties to the proper professionals. If a staff member receives an unfamiliar request, provide a way to pause and seek guidance promptly. The escalation should prevent an improvised refusal or fee demand while still allowing genuine operational questions to be resolved."
+      }
+    ],
+    "checklist": [
+      "Current policy and jurisdiction checked",
+      "Permitted questions only",
+      "Pet workflow kept separate",
+      "Proper support or legal escalation",
+      "Privacy-conscious team instructions"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/4239",
+        "label": "Airbnb Service Animals and Emotional Support Animals Policy"
+      }
+    ]
+  },
+  {
+    "slug": "checkout-request-policy-review",
+    "title": "Review Checkout Rules and Guest-Visible Requests",
+    "description": "Check that departure instructions are reasonable, current and consistent across the listing and messages.",
+    "intro": "Airbnb\u2019s current checkout guidance emphasizes simple departures and reasonable requests disclosed to guests. A host should review the actual listing and automated messages, especially after policy or staffing changes. The objective is not to shift routine cleaning onto guests. It is to make necessary departure information clear and consistent with current platform requirements.",
+    "sections": [
+      {
+        "title": "Collect every version of the instructions",
+        "text": "Find the listing\u2019s rules and requests, scheduled replies, printed notes and house manual. Record who maintains each one. A corrected listing does not automatically remove a contradictory sign inside the property. Review the instructions as a complete guest experience rather than treating each document as an unrelated piece of copy."
+      },
+      {
+        "title": "Use the latest official guidance",
+        "text": "Airbnb\u2019s checkout guidance explains where rules and requests appear and stresses reasonable expectations. Read the current policy before retaining tasks from an older template. Do not assume that a request is acceptable merely because it was used before or appears in another host\u2019s listing. Keep platform rules separate from any applicable local requirement."
+      },
+      {
+        "title": "Distinguish necessary information from cleaning work",
+        "text": "Identify instructions such as how to secure the property or return keys, then examine other tasks carefully against the current policy. Keep professional cleaning responsibilities with the appropriate team. If a proposed request is uncertain, ask the platform rather than presenting it as mandatory through a printed notice after the guest arrives."
+      },
+      {
+        "title": "Check what the guest can see",
+        "text": "Preview the listing and relevant trip information using the platform\u2019s supported tools. Confirm that the published version matches the intended procedure. Do not rely only on the editing screen. If staff send a separate message, make sure it does not introduce unexpected requirements that were absent from the guest-visible information."
+      },
+      {
+        "title": "Update the turnover plan",
+        "text": "When a guest task is removed or changed, tell the cleaner or co-host how the operational work is now assigned. A policy-compliant message can still leave a gap if staff assume the guest completed a task. Record the revised responsibility and timing so the next turnover does not depend on an outdated expectation."
+      },
+      {
+        "title": "Use a template-change example",
+        "text": "Suppose an old departure message includes several cleaning chores while the current listing contains only a simple lock-up instruction. Review the older message, remove conflicts and assign the actual cleaning work. Check the next scheduled departure reply before it sends. This resolves the inconsistency without promising that a particular instruction guarantees better reviews. Have the receiving cleaner confirm the revised task allocation. A change in guest wording is incomplete if the vendor\u2019s written checklist still assumes the guest will perform a task the owner has removed."
+      }
+    ],
+    "checklist": [
+      "All printed and digital versions",
+      "Current platform guidance",
+      "Reasonable guest-facing requests",
+      "Preview of published information",
+      "Cleaning responsibility updated"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/resources/hosting-homes/a/a-clear-and-simple-checkout-584",
+        "label": "Airbnb: clear and simple checkout guidance"
+      }
+    ]
+  },
+  {
+    "slug": "arrival-guide-guest-view-check",
+    "title": "Check the Arrival Guide From a Guest\u2019s Perspective",
+    "description": "Review photos, directions and access information before relying on a digital arrival guide.",
+    "intro": "Airbnb\u2019s arrival guidance recommends complete directions and clear steps for getting inside, with a preview of what guests see. An operator should check the actual guest-facing sequence after property or access changes. A guide that looks complete in the editor may still be confusing when someone arrives tired, after dark or with limited connectivity.",
+    "sections": [
+      {
+        "title": "Map the arrival sequence",
+        "text": "List the steps from finding the property to entering the correct door. Separate parking, gates, shared entrances and the final access method. Use the actual property arrangement rather than a generic welcome template. Identify where a guest could reasonably choose the wrong route or be unsure which instruction applies."
+      },
+      {
+        "title": "Review the guest-facing presentation",
+        "text": "Use the platform\u2019s supported preview to inspect the arrival information. Check the order and wording of the steps and whether the photos show the relevant detail. Do not expose private access information in a public listing merely to make it easier to find. Keep public directions and reservation-specific access details appropriately separated."
+      },
+      {
+        "title": "Use current photographs",
+        "text": "Replace images after meaningful changes to signs, locks, doors or parking arrangements. A close-up can explain a mechanism, while a wider photograph helps identify its location. Avoid relying on a decorative image that omits the landmark the instruction references. Record who will maintain the photographs when work is completed at the property."
+      },
+      {
+        "title": "Plan an approved backup contact",
+        "text": "Decide how a guest can reach assistance if the digital guide is unavailable or a step fails. Keep the contact current and assign coverage for the actual arrival window. Do not make a guest depend on an unmonitored personal number. Any alternate access arrangement should follow the property\u2019s security process and the relevant provider\u2019s instructions."
+      },
+      {
+        "title": "Recheck linked automation",
+        "text": "Review scheduled messages and house-manual references after editing the guide. A correct guide can be undermined by a message that describes the previous lock or sends an obsolete link. Assign one owner for the update and ask the team to confirm its related documents. Keep secret credentials out of general revision notes."
+      },
+      {
+        "title": "Use a changed-gate example",
+        "text": "Suppose a contractor replaces a gate latch shortly before a reservation. Update the relevant photograph and instruction, preview the sequence and notify the support team. Confirm any scheduled message still points guests to the correct method. This checks the practical handoff without creating a fake reservation or claiming every guest will arrive without difficulty. Keep the latest approved arrival version identifiable to everyone providing support. That helps a remote co-host describe the same entrance the guest sees instead of relying on a remembered layout from an earlier visit."
+      }
+    ],
+    "checklist": [
+      "Step-by-step arrival sequence",
+      "Supported guest-view preview",
+      "Current location and mechanism photos",
+      "Staffed backup contact",
+      "Related messages checked for conflicts"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/resources/hosting-homes/a/make-check-in-and-checkout-easy-662",
+        "label": "Airbnb: arrival-guide and check-in guidance"
+      }
+    ]
+  },
+  {
+    "slug": "lost-item-return-record",
+    "title": "Document a Guest\u2019s Lost-Item Return",
+    "description": "Coordinate identification, shipping approval and a minimal record when an item is left behind.",
+    "intro": "Airbnb advises guests who leave an item behind to message the host and explains that shipping costs can be handled through its Resolution Center. An operator still needs a practical process for identifying the item and agreeing on a return. Keep the guest\u2019s privacy and the relevant local requirements in mind; this guide does not establish a legal retention period.",
+    "sections": [
+      {
+        "title": "Record a found item carefully",
+        "text": "Note where and when the item was found and which authorized person secured it. Describe it neutrally without opening private contents unnecessarily. Do not post identifying photographs publicly to find an owner. If the item presents a safety concern or appears subject to special handling rules, use the appropriate professional or authority rather than an ordinary return procedure."
+      },
+      {
+        "title": "Confirm the correct guest",
+        "text": "Use the reservation\u2019s established communication channel and enough descriptive detail to resolve ownership. Avoid sharing one guest\u2019s belongings or information with another. A new email claiming an item should not automatically receive personal details from the booking. When uncertainty remains, ask the platform for guidance through the authorized support process."
+      },
+      {
+        "title": "Agree on a return method",
+        "text": "Discuss the guest\u2019s preferred method and confirm whether the operator can reasonably arrange it. Record any address through an appropriate private channel and check it before shipping. Do not promise a delivery date that depends on a carrier. Fragile, regulated or high-value items may need additional advice or a different handling arrangement."
+      },
+      {
+        "title": "Handle costs through an approved process",
+        "text": "Airbnb\u2019s guidance identifies the Resolution Center as a way for a guest to cover shipping. Use the current platform process where applicable and agree on the amount before incurring a disputed charge. Keep the carrier receipt and avoid adding unexplained fees. A payment request is separate from confirmation that an item has been dispatched."
+      },
+      {
+        "title": "Keep the record proportionate",
+        "text": "Retain only the information needed for the return and any applicable record obligations. Limit access to the guest\u2019s address and item description. Record tracking information and the status without copying unrelated booking documents into a general lost-property spreadsheet. Ask qualified advisers about retention duties if the situation requires a legal answer."
+      },
+      {
+        "title": "Use a simple return example",
+        "text": "Suppose a guest reports a jacket after checkout. The operator matches the description through the reservation thread, confirms shipping details and cost, and retains the dispatch receipt. The record should show pending, dispatched or otherwise unresolved status accurately. Do not mark an item delivered merely because it has been placed in a package. If shipping cannot be arranged as proposed, tell the guest clearly and discuss an alternative through the established channel. Keep the item\u2019s status accurate while the parties decide what should happen next."
+      }
+    ],
+    "checklist": [
+      "Minimal found-item record",
+      "Ownership confirmed through trusted channel",
+      "Agreed return method and address",
+      "Approved shipping-cost arrangement",
+      "Dispatch evidence and limited retention"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1421",
+        "label": "Airbnb: items left behind after a stay"
+      }
+    ]
+  },
+  {
+    "slug": "superhost-assessment-record",
+    "title": "Review Superhost Assessment Metrics Without Predicting an Award",
+    "description": "Keep the assessment period, listing role and underlying metrics clear in owner reporting.",
+    "intro": "Airbnb publishes criteria and assessment timing for Superhost status. An owner can use those rules to understand the platform\u2019s reported performance, but should not treat an internal calculation as a promised award or a guarantee of future bookings. Keep the relevant period and account role clear when reviewing the numbers.",
+    "sections": [
+      {
+        "title": "Start with the current official criteria",
+        "text": "Read Airbnb\u2019s Superhost requirements rather than relying on a remembered threshold or an old training slide. The policy describes account standing, activity and performance measures. Record the source and review date in the owner\u2019s report. If a criterion changes, keep the older calculation labeled rather than silently comparing unlike requirements."
+      },
+      {
+        "title": "Confirm which role is being measured",
+        "text": "The official guidance distinguishes the listing owner\u2019s eligibility from co-host activity. A manager may work on several properties without all of them counting toward the same assessment. Identify the account and relevant listing role before aggregating results. Do not attribute a badge to a property purchase simply because the seller\u2019s account previously displayed it."
+      },
+      {
+        "title": "Use the correct assessment window",
+        "text": "Airbnb describes periodic assessment using a defined performance period. Match the owner report to that period rather than using an arbitrary calendar month. Reviews and reservation events may be recognized at different times. Keep the platform\u2019s displayed result as the reference when a locally calculated figure differs."
+      },
+      {
+        "title": "Trace metrics to their source",
+        "text": "Record the platform\u2019s reported activity, response, cancellation and rating information with the date viewed. If a result appears wrong, gather the relevant records and ask support through the proper channel. Do not remove inconvenient observations from a spreadsheet to create a preferred average. A small sample should remain visible as a small sample."
+      },
+      {
+        "title": "Separate improvement work from status claims",
+        "text": "The team can use a shortfall to identify an operating issue, such as an unassigned message or a preventable calendar conflict. Assign that work without promising it will produce a badge by a particular date. Avoid pressuring guests for favorable reviews or taking actions that conflict with the platform\u2019s review policy."
+      },
+      {
+        "title": "Use a review-period example",
+        "text": "Suppose an owner reaches an internally calculated target after an assessment has ended. Keep the current platform status and the newer performance observation separate. Review the next applicable period and any other criteria. This gives the owner useful context without incorrectly announcing that status has already been earned or that it will increase revenue. Explain any difference between the owner\u2019s report and the platform dashboard before drawing conclusions. The useful question is often which period or events each figure includes, rather than which display appears more favorable."
+      }
+    ],
+    "checklist": [
+      "Current official criteria and date",
+      "Correct account and listing role",
+      "Defined assessment period",
+      "Source metrics and observation counts",
+      "Improvement tasks without award promises"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/829",
+        "label": "Airbnb: Superhost requirements and assessment timing"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/828",
+        "label": "Airbnb: scope of Superhost status"
+      }
+    ]
   }
 ]
