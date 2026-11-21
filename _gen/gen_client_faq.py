@@ -118,6 +118,8 @@ def render():
     cards = []
     for i, (group, topic) in enumerate(zip(groups, topics)):
         slug, title, intro, related = topic
+        related_url = related["url"] if isinstance(related, dict) else related
+        related_label = related["label"] if isinstance(related, dict) else "Read the related guide"
         path = HUB + slug + "/"
         items = []
         entities = []
@@ -132,7 +134,7 @@ def render():
             entities.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": html.unescape(re.sub("<[^>]+>", " ", answer))}})
         prior = topics[max(0, i-1)]
         following = topics[min(len(topics)-1, i+1)]
-        body = hero(title, intro, "Client FAQ") + f'<section><div class="wrap wrap-narrow"><p class="lead">Practical answers for buying and launching a short-term rental with BNB Accelerator. Updated September 30, 2026.</p><nav class="faq-nav" aria-label="Related resources"><a href="{HUB}">All client questions</a><a href="{related}">Read the related guide</a><a href="/apply/">Book a Call</a></nav>' + "".join(items) + f'<nav class="faq-nav" aria-label="More FAQ topics"><a href="{HUB}{prior[0]}/">{tpl.esc(prior[1])}</a><a href="{HUB}{following[0]}/">{tpl.esc(following[1])}</a></nav></div></section>' + tpl.cta_band("Plan your next STR purchase", "Discuss your budget, target markets and timeline with our acquisition team.")
+        body = hero(title, intro, "Client FAQ") + f'<section><div class="wrap wrap-narrow"><p class="lead">Practical answers for buying and launching a short-term rental with BNB Accelerator. Updated September 30, 2026.</p><nav class="faq-nav" aria-label="Related resources"><a href="{HUB}">All client questions</a><a href="{tpl.esc(related_url)}">{tpl.esc(related_label)}</a><a href="/apply/">Book a Call</a></nav>' + "".join(items) + f'<nav class="faq-nav" aria-label="More FAQ topics"><a href="{HUB}{prior[0]}/">{tpl.esc(prior[1])}</a><a href="{HUB}{following[0]}/">{tpl.esc(following[1])}</a></nav></div></section>' + tpl.cta_band("Plan your next STR purchase", "Discuss your budget, target markets and timeline with our acquisition team.")
         schema = tpl.graph(json.dumps({"@type": "FAQPage", "url": tpl.SITE + path, "dateModified": DATE, "mainEntity": entities}), tpl.breadcrumb_schema([("Home", "/"), ("FAQ", "/faq/"), ("Client questions", HUB), (title, path)]))
         write(path, title, intro, body, schema)
         cards.append(f'<a class="card" href="{path}"><div class="card-body"><span class="eyebrow">{len(entities)} questions</span><h2>{tpl.esc(title)}</h2><p>{tpl.esc(intro)}</p><span class="card-link">Read answers</span></div></a>')
