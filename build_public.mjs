@@ -56,6 +56,16 @@ async function walk(directory) {
  }
 }
 await walk(root);
+// This small, above-the-fold stylesheet should not cost the homepage a second
+// blocking CSS request. Keep the asset as the single source for all its rules.
+const homePath = join(out, 'index.html');
+const homeHtml = await readFile(homePath, 'utf8');
+const shortcutCss = await readFile(join(out, 'assets/buyer-discovery.v1.css'), 'utf8');
+const shortcutLink = /<link\b[^>]*href="\/assets\/buyer-discovery\.v1\.css(?:\?[^"]*)?"[^>]*>/g;
+assert.equal([...homeHtml.matchAll(shortcutLink)].length, 1, 'Homepage needs one shortcut stylesheet');
+assert.ok(!/<\/style/i.test(shortcutCss), 'Shortcut CSS must not close its style element');
+await writeFile(homePath, homeHtml.replace(shortcutLink, () => '<style id="buyer-discovery-critical">' + shortcutCss + '</style>'));
+
 for (const required of ['index.html', '404.html', 'apply/index.html', 'assets/main.js', 'assets/operating-calculators.mjs', 'assets/style.min.css', 'assets/longform-batch06/connectivity.csv', 'assets/longform-batch22/listing.csv', 'assets/longform-batch44/fictional-rating-counts.csv', ...publicRootFiles]) await access(join(out, required));
 for (const forbidden of ['_gen/client_faq_source.json', '_gen/deals.json', 'README.md', 'build_public.mjs', 'vercel.json']) {
  let exists = true;
