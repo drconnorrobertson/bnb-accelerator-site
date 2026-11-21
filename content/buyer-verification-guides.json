@@ -1,0 +1,758 @@
+[
+  {
+    "slug": "furnished-rental-product-recall-audit",
+    "title": "Audit Product Recalls Before Opening a Furnished Rental",
+    "description": "Build a model-level recall record for furnishings and equipment included in a rental purchase.",
+    "intro": "A furnished property purchase can include products whose safety history is separate from the building inspection. The U.S. Consumer Product Safety Commission publishes recalls and product safety warnings. Use those official records to check identified products and follow the instructions for an actual match. A property inventory alone does not establish that every included item is suitable for guest use.",
+    "sections": [
+      {
+        "title": "Identify products precisely",
+        "text": "Record the manufacturer, model and identifying information available on each item. Prioritize accurate identification over a long list of vague descriptions such as small heater or white dresser. Photograph labels where accessible without unsafe disassembly. If a label is missing, flag the uncertainty and ask the seller or responsible professional for documentation instead of assigning a likely model from appearance."
+      },
+      {
+        "title": "Search the official record",
+        "text": "Use the CPSC recall and warning database and the manufacturer\u2019s official information. Compare the product details and any specified identifiers carefully. Similar-looking products may be covered by different notices. Save the record and the date of the check. An absence of search results should be recorded as a search outcome, not a universal statement that the product is safe."
+      },
+      {
+        "title": "Treat a match as a separate task",
+        "text": "Read the specific notice and follow its instructions, including any direction to stop using a product. Do not invent a repair or assume an earlier owner completed the remedy. Record who contacts the recall administrator, what evidence is requested and how the outcome will be documented. Keep affected products unavailable as directed while the issue is unresolved."
+      },
+      {
+        "title": "Connect the result to the purchase inventory",
+        "text": "Mark whether each product is included in the sale, excluded, replaced or awaiting clarification. Ask the transaction adviser how any unresolved item should be addressed in the purchase documents. Do not describe a seller credit as proof that a safety issue is resolved. The financial arrangement and the product\u2019s actual status belong on separate lines."
+      },
+      {
+        "title": "Recheck substitutions before launch",
+        "text": "A replacement can introduce a new model and a different history. Add its identifying information to the record instead of simply marking the old entry complete. Ask the installer to retain manuals and supplied components. If the product requires professional installation or inspection, obtain that service through a qualified provider rather than treating the recall check as a substitute."
+      },
+      {
+        "title": "Use a small inventory example",
+        "text": "Suppose a furnished unit includes two portable appliances with different model numbers. One search identifies a relevant notice and the other does not. Keep two separate outcomes and the source for each. The opening checklist should show the unresolved remedy explicitly. This prevents a single broad statement that appliances were checked from obscuring a product-specific problem."
+      }
+    ],
+    "checklist": [
+      "Manufacturer and model identifiers",
+      "Official notice and search date",
+      "Match or uncertainty documented",
+      "Remedy responsibility and evidence",
+      "Replacement-product recheck"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cpsc.gov/Recalls",
+        "label": "CPSC recalls and product safety warnings"
+      }
+    ]
+  },
+  {
+    "slug": "smart-device-ownership-transfer",
+    "title": "Transfer Smart-Home Devices Without Retaining Seller Access",
+    "description": "Organize connected-device accounts, resets and verification during a rental property handoff.",
+    "intro": "Connected locks, thermostats, cameras and other devices may remain linked to the seller\u2019s accounts after a property changes hands. The Federal Trade Commission advises buyers and sellers of smart homes to address device access and personal information. Plan the handoff before relying on the devices for guest operations. A working screen or app does not prove that former administrators have lost access.",
+    "sections": [
+      {
+        "title": "Create a connected-device register",
+        "text": "List each device, its model, location and associated service. Identify who currently administers it and whether a separate hub, subscription or network connection is involved. Distinguish equipment included in the purchase from equipment a vendor owns. Ask for manuals and current configuration information without asking anyone to share a personal account password."
+      },
+      {
+        "title": "Follow manufacturer-specific transfer instructions",
+        "text": "Use the manufacturer\u2019s current official process to understand account removal, reset and setup. The FTC recommends removing administrative access and personal information and resetting devices during a smart-home sale. The correct sequence can depend on the product. Do not assume changing the Wi-Fi password alone transfers ownership or that a reset preserves every feature needed for operation."
+      },
+      {
+        "title": "Protect continuity while access changes",
+        "text": "Identify devices essential to physical entry or other critical functions and coordinate the transition with the responsible provider. Arrange an appropriate backup before changing the configuration. This guide is not an instruction to disable a safety system or perform electrical work. Qualified professionals should handle work that requires their expertise and confirm the equipment\u2019s operating condition."
+      },
+      {
+        "title": "Establish buyer-controlled administration",
+        "text": "Create the appropriate buyer or business account through the provider\u2019s process. Assign administrator and staff roles deliberately. Keep recovery methods under authorized control and document who receives alerts. Avoid a setup that depends permanently on a departing employee\u2019s personal email or phone. Ask the provider to resolve uncertain ownership rather than bypassing account protections."
+      },
+      {
+        "title": "Verify the result with a defined test",
+        "text": "After the authorized transition, test the functions the operating team actually needs. Confirm the visible account and access list where the service supports it. Record the date, tester and unresolved issues. A successful unlock test proves that one action worked; it does not by itself establish that remote access, notifications and recovery settings are all correct."
+      },
+      {
+        "title": "Keep changes traceable",
+        "text": "For an illustrative property with a thermostat and smart lock, maintain separate device records because the services may use different transfer processes. Retain confirmation of seller removal and buyer setup where available. If a device is replaced, close the old record and create a new one. The goal is a maintainable access history, not a collection of shared credentials."
+      }
+    ],
+    "checklist": [
+      "Device and service register",
+      "Official reset and transfer instructions",
+      "Continuity and backup plan",
+      "Buyer-controlled administration",
+      "Dated function and access verification"
+    ],
+    "sources": [
+      {
+        "url": "https://consumer.ftc.gov/consumer-alerts/2018/01/buying-or-selling-smart-home-read",
+        "label": "FTC guidance for buying or selling a smart home"
+      }
+    ]
+  },
+  {
+    "slug": "rental-accessibility-feature-evidence",
+    "title": "Document Rental Accessibility Features Before Listing Them",
+    "description": "Connect accessibility descriptions with current measurements, photographs and platform requirements.",
+    "intro": "A guest may rely on a specific accessibility feature when deciding whether a property will work for them. Airbnb provides guidance on photographing such features and reviewing the submitted evidence. Use precise descriptions supported by the actual property. A general label such as accessible is not a substitute for documenting individual features or obtaining professional advice about applicable requirements.",
+    "sections": [
+      {
+        "title": "Separate observed features from assumptions",
+        "text": "List the features the owner intends to describe and identify what is actually known. A step-free entrance, doorway width and bathroom feature are different questions. Do not infer one from another. Ask a qualified assessor or relevant professional when a feature requires technical evaluation, and avoid claiming that an informal checklist establishes legal compliance."
+      },
+      {
+        "title": "Use the platform\u2019s current definitions",
+        "text": "Review the official requirements for each feature on the platform where it will be listed. Airbnb\u2019s resource explains photographs and, for certain features, visible measurements. Follow the current instructions rather than reusing a screenshot from an older listing. A feature accepted on one service may not use the same description or evidence standard on another."
+      },
+      {
+        "title": "Prepare clear measurement records",
+        "text": "Where a measurement is relevant, record what was measured, the method and who completed it. The platform\u2019s photo guidance includes showing the feature and readable measurement evidence. Keep the original image with its context. Do not crop away a relevant obstruction or choose an angle that makes the usable space appear larger than it is."
+      },
+      {
+        "title": "Check the complete route",
+        "text": "A feature inside the property may be unusable if the route to it differs from the description. Document the relevant approach and connections without pretending that this replaces a professional accessibility review. Identify temporary obstacles, furnishings or seasonal conditions that affect what a guest will encounter. Keep those uncertainties out of an unqualified promotional claim."
+      },
+      {
+        "title": "Review changes after furnishing",
+        "text": "New furniture, thresholds, locks or bathroom accessories can affect an earlier description. Assign a person to review feature records after material changes. Update the listing through the platform\u2019s process and retain the supporting photographs. If a guest asks a specific question that the records do not answer, obtain an accurate response rather than extrapolating from a broad label."
+      },
+      {
+        "title": "Use a concrete guest-question example",
+        "text": "Suppose a guest asks about a doorway shown in the listing. The operating team should be able to locate the current measurement and photograph, explain what they show and identify any limits. If the layout has changed, the old image should not be treated as current evidence. This approach supports an informed guest decision without promising suitability for every person."
+      }
+    ],
+    "checklist": [
+      "Feature-specific definitions",
+      "Current measurements and context",
+      "Clear original photographs",
+      "Route and obstruction review",
+      "Recheck after property changes"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/resources/hosting-homes/a/how-to-photograph-accessibility-features-30",
+        "label": "Airbnb guidance for accessibility feature photographs"
+      },
+      {
+        "url": "https://www.airbnb.com/accessibility",
+        "label": "Airbnb accessibility feature information"
+      }
+    ]
+  },
+  {
+    "slug": "rental-guest-data-handoff",
+    "title": "Limit Guest Data During a Rental Business Handoff",
+    "description": "Map guest information, access and retention before transferring operational records.",
+    "intro": "A rental handoff may involve booking messages, contact details, identification records and vendor systems. The FTC\u2019s business guidance emphasizes understanding what personal information is held and limiting unnecessary retention. Start by mapping the data and the reason for keeping it. A property purchase should not become an indiscriminate transfer of every file a prior operator collected.",
+    "sections": [
+      {
+        "title": "Inventory systems rather than copying folders",
+        "text": "List the booking services, email accounts, software and physical records containing guest information. Identify what each system holds, who can access it and why it is used. Separate public listing content from personal information. A shared drive label such as guest records is too broad to explain whether its contents are necessary for the buyer\u2019s actual responsibilities."
+      },
+      {
+        "title": "Clarify the authorized purpose",
+        "text": "Ask the transaction and privacy advisers which records may need to transfer and on what basis. Platform terms, contracts and applicable rules can affect that answer. Do not assume a seller can hand over personal account exports merely because the property is being sold. Keep operational continuity needs distinct from a desire to retain data for future marketing."
+      },
+      {
+        "title": "Minimize the information involved",
+        "text": "The FTC recommends keeping only what the business needs and protecting what it retains. Consider whether an operational task can be completed with less information or an anonymized summary. Avoid placing identity documents, payment details or unrelated guest messages in a general handoff packet. Use the approved system and access controls for any information that must be retained."
+      },
+      {
+        "title": "Assign access deliberately",
+        "text": "Name the roles that need the records and remove access when those roles end. Confirm that a departing manager or vendor does not retain an unnecessary shared link. Do not circulate credentials to accomplish a transfer. Ask the service provider about its authorized account and data-transfer process, and record the result without storing secrets in the checklist itself."
+      },
+      {
+        "title": "Set a retention and disposal process",
+        "text": "Document why a category of information is retained and who reviews that need. Consult qualified advisers about required records and relevant retention obligations. When disposal is appropriate, use a method suited to the medium and sensitivity. Simply moving files to an archive does not establish that access or unnecessary retention has been addressed."
+      },
+      {
+        "title": "Test one practical handoff",
+        "text": "Suppose a maintenance issue requires a guest\u2019s access time but not their full identity record. Provide the minimum information needed through the agreed channel. Keep the broader booking record restricted. After the handoff, verify who can still see the shared item and close access when the task ends. Repeat that reasoning across the actual operating workflows."
+      }
+    ],
+    "checklist": [
+      "Systems and data categories",
+      "Authorized transfer purpose",
+      "Minimum information for each task",
+      "Role-based access and removal",
+      "Retention and disposal responsibility"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0",
+        "label": "FTC protecting personal information: a guide for business"
+      }
+    ]
+  },
+  {
+    "slug": "direct-booking-domain-transfer",
+    "title": "Verify a Direct-Booking Domain Before a Property Handoff",
+    "description": "Separate domain registration, website hosting and booking-system access in an acquisition.",
+    "intro": "A direct-booking web address may be part of a rental business transaction, but its registration and services require their own handoff. ICANN publishes guidance on domain transfers and registrant changes. Confirm what the agreement actually includes and use the registrar\u2019s authorized process. Access to the website editor alone does not establish control of the domain.",
+    "sections": [
+      {
+        "title": "List the assets separately",
+        "text": "Record the domain name, registrar, website host, booking software and business email service. Identify who controls each item and whether it is included in the transaction. These services may be held by different parties. A seller\u2019s ability to edit a webpage is not evidence that the seller can authorize changes to every linked account or service."
+      },
+      {
+        "title": "Verify the authorized registrant process",
+        "text": "Ask the current registrar which process applies to the proposed ownership change. ICANN distinguishes changes to registrant information from transfers between registrars. Timing restrictions and verification steps may matter. Use current official instructions for the actual domain rather than a generic promise that a transfer can be completed on closing day."
+      },
+      {
+        "title": "Plan service continuity",
+        "text": "Identify what depends on the domain, including booking links, email and integrations. Agree on the order of changes with qualified providers so a registration change does not unintentionally interrupt essential services. Preserve the existing configuration through authorized channels. Do not publish account credentials in the transaction checklist or rely on one person\u2019s private email for recovery."
+      },
+      {
+        "title": "Clarify rights beyond the address",
+        "text": "A domain transfer does not by itself establish rights to website text, photographs, software subscriptions or a trademark. List those questions separately and obtain appropriate advice. If a marketing agency built the site, confirm the relevant agreement and authorized handoff. Do not treat a working copy of the site as proof that all content may be reused."
+      },
+      {
+        "title": "Confirm control after completion",
+        "text": "Verify the new authorized contact and recovery arrangements through the registrar. Check that the website and intended email services function after the coordinated changes. Record the outcome and any pending task. A transfer request marked submitted is not the same as a completed transfer, and a completed domain transfer does not confirm that every connected service has changed ownership."
+      },
+      {
+        "title": "Use a simple acquisition example",
+        "text": "Suppose a property brand uses one domain but its booking system belongs to a manager. The buyer should record two separate decisions: whether the domain transfers and whether the booking service continues under a new agreement. Keep each confirmation with its source. That prevents the visible web address from masking a service relationship that is still unresolved."
+      }
+    ],
+    "checklist": [
+      "Domain and registrar identity",
+      "Included assets and authority",
+      "Current transfer requirements",
+      "Hosting, booking and email dependencies",
+      "Completion and recovery confirmation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.icann.org/resources/pages/ownership-2013-05-03-en",
+        "label": "ICANN guidance on changes of registrant"
+      },
+      {
+        "url": "https://www.icann.org/en/contracted-parties/accredited-registrars/resources/domain-name-transfers/policy",
+        "label": "ICANN transfer policy"
+      }
+    ]
+  },
+  {
+    "slug": "rental-business-phone-number-handoff",
+    "title": "Plan a Rental Business Phone-Number Handoff",
+    "description": "Verify account authority and service continuity before relying on a seller\u2019s guest-contact number.",
+    "intro": "A published guest-contact number can be valuable to an operating rental, but it is connected to a carrier account and communication workflow. FCC guidance explains number porting when changing providers. A business sale adds separate questions about authorization and account ownership. Resolve those questions with the provider instead of assuming the number transfers with the property.",
+    "sections": [
+      {
+        "title": "Identify what the number supports",
+        "text": "List the places where the number appears and the functions it serves. It may receive guest calls, text messages, booking enquiries or account recovery codes. Distinguish the phone number from the device, carrier service and any forwarding system. A handset delivered at closing does not prove that the buyer controls all of those functions."
+      },
+      {
+        "title": "Confirm the authorized account holder",
+        "text": "Ask the seller and carrier who may authorize the proposed change. If the service is held personally or by a management company, describe the intended transaction accurately. Do not impersonate the account holder or share private verification codes informally. Use the provider\u2019s process to determine whether a change of responsibility, number port or new account is appropriate."
+      },
+      {
+        "title": "Coordinate the provider sequence",
+        "text": "The FCC\u2019s porting guidance cautions against terminating existing service before initiating the move to a new provider. Follow the current instructions for the specific service and obtain realistic timing from the providers. Avoid promising seamless transfer merely because number portability exists. Complex business arrangements and account issues can require additional coordination."
+      },
+      {
+        "title": "Check messages and integrations separately",
+        "text": "Ask what happens to voicemail, saved messages, text history and forwarding settings. Those features may not move with the number. Identify privacy and retention questions before exporting guest communications. Keep unrelated personal records out of the handoff and use authorized processes for any business information that must remain available."
+      },
+      {
+        "title": "Test the operational result",
+        "text": "After the agreed change, test incoming and outgoing calls, messages and the intended escalation path. Confirm that the receiving team can manage the service and recovery methods. Record any failed function and its owner. A call reaching one phone does not establish that voicemail, after-hours routing and linked guest systems are all configured correctly."
+      },
+      {
+        "title": "Prepare for a number that cannot transfer",
+        "text": "Suppose the seller\u2019s number is shared with another business and cannot be included as proposed. The buyer needs an approved transition plan for listings, booking confirmations and vendor contacts. Track where the replacement number has been updated. Keep that issue visible before closing rather than discovering it when the first guest calls the former operator. Review automated templates as well as public listing pages when confirming the updated contact information."
+      }
+    ],
+    "checklist": [
+      "Number and linked functions",
+      "Authorized account holder",
+      "Provider-approved transition sequence",
+      "Message and privacy questions",
+      "Call, text and routing test record"
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/GOVPUB-CC-PURL-gpo252700/pdf/GOVPUB-CC-PURL-gpo252700.pdf",
+        "label": "FCC consumer guide to keeping a number when changing providers"
+      }
+    ]
+  },
+  {
+    "slug": "direct-booking-payment-account-transition",
+    "title": "Review a Direct-Booking Payment Account Before Buying",
+    "description": "Separate property ownership from payment-provider approval and account responsibilities.",
+    "intro": "A rental business may accept direct-booking payments through an account held by a seller or manager. That account has its own provider rules and responsibilities. Stripe\u2019s official guidance for a business sale directs the existing owner to contact support about required updates. Do not assume that control of a website or bank account makes a payment account transferable.",
+    "sections": [
+      {
+        "title": "Map the current payment arrangement",
+        "text": "Identify the payment provider, named business and person responsible for the account. Record which booking channels use it and what services are connected. Separate the property sale from any proposed business-entity transfer. The provider needs the real transaction facts; an informal agreement between buyer and seller does not itself establish the required account treatment."
+      },
+      {
+        "title": "Use the provider\u2019s authorized review",
+        "text": "For Stripe, the published business-sale guidance says to contact support to confirm the information updates required. Follow the current instructions for the actual provider and arrangement. Do not change identity details as a workaround or send sensitive ownership information through an unapproved email route. Keep the provider\u2019s response with the transaction record."
+      },
+      {
+        "title": "Identify existing obligations",
+        "text": "Prepare a list of unsettled payments, refunds, disputes and other account items relevant to the handoff. Ask the provider and transaction advisers how responsibility should be handled. Avoid treating the visible balance as a complete liability statement. The buyer and seller should understand which obligations remain open and which documents support the agreed allocation."
+      },
+      {
+        "title": "Plan the booking-system changes",
+        "text": "Determine which website, reservation tool and integrations rely on the payment account. Coordinate any approved replacement or ownership change before directing guests to use it. Test through the provider\u2019s permitted methods. Do not process a real guest payment simply to experiment with a configuration or assume that a successful connection proves underwriting or account approval."
+      },
+      {
+        "title": "Document authorized access",
+        "text": "Assign account roles and recovery methods through the provider\u2019s controls. Remove access that is no longer appropriate after the transition. Keep financial and guest data available only to authorized people. A shared login obscures who performed an action and can make later account questions harder to resolve."
+      },
+      {
+        "title": "Use a clear transition example",
+        "text": "Suppose a seller\u2019s booking page takes deposits through an account also used for another property. The parties should not presume that the account can be handed over wholesale. Obtain the provider\u2019s process, separate the relevant obligations and plan the buyer\u2019s approved arrangement. Keep booking continuity and responsibility for old transactions as distinct workstreams. Assign one person to reconcile their status before the next booking payment is expected."
+      }
+    ],
+    "checklist": [
+      "Provider and legal account holder",
+      "Actual transaction structure",
+      "Open payments, refunds and disputes",
+      "Approved integration transition",
+      "Authorized access and written provider response"
+    ],
+    "sources": [
+      {
+        "url": "https://support.stripe.com/questions/transfer-a-stripe-account-to-a-different-entity-due-to-a-business-sale-or-acquisition",
+        "label": "Stripe account treatment for a business sale or acquisition"
+      }
+    ]
+  },
+  {
+    "slug": "pre-1978-rental-lead-disclosure-file",
+    "title": "Review the Lead-Disclosure File for a Pre-1978 Purchase",
+    "description": "Organize disclosure documents and qualified follow-up before a rental-property acquisition.",
+    "intro": "EPA explains federal lead-based paint disclosure requirements for many sales and leases of housing built before 1978. A buyer should ask qualified transaction advisers how the rules apply to the actual property and transaction. This guide organizes records and questions. It does not determine an exemption, establish a property\u2019s condition or replace a lead inspection or risk assessment.",
+    "sections": [
+      {
+        "title": "Establish the property facts",
+        "text": "Record the property and available construction-date evidence. If the date is uncertain, make that uncertainty explicit. Do not infer age from appearance or treat a listing description as a complete legal record. Give the transaction adviser the facts needed to determine which disclosure requirements and any state or local rules need attention."
+      },
+      {
+        "title": "Collect the complete disclosure packet",
+        "text": "Use EPA\u2019s current guidance and the adviser\u2019s instructions to identify the relevant documents. Preserve the disclosure, provided reports and acknowledgements together. A checked box or brief summary should not replace an attached report. If a referenced document is missing, keep it as an open item rather than assuming it contained no material information."
+      },
+      {
+        "title": "Distinguish knowledge from testing",
+        "text": "A statement that the seller has no knowledge of lead-based paint is different from a qualified finding about the property. Read what the document actually says and ask an appropriate professional to explain its limits. Do not restate an absence of records as a clean inspection. Keep any testing proposal separate from the disclosure itself."
+      },
+      {
+        "title": "Discuss timing before decisions become fixed",
+        "text": "Ask the transaction adviser which review or inspection opportunities apply and how they fit the contract. Do not copy a generic deadline into the transaction calendar without confirmation. If professional assessment is proposed, identify its scope, limitations and delivery date. The buyer needs the result in time to make the relevant decision."
+      },
+      {
+        "title": "Keep renovation questions separate",
+        "text": "Disclosure at purchase and the requirements for later renovation are different subjects. If work is planned, give the qualified contractor the property information and ask which rules apply to that scope. Do not interpret receipt of a disclosure as permission to disturb painted surfaces. Preserve the relevant professional advice with the renovation file."
+      },
+      {
+        "title": "Use an evidence-based example",
+        "text": "Suppose a disclosure refers to an earlier assessment but only the signature page is supplied. Request the complete report and let the appropriate adviser review it before summarizing the issue. Record any unresolved question and the next responsible person. A complete file allows the buyer to understand the available evidence without claiming the documents prove more than they do. Keep the full attachments available to the professional reviewing the transaction."
+      }
+    ],
+    "checklist": [
+      "Construction-date evidence",
+      "Complete disclosure and attachments",
+      "Testing versus seller knowledge distinguished",
+      "Confirmed review timing",
+      "Separate renovation questions"
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+        "label": "EPA real estate disclosures about potential lead hazards"
+      },
+      {
+        "url": "https://www.epa.gov/lead/interpretive-guidance-real-estate-community-requirements-disclosure-information-concerning",
+        "label": "EPA interpretive guidance for real estate disclosures"
+      }
+    ]
+  },
+  {
+    "slug": "home-energy-score-buyer-review",
+    "title": "Read a Home Energy Score in an STR Purchase File",
+    "description": "Use a home energy report as one input without treating it as a rental utility forecast.",
+    "intro": "The U.S. Department of Energy\u2019s Home Energy Score provides a report on a home\u2019s energy characteristics and potential improvements. A buyer can use that report to ask better questions about a property. It should not be treated as a forecast of short-term-rental utility bills or as a substitute for a building inspection and actual operating records.",
+    "sections": [
+      {
+        "title": "Confirm the report belongs to this property",
+        "text": "Record the address, assessment date and the assessor information shown in the report. Ask for the complete document rather than a screenshot of the score. Check whether material changes occurred afterward. A report prepared before an equipment replacement or renovation may not describe the property now being offered."
+      },
+      {
+        "title": "Read the assumptions and supporting facts",
+        "text": "The DOE describes the report as including the score, facts about the home and recommendations. Review those parts together. Identify which building characteristics support the assessment and ask the assessor about unclear items. A single number is difficult to use responsibly when its basis and limitations have been separated from the report."
+      },
+      {
+        "title": "Separate standardized estimates from guest use",
+        "text": "A rental\u2019s actual energy use depends on its operating pattern, equipment and other circumstances. Do not substitute a standardized report estimate for documented bills without explaining the difference. Keep actual costs and the report in separate columns. Ask a qualified professional to help interpret material discrepancies instead of adjusting numbers until they match."
+      },
+      {
+        "title": "Review recommendations as proposed work",
+        "text": "An improvement recommendation is not a contractor quote or a guaranteed saving. Obtain scope and cost information from qualified providers where work is being considered. Ask about dependencies, installation requirements and whether further evaluation is needed. Keep potential savings as an assumption until there is an appropriate basis for using them in a decision."
+      },
+      {
+        "title": "Connect the findings to buyer priorities",
+        "text": "Identify which questions matter before purchase and which can be addressed later. For example, a concern about equipment condition may need inspection, while a possible efficiency upgrade may remain optional. Do not let a favorable score obscure another material issue. The report should inform the broader diligence file rather than determine the purchase on its own."
+      },
+      {
+        "title": "Use a comparison example carefully",
+        "text": "Suppose two properties have different scores but very different sizes and amenity packages. Comparing only the score could mislead the buyer about likely bills. Review the underlying facts, available utility records and proposed operations. Record what can reasonably be compared and what remains uncertain before using the report to prioritize additional professional questions. Preserve the source report so another reviewer can follow the same reasoning and identify changed assumptions."
+      }
+    ],
+    "checklist": [
+      "Complete report and assessment date",
+      "Supporting building facts",
+      "Actual utility records kept separate",
+      "Qualified scope for proposed improvements",
+      "Documented limits of any comparison"
+    ],
+    "sources": [
+      {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/home-energy-score",
+        "label": "DOE Home Energy Score"
+      },
+      {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/home-energy-score/home-energy-score-about-score",
+        "label": "DOE explanation of the Home Energy Score report"
+      }
+    ]
+  },
+  {
+    "slug": "fema-map-letter-purchase-file",
+    "title": "Review a FEMA Map Letter in a Property Purchase",
+    "description": "Match a flood-map amendment or revision letter to the property and current transaction.",
+    "intro": "A seller may supply a FEMA letter concerning a property\u2019s flood-map designation. That document should be read with the map, property description and professional advice relevant to the transaction. A map letter is not a guarantee that flooding cannot occur. Keep its actual scope separate from insurance, financing and future construction decisions.",
+    "sections": [
+      {
+        "title": "Obtain the complete issued document",
+        "text": "Ask for the entire letter and its attachments, including the case identifier and described property or structure. Do not rely on a listing phrase such as removed from flood zone. Record the date and source of the document. A preliminary request or application acknowledgement should not be described as an issued determination."
+      },
+      {
+        "title": "Match the described subject",
+        "text": "Check which lot, building or portion of the property the letter addresses. Ask a qualified surveyor or other appropriate professional to resolve unclear descriptions. A document addressing one structure should not automatically be applied to every building or planned improvement. Keep the relevant map and property identifiers with the letter so the connection can be reviewed."
+      },
+      {
+        "title": "Check current applicability",
+        "text": "Ask the appropriate FEMA or local floodplain contact how the letter relates to the current effective map and any later changes. Preserve the response and the documents it references. Do not assume that a letter found in a seller folder is the last relevant record. The buyer needs a current understanding for the actual property and transaction."
+      },
+      {
+        "title": "Separate lender and insurer decisions",
+        "text": "Provide the records to the lender and insurance professional through their required channels. Ask them to explain their determinations and any remaining requirements. A map-related document does not by itself establish the premium, coverage or financing terms. Keep those written decisions separate so one party\u2019s conclusion is not attributed to another."
+      },
+      {
+        "title": "Review proposed work independently",
+        "text": "If the buyer plans renovation or expansion, ask the local authority and qualified design team which rules apply. Do not treat a letter about an existing structure as advance approval for future work. Record the proposal discussed and any conditions or further review needed. Map status is one part of a larger project-specific inquiry."
+      },
+      {
+        "title": "Use a scope example",
+        "text": "Suppose a parcel contains a main home and an outbuilding, while the supplied letter identifies only the home. The diligence file should retain that distinction and seek clarification about the other structure. Avoid summarizing the entire parcel as covered. A precise record helps the buyer, lender and insurer ask the right follow-up questions. Keep the complete response beside the letter so the scope is not lost in a short transaction summary."
+      }
+    ],
+    "checklist": [
+      "Complete issued letter and attachments",
+      "Property and structure identifiers",
+      "Current map applicability question",
+      "Separate insurer and lender responses",
+      "Future-work questions assigned"
+    ],
+    "sources": [
+      {
+        "url": "https://www.fema.gov/flood-maps/change-your-flood-zone",
+        "label": "FEMA information on changing a flood-zone designation"
+      },
+      {
+        "url": "https://www.fca.gov/bank-oversight/guidance-faqs/flood-insurance",
+        "label": "Farm Credit Administration flood-insurance guidance and map-change terminology"
+      }
+    ]
+  },
+  {
+    "slug": "fcc-broadband-map-property-verification",
+    "title": "Verify Broadband Availability Beyond the Map",
+    "description": "Use the FCC map and provider evidence before promising rental internet service.",
+    "intro": "The FCC National Broadband Map shows provider-reported availability at individual locations. It is a useful research starting point, but a buyer should confirm what can actually be ordered at the property. Distinguish reported availability, an accepted service order and measured performance after installation. Those are different kinds of evidence for an operating plan.",
+    "sections": [
+      {
+        "title": "Locate the correct property",
+        "text": "Use the map\u2019s location information carefully and confirm that the selected point corresponds to the property being evaluated. Rural addresses and multiple structures can create ambiguity. Record the location and search date. If the map\u2019s location information is wrong, use the FCC\u2019s appropriate location process rather than assuming a nearby point describes the same premises."
+      },
+      {
+        "title": "Review the reported service details",
+        "text": "Record the provider, technology and advertised service shown for the location. Treat these as reported availability facts rather than a measured performance result. A speed displayed on the map does not establish what guests will experience inside the house. Keep the map evidence distinct from the provider\u2019s order confirmation and later tests."
+      },
+      {
+        "title": "Ask the provider for a property-specific answer",
+        "text": "Use the provider\u2019s official ordering or enquiry route and give the exact service address. Ask what can be installed, what preparation is needed and which terms apply. Preserve the response and any estimate. A general coverage statement or promotional price is not enough to establish a practical launch date or final service arrangement."
+      },
+      {
+        "title": "Handle discrepancies through the right process",
+        "text": "The FCC provides an availability-challenge process when a reported service is not actually available as described. Review its current categories and requirements before filing. Keep relevant provider correspondence and other appropriate evidence. Do not use a map challenge as a substitute for resolving a billing dispute or diagnosing an installed network\u2019s performance."
+      },
+      {
+        "title": "Keep listing claims tied to measured reality",
+        "text": "Once service is installed, test and document the conditions relevant to any claim you intend to publish. Equipment placement and the internal network can affect results. Ask a qualified provider for help where needed. Do not promise a working internet amenity solely because a provider appears on the FCC map."
+      },
+      {
+        "title": "Use a purchase example",
+        "text": "Suppose the map shows a service but the provider says construction is required before installation. The buyer should record that dependency, timing uncertainty and proposed cost separately from the map entry. Revisit the launch plan before relying on connectivity. A map screenshot cannot resolve an unanswered construction or activation requirement. Assign a contact to confirm installation readiness and retain the provider\u2019s written response before describing service as available to guests."
+      }
+    ],
+    "checklist": [
+      "Correct map location and date",
+      "Reported provider and technology",
+      "Property-specific provider response",
+      "Discrepancy evidence and proper process",
+      "Post-installation performance record"
+    ],
+    "sources": [
+      {
+        "url": "https://help.bdc.fcc.gov/hc/en-us/articles/10476040597787-How-to-Submit-an-Availability-Challenge",
+        "label": "FCC availability-challenge instructions"
+      },
+      {
+        "url": "https://help.bdc.fcc.gov/hc/en-us/articles/12000296843291-How-to-Submit-a-Successful-Fixed-Availability-Challenge",
+        "label": "FCC guidance on availability evidence"
+      }
+    ]
+  },
+  {
+    "slug": "wood-heater-identification-record",
+    "title": "Identify a Wood Heater Before Planning Rental Use",
+    "description": "Connect the appliance label, official database and qualified inspection questions.",
+    "intro": "A property may include a wood-burning appliance whose description in a listing is incomplete. EPA maintains a certified wood-heater database that can help identify relevant certification information. That record does not establish the condition or safety of a particular installation. A buyer should connect product identification with qualified inspection and local-use questions.",
+    "sections": [
+      {
+        "title": "Record what is physically present",
+        "text": "Identify the appliance type, manufacturer and model from available labels and documents. Take photographs only where safely accessible. Do not disassemble equipment or operate an unfamiliar appliance to locate information. If identification is unclear, ask the seller and qualified service professional rather than choosing a similar-looking product from an online image."
+      },
+      {
+        "title": "Use the official product information",
+        "text": "Search EPA\u2019s wood-heater resources and the manufacturer\u2019s documentation as appropriate for the identified appliance. Save the information that actually matches the model. An emissions-certification record answers a different question from whether the appliance, chimney and installation are ready for use. Keep those distinctions explicit in the diligence file."
+      },
+      {
+        "title": "Arrange qualified condition review",
+        "text": "Ask an appropriately qualified professional to assess the installation and related components within a defined scope. Provide available service records and explain the intended rental operation. Request findings, limitations and recommended next steps in writing. Do not treat a recent cleaning receipt as a complete inspection unless the document actually supports that conclusion."
+      },
+      {
+        "title": "Confirm local and insurance questions",
+        "text": "Ask the relevant local authority and insurance professional about the proposed use and any applicable conditions. Product information alone does not settle installation approvals, restrictions or coverage. Keep each response with the scope it addresses. If the owner is considering replacement, obtain advice about the new proposal instead of assuming the existing arrangement authorizes it."
+      },
+      {
+        "title": "Decide how the amenity will be managed",
+        "text": "Before advertising guest use, establish who prepares instructions, controls access and arranges service. Follow manufacturer and qualified professional guidance. This article does not provide firing, venting or repair instructions. If readiness remains uncertain, keep that issue visible and do not represent the amenity as available merely because it appears in listing photographs."
+      },
+      {
+        "title": "Use a documentation example",
+        "text": "Suppose the seller calls an appliance an approved stove but supplies no model record. The buyer can separate identification, certification information and condition review into three tasks. Each has its own source and responsible person. Completing one does not automatically close the others, making the final operating decision easier to understand. If the model cannot be identified, leave the question open and obtain professional guidance rather than substituting another appliance\u2019s documentation."
+      }
+    ],
+    "checklist": [
+      "Appliance type and model evidence",
+      "Matching official product information",
+      "Qualified inspection scope and findings",
+      "Local and insurance responses",
+      "Guest-use decision and service responsibility"
+    ],
+    "sources": [
+      {
+        "url": "https://www.epa.gov/compliance/epa-certified-wood-heater-database",
+        "label": "EPA certified wood-heater database"
+      },
+      {
+        "url": "https://www.epa.gov/air-emissions-inventories/where-can-i-find-information-woodstove-certifications-testing-results-and",
+        "label": "EPA woodstove certification information"
+      }
+    ]
+  },
+  {
+    "slug": "rental-window-fall-safeguard-review",
+    "title": "Review Window Fall Safeguards Before Guest Use",
+    "description": "Organize window observations and professional follow-up without confusing screens with fall protection.",
+    "intro": "CPSC guidance warns that window screens are not designed to prevent children from falling. A rental owner should treat window fall safeguards as a specific safety question, especially where furniture or sleeping arrangements may place people near an opening. This guide organizes observations and qualified follow-up; it does not design a guard or determine code compliance.",
+    "sections": [
+      {
+        "title": "Record the actual window arrangement",
+        "text": "Identify the rooms, accessible openings and nearby furniture. Use dated photographs to show the current layout without leaning out or taking unsafe measurements. Distinguish what you observed from assumptions about the opening mechanism. An attractive listing photo may omit details that matter to a professional review."
+      },
+      {
+        "title": "Use the safety guidance accurately",
+        "text": "Read CPSC\u2019s current window-fall guidance. Do not describe a screen as a protective barrier merely because it appears secure. Ask a qualified professional about appropriate safeguards for the actual windows and applicable requirements. A general consumer recommendation does not establish that a particular device or installation meets every local rule."
+      },
+      {
+        "title": "Keep emergency escape questions connected",
+        "text": "Changes to windows can affect more than one safety function. Have the appropriate professional consider escape and other applicable requirements when evaluating proposed devices. Do not install an improvised restraint from a generic online suggestion. Record the specific proposal and the person responsible for assessing it before purchasing hardware."
+      },
+      {
+        "title": "Review the furnished layout",
+        "text": "A layout can change after the building inspection. Check whether beds, seating or other furniture alter access to windows and ask the responsible professionals about any resulting concern. Keep the furnishing team informed of restrictions. A safeguard review should reflect the property guests will actually occupy rather than an empty-room photograph from months earlier."
+      },
+      {
+        "title": "Verify completion through evidence",
+        "text": "If work is recommended, retain the specified product, installation information and applicable professional confirmation. Record what was checked and any remaining limitations. A delivery receipt proves that hardware arrived, not that it was installed correctly. Keep unresolved safety work separate from routine cosmetic items in the launch checklist."
+      },
+      {
+        "title": "Use a room-change example",
+        "text": "Suppose a bedroom layout places a new bed close to an opening window. The owner should revisit the prior review rather than assume the original condition remains unchanged. Document the new layout, seek appropriate advice and record the outcome. Avoid advertising the room as child-safe based solely on a general checklist or a newly purchased device. Keep the reviewer\u2019s comments with the revised room plan so the next furnishing change can be checked against the same documented concerns."
+      }
+    ],
+    "checklist": [
+      "Dated window and furniture observations",
+      "Current CPSC guidance",
+      "Qualified safeguard and escape review",
+      "Installation evidence where applicable",
+      "Recheck after layout changes"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Urges-Families-to-Protect-Children-During-National-Window-Safety-Week",
+        "label": "CPSC current window-fall safety guidance"
+      }
+    ]
+  },
+  {
+    "slug": "rental-dryer-vent-handoff",
+    "title": "Review Dryer Vent Records in a Rental Handoff",
+    "description": "Separate appliance delivery, vent condition and recurring service responsibilities.",
+    "intro": "A clothes dryer used for rental laundry can depend on a vent system that is not visible in listing photographs. The U.S. Fire Administration publishes dryer fire-safety guidance. A buyer should obtain appropriate condition information and an operating handoff rather than assuming a dryer that runs is fully ready. Technical inspection and service belong with qualified providers.",
+    "sections": [
+      {
+        "title": "Identify the appliance and vent arrangement",
+        "text": "Record the dryer model, available manual and visible connection information. Ask for prior service records and identify any known changes. Do not move heavy equipment or dismantle ductwork simply to complete a checklist. Where the route or condition is unclear, document the question for the qualified service professional."
+      },
+      {
+        "title": "Define the service scope",
+        "text": "Ask the provider what will be inspected or serviced and what remains outside the assignment. An appliance repair visit may not include the entire vent system. A cleaning invoice may not address installation concerns. Keep the accepted scope with the resulting report so a later owner can understand exactly what the work established."
+      },
+      {
+        "title": "Use official and manufacturer guidance",
+        "text": "Consult the USFA\u2019s dryer safety information and the appliance manufacturer\u2019s instructions. Have the qualified professional explain how those relate to the actual installation. Avoid substituting a generic maintenance interval for the provider\u2019s assessment and the instructions that apply. This guide does not prescribe a duct design or repair method."
+      },
+      {
+        "title": "Connect the handoff to laundry operations",
+        "text": "Identify who uses the dryer and who reports unusual operation or a suspected problem. Rental turnover staff should know the approved operating instructions and escalation contact. Do not instruct staff to continue using equipment that requires review merely to meet a turnover deadline. Keep service and operational decisions visible to the person responsible for the property."
+      },
+      {
+        "title": "Retain completion and follow-up records",
+        "text": "Save the dated service report, identified issues and evidence of any completed correction. Record the next recommended review through the appropriate professional process. A checked maintenance box should link to the supporting record. If the appliance or vent arrangement changes, treat it as a new condition requiring appropriate review."
+      },
+      {
+        "title": "Use a scope-gap example",
+        "text": "Suppose the seller provides a recent dryer repair receipt, but the vent route is not described. The buyer can ask whether the vent was included and obtain the missing review if needed. Keep the repair and vent records separate. That avoids presenting a limited appliance repair as proof of the condition of the entire laundry installation. Give the resulting records to the person managing recurring service so a completed repair does not erase another outstanding issue."
+      }
+    ],
+    "checklist": [
+      "Model and manual references",
+      "Defined appliance and vent service scope",
+      "Official and manufacturer guidance",
+      "Staff escalation responsibility",
+      "Dated findings and corrections"
+    ],
+    "sources": [
+      {
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/clothes_dryer_fire_safety_flyer.pdf",
+        "label": "U.S. Fire Administration clothes dryer fire-safety guidance"
+      }
+    ]
+  },
+  {
+    "slug": "rental-insurance-contents-evidence",
+    "title": "Build an Insurance Contents Record for a Rental",
+    "description": "Distinguish insured-property evidence from the furnished purchase inventory.",
+    "intro": "An inventory of items included in a purchase answers a different question from the records an insurer may request after a loss. NAIC consumer guidance recommends keeping a home inventory and supporting information. A rental owner should ask an insurance professional what records fit the actual policy and operation. An inventory does not create coverage or establish a claim\u2019s value.",
+    "sections": [
+      {
+        "title": "Start with the actual policy questions",
+        "text": "Ask the insurance professional which property categories and documentation matter for the rental\u2019s policy. Distinguish the building, business equipment and other contents as directed. Do not assume a personal-home example describes the terms of a commercial or rental policy. Keep the written policy and professional explanation available for future review."
+      },
+      {
+        "title": "Identify items with useful detail",
+        "text": "Record descriptions, models or serial numbers where appropriate, along with available purchase information. Photographs should show the item and enough context to understand what is documented. Avoid inventing costs when receipts are missing. Label estimates and ask the insurer or adviser how uncertain information should be handled."
+      },
+      {
+        "title": "Separate ownership and valuation",
+        "text": "The purchase agreement may list included furnishings without allocating a value to every item. Do not convert that list into a claim value by guessing. Preserve the transaction documents and any later receipts separately. A tax allocation, resale estimate and insurance valuation may serve different purposes, so obtain qualified guidance rather than treating them as interchangeable."
+      },
+      {
+        "title": "Store records where a loss cannot erase them",
+        "text": "Use an appropriate secure location for the inventory and supporting files, with access limited to authorized people. Consider how the records will be retrieved if the property or a device is unavailable. Avoid including unnecessary guest information or account credentials. Keep an index so the right documents can be found without searching personal inboxes."
+      },
+      {
+        "title": "Update after material changes",
+        "text": "Add replacements, removals and major purchases with their dates and evidence. Retain enough history to explain which items were present at a relevant time. A current photograph can conflict with an old list if a room has been redesigned. Assign responsibility for updates when the manager or furnishing provider changes."
+      },
+      {
+        "title": "Use a replacement example",
+        "text": "Suppose the owner replaces a living-room television after acquisition. Close the old inventory entry and add the replacement with its receipt and identifying details. The purchase inventory remains a historical record, while the contents file reflects the new item. This distinction helps organize evidence without promising that any specific loss will be paid. Ask the insurance professional about any documentation gap before a later claim makes retrieval more difficult."
+      }
+    ],
+    "checklist": [
+      "Policy-specific documentation questions",
+      "Item descriptions and available receipts",
+      "Ownership and valuation kept distinct",
+      "Secure retrievable record location",
+      "Replacement and removal history"
+    ],
+    "sources": [
+      {
+        "url": "https://content.naic.org/consumer/home-inventory",
+        "label": "NAIC home inventory guidance"
+      },
+      {
+        "url": "https://content.naic.org/article/what-you-need-know-when-filing-homeowners-claim",
+        "label": "NAIC guidance on supporting claim records"
+      }
+    ]
+  },
+  {
+    "slug": "rental-purchase-wire-instruction-verification",
+    "title": "Verify Closing Wire Instructions Through a Trusted Channel",
+    "description": "Prepare a payment-verification process before transferring rental-purchase funds.",
+    "intro": "CFPB guidance warns that mortgage-closing scams can use convincing messages to divert a buyer\u2019s funds. A rental-property buyer should establish verification procedures with trusted transaction professionals before the payment deadline. This guide organizes that conversation; it does not confirm bank details or replace the controls of the bank and settlement provider.",
+    "sections": [
+      {
+        "title": "Agree on the process early",
+        "text": "Discuss how payment instructions will be delivered and verified with the known settlement professional and bank. Record the trusted contact method through an established channel. Do not wait until an urgent message arrives to decide whom to call. A clear process reduces dependence on the appearance of a last-minute email."
+      },
+      {
+        "title": "Treat unexpected changes as unresolved",
+        "text": "CFPB highlights messages that suggest changes to wiring instructions as a scam risk. Pause and verify through a trusted contact method already established independently of the message. Do not use a new phone number or link supplied in the suspicious communication as the sole basis for confirmation. Keep the change unresolved until the appropriate professionals address it."
+      },
+      {
+        "title": "Protect transaction information",
+        "text": "Limit access to closing documents and avoid sending sensitive banking details through casual shared folders or group messages. Use the secure methods required by the bank and settlement provider. Confirm the intended recipient before sharing information. A payment checklist should record that verification occurred without becoming an unnecessary repository of account secrets."
+      },
+      {
+        "title": "Separate authorization from preparation",
+        "text": "Decide who may prepare the payment and who must approve it under the buyer\u2019s process. The person reviewing instructions should understand the trusted-channel requirement. A second signature is not meaningful if both reviewers rely on the same unverified message. Ask the bank about its own controls and follow its instructions."
+      },
+      {
+        "title": "Keep evidence of the completed checks",
+        "text": "Record the date, trusted contact and completion of required verification steps. Retain appropriate transaction confirmations through secure channels. Do not infer that a sent wire has reached the intended recipient until the relevant professional confirms receipt. Escalate unexpected discrepancies immediately rather than assuming a processing delay."
+      },
+      {
+        "title": "Know the urgent response route",
+        "text": "CFPB advises contacting the bank or wire-transfer company immediately if funds may have been sent to a scammer and reporting through appropriate official channels. Prepare those contacts in advance. For a hypothetical late change request, the useful outcome is a paused payment and direct verification, not a rushed attempt to satisfy an email\u2019s claimed deadline. Preserve suspicious communications for the bank and relevant authorities through the channels they request, without forwarding sensitive details unnecessarily."
+      }
+    ],
+    "checklist": [
+      "Agreed secure delivery and verification process",
+      "Independently established trusted contact",
+      "Unexpected changes paused for verification",
+      "Clear preparation and approval roles",
+      "Bank and official reporting contacts"
+    ],
+    "sources": [
+      {
+        "url": "https://www.consumerfinance.gov/archive/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/",
+        "label": "CFPB guidance on mortgage closing scams"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/documents/5504/cfpb_buying-a-house_mortgage-closing_checklist.pdf",
+        "label": "CFPB mortgage-closing checklist"
+      }
+    ]
+  }
+]
