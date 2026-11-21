@@ -1498,5 +1498,789 @@
         "label": "Airbnb: scope of Superhost status"
       }
     ]
+  },
+  {
+    "slug": "hospitable-billable-property-review",
+    "title": "Review Hospitable Billable Properties and Subscription Scope",
+    "description": "Check the active-property rules, base plan and add-ons against your actual portfolio.",
+    "intro": "Hospitable\u2019s official billing documentation distinguishes a base subscription from active-property and other add-on charges. A host should model the actual account configuration before comparing a headline price with another product. This is a document-based buying guide, not a hands-on product test. Confirm the plan, currency and terms shown for your account before purchasing.",
+    "sections": [
+      {
+        "title": "Define the portfolio being billed",
+        "text": "List physical properties and the channel listings attached to each. Identify parent-child arrangements, temporarily inactive properties and listings that represent the same place. Hospitable\u2019s billing guidance explains how merged listings affect the count. Do not assume the number of channel advertisements equals the number of billable properties, or merge unrelated listings merely to reduce a count."
+      },
+      {
+        "title": "Separate the recurring base from usage",
+        "text": "Record the selected plan and its included property allowance. The current documentation says paid-plan base charges continue while the subscription remains active, including when properties are inactive. Check the applicable pause or cancellation process separately. A quiet month is not automatically a zero-cost month simply because no guests arrive."
+      },
+      {
+        "title": "Identify additional components",
+        "text": "Review the add-ons relevant to the proposed setup, such as devices or other features described in the current plan documentation. Mark which are included and which require separate charges. Do not treat a feature shown on a general marketing page as included in every subscription. Ask support to clarify account-specific or legacy-plan differences."
+      },
+      {
+        "title": "Build two realistic operating cases",
+        "text": "Prepare an ordinary-month configuration and a seasonal or temporary-pause configuration. Use the vendor\u2019s current calculator and a written confirmation where needed. Keep the property count, selected plan and enabled add-ons with the result. Avoid presenting a promotional starting amount as the complete ongoing cost for a different portfolio."
+      },
+      {
+        "title": "Match plan scope to responsibilities",
+        "text": "A self-managing host may need different reporting from a manager serving several owners. The plan documentation distinguishes features such as owner statements and portals. Identify the actual work and confirm the required access. Software availability does not establish that someone will prepare, review or deliver an accurate owner report for you."
+      },
+      {
+        "title": "Check a change before applying it",
+        "text": "Suppose one property is paused for renovation while another remains active. Ask how that configuration affects the account rather than assuming a single per-night formula. Record the effective date and confirm the next invoice. Keep the support response so a future operator can understand why the expected charge differs from a simple listing count. Also record which listings were merged and why. If the next invoice does not match the expected count, that evidence helps support investigate a concrete configuration rather than a disputed total. Keep any account-specific confirmation with the calculation and revisit it when a property is added, removed or placed back into service."
+      }
+    ],
+    "checklist": [
+      "Physical property and listing map",
+      "Base plan and included allowance",
+      "Enabled add-ons",
+      "Ordinary and seasonal cost cases",
+      "Effective dates and invoice confirmation"
+    ],
+    "sources": [
+      {
+        "url": "https://help.hospitable.com/en/articles/4596748-hospitable-pricing-subscription-costs",
+        "label": "Hospitable pricing and subscription documentation"
+      },
+      {
+        "url": "https://hospitable.com/pricing",
+        "label": "Hospitable current plan information"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "hospitable-inbox-message-origin-review",
+    "title": "Review Message Origins in the Hospitable Inbox",
+    "description": "Understand which replies are manual, automated or sent through connected tools before assigning responsibility.",
+    "intro": "Hospitable\u2019s inbox documentation explains the conversation thread and how messages appear, including AI-assisted drafts and connected services. Before relying on a unified inbox, define who is allowed to send which replies and how the team will investigate an unexpected message. A single conversation view does not necessarily identify every sending system without further review.",
+    "sections": [
+      {
+        "title": "Map the connected messaging paths",
+        "text": "List the booking channels, Hospitable features and third-party tools that can send messages. Identify whether each produces a draft or sends directly. Do not assume the person reading the inbox is the only source of outgoing communication. Keep the list current when software trials or integrations are added to the account."
+      },
+      {
+        "title": "Read the current display behavior",
+        "text": "Use Hospitable\u2019s official inbox guide to understand the labels and information visible in the thread. It notes that some third-party messages can appear like manual replies. Avoid assigning blame or concluding that a staff member sent a message solely from its appearance. Investigate the connected workflow and available records before reaching a conclusion."
+      },
+      {
+        "title": "Set a review boundary for AI drafts",
+        "text": "Decide which topics require human review and who checks the source information used in a reply. An AI-suggested draft sent from a reply box remains a message the operator has chosen to send. Confirm property details, reservation facts and any proposed commitment before sending it. Do not treat fluent wording as proof of accuracy."
+      },
+      {
+        "title": "Remove competing instructions",
+        "text": "Review whether several systems answer the same trigger or guest question. A channel message, scheduled template and connected tool can create contradictory replies even when each seems reasonable alone. Assign a primary workflow for the topic and document exceptions. Disable or adjust a redundant path through the vendor\u2019s authorized controls rather than deleting evidence after a problem."
+      },
+      {
+        "title": "Prepare an investigation record",
+        "text": "For an unexpected reply, preserve the reservation reference, message time and relevant configuration. Limit shared guest information to what the investigation needs. Ask the software provider about available message-origin evidence and retention. Keep a support response separate from assumptions made by the operating team."
+      },
+      {
+        "title": "Use a conflicting-answer example",
+        "text": "Suppose a guest receives two different arrival times. Compare the manual reply, scheduled content and connected tools before correcting the guest-facing information. Then identify which configuration caused the conflict and who will maintain it. A unified inbox is useful only when the team understands the automation behind the visible conversation. Create a short internal response log identifying the confirmed sending path and the correction made. If the source remains unknown, leave it unresolved and ask the provider what evidence is available. Do not manufacture an audit trail from assumptions, and avoid telling a guest that a system was responsible before the team has confirmed the facts."
+      }
+    ],
+    "checklist": [
+      "Connected sender inventory",
+      "Draft versus direct-send authority",
+      "Current inbox label meanings",
+      "Primary workflow and exceptions",
+      "Message-origin investigation record"
+    ],
+    "sources": [
+      {
+        "url": "https://help.hospitable.com/en/articles/9651923-inbox-overview-guest-conversation-thread-video-tour",
+        "label": "Hospitable inbox and conversation-thread documentation"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "ownerrez-channel-fee-mapping",
+    "title": "Test OwnerRez Channel Rate and Fee Mapping",
+    "description": "Compare a defined booking quote across connected channels before relying on a rate configuration.",
+    "intro": "OwnerRez documents differences in the rates and fees supported by its channel integrations. A connected channel does not necessarily interpret every charge in the same way. Build a small test plan around the actual properties and fee structure you intend to use. This guide describes an evaluation workflow; it does not certify a configuration or determine tax treatment.",
+    "sections": [
+      {
+        "title": "Inventory the proposed charges",
+        "text": "List the nightly rate, discounts, cleaning or other surcharges, and any relevant tax settings. Identify the source and purpose of each line. Separate charges paid by the guest from platform or processor costs borne by the operator. A headline nightly amount cannot explain whether the complete quote has been mapped correctly."
+      },
+      {
+        "title": "Review the integration-specific documentation",
+        "text": "Read OwnerRez\u2019s current rate-and-fee differences for each connected channel. Check which fields transfer and what setup is required. Do not assume that a configuration tested on one channel behaves identically elsewhere. Mark any unsupported or unclear item for vendor support rather than forcing it into an unrelated field."
+      },
+      {
+        "title": "Choose a repeatable quote scenario",
+        "text": "Use the same dates, guest count and stay length when comparing the intended result. Follow the vendor\u2019s permitted testing tools and avoid creating fake paid bookings. Keep a record of the inputs and displayed totals. If the scenario changes midway through the test, restart the comparison instead of treating different quotes as equivalent."
+      },
+      {
+        "title": "Reconcile the difference by line item",
+        "text": "Compare the base rate and each applicable charge before comparing totals. Identify whether a discrepancy comes from inclusion, calculation basis, rounding or a separate channel charge. Do not simply adjust the nightly rate until the final figure looks close. That can hide a mapping problem that reappears for another stay length."
+      },
+      {
+        "title": "Keep tax and contract questions with advisers",
+        "text": "Software documentation explains technical behavior; it does not decide the legal tax treatment of a charge or the owner\u2019s contractual allocation. Give the relevant facts to the appropriate professional. Preserve the approved configuration and the reasoning behind it so the operator does not later reverse a deliberate setting without review."
+      },
+      {
+        "title": "Retest a material change",
+        "text": "Suppose a new optional surcharge is added after launch. Review its mapping for every affected channel and repeat the controlled quote test. Record the configuration version and results. A previously correct setup is not evidence that a newly introduced fee will be handled correctly without checking it. Keep the test result tied to the configuration version, channel and date. When a channel changes its fee support, the old result becomes a historical reference rather than current proof. Assign someone to review the vendor\u2019s relevant update and decide whether the affected quote scenarios need to be checked again before new bookings use the configuration."
+      }
+    ],
+    "checklist": [
+      "Charge inventory and definitions",
+      "Channel-specific mapping requirements",
+      "Repeatable quote inputs",
+      "Line-item reconciliation",
+      "Retest record after changes"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ownerrez.com/support/articles/channel-management-api-integrations-rate-fee-differences",
+        "label": "OwnerRez channel rate and fee differences"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "ownerrez-property-management-setup",
+    "title": "Scope OwnerRez Property-Management Accounting Setup",
+    "description": "Align owner records, commission rules and statement timing with the actual management agreement.",
+    "intro": "OwnerRez\u2019s property-management documentation covers owner settings, commissions, expenses and statement behavior. These tools can support a manager\u2019s accounting workflow, but the configuration must match the agreements and records behind it. A property owner buying software for personal use has different needs from a manager reporting to several clients. Do not equate a software module with outsourced management or accounting services.",
+    "sections": [
+      {
+        "title": "Identify the parties and money flow",
+        "text": "Record the property owner, manager and party receiving booking funds. Describe who pays expenses and how the owner is paid or invoiced. A setup cannot be evaluated from property count alone. The software should reflect the real arrangement rather than a convenient default that produces an attractive statement."
+      },
+      {
+        "title": "Translate the agreement into review questions",
+        "text": "List commission bases, expense treatment and any booking-specific exceptions that require configuration. Ask the responsible accounting or legal adviser to resolve ambiguity in the agreement. Software support can explain field behavior, but should not be expected to interpret a disputed contract. Keep the approved interpretation with the setup record."
+      },
+      {
+        "title": "Review timing and deposit choices",
+        "text": "The documentation distinguishes payment-related states used for owner statements. Decide which events the report is intended to reflect and confirm how the chosen setting works. Do not assume that a received payment and money deposited in a bank are identical. Match the report definition to the reconciliation process used by the business."
+      },
+      {
+        "title": "Test representative transactions",
+        "text": "Use permitted test methods or reviewed historical examples to examine an ordinary booking, an expense and an exception. Check the commission and owner result by line item. Avoid changing live records merely to see what happens. Record the expected calculation and investigate differences before the first statement is issued."
+      },
+      {
+        "title": "Control owner-setting changes",
+        "text": "Assign responsibility for changing commission or expense settings. OwnerRez describes copying some settings between owners, but that does not make every agreement identical. Review the applicable fields before applying a template broadly. Keep a dated record of authorized changes so later statements can be explained."
+      },
+      {
+        "title": "Use an exception example",
+        "text": "Suppose one booking has a different commission arrangement under the written agreement. Confirm the appropriate booking-level treatment and review the resulting statement. Do not alter a global setting to solve one exception without checking other bookings. Preserve the supporting authorization and the final calculation for the accountant and owner. Include one report recipient in the acceptance review so the team knows whether the statement explains the agreed result. A technically correct formula can still be confusing when labels do not match the contract. Record any terminology change and retain the supporting calculation rather than changing the label without reviewing its financial meaning."
+      }
+    ],
+    "checklist": [
+      "Owner, manager and payment map",
+      "Approved commission and expense interpretation",
+      "Statement timing definition",
+      "Representative transaction test",
+      "Change authority and exception evidence"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ownerrez.com/support/articles/property-management-setup-configuration",
+        "label": "OwnerRez property-management setup and configuration"
+      },
+      {
+        "url": "https://www.ownerrez.com/support/articles/costs-and-fees",
+        "label": "OwnerRez subscription components and fees"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "guesty-lite-pro-requirements",
+    "title": "Choose Guesty Lite or Pro From Operating Requirements",
+    "description": "Compare the current plans against channel, owner-reporting and workflow needs.",
+    "intro": "Guesty publishes Lite and Pro plans for different operating scales and feature requirements. A useful comparison starts with the work your team needs to perform, not a plan name or starting price. Use the current pricing page and a confirmed proposal for the actual account. This guide is based on published information and does not claim hands-on testing or guaranteed results.",
+    "sections": [
+      {
+        "title": "Describe the operating model",
+        "text": "State whether you operate your own listings or manage properties for other owners. List the channels, users and reporting obligations involved. A small portfolio can still have complex responsibilities. Do not assume that the fewest listings automatically means the simplest setup or that a manager needs every feature shown in a larger plan."
+      },
+      {
+        "title": "Separate essential functions from optional ones",
+        "text": "Identify which capabilities are needed at launch and which may be useful later. Guesty\u2019s pricing page describes differences in channels, owner features and other tools. Verify that each required workflow is included in the proposed plan. A feature appearing elsewhere on the website is not proof that it is included in every subscription."
+      },
+      {
+        "title": "Review add-ons as separate decisions",
+        "text": "The current page lists optional products, including pricing and lock-related tools. Ask which are available to the proposed account and what they cost. Do not compare one product\u2019s base amount with another proposal that includes several extras. Keep implementation work, payment processing and ongoing subscriptions distinct in the cost comparison."
+      },
+      {
+        "title": "Request a workflow demonstration",
+        "text": "Ask the vendor to demonstrate a realistic task using the proposed plan: a reservation change, an owner report or a channel update. Record what the user can view and edit. Avoid treating a generic sales demonstration of a different configuration as proof that your account will provide the same access."
+      },
+      {
+        "title": "Confirm the growth path in writing",
+        "text": "Guesty describes the relationship between Lite and Pro on its current page. Ask what a later plan change would mean for your data, users, integrations and billing. Keep the answer with the proposal. Do not assume that a marketing statement about scaling eliminates every configuration or training task when the operation changes."
+      },
+      {
+        "title": "Compare the complete proposal",
+        "text": "For an illustrative owner adding client-managed properties, compare the existing requirements with the new reporting and access needs. Check whether the proposed plan and add-ons cover them, then confirm the total recurring and implementation charges. The decision should follow the documented workflow, not an assumption that the higher plan necessarily improves revenue. Write the unresolved requirements into the purchase decision. If a demonstration cannot establish a needed permission or report, mark it as unconfirmed rather than treating it as absent or included. Ask for a written answer and decide whether the uncertainty should be resolved before purchase or tested during an appropriately scoped trial."
+      }
+    ],
+    "checklist": [
+      "Operating model and channels",
+      "Required versus optional functions",
+      "Plan-specific demonstration",
+      "Growth and data-transition questions",
+      "Complete current proposal"
+    ],
+    "sources": [
+      {
+        "url": "https://www.guesty.com/pricing/",
+        "label": "Guesty current plan scope and pricing information"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "guesty-locks-manager-compatibility",
+    "title": "Verify Guesty Locks Manager Compatibility and Scope",
+    "description": "Check the exact lock model, product access and operating handoff before ordering hardware.",
+    "intro": "Guesty\u2019s Locks Manager help page directs users to a current compatibility list and explains that access to the list can depend on the account or signup process. A buyer should verify the exact proposed hardware and setup. A familiar lock brand is not enough to establish that a particular model or operating arrangement is supported.",
+    "sections": [
+      {
+        "title": "Identify the installed or proposed hardware",
+        "text": "Record the manufacturer, model and relevant device details from reliable documentation. Distinguish a lock from any hub or accessory it requires. Do not infer compatibility from a photograph or another property\u2019s setup. If the model cannot be identified, keep the purchase question unresolved until the vendor or installer confirms it."
+      },
+      {
+        "title": "Use the current supported-model list",
+        "text": "Follow Guesty\u2019s official route to its compatibility information. The help page explains how to view the list through the relevant account or signup step. Verify the exact model, not merely the brand name. Keep a dated confirmation, since a saved list from an older evaluation may not describe the current product."
+      },
+      {
+        "title": "Check physical and service requirements",
+        "text": "The documentation identifies a physical-keypad requirement. Ask about the complete requirements for the selected model, including connectivity, supporting hardware and account setup. Qualified installers should handle installation questions. Software compatibility does not establish that a door, lock installation or emergency access arrangement is suitable."
+      },
+      {
+        "title": "Understand the subscription scope",
+        "text": "Confirm which Guesty account and product access are needed, when charges begin and how devices are linked to properties. Ask for a current proposal rather than estimating solely from the number of doors. Keep hardware, installation and software charges separate. A supported model is not a promise that every required service is included."
+      },
+      {
+        "title": "Test the complete access workflow",
+        "text": "Before guest use, arrange an authorized test of code creation, communication and the intended access period. Include the property\u2019s backup process and the responsible contact. Avoid sharing real guest credentials in a demo. Record failures and resolve them with the appropriate provider before relying on automation."
+      },
+      {
+        "title": "Plan a replacement scenario",
+        "text": "Suppose an existing lock fails and a different model is proposed. Repeat compatibility and installation review rather than assuming any replacement from the same brand works. Update the device record and test the new configuration. The operating team needs evidence of the new setup, not just a receipt for replacement hardware. Include the onsite contact in the handoff so hardware problems have an assigned response. A remote code appearing in the software is only part of the process; the team also needs a safe, authorized way to handle a failed device. Keep that responsibility in the operating plan rather than assuming the software subscription supplies local service."
+      }
+    ],
+    "checklist": [
+      "Exact lock and accessory models",
+      "Current compatibility confirmation",
+      "Physical and connectivity requirements",
+      "Separate hardware and subscription costs",
+      "Authorized access and backup tests"
+    ],
+    "sources": [
+      {
+        "url": "https://help.guesty.com/hc/en-gb/articles/11287556275101-Which-brands-are-supported-by-Guesty-Locks-Manager",
+        "label": "Guesty Locks Manager supported-model guidance"
+      },
+      {
+        "url": "https://www.guesty.com/pricing/",
+        "label": "Guesty plan and optional product information"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "lodgify-plan-scope-quote",
+    "title": "Review a Lodgify Plan Quote and Account Eligibility",
+    "description": "Separate current plan inclusions, promotions and account-specific terms before subscribing.",
+    "intro": "Lodgify\u2019s current pricing page presents multiple plans, optional tools and qualifications that can depend on account timing or country. An older review or booking-fee document may not describe a new account\u2019s offer. Prepare a plan comparison using the exact proposed configuration and retain the terms shown when you make the decision.",
+    "sections": [
+      {
+        "title": "Start with the tasks you need",
+        "text": "List the channels, website functions, messaging and owner-reporting work required for the operation. Distinguish a host managing one property from a company handling several owners. A plan should be evaluated against those tasks rather than its promotional label. Mark functions that are essential before launch and those that can wait."
+      },
+      {
+        "title": "Read the current plan boundaries",
+        "text": "Use the official pricing page to identify included features and property limits. Check the qualifications attached to a feature or offer. Do not assume a plan description applies to every existing or future account. Ask Lodgify to confirm the terms for your account where the published page presents conditions or alternatives."
+      },
+      {
+        "title": "Separate promotions from recurring charges",
+        "text": "Record the billing term, currency and what happens after any promotional period. Identify optional products and applicable payment-related charges separately from the software subscription. A discount percentage is not a complete cost comparison. Preserve the current proposal and the assumptions used rather than relying on a screenshot of only the headline amount."
+      },
+      {
+        "title": "Check which work remains yours",
+        "text": "A website builder, owner statement feature or automated message does not establish that the vendor will prepare your content, reconcile your accounts or manage the property. Ask about onboarding deliverables and support scope. Confirm who supplies the information, checks the configuration and handles exceptions after launch."
+      },
+      {
+        "title": "Use a plan-specific demonstration",
+        "text": "Choose a practical workflow and ask to see it in the proposed configuration. For example, examine whether the person who reviews owner information can access the required report. Record any add-on or upgrade identified during the demonstration. Do not treat a feature shown in a full-product tour as included in a lower plan."
+      },
+      {
+        "title": "Recheck before a material change",
+        "text": "If the portfolio expands or the owner needs a different reporting workflow, compare the new requirements with the current subscription. Ask how the change affects billing and configuration. Keep the original and revised proposals together so the business can understand why its cost or responsibilities changed. If a sales proposal differs from the public page, ask which terms govern the purchase and why. Retain the answer with the dated proposal. Do not silently combine the most favorable feature from one version with the lowest price from another; the comparison should describe one complete offer that the vendor will actually provide."
+      }
+    ],
+    "checklist": [
+      "Required workflows and property count",
+      "Current plan qualifications",
+      "Recurring versus promotional charges",
+      "Onboarding and owner responsibilities",
+      "Written proposal and change terms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.lodgify.com/pricing/",
+        "label": "Lodgify current plans and pricing qualifications"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "lodgify-existing-domain-launch",
+    "title": "Connect an Existing Domain to a Lodgify Website",
+    "description": "Plan domain authority, DNS changes and service checks before switching a direct-booking address.",
+    "intro": "Lodgify provides instructions for linking an existing domain to its website service. The domain, email service and booking website may still be controlled by different accounts. A careful launch plan identifies those dependencies before changing DNS. This guide supports planning and vendor coordination; it does not replace the current provider-specific setup instructions.",
+    "sections": [
+      {
+        "title": "Establish who controls the domain",
+        "text": "Identify the registrar, DNS host and authorized administrator. Confirm whether the domain is already owned by the operator and whether any transfer is actually needed. Linking a website is different from transferring domain ownership. Keep those tasks separate so a website launch does not unexpectedly become an account-recovery project."
+      },
+      {
+        "title": "Inventory services using the domain",
+        "text": "Record the existing website, email and other essential services. Ask the appropriate providers which records each depends on. Do not delete unfamiliar DNS entries to simplify the screen. An apparently unrelated record may support email or another business function that the rental operation still needs."
+      },
+      {
+        "title": "Follow Lodgify\u2019s current linking process",
+        "text": "Use the official domain-linking instructions for the actual subscription and domain arrangement. The documentation distinguishes the roles of the domain host and website service. Avoid substituting a generic tutorial for the current requirements. Have the authorized administrator retain the existing configuration and record the approved changes."
+      },
+      {
+        "title": "Plan the change and verification window",
+        "text": "Decide when the change should occur and who will check it. Include a way to investigate problems with the website or email without sharing credentials broadly. Do not promise instant completion merely because a DNS edit is small. Ask the providers about expected behavior and the appropriate troubleshooting steps for your setup."
+      },
+      {
+        "title": "Test the guest-facing workflow",
+        "text": "After the approved change, check the intended address, secure connection and booking path using appropriate test methods. Confirm essential email still works through its provider. A homepage loading successfully does not prove that every link, form or payment integration functions. Keep the results and unresolved items with the launch record."
+      },
+      {
+        "title": "Prepare for a later provider change",
+        "text": "Retain the domain account and configuration information under authorized business control. If the website service changes later, the team should know which components it controls and which require provider support. This avoids confusing an accessible website editor with ownership of the domain and all associated services. Before removing an old website service, confirm that the new configuration has passed the agreed checks and that the business retains access to the required records. Ask the relevant provider about cancellation timing. Keep the prior service available as needed under the transition plan rather than assuming that editing DNS automatically ends or transfers a subscription."
+      }
+    ],
+    "checklist": [
+      "Domain and DNS authority",
+      "Dependent website and email services",
+      "Current Lodgify instructions",
+      "Approved change and rollback contacts",
+      "Guest-facing and email verification"
+    ],
+    "sources": [
+      {
+        "url": "https://help.lodgify.com/hc/en-us/articles/360002852514-Link-an-existing-domain-to-your-Lodgify-website-and-manage-your-DNS-settings",
+        "label": "Lodgify existing-domain and DNS instructions"
+      },
+      {
+        "url": "https://help.lodgify.com/hc/en-us/articles/25496714293404-Getting-started-Website",
+        "label": "Lodgify website setup overview"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "hostaway-channel-migration-plan",
+    "title": "Prepare a Hostaway Channel Migration Plan",
+    "description": "Map existing reservations and channel ownership before switching the system that controls listings.",
+    "intro": "Hostaway\u2019s channel documentation stresses that integrations differ and that operators should read and test the relevant connection. A migration should identify what is imported, what becomes controlled by the software and what remains elsewhere. A successful connection does not prove that every listing field or existing reservation has transferred as intended.",
+    "sections": [
+      {
+        "title": "Map the current systems",
+        "text": "List each booking channel, listing identifier, calendar connection and software tool currently in use. Identify who has authority to connect or disconnect them. Include existing reservations and any operational workflow that relies on the current setup. A simple list of channel names is not enough when several accounts or properties use similar display names."
+      },
+      {
+        "title": "Review each channel\u2019s instructions",
+        "text": "Read Hostaway\u2019s current documentation for the specific connection. The vendor explains that supported functions can differ between channels and change over time. Do not assume that a feature available natively in a booking channel can immediately be controlled through the integration. Record the actual import and ongoing-update behavior to verify."
+      },
+      {
+        "title": "Define the source of truth",
+        "text": "Decide where rates, availability and content will be maintained after connection, based on the documented behavior. Avoid having staff make conflicting changes in both the channel and Hostaway without understanding the sync direction. Give the team a field-by-field operating reference for important items rather than saying everything now lives in the PMS."
+      },
+      {
+        "title": "Protect existing reservations",
+        "text": "Create an authorized record of current bookings and essential operating details before the change. Use the vendor\u2019s migration process and protect guest information. Confirm what happens to past, current and future reservations, messages and payments. Do not assume a successful import means every payment obligation or communication history has moved."
+      },
+      {
+        "title": "Run a controlled acceptance check",
+        "text": "Use the provider\u2019s approved testing method to compare listing details, availability and a representative reservation. Record discrepancies and resolve them before expanding the rollout. Do not create fake paid bookings or change a real guest\u2019s reservation merely to test connectivity. Include a responsible contact for any problem that affects live availability."
+      },
+      {
+        "title": "Choose a practical rollout boundary",
+        "text": "For an illustrative multi-property operator, the first test might involve a limited, approved set of listings rather than every channel at once. Define what evidence permits the next step and what would stop the rollout. Keep the old and new configuration records until the migration has been checked and the team understands its responsibilities. After the first operating period, compare the expected source of updates with the changes actually made by staff. If people still edit a channel directly, determine whether those actions are supported and reflected elsewhere. Correct the procedure or configuration deliberately so the migration does not leave two teams maintaining inconsistent versions of the same listing."
+      }
+    ],
+    "checklist": [
+      "Channel and listing identifier map",
+      "Integration-specific behavior",
+      "Field ownership after migration",
+      "Protected reservation baseline",
+      "Acceptance criteria and rollback contact"
+    ],
+    "sources": [
+      {
+        "url": "https://support.hostaway.com/hc/en-us/articles/360004206193-How-to-Connect-Channels-to-Hostaway",
+        "label": "Hostaway channel-connection documentation"
+      },
+      {
+        "url": "https://www.hostaway.com/pricing/",
+        "label": "Hostaway current enquiry and listing-scale options"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "hostaway-owner-statement-review",
+    "title": "Review Hostaway Owner-Statement Delivery and Allocations",
+    "description": "Check the reporting period, expense associations and owner access before publishing statements.",
+    "intro": "Hostaway\u2019s owner-statement documentation describes report configuration, expenses and access controlled by the property manager. An owner receiving a report and a manager configuring it have different tasks. Use the actual management agreement and source records to evaluate the statement. Software output does not independently verify the economic result or replace professional accounting review.",
+    "sections": [
+      {
+        "title": "Identify the report\u2019s purpose",
+        "text": "State whether the statement explains a payment to the owner, an invoice from the manager or another agreed reporting outcome. Record the period and properties included. A report title alone does not establish its accounting basis. Ask the manager to explain the intended calculation before comparing figures with a bank deposit."
+      },
+      {
+        "title": "Check property and owner associations",
+        "text": "Hostaway\u2019s support guidance explains that expense inclusion depends on relevant dates and associations. Review the actual item settings when a cost appears on the wrong report. Do not solve the discrepancy by editing the final total without identifying its source. Keep the supporting expense record and the correction history."
+      },
+      {
+        "title": "Reconcile representative bookings",
+        "text": "Select an ordinary booking and an exception, such as a refund or adjustment. Trace the relevant income, fee and expense lines through the configured statement. Keep the owner\u2019s contract and accounting definitions separate from the software\u2019s field behavior. Where a calculation is disputed, obtain the appropriate professional interpretation."
+      },
+      {
+        "title": "Confirm what the owner can access",
+        "text": "The property manager controls which statements and information are shared. Do not assume an owner login displays every internal figure or that vendor support can override the manager\u2019s access choices. Agree on the report package and delivery method. An owner should know whom to contact about a missing or unclear statement."
+      },
+      {
+        "title": "Review automation before publication",
+        "text": "If statements are generated or distributed automatically, identify who reviews them and what happens when late expenses arrive. Test the process with the actual reporting workflow. A scheduled report is not necessarily final or approved. Preserve the version sent to the owner and explain later revisions through a controlled process."
+      },
+      {
+        "title": "Use an expense-timing example",
+        "text": "Suppose a service invoice arrives after a monthly statement has been prepared. Check its date, owner and property associations, then follow the agreed correction process. Keep the revised report distinguishable from the original. That is more reliable than sending a replacement PDF with the same name and no explanation of the changed amount. For each revised statement, explain whether a booking, expense, allocation or presentation setting changed. That allows the owner to distinguish a correction from a new cash movement. Retain the source evidence and the approval for a material adjustment instead of expecting the recipient to discover the difference by comparing totals alone."
+      }
+    ],
+    "checklist": [
+      "Statement purpose and period",
+      "Expense associations and source records",
+      "Booking-level reconciliation",
+      "Owner access and delivery agreement",
+      "Review and revision responsibility"
+    ],
+    "sources": [
+      {
+        "url": "https://support.hostaway.com/hc/en-us/articles/56120866085659-Owner-Statements-Common-Questions",
+        "label": "Hostaway owner-statement common questions"
+      },
+      {
+        "url": "https://support.hostaway.com/hc/en-us/articles/36003559089947-Owner-Statements-Overview",
+        "label": "Hostaway owner-statement overview"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "smoobu-subscription-property-count",
+    "title": "Compare Smoobu Subscription Basis and Property Counts",
+    "description": "Separate plan fees, booking-based charges and team access before choosing a subscription.",
+    "intro": "Smoobu\u2019s official plan documentation describes different subscription structures, including a prepaid model and a flexible option with booking-based charges. The appropriate comparison depends on the actual properties, users and billing term. Do not use an old review\u2019s starting price as a complete estimate for a different portfolio or current account.",
+    "sections": [
+      {
+        "title": "Define the bookable units",
+        "text": "List the properties and any parent or sub-unit arrangement you plan to configure. Ask Smoobu how that setup is counted for the proposed subscription. A physical building, a listing and a bookable unit may not be interchangeable. Resolve the count before comparing plans rather than assuming the most favorable interpretation."
+      },
+      {
+        "title": "Compare the cost structure",
+        "text": "Review the current official descriptions of the prepaid, flexible and team-oriented options. Distinguish fixed subscription charges from booking-related fees. Use the same operating assumptions for each comparison and record the billing term and currency. A lower fixed amount may not mean a lower total cost under every booking pattern."
+      },
+      {
+        "title": "Include access and add-ons",
+        "text": "Identify who needs viewing access and who needs to edit the system. The plan documentation distinguishes access and additional charges. List other tools you intend to enable rather than assuming they are included. Ask for clarification where the website and account offer differ, and retain the written answer with the subscription decision."
+      },
+      {
+        "title": "Model seasonality transparently",
+        "text": "Compare an ordinary operating period with a quieter one using the vendor\u2019s current terms. Keep the property count and booking assumptions visible. Do not convert a promotional period into a permanent monthly estimate. Where a fee depends on bookings, confirm which bookings and amounts are included in its calculation."
+      },
+      {
+        "title": "Check renewal and cancellation terms",
+        "text": "Read the terms for the actual billing cycle before committing. Determine when a requested change takes effect and what happens to prepaid amounts or separately enabled products. Disabling a channel connection is not the same as canceling the software subscription. Record the relevant account process and responsibility for reviewing renewal notices."
+      },
+      {
+        "title": "Use a team-growth example",
+        "text": "Suppose a host adds a second operator who needs editing access. Recalculate the proposed configuration using current access charges and plan rules. Compare that result with a team-oriented plan if appropriate. Keep the decision tied to required permissions and total terms rather than assuming that more properties are the only reason the price can change. Check the actual invoice after the first billing period against the documented configuration. If the result differs, identify whether the difference concerns property count, users, tax, booking charges or the selected term. Ask support to explain the discrepancy with that evidence rather than treating a different total as proof that the public pricing was inaccurate."
+      }
+    ],
+    "checklist": [
+      "Confirmed unit-counting basis",
+      "Fixed and booking-based charges separated",
+      "User permissions and add-ons",
+      "Consistent seasonal assumptions",
+      "Renewal and change terms"
+    ],
+    "sources": [
+      {
+        "url": "https://support.smoobu.com/hc/en-us/articles/360003170680-How-much-does-Smoobu-cost-Plans-and-pricing-explained",
+        "label": "Smoobu subscription plans and billing explanations"
+      },
+      {
+        "url": "https://www.smoobu.com/en/pricing/",
+        "label": "Smoobu current pricing information"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "smoobu-dynamic-pricing-exit",
+    "title": "Plan an Exit From Smoobu Dynamic Pricing",
+    "description": "Review existing rates and subscription settings before disabling a pricing add-on.",
+    "intro": "Smoobu\u2019s current documentation distinguishes turning Dynamic Pricing off for a property from canceling the overall subscription. Those actions can affect retained rates differently. Before changing the system, record the prices and operating settings you want to preserve. A pricing-tool exit should not leave the team uncertain about which rates are active.",
+    "sections": [
+      {
+        "title": "Identify the active pricing source",
+        "text": "List which properties use Smoobu Dynamic Pricing and whether another pricing tool is connected. The vendor\u2019s guidance says competing pricing engines should not operate simultaneously. Confirm the actual configuration before making changes. Do not infer the active source merely from the most recent price you remember entering."
+      },
+      {
+        "title": "Record the current calendar state",
+        "text": "Preserve an authorized record of representative future rates, manual overrides and relevant stay restrictions. Mark any blank dates. This record is a reference for checking the transition, not a recommendation for what the property should charge. Keep the date and configuration version so later differences can be explained."
+      },
+      {
+        "title": "Choose the intended exit action",
+        "text": "Read the current instructions for disabling an individual property and canceling the full add-on. Smoobu describes different options for retained or restored prices. Select the action that matches the owner\u2019s decision and confirm its effect before proceeding. Do not assume turning off automatic updates also removes the property from billing."
+      },
+      {
+        "title": "Assign the next pricing method",
+        "text": "Decide who will maintain rates after the change and through which authorized tool. If a different provider will be used, coordinate the sequence using both vendors\u2019 documentation. Keep a clear point at which the new source takes responsibility. Avoid a gap where nobody is maintaining future dates or an overlap where systems compete."
+      },
+      {
+        "title": "Verify rates after the change",
+        "text": "Review the actual rate calendar and connected-channel behavior following the approved process. Smoobu notes that dates previously blank can remain blank, so check them explicitly. Investigate differences before assuming the old manual values returned. Record any additional work needed and the person responsible for it."
+      },
+      {
+        "title": "Use a partial-exit example",
+        "text": "Suppose an operator stops the add-on for one property but retains it for others. Check the affected property\u2019s rate state and billing status separately. Keep the remaining properties\u2019 configuration unchanged unless the owner authorized a broader change. A property-level switch and an account-level cancellation should never be recorded as the same event. Keep the rate-setting handoff visible to everyone who edits availability or prices. If a staff member later turns a pricing feature back on, require a deliberate review of the expected source and affected properties. Otherwise an apparently completed exit can be reversed by a routine account change that the owner never intended."
+      }
+    ],
+    "checklist": [
+      "Active pricing-source map",
+      "Dated rate and override record",
+      "Specific exit action selected",
+      "Next pricing responsibility",
+      "Post-change calendar and billing review"
+    ],
+    "sources": [
+      {
+        "url": "https://support.smoobu.com/hc/en-us/articles/21966779906834-What-Smoobu-Dynamic-Pricing-is-what-it-costs-and-what-happens-if-you-turn-it-off",
+        "label": "Smoobu Dynamic Pricing costs and exit behavior"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "hostfully-guidebooks-pms-scope",
+    "title": "Separate Hostfully Guidebooks From Property-Management Software",
+    "description": "Choose the product scope around guest information, booking operations and team responsibilities.",
+    "intro": "Hostfully offers Digital Guidebooks and property-management software as distinct products within its broader platform. A buyer should identify which problem needs solving before comparing packages. A guest-information page is different from a system that manages reservations and operational workflows. This guide uses published product information and does not imply that either product replaces an onsite manager.",
+    "sections": [
+      {
+        "title": "Name the immediate problem",
+        "text": "State whether you need to organize guest instructions, manage bookings, coordinate staff or report to owners. Separate those tasks instead of treating all hospitality software as one category. A host satisfied with an existing booking system may have a different need from a manager replacing several disconnected tools."
+      },
+      {
+        "title": "Review the individual product descriptions",
+        "text": "Use Hostfully\u2019s current guidebook and property-management pages to identify their published scope. Mark which required function belongs to which product. Do not assume a feature shown in a combined demonstration is available in a standalone subscription. Ask the vendor to clarify the package and integrations proposed for your account."
+      },
+      {
+        "title": "Identify the information owner",
+        "text": "A guidebook still needs accurate content, photographs, local details and maintenance. Hostfully\u2019s FAQ describes help available during setup, but the buyer should confirm who prepares the actual content. Assign a person to approve and update it. Buying a tool does not itself resolve conflicting instructions or an outdated access method."
+      },
+      {
+        "title": "Map integration dependencies",
+        "text": "If the plan uses guest-specific information or device functions, identify which additional products and connections are required. Keep basic guidebook publishing separate from advanced integration workflows. Ask what happens if the booking software changes later or a connection is unavailable. The answer affects both cost and day-to-day responsibility."
+      },
+      {
+        "title": "Compare a complete configuration",
+        "text": "Record the proposed product subscriptions, setup work and optional components. Confirm the current price and terms directly rather than assuming one product\u2019s starting amount covers the full demonstration. Include the internal work needed to build and maintain the information. A lower software charge can still require more owner effort."
+      },
+      {
+        "title": "Use a limited pilot",
+        "text": "For an illustrative property, choose one real information workflow to evaluate through the vendor\u2019s permitted trial or demonstration. Check how an authorized guest reaches it and how staff update it. Record what works, what requires another product and what remains manual. That gives a clearer buying decision than a broad promise of a seamless platform. Invite the person responsible for maintaining the guide to review the trial output. They should be able to explain how a changed instruction reaches guests and which other systems need an update. If the process still relies on a separate document, record that dependency rather than assuming a new guidebook eliminates every existing manual task."
+      }
+    ],
+    "checklist": [
+      "Specific guest or operating problem",
+      "Product-by-product feature map",
+      "Content preparation responsibility",
+      "Integration requirements",
+      "Complete configuration and pilot result"
+    ],
+    "sources": [
+      {
+        "url": "https://www.hostfully.com/resources/faq/",
+        "label": "Hostfully product and setup FAQs"
+      },
+      {
+        "url": "https://www.hostfully.com/pricing/digital-guidebooks/",
+        "label": "Hostfully Digital Guidebooks scope"
+      },
+      {
+        "url": "https://www.hostfully.com/pricing/property-management-software/",
+        "label": "Hostfully property-management software scope"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "hostfully-device-guidebook-access",
+    "title": "Scope Guest Device Access Through Hostfully Guidebooks",
+    "description": "Verify the required product connections and guest-specific links before relying on device controls.",
+    "intro": "Hostfully documents a workflow linking Digital Guidebooks, its property-management platform and Hostfully Devices. The described guest-device access depends on those components and their configuration. A standalone guidebook should not be assumed to provide every connected function. Review the exact setup and test the authorized guest journey before using it for a live arrival.",
+    "sections": [
+      {
+        "title": "List the required components",
+        "text": "Record the guidebook account, property-management account, device service and hardware involved. Identify who controls each one. Use Hostfully\u2019s current integration instructions to check the required connections. Do not reduce a multi-product workflow to a statement that the guidebook alone controls the property\u2019s devices."
+      },
+      {
+        "title": "Verify supported hardware and access",
+        "text": "Ask the vendor about the actual devices and configuration you plan to use. A product category in a demonstration does not establish support for every model or installation. Keep hardware compatibility and professional installation questions separate from software setup. Confirm any additional subscriptions or service requirements in the proposal."
+      },
+      {
+        "title": "Understand the guest-specific link",
+        "text": "The documentation describes generating a secure guidebook link for a confirmed booking when the relevant option is enabled. Ask how the link is created, delivered and limited for the actual setup. Do not paste a private guest link into public instructions or use one guest\u2019s access to test another reservation."
+      },
+      {
+        "title": "Test through an approved process",
+        "text": "Use the vendor\u2019s supported method to verify the guest view and intended device actions. Check the relevant timing and what the guest sees when a connection is unavailable. Avoid manipulating real guest reservations without authorization. Record the test conditions so a successful demonstration is not mistaken for proof of every possible scenario."
+      },
+      {
+        "title": "Assign exception handling",
+        "text": "Define who helps a guest when the link or device control fails and how an alternative access arrangement is approved. A digital guidebook is not a substitute for an operational backup. Keep support contacts and responsibilities current when the manager or device provider changes."
+      },
+      {
+        "title": "Review a device replacement",
+        "text": "Suppose a lock is replaced with a different model. Recheck compatibility, account linking and the guest-facing workflow before relying on it. Update the device record and retain the verification result. An unchanged guidebook page does not establish that the new hardware is integrated correctly. Include a scenario in which the guest can open the guidebook but the device does not respond. Ask which provider supports that problem and what the onsite team should do. Keep that answer separate from a successful website demonstration, because access to information and control of physical equipment are different parts of the workflow."
+      }
+    ],
+    "checklist": [
+      "Product and account dependency map",
+      "Exact hardware support confirmation",
+      "Guest-specific link controls",
+      "Authorized end-to-end test",
+      "Backup and replacement process"
+    ],
+    "sources": [
+      {
+        "url": "https://help.hostfully.com/en/articles/11812742-give-guests-access-to-your-devices",
+        "label": "Hostfully guidebook and device-access workflow"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "uplisting-client-management-review",
+    "title": "Review Uplisting Owner Access and Statement Workflow",
+    "description": "Match client-management features to the way owners receive information and money.",
+    "intro": "Uplisting publishes client-management and statement features for operators working with property owners. The useful buying question is not simply whether an owner portal exists, but what it displays and how the statement fits the management agreement. Confirm the current product configuration directly; a software report is not an independent audit or proof of payment.",
+    "sections": [
+      {
+        "title": "Describe the ownership and payment model",
+        "text": "Record who receives booking funds and whether the manager pays the owner or invoices the owner for services. These are different reporting needs. Identify the properties and owner relationships to be represented. Do not choose a statement template solely because it looks professional before confirming which money flow it should explain."
+      },
+      {
+        "title": "Review the current statement modes",
+        "text": "Uplisting\u2019s documentation describes invoice and payout approaches. Compare the relevant mode with the actual agreement and bookkeeping process. Ask the vendor to demonstrate the current interface and output for that mode. Product terminology should not substitute for a clear understanding of the calculation or the supporting records."
+      },
+      {
+        "title": "Check visibility and delivery",
+        "text": "Confirm what the owner can see in the portal, what requires a PDF or other delivery, and which settings the manager controls. Documentation and interfaces can change, so test the current account behavior. Do not promise clients a particular self-service view based only on a marketing feature name."
+      },
+      {
+        "title": "Test an ordinary report and an exception",
+        "text": "Use permitted sample data or an authorized historical case to review revenue, expenses and management fees. Include one adjustment that matters to the business. Keep the expected result and source records available. A statement matching one simple booking does not establish that every agreement or exception is configured correctly."
+      },
+      {
+        "title": "Separate status from settlement",
+        "text": "Determine what a paid or finalized status means in the software and how it is reconciled to actual funds. Do not assume a report flag proves money moved. Ask the accounting professional to define the required reconciliation. Preserve revisions and the version sent to the owner so later questions can be answered."
+      },
+      {
+        "title": "Confirm the subscription scope",
+        "text": "Check whether the required client-management and statement features are included or added to the proposed plan. Record current terms and setup responsibilities. An owner using the portal and a manager purchasing the platform have different decision rights; the software vendor does not replace the agreement between them. Have the manager and an authorized owner review the same sample output before treating it as an accepted reporting process. Confirm which questions should go to the manager, software support or accountant. A portal is a delivery mechanism; it does not eliminate the need for someone to explain the agreement and correct inaccurate source records."
+      }
+    ],
+    "checklist": [
+      "Owner and manager money flow",
+      "Appropriate statement mode",
+      "Verified owner visibility and delivery",
+      "Exception transaction test",
+      "Subscription and reconciliation responsibilities"
+    ],
+    "sources": [
+      {
+        "url": "https://support.uplisting.io/en/article/client-statements-a96rg3/",
+        "label": "Uplisting client-statement workflow"
+      },
+      {
+        "url": "https://support.uplisting.io/en/article/client-statement-faqs-193g1hm/",
+        "label": "Uplisting statement FAQs"
+      },
+      {
+        "url": "https://www.uplisting.io/pricing",
+        "label": "Uplisting current subscription scope"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
+  },
+  {
+    "slug": "igms-team-permission-design",
+    "title": "Design iGMS Team Roles and Property Access",
+    "description": "Separate feature permissions from property assignments when onboarding cleaners and operators.",
+    "intro": "iGMS documents roles, permissions and property access as related but distinct parts of team setup. An operator should define the work first, then configure and test the appropriate access. A person invited to the account should not automatically receive visibility into every property or financial function. Use the current product documentation for the actual role being assigned.",
+    "sections": [
+      {
+        "title": "Describe the person\u2019s work",
+        "text": "List the tasks the team member must perform and the properties involved. Distinguish a cleaner, supervisor, owner and reservation operator rather than giving everyone a broad manager label. Identify whether the person needs to view information, change it or approve a decision. This business description should drive the account configuration."
+      },
+      {
+        "title": "Review the role and permissions separately",
+        "text": "The iGMS guidance describes preset roles and additional permission choices. Check what the proposed role allows and whether changes are needed for the actual assignment. Do not assume a familiar role name has the same meaning as in another software product. Keep an internal record of the intended boundaries."
+      },
+      {
+        "title": "Assign the correct property scope",
+        "text": "Review the property-access settings independently of feature permissions. A cleaner may need access to certain properties without access to every reservation or financial record. Confirm the actual assignments before the invitation is used. Avoid exposing additional client properties simply because a broad account default is convenient."
+      },
+      {
+        "title": "Use an authorized task test",
+        "text": "Have the team member confirm that they can see and complete a representative permitted task. Check that unnecessary information is not visible through the intended workflow. Use approved test methods and protect guest data. Record any access problem and resolve it through the responsible administrator rather than sharing another person\u2019s login."
+      },
+      {
+        "title": "Define invitation and removal authority",
+        "text": "iGMS describes who can invite team members and the scope of some roles\u2019 invitation rights. Match that capability with the business\u2019s authorization process. When staff leave or change assignments, review both feature access and property scope. Removing one task assignment should not be assumed to close every account-level permission."
+      },
+      {
+        "title": "Review a seasonal-team example",
+        "text": "Suppose a cleaner joins for a subset of properties during a busy period. Configure the required role and properties, test the workflow and set a review date for the temporary assignment. At the end, confirm the intended access has been removed. Keep the process specific to the person\u2019s work rather than relying on a shared generic account. Review access again when the team member begins working at a different property or takes on a supervisory role. A change in job title does not automatically establish the right software scope. Record who approved the revised access, what was tested and when the temporary or expanded permissions should next be reviewed."
+      }
+    ],
+    "checklist": [
+      "Task and property assignment",
+      "Role and feature permissions",
+      "Property visibility check",
+      "Authorized workflow test",
+      "Invitation and departure controls"
+    ],
+    "sources": [
+      {
+        "url": "https://help.igms.com/en/articles/9927951-how-to-set-up-roles-permissions-and-access-for-your-team",
+        "label": "iGMS roles, permissions and property access"
+      },
+      {
+        "url": "https://help.igms.com/en/articles/9927706-how-to-invite-a-team-member",
+        "label": "iGMS team-member invitations"
+      }
+    ],
+    "category": "Software evaluation and operating scope"
   }
 ]
