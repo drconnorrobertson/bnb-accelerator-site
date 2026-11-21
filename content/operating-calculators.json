@@ -1,0 +1,741 @@
+[
+  {
+    "slug": "payout-reconciliation-bridge",
+    "kind": "payout",
+    "title": "Rental Payout Reconciliation Bridge",
+    "description": "Compare an itemized expected payout with the bank receipt using your own records.",
+    "intro": "Use this worksheet when a bank deposit differs from the booking receipts you expected. Enter one reporting currency and one clearly defined payout group. The calculator bridges gross receipts to an expected bank transfer; it does not retrieve transactions, interpret a platform dispute or determine tax treatment. All starting figures are illustrative and must be replaced with your records.",
+    "fields": [
+      {
+        "key": "gross",
+        "label": "Gross receipts in this payout group (currency units)",
+        "value": 1000
+      },
+      {
+        "key": "fees",
+        "label": "Platform and processing deductions (currency units)",
+        "value": 100
+      },
+      {
+        "key": "refunds",
+        "label": "Refund deductions included in this payout (currency units)",
+        "value": 50
+      },
+      {
+        "key": "cohost",
+        "label": "Co-host or manager deductions (currency units)",
+        "value": 200
+      },
+      {
+        "key": "adjustments",
+        "label": "Other deductions; negative means additions (currency units)",
+        "value": 25
+      },
+      {
+        "key": "bank",
+        "label": "Actual bank receipt; negative means debit (currency units)",
+        "value": 625
+      }
+    ],
+    "outputs": {
+      "expected": [
+        "Expected transfer",
+        "money",
+        "currency units"
+      ],
+      "difference": [
+        "Actual minus expected",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Use one transaction group",
+        "text": "Start with a payout reference or a documented group of transfers. Record the report date and whether the gross figure includes taxes, cleaning or other guest charges. Do not combine bookings from one period with bank receipts from another without identifying the timing difference. The same currency must apply to every amount entered in this bridge."
+      },
+      {
+        "title": "Understand the calculation",
+        "text": "Expected transfer equals gross receipts minus the four deduction categories. Other deductions can be negative when the documented item is an addition. The difference equals the actual bank receipt minus that expected amount. A positive difference means more money arrived than the model explains; a negative result means less arrived. Neither sign alone identifies the cause."
+      },
+      {
+        "title": "Worked example",
+        "text": "The example starts with 1,000 currency units of receipts. Deductions are 100 in fees, 50 in refunds, 200 for a co-host and 25 in other adjustments. The expected transfer is 625. An actual receipt of 625 leaves no numerical difference. Replace every category before applying this structure to a real payout; the example does not represent a standard platform fee."
+      },
+      {
+        "title": "Avoid double counting",
+        "text": "A refund already removed from the gross input must not be deducted again. Likewise, a manager fee paid separately from another bank account does not belong in this transfer bridge unless it actually reduced this payout. Keep each source entry beside the field it supports. If one deduction relates to an earlier booking, preserve that booking reference rather than forcing it into the current stay."
+      },
+      {
+        "title": "Resolve the difference",
+        "text": "Compare the result with payment-provider statements and bank records. Investigate processing dates, currency conversion, withheld balances and routing before describing money as missing. Do not change a payout method simply to make the worksheet balance. Record the identified explanation or an open support case, then send the reconciled evidence to the person responsible for the books."
+      }
+    ],
+    "note": "An arithmetic match does not prove every transaction is valid or correctly classified. Use actual payout and bank records.",
+    "related": [
+      "/field-guides/airbnb-payout-adjustment-reconciliation/",
+      "/field-guides/monthly-stay-payout-record/"
+    ]
+  },
+  {
+    "slug": "reservation-change-cash-difference",
+    "kind": "change",
+    "title": "Reservation Change Cash-Difference Calculator",
+    "description": "Separate a booking-price change from the remaining amount to collect or return.",
+    "intro": "A reservation amendment changes the price agreement, but the cash still due also depends on prior payments and approved credits. Use this calculator to keep those two questions separate. Enter original and revised components in the same currency, then record payments already received and credits that are genuinely approved. It does not apply a platform cancellation policy or initiate a charge.",
+    "fields": [
+      {
+        "key": "oldRent",
+        "label": "Original lodging subtotal (currency units)",
+        "value": 600
+      },
+      {
+        "key": "oldFees",
+        "label": "Original fees (currency units)",
+        "value": 100
+      },
+      {
+        "key": "oldTax",
+        "label": "Original taxes (currency units)",
+        "value": 50
+      },
+      {
+        "key": "newRent",
+        "label": "Revised lodging subtotal (currency units)",
+        "value": 800
+      },
+      {
+        "key": "newFees",
+        "label": "Revised fees (currency units)",
+        "value": 100
+      },
+      {
+        "key": "newTax",
+        "label": "Revised taxes (currency units)",
+        "value": 60
+      },
+      {
+        "key": "paid",
+        "label": "Payments already received (currency units)",
+        "value": 750
+      },
+      {
+        "key": "credit",
+        "label": "Additional approved credit (currency units)",
+        "value": 20
+      }
+    ],
+    "outputs": {
+      "original": [
+        "Original total",
+        "money",
+        "currency units"
+      ],
+      "revised": [
+        "Revised total before credit",
+        "money",
+        "currency units"
+      ],
+      "change": [
+        "Revised minus original",
+        "money",
+        "currency units"
+      ],
+      "netDue": [
+        "Net due; negative means potential refund",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Document the accepted amendment",
+        "text": "Use the actual reservation and proposed or accepted change record. Distinguish an estimate sent in a message from a change confirmed through the applicable booking process. Identify which fees or taxes change and which remain fixed. The calculator accepts your figures; it does not establish that a guest owes an amount merely because you enter it."
+      },
+      {
+        "title": "Read the two differences",
+        "text": "Original total and revised total each sum lodging, fees and taxes. The booking-price change is revised total minus original total. Net due is revised total less additional approved credit and payments already received. A negative net due indicates that the entered payments and credit exceed the revised charge, rather than instructing you to issue a refund automatically."
+      },
+      {
+        "title": "Worked example",
+        "text": "The original example totals 750 currency units and the revised components total 960. The booking price increases by 210. Because 750 has already been received and an additional 20 credit is approved, the remaining modeled balance is 190. The distinction matters: charging another 210 would ignore the separate approved credit in this example."
+      },
+      {
+        "title": "Use payment records consistently",
+        "text": "Enter payments on the same basis as the revised price. If a prior refund has already reduced payments retained, use the net amount still held and document that treatment. Do not both net the refund from payments and enter it again as a credit. Do not mix the guest’s total with the owner’s net payout after platform fees."
+      },
+      {
+        "title": "Confirm the actual transaction",
+        "text": "Review the platform or payment provider’s final calculation before charging or refunding. Timing, policy, taxes and fees may produce a different actual result. Keep the accepted amendment, transaction confirmation and worksheet together. An unresolved discrepancy should remain an open item for the responsible operator or adviser rather than being disguised with an unexplained balancing entry."
+      }
+    ],
+    "note": "Positive net due is a modeled balance, not payment authorization. Verify the accepted change and provider rules before acting.",
+    "related": [
+      "/field-guides/reservation-alteration-review/",
+      "/field-guides/vrbo-edited-quote-payment-schedule/"
+    ]
+  },
+  {
+    "slug": "owner-cash-allocation-worksheet",
+    "kind": "allocation",
+    "title": "Owner Cash-Allocation Worksheet",
+    "description": "Model a discretionary allocation after your designated exclusions, bills and reserve.",
+    "intro": "This calculator subtracts amounts you designate from a cash balance and shows the remaining modeled allocation. It does not decide whether guest funds, deposits or other money may legally be distributed. Obtain the relevant agreement and professional guidance first, and enter excluded amounts yourself. The example is a bookkeeping planning exercise, not a recommendation to withdraw funds.",
+    "fields": [
+      {
+        "key": "cash",
+        "label": "Recorded cash balance (currency units)",
+        "value": 3000
+      },
+      {
+        "key": "excluded",
+        "label": "User-designated excluded funds (currency units)",
+        "value": 500
+      },
+      {
+        "key": "bills",
+        "label": "Pending bills to retain cash for (currency units)",
+        "value": 1000
+      },
+      {
+        "key": "reserve",
+        "label": "Owner-selected remaining reserve (currency units)",
+        "value": 2000
+      }
+    ],
+    "outputs": {
+      "designatedBalance": [
+        "Balance after designated amounts",
+        "money",
+        "currency units"
+      ],
+      "allocation": [
+        "Modeled discretionary allocation ceiling",
+        "money",
+        "currency units"
+      ],
+      "shortfall": [
+        "Shortfall against designated amounts",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Define the starting balance",
+        "text": "Use a dated account or ledger balance and identify its scope. Available bank cash and a statement’s ending balance can differ because transactions are pending. Avoid combining money from separate owners or accounts without a reconciled basis. Record the source and date so another reviewer knows exactly which funds were included."
+      },
+      {
+        "title": "Designate exclusions independently",
+        "text": "The excluded-funds input is supplied by you after reviewing applicable obligations. The calculator cannot identify trust money, refundable deposits, taxes, future-stay receipts or contractual restrictions. It does not turn an amount into distributable cash by leaving the field at zero. Keep the basis for each exclusion outside the calculator in the responsible records."
+      },
+      {
+        "title": "Understand the result",
+        "text": "The model subtracts excluded funds, pending bills and the selected reserve from recorded cash. A positive remainder is displayed as the modeled ceiling. A negative remainder displays a zero ceiling and a shortfall. This separates a cash gap from a negative proposed distribution and helps the reviewer see which retained amounts exceed the starting balance."
+      },
+      {
+        "title": "Worked example",
+        "text": "With 3,000 currency units in cash, 500 designated as excluded, 1,000 retained for bills and a 2,000 reserve, the modeled balance is negative 500. The allocation ceiling is zero and the shortfall is 500. If the reserve were reduced, the arithmetic would change, but that would not establish that reducing it is prudent or permitted."
+      },
+      {
+        "title": "Review before a transfer",
+        "text": "Reconcile outstanding payments and verify who may approve an actual distribution. Check whether another owner, lender or agreement imposes restrictions not represented here. Save the assumptions and approval date with any resulting transaction. A numerical ceiling is only as complete as the obligations entered; it is not evidence that an omitted bill or liability disappeared."
+      }
+    ],
+    "note": "User-designated exclusions and reserve are assumptions. This tool does not determine legal availability or authorize distributions.",
+    "related": [
+      "/field-guides/property-manager-vs-bookkeeper/",
+      "/field-guides/airbnb-payout-adjustment-reconciliation/"
+    ]
+  },
+  {
+    "slug": "same-day-turnover-window",
+    "kind": "turnover",
+    "title": "Same-Day Turnover Window Calculator",
+    "description": "Compare cleaning, inspection and between-job travel minutes with a specific arrival window.",
+    "intro": "This is a same-day capacity screen for similar turnovers within one shared time window. It shows both total team-minutes and the estimated longest team assignment when jobs are divided as evenly as possible. It does not build a route or guarantee readiness. All tasks are assumed sequential within a team, and actual addresses, access delays and differing job sizes still need a schedule.",
+    "fields": [
+      {
+        "key": "jobs",
+        "label": "Turnovers in this window (whole jobs)",
+        "value": 3
+      },
+      {
+        "key": "clean",
+        "label": "Cleaning per turnover (minutes)",
+        "value": 80
+      },
+      {
+        "key": "inspect",
+        "label": "Inspection per turnover (minutes)",
+        "value": 10
+      },
+      {
+        "key": "travel",
+        "label": "Travel between jobs on one team (minutes)",
+        "value": 20
+      },
+      {
+        "key": "teams",
+        "label": "Available teams (whole teams)",
+        "value": 2
+      },
+      {
+        "key": "window",
+        "label": "Time from earliest start to required finish (minutes)",
+        "value": 180
+      }
+    ],
+    "outputs": {
+      "required": [
+        "Total modeled labor",
+        "minutes",
+        "team-minutes"
+      ],
+      "capacity": [
+        "Combined team window",
+        "minutes",
+        "team-minutes"
+      ],
+      "slack": [
+        "Combined capacity minus labor",
+        "minutes",
+        "team-minutes"
+      ],
+      "utilization": [
+        "Aggregate utilization",
+        "percent",
+        "percent"
+      ],
+      "singleJob": [
+        "Cleaning plus inspection for one job",
+        "minutes",
+        "minutes"
+      ],
+      "balancedLaneMinutes": [
+        "Longest balanced team assignment",
+        "minutes",
+        "minutes"
+      ],
+      "laneHeadroom": [
+        "Window minus longest assignment",
+        "minutes",
+        "minutes"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Use the same-day window",
+        "text": "Measure from the earliest realistic access time to the required completion time for this group of jobs. Do not use a week’s total working hours. Enter teams that are actually available during this window, not every person on the roster. A team is treated as one work unit with the stated per-job duration."
+      },
+      {
+        "title": "Read aggregate and team results together",
+        "text": "Each job uses cleaning plus inspection minutes. The model adds travel between jobs after the first job assigned to each team. Combined capacity is teams multiplied by the window. The longest balanced assignment uses the ceiling of jobs divided by teams. Negative team headroom warns that the equal-duration jobs do not fit that assignment even if aggregate capacity appears sufficient."
+      },
+      {
+        "title": "Worked example",
+        "text": "Three jobs each need 80 minutes of cleaning and 10 of inspection. Two teams have 180 minutes, and between-job travel takes 20. Modeled labor is 290 team-minutes versus 360 of aggregate capacity. However, one team receives two jobs: 90 plus 20 plus 90 equals 200 minutes. That team is 20 minutes beyond the window despite aggregate spare capacity."
+      },
+      {
+        "title": "Replace the uniform-job assumption",
+        "text": "A larger property, late checkout or separate inspection crew can invalidate equal-duration assumptions. Record actual addresses and earliest access times in a scheduling tool. Add realistic delivery, key and supply tasks to the inputs or schedule rather than hiding them inside apparent slack. This screen cannot establish that an individual contractor can perform work simultaneously at different properties."
+      },
+      {
+        "title": "Use the result for a dispatch decision",
+        "text": "If either aggregate slack or team headroom is negative, revise the plan before promising readiness. Consider authorized staffing, timing or scope changes and recalculate with their actual effects. Even a positive result needs route and task confirmation. Save the version used for dispatch and compare actual durations afterward to improve future estimates without representing the result as a guarantee."
+      }
+    ],
+    "note": "Capacity screen only. Uniform job times and balanced assignment do not prove route feasibility or guaranteed readiness.",
+    "related": [
+      "/field-guides/turnover-cleaning-vs-repair-maintenance/",
+      "/field-guides/airbnb-unavailable-amenity-guest-notice/"
+    ]
+  },
+  {
+    "slug": "linen-par-inventory-gap",
+    "kind": "linen",
+    "title": "Rental Linen Par and Inventory-Gap Calculator",
+    "description": "Estimate compatible sheet and bath sets across use, laundry and chosen spare rounds.",
+    "intro": "Use complete, compatible sets as the unit for this inventory calculation. The model starts with one sheet set per bed and one bath set per planned guest, then adds your chosen laundry and spare rounds. It does not select a hygiene standard or predict laundry turnaround. Enter the actual operational rounds needed for your property and keep incompatible sizes separate.",
+    "fields": [
+      {
+        "key": "beds",
+        "label": "Beds using one complete sheet set each (whole beds)",
+        "value": 3
+      },
+      {
+        "key": "guests",
+        "label": "Guests using one complete bath set each (whole guests)",
+        "value": 4
+      },
+      {
+        "key": "laundry",
+        "label": "Additional full rounds in laundry (whole rounds)",
+        "value": 1
+      },
+      {
+        "key": "spare",
+        "label": "Additional spare rounds you choose (whole rounds)",
+        "value": 1
+      },
+      {
+        "key": "sheets",
+        "label": "Compatible sheet sets on hand (whole sets)",
+        "value": 8
+      },
+      {
+        "key": "towels",
+        "label": "Complete bath sets on hand (whole sets)",
+        "value": 10
+      }
+    ],
+    "outputs": {
+      "rounds": [
+        "Total use, laundry and spare rounds",
+        "count",
+        "rounds"
+      ],
+      "requiredSheets": [
+        "Modeled sheet-set requirement",
+        "count",
+        "sets"
+      ],
+      "requiredTowels": [
+        "Modeled bath-set requirement",
+        "count",
+        "sets"
+      ],
+      "sheetGap": [
+        "Additional compatible sheet sets",
+        "count",
+        "sets"
+      ],
+      "towelGap": [
+        "Additional complete bath sets",
+        "count",
+        "sets"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Define a complete set",
+        "text": "Decide what belongs in a sheet or bath set before counting inventory. The calculator treats each set as interchangeable within the group. A king set cannot automatically replace a twin set, and loose towels are not necessarily complete bath sets. Run separate calculations for incompatible bed sizes or different service standards rather than pooling everything into one number."
+      },
+      {
+        "title": "Model laundry overlap",
+        "text": "A laundry round is an additional full turnover quantity unavailable because it is being processed. The spare-round input represents a separate reserve you choose for damage, delays or other needs. Neither input is a recommendation. Check actual laundry pickup, wash, drying and return timing before deciding how many rounds can be unavailable together."
+      },
+      {
+        "title": "Worked example",
+        "text": "Three beds and four guests require three sheet sets and four bath sets for one use round. One additional laundry round and one chosen spare round bring the total to three rounds: nine sheet sets and twelve bath sets. With eight compatible sheet sets and ten complete bath sets on hand, the model shows gaps of one and two sets respectively."
+      },
+      {
+        "title": "Count usable stock honestly",
+        "text": "Exclude stained, damaged, incompatible or unavailable items from on-hand quantities unless they can actually be used in the modeled cycle. Avoid counting the same set at two properties or both at the laundry and on the shelf. Keep the inventory date and the definition of each set with the result so another team member can repeat the count."
+      },
+      {
+        "title": "Convert the gap into an order",
+        "text": "Check package contents, sizes and actual delivery timing before purchasing. A displayed gap is measured in complete sets, not retail packages. Review storage and replacement needs separately. After the next busy turnover period, compare the model with actual shortages or excess stock and adjust the chosen rounds; the calculation does not guarantee that every laundry disruption is covered."
+      }
+    ],
+    "note": "Inventory arithmetic only. Run separate groups for incompatible linen sizes and define complete sets consistently.",
+    "related": [
+      "/field-guides/turnover-cleaning-vs-repair-maintenance/",
+      "/tools/same-day-turnover-window/"
+    ]
+  },
+  {
+    "slug": "consumable-reorder-planner",
+    "kind": "reorder",
+    "title": "Rental Consumable Reorder Planner",
+    "description": "Estimate a reorder point and whole-pack order from your usage and lead-time assumptions.",
+    "intro": "This planner uses one consumable measured in one consistent unit, such as rolls, pods or bottles. Enter observed use per occupied night, expected occupied nights per week and delivery lead time. The result is a stock-planning calculation, not a demand forecast or supplier guarantee. Review shortages and actual consumption before treating the assumptions as a recurring purchasing rule.",
+    "fields": [
+      {
+        "key": "use",
+        "label": "Units used per occupied night (units/night)",
+        "value": 2
+      },
+      {
+        "key": "nights",
+        "label": "Expected occupied nights per week (nights/week)",
+        "value": 10
+      },
+      {
+        "key": "lead",
+        "label": "Delivery lead time (weeks)",
+        "value": 2
+      },
+      {
+        "key": "safety",
+        "label": "Chosen safety stock (units)",
+        "value": 10
+      },
+      {
+        "key": "onHand",
+        "label": "Usable units currently on hand (units)",
+        "value": 25
+      },
+      {
+        "key": "onOrder",
+        "label": "Confirmed units already on order (units)",
+        "value": 15
+      },
+      {
+        "key": "targetWeeks",
+        "label": "Target coverage after order (weeks)",
+        "value": 4
+      },
+      {
+        "key": "pack",
+        "label": "Units in one purchasable pack (whole units)",
+        "value": 12
+      }
+    ],
+    "outputs": {
+      "weekly": [
+        "Modeled weekly use",
+        "units",
+        "units/week"
+      ],
+      "reorderPoint": [
+        "Lead-time use plus safety stock",
+        "units",
+        "units"
+      ],
+      "inventoryPosition": [
+        "On-hand plus on-order inventory",
+        "units",
+        "units"
+      ],
+      "reorderGap": [
+        "Shortfall below reorder point",
+        "units",
+        "units"
+      ],
+      "packs": [
+        "Whole packs to target stock",
+        "count",
+        "packs"
+      ],
+      "coverageWeeks": [
+        "On-hand coverage at modeled use",
+        "weeks",
+        "weeks"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Choose a consistent usage basis",
+        "text": "Occupied nights here are the combined nights for the inventory group, not necessarily calendar nights at one property. Keep the units-per-night measure consistent with that group. If you track use per guest-night, convert both inputs to that basis before using the planner. Do not mix guest-nights and property-nights in the same calculation."
+      },
+      {
+        "title": "Understand both stock figures",
+        "text": "The reorder point equals modeled use during delivery lead time plus your chosen safety stock. Inventory position is usable on-hand stock plus confirmed units on order. The suggested order compares that position with target-week use plus safety stock and rounds upward to whole packs. It does not account for an unconfirmed order or a shipment arriving after the need date. Packs to target is a quantity comparison, not an automatic instruction to order before reaching your reorder point."
+      },
+      {
+        "title": "Worked example",
+        "text": "Two units per occupied night across ten occupied nights per week give twenty units of weekly use. With a two-week lead time and ten safety units, the reorder point is fifty units. Twenty-five on hand plus fifteen on order make forty. A four-week target plus safety stock is ninety, leaving fifty units to purchase, rounded to five packs of twelve."
+      },
+      {
+        "title": "Interpret zero use and lead time",
+        "text": "When modeled use is zero, on-hand coverage in weeks is not defined; the calculator displays that instead of dividing by zero. Safety stock can still affect a target. Zero delivery lead time is allowed as an assumption, but it is not a supplier promise. Test a delayed delivery or busier occupancy case before relying on a small inventory buffer."
+      },
+      {
+        "title": "Review the actual purchase",
+        "text": "Check pack size, usable storage, expiration and delivery date. Confirm that on-order stock has not been counted twice after receiving it. Keep a dated usage sample and investigate unusual consumption rather than automatically raising the order every time. A numerical reorder point supports purchasing decisions without determining which product or supplier is appropriate."
+      }
+    ],
+    "note": "Whole-pack rounding may create stock above the target. Lead time and expected use are entered assumptions, not guarantees.",
+    "related": [
+      "/field-guides/turnover-cleaning-vs-repair-maintenance/",
+      "/tools/linen-par-inventory-gap/"
+    ]
+  },
+  {
+    "slug": "maintenance-quote-cost-comparison",
+    "kind": "quote",
+    "title": "Maintenance Quote Cost Comparison",
+    "description": "Normalize two itemized cost estimates without ranking contractor quality or scope.",
+    "intro": "Compare the arithmetic in two maintenance proposals after confirming that their work scopes are comparable. Each estimate has a callout charge, labor rate and hours, materials, material markup and a separately entered tax amount. No tax rule or provider quality is inferred. The lower modeled total is not automatically the better proposal, and estimated hours are not a fixed-price commitment.",
+    "fields": [
+      {
+        "key": "calloutA",
+        "label": "Quote A callout charge (currency units)",
+        "value": 50
+      },
+      {
+        "key": "rateA",
+        "label": "Quote A labor rate (currency units/hour)",
+        "value": 60
+      },
+      {
+        "key": "hoursA",
+        "label": "Quote A labor estimate (hours)",
+        "value": 2
+      },
+      {
+        "key": "materialsA",
+        "label": "Quote A base materials (currency units)",
+        "value": 100
+      },
+      {
+        "key": "markupA",
+        "label": "Quote A materials markup (percent)",
+        "value": 20
+      },
+      {
+        "key": "taxA",
+        "label": "Quote A quoted tax amount (currency units)",
+        "value": 0
+      },
+      {
+        "key": "calloutB",
+        "label": "Quote B callout charge (currency units)",
+        "value": 30
+      },
+      {
+        "key": "rateB",
+        "label": "Quote B labor rate (currency units/hour)",
+        "value": 70
+      },
+      {
+        "key": "hoursB",
+        "label": "Quote B labor estimate (hours)",
+        "value": 2
+      },
+      {
+        "key": "materialsB",
+        "label": "Quote B base materials (currency units)",
+        "value": 90
+      },
+      {
+        "key": "markupB",
+        "label": "Quote B materials markup (percent)",
+        "value": 10
+      },
+      {
+        "key": "taxB",
+        "label": "Quote B quoted tax amount (currency units)",
+        "value": 0
+      }
+    ],
+    "outputs": {
+      "totalA": [
+        "Quote A modeled total",
+        "money",
+        "currency units"
+      ],
+      "totalB": [
+        "Quote B modeled total",
+        "money",
+        "currency units"
+      ],
+      "difference": [
+        "A minus B; positive means A costs more",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Compare scope before numbers",
+        "text": "List the defect, diagnosis, proposed work, parts, disposal and completion evidence in each proposal. A repair and a replacement may address the same symptom differently. Identify exclusions and required approvals. Do not describe the proposals as equivalent merely because they concern the same appliance or room; this calculator does not evaluate technical adequacy."
+      },
+      {
+        "title": "Use the stated fee structure",
+        "text": "The model adds callout, labor rate multiplied by hours, materials including the entered markup and the quoted tax amount. If a provider already includes markup in its materials figure, enter zero markup to avoid counting it twice. If a visit charge includes labor time, adjust the hours to the separately chargeable amount and document the interpretation."
+      },
+      {
+        "title": "Worked example",
+        "text": "Quote A uses a fifty-unit callout, two hours at sixty, one hundred of materials with twenty percent markup and no separately entered tax. Its total is 290. Quote B uses thirty, two hours at seventy and ninety of materials with ten percent markup, totaling 269. The difference is twenty-one currency units, before considering scope or contractual differences."
+      },
+      {
+        "title": "Stress-test estimated hours",
+        "text": "A time-and-materials estimate can change when work takes longer. Recalculate with a plausible higher number of hours taken from the provider’s explanation, rather than inventing a universal contingency. Check whether the contract has a cap, minimum charge or further authorization requirement that this simple model does not represent. Obtain a revised quote when the scope changes."
+      },
+      {
+        "title": "Keep selection separate",
+        "text": "Review qualifications, insurance where relevant, scheduling, warranties and the actual work specification outside the calculator. Record the reason for choosing a provider, including any nonprice factors. Do not present the output as a contractor ranking or proof that a repair is necessary. Save the accepted scope and final invoice so estimated and actual costs can be compared later."
+      }
+    ],
+    "note": "Cost comparison only. Enter tax from the proposal; no jurisdictional tax treatment, repair necessity or provider quality is determined.",
+    "related": [
+      "/field-guides/turnover-cleaning-vs-repair-maintenance/",
+      "/field-guides/general-contractor-vs-owner-representative/"
+    ]
+  },
+  {
+    "slug": "payout-currency-reconciliation",
+    "kind": "fx",
+    "title": "Payout Currency Reconciliation Calculator",
+    "description": "Compare a converted payout with a bank entry using an entered rate and destination-currency fees.",
+    "intro": "Use this calculator to reproduce a currency conversion already documented by a payment provider or to check an explicitly labeled assumption. It does not supply an exchange rate or recommend when to exchange money. Enter the rate as destination-currency units for one source-currency unit. All fees and the bank receipt must be expressed in the destination currency.",
+    "fields": [
+      {
+        "key": "source",
+        "label": "Payout amount in source currency; refunds may be negative",
+        "value": 1000
+      },
+      {
+        "key": "rate",
+        "label": "Destination units per one source unit",
+        "value": 1.1
+      },
+      {
+        "key": "fee",
+        "label": "Fees in destination currency (nonnegative)",
+        "value": 5
+      },
+      {
+        "key": "received",
+        "label": "Actual bank amount in destination currency; debit may be negative",
+        "value": 1095
+      }
+    ],
+    "outputs": {
+      "converted": [
+        "Source amount multiplied by rate",
+        "money",
+        "destination units"
+      ],
+      "expected": [
+        "Converted amount less entered fees",
+        "money",
+        "destination units"
+      ],
+      "difference": [
+        "Actual bank amount minus expected",
+        "money",
+        "destination units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Name both currencies in your records",
+        "text": "Record the source and destination currency codes beside the saved calculation. A number alone does not identify whether the rate should be multiplied or divided. This calculator always multiplies the source amount by destination units per source unit. Convert an inverse quote before entering it, using the provider’s documented rate rather than a guessed current rate."
+      },
+      {
+        "title": "Trace the actual conversion",
+        "text": "Identify which institution performed the conversion and which fees appear separately. A platform, intermediary and receiving bank can each have a different role. Enter only fees expressed in the destination currency. If a fee was deducted from the source amount first, either use the net source amount with an explanation or reconcile that fee separately; do not deduct it twice."
+      },
+      {
+        "title": "Worked example",
+        "text": "A source payout of 1,000 multiplied by a rate of 1.10 produces 1,100 destination units. Subtracting five destination units of fees gives an expected bank amount of 1,095. A bank receipt of 1,095 leaves zero difference. These are illustrative numbers, not an available exchange quote or a forecast of future conversion costs."
+      },
+      {
+        "title": "Handle refunds and rounding",
+        "text": "A negative source amount can represent a refund or reversal and produces a negative converted amount at a positive rate. The rate itself must be greater than zero. Results display two decimal places while calculations retain precision internally. Some currencies and providers use different minor-unit conventions; reconcile the provider’s actual rounding rather than assuming every currency uses two decimal places."
+      },
+      {
+        "title": "Investigate an unexplained difference",
+        "text": "Check value dates, fee currency, rate direction and whether several transfers were combined in one bank entry. Keep the original provider and bank records with any explanation. A remaining difference is not by itself proof of an error or unauthorized charge. Refer accounting or tax conversion-method questions to the responsible adviser; this tool only applies the entered arithmetic."
+      }
+    ],
+    "note": "Reconciliation only. The rate is user-entered; displayed rounding may differ from a provider or currency’s minor-unit rules.",
+    "related": [
+      "/field-guides/airbnb-payout-currency-change-record/",
+      "/tools/payout-reconciliation-bridge/"
+    ]
+  }
+]
