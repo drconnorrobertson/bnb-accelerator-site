@@ -1,0 +1,32 @@
+"""Build eight original operating calculators and their crawlable discovery links."""
+from pathlib import Path
+import hashlib,html,json,re,xml.etree.ElementTree as ET
+ROOT=Path(__file__).resolve().parents[1];ORIGIN='https://www.bnbaccelerator.com';DATE='2026-11-20'
+def esc(s):return html.escape(str(s),quote=True)
+def version(path):return hashlib.sha256((ROOT/path).read_bytes()).hexdigest()[:12]
+def main():
+ items=json.loads((ROOT/'content/operating-calculators.json').read_text());assert len(items)==8
+ css='/assets/field-guides.css?v='+version('assets/field-guides.css');js='/assets/operating-calculators.mjs?v='+version('assets/operating-calculators.mjs')
+ for x in items:
+  route='/tools/'+x['slug']+'/';url=ORIGIN+route
+  fields=''
+  for f in x['fields']:
+   minimum='' if (x['kind']=='payout' and f['key'] in ['adjustments','bank']) or (x['kind']=='fx' and f['key'] in ['source','received']) else ' min="0"'
+   fields+='<label for="field-'+esc(f['key'])+'">'+esc(f['label'])+'<input id="field-'+esc(f['key'])+'" name="'+esc(f['key'])+'" data-field="'+esc(f['key'])+'" type="number" step="any" inputmode="decimal" value="'+esc(f['value'])+'"'+minimum+' required></label>'
+  schema={'@context':'https://schema.org','@type':'WebApplication','name':x['title'],'url':url,'applicationCategory':'BusinessApplication','operatingSystem':'Web browser','description':x['description'],'isAccessibleForFree':True}
+  sections=''.join('<section><h2>'+esc(s['title'])+'</h2><p>'+esc(s['text'])+'</p></section>' for s in x['sections'])
+  related=''.join('<li><a href="'+esc(p)+'">'+esc(p.strip('/').split('/')[-1].replace('-',' ').capitalize())+'</a></li>' for p in x['related'])
+  out='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(x['title'])+' | BNB Accelerator</title><meta name="description" content="'+esc(x['description'])+'"><meta name="robots" content="index, follow"><link rel="canonical" href="'+url+'"><meta property="og:type" content="website"><meta property="og:url" content="'+url+'"><meta property="og:title" content="'+esc(x['title'])+'"><meta property="og:description" content="'+esc(x['description'])+'"><link rel="stylesheet" href="'+css+'"><script type="module" src="'+js+'"></script><script type="application/ld+json">'+json.dumps(schema).replace('<','\\u003c')+'</script><style>h1,h2,a,dd{overflow-wrap:anywhere}header nav a{display:inline-flex;align-items:center;min-height:44px}.calc-inputs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:16px}.calc-inputs label{margin:0;min-width:0}input[type=number]{display:block;box-sizing:border-box;width:100%;min-height:48px;font:inherit;font-size:16px;padding:12px;border:1px solid #a5aaa0;border-radius:3px;background:#fff;color:#182b2a}.calc-actions{display:flex;flex-wrap:wrap;gap:12px}.calc-actions button{min-height:44px;margin:12px 0}.calc-result{padding:20px;border:1px solid #d7d5ca;background:#fff;border-radius:6px}.calc-result dl{margin:0}.calc-result dt{font-weight:600}.calc-result dd{margin:0 0 16px}.calc-error{color:#8b1e1e;min-height:1.5em}.review-date{font-size:14px;color:#59625d}@media print{form{display:none}}</style></head><body><a class="skip" href="#main">Skip to content</a><header><a href="/">BNB Accelerator</a><nav aria-label="Primary"><a href="/tools/">All calculators</a><a href="/field-guides/">Field guides</a></nav></header><main id="main"><p class="eyebrow">Operating worksheet and calculator</p><h1>'+esc(x['title'])+'</h1><p class="review-date">AI-assisted editorial guide and tool · Published November 20, 2026</p><p class="lead">'+esc(x['intro'])+'</p><section aria-labelledby="calc-heading"><h2 id="calc-heading">Enter your assumptions</h2><p>The starting values are a hypothetical worked example, not your property data. Calculations run in your browser; entries are not submitted or saved after a reload. Use one consistent currency where money is involved.</p><form data-operating-calculator="'+esc(x['kind'])+'" novalidate><div class="calc-inputs">'+fields+'</div><div class="calc-actions"><button type="submit">Calculate</button><button type="button" data-reset-example>Restore worked example</button></div><p class="calc-error" data-error role="alert"></p></form><div class="calc-result" data-results role="status" aria-live="polite" aria-label="Calculation results"></div><script type="application/json" data-output-labels>'+json.dumps(x['outputs']).replace('<','\\u003c')+'</script><p data-result-note>'+esc(x['note'])+'</p></section>'+sections+'<section><h2>Continue the operating review</h2><ul>'+related+'<li><a href="/tools/">All calculators and buyer tools</a></li></ul></section></main><footer><p>BNB Accelerator · Examples are hypothetical. Calculators organize entered assumptions and do not establish legal permissions, professional approval or guaranteed performance.</p></footer></body></html>'
+  p=ROOT/route.strip('/')/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(out)
+ hub=ROOT/'tools/index.html';text=hub.read_text();text=re.sub(r'<!-- operating-tools:start -->.*?<!-- operating-tools:end -->','',text,flags=re.S)
+ cards=''.join('<li><a href="/tools/'+esc(x['slug'])+'/">'+esc(x['title'])+'</a><p>'+esc(x['description'])+'</p></li>' for x in items)
+ block='<!-- operating-tools:start --><section><div class="container"><h2>Operating calculators and reconciliation worksheets</h2><p>Use your own records and assumptions for booking cash differences, same-day work capacity, supplies and payment reconciliation. These tools run locally in your browser.</p><ul>'+cards+'</ul></div></section><!-- operating-tools:end -->'
+ assert '</main>' in text;hub.write_text(text.replace('</main>',block+'</main>'))
+ ns='http://www.sitemaps.org/schemas/sitemap/0.9';ET.register_namespace('',ns);root=ET.Element('{'+ns+'}urlset')
+ for x in items:
+  u=ET.SubElement(root,'{'+ns+'}url');ET.SubElement(u,'{'+ns+'}loc').text=ORIGIN+'/tools/'+x['slug']+'/';ET.SubElement(u,'{'+ns+'}lastmod').text=DATE
+ ET.ElementTree(root).write(ROOT/'sitemap-operating-tools.xml',encoding='utf-8',xml_declaration=True)
+ p=ROOT/'sitemap.xml';s=p.read_text();needle=ORIGIN+'/sitemap-operating-tools.xml'
+ if needle not in s:s=s.replace('</sitemapindex>','<sitemap><loc>'+needle+'</loc></sitemap></sitemapindex>');p.write_text(s)
+ print(json.dumps({'newOperatingCalculators':len(items),'date':DATE,'scriptVersion':version('assets/operating-calculators.mjs')}))
+if __name__=='__main__':main()
