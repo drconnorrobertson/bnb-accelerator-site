@@ -19,6 +19,12 @@ function catalog(dir, prefix = '') {
 }
 catalog(process.cwd());
 const overrides = {
+ '/proformas/': ['STR Property Screening & Pro Forma Examples | BNB Accelerator', 'Compare selected STR screening records, asking prices and projected revenue. Review assumptions, missing expenses and financing before evaluating a purchase.'],
+ '/blog/guest-communication-templates/': ['Airbnb Guest Message Templates: Booking to Checkout', 'Plan Airbnb messages from booking confirmation to checkout. Review timing, arrival instructions, guest questions and follow-up templates for your rental.'],
+ '/data/': ['STR Market Data: Revenue, Nightly Rates & Occupancy', 'Compare estimated short-term rental revenue, nightly rates and occupancy across 20 US markets. Review the methodology before using figures in a purchase model.'],
+ '/blog/airbnb-property-management/': ['Airbnb Property Management: Fees, Co-Hosts & Self-Management', 'Compare Airbnb property management, co-hosting and self-management. Review fees, owner workload, contract scope and tax coordination before choosing support.'],
+ '/blog/airbnb-automation-tools/': ['Airbnb Automation Tools: Locks, Messages & Pricing', 'Build an Airbnb automation checklist for smart locks, guest messages, pricing, channel management and cleaner dispatch. Identify what still needs local support.'],
+ '/compare/best-str-financing-options/': ['STR Financing Options: DSCR, Conventional & Cash', 'Compare six short-term rental financing paths, loan terms and cash needed to close. Stress-test the same property before choosing a financing structure.'],
  '/answers/what-is-revpar/': ['RevPAR Definition, Formula & STR Calculator | BNB Accelerator', 'RevPAR is room revenue per available night. Calculate it from revenue and availability, compare ADR and occupancy, and see why it does not measure profit.'],
  '/blog/airbnb-dynamic-pricing-tools/': ['Airbnb Dynamic Pricing: PriceLabs, Beyond and Wheelhouse', 'Compare PriceLabs, Beyond and Wheelhouse for Airbnb dynamic pricing. Learn how base rates, minimum stays and booking pace affect your pricing setup.'],
  '/blog/airbnb-occupancy-rates-explained/': ['Airbnb Occupancy Rates: Calculation and Revenue Tradeoffs', 'Learn how to calculate Airbnb occupancy, account for blocked nights and compare occupancy with ADR and RevPAR before underwriting a rental property.'],
