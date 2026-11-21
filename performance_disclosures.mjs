@@ -7,7 +7,8 @@ export function normalizePerformanceDisclosures(html, path) {
     '<strong>4.5/5</strong> on Trustpilot',
     '<a href="/reviews/client-experience-and-review-sources/">Review sources and dates</a>'
   );
-  output = output.replaceAll('href="/reviews/"', 'href="/reviews/client-experience-and-review-sources/"');
+  // /reviews/ is the source directory. Preserve links to it: rewriting them
+  // to the evidence overview made its 'Browse the directory' link point to itself.
   if (/^case-studies\/.+\/index\.html$/.test(path)) {
     output = output.replace(
       /\$[\d,]+ a year in cash flow on \$[\d,]+ of cash invested, a [\d.]+% cash-on-cash return\./g,
