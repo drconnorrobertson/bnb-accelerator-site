@@ -227,7 +227,10 @@
     "remote-buying",
     "Buying an STR Remotely",
     "Coordinate property evidence, independent inspections, approvals and access when buying outside your home market.",
-    "/buy-a-short-term-rental/",
+    {
+      "url": "/blog/buying-airbnb-out-of-state/",
+      "label": "Remote-purchase evidence and acceptance register"
+    },
     [
       [
         "What evidence should I request if I cannot tour the property?",
