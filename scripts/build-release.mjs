@@ -8,6 +8,7 @@ const steps = [
   [process.execPath, ['scripts/instrument-conversions.mjs', 'public', 'preserve-home']],
   [process.execPath, ['scripts/repair-index-discovery.mjs', 'public']],
   ['python3', ['scripts/curate-indexing.py', 'public']],
+  ['python3', ['scripts/sync-site-index.py', 'public']],
   [process.execPath, ['scripts/contextual-crosslinks.cjs', 'public']],
   [process.execPath, ['scripts/brand-check.mjs', 'public']],
   ['python3', ['scripts/check-production-seo.py', 'public']],
