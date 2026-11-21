@@ -1,4 +1,12 @@
 export const specs={
+ contract:{retainer:[0],rateA:[0],rateB:[0],turns:[0,true]},
+ replacement:{unitCost:[0],quantity:[0,true],months:[1,true],assigned:[0]},
+ channel:{gross:[0],percentA:[0],fixedA:[0],percentB:[0],fixedB:[0]},
+ staycost:{turnover:[0],variable:[0],nightsA:[1,true],nightsB:[1,true]},
+ project:{base:[0],delivery:[0],other:[0],contingency:[0],budget:[0]},
+ utility:{usageA:[0],daysA:[1,true],usageB:[0],daysB:[1,true]},
+ backlog:{backlog:[0],people:[0,true],hours:[0],recurring:[0]},
+ installments:{total:[0],paid:[0],reduction:[0],count:[1,true]},
  payout:{gross:[0],fees:[0],refunds:[0],cohost:[0],adjustments:[null],bank:[null]},
  change:{oldRent:[0],oldFees:[0],oldTax:[0],newRent:[0],newFees:[0],newTax:[0],paid:[0],credit:[0]},
  allocation:{cash:[0],excluded:[0],bills:[0],reserve:[0]},
@@ -17,6 +25,14 @@ export function calculate(kind,input){
   if(positive&&value<=0)throw new Error('The window or exchange rate must be greater than zero.');
  }
  const v=input;let result;
+ if(kind==='contract'){const totalA=v.retainer+v.rateA*v.turns,totalB=v.rateB*v.turns;result={totalA,totalB,difference:totalA-totalB,crossing:v.rateB===v.rateA?null:v.retainer/(v.rateB-v.rateA)};}
+ if(kind==='replacement'){const target=v.unitCost*v.quantity,gap=Math.max(0,target-v.assigned);result={target,gap,monthly:gap/v.months,surplus:Math.max(0,v.assigned-target)};}
+ if(kind==='channel'){const feesA=v.gross*v.percentA/100+v.fixedA,feesB=v.gross*v.percentB/100+v.fixedB;result={feesA,feesB,netA:v.gross-feesA,netB:v.gross-feesB,difference:feesB-feesA};}
+ if(kind==='staycost'){const totalA=v.turnover+v.variable*v.nightsA,totalB=v.turnover+v.variable*v.nightsB;result={totalA,perNightA:totalA/v.nightsA,totalB,perNightB:totalB/v.nightsB,difference:totalA/v.nightsA-totalB/v.nightsB};}
+ if(kind==='project'){const subtotal=v.base+v.delivery+v.other,allowance=subtotal*v.contingency/100;result={subtotal,allowance,planned:subtotal+allowance,variance:v.budget-subtotal-allowance};}
+ if(kind==='utility'){const dailyA=v.usageA/v.daysA,dailyB=v.usageB/v.daysB;result={dailyA,dailyB,difference:dailyB-dailyA,percent:dailyA===0?null:(dailyB-dailyA)/dailyA*100};}
+ if(kind==='backlog'){const gross=v.people*v.hours,capacity=gross-v.recurring,weeks=v.backlog===0?0:capacity<=0?null:v.backlog/capacity;result={gross,capacity,weeks,wholeWeeks:weeks===null?null:Math.ceil(weeks)};}
+ if(kind==='installments'){for(const x of [v.total,v.paid,v.reduction])if(!Number.isSafeInteger(Math.round(x*100))||Math.abs(x*100-Math.round(x*100))>0.000001)throw new Error('Payment amounts must use no more than two decimal places.');const balanceCents=Math.max(0,Math.round(v.total*100)-Math.round(v.paid*100)-Math.round(v.reduction*100)),regularCents=Math.floor(balanceCents/v.count);result={balance:balanceCents/100,regular:regularCents/100,last:(balanceCents-regularCents*(v.count-1))/100,overpaid:Math.max(0,Math.round(v.paid*100)+Math.round(v.reduction*100)-Math.round(v.total*100))/100};}
  if(kind==='payout'){const expected=v.gross-v.fees-v.refunds-v.cohost-v.adjustments;result={expected,difference:v.bank-expected};}
  if(kind==='change'){const original=v.oldRent+v.oldFees+v.oldTax,revised=v.newRent+v.newFees+v.newTax;result={original,revised,change:revised-original,netDue:revised-v.credit-v.paid};}
  if(kind==='allocation'){const remainder=v.cash-v.excluded-v.bills-v.reserve;result={designatedBalance:remainder,allocation:Math.max(0,remainder),shortfall:Math.max(0,-remainder)};}
@@ -37,7 +53,7 @@ function setup(){
   try{
    const values={};for(const field of form.querySelectorAll('input[data-field]')){if(field.value.trim()==='')throw new Error('Complete every field; enter 0 where appropriate.');values[field.dataset.field]=field.valueAsNumber;}
    const results=calculate(kind,values);const dl=document.createElement('dl');
-   for(const [key,value] of Object.entries(results)){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=labels[key][0];dd.textContent=value===null?'Not defined when use is zero':value.toLocaleString('en-US',{minimumFractionDigits:labels[key][1]==='count'?0:2,maximumFractionDigits:labels[key][1]==='count'?0:2})+' '+labels[key][2];dl.append(dt,dd);}
+   for(const [key,value] of Object.entries(results)){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=labels[key][0];dd.textContent=value===null?'Not defined for these inputs':value.toLocaleString('en-US',{minimumFractionDigits:labels[key][1]==='count'?0:2,maximumFractionDigits:labels[key][1]==='count'?0:2})+' '+labels[key][2];dl.append(dt,dd);}
    output.append(dl);
   }catch(e){error.textContent=e.message;}
  };

@@ -162,11 +162,11 @@
       },
       {
         "title": "Use payment records consistently",
-        "text": "Enter payments on the same basis as the revised price. If a prior refund has already reduced payments retained, use the net amount still held and document that treatment. Do not both net the refund from payments and enter it again as a credit. Do not mix the guest’s total with the owner’s net payout after platform fees."
+        "text": "Enter payments on the same basis as the revised price. If a prior refund has already reduced payments retained, use the net amount still held and document that treatment. Do not both net the refund from payments and enter it again as a credit. Do not mix the guest\u2019s total with the owner\u2019s net payout after platform fees."
       },
       {
         "title": "Confirm the actual transaction",
-        "text": "Review the platform or payment provider’s final calculation before charging or refunding. Timing, policy, taxes and fees may produce a different actual result. Keep the accepted amendment, transaction confirmation and worksheet together. An unresolved discrepancy should remain an open item for the responsible operator or adviser rather than being disguised with an unexplained balancing entry."
+        "text": "Review the platform or payment provider\u2019s final calculation before charging or refunding. Timing, policy, taxes and fees may produce a different actual result. Keep the accepted amendment, transaction confirmation and worksheet together. An unresolved discrepancy should remain an open item for the responsible operator or adviser rather than being disguised with an unexplained balancing entry."
       }
     ],
     "note": "Positive net due is a modeled balance, not payment authorization. Verify the accepted change and provider rules before acting.",
@@ -223,7 +223,7 @@
     "sections": [
       {
         "title": "Define the starting balance",
-        "text": "Use a dated account or ledger balance and identify its scope. Available bank cash and a statement’s ending balance can differ because transactions are pending. Avoid combining money from separate owners or accounts without a reconciled basis. Record the source and date so another reviewer knows exactly which funds were included."
+        "text": "Use a dated account or ledger balance and identify its scope. Available bank cash and a statement\u2019s ending balance can differ because transactions are pending. Avoid combining money from separate owners or accounts without a reconciled basis. Record the source and date so another reviewer knows exactly which funds were included."
       },
       {
         "title": "Designate exclusions independently",
@@ -326,7 +326,7 @@
     "sections": [
       {
         "title": "Use the same-day window",
-        "text": "Measure from the earliest realistic access time to the required completion time for this group of jobs. Do not use a week’s total working hours. Enter teams that are actually available during this window, not every person on the roster. A team is treated as one work unit with the stated per-job duration."
+        "text": "Measure from the earliest realistic access time to the required completion time for this group of jobs. Do not use a week\u2019s total working hours. Enter teams that are actually available during this window, not every person on the roster. A team is treated as one work unit with the stated per-job duration."
       },
       {
         "title": "Read aggregate and team results together",
@@ -652,7 +652,7 @@
       },
       {
         "title": "Stress-test estimated hours",
-        "text": "A time-and-materials estimate can change when work takes longer. Recalculate with a plausible higher number of hours taken from the provider’s explanation, rather than inventing a universal contingency. Check whether the contract has a cap, minimum charge or further authorization requirement that this simple model does not represent. Obtain a revised quote when the scope changes."
+        "text": "A time-and-materials estimate can change when work takes longer. Recalculate with a plausible higher number of hours taken from the provider\u2019s explanation, rather than inventing a universal contingency. Check whether the contract has a cap, minimum charge or further authorization requirement that this simple model does not represent. Obtain a revised quote when the scope changes."
       },
       {
         "title": "Keep selection separate",
@@ -713,7 +713,7 @@
     "sections": [
       {
         "title": "Name both currencies in your records",
-        "text": "Record the source and destination currency codes beside the saved calculation. A number alone does not identify whether the rate should be multiplied or divided. This calculator always multiplies the source amount by destination units per source unit. Convert an inverse quote before entering it, using the provider’s documented rate rather than a guessed current rate."
+        "text": "Record the source and destination currency codes beside the saved calculation. A number alone does not identify whether the rate should be multiplied or divided. This calculator always multiplies the source amount by destination units per source unit. Convert an inverse quote before entering it, using the provider\u2019s documented rate rather than a guessed current rate."
       },
       {
         "title": "Trace the actual conversion",
@@ -725,17 +725,637 @@
       },
       {
         "title": "Handle refunds and rounding",
-        "text": "A negative source amount can represent a refund or reversal and produces a negative converted amount at a positive rate. The rate itself must be greater than zero. Results display two decimal places while calculations retain precision internally. Some currencies and providers use different minor-unit conventions; reconcile the provider’s actual rounding rather than assuming every currency uses two decimal places."
+        "text": "A negative source amount can represent a refund or reversal and produces a negative converted amount at a positive rate. The rate itself must be greater than zero. Results display two decimal places while calculations retain precision internally. Some currencies and providers use different minor-unit conventions; reconcile the provider\u2019s actual rounding rather than assuming every currency uses two decimal places."
       },
       {
         "title": "Investigate an unexplained difference",
         "text": "Check value dates, fee currency, rate direction and whether several transfers were combined in one bank entry. Keep the original provider and bank records with any explanation. A remaining difference is not by itself proof of an error or unauthorized charge. Refer accounting or tax conversion-method questions to the responsible adviser; this tool only applies the entered arithmetic."
       }
     ],
-    "note": "Reconciliation only. The rate is user-entered; displayed rounding may differ from a provider or currency’s minor-unit rules.",
+    "note": "Reconciliation only. The rate is user-entered; displayed rounding may differ from a provider or currency\u2019s minor-unit rules.",
     "related": [
       "/field-guides/airbnb-payout-currency-change-record/",
       "/tools/payout-reconciliation-bridge/"
     ]
+  },
+  {
+    "slug": "turnover-contract-break-even",
+    "kind": "contract",
+    "title": "Turnover Contract Break-Even Calculator",
+    "description": "Compare a monthly retainer plus a per-turn charge with a purely per-turn quote.",
+    "intro": "Two cleaning proposals can have different cost structures even when they cover the same work. This calculator compares one monthly retainer plus a per-turn charge against another per-turn charge. Enter the same property, service scope and month for both proposals. The starting values illustrate the arithmetic; they are not market prices.",
+    "fields": [
+      {
+        "key": "retainer",
+        "label": "Monthly retainer for option A (currency units)",
+        "value": 300
+      },
+      {
+        "key": "rateA",
+        "label": "Additional charge per turnover for A",
+        "value": 60
+      },
+      {
+        "key": "rateB",
+        "label": "Charge per turnover for option B",
+        "value": 100
+      },
+      {
+        "key": "turns",
+        "label": "Expected turnovers in the month (whole turnovers)",
+        "value": 10
+      }
+    ],
+    "outputs": {
+      "totalA": [
+        "Option A monthly cost",
+        "money",
+        "currency units"
+      ],
+      "totalB": [
+        "Option B monthly cost",
+        "money",
+        "currency units"
+      ],
+      "difference": [
+        "A minus B",
+        "money",
+        "currency units"
+      ],
+      "crossing": [
+        "Equal-cost turnover count, when rates differ",
+        "number",
+        "turnovers"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Match the scope first",
+        "text": "Before entering a rate, compare what the quote covers: linen handling, supply replenishment, inspection, travel and unusual checkout conditions. A lower number for a smaller scope is not a saving on equivalent work. Add known compulsory charges consistently or record them outside the model. The calculator treats the two entered service structures as complete for the selected month."
+      },
+      {
+        "title": "Read the crossover",
+        "text": "Option A equals the monthly retainer plus its per-turn charge multiplied by turnover count. Option B is its per-turn charge multiplied by the same count. Equal cost occurs at retainer divided by the difference between B\u2019s and A\u2019s per-turn rates. If the rates are equal, there is no unique crossover. A negative crossover does not describe an attainable nonnegative workload."
+      },
+      {
+        "title": "Worked example",
+        "text": "With a 300 retainer, 60 per turn for A and 100 per turn for B, ten turns cost 900 under A and 1,000 under B. The numerical crossover is 7.5 turns. Because actual turnovers are whole jobs, compare seven and eight jobs individually before describing a threshold. At eight turns A is 780 and B is 800."
+      },
+      {
+        "title": "Test a quieter month",
+        "text": "Replace the expected count with a plausible quieter month and retain the same quoted rates. At five turns the example changes to 600 for A and 500 for B. This does not determine which contract to sign: minimum terms, cancellation provisions and the provider\u2019s ability to deliver the work remain separate facts. Save the dated proposals alongside the scenarios."
+      }
+    ],
+    "note": "Costs exclude anything not entered. A fractional crossover is a mathematical point, not a billable job.",
+    "related": [
+      "/tools/same-day-turnover-window/",
+      "/tools/maintenance-quote-cost-comparison/"
+    ],
+    "published": "2026-11-21"
+  },
+  {
+    "slug": "rental-replacement-reserve",
+    "kind": "replacement",
+    "title": "Rental Replacement Reserve Worksheet",
+    "description": "Spread a chosen replacement target over the months remaining in your plan.",
+    "intro": "Build a simple reserve schedule for one group of comparable items, such as mattresses or patio chairs. Enter your chosen future replacement cost, item count, months until purchase and cash already assigned to that group. This model spreads the remaining gap evenly. It does not predict product life or establish an accounting depreciation schedule.",
+    "fields": [
+      {
+        "key": "unitCost",
+        "label": "Planned future cost per item (currency units)",
+        "value": 450
+      },
+      {
+        "key": "quantity",
+        "label": "Items to replace (whole items)",
+        "value": 4
+      },
+      {
+        "key": "months",
+        "label": "Months until planned purchase (whole months)",
+        "value": 24
+      },
+      {
+        "key": "assigned",
+        "label": "Cash already assigned to this group",
+        "value": 600
+      }
+    ],
+    "outputs": {
+      "target": [
+        "Total planned replacement cost",
+        "money",
+        "currency units"
+      ],
+      "gap": [
+        "Remaining funding gap",
+        "money",
+        "currency units"
+      ],
+      "monthly": [
+        "Equal monthly contribution to close gap",
+        "money",
+        "currency units"
+      ],
+      "surplus": [
+        "Assigned cash above target",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Define one replacement group",
+        "text": "Use items with a shared replacement date and cost basis. Separate groups with different sizes, delivery requirements or purchase timing. Enter a future cost that you selected from an actual quote or documented assumption, including the charges you intend to fund. A current retail listing is not a promise that the same price will be available when the purchase occurs."
+      },
+      {
+        "title": "Count only assigned cash",
+        "text": "Use money specifically assigned to this group in your own plan. The worksheet does not determine whether the cash is available to spend or subject to other obligations. If several reserve worksheets are used, do not count the same cash in each. Maintain a separate register connecting the amount entered here to the overall cash plan."
+      },
+      {
+        "title": "Worked example",
+        "text": "Four items at 450 each create a target of 1,800. With 600 already assigned, the remaining gap is 1,200. Over 24 months, the equal monthly contribution is 50. If assigned cash exceeds the target, the contribution becomes zero and the surplus is shown separately. The model does not withdraw money or move it between accounts."
+      },
+      {
+        "title": "Revisit the plan when facts change",
+        "text": "Update the worksheet if a quote changes, an item fails earlier or the purchase date moves. A shorter remaining period can substantially increase the monthly amount. Keep the prior version so the reason for the change is visible. Interest, inflation and tax treatment are not modeled; incorporate those questions separately when they matter to the decision."
+      }
+    ],
+    "note": "The purchase date and future cost are user assumptions. Keep each reserve group separate to avoid counting cash twice.",
+    "related": [
+      "/tools/owner-cash-allocation-worksheet/",
+      "/tools/first-str-purchase-budget/"
+    ],
+    "published": "2026-11-21"
+  },
+  {
+    "slug": "booking-channel-net-proceeds",
+    "kind": "channel",
+    "title": "Booking Channel Net-Proceeds Comparison",
+    "description": "Compare two entered fee structures against one equal gross booking amount.",
+    "intro": "Use this comparison when two booking routes quote different percentage and fixed charges. Enter the same gross booking amount for both and identify which costs actually apply to each route. The result is a narrow net-proceeds comparison, not a claim that a direct booking or particular platform is always better.",
+    "fields": [
+      {
+        "key": "gross",
+        "label": "Same gross booking amount for both routes",
+        "value": 1000
+      },
+      {
+        "key": "percentA",
+        "label": "Route A percentage charge (%)",
+        "value": 3
+      },
+      {
+        "key": "fixedA",
+        "label": "Route A fixed charges",
+        "value": 0
+      },
+      {
+        "key": "percentB",
+        "label": "Route B percentage charge (%)",
+        "value": 2.9
+      },
+      {
+        "key": "fixedB",
+        "label": "Route B fixed charges",
+        "value": 20
+      }
+    ],
+    "outputs": {
+      "feesA": [
+        "Modeled charges for A",
+        "money",
+        "currency units"
+      ],
+      "feesB": [
+        "Modeled charges for B",
+        "money",
+        "currency units"
+      ],
+      "netA": [
+        "Modeled proceeds for A",
+        "money",
+        "currency units"
+      ],
+      "netB": [
+        "Modeled proceeds for B",
+        "money",
+        "currency units"
+      ],
+      "difference": [
+        "A proceeds minus B proceeds",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Choose a consistent gross basis",
+        "text": "Confirm the base on which each percentage actually applies. This model applies both rates to the single gross figure entered. If a provider applies its fee to a different subtotal, calculate that amount from its actual statement before using an equivalent rate here, or compare the statement manually. Do not mix a guest\u2019s full bill with an owner\u2019s already reduced payout."
+      },
+      {
+        "title": "Include only relevant fixed costs",
+        "text": "The fixed-charge fields represent amounts allocated to this one booking. They may include a transaction charge or a documented allocation you choose. Do not allocate a monthly subscription in one route while ignoring an equivalent cost in the other without identifying the difference. Advertising, refunds and customer-service work are outside the model unless you deliberately include their amounts."
+      },
+      {
+        "title": "Worked example",
+        "text": "On a gross amount of 1,000, route A at three percent with no fixed charge costs 30 and leaves 970. Route B at 2.9 percent plus 20 costs 49 and leaves 951. The modeled proceeds difference is 19 in favor of A. These sample percentages are illustrative inputs, not current fees for any named provider."
+      },
+      {
+        "title": "Keep commercial differences visible",
+        "text": "Payment timing, distribution reach, dispute handling and booking terms can differ even when the arithmetic favors one route. Keep those facts beside the cost comparison. A negative net result is possible if entered charges exceed gross receipts; it signals the input scenario rather than a payment instruction. Reconcile the actual completed booking against its provider statement."
+      }
+    ],
+    "note": "Percentage charges use the entered gross amount. The example names no provider and contains no current fee claim.",
+    "related": [
+      "/tools/payout-reconciliation-bridge/",
+      "/field-guides/direct-booking-payment-account-transition/"
+    ],
+    "published": "2026-11-21"
+  },
+  {
+    "slug": "stay-length-turnover-cost",
+    "kind": "staycost",
+    "title": "Stay-Length Turnover Cost Calculator",
+    "description": "See how one fixed turnover cost is spread across different stay lengths.",
+    "intro": "A fixed cleaning or preparation cost creates a different cost per occupied night for a two-night stay and a seven-night stay. This tool spreads one entered turnover cost over two stay lengths and adds your selected variable cost per occupied night. It does not set a nightly price or apply a booking platform\u2019s fee rules.",
+    "fields": [
+      {
+        "key": "turnover",
+        "label": "Fixed cost per completed stay",
+        "value": 140
+      },
+      {
+        "key": "variable",
+        "label": "Variable operating cost per occupied night",
+        "value": 20
+      },
+      {
+        "key": "nightsA",
+        "label": "Length of stay A (whole nights)",
+        "value": 2
+      },
+      {
+        "key": "nightsB",
+        "label": "Length of stay B (whole nights)",
+        "value": 7
+      }
+    ],
+    "outputs": {
+      "totalA": [
+        "Modeled operating cost for stay A",
+        "money",
+        "currency units"
+      ],
+      "perNightA": [
+        "Cost per occupied night for A",
+        "money",
+        "currency units per night"
+      ],
+      "totalB": [
+        "Modeled operating cost for stay B",
+        "money",
+        "currency units"
+      ],
+      "perNightB": [
+        "Cost per occupied night for B",
+        "money",
+        "currency units per night"
+      ],
+      "difference": [
+        "A minus B cost per occupied night",
+        "money",
+        "currency units per night"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Define the cost categories",
+        "text": "Put costs incurred once per completed stay in the turnover field. Put the selected costs that change with each occupied night in the variable field. A supply item used once per booking should not also be included per night. The model assumes the entered turnover cost is the same for both lengths; if a longer stay changes the cleaning scope, calculate that difference separately."
+      },
+      {
+        "title": "Read total and nightly cost together",
+        "text": "Total cost equals turnover cost plus nightly variable cost multiplied by stay length. Cost per occupied night divides that total by the number of nights. A longer stay usually spreads the fixed component more widely, but its total cost can still be higher. Neither result measures revenue, margin or the cost of nights left empty around the reservation."
+      },
+      {
+        "title": "Worked example",
+        "text": "With a fixed turnover cost of 140 and variable cost of 20 per night, two nights cost 180 in total or 90 per occupied night. Seven nights cost 280 in total or 40 per occupied night. The difference is 50 per occupied night. This is the effect of the selected cost assumptions, not a recommendation for a minimum-stay rule."
+      },
+      {
+        "title": "Apply the scenario carefully",
+        "text": "Compare the result with the actual reservation pattern, staffing arrangement and service scope. If a linen change or mid-stay service occurs only after a certain length, the simple model needs a separate calculation. Keep taxes, debt service and other omitted costs visible elsewhere. Review the platform\u2019s current settings before making any operational change; this tool does not change a listing."
+      }
+    ],
+    "note": "Only the entered cost categories are modeled. Cost per occupied night is not a recommended selling price.",
+    "related": [
+      "/tools/turnover-contract-break-even/",
+      "/field-guides/airbnb-minimum-stay-gap-review/"
+    ],
+    "published": "2026-11-21"
+  },
+  {
+    "slug": "rental-project-budget-variance",
+    "kind": "project",
+    "title": "Rental Project Budget and Contingency Worksheet",
+    "description": "Compare committed work with a selected contingency and the available project budget.",
+    "intro": "Use this worksheet for a defined furnishing or maintenance project with a base quote and known additional costs. Apply a contingency percentage that you choose to the combined cost base, then compare the result with the budget. This is an arithmetic scenario; the percentage does not establish how much uncertainty a project actually carries.",
+    "fields": [
+      {
+        "key": "base",
+        "label": "Base quoted work",
+        "value": 5000
+      },
+      {
+        "key": "delivery",
+        "label": "Delivery and installation excluded from base",
+        "value": 600
+      },
+      {
+        "key": "other",
+        "label": "Other known project costs",
+        "value": 400
+      },
+      {
+        "key": "contingency",
+        "label": "Chosen contingency on combined base (%)",
+        "value": 10
+      },
+      {
+        "key": "budget",
+        "label": "Available project budget",
+        "value": 6500
+      }
+    ],
+    "outputs": {
+      "subtotal": [
+        "Known cost subtotal",
+        "money",
+        "currency units"
+      ],
+      "allowance": [
+        "Chosen contingency allowance",
+        "money",
+        "currency units"
+      ],
+      "planned": [
+        "Subtotal plus allowance",
+        "money",
+        "currency units"
+      ],
+      "variance": [
+        "Budget minus planned total",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Establish the base quote",
+        "text": "Identify the dated quote, included work and exclusions before entering the base amount. The delivery field is for charges not already included in that quote. The other-cost field is for known items rather than a balancing amount. If a vendor revises the scope, update the underlying quote reference so the worksheet can still be traced to the actual proposal."
+      },
+      {
+        "title": "Choose what the allowance covers",
+        "text": "This tool applies the chosen percentage to base work, delivery and other known costs combined. It does not apply the percentage only to labor or to selected line items. Record the intended purpose of the allowance and keep known work out of it. An uncertainty that can be priced now belongs in the cost subtotal rather than being hidden in an arbitrary percentage."
+      },
+      {
+        "title": "Worked example",
+        "text": "Base work of 5,000, delivery and installation of 600, and other known costs of 400 produce a 6,000 subtotal. A ten-percent selected allowance adds 600, creating a planned total of 6,600. Against a 6,500 budget, the variance is negative 100. A negative figure means the modeled total exceeds the entered budget."
+      },
+      {
+        "title": "Track commitments separately",
+        "text": "A budget is not a bank balance or proof that spending is approved. Keep signed commitments, deposits and completed payments in a separate project record. When an allowance is used for identified work, revise the known-cost subtotal and decide whether any remaining allowance should change. Avoid adding the same expense to both committed costs and the contingency balance."
+      }
+    ],
+    "note": "The contingency is user-selected and applies to the entire known-cost subtotal. No risk allowance is recommended.",
+    "related": [
+      "/tools/maintenance-quote-cost-comparison/",
+      "/tools/rental-replacement-reserve/"
+    ],
+    "published": "2026-11-21"
+  },
+  {
+    "slug": "utility-usage-period-normalizer",
+    "kind": "utility",
+    "title": "Rental Utility Usage Period Normalizer",
+    "description": "Compare meter usage per calendar day across two unequal billing periods.",
+    "intro": "Utility bills covering different numbers of days are difficult to compare using totals alone. This tool divides each period\u2019s recorded consumption by its calendar days and shows the daily difference. Use the same meter, measurement unit and reading basis. The result normalizes period length; it does not isolate the effect of guests, weather or equipment.",
+    "fields": [
+      {
+        "key": "usageA",
+        "label": "Recorded consumption in period A (same units)",
+        "value": 900
+      },
+      {
+        "key": "daysA",
+        "label": "Calendar days in period A (whole days)",
+        "value": 30
+      },
+      {
+        "key": "usageB",
+        "label": "Recorded consumption in period B (same units)",
+        "value": 840
+      },
+      {
+        "key": "daysB",
+        "label": "Calendar days in period B (whole days)",
+        "value": 28
+      }
+    ],
+    "outputs": {
+      "dailyA": [
+        "A consumption per calendar day",
+        "number",
+        "units per day"
+      ],
+      "dailyB": [
+        "B consumption per calendar day",
+        "number",
+        "units per day"
+      ],
+      "difference": [
+        "B minus A daily consumption",
+        "number",
+        "units per day"
+      ],
+      "percent": [
+        "Change from A, when A is nonzero",
+        "percent",
+        "percent"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Match the readings",
+        "text": "Use consumption, such as electricity units or water volume, rather than the bill\u2019s currency total. Charges can contain fixed fees and adjustments unrelated to consumption. Confirm whether the readings are actual or estimated and keep that basis with the worksheet. Do not compare different meters or different measurement units merely because both bills use the same provider."
+      },
+      {
+        "title": "Count the billing days",
+        "text": "Use the period length supported by the bill or the dated meter readings. A calendar month label does not establish that every bill covers the same number of days. The calculator requires a positive whole-day count and does not decide whether a provider includes one or both endpoint dates. Follow the source record\u2019s stated period consistently."
+      },
+      {
+        "title": "Worked example",
+        "text": "Period A uses 900 units over 30 days, giving 30 units per day. Period B uses 840 units over 28 days, also giving 30 units per day. The lower total in B does not represent a reduction in daily consumption. The normalized difference is zero and the percentage change is zero. This demonstrates why totals alone can mislead."
+      },
+      {
+        "title": "Investigate rather than infer causation",
+        "text": "A daily difference may reflect weather, occupancy, leaks, equipment changes or a corrected reading. The worksheet does not identify which factor caused it. Use separate records and qualified follow-up for the actual question. If A has zero consumption, a percentage change from A is undefined; the absolute daily difference remains available. Keep tariffs and bill costs in a separate comparison."
+      }
+    ],
+    "note": "Use one measurement unit throughout. Period normalization does not establish efficiency or explain a usage change.",
+    "related": [
+      "/tools/rental-project-budget-variance/",
+      "/field-guides/home-energy-score-buyer-review/"
+    ],
+    "published": "2026-11-21"
+  },
+  {
+    "slug": "maintenance-backlog-capacity",
+    "kind": "backlog",
+    "title": "Rental Maintenance Backlog Capacity Calculator",
+    "description": "Compare planned task hours with the weekly hours assigned to a maintenance backlog.",
+    "intro": "Use this capacity screen for a backlog that has already been assessed and assigned estimated work hours. It subtracts recurring work from a team\u2019s scheduled weekly hours and compares the remaining capacity with the one-time backlog. It does not prioritize safety issues, authorize repairs or build a contractor schedule.",
+    "fields": [
+      {
+        "key": "backlog",
+        "label": "One-time backlog estimate (work hours)",
+        "value": 48
+      },
+      {
+        "key": "people",
+        "label": "Available workers (whole people)",
+        "value": 2
+      },
+      {
+        "key": "hours",
+        "label": "Scheduled hours per person per week",
+        "value": 20
+      },
+      {
+        "key": "recurring",
+        "label": "Team hours reserved for recurring work per week",
+        "value": 24
+      }
+    ],
+    "outputs": {
+      "gross": [
+        "Total scheduled team hours per week",
+        "number",
+        "hours per week"
+      ],
+      "capacity": [
+        "Remaining backlog capacity per week",
+        "number",
+        "hours per week"
+      ],
+      "weeks": [
+        "Continuous-capacity time to clear backlog",
+        "number",
+        "weeks"
+      ],
+      "wholeWeeks": [
+        "Whole weekly periods required",
+        "count",
+        "weeks"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Build the backlog estimate",
+        "text": "Use task-level estimates from the people qualified to assess the work. Include access, preparation, cleanup and expected coordination where relevant. Separate work that needs a specialist from tasks the entered team can perform. The tool treats all backlog hours as compatible with the remaining team capacity, so a mixed trade backlog needs separate calculations or a real schedule."
+      },
+      {
+        "title": "Reserve recurring work once",
+        "text": "Enter recurring work as a total for the team, not per person. Scheduled team hours equal worker count multiplied by hours per person. Remaining capacity is that total less recurring hours. If the remainder is zero or negative, the model cannot calculate a completion time; increasing the calendar horizon does not create capacity that has not been assigned."
+      },
+      {
+        "title": "Worked example",
+        "text": "Two workers scheduled for 20 hours each provide 40 team hours weekly. Reserving 24 hours for recurring work leaves 16 for the backlog. A 48-hour backlog takes three continuous-capacity weeks. If only 15 hours remain, the continuous result is 3.2 weeks and four whole weekly periods are required. Partial-week arithmetic does not specify a completion day."
+      },
+      {
+        "title": "Check dependencies before promising a date",
+        "text": "Parts delivery, guest access, trade availability and task sequence can make elapsed time longer than this capacity screen. Record those constraints separately and review urgent work through the appropriate process. After each work period, update the remaining backlog with completed tasks and revised estimates. Do not count a task as finished solely because its estimated hours have been spent."
+      }
+    ],
+    "note": "Uniform available hours are assumed. No completion date is guaranteed; tasks may require different workers or dependencies.",
+    "related": [
+      "/tools/same-day-turnover-window/",
+      "/tools/rental-project-budget-variance/"
+    ],
+    "published": "2026-11-21"
+  },
+  {
+    "slug": "payment-installment-balance",
+    "kind": "installments",
+    "title": "Rental Payment Installment Balance Worksheet",
+    "description": "Reconcile an agreed total against payments and an approved adjustment before dividing a remaining balance.",
+    "intro": "Use this worksheet to review a payment schedule that the parties have already agreed. Enter the total, net payments retained, any approved reduction and the number of remaining equal installments. The tool calculates a balance and a rounding-aware split; it does not establish a debt, change a reservation or authorize collection.",
+    "fields": [
+      {
+        "key": "total",
+        "label": "Agreed total in currency units",
+        "value": 1200
+      },
+      {
+        "key": "paid",
+        "label": "Net payments already retained",
+        "value": 300
+      },
+      {
+        "key": "reduction",
+        "label": "Additional approved reduction",
+        "value": 25
+      },
+      {
+        "key": "count",
+        "label": "Remaining equal installments (whole installments)",
+        "value": 3
+      }
+    ],
+    "outputs": {
+      "balance": [
+        "Remaining modeled balance",
+        "money",
+        "currency units"
+      ],
+      "regular": [
+        "First installments, rounded down to cents",
+        "money",
+        "currency units"
+      ],
+      "last": [
+        "Final installment including rounding remainder",
+        "money",
+        "currency units"
+      ],
+      "overpaid": [
+        "Payments and reduction above total",
+        "money",
+        "currency units"
+      ]
+    },
+    "sections": [
+      {
+        "title": "Use the accepted schedule",
+        "text": "Match the total to the accepted reservation or written agreement and identify what it includes. Enter net payments retained after any prior refunds, and do not deduct those refunds again as a new reduction. A proposed discount is not an approved adjustment. Keep the agreement, provider payment record and any accepted change together so the arithmetic can be reviewed."
+      },
+      {
+        "title": "Understand the split",
+        "text": "The remaining balance is the greater of zero and total less retained payments and the approved reduction. The tool divides the balance into the entered count, rounding the first installments down to cents and assigning the remainder to the final one. It assumes a currency with two decimal places. It does not calculate interest, late fees or a provider\u2019s installment rules."
+      },
+      {
+        "title": "Worked example",
+        "text": "An agreed total of 1,200 less 300 retained and a 25 approved reduction leaves 875. Across three installments, the first two are 291.66 each and the last is 291.68. Together they equal 875. If retained payments plus the reduction exceed the total, the balance is zero and the excess appears separately instead of creating negative installments."
+      },
+      {
+        "title": "Reconcile the actual collection",
+        "text": "Confirm due dates and allowed payment methods through the relevant booking or payment system. A balance on this screen does not make a charge permissible. After each actual payment, update the retained amount and remaining count from the provider record. If a dispute or pending payment exists, identify it separately rather than treating an uncertain amount as settled cash."
+      }
+    ],
+    "note": "Two-decimal currency rounding only. This worksheet neither authorizes a charge nor applies platform-specific payment rules.",
+    "related": [
+      "/tools/reservation-change-cash-difference/",
+      "/field-guides/vrbo-edited-quote-payment-schedule/"
+    ],
+    "published": "2026-11-21"
   }
 ]
