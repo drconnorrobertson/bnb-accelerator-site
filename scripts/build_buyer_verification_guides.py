@@ -15,7 +15,7 @@ def main():
  guides=json.loads((ROOT/'content/buyer-verification-guides.json').read_text());routes=[]
  for g in guides:
   path=HUB+g['slug']+'/';routes.append(path)
-  body='<p class="eyebrow">Buyer verification and operating handoffs</p><h1>'+e(g['title'])+'</h1><p class="review-date">AI-assisted editorial guide · Published November 20, 2026</p><p class="lead">'+e(g['intro'])+'</p><nav class="guide-nav" aria-label="On this page">'+link('#decision','Decision process')+link('#checklist','Checklist')+link('#sources','Official sources')+'</nav><div id="decision">'
+  body='<p class="eyebrow">'+e(g.get('category','Buyer verification and operating handoffs'))+'</p><h1>'+e(g['title'])+'</h1><p class="review-date">AI-assisted editorial guide · Published November 20, 2026</p><p class="lead">'+e(g['intro'])+'</p><nav class="guide-nav" aria-label="On this page">'+link('#decision','Decision process')+link('#checklist','Checklist')+link('#sources','Official sources')+'</nav><div id="decision">'
   body+=''.join('<section><h2>'+e(s['title'])+'</h2><p>'+e(s['text'])+'</p></section>' for s in g['sections'])+'</div>'
   body+='<section id="checklist"><h2>Prepare the evidence and next action</h2><ul>'+''.join('<li>'+e(s)+'</li>' for s in g['checklist'])+'</ul></section>'
   body+='<section id="sources"><h2>Official sources and review scope</h2><p>Sources checked November 20, 2026. This guide supports preparation; it does not certify safety, determine compliance, confirm coverage or establish investment performance.</p><ul>'+''.join('<li>'+link(s['url'],s['label'])+'</li>' for s in g['sources'])+'</ul></section>'
