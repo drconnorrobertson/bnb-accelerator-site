@@ -2,6 +2,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 const cwd = fileURLToPath(new URL('../', import.meta.url));
 const steps = [
+  ['python3', ['scripts/build_buyer_verification_guides.py']],
   ['python3', ['scripts/refresh_comparison_intent.py']],
   [process.execPath, ['build_public.mjs']],
   ['python3', ['scripts/commercial-comparisons.py', 'public']],
