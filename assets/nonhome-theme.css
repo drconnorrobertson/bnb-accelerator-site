@@ -89,3 +89,5 @@ body.bnb-theme .cta-band .btn.btn-primary { color: #fff; }
 .bnb-theme .bnb-close { width: 44px; height: 44px; }
 .bnb-theme .btn:focus-visible,
 .bnb-theme .bnb-close:focus-visible { outline: 3px solid #101828; outline-offset: 4px; }
+
+[data-worksheet] fieldset label:has(input[type=checkbox]){display:flex;align-items:flex-start;gap:10px;min-height:44px;padding:8px 0;line-height:1.5}[data-worksheet] fieldset input[type=checkbox]{flex:0 0 19px;margin:3px 0 0}

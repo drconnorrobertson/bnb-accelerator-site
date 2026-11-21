@@ -3058,5 +3058,937 @@
         "label": "CFPB guide to closing participants"
       }
     ]
+  },
+  {
+    "slug": "airbnb-no-show-response-record",
+    "title": "Airbnb Guest No-Show: Build a Response Record",
+    "description": "Organize contact attempts and reservation status without treating a delayed arrival as a cancellation.",
+    "intro": "An empty property after the expected arrival time does not by itself establish that an Airbnb guest has canceled. The guest may be delayed or unable to use a phone while traveling. Airbnb advises hosts to contact the guest and report an unresponsive no-show to support for next steps. Use a concise record so the next operator can see what is known without guessing from scattered messages.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Confirm which arrival is being discussed",
+        "text": "Record the reservation reference, property, scheduled check-in and the arrival information actually supplied by the guest. Check the current reservation status in the account. Distinguish an expected arrival estimate from a contractual or platform deadline. Do not mark a booking canceled, reopen dates or promise a refund merely because an informal arrival time has passed."
+      },
+      {
+        "title": "Preserve the guest-facing instructions",
+        "text": "Check that the guest received the correct address and current access information through the established channel. Record any known delivery problem or recent instruction change. The purpose is to identify a possible communication failure, not to infer the guest’s location from surveillance. Keep access credentials out of broadly shared incident notes and limit the record to necessary operational facts."
+      },
+      {
+        "title": "Document reasonable contact attempts",
+        "text": "Use the reservation’s Airbnb message thread and the available contact options described by the platform. Note the time, channel and whether a response arrived. Keep wording factual and helpful: ask whether travel plans changed and whether arrival assistance is needed. Avoid repeated pressure, accusations or claims that nonresponse automatically forfeits every right under the booking."
+      },
+      {
+        "title": "Escalate with a compact case summary",
+        "text": "If the guest remains unresponsive, contact Airbnb using the reservation and follow its instructions. Supply the timeline and current status rather than asking support to reconstruct the issue from unrelated screenshots. Record the case reference and the action actually authorized. An open support case is not the same as a completed cancellation or approval to charge another fee."
+      },
+      {
+        "title": "Work through a delayed-flight example",
+        "text": "Imagine a guest expected at dinner time sends a late message that a connection was missed. Update the arrival plan and confirm access for the revised time if the stay continues. Keep the original reservation and later message linked. If the guest instead asks to change or cancel, use the applicable platform process rather than overwriting the no-show record with an assumed outcome."
+      },
+      {
+        "title": "Close the exception deliberately",
+        "text": "Save the final status, guest response and any support decision. Tell the next shift whether the reservation remains active and which tasks still need attention. Review whether the original instructions caused avoidable confusion, but do not turn one travel delay into a blanket new guest restriction. The completed record should distinguish observations, communications and final decisions."
+      }
+    ],
+    "checklist": [
+      "Reservation reference and current status",
+      "Scheduled and guest-stated arrival times",
+      "Instruction delivery check",
+      "Dated contact attempts",
+      "Support case and authorized next step",
+      "Final arrival or cancellation outcome"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/309",
+        "label": "Airbnb guidance when a guest does not show up"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/arrival-guide-guest-view-check/",
+        "label": "Check the Arrival Guide From a Guest’s Perspective"
+      },
+      {
+        "url": "/field-guides/reservation-alteration-review/",
+        "label": "Review a Guest Trip-Change Request Before Accepting"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-payout-adjustment-reconciliation",
+    "title": "Reconcile an Airbnb Payout Adjustment",
+    "description": "Trace an adjustment from its booking to later payouts without recording the same refund twice.",
+    "intro": "An Airbnb payout can differ from the amount expected for the current stay because an adjustment relates to another reservation. Airbnb describes adjustments arising from cancellations, reservation changes or refund-policy issues, with amounts deducted from later payouts. Build a transaction trail before classifying the difference as a missing payment. The worksheet is an operational reconciliation aid, not a determination of tax treatment.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Capture the original adjustment",
+        "text": "Open the earnings record in the authenticated account and identify the adjustment reference, amount, currency and connected reservation. Save the platform’s description and effective date. Do not rely only on the bank deposit, which may combine several booking amounts. Keep original records when downloading a revised report so the change can be explained later."
+      },
+      {
+        "title": "Separate source event from collection",
+        "text": "Record why the adjustment arose and when Airbnb collected it through later payouts. Those may occur in different periods. A booking cancellation record and a later deduction can describe the same financial event, so avoid posting both as unrelated expenses. Give the bookkeeper the connected references and let the agreed accounting process determine the correct entries."
+      },
+      {
+        "title": "Review routing and shared payouts",
+        "text": "Airbnb explains that payout routing and co-host arrangements can affect how an adjustment is distributed. Identify the settings applicable to the affected booking and the later payout. Do not assume the owner’s bank account bears the entire amount. Ask the relevant parties for their records before requesting a separate reimbursement that might duplicate a platform deduction."
+      },
+      {
+        "title": "Build a worked reconciliation",
+        "text": "For an illustrative case, a prior stay has an adjustment and a new stay produces an otherwise expected payout. List the new booking amount, the separately identified prior adjustment and the resulting transfer. Match the transfer to the bank entry by reference and currency. The example establishes a method; use actual platform figures rather than a made-up percentage rule."
+      },
+      {
+        "title": "Route a disagreement accurately",
+        "text": "If the reason or amount is unclear, contact support with the linked reservation and adjustment references. Distinguish a disagreement with the original decision from a problem tracing collection. Preserve the support response and any revision. Do not change account or payment settings simply to test whether the deduction disappears, and do not assume a pending case suspends collection."
+      },
+      {
+        "title": "Finish with an exception balance",
+        "text": "Record any remaining amount and the next payout in which it appears. Give the owner and bookkeeper one reconciled summary with supporting files. If the account offers a way to pay an outstanding adjustment directly, review its eligibility and terms before acting. A cleared balance closes this reconciliation task without proving how every underlying dispute was resolved."
+      }
+    ],
+    "checklist": [
+      "Adjustment and reservation references",
+      "Original event and collection dates",
+      "Amount and currency",
+      "Routing and co-host impact",
+      "Bank-transfer match",
+      "Remaining balance and support outcome"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/366",
+        "label": "Airbnb explanation of earnings adjustments"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/monthly-stay-payout-record/",
+        "label": "Reconcile Monthly-Stay Payout Timing"
+      },
+      {
+        "url": "/field-guides/airbnb-cohost-payout-change-review/",
+        "label": "Review an Airbnb Co-Host Payout Change"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-security-deposit-eligibility",
+    "title": "Check Airbnb Security-Deposit Eligibility Before Collection",
+    "description": "Document account eligibility, disclosure and the authorized collection process.",
+    "intro": "A security deposit, an insurance product and a reimbursement request are different arrangements. Airbnb’s current pricing and payment policy limits off-platform collection and describes exceptions for some hosts, including select software-connected hosts. Do not infer eligibility from another host’s setup or from a field in third-party software. Resolve the applicable account rule before publishing a deposit requirement or requesting money.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Name the proposed arrangement",
+        "text": "Describe whether the owner is proposing a refundable deposit, a nonrefundable fee, a card authorization or a third-party product. Record who would hold the money and what the guest would see. Avoid using the same label for different products. A proposed deposit workflow should be understandable before anyone is asked to decide whether Airbnb permits it."
+      },
+      {
+        "title": "Verify the account-specific permission",
+        "text": "Read the current Airbnb policy and ask support or the connected provider to clarify the setup where necessary. Record the applicable exception and its scope. A provider’s ability to collect a payment is not proof that the platform permits that collection for your listing. Keep the confirmation and date with the account’s operating procedures."
+      },
+      {
+        "title": "Audit the prebooking disclosure",
+        "text": "Where an arrangement is allowed, verify the required disclosure in the appropriate pricing field and the guest’s total-price presentation. Test representative dates and guest counts without making a real booking. Listing prose alone may not satisfy a requirement to include a charge in a structured field. Save evidence of what was displayed before booking, not just a later edited description."
+      },
+      {
+        "title": "Test an integration mismatch",
+        "text": "Suppose software displays a deposit setting while the Airbnb account’s eligibility remains uncertain. Leave the proposed collection inactive until the relevant rule is resolved. Ask the provider which data is transmitted and where the guest sees it. Do not send a surprise external payment link to compensate for a missing disclosure or an unsupported integration behavior."
+      },
+      {
+        "title": "Define release and dispute records",
+        "text": "For a permitted arrangement, document authorization, collection, release timing and dispute handling under the actual terms. Keep payment data within the approved provider instead of copying card information into local notes. Do not describe a deposit as covering every type of loss or guaranteeing reimbursement. Escalate conflicting contract or legal questions to a qualified adviser."
+      },
+      {
+        "title": "Maintain a dated policy decision",
+        "text": "Assign an owner to review the workflow when platform rules, software or listing ownership changes. Stop using outdated screenshots as proof of current eligibility. Record a clear approved, unresolved or not-supported status, with the reason and next step. This avoids turning an administrative assumption into a guest-facing payment demand. Include the integration name and listing identifier in the decision record so approval for one account is not mistakenly reused for another property."
+      }
+    ],
+    "checklist": [
+      "Exact deposit or product type",
+      "Current account eligibility evidence",
+      "Prebooking pricing-field disclosure",
+      "Collection and release provider",
+      "Dispute and data-handling process",
+      "Review date and decision owner"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/2799",
+        "label": "Airbnb pricing, payment and security-deposit policy"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-extra-payment-request-review/",
+        "label": "Review an Extra Payment Request on an Airbnb Booking"
+      },
+      {
+        "url": "/field-guides/airbnb-payout-adjustment-reconciliation/",
+        "label": "Reconcile an Airbnb Payout Adjustment"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-pet-fee-configuration-review",
+    "title": "Review Airbnb Pet-Fee Configuration and Guest Quotes",
+    "description": "Check the fee basis and displayed total while routing assistance-animal questions separately.",
+    "intro": "An ordinary-pet fee should be configured and disclosed through the platform’s permitted process, not improvised at check-in. Airbnb supports different pet-fee calculation bases and separately addresses service animals and emotional support animals. This worksheet concerns the price setup for ordinary pets. It does not decide whether a particular animal qualifies for an exception or override the platform’s current accessibility rules.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Write the intended price basis",
+        "text": "Record whether the proposed fee is per booking, pet, night or pet per night, using options actually available in the account. Specify the permitted pet count and the relevant listing settings. A verbal instruction such as charge the usual dog fee is too ambiguous for another operator to implement consistently across stays of different lengths."
+      },
+      {
+        "title": "Check the current platform rule",
+        "text": "Airbnb’s additional-fee guidance describes pet-fee options and warns against prohibited charges involving service animals and emotional support animals in applicable jurisdictions. Route those questions through the current policy and qualified guidance where needed. Do not classify an assistance animal as an ordinary pet simply to make the fee tool easier to use."
+      },
+      {
+        "title": "Test representative guest totals",
+        "text": "Review the guest-facing price for a short stay and a longer stay with the applicable number of pets. Confirm that the fee behaves as intended and is disclosed before booking. Record dates, pet count, fee basis and displayed total. Avoid presenting a single test quote as proof that every date, promotion and guest combination will behave identically."
+      },
+      {
+        "title": "Resolve a changed booking through Airbnb",
+        "text": "If an ordinary pet is added after booking, use the permitted reservation-change process and confirm the resulting amount with the guest. Do not collect an undisclosed mandatory surcharge through a personal payment account. If the account does not display the expected fee, investigate the configuration with support rather than substituting an informal cash request."
+      },
+      {
+        "title": "Use a calculation example carefully",
+        "text": "Suppose a listing switches from a per-booking basis to a per-night basis. Review how that changes both a weekend and a week-long guest quote before saving the new setting. Keep the old and new configuration dates. The example is a test method, not a recommendation for a particular price or an assertion that higher charges improve returns."
+      },
+      {
+        "title": "Give the operating team a clear handoff",
+        "text": "Record the approved setting, the person allowed to change it and the path for exception questions. Keep cleaning expectations separate from pet eligibility and from any damage claim. Review an actual completed booking against the quoted fee to spot configuration errors. The goal is consistent disclosure and accurate records without surprising guests or overriding applicable protections. Keep any approved change with the test results so a later operator can distinguish a deliberate pricing decision from a configuration mistake."
+      }
+    ],
+    "checklist": [
+      "Ordinary-pet fee basis and limits",
+      "Current platform exception reference",
+      "Short and longer-stay quote checks",
+      "Reservation-change confirmation",
+      "Approved setting and effective date",
+      "Exception escalation owner"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/2385",
+        "label": "Airbnb additional-fee configuration guidance"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/2799",
+        "label": "Airbnb pricing and payment transparency"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/service-animal-request-workflow/",
+        "label": "Handle Service-Animal Questions Under Current Policy"
+      },
+      {
+        "url": "/field-guides/airbnb-extra-payment-request-review/",
+        "label": "Review an Extra Payment Request on an Airbnb Booking"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-extra-payment-request-review",
+    "title": "Review an Extra Payment Request on an Airbnb Booking",
+    "description": "Classify the charge and verify the collection path before sending a guest another payment instruction.",
+    "intro": "An operator can create a dispute by requesting an additional payment without first identifying what the charge represents. Airbnb’s payment rules distinguish mandatory fees, optional services and specific exceptions. A guest’s willingness to pay does not by itself establish that an external collection method is permitted. Use a short review record before sending a request or responding to one from a service provider.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Describe the charge in plain language",
+        "text": "Record the service, amount, currency, timing and reason for the proposed payment. Identify whether it is necessary to access what was booked or an optional service the guest freely chose. Do not rename a mandatory charge as optional because it was omitted from the original quote. Keep the reservation and original price breakdown linked to the review."
+      },
+      {
+        "title": "Check disclosure and platform rules",
+        "text": "Airbnb’s current policy requires mandatory fees to be disclosed before booking and generally keeps booking-related payments on the platform. It describes limited exceptions and permits certain optional fees offline by agreement. Read the applicable language for the actual account and charge. Do not treat one exception as permission for unrelated fees or future off-platform reservations."
+      },
+      {
+        "title": "Identify the authorized collection route",
+        "text": "Decide whether the amount belongs in a reservation change, another supported platform process or a documented exception. Verify the recipient and payment instructions through established channels. If a contractor asks the guest to pay directly, confirm that the owner authorized the service and that the proposed arrangement fits the platform rules before passing on the request."
+      },
+      {
+        "title": "Review an optional-service example",
+        "text": "Suppose a guest asks for optional pool heating after booking. The operator checks that it was genuinely optional, confirms availability and agrees the price and delivery terms. The operator then uses an allowed payment route and records consent. The example does not authorize a surprise fee for an amenity already included in the booked listing."
+      },
+      {
+        "title": "Resolve an omitted mandatory fee",
+        "text": "If the operator discovers a required charge was missing, pause the request and ask the platform how to handle the specific booking. Preserve the original disclosure rather than editing it and claiming the guest saw the new version. Do not withhold access to force acceptance of an unsupported demand or ask the guest to misstate the payment purpose."
+      },
+      {
+        "title": "Close with a traceable decision",
+        "text": "Save the classification, policy reference, guest agreement where relevant and payment status. Give the next operator a clear note about what was promised and who will deliver it. If the charge is declined or not permitted, record that outcome too. The worksheet helps prevent duplicate or unauthorized requests; it is not a substitute for resolving disputed legal obligations."
+      }
+    ],
+    "checklist": [
+      "Charge purpose and mandatory/optional status",
+      "Original booking price evidence",
+      "Applicable policy or exception",
+      "Authorized recipient and collection route",
+      "Guest consent and delivery terms",
+      "Final payment or no-charge outcome"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/2799",
+        "label": "Airbnb pricing and payment transparency policy"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-security-deposit-eligibility/",
+        "label": "Check Airbnb Security-Deposit Eligibility Before Collection"
+      },
+      {
+        "url": "/field-guides/airbnb-special-offer-subtotal-check/",
+        "label": "Check an Airbnb Special Offer Before Sending"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-unavailable-amenity-guest-notice",
+    "title": "Notify Airbnb Guests About an Unavailable Amenity",
+    "description": "Track affected reservations and direct notices when the booked offering changes.",
+    "intro": "Updating a listing after an amenity becomes unavailable does not automatically inform guests who already booked. Airbnb explains that guests with pending or confirmed reservations will not see those changes and directs hosts to message upcoming guests immediately when an expected amenity is removed. Build a reservation-by-reservation record so a listing edit is not mistaken for completed guest communication.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Document the actual change",
+        "text": "Identify the amenity, when availability changed and which future dates are affected based on verified information. Preserve the listing description relevant to existing reservations. Do not promise a restoration date from an unconfirmed service estimate. If the amenity raises an immediate safety issue, follow the appropriate emergency or professional response separately from this communication worksheet."
+      },
+      {
+        "title": "Identify affected reservations",
+        "text": "Review upcoming bookings and pending requests against the affected date range. Assign a person to check each reservation rather than assuming a broadcast reached everyone. Record the amenity promised at booking and any guest-specific discussion. Keep the list limited to necessary booking information and restrict access to the staff handling the issue."
+      },
+      {
+        "title": "Send a direct, useful notice",
+        "text": "Explain what is unavailable, the verified duration or uncertainty, and how the guest can discuss next steps. Do not bury the change in a generic welcome message. Airbnb says hosts are responsible for cancellation if guests no longer wish to keep a reservation because an expected amenity was removed. Follow the applicable process and support guidance for the specific case."
+      },
+      {
+        "title": "Work through an equipment example",
+        "text": "Suppose a listed hot tub will be unavailable for several upcoming stays. Update the public listing for new shoppers and separately contact each affected existing guest. Record replies, questions and agreed actions. The operator should not assume a different amenity is an equivalent substitute or describe silence as acceptance of a reduced offering."
+      },
+      {
+        "title": "Track resolution and financial changes",
+        "text": "Keep any platform-approved cancellation, alteration or refund tied to the reservation reference. Confirm the final system status instead of relying on an informal message saying it is handled. If a guest accepts the revised situation, save that communication without implying they waived rights beyond the actual agreement. Avoid promising a refund before checking the authorized process."
+      },
+      {
+        "title": "Confirm restoration before relisting",
+        "text": "Use the appropriate provider’s completion evidence to verify that the amenity is available again. Update the listing and internal notes with the effective date. Check that scheduled messages no longer repeat outdated claims. Review why the issue was missed and improve the notification process, while keeping the evidence for each affected booking intact. Include a backup communication owner if the first person is away, because a published listing correction does not complete the existing-guest notification task."
+      }
+    ],
+    "checklist": [
+      "Amenity change and verified dates",
+      "Original booked-description evidence",
+      "Affected reservation list",
+      "Direct notices and responses",
+      "Platform resolution status",
+      "Restoration evidence and listing update"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1506",
+        "label": "Airbnb guidance on listing changes after booking"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/arrival-guide-guest-view-check/",
+        "label": "Check the Arrival Guide From a Guest’s Perspective"
+      },
+      {
+        "url": "/field-guides/reservation-alteration-review/",
+        "label": "Review a Guest Trip-Change Request Before Accepting"
+      }
+    ]
+  },
+  {
+    "slug": "vrbo-declined-payment-calendar-record",
+    "title": "Track a Declined Vrbo Payment and Tentative Dates",
+    "description": "Distinguish a canceled initial request, a new pre-approval and a confirmed booking.",
+    "intro": "A declined guest payment can leave an operator looking at tentative dates and assuming they are reserved. Vrbo describes a specific sequence: the initial request is canceled, a new pre-approval is sent and the calendar remains tentative until payment processes. A clear status record helps staff avoid promising the same dates inconsistently or treating an unpaid request as a completed booking.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Start from the platform notification",
+        "text": "Open the authentic Vrbo dashboard and identify the reservation or request reference, guest, dates and payment event. Preserve the notification text and timestamp. Avoid taking action solely from a forwarded email or a screenshot without checking current status. A payment problem should be resolved through the platform’s supported process, not by collecting card details in messages."
+      },
+      {
+        "title": "Record the replacement pre-approval",
+        "text": "Vrbo’s current guidance says the new pre-approval expires after 72 hours if the guest does not make a new payment. Record the actual expiration displayed for the case and the time zone used. Do not substitute an internal reminder for the platform deadline. If information conflicts, ask support to clarify rather than inventing an extension."
+      },
+      {
+        "title": "Understand what tentative means",
+        "text": "Vrbo explains that tentative dates in this scenario are not blocked and can accept another booking. Make that distinction visible to the team and any connected calendar process. Do not manually declare the guest confirmed simply because they say they intend to retry. Follow the status of the actual payment and reservation in the authoritative system."
+      },
+      {
+        "title": "Use a calendar-conflict example",
+        "text": "Suppose another guest asks for the same dates while the first guest’s payment retry is pending. The operator checks current availability and platform status before responding. Staff should not promise a private hold they cannot enforce across channels. If the owner elects to block dates through an allowed process, document that separate decision and its effect."
+      },
+      {
+        "title": "Communicate without handling sensitive data",
+        "text": "Tell the guest to use the platform’s payment instructions or contact platform support for payment assistance. Do not ask for a card number, bank password or one-time security code. Keep the message focused on status and the supported next step. A guest’s proof of an attempted payment is not the same as confirmation that the reservation completed."
+      },
+      {
+        "title": "Close the record on a verified outcome",
+        "text": "Record whether the payment processed, the pre-approval expired or support directed another action. Check the calendar and connected systems for the resulting availability. Remove outdated staff notes that describe tentative dates as confirmed. Retain enough evidence to explain the sequence if a later question arises, without saving unnecessary payment or identity information. Share the final status with staff responsible for arrival instructions so a tentative request does not automatically receive a confirmed-stay message."
+      }
+    ],
+    "checklist": [
+      "Request reference and authentic status",
+      "New pre-approval expiration",
+      "Tentative versus blocked dates",
+      "Calendar conflict decision",
+      "Guest payment-support message",
+      "Verified final booking outcome"
+    ],
+    "sources": [
+      {
+        "url": "https://help.vrbo.com/articles/What-happens-when-a-traveler-s-payment-is-declined",
+        "label": "Vrbo explanation of declined guest payments"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-edited-quote-payment-schedule/",
+        "label": "Review a Vrbo Edited Quote and Payment Schedule"
+      },
+      {
+        "url": "/field-guides/vrbo-cancellation-initiator-review/",
+        "label": "Review the Initiator of a Vrbo Cancellation"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-account-access-incident-log",
+    "title": "Create an Airbnb Account-Access Incident Log",
+    "description": "Follow the official recovery workflow and track listing, reservation and payout changes.",
+    "intro": "If an Airbnb account may have been accessed without permission, use Airbnb’s official account-review process promptly. An incident log supports recovery by separating confirmed changes from suspicions and identifying affected operating records. It should not delay securing the account or contacting the platform. Do not copy passwords, authentication codes or full financial details into the log.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Use the official review route",
+        "text": "Navigate directly to Airbnb through a trusted bookmark or typed address and follow its account-review instructions. Avoid links supplied in a suspicious message. Airbnb says the process may include changing the password and reviewing recent logins. If a password was reused elsewhere, address that exposure through the relevant service’s official security process as well."
+      },
+      {
+        "title": "Record the first known facts",
+        "text": "Note when the issue was discovered, what appeared unusual and which legitimate user noticed it. Separate an unfamiliar login location from a confirmed unauthorized action. Save relevant notifications without spreading sensitive account data. Assign a recovery owner and a backup so multiple staff members do not make conflicting changes while trying to help."
+      },
+      {
+        "title": "Review operational changes",
+        "text": "Airbnb specifically identifies contact information, profile photos, listings, payout methods and reservations as items to inspect. Track each category as reviewed, changed or unresolved. A restored password does not establish that every booking or payout setting is correct. Compare suspicious changes with known authorized work before reversing them."
+      },
+      {
+        "title": "Use a payout-change example",
+        "text": "Suppose the owner sees an unfamiliar payout method and a listing description edit. Follow the official recovery process and report the changes with their visible dates. Review affected reservations and payments with support. Do not send a test payout or transfer money to determine who controls the unfamiliar account, and do not publish its full details in staff chat."
+      },
+      {
+        "title": "Coordinate guest communication",
+        "text": "If a guest received incorrect instructions, use a verified channel after securing access and coordinate with support. State the corrected operational information clearly without asking the guest to forward passwords or payment credentials. Preserve the message history needed for the case. Avoid mass messages speculating about the incident before the affected reservations are identified."
+      },
+      {
+        "title": "Close only after reviewing the effects",
+        "text": "Record the support case, restored settings and remaining actions. Confirm legitimate team access and remove unneeded access through the supported controls. Store the incident summary securely with a review date. A completed log documents the response; it does not prove that every external account or device is secure or that no financial issue remains. Ask each authorized team member to confirm their own recent work through a trusted channel. That can help distinguish a legitimate update from an unexplained change without distributing account credentials."
+      }
+    ],
+    "checklist": [
+      "Discovery time and observed change",
+      "Official recovery action and case reference",
+      "Listing/contact/reservation review",
+      "Payout-method review status",
+      "Affected guest corrections",
+      "Remaining actions and access review"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/359",
+        "label": "Airbnb unauthorized account access guidance"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/501",
+        "label": "Airbnb account security guidance"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/rental-guest-data-handoff/",
+        "label": "Limit Guest Data During a Rental Business Handoff"
+      },
+      {
+        "url": "/field-guides/cohost-permission-review/",
+        "label": "Review Airbnb Co-Host Permissions Against the Work Agreement"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-inquiry-request-triage",
+    "title": "Triage an Airbnb Inquiry or Reservation Request",
+    "description": "Give each message the right response owner and verify whether a booking action is required.",
+    "intro": "An Airbnb inquiry and a reservation request are different states. An inquiry may ask about dates or property details without creating the same acceptance workflow as a request to book. A shared inbox should preserve that distinction so staff do not mistake a helpful message for a confirmed reservation or miss a required response. Start with the actual platform status, not the subject line of an email.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Identify the message state",
+        "text": "Record the listing, guest, requested dates and whether the account shows an inquiry, reservation request or confirmed stay. Airbnb describes an inquiry as a message before a booking request. Do not classify it from the guest’s wording alone. Someone saying they want to book does not necessarily mean the platform has received a formal request."
+      },
+      {
+        "title": "Assign a response owner",
+        "text": "Give the message a named owner and backup, especially when several co-hosts share an inbox. Record the next required action and the displayed deadline where applicable. Airbnb’s guidance distinguishes nonexpiring inquiries from reservation requests requiring an official response. Do not assume a conversational reply completes an accept-or-decline action that the interface still shows as pending."
+      },
+      {
+        "title": "Answer from verified property information",
+        "text": "Confirm the relevant amenity, availability or rule before responding. If the answer is unknown, identify who can verify it and avoid inventing certainty to accelerate a booking. Keep prebooking communication on the platform under the applicable rules. Do not request unnecessary sensitive information merely to decide who should handle a routine question."
+      },
+      {
+        "title": "Use a date-question example",
+        "text": "Suppose a traveler asks whether early arrival is possible. The operator records an inquiry and checks turnover constraints before answering. If a formal booking request later arrives, the team reviews it as a separate platform action. A favorable answer about early arrival is not treated as a confirmed booking or an unconditional promise before the operating schedule is known."
+      },
+      {
+        "title": "Separate availability from a promise to hold",
+        "text": "Check the current calendar when discussing dates and explain any limits accurately. Do not tell several guests the same dates are reserved for them if the account has not created that status. If using a pre-approval or special offer, review the separate workflow and terms. Record the action actually sent rather than grouping all messages under approved."
+      },
+      {
+        "title": "Close the inbox task clearly",
+        "text": "Save the answer, final platform status and any unresolved condition. Hand off upcoming deadlines when a shift changes. Review cases where a message was answered but a required platform action remained open, and adjust the checklist accordingly. The goal is reliable classification and follow-through, not a claim that faster responses guarantee bookings or improved ranking."
+      }
+    ],
+    "checklist": [
+      "Actual inquiry/request/booking status",
+      "Named owner and backup",
+      "Displayed action or response deadline",
+      "Verified answer and open questions",
+      "Any offer or pre-approval action",
+      "Final status and shift handoff"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/3702",
+        "label": "Airbnb explanation of inquiries and response timing"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-special-offer-subtotal-check/",
+        "label": "Check an Airbnb Special Offer Before Sending"
+      },
+      {
+        "url": "/field-guides/instant-book-readiness/",
+        "label": "Check Operations Before Enabling Instant Book"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-special-offer-subtotal-check",
+    "title": "Check an Airbnb Special Offer Before Sending",
+    "description": "Review the whole-stay subtotal, dates and acceptance consequences in one record.",
+    "intro": "An Airbnb special offer can change a proposed price, dates or listing before a guest books. It is not a casual estimate: Airbnb says a guest’s acceptance automatically confirms the reservation. Review the offer as a booking decision with a complete price and availability check. A short worksheet helps prevent a discount conversation from becoming an incorrect confirmed stay.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Confirm that the workflow applies",
+        "text": "Airbnb’s special-offer guidance applies before the guest has booked or submitted a trip request. If the reservation is already in another state, use the applicable change process instead. Record the current message and booking status first. Do not force a special offer into an existing booking simply because it seems faster than reviewing the proper workflow."
+      },
+      {
+        "title": "Check dates and listing identity",
+        "text": "Verify the exact property, arrival, departure and guest details that the offer will use. Recheck the calendar and any pending requests affecting the dates. If another listing is proposed, ensure the guest understands the substitution. An internal nickname or copied message should not be the only evidence identifying which property will be booked."
+      },
+      {
+        "title": "Build the entire-stay subtotal",
+        "text": "Airbnb directs hosts to include all nights and additional charges such as cleaning in the offer subtotal, with the platform handling other applicable components as described in its guidance. Reconcile the intended subtotal from a written breakdown before entering it. Avoid treating a nightly figure as the total stay price or adding an already included cleaning charge twice."
+      },
+      {
+        "title": "Use a pricing example",
+        "text": "Suppose a guest asks for a discount on a four-night stay. List each night’s intended amount and the applicable included charges, then calculate the whole-stay offer. Compare that worksheet with the preview shown by Airbnb. This method checks arithmetic and scope; it does not justify changing disclosed mandatory fees or promising a specific guest total without reviewing the platform display."
+      },
+      {
+        "title": "Review acceptance and revisions",
+        "text": "The current guidance gives guests a limited acceptance window and says acceptance confirms the stay. Verify the displayed deadline before sending. If the proposed terms change, use the supported withdrawal and replacement process rather than assuming a later message overrides an outstanding offer. Keep the old and new offer references so the team knows which version remains active."
+      },
+      {
+        "title": "Confirm the resulting booking",
+        "text": "After acceptance, verify the reservation details and price in the account. Tell the operating team about any agreed condition that affects arrival or service delivery. If the offer expires or is withdrawn, record that outcome and recheck availability before sending another. Do not leave an informal worksheet marked confirmed when the platform never reached that state."
+      }
+    ],
+    "checklist": [
+      "Applicable prebooking status",
+      "Exact listing and stay dates",
+      "Whole-stay subtotal breakdown",
+      "Offer preview and deadline",
+      "Withdrawal or replacement history",
+      "Final reservation details"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/35",
+        "label": "Airbnb special-offer process"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/844",
+        "label": "Airbnb special-offer changes"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-inquiry-request-triage/",
+        "label": "Triage an Airbnb Inquiry or Reservation Request"
+      },
+      {
+        "url": "/field-guides/airbnb-minimum-stay-gap-review/",
+        "label": "Review a Minimum-Stay Exception for Calendar Gaps"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-minimum-stay-gap-review",
+    "title": "Review a Minimum-Stay Exception for Calendar Gaps",
+    "description": "Trace rule priority and operating constraints before changing availability.",
+    "intro": "A gap between reservations can remain unbookable because of minimum-stay settings, check-in rules or another restriction. Changing a global minimum to fill one gap can alter many dates unintentionally. Use a date-specific review to identify the active rule, confirm operating readiness and test the intended result. This is a platform configuration worksheet, not advice to bypass a legal minimum-stay requirement.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Define the target gap",
+        "text": "Record the exact available dates, adjacent reservations and desired arrival and departure combinations. Check turnover needs, owner blocks and any restrictions imposed outside the platform. An empty calendar cell does not establish that every stay pattern is practical or permitted. Obtain the responsible owner’s decision before changing a setting that expands the kind of booking accepted."
+      },
+      {
+        "title": "Identify the active rules",
+        "text": "Review default minimum and maximum nights, custom check-in-day settings and any applicable rule-set. Airbnb notes that an active rule-set can override existing minimum-night rules. Record the source of the rule you intend to change. A screenshot of one global setting may not explain why a particular arrival date remains unavailable."
+      },
+      {
+        "title": "Limit the scope of the change",
+        "text": "Choose the supported date-specific setting where appropriate and write the affected range before saving. Do not relax a global minimum by habit to solve a narrow gap. If the desired result cannot be configured without broader effects, pause and review the tradeoff. Document any separate owner approval for a broader change."
+      },
+      {
+        "title": "Use a neighboring-booking example",
+        "text": "Suppose two confirmed stays leave a short opening between them. Review the gap together with allowed arrivals, departures and cleaning capacity. Apply the intended rule only after the operating constraints are confirmed. Then test a stay wholly inside the opening and another starting outside it, so an unintended neighboring-date change is more likely to be noticed."
+      },
+      {
+        "title": "Check the guest-facing result",
+        "text": "Review the listing as a guest for the relevant dates and party size without completing a booking. Compare the available stay combinations with the worksheet. If the result differs, recheck rule priority and other restrictions rather than repeatedly lowering limits. Record the test time because later bookings or edits can change availability."
+      },
+      {
+        "title": "Plan the end of the exception",
+        "text": "Identify whether the rule expires automatically or needs a scheduled review. Record the original setting and the person responsible for restoring it if necessary. Keep confirmed bookings intact when changing future availability. A successful configuration check shows that the intended dates are presented correctly; it does not guarantee demand or make an otherwise prohibited stay lawful. Keep the guest-view evidence with the change log and note which dates were tested. A future operator can then repeat the same checks after another rule-set or calendar update."
+      }
+    ],
+    "checklist": [
+      "Target gap and neighboring bookings",
+      "Operating and external restrictions",
+      "Default/custom/rule-set priority",
+      "Authorized change range",
+      "Guest-view test results",
+      "Expiration or restoration owner"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/880",
+        "label": "Airbnb minimum and maximum night settings"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/calendar-sync-verification/",
+        "label": "Verify Imported and Exported Rental Calendars"
+      },
+      {
+        "url": "/field-guides/instant-book-readiness/",
+        "label": "Check Operations Before Enabling Instant Book"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-payout-currency-change-record",
+    "title": "Record an Airbnb Payout-Currency Change",
+    "description": "Separate listing currency, payout-method currency and the amount arriving at the bank.",
+    "intro": "A displayed listing price, Airbnb payout currency and bank-account currency can differ. Airbnb says an existing payout method’s currency cannot be changed; a new payout method can be added in another currency. Record the planned change and review its effect on actual payouts instead of assuming a display preference changes the payment arrangement. Keep full bank details out of shared worksheets.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Map the current currencies",
+        "text": "Record the listing’s pricing currency where relevant, the payout method’s currency and the receiving account’s currency. Use masked account identifiers. These are separate facts, so do not label them all local currency. Preserve the original payout report and bank entry before converting figures for an internal management report."
+      },
+      {
+        "title": "Confirm the available account action",
+        "text": "Check the current Airbnb payout settings and guidance. If a different payout currency is desired, review the supported new-method process rather than attempting to rename the old method. Verify account eligibility, required information and processing implications in the actual interface. Do not assume every country, currency or provider offers identical choices."
+      },
+      {
+        "title": "Plan the transition date",
+        "text": "Identify upcoming payouts, routing rules and any co-host arrangements that may be affected. Assign one authorized person to make the change and record the date. Avoid changing several payment variables at once without a traceable record. If the interface indicates verification or a delay, preserve that notice rather than treating the new method as immediately ready."
+      },
+      {
+        "title": "Use a bank-reconciliation example",
+        "text": "Suppose Airbnb reports one currency while the receiving bank posts another. Save the reported payout, the bank’s converted amount and any separately disclosed charges. Ask the provider about unexplained differences. Do not infer that a numerical difference is a missing payout before accounting for currency conversion, provider fees and timing."
+      },
+      {
+        "title": "Keep rates and fees attributable",
+        "text": "Record which institution performed any conversion and the rate or charge shown in its record. Avoid reconstructing an actual transaction using a convenient current exchange rate. If accounting or tax reporting requires a specific conversion method, obtain professional guidance. This worksheet preserves evidence; it does not select a tax rate or calculate a universal foreign-exchange adjustment."
+      },
+      {
+        "title": "Validate a completed payout",
+        "text": "Review a real completed transfer after the new method is active and reconcile it to the bank. Retain the prior method’s relevant history before making further changes. Close the task only when the expected routing and currency are confirmed, and log unresolved items separately. A method appearing in account settings is not proof that every future payout will succeed. Use a consistent transaction identifier in both the payout record and the bank reconciliation. That connection is more reliable than matching deposits only by approximate amount or calendar date."
+      }
+    ],
+    "checklist": [
+      "Masked method and account identifiers",
+      "Listing/payout/bank currencies",
+      "Authorized transition date",
+      "Verification or delay notices",
+      "Reported transfer and bank receipt",
+      "Conversion evidence and open differences"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/1516",
+        "label": "Airbnb payout-currency settings"
+      },
+      {
+        "url": "https://www.airbnb.com/help/article/3133",
+        "label": "Airbnb payout-method setup guidance"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/monthly-stay-payout-record/",
+        "label": "Reconcile Monthly-Stay Payout Timing"
+      },
+      {
+        "url": "/field-guides/airbnb-payout-adjustment-reconciliation/",
+        "label": "Reconcile an Airbnb Payout Adjustment"
+      }
+    ]
+  },
+  {
+    "slug": "vrbo-damage-deposit-release-record",
+    "title": "Track a Vrbo Damage-Deposit Release",
+    "description": "Identify the actual protection arrangement and preserve the refund or claim status.",
+    "intro": "Vrbo describes several different arrangements: a card on file, an upfront refundable damage deposit and a property-damage protection product. They should not be recorded as though they are the same payment. Before answering a guest’s deposit question, identify what the specific booking used and review the current platform status. This worksheet organizes evidence without deciding a disputed damage claim.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Identify the booked arrangement",
+        "text": "Save the relevant booking terms and payment breakdown. Confirm whether money was actually collected as a refundable deposit or whether the arrangement was a card on file or a separate protection product. Vrbo explains that card details are not shared with the host in its card-on-file arrangement. Do not ask the guest to send full card information to reconstruct the record."
+      },
+      {
+        "title": "Record the applicable dates",
+        "text": "Use the actual checkout date and the current platform guidance to identify the relevant review or release window. Vrbo’s deposit guidance describes a 14-day process in the situations covered, with additional financial-institution processing possible. Check the specific account and booking terms rather than promising the guest that money will appear on a particular bank date."
+      },
+      {
+        "title": "Separate a claim from a refund question",
+        "text": "If a damage claim exists, record its reference, amount, submitted evidence and status through the appropriate process. If no claim exists, focus on the release record. Do not create a damage allegation merely because a guest asks about timing. Keep any assessment factual and distinguish ordinary cleaning, wear and disputed damage according to the applicable rules."
+      },
+      {
+        "title": "Use a currency example",
+        "text": "Suppose a guest sees a different home-currency amount when the deposit returns. Compare the original charged currency and refund currency before treating the difference as withheld money. Vrbo notes that exchange rates and bank fees can affect converted amounts. Ask for a redacted transaction reference if needed, not a full bank statement containing unrelated personal information."
+      },
+      {
+        "title": "Route an unresolved release",
+        "text": "Check whether the platform shows release, pending processing or a claim-related hold. Contact the appropriate support channel with the reservation and transaction references when the status is unclear. Avoid sending a separate manual refund until the original transaction is traced, because duplicate refunds can create a second dispute and obscure the accounting record."
+      },
+      {
+        "title": "Close with a reconciled outcome",
+        "text": "Record the final platform status and any guest confirmation available. Keep deposit movements separate from rental income in the operational file, leaving accounting classification to the responsible professional. Retain the relevant evidence and remove unnecessary financial data. The record should explain what happened, who handled it and which questions remain unresolved. Tell the next shift which party is expected to act next, so the same guest does not receive conflicting explanations of the release status."
+      }
+    ],
+    "checklist": [
+      "Booked deposit/protection arrangement",
+      "Checkout and relevant review dates",
+      "Claim reference or no-claim status",
+      "Release transaction and currency",
+      "Support case and bank-processing distinction",
+      "Final reconciled outcome"
+    ],
+    "sources": [
+      {
+        "url": "https://help.vrbo.com/articles/How-do-damage-deposits-work",
+        "label": "Vrbo explanation of deposit and protection arrangements"
+      },
+      {
+        "url": "https://www.vrbo.com/en-gb/help/articles/About-refundable-damage-deposits",
+        "label": "Vrbo refundable-deposit timing and currency guidance"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-declined-payment-calendar-record/",
+        "label": "Track a Declined Vrbo Payment and Tentative Dates"
+      },
+      {
+        "url": "/field-guides/vrbo-cancellation-initiator-review/",
+        "label": "Review the Initiator of a Vrbo Cancellation"
+      }
+    ]
+  },
+  {
+    "slug": "vrbo-cancellation-initiator-review",
+    "title": "Review the Initiator of a Vrbo Cancellation",
+    "description": "Preserve the actual reason, request and platform status before canceling a reservation.",
+    "intro": "A host who cannot accommodate a stay and a guest who chooses to cancel create different operational records. Vrbo’s cancellation guidance distinguishes these situations and explains possible consequences for host-initiated cancellations. Use a review worksheet before acting so the platform record matches the actual event. Do not ask a guest to mislabel a host decision as their own request.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Record who requested the change",
+        "text": "Save the message initiating the cancellation and state the factual reason. Distinguish a guest request, a host inability to provide the stay and a support-directed action. If a guest only asks about options, do not treat that as a completed cancellation request. Confirm the current reservation status in the dashboard before making another change."
+      },
+      {
+        "title": "Use the correct platform path",
+        "text": "Vrbo says guests who need to cancel should generally use their own account or support when needed. A cancellation request requiring host approval is a different status from a host independently canceling. Review the actual interface and reason choices. For software-connected accounts, verify the connected system’s instructions and mapping so an integration does not assign the wrong initiator."
+      },
+      {
+        "title": "Preview the financial outcome",
+        "text": "Review the refund amount and applicable terms before confirming the action. Preserve the calculation shown and any relevant support instructions. Do not promise an amount based on a different reservation or an old cancellation-policy screenshot. If the guest seeks an exception, record the proposed resolution separately from what the existing policy displays."
+      },
+      {
+        "title": "Use an unavailable-property example",
+        "text": "Suppose the owner discovers the booked property cannot be provided. Document the reason and follow the host-side process or support direction. Do not pressure the guest to cancel merely to avoid a fee or metric consequence. Communicate promptly and accurately about the situation while keeping any alternative accommodation proposal separate from a confirmed replacement booking."
+      },
+      {
+        "title": "Handle a waiver as a separate decision",
+        "text": "Vrbo describes cancellation-waiver requests and deadlines in its current guidance. Check the applicable requirements at the time of the event and retain evidence supporting the actual reason. A submitted request is not an approved waiver. Record the platform’s decision and do not describe penalties as removed until the account shows the relevant outcome."
+      },
+      {
+        "title": "Verify completion across systems",
+        "text": "Confirm canceled status, refund processing and calendar availability in the authoritative account and connected software. Notify the operating team so cleaning or arrival tasks are not performed for a nonexistent stay. Keep the original request, final action and support record together. Accurate documentation supports review without guaranteeing a waiver, refund timing or any particular ranking effect. Preserve the last guest communication with the final platform status so later support questions can be answered from the actual sequence of events."
+      }
+    ],
+    "checklist": [
+      "Actual initiator and supporting message",
+      "Current booking status and system path",
+      "Refund preview and terms",
+      "Factual cancellation reason",
+      "Waiver request and decision if applicable",
+      "Final status and operating-team handoff"
+    ],
+    "sources": [
+      {
+        "url": "https://help.vrbo.com/articles/How-do-I-cancel-a-reservation",
+        "label": "Vrbo cancellation instructions and initiator distinctions"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-edited-quote-payment-schedule/",
+        "label": "Review a Vrbo Edited Quote and Payment Schedule"
+      },
+      {
+        "url": "/field-guides/vrbo-declined-payment-calendar-record/",
+        "label": "Track a Declined Vrbo Payment and Tentative Dates"
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-cohost-payout-change-review",
+    "title": "Review an Airbnb Co-Host Payout Change",
+    "description": "Check proposal acceptance, calculation basis and the bookings affected by a new arrangement.",
+    "intro": "Changing an agreement with a co-host and changing Airbnb’s payout settings are separate actions. Airbnb requires the listing owner to set up the proposal and the co-host to confirm it, with timing rules for when changes affect bookings. A payout worksheet connects the agreed arrangement to the platform record without assuming that a message or verbal agreement has already changed payments.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Describe the agreed calculation",
+        "text": "Record whether the proposed payout is a cleaning-fee amount, a percentage, a combined option or a fixed amount available in the account. State whether the percentage includes the cleaning fee. Do not use a phrase such as the usual share without a defined basis. Keep the service agreement and payout configuration aligned while recognizing they serve different purposes."
+      },
+      {
+        "title": "Confirm authority and eligibility",
+        "text": "Airbnb says only the listing owner can set up or edit these payout arrangements. Verify applicable regional or program limitations and the co-host’s required account setup. A co-host permission level does not itself establish payout eligibility. Do not share credentials so another person can impersonate the owner to configure a payment."
+      },
+      {
+        "title": "Track proposal and acceptance dates",
+        "text": "Record when the proposal was sent and when it was accepted, declined or replaced. Airbnb’s guidance gives the co-host a confirmation window and ties changes to bookings starting after confirmation. Use the actual account record to determine affected bookings. A backdated spreadsheet entry does not change the platform’s effective timing."
+      },
+      {
+        "title": "Use a transition example",
+        "text": "Suppose a new percentage is agreed while one guest is already staying and another arrives next week. Review each reservation against the confirmed change date rather than applying the new share to all payouts received afterward. If a separate settlement is needed under the parties’ agreement, document it independently and avoid duplicating amounts the platform already distributed."
+      },
+      {
+        "title": "Exclude unsupported payout categories",
+        "text": "Airbnb states that this sharing feature covers home-stay payouts and does not include certain other payments, such as Resolution Center payouts or host-damage reimbursements. Identify any amount the parties expect to share outside that feature. Do not assume a percentage setting automatically divides every payment or resolves the parties’ accounting and tax obligations."
+      },
+      {
+        "title": "Review the first affected booking",
+        "text": "Compare the expected calculation with the displayed payout for an actual eligible reservation. Check cleaning-fee treatment and any adjustment affecting the amount. Keep the proposal, acceptance and reconciliation together. If the result differs, investigate before issuing a separate payment. The worksheet verifies execution of a specific arrangement without promising earnings or replacing professional accounting advice. Record who reviewed the first calculation and when, so an unresolved difference is not silently carried into the next group of reservations."
+      }
+    ],
+    "checklist": [
+      "Agreed payout option and basis",
+      "Owner authority and account eligibility",
+      "Proposal and acceptance timestamps",
+      "Affected reservation start dates",
+      "Excluded payment categories",
+      "First-booking reconciliation"
+    ],
+    "sources": [
+      {
+        "url": "https://www.airbnb.com/help/article/3389",
+        "label": "Airbnb co-host payout options, timing and exclusions"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/cohost-permission-review/",
+        "label": "Review Airbnb Co-Host Permissions Against the Work Agreement"
+      },
+      {
+        "url": "/field-guides/airbnb-payout-adjustment-reconciliation/",
+        "label": "Reconcile an Airbnb Payout Adjustment"
+      }
+    ]
+  },
+  {
+    "slug": "vrbo-edited-quote-payment-schedule",
+    "title": "Review a Vrbo Edited Quote and Payment Schedule",
+    "description": "Check totals, discounts and installment changes before sending a revised prebooking quote.",
+    "intro": "Editing a Vrbo quote can change more than the nightly amount. Dates, fees, taxes and payment timing can all matter, and the platform limits when a quote can be edited. Review the proposed revision before sending it so a guest receives a complete, internally consistent offer. This worksheet focuses on a prepayment quote, not an already-paid reservation amendment.",
+    "category": "Booking and payment exception worksheets",
+    "sections": [
+      {
+        "title": "Verify the current booking stage",
+        "text": "Vrbo’s quote guidance says a quote can be edited before the guest makes a payment. Confirm the actual status and payment history in the dashboard. If money has already been paid, use the appropriate reservation or support process instead. Do not rely on an old message thread that still displays a quote after the booking has advanced."
+      },
+      {
+        "title": "Rebuild the proposed total",
+        "text": "Record dates, nightly amounts, applicable fees, taxes and any protection item shown. Compare the old and new quote line by line. Tax settings should reflect the actual responsible guidance, not an improvised adjustment to reach a desired total. Preserve the original quote so a later reviewer can see exactly which components changed."
+      },
+      {
+        "title": "Check extended-stay discounts deliberately",
+        "text": "Vrbo explains that weekly or monthly discounts are not automatically applied when a quote is edited. If an agreed discount should remain, review and apply the appropriate rental amount manually through the supported process. Do not assume the final total preserves the earlier discount simply because the guest’s stay still qualifies in a general listing setting."
+      },
+      {
+        "title": "Review installment constraints",
+        "text": "The current guidance says payment scheduling can depend on the account’s terms and the time before arrival. It also describes limits on changing a one-installment arrangement to multiple installments. Check the actual options shown rather than promising a payment plan in a message first. Record due amounts and dates from the final preview."
+      },
+      {
+        "title": "Use a longer-stay example",
+        "text": "Suppose a guest extends a proposed stay before paying and expects the discussed discount to continue. Recalculate the rental amount, confirm fees and review the payment schedule. Send the revised quote with a clear explanation of the change. The guest’s interest in an extension does not establish that the revised quote has been accepted or paid."
+      },
+      {
+        "title": "Confirm the sent version and status",
+        "text": "Save the final quote reference, totals, schedule and message. Under Vrbo’s pay-per-booking model, the guidance notes that quotes include a payment request, so verify the resulting status. If another revision is needed, identify which version remains current. Close the worksheet when the booking proceeds or the quote ends, without treating tentative interest as confirmed revenue. Let the next inbox operator know that a revised quote is outstanding, including its reference, so a second staff member does not send conflicting terms."
+      }
+    ],
+    "checklist": [
+      "Prepayment status and original quote",
+      "Revised dates and line-item total",
+      "Extended-stay discount review",
+      "Installment amounts and due dates",
+      "Sent quote reference and message",
+      "Final acceptance/payment status"
+    ],
+    "sources": [
+      {
+        "url": "https://help.vrbo.com/articles/How-do-I-edit-a-quote",
+        "label": "Vrbo quote editing and payment-schedule guidance"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-declined-payment-calendar-record/",
+        "label": "Track a Declined Vrbo Payment and Tentative Dates"
+      },
+      {
+        "url": "/field-guides/vrbo-cancellation-initiator-review/",
+        "label": "Review the Initiator of a Vrbo Cancellation"
+      }
+    ]
   }
 ]
