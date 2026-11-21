@@ -6,6 +6,7 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 execFileSync('python3', ['test_profile_dates.py'], {stdio: 'inherit'});
 execFileSync('python3', ['scripts/upgrade_tools.py'], {stdio: 'inherit'});
+execFileSync('python3', ['scripts/build_tools_hub.py'], {stdio: 'inherit'});
 execFileSync('python3', ['_gen/refresh_buyer_intent.py'], {stdio: 'inherit'});
 execFileSync('python3', ['_gen/expand_review_evidence.py'], {stdio: 'inherit'});
 execFileSync('python3', ['scripts/build_proformas.py'], {stdio: 'inherit'});
