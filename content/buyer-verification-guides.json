@@ -3104,6 +3104,16 @@
         "url": "https://www.airbnb.com/help/article/309",
         "label": "Airbnb guidance when a guest does not show up"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/arrival-guide-guest-view-check/",
+        "label": "Check the Arrival Guide From a Guest’s Perspective"
+      },
+      {
+        "url": "/field-guides/reservation-alteration-review/",
+        "label": "Review a Guest Trip-Change Request Before Accepting"
+      }
     ]
   },
   {
@@ -3151,6 +3161,16 @@
         "url": "https://www.airbnb.com/help/article/366",
         "label": "Airbnb explanation of earnings adjustments"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/monthly-stay-payout-record/",
+        "label": "Reconcile Monthly-Stay Payout Timing"
+      },
+      {
+        "url": "/field-guides/airbnb-cohost-payout-change-review/",
+        "label": "Review an Airbnb Co-Host Payout Change"
+      }
     ]
   },
   {
@@ -3197,6 +3217,16 @@
       {
         "url": "https://www.airbnb.com/help/article/2799",
         "label": "Airbnb pricing, payment and security-deposit policy"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-extra-payment-request-review/",
+        "label": "Review an Extra Payment Request on an Airbnb Booking"
+      },
+      {
+        "url": "/field-guides/airbnb-payout-adjustment-reconciliation/",
+        "label": "Reconcile an Airbnb Payout Adjustment"
       }
     ]
   },
@@ -3249,6 +3279,16 @@
         "url": "https://www.airbnb.com/help/article/2799",
         "label": "Airbnb pricing and payment transparency"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/service-animal-request-workflow/",
+        "label": "Handle Service-Animal Questions Under Current Policy"
+      },
+      {
+        "url": "/field-guides/airbnb-extra-payment-request-review/",
+        "label": "Review an Extra Payment Request on an Airbnb Booking"
+      }
     ]
   },
   {
@@ -3295,6 +3335,16 @@
       {
         "url": "https://www.airbnb.com/help/article/2799",
         "label": "Airbnb pricing and payment transparency policy"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-security-deposit-eligibility/",
+        "label": "Check Airbnb Security-Deposit Eligibility Before Collection"
+      },
+      {
+        "url": "/field-guides/airbnb-special-offer-subtotal-check/",
+        "label": "Check an Airbnb Special Offer Before Sending"
       }
     ]
   },
@@ -3343,6 +3393,16 @@
         "url": "https://www.airbnb.com/help/article/1506",
         "label": "Airbnb guidance on listing changes after booking"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/arrival-guide-guest-view-check/",
+        "label": "Check the Arrival Guide From a Guest’s Perspective"
+      },
+      {
+        "url": "/field-guides/reservation-alteration-review/",
+        "label": "Review a Guest Trip-Change Request Before Accepting"
+      }
     ]
   },
   {
@@ -3389,6 +3449,16 @@
       {
         "url": "https://help.vrbo.com/articles/What-happens-when-a-traveler-s-payment-is-declined",
         "label": "Vrbo explanation of declined guest payments"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-edited-quote-payment-schedule/",
+        "label": "Review a Vrbo Edited Quote and Payment Schedule"
+      },
+      {
+        "url": "/field-guides/vrbo-cancellation-initiator-review/",
+        "label": "Review the Initiator of a Vrbo Cancellation"
       }
     ]
   },
@@ -3441,6 +3511,16 @@
         "url": "https://www.airbnb.com/help/article/501",
         "label": "Airbnb account security guidance"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/rental-guest-data-handoff/",
+        "label": "Limit Guest Data During a Rental Business Handoff"
+      },
+      {
+        "url": "/field-guides/cohost-permission-review/",
+        "label": "Review Airbnb Co-Host Permissions Against the Work Agreement"
+      }
     ]
   },
   {
@@ -3487,6 +3567,16 @@
       {
         "url": "https://www.airbnb.com/help/article/3702",
         "label": "Airbnb explanation of inquiries and response timing"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-special-offer-subtotal-check/",
+        "label": "Check an Airbnb Special Offer Before Sending"
+      },
+      {
+        "url": "/field-guides/instant-book-readiness/",
+        "label": "Check Operations Before Enabling Instant Book"
       }
     ]
   },
@@ -3539,6 +3629,16 @@
         "url": "https://www.airbnb.com/help/article/844",
         "label": "Airbnb special-offer changes"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/airbnb-inquiry-request-triage/",
+        "label": "Triage an Airbnb Inquiry or Reservation Request"
+      },
+      {
+        "url": "/field-guides/airbnb-minimum-stay-gap-review/",
+        "label": "Review a Minimum-Stay Exception for Calendar Gaps"
+      }
     ]
   },
   {
@@ -3585,6 +3685,16 @@
       {
         "url": "https://www.airbnb.com/help/article/880",
         "label": "Airbnb minimum and maximum night settings"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/calendar-sync-verification/",
+        "label": "Verify Imported and Exported Rental Calendars"
+      },
+      {
+        "url": "/field-guides/instant-book-readiness/",
+        "label": "Check Operations Before Enabling Instant Book"
       }
     ]
   },
@@ -3637,6 +3747,16 @@
         "url": "https://www.airbnb.com/help/article/3133",
         "label": "Airbnb payout-method setup guidance"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/monthly-stay-payout-record/",
+        "label": "Reconcile Monthly-Stay Payout Timing"
+      },
+      {
+        "url": "/field-guides/airbnb-payout-adjustment-reconciliation/",
+        "label": "Reconcile an Airbnb Payout Adjustment"
+      }
     ]
   },
   {
@@ -3688,6 +3808,16 @@
         "url": "https://www.vrbo.com/en-gb/help/articles/About-refundable-damage-deposits",
         "label": "Vrbo refundable-deposit timing and currency guidance"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-declined-payment-calendar-record/",
+        "label": "Track a Declined Vrbo Payment and Tentative Dates"
+      },
+      {
+        "url": "/field-guides/vrbo-cancellation-initiator-review/",
+        "label": "Review the Initiator of a Vrbo Cancellation"
+      }
     ]
   },
   {
@@ -3734,6 +3864,16 @@
       {
         "url": "https://help.vrbo.com/articles/How-do-I-cancel-a-reservation",
         "label": "Vrbo cancellation instructions and initiator distinctions"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-edited-quote-payment-schedule/",
+        "label": "Review a Vrbo Edited Quote and Payment Schedule"
+      },
+      {
+        "url": "/field-guides/vrbo-declined-payment-calendar-record/",
+        "label": "Track a Declined Vrbo Payment and Tentative Dates"
       }
     ]
   },
@@ -3782,6 +3922,16 @@
         "url": "https://www.airbnb.com/help/article/3389",
         "label": "Airbnb co-host payout options, timing and exclusions"
       }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/cohost-permission-review/",
+        "label": "Review Airbnb Co-Host Permissions Against the Work Agreement"
+      },
+      {
+        "url": "/field-guides/airbnb-payout-adjustment-reconciliation/",
+        "label": "Reconcile an Airbnb Payout Adjustment"
+      }
     ]
   },
   {
@@ -3828,6 +3978,16 @@
       {
         "url": "https://help.vrbo.com/articles/How-do-I-edit-a-quote",
         "label": "Vrbo quote editing and payment-schedule guidance"
+      }
+    ],
+    "related": [
+      {
+        "url": "/field-guides/vrbo-declined-payment-calendar-record/",
+        "label": "Track a Declined Vrbo Payment and Tentative Dates"
+      },
+      {
+        "url": "/field-guides/vrbo-cancellation-initiator-review/",
+        "label": "Review the Initiator of a Vrbo Cancellation"
       }
     ]
   }
