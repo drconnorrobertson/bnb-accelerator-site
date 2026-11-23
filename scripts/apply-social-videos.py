@@ -4,6 +4,12 @@ import json,re,sys
 ROOT=Path(__file__).resolve().parents[1]
 def apply(target):
  blocks=json.loads((ROOT/'_gen/social-video-blocks.json').read_text())
+ for oldpage in target.rglob('index.html'):
+  route='/' + oldpage.relative_to(target).as_posix().removesuffix('index.html')
+  if route not in blocks:
+   oldtext=oldpage.read_text()
+   if '<!-- social-video-library:start -->' in oldtext:
+    oldpage.write_text(re.sub(r'<!-- social-video-library:start -->.*?<!-- social-video-library:end -->','',oldtext,flags=re.S))
  for route,block in blocks.items():
   p=target/route.strip('/')/'index.html'
   s=p.read_text();s=re.sub(r'<!-- social-video-library:start -->.*?<!-- social-video-library:end -->','',s,flags=re.S)

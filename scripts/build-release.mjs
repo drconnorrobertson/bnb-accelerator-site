@@ -13,6 +13,8 @@ const steps = [
   ['python3', ['scripts/sync-site-index.py', 'public']],
   [process.execPath, ['scripts/contextual-crosslinks.cjs', 'public']],
   ['python3', ['scripts/apply-social-videos.py', 'public']],
+  ['python3', ['scripts/apply-provider-research.py', 'public']],
+  ['python3', ['scripts/test-social-provider-content.py', 'public']],
   [process.execPath, ['scripts/brand-check.mjs', 'public']],
   ['python3', ['scripts/check-production-seo.py', 'public']],
   ['python3', ['scripts/check-comparison-intent.py', 'public']],

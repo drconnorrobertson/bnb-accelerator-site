@@ -1,0 +1,2402 @@
+[
+  {
+    "provider": "BNB Turnkey",
+    "category": "acquisition",
+    "kind": "comparison",
+    "path": "/blog/bnb-accelerator-vs-bnb-turnkey-str-buyer/",
+    "existingOwner": true,
+    "source": "https://bnb-turnkey.com/services"
+  },
+  {
+    "provider": "BNB Turnkey",
+    "category": "acquisition",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-bnb-turnkey/",
+    "existingOwner": true,
+    "source": "https://bnb-turnkey.com/services"
+  },
+  {
+    "provider": "BNB Turnkey",
+    "category": "acquisition",
+    "kind": "pricing",
+    "path": "/compare/bnb-turnkey-pricing/",
+    "existingOwner": false,
+    "source": "https://bnb-turnkey.com/services"
+  },
+  {
+    "provider": "STR Search",
+    "category": "acquisition",
+    "kind": "comparison",
+    "path": "/compare/str-search/",
+    "existingOwner": true,
+    "source": "https://strsearch.com/"
+  },
+  {
+    "provider": "STR Search",
+    "category": "acquisition",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-str-search/",
+    "existingOwner": true,
+    "source": "https://strsearch.com/"
+  },
+  {
+    "provider": "STR Search",
+    "category": "acquisition",
+    "kind": "pricing",
+    "path": "/compare/str-search-pricing/",
+    "existingOwner": false,
+    "source": "https://strsearch.com/"
+  },
+  {
+    "provider": "The Short Term Shop",
+    "category": "brokerage",
+    "kind": "comparison",
+    "path": "/compare/avery-carl-short-term-shop/",
+    "existingOwner": true,
+    "source": "https://theshorttermshop.com/"
+  },
+  {
+    "provider": "The Short Term Shop",
+    "category": "brokerage",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-the-short-term-shop/",
+    "existingOwner": true,
+    "source": "https://theshorttermshop.com/"
+  },
+  {
+    "provider": "The Short Term Shop",
+    "category": "brokerage",
+    "kind": "pricing",
+    "path": "/compare/the-short-term-shop-pricing/",
+    "existingOwner": false,
+    "source": "https://theshorttermshop.com/"
+  },
+  {
+    "provider": "Rabbu",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/rabbu/",
+    "existingOwner": true,
+    "source": "https://rabbu.com/"
+  },
+  {
+    "provider": "Rabbu",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-rabbu/",
+    "existingOwner": true,
+    "source": "https://rabbu.com/"
+  },
+  {
+    "provider": "Rabbu",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/rabbu-pricing/",
+    "existingOwner": false,
+    "source": "https://rabbu.com/"
+  },
+  {
+    "provider": "Roofstock",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/roofstock/",
+    "existingOwner": false,
+    "source": "https://www.roofstock.com/"
+  },
+  {
+    "provider": "Roofstock",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-roofstock/",
+    "existingOwner": true,
+    "source": "https://www.roofstock.com/"
+  },
+  {
+    "provider": "Roofstock",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/roofstock-pricing/",
+    "existingOwner": false,
+    "source": "https://www.roofstock.com/"
+  },
+  {
+    "provider": "Rent To Retirement",
+    "category": "turnkey",
+    "kind": "comparison",
+    "path": "/compare/rent-to-retirement/",
+    "existingOwner": true,
+    "source": "https://www.renttoretirement.com/"
+  },
+  {
+    "provider": "Rent To Retirement",
+    "category": "turnkey",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-rent-to-retirement/",
+    "existingOwner": true,
+    "source": "https://www.renttoretirement.com/"
+  },
+  {
+    "provider": "Rent To Retirement",
+    "category": "turnkey",
+    "kind": "pricing",
+    "path": "/compare/rent-to-retirement-pricing/",
+    "existingOwner": false,
+    "source": "https://www.renttoretirement.com/"
+  },
+  {
+    "provider": "STR Insights",
+    "category": "acquisition",
+    "kind": "comparison",
+    "path": "/blog/bnb-accelerator-vs-str-insights-buyer/",
+    "existingOwner": true,
+    "source": "https://www.strinsights.com/introduction"
+  },
+  {
+    "provider": "STR Insights",
+    "category": "acquisition",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-str-insights/",
+    "existingOwner": true,
+    "source": "https://www.strinsights.com/introduction"
+  },
+  {
+    "provider": "STR Insights",
+    "category": "acquisition",
+    "kind": "pricing",
+    "path": "/compare/str-insights-pricing/",
+    "existingOwner": false,
+    "source": "https://www.strinsights.com/introduction"
+  },
+  {
+    "provider": "Kleer Circle",
+    "category": "acquisition",
+    "kind": "comparison",
+    "path": "/blog/bnb-accelerator-vs-kleer-circle-str-buyer/",
+    "existingOwner": true,
+    "source": "https://kleercircle.com/"
+  },
+  {
+    "provider": "Kleer Circle",
+    "category": "acquisition",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-kleer-circle/",
+    "existingOwner": true,
+    "source": "https://kleercircle.com/"
+  },
+  {
+    "provider": "Kleer Circle",
+    "category": "acquisition",
+    "kind": "pricing",
+    "path": "/compare/kleer-circle-pricing/",
+    "existingOwner": false,
+    "source": "https://kleercircle.com/"
+  },
+  {
+    "provider": "StayRnR",
+    "category": "acquisition",
+    "kind": "comparison",
+    "path": "/compare/stayrnr/",
+    "existingOwner": false,
+    "source": "https://stayrnr.com/"
+  },
+  {
+    "provider": "StayRnR",
+    "category": "acquisition",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-stayrnr/",
+    "existingOwner": true,
+    "source": "https://stayrnr.com/"
+  },
+  {
+    "provider": "StayRnR",
+    "category": "acquisition",
+    "kind": "pricing",
+    "path": "/compare/stayrnr-pricing/",
+    "existingOwner": false,
+    "source": "https://stayrnr.com/"
+  },
+  {
+    "provider": "STR Like The Best",
+    "category": "acquisition",
+    "kind": "comparison",
+    "path": "/compare/str-like-the-best/",
+    "existingOwner": false,
+    "source": "https://strlikethebest.com/"
+  },
+  {
+    "provider": "STR Like The Best",
+    "category": "acquisition",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-str-like-the-best/",
+    "existingOwner": true,
+    "source": "https://strlikethebest.com/"
+  },
+  {
+    "provider": "STR Like The Best",
+    "category": "acquisition",
+    "kind": "pricing",
+    "path": "/compare/str-like-the-best-pricing/",
+    "existingOwner": false,
+    "source": "https://strlikethebest.com/"
+  },
+  {
+    "provider": "Elk Ridge Investments",
+    "category": "acquisition",
+    "kind": "comparison",
+    "path": "/compare/elk-ridge-investments/",
+    "existingOwner": true,
+    "source": "https://elkridge.com/"
+  },
+  {
+    "provider": "Elk Ridge Investments",
+    "category": "acquisition",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-elk-ridge-investments/",
+    "existingOwner": true,
+    "source": "https://elkridge.com/"
+  },
+  {
+    "provider": "Elk Ridge Investments",
+    "category": "acquisition",
+    "kind": "pricing",
+    "path": "/compare/elk-ridge-investments-pricing/",
+    "existingOwner": false,
+    "source": "https://elkridge.com/"
+  },
+  {
+    "provider": "Alpha Geek Capital",
+    "category": "fund",
+    "kind": "comparison",
+    "path": "/compare/alpha-geek-capital/",
+    "existingOwner": true,
+    "source": "https://alphageekcapital.com/"
+  },
+  {
+    "provider": "Alpha Geek Capital",
+    "category": "fund",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-alpha-geek-capital/",
+    "existingOwner": true,
+    "source": "https://alphageekcapital.com/"
+  },
+  {
+    "provider": "Alpha Geek Capital",
+    "category": "fund",
+    "kind": "pricing",
+    "path": "/compare/alpha-geek-capital-pricing/",
+    "existingOwner": false,
+    "source": "https://alphageekcapital.com/"
+  },
+  {
+    "provider": "Techvestor",
+    "category": "fund",
+    "kind": "comparison",
+    "path": "/compare/techvestor/",
+    "existingOwner": true,
+    "source": "https://www.techvestor.com/"
+  },
+  {
+    "provider": "Techvestor",
+    "category": "fund",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-techvestor/",
+    "existingOwner": true,
+    "source": "https://www.techvestor.com/"
+  },
+  {
+    "provider": "Techvestor",
+    "category": "fund",
+    "kind": "pricing",
+    "path": "/compare/techvestor-pricing/",
+    "existingOwner": false,
+    "source": "https://www.techvestor.com/"
+  },
+  {
+    "provider": "Arrived",
+    "category": "fractional",
+    "kind": "comparison",
+    "path": "/compare/arrived/",
+    "existingOwner": false,
+    "source": "https://arrived.com/"
+  },
+  {
+    "provider": "Arrived",
+    "category": "fractional",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-arrived/",
+    "existingOwner": true,
+    "source": "https://arrived.com/"
+  },
+  {
+    "provider": "Arrived",
+    "category": "fractional",
+    "kind": "pricing",
+    "path": "/compare/arrived-pricing/",
+    "existingOwner": false,
+    "source": "https://arrived.com/"
+  },
+  {
+    "provider": "Ember",
+    "category": "fractional",
+    "kind": "comparison",
+    "path": "/compare/ember/",
+    "existingOwner": false,
+    "source": "https://emberhome.com/"
+  },
+  {
+    "provider": "Ember",
+    "category": "fractional",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-ember/",
+    "existingOwner": false,
+    "source": "https://emberhome.com/"
+  },
+  {
+    "provider": "Ember",
+    "category": "fractional",
+    "kind": "pricing",
+    "path": "/compare/ember-pricing/",
+    "existingOwner": false,
+    "source": "https://emberhome.com/"
+  },
+  {
+    "provider": "BNB Mastery",
+    "category": "education",
+    "kind": "comparison",
+    "path": "/compare/bnb-accelerator-vs-bnb-mastery/",
+    "existingOwner": true,
+    "source": "https://bnbmastery.com/"
+  },
+  {
+    "provider": "BNB Mastery",
+    "category": "education",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-bnb-mastery/",
+    "existingOwner": true,
+    "source": "https://bnbmastery.com/"
+  },
+  {
+    "provider": "BNB Mastery",
+    "category": "education",
+    "kind": "pricing",
+    "path": "/compare/bnb-mastery-pricing/",
+    "existingOwner": false,
+    "source": "https://bnbmastery.com/"
+  },
+  {
+    "provider": "BNB Investor Academy",
+    "category": "education",
+    "kind": "comparison",
+    "path": "/compare/michael-elefante/",
+    "existingOwner": true,
+    "source": "https://www.bnbinvestoracademy.com/optin-628360301785876458193"
+  },
+  {
+    "provider": "BNB Investor Academy",
+    "category": "education",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-michael-elefante/",
+    "existingOwner": true,
+    "source": "https://www.bnbinvestoracademy.com/optin-628360301785876458193"
+  },
+  {
+    "provider": "BNB Investor Academy",
+    "category": "education",
+    "kind": "pricing",
+    "path": "/compare/bnb-investor-academy-pricing/",
+    "existingOwner": false,
+    "source": "https://www.bnbinvestoracademy.com/optin-628360301785876458193"
+  },
+  {
+    "provider": "The Real Estate Robinsons",
+    "category": "education",
+    "kind": "comparison",
+    "path": "/compare/real-estate-robinsons/",
+    "existingOwner": true,
+    "source": "https://therealestaterobinsons.com/"
+  },
+  {
+    "provider": "The Real Estate Robinsons",
+    "category": "education",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-real-estate-robinsons/",
+    "existingOwner": true,
+    "source": "https://therealestaterobinsons.com/"
+  },
+  {
+    "provider": "The Real Estate Robinsons",
+    "category": "education",
+    "kind": "pricing",
+    "path": "/compare/the-real-estate-robinsons-pricing/",
+    "existingOwner": false,
+    "source": "https://therealestaterobinsons.com/"
+  },
+  {
+    "provider": "Vacation Rental Formula",
+    "category": "education",
+    "kind": "comparison",
+    "path": "/compare/vacation-rental-formula/",
+    "existingOwner": false,
+    "source": "https://www.vacationrentalformula.com/"
+  },
+  {
+    "provider": "Vacation Rental Formula",
+    "category": "education",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-vacation-rental-formula/",
+    "existingOwner": false,
+    "source": "https://www.vacationrentalformula.com/"
+  },
+  {
+    "provider": "Vacation Rental Formula",
+    "category": "education",
+    "kind": "pricing",
+    "path": "/compare/vacation-rental-formula-pricing/",
+    "existingOwner": false,
+    "source": "https://www.vacationrentalformula.com/"
+  },
+  {
+    "provider": "BiggerPockets",
+    "category": "education",
+    "kind": "comparison",
+    "path": "/compare/biggerpockets/",
+    "existingOwner": false,
+    "source": "https://www.biggerpockets.com/"
+  },
+  {
+    "provider": "BiggerPockets",
+    "category": "education",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-biggerpockets/",
+    "existingOwner": false,
+    "source": "https://www.biggerpockets.com/"
+  },
+  {
+    "provider": "BiggerPockets",
+    "category": "education",
+    "kind": "pricing",
+    "path": "/compare/biggerpockets-pricing/",
+    "existingOwner": false,
+    "source": "https://www.biggerpockets.com/"
+  },
+  {
+    "provider": "Coach Carson",
+    "category": "education",
+    "kind": "comparison",
+    "path": "/compare/coach-carson/",
+    "existingOwner": false,
+    "source": "https://www.coachcarson.com/"
+  },
+  {
+    "provider": "Coach Carson",
+    "category": "education",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-coach-carson/",
+    "existingOwner": false,
+    "source": "https://www.coachcarson.com/"
+  },
+  {
+    "provider": "Coach Carson",
+    "category": "education",
+    "kind": "pricing",
+    "path": "/compare/coach-carson-pricing/",
+    "existingOwner": false,
+    "source": "https://www.coachcarson.com/"
+  },
+  {
+    "provider": "Wealth Without Wall Street",
+    "category": "education",
+    "kind": "comparison",
+    "path": "/compare/wealth-without-wall-street/",
+    "existingOwner": false,
+    "source": "https://www.wealthwithoutwallstreet.com/"
+  },
+  {
+    "provider": "Wealth Without Wall Street",
+    "category": "education",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-wealth-without-wall-street/",
+    "existingOwner": false,
+    "source": "https://www.wealthwithoutwallstreet.com/"
+  },
+  {
+    "provider": "Wealth Without Wall Street",
+    "category": "education",
+    "kind": "pricing",
+    "path": "/compare/wealth-without-wall-street-pricing/",
+    "existingOwner": false,
+    "source": "https://www.wealthwithoutwallstreet.com/"
+  },
+  {
+    "provider": "Vacasa",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/vacasa/",
+    "existingOwner": false,
+    "source": "https://www.vacasa.com/"
+  },
+  {
+    "provider": "Vacasa",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-vacasa/",
+    "existingOwner": false,
+    "source": "https://www.vacasa.com/"
+  },
+  {
+    "provider": "Vacasa",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/vacasa-pricing/",
+    "existingOwner": false,
+    "source": "https://www.vacasa.com/"
+  },
+  {
+    "provider": "Evolve",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/evolve/",
+    "existingOwner": false,
+    "source": "https://evolve.com/"
+  },
+  {
+    "provider": "Evolve",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-evolve/",
+    "existingOwner": false,
+    "source": "https://evolve.com/"
+  },
+  {
+    "provider": "Evolve",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/evolve-pricing/",
+    "existingOwner": false,
+    "source": "https://evolve.com/"
+  },
+  {
+    "provider": "AvantStay",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/avantstay/",
+    "existingOwner": false,
+    "source": "https://avantstay.com/"
+  },
+  {
+    "provider": "AvantStay",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-avantstay/",
+    "existingOwner": false,
+    "source": "https://avantstay.com/"
+  },
+  {
+    "provider": "AvantStay",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/avantstay-pricing/",
+    "existingOwner": false,
+    "source": "https://avantstay.com/"
+  },
+  {
+    "provider": "Casago",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/casago/",
+    "existingOwner": false,
+    "source": "https://casago.com/"
+  },
+  {
+    "provider": "Casago",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-casago/",
+    "existingOwner": false,
+    "source": "https://casago.com/"
+  },
+  {
+    "provider": "Casago",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/casago-pricing/",
+    "existingOwner": false,
+    "source": "https://casago.com/"
+  },
+  {
+    "provider": "SkyRun",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/skyrun/",
+    "existingOwner": false,
+    "source": "https://skyrun.com/"
+  },
+  {
+    "provider": "SkyRun",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-skyrun/",
+    "existingOwner": false,
+    "source": "https://skyrun.com/"
+  },
+  {
+    "provider": "SkyRun",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/skyrun-pricing/",
+    "existingOwner": false,
+    "source": "https://skyrun.com/"
+  },
+  {
+    "provider": "iTrip",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/itrip/",
+    "existingOwner": false,
+    "source": "https://www.itrip.net/"
+  },
+  {
+    "provider": "iTrip",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-itrip/",
+    "existingOwner": false,
+    "source": "https://www.itrip.net/"
+  },
+  {
+    "provider": "iTrip",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/itrip-pricing/",
+    "existingOwner": false,
+    "source": "https://www.itrip.net/"
+  },
+  {
+    "provider": "Grand Welcome",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/grand-welcome/",
+    "existingOwner": false,
+    "source": "https://www.grandwelcome.com/"
+  },
+  {
+    "provider": "Grand Welcome",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-grand-welcome/",
+    "existingOwner": false,
+    "source": "https://www.grandwelcome.com/"
+  },
+  {
+    "provider": "Grand Welcome",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/grand-welcome-pricing/",
+    "existingOwner": false,
+    "source": "https://www.grandwelcome.com/"
+  },
+  {
+    "provider": "PMI",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/pmi/",
+    "existingOwner": false,
+    "source": "https://www.propertymanagementinc.com/"
+  },
+  {
+    "provider": "PMI",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-pmi/",
+    "existingOwner": false,
+    "source": "https://www.propertymanagementinc.com/"
+  },
+  {
+    "provider": "PMI",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/pmi-pricing/",
+    "existingOwner": false,
+    "source": "https://www.propertymanagementinc.com/"
+  },
+  {
+    "provider": "VTrips",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/vtrips/",
+    "existingOwner": false,
+    "source": "https://vtrips.com/"
+  },
+  {
+    "provider": "VTrips",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-vtrips/",
+    "existingOwner": false,
+    "source": "https://vtrips.com/"
+  },
+  {
+    "provider": "VTrips",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/vtrips-pricing/",
+    "existingOwner": false,
+    "source": "https://vtrips.com/"
+  },
+  {
+    "provider": "AirDNA",
+    "category": "data",
+    "kind": "comparison",
+    "path": "/compare/airdna/",
+    "existingOwner": true,
+    "source": "https://www.airdna.co/"
+  },
+  {
+    "provider": "AirDNA",
+    "category": "data",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-airdna/",
+    "existingOwner": true,
+    "source": "https://www.airdna.co/"
+  },
+  {
+    "provider": "AirDNA",
+    "category": "data",
+    "kind": "pricing",
+    "path": "/compare/airdna-pricing/",
+    "existingOwner": false,
+    "source": "https://www.airdna.co/"
+  },
+  {
+    "provider": "Mashvisor",
+    "category": "data",
+    "kind": "comparison",
+    "path": "/compare/mashvisor/",
+    "existingOwner": false,
+    "source": "https://www.mashvisor.com/"
+  },
+  {
+    "provider": "Mashvisor",
+    "category": "data",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-mashvisor/",
+    "existingOwner": false,
+    "source": "https://www.mashvisor.com/"
+  },
+  {
+    "provider": "Mashvisor",
+    "category": "data",
+    "kind": "pricing",
+    "path": "/compare/mashvisor-pricing/",
+    "existingOwner": false,
+    "source": "https://www.mashvisor.com/"
+  },
+  {
+    "provider": "Airbtics",
+    "category": "data",
+    "kind": "comparison",
+    "path": "/compare/airbtics/",
+    "existingOwner": false,
+    "source": "https://airbtics.com/"
+  },
+  {
+    "provider": "Airbtics",
+    "category": "data",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-airbtics/",
+    "existingOwner": false,
+    "source": "https://airbtics.com/"
+  },
+  {
+    "provider": "Airbtics",
+    "category": "data",
+    "kind": "pricing",
+    "path": "/compare/airbtics-pricing/",
+    "existingOwner": false,
+    "source": "https://airbtics.com/"
+  },
+  {
+    "provider": "AirROI",
+    "category": "data",
+    "kind": "comparison",
+    "path": "/compare/airroi/",
+    "existingOwner": false,
+    "source": "https://www.airroi.com/"
+  },
+  {
+    "provider": "AirROI",
+    "category": "data",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-airroi/",
+    "existingOwner": false,
+    "source": "https://www.airroi.com/"
+  },
+  {
+    "provider": "AirROI",
+    "category": "data",
+    "kind": "pricing",
+    "path": "/compare/airroi-pricing/",
+    "existingOwner": false,
+    "source": "https://www.airroi.com/"
+  },
+  {
+    "provider": "BNBCalc",
+    "category": "data",
+    "kind": "comparison",
+    "path": "/compare/bnbcalc/",
+    "existingOwner": false,
+    "source": "https://www.bnbcalc.com/"
+  },
+  {
+    "provider": "BNBCalc",
+    "category": "data",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-bnbcalc/",
+    "existingOwner": false,
+    "source": "https://www.bnbcalc.com/"
+  },
+  {
+    "provider": "BNBCalc",
+    "category": "data",
+    "kind": "pricing",
+    "path": "/compare/bnbcalc-pricing/",
+    "existingOwner": false,
+    "source": "https://www.bnbcalc.com/"
+  },
+  {
+    "provider": "Key Data",
+    "category": "data",
+    "kind": "comparison",
+    "path": "/compare/key-data/",
+    "existingOwner": false,
+    "source": "https://www.keydata.co/"
+  },
+  {
+    "provider": "Key Data",
+    "category": "data",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-key-data/",
+    "existingOwner": false,
+    "source": "https://www.keydata.co/"
+  },
+  {
+    "provider": "Key Data",
+    "category": "data",
+    "kind": "pricing",
+    "path": "/compare/key-data-pricing/",
+    "existingOwner": false,
+    "source": "https://www.keydata.co/"
+  },
+  {
+    "provider": "PriceLabs",
+    "category": "pricing",
+    "kind": "comparison",
+    "path": "/compare/pricelabs/",
+    "existingOwner": false,
+    "source": "https://hello.pricelabs.co/"
+  },
+  {
+    "provider": "PriceLabs",
+    "category": "pricing",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-pricelabs/",
+    "existingOwner": false,
+    "source": "https://hello.pricelabs.co/"
+  },
+  {
+    "provider": "PriceLabs",
+    "category": "pricing",
+    "kind": "pricing",
+    "path": "/compare/pricelabs-pricing/",
+    "existingOwner": false,
+    "source": "https://hello.pricelabs.co/"
+  },
+  {
+    "provider": "Beyond",
+    "category": "pricing",
+    "kind": "comparison",
+    "path": "/compare/beyond/",
+    "existingOwner": false,
+    "source": "https://beyondpricing.com/"
+  },
+  {
+    "provider": "Beyond",
+    "category": "pricing",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-beyond/",
+    "existingOwner": false,
+    "source": "https://beyondpricing.com/"
+  },
+  {
+    "provider": "Beyond",
+    "category": "pricing",
+    "kind": "pricing",
+    "path": "/compare/beyond-pricing/",
+    "existingOwner": false,
+    "source": "https://beyondpricing.com/"
+  },
+  {
+    "provider": "Wheelhouse",
+    "category": "pricing",
+    "kind": "comparison",
+    "path": "/compare/wheelhouse/",
+    "existingOwner": false,
+    "source": "https://www.usewheelhouse.com/"
+  },
+  {
+    "provider": "Wheelhouse",
+    "category": "pricing",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-wheelhouse/",
+    "existingOwner": false,
+    "source": "https://www.usewheelhouse.com/"
+  },
+  {
+    "provider": "Wheelhouse",
+    "category": "pricing",
+    "kind": "pricing",
+    "path": "/compare/wheelhouse-pricing/",
+    "existingOwner": false,
+    "source": "https://www.usewheelhouse.com/"
+  },
+  {
+    "provider": "DPGO",
+    "category": "pricing",
+    "kind": "comparison",
+    "path": "/compare/dpgo/",
+    "existingOwner": false,
+    "source": "https://www.dpgo.com/"
+  },
+  {
+    "provider": "DPGO",
+    "category": "pricing",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-dpgo/",
+    "existingOwner": false,
+    "source": "https://www.dpgo.com/"
+  },
+  {
+    "provider": "DPGO",
+    "category": "pricing",
+    "kind": "pricing",
+    "path": "/compare/dpgo-pricing/",
+    "existingOwner": false,
+    "source": "https://www.dpgo.com/"
+  },
+  {
+    "provider": "Rankbreeze",
+    "category": "pricing",
+    "kind": "comparison",
+    "path": "/compare/rankbreeze/",
+    "existingOwner": false,
+    "source": "https://rankbreeze.com/"
+  },
+  {
+    "provider": "Rankbreeze",
+    "category": "pricing",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-rankbreeze/",
+    "existingOwner": false,
+    "source": "https://rankbreeze.com/"
+  },
+  {
+    "provider": "Rankbreeze",
+    "category": "pricing",
+    "kind": "pricing",
+    "path": "/compare/rankbreeze-pricing/",
+    "existingOwner": false,
+    "source": "https://rankbreeze.com/"
+  },
+  {
+    "provider": "Guesty",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/guesty/",
+    "existingOwner": false,
+    "source": "https://www.guesty.com/"
+  },
+  {
+    "provider": "Guesty",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-guesty/",
+    "existingOwner": false,
+    "source": "https://www.guesty.com/"
+  },
+  {
+    "provider": "Guesty",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/guesty-pricing/",
+    "existingOwner": false,
+    "source": "https://www.guesty.com/"
+  },
+  {
+    "provider": "Hostaway",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/hostaway/",
+    "existingOwner": false,
+    "source": "https://www.hostaway.com/"
+  },
+  {
+    "provider": "Hostaway",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-hostaway/",
+    "existingOwner": false,
+    "source": "https://www.hostaway.com/"
+  },
+  {
+    "provider": "Hostaway",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/hostaway-pricing/",
+    "existingOwner": false,
+    "source": "https://www.hostaway.com/"
+  },
+  {
+    "provider": "Hospitable",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/hospitable/",
+    "existingOwner": false,
+    "source": "https://hospitable.com/"
+  },
+  {
+    "provider": "Hospitable",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-hospitable/",
+    "existingOwner": false,
+    "source": "https://hospitable.com/"
+  },
+  {
+    "provider": "Hospitable",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/hospitable-pricing/",
+    "existingOwner": false,
+    "source": "https://hospitable.com/"
+  },
+  {
+    "provider": "Lodgify",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/lodgify/",
+    "existingOwner": false,
+    "source": "https://www.lodgify.com/"
+  },
+  {
+    "provider": "Lodgify",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-lodgify/",
+    "existingOwner": false,
+    "source": "https://www.lodgify.com/"
+  },
+  {
+    "provider": "Lodgify",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/lodgify-pricing/",
+    "existingOwner": false,
+    "source": "https://www.lodgify.com/"
+  },
+  {
+    "provider": "OwnerRez",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/ownerrez/",
+    "existingOwner": false,
+    "source": "https://www.ownerrez.com/"
+  },
+  {
+    "provider": "OwnerRez",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-ownerrez/",
+    "existingOwner": false,
+    "source": "https://www.ownerrez.com/"
+  },
+  {
+    "provider": "OwnerRez",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/ownerrez-pricing/",
+    "existingOwner": false,
+    "source": "https://www.ownerrez.com/"
+  },
+  {
+    "provider": "Hostfully",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/hostfully/",
+    "existingOwner": false,
+    "source": "https://www.hostfully.com/"
+  },
+  {
+    "provider": "Hostfully",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-hostfully/",
+    "existingOwner": false,
+    "source": "https://www.hostfully.com/"
+  },
+  {
+    "provider": "Hostfully",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/hostfully-pricing/",
+    "existingOwner": false,
+    "source": "https://www.hostfully.com/"
+  },
+  {
+    "provider": "Uplisting",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/uplisting/",
+    "existingOwner": false,
+    "source": "https://www.uplisting.io/"
+  },
+  {
+    "provider": "Uplisting",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-uplisting/",
+    "existingOwner": false,
+    "source": "https://www.uplisting.io/"
+  },
+  {
+    "provider": "Uplisting",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/uplisting-pricing/",
+    "existingOwner": false,
+    "source": "https://www.uplisting.io/"
+  },
+  {
+    "provider": "Smoobu",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/smoobu/",
+    "existingOwner": false,
+    "source": "https://www.smoobu.com/en/"
+  },
+  {
+    "provider": "Smoobu",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-smoobu/",
+    "existingOwner": false,
+    "source": "https://www.smoobu.com/en/"
+  },
+  {
+    "provider": "Smoobu",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/smoobu-pricing/",
+    "existingOwner": false,
+    "source": "https://www.smoobu.com/en/"
+  },
+  {
+    "provider": "Beds24",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/beds24/",
+    "existingOwner": false,
+    "source": "https://beds24.com/"
+  },
+  {
+    "provider": "Beds24",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-beds24/",
+    "existingOwner": false,
+    "source": "https://beds24.com/"
+  },
+  {
+    "provider": "Beds24",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/beds24-pricing/",
+    "existingOwner": false,
+    "source": "https://beds24.com/"
+  },
+  {
+    "provider": "Lodgix",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/lodgix/",
+    "existingOwner": false,
+    "source": "https://www.lodgix.com/"
+  },
+  {
+    "provider": "Lodgix",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-lodgix/",
+    "existingOwner": false,
+    "source": "https://www.lodgix.com/"
+  },
+  {
+    "provider": "Lodgix",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/lodgix-pricing/",
+    "existingOwner": false,
+    "source": "https://www.lodgix.com/"
+  },
+  {
+    "provider": "Tokeet",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/tokeet/",
+    "existingOwner": false,
+    "source": "https://www.tokeet.com/"
+  },
+  {
+    "provider": "Tokeet",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-tokeet/",
+    "existingOwner": false,
+    "source": "https://www.tokeet.com/"
+  },
+  {
+    "provider": "Tokeet",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/tokeet-pricing/",
+    "existingOwner": false,
+    "source": "https://www.tokeet.com/"
+  },
+  {
+    "provider": "iGMS",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/igms/",
+    "existingOwner": false,
+    "source": "https://www.igms.com/"
+  },
+  {
+    "provider": "iGMS",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-igms/",
+    "existingOwner": false,
+    "source": "https://www.igms.com/"
+  },
+  {
+    "provider": "iGMS",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/igms-pricing/",
+    "existingOwner": false,
+    "source": "https://www.igms.com/"
+  },
+  {
+    "provider": "Host Tools",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/host-tools/",
+    "existingOwner": false,
+    "source": "https://hosttools.com/"
+  },
+  {
+    "provider": "Host Tools",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-host-tools/",
+    "existingOwner": false,
+    "source": "https://hosttools.com/"
+  },
+  {
+    "provider": "Host Tools",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/host-tools-pricing/",
+    "existingOwner": false,
+    "source": "https://hosttools.com/"
+  },
+  {
+    "provider": "RentalReady",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/rentalready/",
+    "existingOwner": false,
+    "source": "https://www.rentalready.com/"
+  },
+  {
+    "provider": "RentalReady",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-rentalready/",
+    "existingOwner": false,
+    "source": "https://www.rentalready.com/"
+  },
+  {
+    "provider": "RentalReady",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/rentalready-pricing/",
+    "existingOwner": false,
+    "source": "https://www.rentalready.com/"
+  },
+  {
+    "provider": "Streamline",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/streamline/",
+    "existingOwner": false,
+    "source": "https://www.streamlinevrs.com/"
+  },
+  {
+    "provider": "Streamline",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-streamline/",
+    "existingOwner": false,
+    "source": "https://www.streamlinevrs.com/"
+  },
+  {
+    "provider": "Streamline",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/streamline-pricing/",
+    "existingOwner": false,
+    "source": "https://www.streamlinevrs.com/"
+  },
+  {
+    "provider": "Escapia",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/escapia/",
+    "existingOwner": false,
+    "source": "https://www.escapia.com/"
+  },
+  {
+    "provider": "Escapia",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-escapia/",
+    "existingOwner": false,
+    "source": "https://www.escapia.com/"
+  },
+  {
+    "provider": "Escapia",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/escapia-pricing/",
+    "existingOwner": false,
+    "source": "https://www.escapia.com/"
+  },
+  {
+    "provider": "Bookerville",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/bookerville/",
+    "existingOwner": false,
+    "source": "https://www.bookerville.com/"
+  },
+  {
+    "provider": "Bookerville",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-bookerville/",
+    "existingOwner": false,
+    "source": "https://www.bookerville.com/"
+  },
+  {
+    "provider": "Bookerville",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/bookerville-pricing/",
+    "existingOwner": false,
+    "source": "https://www.bookerville.com/"
+  },
+  {
+    "provider": "Zeevou",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/zeevou/",
+    "existingOwner": false,
+    "source": "https://zeevou.com/"
+  },
+  {
+    "provider": "Zeevou",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-zeevou/",
+    "existingOwner": false,
+    "source": "https://zeevou.com/"
+  },
+  {
+    "provider": "Zeevou",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/zeevou-pricing/",
+    "existingOwner": false,
+    "source": "https://zeevou.com/"
+  },
+  {
+    "provider": "RentalWise",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/rentalwise/",
+    "existingOwner": false,
+    "source": "https://www.rentalwise.com/"
+  },
+  {
+    "provider": "RentalWise",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-rentalwise/",
+    "existingOwner": false,
+    "source": "https://www.rentalwise.com/"
+  },
+  {
+    "provider": "RentalWise",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/rentalwise-pricing/",
+    "existingOwner": false,
+    "source": "https://www.rentalwise.com/"
+  },
+  {
+    "provider": "BookingSync",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/bookingsync/",
+    "existingOwner": false,
+    "source": "https://www.smily.com/"
+  },
+  {
+    "provider": "BookingSync",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-bookingsync/",
+    "existingOwner": false,
+    "source": "https://www.smily.com/"
+  },
+  {
+    "provider": "BookingSync",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/bookingsync-pricing/",
+    "existingOwner": false,
+    "source": "https://www.smily.com/"
+  },
+  {
+    "provider": "Hostify",
+    "category": "software",
+    "kind": "comparison",
+    "path": "/compare/hostify/",
+    "existingOwner": false,
+    "source": "https://hostify.com/"
+  },
+  {
+    "provider": "Hostify",
+    "category": "software",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-hostify/",
+    "existingOwner": false,
+    "source": "https://hostify.com/"
+  },
+  {
+    "provider": "Hostify",
+    "category": "software",
+    "kind": "pricing",
+    "path": "/compare/hostify-pricing/",
+    "existingOwner": false,
+    "source": "https://hostify.com/"
+  },
+  {
+    "provider": "Airbnb",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/airbnb/",
+    "existingOwner": false,
+    "source": "https://www.airbnb.com/"
+  },
+  {
+    "provider": "Airbnb",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-airbnb/",
+    "existingOwner": false,
+    "source": "https://www.airbnb.com/"
+  },
+  {
+    "provider": "Airbnb",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/airbnb-pricing/",
+    "existingOwner": false,
+    "source": "https://www.airbnb.com/"
+  },
+  {
+    "provider": "Vrbo",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/vrbo/",
+    "existingOwner": false,
+    "source": "https://www.vrbo.com/"
+  },
+  {
+    "provider": "Vrbo",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-vrbo/",
+    "existingOwner": false,
+    "source": "https://www.vrbo.com/"
+  },
+  {
+    "provider": "Vrbo",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/vrbo-pricing/",
+    "existingOwner": false,
+    "source": "https://www.vrbo.com/"
+  },
+  {
+    "provider": "Furnished Finder",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/furnished-finder/",
+    "existingOwner": false,
+    "source": "https://www.furnishedfinder.com/"
+  },
+  {
+    "provider": "Furnished Finder",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-furnished-finder/",
+    "existingOwner": false,
+    "source": "https://www.furnishedfinder.com/"
+  },
+  {
+    "provider": "Furnished Finder",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/furnished-finder-pricing/",
+    "existingOwner": false,
+    "source": "https://www.furnishedfinder.com/"
+  },
+  {
+    "provider": "Plum Guide",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/plum-guide/",
+    "existingOwner": false,
+    "source": "https://www.plumguide.com/"
+  },
+  {
+    "provider": "Plum Guide",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-plum-guide/",
+    "existingOwner": false,
+    "source": "https://www.plumguide.com/"
+  },
+  {
+    "provider": "Plum Guide",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/plum-guide-pricing/",
+    "existingOwner": false,
+    "source": "https://www.plumguide.com/"
+  },
+  {
+    "provider": "HomeToGo",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/hometogo/",
+    "existingOwner": false,
+    "source": "https://www.hometogo.com/"
+  },
+  {
+    "provider": "HomeToGo",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-hometogo/",
+    "existingOwner": false,
+    "source": "https://www.hometogo.com/"
+  },
+  {
+    "provider": "HomeToGo",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/hometogo-pricing/",
+    "existingOwner": false,
+    "source": "https://www.hometogo.com/"
+  },
+  {
+    "provider": "Holidu",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/holidu/",
+    "existingOwner": false,
+    "source": "https://www.holidu.com/"
+  },
+  {
+    "provider": "Holidu",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-holidu/",
+    "existingOwner": false,
+    "source": "https://www.holidu.com/"
+  },
+  {
+    "provider": "Holidu",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/holidu-pricing/",
+    "existingOwner": false,
+    "source": "https://www.holidu.com/"
+  },
+  {
+    "provider": "Houfy",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/houfy/",
+    "existingOwner": false,
+    "source": "https://www.houfy.com/"
+  },
+  {
+    "provider": "Houfy",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-houfy/",
+    "existingOwner": false,
+    "source": "https://www.houfy.com/"
+  },
+  {
+    "provider": "Houfy",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/houfy-pricing/",
+    "existingOwner": false,
+    "source": "https://www.houfy.com/"
+  },
+  {
+    "provider": "Whimstay",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/whimstay/",
+    "existingOwner": false,
+    "source": "https://www.whimstay.com/"
+  },
+  {
+    "provider": "Whimstay",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-whimstay/",
+    "existingOwner": false,
+    "source": "https://www.whimstay.com/"
+  },
+  {
+    "provider": "Whimstay",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/whimstay-pricing/",
+    "existingOwner": false,
+    "source": "https://www.whimstay.com/"
+  },
+  {
+    "provider": "Homes & Villas by Marriott Bonvoy",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/homes-villas-by-marriott-bonvoy/",
+    "existingOwner": false,
+    "source": "https://homes-and-villas.marriott.com/"
+  },
+  {
+    "provider": "Homes & Villas by Marriott Bonvoy",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-homes-villas-by-marriott-bonvoy/",
+    "existingOwner": false,
+    "source": "https://homes-and-villas.marriott.com/"
+  },
+  {
+    "provider": "Homes & Villas by Marriott Bonvoy",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/homes-villas-by-marriott-bonvoy-pricing/",
+    "existingOwner": false,
+    "source": "https://homes-and-villas.marriott.com/"
+  },
+  {
+    "provider": "Turno",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/turno/",
+    "existingOwner": false,
+    "source": "https://turno.com/"
+  },
+  {
+    "provider": "Turno",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-turno/",
+    "existingOwner": false,
+    "source": "https://turno.com/"
+  },
+  {
+    "provider": "Turno",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/turno-pricing/",
+    "existingOwner": false,
+    "source": "https://turno.com/"
+  },
+  {
+    "provider": "Breezeway",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/breezeway/",
+    "existingOwner": false,
+    "source": "https://www.breezeway.io/"
+  },
+  {
+    "provider": "Breezeway",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-breezeway/",
+    "existingOwner": false,
+    "source": "https://www.breezeway.io/"
+  },
+  {
+    "provider": "Breezeway",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/breezeway-pricing/",
+    "existingOwner": false,
+    "source": "https://www.breezeway.io/"
+  },
+  {
+    "provider": "Properly",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/properly/",
+    "existingOwner": false,
+    "source": "https://getproperly.com/"
+  },
+  {
+    "provider": "Properly",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-properly/",
+    "existingOwner": false,
+    "source": "https://getproperly.com/"
+  },
+  {
+    "provider": "Properly",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/properly-pricing/",
+    "existingOwner": false,
+    "source": "https://getproperly.com/"
+  },
+  {
+    "provider": "Dwellwell",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/dwellwell/",
+    "existingOwner": false,
+    "source": "https://dwellwell.ai/"
+  },
+  {
+    "provider": "Dwellwell",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-dwellwell/",
+    "existingOwner": false,
+    "source": "https://dwellwell.ai/"
+  },
+  {
+    "provider": "Dwellwell",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/dwellwell-pricing/",
+    "existingOwner": false,
+    "source": "https://dwellwell.ai/"
+  },
+  {
+    "provider": "Minut",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/minut/",
+    "existingOwner": false,
+    "source": "https://www.minut.com/"
+  },
+  {
+    "provider": "Minut",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-minut/",
+    "existingOwner": false,
+    "source": "https://www.minut.com/"
+  },
+  {
+    "provider": "Minut",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/minut-pricing/",
+    "existingOwner": false,
+    "source": "https://www.minut.com/"
+  },
+  {
+    "provider": "StayFi",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/stayfi/",
+    "existingOwner": false,
+    "source": "https://stayfi.com/"
+  },
+  {
+    "provider": "StayFi",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-stayfi/",
+    "existingOwner": false,
+    "source": "https://stayfi.com/"
+  },
+  {
+    "provider": "StayFi",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/stayfi-pricing/",
+    "existingOwner": false,
+    "source": "https://stayfi.com/"
+  },
+  {
+    "provider": "Enso Connect",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/enso-connect/",
+    "existingOwner": false,
+    "source": "https://ensoconnect.com/"
+  },
+  {
+    "provider": "Enso Connect",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-enso-connect/",
+    "existingOwner": false,
+    "source": "https://ensoconnect.com/"
+  },
+  {
+    "provider": "Enso Connect",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/enso-connect-pricing/",
+    "existingOwner": false,
+    "source": "https://ensoconnect.com/"
+  },
+  {
+    "provider": "Superhog",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/superhog/",
+    "existingOwner": false,
+    "source": "https://truvi.com/"
+  },
+  {
+    "provider": "Superhog",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-superhog/",
+    "existingOwner": false,
+    "source": "https://truvi.com/"
+  },
+  {
+    "provider": "Superhog",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/superhog-pricing/",
+    "existingOwner": false,
+    "source": "https://truvi.com/"
+  },
+  {
+    "provider": "Autohost",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/autohost/",
+    "existingOwner": false,
+    "source": "https://www.autohost.ai/"
+  },
+  {
+    "provider": "Autohost",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-autohost/",
+    "existingOwner": false,
+    "source": "https://www.autohost.ai/"
+  },
+  {
+    "provider": "Autohost",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/autohost-pricing/",
+    "existingOwner": false,
+    "source": "https://www.autohost.ai/"
+  },
+  {
+    "provider": "Safely",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/safely/",
+    "existingOwner": false,
+    "source": "https://safely.com/"
+  },
+  {
+    "provider": "Safely",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-safely/",
+    "existingOwner": false,
+    "source": "https://safely.com/"
+  },
+  {
+    "provider": "Safely",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/safely-pricing/",
+    "existingOwner": false,
+    "source": "https://safely.com/"
+  },
+  {
+    "provider": "Proper Insurance",
+    "category": "insurance",
+    "kind": "comparison",
+    "path": "/compare/proper-insurance/",
+    "existingOwner": false,
+    "source": "https://www.proper.insure/"
+  },
+  {
+    "provider": "Proper Insurance",
+    "category": "insurance",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-proper-insurance/",
+    "existingOwner": false,
+    "source": "https://www.proper.insure/"
+  },
+  {
+    "provider": "Proper Insurance",
+    "category": "insurance",
+    "kind": "pricing",
+    "path": "/compare/proper-insurance-pricing/",
+    "existingOwner": false,
+    "source": "https://www.proper.insure/"
+  },
+  {
+    "provider": "Steadily",
+    "category": "insurance",
+    "kind": "comparison",
+    "path": "/compare/steadily/",
+    "existingOwner": false,
+    "source": "https://www.steadily.com/"
+  },
+  {
+    "provider": "Steadily",
+    "category": "insurance",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-steadily/",
+    "existingOwner": false,
+    "source": "https://www.steadily.com/"
+  },
+  {
+    "provider": "Steadily",
+    "category": "insurance",
+    "kind": "pricing",
+    "path": "/compare/steadily-pricing/",
+    "existingOwner": false,
+    "source": "https://www.steadily.com/"
+  },
+  {
+    "provider": "RueBaRue",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/ruebarue/",
+    "existingOwner": false,
+    "source": "https://www.ruebarue.com/"
+  },
+  {
+    "provider": "RueBaRue",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-ruebarue/",
+    "existingOwner": false,
+    "source": "https://www.ruebarue.com/"
+  },
+  {
+    "provider": "RueBaRue",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/ruebarue-pricing/",
+    "existingOwner": false,
+    "source": "https://www.ruebarue.com/"
+  },
+  {
+    "provider": "Touch Stay",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/touch-stay/",
+    "existingOwner": false,
+    "source": "https://touchstay.com/"
+  },
+  {
+    "provider": "Touch Stay",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-touch-stay/",
+    "existingOwner": false,
+    "source": "https://touchstay.com/"
+  },
+  {
+    "provider": "Touch Stay",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/touch-stay-pricing/",
+    "existingOwner": false,
+    "source": "https://touchstay.com/"
+  },
+  {
+    "provider": "Akia",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/akia/",
+    "existingOwner": false,
+    "source": "https://www.akia.com/"
+  },
+  {
+    "provider": "Akia",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-akia/",
+    "existingOwner": false,
+    "source": "https://www.akia.com/"
+  },
+  {
+    "provider": "Akia",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/akia-pricing/",
+    "existingOwner": false,
+    "source": "https://www.akia.com/"
+  },
+  {
+    "provider": "Duve",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/duve/",
+    "existingOwner": false,
+    "source": "https://duve.com/"
+  },
+  {
+    "provider": "Duve",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-duve/",
+    "existingOwner": false,
+    "source": "https://duve.com/"
+  },
+  {
+    "provider": "Duve",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/duve-pricing/",
+    "existingOwner": false,
+    "source": "https://duve.com/"
+  },
+  {
+    "provider": "Operto",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/operto/",
+    "existingOwner": false,
+    "source": "https://operto.com/"
+  },
+  {
+    "provider": "Operto",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-operto/",
+    "existingOwner": false,
+    "source": "https://operto.com/"
+  },
+  {
+    "provider": "Operto",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/operto-pricing/",
+    "existingOwner": false,
+    "source": "https://operto.com/"
+  },
+  {
+    "provider": "RemoteLock",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/remotelock/",
+    "existingOwner": false,
+    "source": "https://remotelock.com/"
+  },
+  {
+    "provider": "RemoteLock",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-remotelock/",
+    "existingOwner": false,
+    "source": "https://remotelock.com/"
+  },
+  {
+    "provider": "RemoteLock",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/remotelock-pricing/",
+    "existingOwner": false,
+    "source": "https://remotelock.com/"
+  },
+  {
+    "provider": "PointCentral",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/pointcentral/",
+    "existingOwner": false,
+    "source": "https://www.pointcentral.com/"
+  },
+  {
+    "provider": "PointCentral",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-pointcentral/",
+    "existingOwner": false,
+    "source": "https://www.pointcentral.com/"
+  },
+  {
+    "provider": "PointCentral",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/pointcentral-pricing/",
+    "existingOwner": false,
+    "source": "https://www.pointcentral.com/"
+  },
+  {
+    "provider": "ResortCleaning",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/resortcleaning/",
+    "existingOwner": false,
+    "source": "https://www.resortcleaning.com/"
+  },
+  {
+    "provider": "ResortCleaning",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-resortcleaning/",
+    "existingOwner": false,
+    "source": "https://www.resortcleaning.com/"
+  },
+  {
+    "provider": "ResortCleaning",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/resortcleaning-pricing/",
+    "existingOwner": false,
+    "source": "https://www.resortcleaning.com/"
+  },
+  {
+    "provider": "Cleanster",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/cleanster/",
+    "existingOwner": false,
+    "source": "https://cleanster.com/"
+  },
+  {
+    "provider": "Cleanster",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-cleanster/",
+    "existingOwner": false,
+    "source": "https://cleanster.com/"
+  },
+  {
+    "provider": "Cleanster",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/cleanster-pricing/",
+    "existingOwner": false,
+    "source": "https://cleanster.com/"
+  },
+  {
+    "provider": "HostGPO",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/hostgpo/",
+    "existingOwner": false,
+    "source": "https://www.hostgpo.com/"
+  },
+  {
+    "provider": "HostGPO",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-hostgpo/",
+    "existingOwner": false,
+    "source": "https://www.hostgpo.com/"
+  },
+  {
+    "provider": "HostGPO",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/hostgpo-pricing/",
+    "existingOwner": false,
+    "source": "https://www.hostgpo.com/"
+  },
+  {
+    "provider": "Minoan",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/minoan/",
+    "existingOwner": false,
+    "source": "https://minoan.com:443/"
+  },
+  {
+    "provider": "Minoan",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-minoan/",
+    "existingOwner": false,
+    "source": "https://minoan.com:443/"
+  },
+  {
+    "provider": "Minoan",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/minoan-pricing/",
+    "existingOwner": false,
+    "source": "https://minoan.com:443/"
+  },
+  {
+    "provider": "Showplace",
+    "category": "operations",
+    "kind": "comparison",
+    "path": "/compare/showplace/",
+    "existingOwner": false,
+    "source": "https://www.showplacehq.com/"
+  },
+  {
+    "provider": "Showplace",
+    "category": "operations",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-showplace/",
+    "existingOwner": false,
+    "source": "https://www.showplacehq.com/"
+  },
+  {
+    "provider": "Showplace",
+    "category": "operations",
+    "kind": "pricing",
+    "path": "/compare/showplace-pricing/",
+    "existingOwner": false,
+    "source": "https://www.showplacehq.com/"
+  },
+  {
+    "provider": "GuestReady",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/guestready/",
+    "existingOwner": false,
+    "source": "https://www.guestready.com/"
+  },
+  {
+    "provider": "GuestReady",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-guestready/",
+    "existingOwner": false,
+    "source": "https://www.guestready.com/"
+  },
+  {
+    "provider": "GuestReady",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/guestready-pricing/",
+    "existingOwner": false,
+    "source": "https://www.guestready.com/"
+  },
+  {
+    "provider": "Pass the Keys",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/pass-the-keys/",
+    "existingOwner": false,
+    "source": "https://www.passthekeys.com/en/"
+  },
+  {
+    "provider": "Pass the Keys",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-pass-the-keys/",
+    "existingOwner": false,
+    "source": "https://www.passthekeys.com/en/"
+  },
+  {
+    "provider": "Pass the Keys",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/pass-the-keys-pricing/",
+    "existingOwner": false,
+    "source": "https://www.passthekeys.com/en/"
+  },
+  {
+    "provider": "Houst",
+    "category": "management",
+    "kind": "comparison",
+    "path": "/compare/houst/",
+    "existingOwner": false,
+    "source": "https://www.houst.com/"
+  },
+  {
+    "provider": "Houst",
+    "category": "management",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-houst/",
+    "existingOwner": false,
+    "source": "https://www.houst.com/"
+  },
+  {
+    "provider": "Houst",
+    "category": "management",
+    "kind": "pricing",
+    "path": "/compare/houst-pricing/",
+    "existingOwner": false,
+    "source": "https://www.houst.com/"
+  },
+  {
+    "provider": "VacayHome Connect",
+    "category": "marketplace",
+    "kind": "comparison",
+    "path": "/compare/vacayhome-connect/",
+    "existingOwner": false,
+    "source": "https://vacayhomeconnect.com/"
+  },
+  {
+    "provider": "VacayHome Connect",
+    "category": "marketplace",
+    "kind": "alternatives",
+    "path": "/compare/alternatives-to-vacayhome-connect/",
+    "existingOwner": false,
+    "source": "https://vacayhomeconnect.com/"
+  },
+  {
+    "provider": "VacayHome Connect",
+    "category": "marketplace",
+    "kind": "pricing",
+    "path": "/compare/vacayhome-connect-pricing/",
+    "existingOwner": false,
+    "source": "https://vacayhomeconnect.com/"
+  }
+]
