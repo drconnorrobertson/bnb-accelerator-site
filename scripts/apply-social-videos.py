@@ -11,6 +11,10 @@ def apply(target):
    if '<!-- social-video-library:start -->' in oldtext:
     oldpage.write_text(re.sub(r'<!-- social-video-library:start -->.*?<!-- social-video-library:end -->','',oldtext,flags=re.S))
  for route,block in blocks.items():
+  def written_link(match):
+   ident=match[1];article='/learn/youtube/video-'+ident+'/'
+   return match[0]+(' <a href="'+article+'">Read the written post</a>' if (target/article.strip('/')/'index.html').exists() else '')
+  block=re.sub(r'<a href="https://www\.youtube\.com/watch\?v=([A-Za-z0-9_-]{11})"[^>]*>Watch original YouTube video</a>',written_link,block)
   p=target/route.strip('/')/'index.html'
   s=p.read_text();s=re.sub(r'<!-- social-video-library:start -->.*?<!-- social-video-library:end -->','',s,flags=re.S)
   assert '</main>' in s,route
