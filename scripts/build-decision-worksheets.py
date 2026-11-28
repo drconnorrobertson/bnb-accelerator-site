@@ -95,7 +95,7 @@ hospital-market-home|a rental near a hospital|stay-length mix, practical commute
 rail-access-condo|a rental condo near a rail station|guest access by foot, noise conditions and limited parking|actual walking route, in-unit noise observations and guest parking instructions|evening noise affects the usability of the sleeping area nearest the station
 multi-building-compound|a rental property with multiple buildings|unit-level performance, shared operating costs and service capacity|building-level records, site map and shared service contracts|one building cannot launch on time while costs for the entire site begin immediately
 """
-READY_WORKSHEETS = ('acquisition-support-barn-conversion', 'acquisition-support-basement-suite', 'acquisition-support-bungalow', 'acquisition-support-canal-home', 'acquisition-support-carriage-house', 'acquisition-support-courtyard-property', 'acquisition-support-hillside-home', 'acquisition-support-log-home', 'acquisition-support-modular-home', 'acquisition-support-penthouse')
+READY_WORKSHEETS = ('acquisition-support-barn-conversion', 'acquisition-support-basement-suite', 'acquisition-support-bungalow', 'acquisition-support-canal-home', 'acquisition-support-carriage-house', 'acquisition-support-courtyard-property', 'acquisition-support-golf-resort-condo', 'acquisition-support-hillside-home', 'acquisition-support-hospital-market-home', 'acquisition-support-log-home', 'acquisition-support-modular-home', 'acquisition-support-multi-building-compound', 'acquisition-support-penthouse', 'acquisition-support-rail-access-condo', 'acquisition-support-student-market-home')
 
 
 @dataclass(frozen=True)
