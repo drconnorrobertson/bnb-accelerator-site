@@ -74,6 +74,11 @@ reviewed_urls = {SITE + route for route in (
     '/tools/str-revenue-calculator/',
     '/compare/best-str-financing-options/',
     '/financing/dscr-loans/',
+    '/blog/str-due-diligence-checklist/',
+    '/compare/best-str-markets-for-cash-flow/',
+    '/how-it-works/',
+    '/tools/first-str-purchase-budget/',
+    '/blog/short-term-rental-financing/',
     '/blog/airbnb-vs-long-term-rentals/',
 )}
 for file in OUT.glob('sitemap*.xml'):
