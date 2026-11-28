@@ -33,5 +33,41 @@
   "blog/future-reservations-at-closing/index.html": {
     "heading": "Already own the property and changing managers?",
     "body": "<p>Use the <a href=\"/blog/switching-property-managers/\">property-manager transition guide</a> for contract notice, listing control and operating handoff. A manager change and a property purchase have different parties and responsibilities; confirm what happens to existing reservations with the professionals and platform involved.</p>"
+  },
+  "short-term-rental-investment-service/index.html": {
+    "title": "Short-Term Rental Acquisition Service | BNB Accelerator",
+    "description": "Compare short-term rental acquisition support for your first purchase, including property screening, underwriting, diligence and the launch handoff.",
+    "heading": "What to expect from a short-term rental acquisition service",
+    "body": "<p>Ask who screens listings, who checks the income evidence and who coordinates the handoff after closing. Request a sample screening memo, the assumptions behind its downside case and a written list of deliverables. Separately confirm who represents you in the transaction and which licensed professionals will provide financing, insurance and legal advice.</p><p>Review <a href=\"/pricing/\">fees and scope</a>, compare the <a href=\"/airbnb-investment-company/\">types of Airbnb investment companies</a>, or use the <a href=\"/buy-a-short-term-rental/\">buyer roadmap</a> to see what you can handle yourself.</p>"
+  },
+  "airbnb-investment-company/index.html": {
+    "title": "How to Choose an Airbnb Investment Company",
+    "description": "Compare Airbnb investment companies, buyer agents and acquisition consultants by fee structure, representation, diligence and handoff responsibilities.",
+    "heading": "Compare a buyer agent, an investment consultant and a turnkey provider",
+    "body": "<p>Ask each provider for the same four items: a sample property shortlist, a written fee schedule, an example downside analysis and a responsibility chart through launch. Confirm who represents you, who gets paid at closing, and which work is referred to a third party. If you are comparing a turnkey Airbnb investment with buying and furnishing a property yourself, price both routes through the first bookable night, including carrying costs and reserves.</p><p>See <a href=\"/short-term-rental-investment-service/\">BNB Accelerator’s acquisition support</a> and <a href=\"/pricing/\">the written scope and fees</a>.</p>"
+  },
+  "buy-a-short-term-rental/index.html": {
+    "title": "How to Buy a Short-Term Rental | First-Time Buyer Roadmap",
+    "description": "Learn how to buy a short-term rental. Screen the address, verify seller income and permits, compare loans and use the due diligence checklist.",
+    "heading": "A due diligence checklist for buying a short-term rental",
+    "body": "<ol><li><strong>Confirm permission at the address.</strong> Ask the local authority whether the current short-term rental permit transfers, whether a new owner must reapply and whether any cap or waiting list applies. Review the association documents separately.</li><li><strong>Reconcile the seller’s income.</strong> Compare platform payouts, booking calendars, refunds and operating statements over the same dates. Set aside any reservations you cannot confirm will transfer.</li><li><strong>Price the risks before contingency deadlines.</strong> Get an insurance quote for the intended use, written financing terms and repair estimates. Update the downside case and record what would cause you to reprice or walk away.</li></ol><p>Track evidence and deadlines in the <a href=\"/buy-a-short-term-rental/due-diligence-document-tracker/\">due diligence document tracker</a>. For help finding and evaluating properties, review the <a href=\"/short-term-rental-investment-service/\">acquisition service</a>.</p>"
+  },
+  "financing/index.html": {
+    "title": "Short-Term Rental Financing: DSCR vs. Conventional Loans",
+    "description": "Compare vacation rental financing, DSCR and conventional loans. Check eligible income, reserves, lender restrictions and closing costs before making an offer.",
+    "heading": "Compare vacation rental financing on the same purchase",
+    "body": "<p>Ask each lender for a written scenario using the same address, purchase price and down payment. Compare the lender’s qualifying income method, payment, points, prepayment terms, reserves and cash due at closing. Ask a DSCR lender whether it accepts projected short-term rental income and how it treats a property with limited operating history.</p><p>Read the <a href=\"/financing/dscr-loans/\">short-term rental DSCR loan guide</a> and the <a href=\"/financing/conventional-vs-dscr/\">DSCR versus conventional comparison</a>. Update your <a href=\"/buy-a-short-term-rental/acquisition-budget-worksheet/\">acquisition budget</a> when you receive actual terms.</p>"
+  },
+  "tools/index.html": {
+    "title": "Airbnb Investment Calculators & Short-Term Rental Tools",
+    "description": "Use Airbnb revenue and short-term rental cash flow tools, a purchase budget worksheet and a downside calculator to check an investment before making an offer.",
+    "heading": "Build an Airbnb investment pro forma from evidence you can check",
+    "body": "<ol><li>Estimate monthly room revenue with the <a href=\"/tools/str-revenue-calculator/\">short-term rental revenue calculator</a> using rates and bookable nights for each season.</li><li>Use the <a href=\"/tools/first-str-purchase-budget/\">purchase budget calculator</a> for cash at closing, furnishing and initial reserves. Track listing details, assumptions and open questions in the <a href=\"/buy-a-short-term-rental/investment-memo-template/\">investment memo template</a>.</li><li>Run the <a href=\"/tools/str-downside-calculator/\">downside calculator</a> to see how weaker bookings or higher expenses affect cash flow. Keep operating profit, debt payments and replacement reserves visible as separate lines.</li></ol>"
+  },
+  "best-cities-airbnb-investment-2026/index.html": {
+    "title": "Best Cities for Airbnb Investment: How to Compare Markets",
+    "description": "Compare cities for Airbnb and short-term rental investment using address-level rental rules, comparable listings, seasonal revenue, expenses and financing.",
+    "heading": "Screen markets before you compare properties",
+    "body": "<p>Start with three markets where you can confirm permission for your intended rental use. In each one, compare properties with similar bedroom count, amenities and access to demand drivers. Use monthly revenue assumptions and local quotes for insurance, cleaning and maintenance. A city can look attractive on gross revenue and still miss your cash-flow target after debt service and reserves.</p><p>Compare the <a href=\"/markets/\">market profiles</a>, then run each candidate through the <a href=\"/buy-a-short-term-rental/listing-screening-scorecard/\">listing screening scorecard</a> before commissioning deeper diligence.</p>"
   }
 }
