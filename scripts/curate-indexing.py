@@ -68,6 +68,14 @@ file.write_text(text)
 # Remove utility-only URLs from every submitted sitemap, not just the child map.
 NS = 'http://www.sitemaps.org/schemas/sitemap/0.9'
 ET.register_namespace('', NS)
+reviewed_urls = {SITE + route for route in (
+    '/compare/alternatives-to-the-short-term-shop/',
+    '/blog/airbnb-dynamic-pricing-tools/',
+    '/tools/str-revenue-calculator/',
+    '/compare/best-str-financing-options/',
+    '/financing/dscr-loans/',
+    '/blog/airbnb-vs-long-term-rentals/',
+)}
 for file in OUT.glob('sitemap*.xml'):
     tree = ET.parse(file)
     if not tree.getroot().tag.endswith('urlset'):
@@ -75,6 +83,13 @@ for file in OUT.glob('sitemap*.xml'):
     changed = False
     for row in list(tree.getroot()):
         loc = row.find('{*}loc')
+        if loc is not None and loc.text in reviewed_urls:
+            lastmod = row.find('{*}lastmod')
+            if lastmod is None:
+                lastmod = ET.SubElement(row, '{'+NS+'}lastmod')
+            if (lastmod.text or '') < '2026-11-28':
+                lastmod.text = '2026-11-28'
+                changed = True
         if loc is not None and loc.text.startswith(SITE + '/proformas/'):
             if loc.text == SITE + '/proformas/':
                 lastmod = row.find('{*}lastmod')
