@@ -78,6 +78,26 @@ DECISION_NOTES = (
     ('Put the issue on the closing-to-launch schedule. Identify the affected task, the backup route if it slips and who decides whether to keep the first bookable date.', 'The launch owner can verify the dependency and knows which other tasks or reservations need to change if it slips.'),
 )
 
+ADDITIONAL_SCENARIOS = """
+carriage-house|a carriage-house rental|shared driveway access, detached utilities and privacy|parcel diagram, utility routing and driveway agreement|guest arrivals cross a shared driveway used by the main residence
+basement-suite|a basement-suite rental|dedicated entrances, moisture history and shared utilities|entry photos, moisture inspection and utility allocation|the supplement to the utility bill shows a recurring cost the seller did not allocate
+penthouse|a penthouse rental|freight access, association approvals and specialist servicing|elevator booking rules, association documents and recent service invoices|shared elevator reservations compress a planned furnishing window
+bungalow|a bungalow rental|limited storage, porch condition and parking layout|floor plan, porch inspection and off-street parking photos|owner storage displaces supplies the turnover team needs to keep onsite
+courtyard-property|a courtyard rental|shared-access routes, outdoor hours and separate entrances|site plan, recorded access terms and current house rules|the shared courtyard is unavailable for gatherings during the projected booking season
+barn-conversion|a converted barn rental|conversion records, heating costs and service access|completion records, winter fuel bills and contractor service map|the heating system needs more frequent service than the operating budget assumed
+log-home|a log home rental|exterior upkeep, weather exposure and specialist maintenance|envelope inspection, stain history and specialist maintenance quotes|exterior maintenance must be scheduled during a normally bookable week
+modular-home|a modular home rental|installation records, site-built additions and financing documentation|manufacturer records, installer documents and site improvement invoices|the lender needs records for an addition that the seller cannot immediately supply
+canal-home|a canal-front rental|access rights, seawall condition and waterfront upkeep|seawall inspection, waterfront access records and service bids|waterfront repairs restrict use of a key amenity during launch
+hillside-home|a hillside rental|driveway grade, drainage and retaining structures|site survey, drainage notes and a retaining-wall inspection|delivery crews require smaller vehicles and additional trips to reach the property
+golf-resort-condo|a golf-resort condo rental|resort access, amenity eligibility and seasonal fees|club access terms, fee notices and seller revenue by month|new guests lose access to an amenity assumed in the projected nightly rate
+student-market-home|a rental near a university|event-driven demand, ordinary-week bookings and parking|event calendar, ordinary-week statements and parking rules|event weekends book strongly but weekday demand falls short of the annual model
+hospital-market-home|a rental near a hospital|stay-length mix, practical commute and opportunity cost of blocked dates|booking lengths, arrival records and local comparable listings|longer stays reduce turnover work but displace several peak-date bookings
+rail-access-condo|a rental condo near a rail station|guest access by foot, noise conditions and limited parking|actual walking route, in-unit noise observations and guest parking instructions|evening noise affects the usability of the sleeping area nearest the station
+multi-building-compound|a rental property with multiple buildings|unit-level performance, shared operating costs and service capacity|building-level records, site map and shared service contracts|one building cannot launch on time while costs for the entire site begin immediately
+"""
+READY_WORKSHEETS = ('acquisition-support-carriage-house',)
+
+
 @dataclass(frozen=True)
 class Scenario:
     slug: str
@@ -112,6 +132,8 @@ def link(url, label):
     return f'<a href="{html.escape(url, quote=True)}">{html.escape(label)}</a>'
 
 
+ORIGINAL_SCENARIO_SLUGS = {item.slug for item in records(SCENARIOS, Scenario)}
+
 def worksheet_download(decision, scenario, priorities):
     output = StringIO(newline="")
     writer = csv.writer(output)
@@ -131,7 +153,7 @@ def article(decision, scenario, next_decision, next_scenario, reference, notes):
     heading = title(decision, scenario)
     meta = f"Use this worksheet to compare {decision.title.lower()} for {scenario.description}. Review {scenario.priorities} and record what changes your decision."
     other = [
-        link(route(next_decision, scenario), title(next_decision, scenario)),
+        link(route(next_decision, scenario), title(next_decision, scenario)) if scenario.slug in ORIGINAL_SCENARIO_SLUGS else link(HUB + '#decision-worksheets', HUB_LABEL),
         link(route(decision, next_scenario), title(decision, next_scenario)),
         link(reference, decision.title + " guide"),
     ]
@@ -198,6 +220,7 @@ def add_hub(output, decisions, scenarios):
         links = "".join(
             f"<li>{link(route(decision, scenario), title(decision, scenario))}</li>"
             for scenario in scenarios
+            if scenario.slug in ORIGINAL_SCENARIO_SLUGS or route(decision, scenario).split('/')[-2] in READY_WORKSHEETS
         )
         groups.append(f"<details><summary>{html.escape(decision.title)}</summary><ul>{links}</ul></details>")
     block = (
@@ -277,25 +300,30 @@ def add_sitemap(output, urls):
 def main(output):
     scenarios = records(SCENARIOS, Scenario)
     decisions = records(DECISIONS, Decision)
+    additional = records(ADDITIONAL_SCENARIOS, Scenario)
+    all_scenarios = scenarios + additional
     urls = []
     for index, decision in enumerate(decisions):
-        for position, scenario in enumerate(scenarios):
+        for position, scenario in enumerate(all_scenarios):
             path = route(decision, scenario)
+            if position >= len(scenarios) and path.split('/')[-2] not in READY_WORKSHEETS:
+                continue
             target = output / path.lstrip("/") / "index.html"
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(article(
                 decision, scenario,
-                decisions[(index + 1) % len(decisions)],
+                decisions[(index + 1) % len(decisions)] if position < len(scenarios) else decision,
                 scenarios[(position + 1) % len(scenarios)],
                 REFERENCES[index],
                 DECISION_NOTES[index],
             ))
             urls.append(ORIGIN + path)
-    if len(urls) != 250 or len(set(urls)) != 250:
-        raise ValueError("Expected 250 distinct worksheet routes")
+    if len(urls) != 250 + len(READY_WORKSHEETS) or len(set(urls)) != len(urls):
+        raise ValueError("Unexpected worksheet count or duplicate route")
     for decision, reference in zip(decisions, REFERENCES):
-        add_reference_links(output, decision, scenarios, reference)
-    add_hub(output, decisions, scenarios)
+        related = scenarios + [item for item in additional if route(decision, item).split('/')[-2] in READY_WORKSHEETS]
+        add_reference_links(output, decision, related, reference)
+    add_hub(output, decisions, all_scenarios)
     add_sitemap(output, urls)
     print(f"Published {len(urls)} {BRAND} decision worksheets")
 
