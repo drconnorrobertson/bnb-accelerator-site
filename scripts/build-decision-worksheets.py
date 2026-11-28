@@ -65,6 +65,19 @@ closing-handoff|Closing and launch handoff|a responsibility chart and first-book
 """
 
 
+DECISION_NOTES = (
+    ('Ask the team to walk through the issue on a sample deal. In the scope, assign one person to verify it and another to review the finding before the buyer spends money on the next diligence step.', 'A sample memo identifies the records actually checked and shows how the team would communicate a change in the purchase recommendation.'),
+    ('Ask each agent which offer term, deadline or document request would protect your ability to investigate this issue. Compare how quickly each agent could get an answer and what it would cost to retain them.', 'The representation agreement explains compensation and the agent can name the evidence that will inform the offer.'),
+    ('Create one line in the diligence register for this issue. Add the source needed, how you will verify it independently, the relevant deadline and the person who can act if the answer arrives late.', 'Each material issue has a dated record and a buyer decision that can be made before the applicable deadline.'),
+    ('Give both brokers the same written description of this issue and ask which policy term, exclusion or inspection condition applies. Compare their written responses alongside the premium.', 'The broker identifies any open conditions and can explain the path from written indication to documented coverage.'),
+    ('Ask whether this issue changes the proposed use or the practical ability to open. Record which answer requires written confirmation from the local office, association or another applicable party.', 'The record identifies applicable approvals for the exact address and which prerequisites must be satisfied before the proposed operation begins.'),
+    ('Ask both lenders to quote the same revised assumption for this issue. Record changes to total cash due, reserve requirements and recurring payment in separate columns.', 'Both proposals use the same inputs, and you can identify what triggers a change in loan terms or timing.'),
+    ('Enter the month this issue affects and identify which input changes first: available nights, booked nights, rate or an adjustment. Reconcile the revised total back to the original model.', 'Another reader can trace the change to a month and assumption, and distinguish gross room revenue from net payout.'),
+    ('Put the first cost in the month you would pay it and carry any later effect through the model. Compare the lowest cash balance with your available reserves and note which obligation stays fixed.', 'The cash schedule shows when a shortfall occurs, how large it gets and which remaining obligations are time-sensitive.'),
+    ('Write two offer cases: one with the original assumption and one with a verified change. Record the terms you would revisit and the supporting evidence you would need to do so.', 'The memo makes the price or terms conditional on specific evidence and shows who must confirm it.'),
+    ('Put the issue on the closing-to-launch schedule. Identify the affected task, the backup route if it slips and who decides whether to keep the first bookable date.', 'The launch owner can verify the dependency and knows which other tasks or reservations need to change if it slips.'),
+)
+
 @dataclass(frozen=True)
 class Scenario:
     slug: str
@@ -114,7 +127,7 @@ def worksheet_download(decision, scenario, priorities):
     return f'<a class="action" href="{data_url}" download="{filename}">Download this worksheet (CSV)</a>'
 
 
-def article(decision, scenario, next_decision, next_scenario, reference):
+def article(decision, scenario, next_decision, next_scenario, reference, notes):
     heading = title(decision, scenario)
     meta = f"Use this worksheet to compare {decision.title.lower()} for {scenario.description}. Review {scenario.priorities} and record what changes your decision."
     other = [
@@ -124,6 +137,7 @@ def article(decision, scenario, next_decision, next_scenario, reference):
     ]
     priorities = scenario.priorities.rsplit(" and ", 1)[0].split(", ", 1) + [scenario.priorities.rsplit(" and ", 1)[-1]]
     checks = "".join(f"<li>{html.escape(item.capitalize())}</li>" for item in priorities)
+    response, review = notes
     e = html.escape
     return f"""<!doctype html>
 <html lang="en">
@@ -156,7 +170,8 @@ def article(decision, scenario, next_decision, next_scenario, reference):
     <p>{e(decision.method)}</p>
     <h2>Work through this example before committing</h2>
     <p>Suppose {e(scenario.complication)}. Identify which part of {e(decision.title.lower())} changes first, who can verify the impact and when you need their answer. Compare three responses: proceed with documented conditions, revise the scope or schedule, or pause until you have the missing evidence.</p>
-    <p>Record the extra cost and time separately. If the issue depends on a third party, ask what they can confirm now and what must wait for an inspection, written approval or site visit. Preserve the original assumption alongside the revised one so another person can review your reasoning.</p>
+    <p>{e(response)}</p>
+    <p><strong>Before you proceed:</strong> {e(review)}</p>
     <h2>Record your decision</h2>
     <table>
       <thead><tr><th scope="col">Record</th><th scope="col">What to capture</th></tr></thead>
@@ -205,6 +220,32 @@ def add_hub(output, decisions, scenarios):
     target.write_text(updated)
 
 
+def add_reference_links(output, decision, scenarios, reference):
+    if reference == HUB:
+        return
+    target = output / reference.lstrip("/")
+    if target.is_dir():
+        target /= "index.html"
+    existing = target.read_text()
+    start = f"<!-- worksheet-links:{decision.slug}:start -->"
+    end = f"<!-- worksheet-links:{decision.slug}:end -->"
+    items = "".join(f"<li>{link(route(decision, scenario), title(decision, scenario))}</li>" for scenario in scenarios)
+    block = (
+        start + '<section class="section" style="max-width:52rem;margin:auto;padding:1.5rem">'
+        f"<h2>{html.escape(decision.title)} worksheets by property type</h2>"
+        f"<details><summary>Browse property-specific worksheets</summary><ul>{items}</ul></details></section>" + end
+    )
+    if start in existing:
+        before, rest = existing.split(start, 1)
+        _, after = rest.split(end, 1)
+        updated = before + block + after
+    else:
+        marker = "</main>" if "</main>" in existing else "</body>"
+        index = existing.rindex(marker)
+        updated = existing[:index] + block + existing[index:]
+    target.write_text(updated)
+
+
 def tag(name):
     return f"{{{NS}}}{name}"
 
@@ -247,10 +288,13 @@ def main(output):
                 decisions[(index + 1) % len(decisions)],
                 scenarios[(position + 1) % len(scenarios)],
                 REFERENCES[index],
+                DECISION_NOTES[index],
             ))
             urls.append(ORIGIN + path)
     if len(urls) != 250 or len(set(urls)) != 250:
         raise ValueError("Expected 250 distinct worksheet routes")
+    for decision, reference in zip(decisions, REFERENCES):
+        add_reference_links(output, decision, scenarios, reference)
     add_hub(output, decisions, scenarios)
     add_sitemap(output, urls)
     print(f"Published {len(urls)} {BRAND} decision worksheets")
