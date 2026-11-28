@@ -71,6 +71,7 @@ ET.register_namespace('', NS)
 reviewed_urls = {SITE + route for route in (
     '/compare/alternatives-to-the-short-term-shop/',
     '/blog/airbnb-dynamic-pricing-tools/',
+    '/blog/rate-buydown-str-investment/',
     '/tools/str-revenue-calculator/',
     '/compare/best-str-financing-options/',
     '/financing/dscr-loans/',
