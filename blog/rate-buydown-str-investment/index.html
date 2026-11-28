@@ -238,6 +238,17 @@
 <tr><td>Launch liquidity</td><td>Cash to close, setup invoices and retained reserve</td><td>Monthly savings cannot pay today's invoice</td></tr>
 </tbody></table></div>
 <p>Reconcile approved concessions and property-value changes before deciding. The <a href="/blog/appraisal-gap-furnished-str/">appraisal-gap worksheet</a> covers revised loan proceeds. Ask for updated complete terms if the lender changes loan size, fees or lock cost. A rate comparison made on a different amount is not a clean points decision.</p>
+<h2 id="buydown-spreadsheet">Interest rate buydown spreadsheet formulas</h2>
+<p>Paste this table into cell A1 of a blank spreadsheet. Enter both quotes for the same loan amount and term. Include only costs that differ between the quotes in the upfront cost row.</p>
+<pre>Input	No points	With points
+Loan amount	400000	400000
+Annual interest rate	7.00%	6.50%
+Term in months	360	360
+Upfront cost	0	8000
+Monthly principal and interest	=-PMT(B3/12,B4,B2)	=-PMT(C3/12,C4,C2)
+Payment savings per month		=B6-C6
+Simple break-even in months		=IF(C7&gt;0,(C5-B5)/C7,"No monthly savings")</pre>
+<p>The simple break-even line screens the payment savings. If you expect to sell or refinance early, also compare the remaining balance at payoff and the cash you need at closing. The example below shows how payoff changes the comparison.</p>
 <h2>Worked permanent-points screen and early-payoff case</h2>
 <p>Original hypothetical arithmetic, not lender pricing or a client result. Assume two otherwise matched approved fixed-payment quotes differ by $12,000 of buyer-paid upfront points and $250 of monthly principal-and-interest payment. Assume no additional fee or credit difference in this simplified screen. The lower-payment option requires the entire extra $12,000 at closing. It is not a retained reserve or a monthly expense charged again.</p>
 <div class="table-wrap"><table><thead><tr><th>Illustrative loan duration</th><th>Cumulative payment reduction</th><th>Reduction minus upfront points</th></tr></thead><tbody>
