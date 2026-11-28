@@ -44,7 +44,7 @@ async function walk(directory) {
   if (entry.isDirectory()) { await walk(source); continue; }
   if (!entry.isFile()) continue;
   const path = relative(root, source);
-  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/operating-calculators.mjs' && path !== 'assets/review-evidence/deal-entry-fields.csv' && path !== 'assets/longform-batch06/connectivity.csv' && path !== 'assets/longform-batch13/feedback.csv' && path !== 'assets/longform-batch22/listing.csv' && path !== 'assets/longform-batch44/fictional-rating-counts.csv') continue;
+  if (!publicExtensions.has(extname(source)) && !publicRootFiles.has(path) && path !== 'assets/operating-calculators.mjs' && path !== 'assets/review-evidence/deal-entry-fields.csv' && path !== 'assets/longform-batch06/connectivity.csv' && path !== 'assets/longform-batch13/feedback.csv' && path !== 'assets/longform-batch22/listing.csv' && path !== 'assets/airbnb-pricing-tool-test.csv' && path !== 'assets/longform-batch44/fictional-rating-counts.csv') continue;
   const target = join(out, path);
   await mkdir(dirname(target), { recursive: true });
   if (extname(source) === '.html') {
@@ -66,7 +66,7 @@ assert.equal([...homeHtml.matchAll(shortcutLink)].length, 1, 'Homepage needs one
 assert.ok(!/<\/style/i.test(shortcutCss), 'Shortcut CSS must not close its style element');
 await writeFile(homePath, homeHtml.replace(shortcutLink, () => '<style id="buyer-discovery-critical">' + shortcutCss + '</style>'));
 
-for (const required of ['index.html', '404.html', 'apply/index.html', 'assets/main.js', 'assets/operating-calculators.mjs', 'assets/style.min.css', 'assets/longform-batch06/connectivity.csv', 'assets/longform-batch22/listing.csv', 'assets/longform-batch44/fictional-rating-counts.csv', ...publicRootFiles]) await access(join(out, required));
+for (const required of ['index.html', '404.html', 'apply/index.html', 'assets/main.js', 'assets/operating-calculators.mjs', 'assets/style.min.css', 'assets/longform-batch06/connectivity.csv', 'assets/longform-batch22/listing.csv', 'assets/longform-batch44/fictional-rating-counts.csv', 'assets/airbnb-pricing-tool-test.csv', ...publicRootFiles]) await access(join(out, required));
 for (const forbidden of ['_gen/client_faq_source.json', '_gen/deals.json', 'README.md', 'build_public.mjs', 'vercel.json']) {
  let exists = true;
  try { await access(join(out, forbidden)); } catch { exists = false; }
