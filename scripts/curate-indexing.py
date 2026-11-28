@@ -72,6 +72,7 @@ reviewed_urls = {SITE + route for route in (
     '/compare/alternatives-to-the-short-term-shop/',
     '/compare/kleer-circle-vs-str-insights/',
     '/blog/airbnb-dynamic-pricing-tools/',
+    '/blog/airbnb-pricing-tool-test/',
     '/blog/rate-buydown-str-investment/',
     '/tools/str-revenue-calculator/',
     '/compare/best-str-financing-options/',
