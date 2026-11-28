@@ -70,6 +70,7 @@ NS = 'http://www.sitemaps.org/schemas/sitemap/0.9'
 ET.register_namespace('', NS)
 reviewed_urls = {SITE + route for route in (
     '/compare/alternatives-to-the-short-term-shop/',
+    '/compare/kleer-circle-vs-str-insights/',
     '/blog/airbnb-dynamic-pricing-tools/',
     '/blog/rate-buydown-str-investment/',
     '/tools/str-revenue-calculator/',
